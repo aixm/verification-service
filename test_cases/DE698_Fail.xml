@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file includes contributions from Solitec Software Solutions, Luciad, EUROCONTROL, Comsoft -->
+<!-- Copyright (c) 2019, EUROCONTROL
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+    Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+    Neither the names of EUROCONTROL or FAA nor the names of their contributors may be used to endorse or promote products derived from this specification without specific prior written permission.
+
+THIS FICTITIOUS DATA SET IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; 
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR 
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Editorial note: this license is an instance of the BSD license template as provided by the Open Source Initiative: http://www.opensource.org/licenses/bsd-license.php-->
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<gml:boundedBy>
+		<gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+			<gml:lowerCorner>-32.0886111111111 -47.8880</gml:lowerCorner>
+			<gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+		</gml:Envelope>
+	</gml:boundedBy>
+<message:hasMember>
+		<aixm:RunwayCentrelinePoint gml:id="uuid.d4713d5d-860a-46cd-880b-30f13e291c5b">
+			<gml:identifier codeSpace="urn:uuid:"
+				>d4713d5d-860a-46cd-880b-30f13e291c5b</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADH_FATO_21">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vtfatopa77144">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ltfatopa77144">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:location>
+						<!-- This is actually the TLOF centre point. In the ICAO  AIP specimen the FATO THR are not published, but the declared distances are-->
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="desptn60">
+							<gml:pos>52.288936111111106 -32.035086111111106</gml:pos>
+							<aixm:horizontalAccuracy uom="M">3.0</aixm:horizontalAccuracy>
+							<aixm:elevation uom="M">18.0</aixm:elevation>
+							<aixm:geoidUndulation uom="M">9.0</aixm:geoidUndulation>
+							<aixm:verticalAccuracy xsi:nil="true" nilReason="unknown"/>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b9fad726-bed6-4b3b-a92f-64706eaa9ed5"
+						xlink:title="RDN_EADH_FATO_21"/>
+					<aixm:associatedDeclaredDistance>
+						<aixm:RunwayDeclaredDistance gml:id="rdd045">
+							<aixm:type>TODAH</aixm:type>
+							<aixm:declaredValue>
+								<aixm:RunwayDeclaredDistanceValue gml:id="rddv051">
+									<aixm:distance uom="M">70</aixm:distance>
+									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"></aixm:distanceAccuracy>
+								</aixm:RunwayDeclaredDistanceValue>
+							</aixm:declaredValue>
+						</aixm:RunwayDeclaredDistance>
+					</aixm:associatedDeclaredDistance>
+					<aixm:associatedDeclaredDistance>
+						<aixm:RunwayDeclaredDistance gml:id="rdd052">
+							<aixm:type>RTODAH</aixm:type>
+							<aixm:declaredValue>
+								<aixm:RunwayDeclaredDistanceValue gml:id="rddv052">
+									<aixm:distance uom="M">50</aixm:distance>
+									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"></aixm:distanceAccuracy>
+								</aixm:RunwayDeclaredDistanceValue>
+							</aixm:declaredValue>
+						</aixm:RunwayDeclaredDistance>
+					</aixm:associatedDeclaredDistance>
+					<aixm:associatedDeclaredDistance>
+						<aixm:RunwayDeclaredDistance gml:id="rdd053">
+							<aixm:type>LDAH</aixm:type>
+							<aixm:declaredValue>
+								<aixm:RunwayDeclaredDistanceValue gml:id="rddv053">
+									<aixm:distance uom="M">50</aixm:distance>
+									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"></aixm:distanceAccuracy>
+								</aixm:RunwayDeclaredDistanceValue>
+							</aixm:declaredValue>
+						</aixm:RunwayDeclaredDistance>
+					</aixm:associatedDeclaredDistance>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+</message:AIXMBasicMessage>
