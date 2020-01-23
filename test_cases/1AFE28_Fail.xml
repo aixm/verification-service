@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This file includes contributions from Solitec Software Solutions, Luciad, EUROCONTROL, Comsoft -->
-<!-- Copyright (c) 2019, EUROCONTROL
+<!-- Copyright (c) 2020, EUROCONTROL
 
 All rights reserved.
 
@@ -10,11 +10,11 @@ Redistribution and use in source and binary forms, with or without modification,
     Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
     Neither the names of EUROCONTROL or FAA nor the names of their contributors may be used to endorse or promote products derived from this specification without specific prior written permission.
 
-THIS FICTITIOUS DATA SET IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, 
-INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
-IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; 
-OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR 
+THIS FICTITIOUS DATA SET IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
 TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Editorial note: this license is an instance of the BSD license template as provided by the Open Source Initiative: http://www.opensource.org/licenses/bsd-license.php-->
@@ -57,7 +57,10 @@ Editorial note: this license is an instance of the BSD license template as provi
 					<aixm:geometryComponent>
 						<!-- SECTOR DONLON EAST-->
 						<aixm:AirspaceGeometryComponent gml:id="AV001">
-									<aixm:AirspaceVolume gml:id="V001">
+							<aixm:operation>BASE</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="V001">
 									<aixm:upperLimit uom="FL">245</aixm:upperLimit>
 									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
 									<aixm:lowerLimit uom="FL">30</aixm:lowerLimit>
@@ -72,10 +75,10 @@ Editorial note: this license is an instance of the BSD license template as provi
 												<aixm:Curve gml:id="C001">
 												<gml:segments>
 												<gml:GeodesicString>
-												<gml:posList>52.18556 -24.00833 
-															52.90611 -25.2875 
-															52.18917 -25.2875 
-															51.16917 -25.29889 
+												<gml:posList>52.18556 -24.00833
+															52.90611 -25.2875
+															52.18917 -25.2875
+															51.16917 -25.29889
 															52.18556 -24.00833</gml:posList>
 												</gml:GeodesicString>
 												</gml:segments>
@@ -94,6 +97,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 					<aixm:geometryComponent>
 						<!-- SECTOR DONLON EAST -->
 						<aixm:AirspaceGeometryComponent gml:id="AV002">
+							<aixm:operation>SUBTR</aixm:operation>
+							<aixm:operationSequence>2</aixm:operationSequence>
 							<aixm:theAirspaceVolume>
 								<aixm:AirspaceVolume gml:id="V002">
 									<aixm:upperLimit uom="FL">245</aixm:upperLimit>
@@ -110,9 +115,9 @@ Editorial note: this license is an instance of the BSD license template as provi
 												<aixm:Curve gml:id="C002">
 												<gml:segments>
 												<gml:GeodesicString>
-												<gml:posList>52.20611 -25.2875 
-															52.18917 -25.29889 
-														    52.19117 -27.4289 
+												<gml:posList>52.20611 -25.2875
+															52.18917 -25.29889
+														    52.19117 -27.4289
 															52.90611 -25.2875</gml:posList>
 												</gml:GeodesicString>
 												</gml:segments>
