@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Donlon.xsl"?>
+<!-- This file includes contributions from Luciad, EUROCONTROL, Comsoft -->
+<message:AIXMBasicMessage
+        xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+        xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/draft_0.7/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+
+    <message:hasMember>
+        <aixm:Navaid gml:id="uuid.92d527c0-ae96-4695-8d0a-9b43edbc4fe6">
+            <gml:identifier codeSpace="urn:uuid:">92d527c0-ae96-4695-8d0a-9b43edbc4fe6</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="NAVTSNONAME12">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtNONAME1214">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltNONAME1214">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>VOR</aixm:type>
+                    <aixm:designator>CAA</aixm:designator>
+                    <aixm:name>CALGA</aixm:name>
+                    <aixm:navaidEquipment>
+                        <aixm:NavaidComponent gml:id="N-c4939c2c">
+                            <aixm:collocationGroup>1</aixm:collocationGroup>
+                            <aixm:theNavaidEquipment xlink:href="urn:uuid:b5d16d67-8e4f-4ec8-9572-003e3e58424a"/>
+                        </aixm:NavaidComponent>
+                    </aixm:navaidEquipment>
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="navelNONAME12">
+                            <gml:pos>52.38177777 -31.74336111</gml:pos>
+                            <aixm:elevation uom="M">30.0</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:VOR gml:id="uuid.b5d16d67-8e4f-4ec8-9572-003e3e58424a">
+            <gml:identifier codeSpace="urn:uuid:">b5d16d67-8e4f-4ec8-9572-003e3e58424a</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:VORTimeSlice gml:id="NAVTSNONAME12">
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="navelNONAME12">
+                            <gml:pos>52.38177777 -31.74336111</gml:pos>
+                            <aixm:elevation uom="M">30.0</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                </aixm:VORTimeSlice>
+            </aixm:timeSlice>
+        </aixm:VOR>
+    </message:hasMember>
+
+
+    <message:hasMember>
+        <aixm:Navaid gml:id="uuid.92d527c0-ae96-4695-8d0a-9b43edbc4fe7">
+            <gml:identifier codeSpace="urn:uuid:">92d527c0-ae96-4695-8d0a-9b43edbc4fe7</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="NAVTSNONAME12">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtNONAME1214">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltNONAME1214">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>DME</aixm:type>
+                    <aixm:designator>CAA</aixm:designator>
+                    <aixm:name>CALGA</aixm:name>
+                    <aixm:navaidEquipment>
+                        <aixm:NavaidComponent gml:id="N-c4939c2c">
+                            <aixm:collocationGroup>1</aixm:collocationGroup>
+                            <aixm:theNavaidEquipment xlink:href="urn:uuid:b5d16d67-8e4f-4ec8-9572-003e3e58424b"/>
+                        </aixm:NavaidComponent>
+                    </aixm:navaidEquipment>
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="navelNONAME12">
+                            <gml:pos>52.38177777 -31.74336111</gml:pos>
+                            <aixm:elevation uom="M">30.0</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:DME gml:id="uuid.b5d16d67-8e4f-4ec8-9572-003e3e58424b">
+            <gml:identifier codeSpace="urn:uuid:">b5d16d67-8e4f-4ec8-9572-003e3e58424a</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:DMETimeSlice gml:id="NAVTSNONAME12">
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="navelNONAME12">
+                            <gml:pos>52.38177777 -31.74336111</gml:pos>
+                            <aixm:elevation uom="M">30.0</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                </aixm:DMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:DME>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:Navaid gml:id="uuid.92d527c0-ae96-4695-8d0a-9b43edbc4fe7">
+            <gml:identifier codeSpace="urn:uuid:">92d527c0-ae96-4695-8d0a-9b43edbc4fe7</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="NAVTSNONAME12">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtNONAME1214">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltNONAME1214">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>DME</aixm:type>
+                    <aixm:designator>CAA</aixm:designator>
+                    <aixm:name>CALGA</aixm:name>
+                    <aixm:navaidEquipment>
+                        <aixm:NavaidComponent gml:id="N-c4939c2c">
+                            <aixm:collocationGroup>1</aixm:collocationGroup>
+                            <aixm:theNavaidEquipment xlink:href="urn:uuid:b5d16d67-8e4f-4ec8-9572-003e3e58424c"/>
+                        </aixm:NavaidComponent>
+                    </aixm:navaidEquipment>
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="navelNONAME12">
+                            <gml:pos>52.38177777 -31.74336111</gml:pos>
+                            <aixm:elevation uom="M">30.0</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:DME gml:id="uuid.b5d16d67-8e4f-4ec8-9572-003e3e58424c">
+            <gml:identifier codeSpace="urn:uuid:">b5d16d67-8e4f-4ec8-9572-003e3e58424c</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:DMETimeSlice gml:id="NAVTSNONAME12">
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="navelNONAME12">
+                            <gml:pos>52.38177777 -31.74336111</gml:pos>
+                            <aixm:elevation uom="M">30.0</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                </aixm:DMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:DME>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>

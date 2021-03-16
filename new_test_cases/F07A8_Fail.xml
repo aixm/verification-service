@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+
+    <message:hasMember>
+        <aixm:Airspace gml:id="uuid.f4d5e4d4-d84a-481f-b9e3-b359e42c0dff">
+            <gml:identifier codeSpace="urn:uuid:">f4d5e4d4-d84a-481f-b9e3-b359e42c0dff</gml:identifier>
+
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="asptsFIRAMSWELL">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtFIRAMSWELL30">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="A-cd43e44a">
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="A-c3969fee">
+                                    <aixm:upperLimit uom="FT">FLOOR</aixm:upperLimit>
+                                    <aixm:lowerLimit uom="FT">FLOOR</aixm:lowerLimit>
+                                </aixm:AirspaceVolume>
+                                <aixm:AirportHeliport gml:id="A-c3969fe8">
+                                    <aixm:fieldElevation uom="FT">GND</aixm:fieldElevation>
+                                </aixm:AirportHeliport>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>

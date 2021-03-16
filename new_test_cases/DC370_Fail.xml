@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+
+    <message:hasMember>
+        <aixm:DME gml:id="uuid.7692166e-60e6-467d-b5f0-c728aeae85d6">
+            <gml:identifier codeSpace="urn:uuid:">7692166e-60e6-467d-b5f0-c728aeae85d6</gml:identifier>
+
+            <!-- DC371 -->
+            <aixm:timeSlice>
+                <aixm:DMETimeSlice gml:id="dmeNONAME1">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtNONAME13">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:type>PRECISION</aixm:type>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltNONAME13">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>BOR</aixm:designator>
+                    <aixm:name>BOORSPIJK</aixm:name>
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326"
+                                            gml:id="uuid.ae5018cb-d81a-4b60-a6a2-f10ac403b051">
+                            <gml:pos>48.686478 9.2040437</gml:pos>
+                            <aixm:horizontalAccuracy uom="M">0.7</aixm:horizontalAccuracy>
+                            <aixm:elevation uom="M">385.684</aixm:elevation>
+                            <aixm:verticalAccuracy uom="M">3.50</aixm:verticalAccuracy>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:authority>
+                        <aixm:AuthorityForNavaidEquipment gml:id="A-e5cfe38d">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:c225ae5c-540f-4a48-8867-809b393b2407"/>
+                        </aixm:AuthorityForNavaidEquipment>
+                    </aixm:authority>
+                    <aixm:channel>102X</aixm:channel>
+                </aixm:DMETimeSlice>
+            </aixm:timeSlice>
+
+            <!-- DC372 -->
+            <aixm:timeSlice>
+                <aixm:DMETimeSlice gml:id="dmeNONAME1">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtNONAME13">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:type>PRECISION</aixm:type>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltNONAME13">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>BOR</aixm:designator>
+                    <aixm:name>BOORSPIJK</aixm:name>
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326"
+                                            gml:id="uuid.ae5018cb-d81a-4b60-a6a2-f10ac403b051">
+                            <gml:pos>48.686478 9.2040437</gml:pos>
+                            <aixm:horizontalAccuracy uom="M">0.7</aixm:horizontalAccuracy>
+                            <aixm:elevation uom="M">385.684</aixm:elevation>
+                            <aixm:verticalAccuracy uom="FT">11</aixm:verticalAccuracy>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:authority>
+                        <aixm:AuthorityForNavaidEquipment gml:id="A-e5cfe38d">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:c225ae5c-540f-4a48-8867-809b393b2407"/>
+                        </aixm:AuthorityForNavaidEquipment>
+                    </aixm:authority>
+                    <aixm:channel>102X</aixm:channel>
+                </aixm:DMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:DME>
+    </message:hasMember>
+
+
+</message:AIXMBasicMessage>

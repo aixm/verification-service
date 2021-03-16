@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file includes contributions from Solitec Software Solutions, Luciad, EUROCONTROL, Comsoft -->
+<!-- Copyright (c) 2019, EUROCONTROL
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+    Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+    Neither the names of EUROCONTROL or FAA nor the names of their contributors may be used to endorse or promote products derived from this specification without specific prior written permission.
+
+THIS FICTITIOUS DATA SET IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; 
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR 
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Editorial note: this license is an instance of the BSD license template as provided by the Open Source Initiative: http://www.opensource.org/licenses/bsd-license.php-->
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<gml:boundedBy>
+		<gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+			<gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+			<gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+		</gml:Envelope>
+	</gml:boundedBy>
+	<message:hasMember>
+		<aixm:Airspace gml:id="uuid.f4d5e4d4-d84a-481f-b9e3-b359e42c0dfg">
+			<!-- Airspace aggregation by copying the geometry-->
+			<gml:identifier codeSpace="urn:uuid:">f4d5e4d4-d84a-481f-b9e3-b359e42c0dfg</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirspaceTimeSlice gml:id="ASE_DONLON_CTA">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vt2222">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt22220">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>CTA</aixm:type>
+					<aixm:designator>EADD</aixm:designator>
+					<aixm:name>DONLON</aixm:name>
+					<aixm:class>
+						<aixm:AirspaceLayerClass gml:id="alc22222">
+							<aixm:classification>C</aixm:classification>
+						</aixm:AirspaceLayerClass>
+					</aixm:class>
+					<aixm:geometryComponent>
+						<!-- SECTOR DONLON EAST-->
+						<aixm:AirspaceGeometryComponent gml:id="AV001">
+							<aixm:operation>BASE</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="V001">
+									<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="M">3</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:horizontalProjection>
+										<aixm:Surface gml:id="S001">
+											<gml:patches>
+												<gml:PolygonPatch>
+													<gml:exterior>
+														<gml:Ring>
+															<gml:curveMember>
+																<aixm:Curve gml:id="C001">
+																	<gml:segments>
+																		<gml:GeodesicString>
+																			<gml:posList>52.18556 -24.00833 
+															52.90611 -25.2875 
+															52.18917 -25.2875 
+															51.16917 -25.29889 
+															52.18556 -24.00833</gml:posList>
+																		</gml:GeodesicString>
+																	</gml:segments>
+																</aixm:Curve>
+															</gml:curveMember>
+														</gml:Ring>
+													</gml:exterior>
+												</gml:PolygonPatch>
+											</gml:patches>
+										</aixm:Surface>
+									</aixm:horizontalProjection>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<!-- SECTOR DONLON EAST -->
+						<aixm:AirspaceGeometryComponent gml:id="AV002">
+							<aixm:operation>UNION</aixm:operation>
+							<aixm:operationSequence>2</aixm:operationSequence>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="V002">
+									<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FT">3</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:horizontalProjection>
+										<aixm:Surface gml:id="S002">
+											<gml:patches>
+												<gml:PolygonPatch>
+													<gml:exterior>
+														<gml:Ring>
+															<gml:curveMember>
+																<aixm:Curve gml:id="C002">
+																	<gml:segments>
+																		<gml:GeodesicString>
+																			<gml:posList>52.20611 -25.2875 
+															52.18917 -25.29889 
+														    52.19117 -27.4289 
+															52.90611 -25.2875</gml:posList>
+																		</gml:GeodesicString>
+																	</gml:segments>
+																</aixm:Curve>
+															</gml:curveMember>
+														</gml:Ring>
+													</gml:exterior>
+												</gml:PolygonPatch>
+											</gml:patches>
+										</aixm:Surface>
+									</aixm:horizontalProjection>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:annotation>
+						<aixm:Note gml:id="n12121">
+							<aixm:propertyName>lowerLimit</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln12121">
+									<aixm:note lang="eng">Accuracy unknown</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:AirspaceTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Airspace>
+	</message:hasMember>
+</message:AIXMBasicMessage>

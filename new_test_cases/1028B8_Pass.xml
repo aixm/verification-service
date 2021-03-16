@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Donlon.xsl"?>
+<!-- This file includes contributions from Luciad, EUROCONTROL, Comsoft -->
+<message:AIXMBasicMessage
+        xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+        xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+
+
+    <!-- RULE 1028BA -->
+    <message:hasMember>
+        <aixm:AirTrafficControlService>
+            <aixm:serviceProvider xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:serviceProvider>
+        </aixm:AirTrafficControlService>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:Unit gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"></aixm:Unit>
+    </message:hasMember>
+
+
+    <!-- RULE 1028BB -->
+    <message:hasMember>
+        <aixm:GroundTrafficControlService>
+            <aixm:serviceProvider xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:serviceProvider>
+        </aixm:GroundTrafficControlService>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:Unit gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"></aixm:Unit>
+    </message:hasMember>
+
+    <!-- RULE 1028BC -->
+    <message:hasMember>
+        <aixm:PassengerService>
+            <aixm:serviceProvider xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:serviceProvider>
+        </aixm:PassengerService>
+    </message:hasMember>
+
+    <!-- RULE 1028BD -->
+    <message:hasMember>
+        <aixm:AircraftGroundService>
+            <aixm:serviceProvider xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:serviceProvider>
+        </aixm:AircraftGroundService>
+    </message:hasMember>
+
+    <!-- RULE 1028BE -->
+    <message:hasMember>
+        <aixm:FireFightingService>
+            <aixm:serviceProvider xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:serviceProvider>
+        </aixm:FireFightingService>
+    </message:hasMember>
+
+    <!-- RULE 1028BF -->
+    <message:hasMember>
+        <aixm:AirportSuppliesService>
+            <aixm:serviceProvider xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:serviceProvider>
+        </aixm:AirportSuppliesService>
+    </message:hasMember>
+
+    <!-- RULE 1028C0 -->
+    <message:hasMember>
+        <aixm:AirportClearanceService>
+            <aixm:serviceProvider xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:serviceProvider>
+        </aixm:AirportClearanceService>
+    </message:hasMember>
+
+    <!-- RULE 1028C2 -->
+    <message:hasMember>
+        <aixm:GroundTrafficControlService>
+            <aixm:radioCommunication xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:radioCommunication>
+        </aixm:GroundTrafficControlService>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:RadioCommunicationChannel gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+
+    <!-- RULE 1028C3 -->
+    <message:hasMember>
+        <aixm:AirTrafficControlService>
+            <aixm:radioCommunication xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:radioCommunication>
+        </aixm:AirTrafficControlService>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:RadioCommunicationChannel gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028C4 -->
+    <message:hasMember>
+        <aixm:PassengerService>
+            <aixm:radioCommunication xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:radioCommunication>
+        </aixm:PassengerService>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:RadioCommunicationChannel gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028C5 -->
+    <message:hasMember>
+        <aixm:AircraftGroundService>
+            <aixm:radioCommunication xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:radioCommunication>
+        </aixm:AircraftGroundService>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:RadioCommunicationChannel gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028C6 -->
+    <message:hasMember>
+        <aixm:FireFightingService>
+            <aixm:radioCommunication xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:radioCommunication>
+        </aixm:FireFightingService>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:RadioCommunicationChannel gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028C7 -->
+    <message:hasMember>
+        <aixm:AirportSuppliesService>
+            <aixm:radioCommunication xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:radioCommunication>
+        </aixm:AirportSuppliesService>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:RadioCommunicationChannel gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028C8 -->
+    <message:hasMember>
+        <aixm:AirportClearanceService>
+            <aixm:radioCommunication xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:radioCommunication>
+        </aixm:AirportClearanceService>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:RadioCommunicationChannel gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028D7 -->
+    <message:hasMember>
+        <aixm:ArrivalFeederLeg>
+            <aixm:holding>
+                <aixm:holdingUse>
+                    <aixm:theHoldingPattern xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+                    </aixm:theHoldingPattern>
+                </aixm:holdingUse>
+            </aixm:holding>
+        </aixm:ArrivalFeederLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:HoldingPattern gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028D8 -->
+    <message:hasMember>
+        <aixm:InitialLeg>
+            <aixm:holding>
+                <aixm:HoldingUse>
+                    <aixm:theHoldingPattern xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+                    </aixm:theHoldingPattern>
+                </aixm:HoldingUse>
+            </aixm:holding>
+        </aixm:InitialLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:HoldingPattern gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028D9 -->
+    <message:hasMember>
+        <aixm:IntermediateLeg>
+            <aixm:holding>
+                <aixm:HoldingUse>
+                    <aixm:theHoldingPattern xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+                    </aixm:theHoldingPattern>
+                </aixm:HoldingUse>
+            </aixm:holding>
+        </aixm:IntermediateLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:HoldingPattern gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028DA -->
+    <message:hasMember>
+        <aixm:FinalLeg>
+            <aixm:holding>
+                <aixm:HoldingUse>
+                    <aixm:theHoldingPattern xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+                    </aixm:theHoldingPattern>
+                </aixm:HoldingUse>
+            </aixm:holding>
+        </aixm:FinalLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:HoldingPattern gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+
+    <!-- RULE 1028DB -->
+    <message:hasMember>
+        <aixm:MissedApproachLeg>
+            <aixm:holding>
+                <aixm:HoldingUse>
+                    <aixm:theHoldingPattern xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+                    </aixm:theHoldingPattern>
+                </aixm:HoldingUse>
+            </aixm:holding>
+        </aixm:MissedApproachLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:HoldingPattern gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+
+    <!-- RULE 1028DC -->
+    <message:hasMember>
+        <aixm:ArrivalFeederLeg>
+            <aixm:angle xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:angle>
+        </aixm:ArrivalFeederLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:AngleIndication gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028DD -->
+    <message:hasMember>
+        <aixm:InitialLeg>
+            <aixm:angle xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:angle>
+        </aixm:InitialLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:AngleIndication gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028DE -->
+    <message:hasMember>
+        <aixm:IntermediateLeg>
+            <aixm:angle xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:angle>
+        </aixm:IntermediateLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:AngleIndication gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028DF -->
+    <message:hasMember>
+        <aixm:FinalLeg>
+            <aixm:angle xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:angle>
+        </aixm:FinalLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:AngleIndication gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028E0 -->
+    <message:hasMember>
+        <aixm:MissedApproachLeg>
+            <aixm:angle xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:angle>
+        </aixm:MissedApproachLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:AngleIndication gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028E1 -->
+    <message:hasMember>
+        <aixm:ArrivalFeederLeg>
+            <aixm:distance xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:distance>
+        </aixm:ArrivalFeederLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:DistanceIndication gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028E2 -->
+    <message:hasMember>
+        <aixm:InitialLeg>
+            <aixm:distance xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:distance>
+        </aixm:InitialLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:DistanceIndication gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028E3 -->
+    <message:hasMember>
+        <aixm:IntermediateLeg>
+            <aixm:distance xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:distance>
+        </aixm:IntermediateLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:DistanceIndication gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+    <!-- RULE 1028E4 -->
+    <message:hasMember>
+        <aixm:FinalLeg>
+            <aixm:distance xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:distance>
+        </aixm:FinalLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:DistanceIndication gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+
+    <!-- RULE 1028E5 -->
+    <message:hasMember>
+        <aixm:MissedApproachLeg>
+            <aixm:distance xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c69">
+            </aixm:distance>
+        </aixm:MissedApproachLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:DistanceIndication gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c69"/>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>

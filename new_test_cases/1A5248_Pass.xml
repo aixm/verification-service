@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Donlon.xsl"?>
+<!-- This file includes contributions from Luciad, EUROCONTROL, Comsoft -->
+<message:AIXMBasicMessage
+        xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+        xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/draft_0.7/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+
+    <message:hasMember>
+        <aixm:AirTrafficManagementService gml:id="uuid.6c7b0abc-0a29-4a53-a5b9-9f3791119cf5">
+            <gml:identifier codeSpace="urn:uuid:">6c7b0abc-0a29-4a53-a5b9-9f3791119cf5</gml:identifier>
+            <aixm:serviceProvider xlink:href="urn:uuid:8323cd6d-f788-4b78-8f93-2a09a70965fb"/>
+            <aixm:timeSlice>
+                <aixm:AirTrafficManagementServiceTimeSlice gml:id="aTDonlonATMService">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtDonlonATMService">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:flightOperations>ALL</aixm:flightOperations>
+                    <aixm:compliantICAO>YES</aixm:compliantICAO>
+                    <aixm:name>DONLONATMS</aixm:name>
+                    <aixm:type>CLEARANCE</aixm:type>
+                </aixm:AirTrafficManagementServiceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirTrafficManagementService>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:Unit gml:id="uuid.8323cd6d-f788-4b78-8f93-2a09a70965fb">
+            <gml:identifier codeSpace="urn:uuid:">c1bbe653-e5b1-4bfe-b510-3ada3272305a</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:UnitTimeSlice gml:id="uTDonlonRescueCoordinationCentreUnit">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtDonlonRescueCoordinationCentreUnit">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                </aixm:UnitTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Unit>
+    </message:hasMember>
+
+
+    <message:hasMember>
+        <aixm:InformationService gml:id="uuid.6c7b0abc-0a29-4a53-a5b9-9f3791119ca5">
+            <gml:identifier codeSpace="urn:uuid:">6c7b0abc-0a29-4a53-a5b9-9f3791119cf5</gml:identifier>
+            <aixm:navaidBroadcast xlink:href="urn:uuid:8323cd6d-f788-4b78-8f93-2a09a70965fc"/>
+            <aixm:timeSlice>
+                <aixm:InformationServiceTimeSlice gml:id="aTDonlonATMService">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtDonlonATMService1">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:flightOperations>ALL</aixm:flightOperations>
+                    <aixm:compliantICAO>YES</aixm:compliantICAO>
+                    <aixm:name>DONLONATMS</aixm:name>
+                    <aixm:type>CLEARANCE</aixm:type>
+                </aixm:InformationServiceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:InformationService>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:VOR gml:id="uuid.8323cd6d-f788-4b78-8f93-2a09a70965fc">
+            <gml:identifier codeSpace="urn:uuid:">c1bbe653-e5b1-4bfe-b510-3ada3272305xx</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:UnitTimeSlice gml:id="uTDonlonRescueCoordinationCentreUnit">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtDonlonRescueCoordinationCentreUnit1">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                </aixm:UnitTimeSlice>
+            </aixm:timeSlice>
+        </aixm:VOR>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:CheckpointVOR gml:id="uuid.6c7b0abc-0a29-4a53-a5b9-9f3791119cf6">
+            <gml:identifier codeSpace="urn:uuid:">6c7b0abc-0a29-4a53-a5b9-9f3791119cf5</gml:identifier>
+            <aixm:airportHeliport xlink:href="urn:uuid:8323cd6d-f788-4b78-8f93-2a09a70966fc"/>
+            <aixm:timeSlice>
+                <aixm:InformationServiceTimeSlice gml:id="aTDonlonATMService">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtDonlonATMService2">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:flightOperations>ALL</aixm:flightOperations>
+                    <aixm:compliantICAO>YES</aixm:compliantICAO>
+                    <aixm:name>DONLONATMS</aixm:name>
+                    <aixm:type>CLEARANCE</aixm:type>
+                </aixm:InformationServiceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:CheckpointVOR>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:AirportHeliport gml:id="uuid.8323cd6d-f788-4b78-8f93-2a09a70966fc">
+            <gml:identifier codeSpace="urn:uuid:">c1bbe653-e5b1-4bfe-b510-3ada3272305xx</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:UnitTimeSlice gml:id="uTDonlonRescueCoordinationCentreUnit">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtDonlonRescueCoordinationCentreUnit2">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                </aixm:UnitTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirportHeliport>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+
+    <message:hasMember>
+        <aixm:Airspace gml:id="uuid.028e6905-f99a-4ca7-a736-2c0787cdcf57">
+            <gml:identifier codeSpace="urn:uuid:">028e6905-f99a-4ca7-a736-2c0787cdcf57</gml:identifier>
+
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="ID_347">
+
+                    <gml:boundedBy>
+                        <gml:Envelope>
+                            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+                            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+                        </gml:Envelope>
+                    </gml:boundedBy>
+
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_348">
+                            <gml:beginPosition>2012-11-07T08:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2012-11-17T17:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="ID_349">
+                            <aixm:operationSequence>1</aixm:operationSequence>
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="ID_350">
+                                    <aixm:upperLimit uom="FT">60000</aixm:upperLimit>
+                                    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                                    <aixm:lowerLimit uom="FT">GND</aixm:lowerLimit>
+                                    <aixm:horizontalProjection>
+                                        <aixm:Surface  gml:id="ID_11364">
+                                            <gml:patches>
+                                                <gml:PolygonPatch>
+                                                    <gml:exterior>
+                                                        <gml:Ring>
+                                                            <gml:curveMember>
+                                                                <gml:Curve gml:id="C001126">
+                                                                    <gml:segments>
+                                                                        <gml:GeodesicString>
+                                                                            <gml:pointProperty>
+                                                                                <gml:Point>
+                                                                                    <gml:pos>50 10</gml:pos>
+                                                                                </gml:Point>
+                                                                            </gml:pointProperty>
+                                                                        </gml:GeodesicString>
+                                                                    </gml:segments>
+                                                                </gml:Curve>
+                                                            </gml:curveMember>
+                                                        </gml:Ring>
+                                                    </gml:exterior>
+                                                </gml:PolygonPatch>
+                                            </gml:patches>
+                                        </aixm:Surface>
+                                    </aixm:horizontalProjection>
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:Airspace gml:id="uuid.028e6905-f99a-4ca7-a736-2c0787cdcf57">
+            <gml:identifier codeSpace="urn:uuid:">028e6905-f99a-4ca7-a736-2c0787cdcf57</gml:identifier>
+
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="ID_347">
+
+                    <gml:boundedBy>
+                        <gml:Envelope>
+                            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+                            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+                        </gml:Envelope>
+                    </gml:boundedBy>
+
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_348">
+                            <gml:beginPosition>2012-11-07T08:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2012-11-17T17:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="ID_349">
+                            <aixm:operationSequence>1</aixm:operationSequence>
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="ID_350">
+                                    <aixm:upperLimit uom="FT">60000</aixm:upperLimit>
+                                    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                                    <aixm:lowerLimit uom="FT">GND</aixm:lowerLimit>
+                                    <aixm:horizontalProjection>
+                                        <aixm:Surface  gml:id="ID_11364">
+                                            <gml:patches>
+                                                <gml:PolygonPatch>
+                                                    <gml:exterior>
+                                                        <gml:Ring>
+                                                            <gml:curveMember>
+                                                                <gml:Curve gml:id="C001126">
+                                                                    <gml:segments>
+                                                                        <gml:ArcString>
+                                                                            <gml:pointProperty>
+                                                                                <gml:Point>
+                                                                                    <gml:pos>50 10</gml:pos>
+                                                                                </gml:Point>
+                                                                            </gml:pointProperty>
+                                                                        </gml:ArcString>
+                                                                    </gml:segments>
+                                                                </gml:Curve>
+                                                            </gml:curveMember>
+                                                        </gml:Ring>
+                                                    </gml:exterior>
+                                                </gml:PolygonPatch>
+                                            </gml:patches>
+                                        </aixm:Surface>
+                                    </aixm:horizontalProjection>
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:Airspace gml:id="uuid.028e6905-f99a-4ca7-a736-2c0787cdcf59">
+            <gml:identifier codeSpace="urn:uuid:">028e6905-f99a-4ca7-a736-2c0787cdcf59</gml:identifier>
+
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="ID_347">
+
+                    <gml:boundedBy>
+                        <gml:Envelope>
+                            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+                            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+                        </gml:Envelope>
+                    </gml:boundedBy>
+
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_348">
+                            <gml:beginPosition>2012-11-07T08:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2012-11-17T17:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="ID_349">
+                            <aixm:operationSequence>1</aixm:operationSequence>
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="ID_350">
+                                    <aixm:upperLimit uom="FT">60000</aixm:upperLimit>
+                                    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                                    <aixm:lowerLimit uom="FT">GND</aixm:lowerLimit>
+                                    <aixm:horizontalProjection>
+                                        <aixm:Surface  gml:id="ID_11364">
+                                            <gml:patches>
+                                                <gml:PolygonPatch>
+                                                    <gml:exterior>
+                                                        <gml:Ring>
+                                                            <gml:curveMember>
+                                                                <gml:Curve gml:id="C001126">
+                                                                    <gml:segments>
+                                                                        <gml:Geodesic>
+                                                                            <gml:pointProperty>
+                                                                                <gml:Point>
+                                                                                    <gml:pos>50 10</gml:pos>
+                                                                                </gml:Point>
+                                                                            </gml:pointProperty>
+                                                                        </gml:Geodesic>
+                                                                    </gml:segments>
+                                                                </gml:Curve>
+                                                            </gml:curveMember>
+                                                        </gml:Ring>
+                                                    </gml:exterior>
+                                                </gml:PolygonPatch>
+                                            </gml:patches>
+                                        </aixm:Surface>
+                                    </aixm:horizontalProjection>
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>

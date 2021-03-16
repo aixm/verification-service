@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file includes contributions from Solitec Software Solutions, Luciad, EUROCONTROL, Comsoft -->
+<!-- Copyright (c) 2019, EUROCONTROL
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+    Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+    Neither the names of EUROCONTROL or FAA nor the names of their contributors may be used to endorse or promote products derived from this specification without specific prior written permission.
+
+THIS FICTITIOUS DATA SET IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; 
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR 
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Editorial note: this license is an instance of the BSD license template as provided by the Open Source Initiative: http://www.opensource.org/licenses/bsd-license.php-->
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<gml:boundedBy>
+		<gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+			<gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+			<gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+		</gml:Envelope>
+	</gml:boundedBy>
+	
+<message:hasMember>
+		<aixm:AirportHeliport gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c64">
+			<gml:identifier codeSpace="urn:uuid:"
+				>1b54b2d6-a5ff-4e57-94c2-f4047a381c64</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirportHeliportTimeSlice gml:id="AHP_EADD">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vtEADH1">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ltEADH1">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>EADD</aixm:designator>
+					<aixm:name>DONLON/INTL.</aixm:name>
+					<aixm:locationIndicatorICAO>EADD</aixm:locationIndicatorICAO>
+					<aixm:designatorIATA xsi:nil="true" nilReason="unknown"/>
+					<aixm:certifiedICAO xsi:nil="true" nilReason="unknown"/>
+					<aixm:controlType>CIVIL</aixm:controlType>
+					<aixm:fieldElevation uom="M">30</aixm:fieldElevation>
+					<!-- see annotation for geoid undulation -->
+					<aixm:fieldElevationAccuracy uom="M">0.5</aixm:fieldElevationAccuracy>
+					<aixm:magneticVariation>-3.0</aixm:magneticVariation>
+					<aixm:magneticVariationAccuracy>1</aixm:magneticVariationAccuracy>
+					<aixm:dateMagneticVariation>1990</aixm:dateMagneticVariation>
+					<aixm:magneticVariationChange>0.03</aixm:magneticVariationChange>
+					<aixm:referenceTemperature uom="C">21.0</aixm:referenceTemperature>
+					<aixm:transitionAltitude uom="FT">3500</aixm:transitionAltitude>
+					<aixm:certificationDate xsi:nil="true" nilReason="unknown"/>
+					<aixm:certificationExpirationDate xsi:nil="true" nilReason="unknown"/>
+					<aixm:servedCity>
+						<aixm:City gml:id="ID_109">
+							<aixm:name>DONLON</aixm:name>
+						</aixm:City>
+					</aixm:servedCity>
+					<aixm:responsibleOrganisation>
+						<!-- Not required by PANS-AIM for the minimum AIP data set -->
+						<aixm:AirportHeliportResponsibilityOrganisation gml:id="A-bf72b7b4">
+							<aixm:role>OPERATE</aixm:role>
+							<aixm:theOrganisationAuthority
+								xlink:href="urn:uuid:1e1bdf59-3dd6-4f96-9166-e6095e7231fc"/>
+						</aixm:AirportHeliportResponsibilityOrganisation>
+					</aixm:responsibleOrganisation>
+					<aixm:ARP>
+						<!-- see annotation for ARP site at AD, and Direction and distance from (city) -->
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326"
+							gml:id="elpoint1EADD">
+							<gml:pos>52.3716666666667 -31.9494444444444</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:ARP>
+					<aixm:availability>
+						<!-- Not required by PANS-AIM for the minimum AIP data set-->
+						<aixm:AirportHeliportAvailability gml:id="AHY_EADD_PERMIT">
+							<aixm:timeInterval>
+								<aixm:Timesheet gml:id="T-c5fdb917">
+									<aixm:timeReference>UTC</aixm:timeReference>
+									<aixm:day>WORK_DAY</aixm:day>
+									<aixm:endTime>20:00</aixm:endTime>
+									<aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+								</aixm:Timesheet>
+							</aixm:timeInterval>
+							<aixm:timeInterval>
+								<aixm:Timesheet gml:id="T-c5fhgfrb917">
+									<aixm:timeReference>UTC</aixm:timeReference>
+									<aixm:day>SAT</aixm:day>
+									<aixm:endTime>20:00</aixm:endTime>
+									<aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+								</aixm:Timesheet>
+							</aixm:timeInterval>
+							<aixm:timeInterval>
+								<aixm:Timesheet gml:id="T-c57i67fhgfrb917">
+									<aixm:timeReference>UTC</aixm:timeReference>
+									<aixm:day>SUN</aixm:day>
+									<aixm:endTime>20:00</aixm:endTime>
+									<aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+								</aixm:Timesheet>
+							</aixm:timeInterval>
+							<aixm:timeInterval>
+								<aixm:Timesheet gml:id="T-c5fhgfrb91hjkdh7">
+									<aixm:timeReference>UTC</aixm:timeReference>
+									<aixm:day>HOL</aixm:day>
+									<aixm:endTime>20:00</aixm:endTime>
+									<aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+								</aixm:Timesheet>
+							</aixm:timeInterval>
+							<aixm:specialDateAuthority
+								xlink:href="urn:uuid:6384a4e0-8497-4f83-8eaa-d73ef549d90e"/>
+							<aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+							<!-- all Baseline availability shall have status NORMAL, see the Event Specification assumptions for AD.CLS scenario-->
+							<aixm:usage>
+								<!-- IFR/VFR Traffic: Not required by PANS-AIM for the minimum AIP data set-->
+								<aixm:AirportHeliportUsage gml:id="AHU_EADD_PERMIT">
+									<aixm:type>PERMIT</aixm:type>
+									<aixm:selection>
+										<aixm:ConditionCombination gml:id="cc001">
+											<aixm:logicalOperator>OR</aixm:logicalOperator>
+											<aixm:flight>
+												<aixm:FlightCharacteristic gml:id="fc001">
+												<aixm:rule>IFR</aixm:rule>
+												</aixm:FlightCharacteristic>
+											</aixm:flight>
+											<aixm:flight>
+												<aixm:FlightCharacteristic gml:id="fc002">
+												<aixm:rule>VFR</aixm:rule>
+												</aixm:FlightCharacteristic>
+											</aixm:flight>
+										</aixm:ConditionCombination>
+									</aixm:selection>
+								</aixm:AirportHeliportUsage>
+							</aixm:usage>
+						</aixm:AirportHeliportAvailability>
+					</aixm:availability>
+					<aixm:availability>
+						<!-- Not required by PANS-AIM -->
+						<aixm:AirportHeliportAvailability gml:id="AHY_EADD_FORBID">
+							<aixm:timeInterval>
+								<aixm:Timesheet gml:id="T-e921a1ce">
+									<aixm:timeReference>UTC</aixm:timeReference>
+									<aixm:day>ANY</aixm:day>
+									<aixm:endTime>00:00</aixm:endTime>
+									<aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+								</aixm:Timesheet>
+							</aixm:timeInterval>
+							<aixm:timeInterval>
+								<aixm:Timesheet gml:id="T-d9e420be">
+									<aixm:timeReference>UTC</aixm:timeReference>
+									<aixm:day>ANY</aixm:day>
+									<aixm:endTime>06:00</aixm:endTime>
+									<aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+								</aixm:Timesheet>
+							</aixm:timeInterval>
+							<aixm:timeInterval>
+								<aixm:Timesheet gml:id="T-d9e420sfsdbe">
+									<aixm:timeReference>UTC</aixm:timeReference>
+									<aixm:day>SAT</aixm:day>
+									<aixm:endTime>07:00</aixm:endTime>
+									<aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+								</aixm:Timesheet>
+							</aixm:timeInterval>
+							<aixm:timeInterval>
+								<aixm:Timesheet gml:id="T-d9e420sfsdsfsbe">
+									<aixm:timeReference>UTC</aixm:timeReference>
+									<aixm:day>SUN</aixm:day>
+									<aixm:endTime>07:00</aixm:endTime>
+									<aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+								</aixm:Timesheet>
+							</aixm:timeInterval>
+							<aixm:timeInterval>
+								<aixm:Timesheet gml:id="T-d9e420sfsdasdfsbe">
+									<aixm:timeReference>UTC</aixm:timeReference>
+									<aixm:day>HOL</aixm:day>
+									<aixm:startTime>06:00</aixm:startTime>
+									<aixm:endTime>07:00</aixm:endTime>
+									<aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+								</aixm:Timesheet>
+							</aixm:timeInterval>
+							<aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+							<aixm:usage>
+								<aixm:AirportHeliportUsage gml:id="A-d38f0d0f">
+									<aixm:type>FORBID</aixm:type>
+									<aixm:operation>ALL</aixm:operation>
+								</aixm:AirportHeliportUsage>
+							</aixm:usage>
+						</aixm:AirportHeliportAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="n004">
+							<aixm:propertyName>fieldElevation</aixm:propertyName>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln004">
+									<aixm:note>Geoid undulation at AD ELEV PSN is 12 M</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="n005">
+							<aixm:propertyName>aRP</aixm:propertyName>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln005">
+									<aixm:note>ARP site at AD: 258°/1075 M from THR 09L, Direction
+										and distance from (city): 045°, 9 KM from Donlon</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:AirportHeliportTimeSlice>
+			</aixm:timeSlice>
+		</aixm:AirportHeliport>
+	</message:hasMember>
+</message:AIXMBasicMessage>

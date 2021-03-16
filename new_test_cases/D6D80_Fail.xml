@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+    <message:hasMember>
+        <aixm:RunwayCentrelinePoint gml:id="uuid.ffbba909-1c5d-4c91-9b79-525fa89af1dd">
+            <gml:identifier codeSpace="urn:uuid:">ffbba909-1c5d-4c91-9b79-525fa89af1dd</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:RunwayCentrelinePointTimeSlice
+                        gml:id="uuid.95618683-464a-4018-9ecd-b294252485a8">
+                    <gml:validTime xlink:type="simple">
+                        <gml:TimePeriod gml:id="uuid.88a8f86a-4615-4f96-9d35-669e65416084">
+                            <gml:beginPosition>2017-12-04T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>6</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+
+                    <aixm:featureLifetime xlink:type="simple">
+                        <gml:TimePeriod gml:id="uuid.e5d54b43-f49c-4662-9bf3-6b1925918a1a">
+                            <gml:beginPosition>2016-10-18T22:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:role>THR</aixm:role>
+                    <aixm:designator>07</aixm:designator>
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326"
+                                            gml:id="uuid.ae5018cb-d81a-4b60-a6a2-f10ac403b051">
+                            <gml:pos>48.686478 9.2040437</gml:pos>
+                            <aixm:horizontalAccuracy uom="M">0.7</aixm:horizontalAccuracy>
+                            <aixm:elevation uom="M">385.684</aixm:elevation>
+                            <aixm:verticalAccuracy uom="M">0.24</aixm:verticalAccuracy>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:onRunway xlink:type="simple"
+                                   xlink:href="#uuid.e1c82b87-de51-4521-a2a8-bc7dd6ed7265"/>
+                    <aixm:associatedDeclaredDistance>
+                        <aixm:RunwayDeclaredDistance
+                                gml:id="uuid.11085f29-6cdf-4aea-8bad-7fe17b35fe6f">
+                            <aixm:type>TORA</aixm:type>
+                            <aixm:declaredValue>
+                                <aixm:RunwayDeclaredDistanceValue
+                                        gml:id="uuid.afc3265d-6cc6-4264-b342-e97a09b12be8">
+                                    <aixm:distance uom="M">3345</aixm:distance>
+                                </aixm:RunwayDeclaredDistanceValue>
+                            </aixm:declaredValue>
+                        </aixm:RunwayDeclaredDistance>
+                    </aixm:associatedDeclaredDistance>
+                    <aixm:associatedDeclaredDistance>
+                        <aixm:RunwayDeclaredDistance
+                                gml:id="uuid.1ee7a8cc-f1ee-4199-a628-9cee911c39c6">
+                            <aixm:type>TODA</aixm:type>
+                            <aixm:declaredValue>
+                                <aixm:RunwayDeclaredDistanceValue
+                                        gml:id="uuid.35277106-1985-408e-aedc-d3dd19807bd0">
+                                    <aixm:distance uom="M">3345</aixm:distance>
+                                </aixm:RunwayDeclaredDistanceValue>
+                            </aixm:declaredValue>
+                        </aixm:RunwayDeclaredDistance>
+                    </aixm:associatedDeclaredDistance>
+                    <aixm:associatedDeclaredDistance>
+                        <aixm:RunwayDeclaredDistance
+                                gml:id="uuid.89bf1bd9-fa86-4f79-b1c8-bb6c21d6cf8c">
+                            <aixm:type>ASDA</aixm:type>
+                            <aixm:declaredValue>
+                                <aixm:RunwayDeclaredDistanceValue
+                                        gml:id="uuid.1fe25317-d0f4-413e-9a79-47b63792125b">
+                                    <aixm:distance uom="M">3345</aixm:distance>
+                                </aixm:RunwayDeclaredDistanceValue>
+                            </aixm:declaredValue>
+                        </aixm:RunwayDeclaredDistance>
+                    </aixm:associatedDeclaredDistance>
+                    <aixm:associatedDeclaredDistance>
+                        <aixm:RunwayDeclaredDistance
+                                gml:id="uuid.d4b3e448-e485-4955-b9d0-0842ebbaf583">
+                            <aixm:type>LDA</aixm:type>
+                            <aixm:declaredValue>
+                                <aixm:RunwayDeclaredDistanceValue
+                                        gml:id="uuid.b5d5c4d2-abb5-49f9-a7ec-eea732931ce8">
+                                    <aixm:distance uom="M">3045</aixm:distance>
+                                </aixm:RunwayDeclaredDistanceValue>
+                            </aixm:declaredValue>
+                        </aixm:RunwayDeclaredDistance>
+                    </aixm:associatedDeclaredDistance>
+                </aixm:RunwayCentrelinePointTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RunwayCentrelinePoint>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:DME gml:id="uuid.ffbba909-1c5d-4c91-9b79-525fa89af1dd">
+            <gml:identifier codeSpace="urn:uuid:">ffbba909-1c5d-4c91-9b79-525fa89af1dd</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:DMETimeSlice
+                        gml:id="uuid.95618683-464a-4018-9ecd-b294252485a8">
+                    <gml:validTime xlink:type="simple">
+                        <gml:TimePeriod gml:id="uuid.88a8f86a-4615-4f96-9d35-669e65416094">
+                            <gml:beginPosition>2017-12-04T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>6</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+
+                    <aixm:featureLifetime xlink:type="simple">
+                        <gml:TimePeriod gml:id="uuid.e5d54b43-f49c-4662-9bf3-6b1925918a2a">
+                            <gml:beginPosition>2016-10-18T22:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:role>THR</aixm:role>
+                    <aixm:designator>07</aixm:designator>
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326"
+                                            gml:id="uuid.ae5018cb-d81a-4b60-a6a2-f10ac403b051">
+                            <gml:pos>48.686478 9.2040437</gml:pos>
+                            <aixm:horizontalAccuracy uom="M">0.7</aixm:horizontalAccuracy>
+                            <aixm:elevation uom="M">385.684</aixm:elevation>
+                            <aixm:verticalAccuracy uom="FT">99</aixm:verticalAccuracy>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:onRunway xlink:type="simple"
+                                   xlink:href="#uuid.e1c82b87-de51-4521-a2a8-bc7dd6ed7265"/>
+                    <aixm:associatedDeclaredDistance>
+                        <aixm:RunwayDeclaredDistance
+                                gml:id="uuid.11085f29-6cdf-4aea-8bad-7fe17b35fe6f">
+                            <aixm:type>TORA</aixm:type>
+                            <aixm:declaredValue>
+                                <aixm:RunwayDeclaredDistanceValue
+                                        gml:id="uuid.afc3265d-6cc6-4264-b342-e97a09b12be8">
+                                    <aixm:distance uom="M">3345</aixm:distance>
+                                </aixm:RunwayDeclaredDistanceValue>
+                            </aixm:declaredValue>
+                        </aixm:RunwayDeclaredDistance>
+                    </aixm:associatedDeclaredDistance>
+                    <aixm:associatedDeclaredDistance>
+                        <aixm:RunwayDeclaredDistance
+                                gml:id="uuid.1ee7a8cc-f1ee-4199-a628-9cee911c39c6">
+                            <aixm:type>TODA</aixm:type>
+                            <aixm:declaredValue>
+                                <aixm:RunwayDeclaredDistanceValue
+                                        gml:id="uuid.35277106-1985-408e-aedc-d3dd19807bd0">
+                                    <aixm:distance uom="M">3345</aixm:distance>
+                                </aixm:RunwayDeclaredDistanceValue>
+                            </aixm:declaredValue>
+                        </aixm:RunwayDeclaredDistance>
+                    </aixm:associatedDeclaredDistance>
+                    <aixm:associatedDeclaredDistance>
+                        <aixm:RunwayDeclaredDistance
+                                gml:id="uuid.89bf1bd9-fa86-4f79-b1c8-bb6c21d6cf8c">
+                            <aixm:type>ASDA</aixm:type>
+                            <aixm:declaredValue>
+                                <aixm:RunwayDeclaredDistanceValue
+                                        gml:id="uuid.1fe25317-d0f4-413e-9a79-47b63792125b">
+                                    <aixm:distance uom="M">3345</aixm:distance>
+                                </aixm:RunwayDeclaredDistanceValue>
+                            </aixm:declaredValue>
+                        </aixm:RunwayDeclaredDistance>
+                    </aixm:associatedDeclaredDistance>
+                    <aixm:associatedDeclaredDistance>
+                        <aixm:RunwayDeclaredDistance
+                                gml:id="uuid.d4b3e448-e485-4955-b9d0-0842ebbaf583">
+                            <aixm:type>LDA</aixm:type>
+                            <aixm:declaredValue>
+                                <aixm:RunwayDeclaredDistanceValue
+                                        gml:id="uuid.b5d5c4d2-abb5-49f9-a7ec-eea732931ce8">
+                                    <aixm:distance uom="M">3045</aixm:distance>
+                                </aixm:RunwayDeclaredDistanceValue>
+                            </aixm:declaredValue>
+                        </aixm:RunwayDeclaredDistance>
+                    </aixm:associatedDeclaredDistance>
+                </aixm:DMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:DME>
+    </message:hasMember>
+
+
+    <message:hasMember>
+        <aixm:GuidanceLine gml:id="uuid.ffbba909-1c5d-4c91-9b79-525fa89af1dd">
+            <gml:identifier codeSpace="urn:uuid:">ffbba909-1c5d-4c91-9b79-525fa89af1dd</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:GuidanceLineTimeSlice
+                        gml:id="uuid.95618683-464a-4018-9ecd-b294252485a8">
+                    <gml:validTime xlink:type="simple">
+                        <gml:TimePeriod gml:id="uuid.88a8f86a-4615-4f96-9d35-669e65416086">
+                            <gml:beginPosition>2017-12-04T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>6</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+
+                    <aixm:featureLifetime xlink:type="simple">
+                        <gml:TimePeriod gml:id="uuid.e5d54b43-f49c-4662-9bf3-6b1925918a1c">
+                            <gml:beginPosition>2016-10-18T22:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:role>THR</aixm:role>
+                    <aixm:designator>07</aixm:designator>
+                    <aixm:extent>
+                        <aixm:ElevatedCurve srsName="urn:ogc:def:crs:EPSG::4326"
+                                            gml:id="uuid.ae5018cb-d81a-4b60-a6a2-f10ac403b051">
+                            <gml:pos>48.686478 9.2040437</gml:pos>
+                            <aixm:horizontalAccuracy uom="M">0.7</aixm:horizontalAccuracy>
+                            <aixm:elevation uom="M">385.684</aixm:elevation>
+                            <aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+                        </aixm:ElevatedCurve>
+                    </aixm:extent>
+                    <aixm:onRunway xlink:type="simple"
+                                   xlink:href="#uuid.e1c82b87-de51-4521-a2a8-bc7dd6ed7265"/>
+                    <aixm:associatedDeclaredDistance>
+                        <aixm:RunwayDeclaredDistance
+                                gml:id="uuid.11085f29-6cdf-4aea-8bad-7fe17b35fe6f">
+                            <aixm:type>TORA</aixm:type>
+                            <aixm:declaredValue>
+                                <aixm:RunwayDeclaredDistanceValue
+                                        gml:id="uuid.afc3265d-6cc6-4264-b342-e97a09b12be8">
+                                    <aixm:distance uom="M">3345</aixm:distance>
+                                </aixm:RunwayDeclaredDistanceValue>
+                            </aixm:declaredValue>
+                        </aixm:RunwayDeclaredDistance>
+                    </aixm:associatedDeclaredDistance>
+                    <aixm:associatedDeclaredDistance>
+                        <aixm:RunwayDeclaredDistance
+                                gml:id="uuid.1ee7a8cc-f1ee-4199-a628-9cee911c39c6">
+                            <aixm:type>TODA</aixm:type>
+                            <aixm:declaredValue>
+                                <aixm:RunwayDeclaredDistanceValue
+                                        gml:id="uuid.35277106-1985-408e-aedc-d3dd19807bd0">
+                                    <aixm:distance uom="M">3345</aixm:distance>
+                                </aixm:RunwayDeclaredDistanceValue>
+                            </aixm:declaredValue>
+                        </aixm:RunwayDeclaredDistance>
+                    </aixm:associatedDeclaredDistance>
+                    <aixm:associatedDeclaredDistance>
+                        <aixm:RunwayDeclaredDistance
+                                gml:id="uuid.89bf1bd9-fa86-4f79-b1c8-bb6c21d6cf8c">
+                            <aixm:type>ASDA</aixm:type>
+                            <aixm:declaredValue>
+                                <aixm:RunwayDeclaredDistanceValue
+                                        gml:id="uuid.1fe25317-d0f4-413e-9a79-47b63792125b">
+                                    <aixm:distance uom="M">3345</aixm:distance>
+                                </aixm:RunwayDeclaredDistanceValue>
+                            </aixm:declaredValue>
+                        </aixm:RunwayDeclaredDistance>
+                    </aixm:associatedDeclaredDistance>
+                    <aixm:associatedDeclaredDistance>
+                        <aixm:RunwayDeclaredDistance
+                                gml:id="uuid.d4b3e448-e485-4955-b9d0-0842ebbaf583">
+                            <aixm:type>LDA</aixm:type>
+                            <aixm:declaredValue>
+                                <aixm:RunwayDeclaredDistanceValue
+                                        gml:id="uuid.b5d5c4d2-abb5-49f9-a7ec-eea732931ce8">
+                                    <aixm:distance uom="M">3045</aixm:distance>
+                                </aixm:RunwayDeclaredDistanceValue>
+                            </aixm:declaredValue>
+                        </aixm:RunwayDeclaredDistance>
+                    </aixm:associatedDeclaredDistance>
+                </aixm:GuidanceLineTimeSlice>
+            </aixm:timeSlice>
+        </aixm:GuidanceLine>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>

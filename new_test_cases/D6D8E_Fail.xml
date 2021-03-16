@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file includes contributions from Solitec Software Solutions, Luciad, EUROCONTROL, Comsoft -->
+<!-- Copyright (c) 2019, EUROCONTROL
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+    Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+    Neither the names of EUROCONTROL or FAA nor the names of their contributors may be used to endorse or promote products derived from this specification without specific prior written permission.
+
+THIS FICTITIOUS DATA SET IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; 
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR 
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Editorial note: this license is an instance of the BSD license template as provided by the Open Source Initiative: http://www.opensource.org/licenses/bsd-license.php-->
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<gml:boundedBy>
+		<gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+			<gml:lowerCorner>-32.0886111111111 -47.8880</gml:lowerCorner>
+			<gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+		</gml:Envelope>
+	</gml:boundedBy>
+<message:hasMember>
+		<aixm:TouchDownLiftOff gml:id="uuid.3d9a60b5-6d7f-471d-9744-b767df4a8575">
+			<gml:identifier codeSpace="urn:uuid:"
+				>3d9a60b5-6d7f-471d-9744-b767df4a8575</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:TouchDownLiftOffTimeSlice gml:id="TLA_EADH_TLOF">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vttlof244139">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lttlof244139">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>TLOF</aixm:designator>
+					<aixm:length uom="M">20.0</aixm:length>
+					<aixm:width uom="M">20.0</aixm:width>
+					<aixm:slope>1.0</aixm:slope>
+					<!-- Not required by PANS-AIM for the minimum AIP data set -->
+					<aixm:aimingPoint>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ptlof244">
+							<gml:pos>52.288936111111106 -32.035086111111106</gml:pos>
+							<aixm:horizontalAccuracy uom="M">1</aixm:horizontalAccuracy>
+							<aixm:elevation uom="M">18.0</aixm:elevation>
+							<aixm:geoidUndulation xsi:nil="true" nilReason="unknown"/>
+							<aixm:verticalAccuracy uom="M">7</aixm:verticalAccuracy>
+							<!-- intentional accuracy error above -->
+						</aixm:ElevatedPoint>
+					</aixm:aimingPoint>
+					<aixm:extent>
+						<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326"
+							gml:id="tlpsurface">
+							<gml:patches>
+								<gml:PolygonPatch>
+									<gml:exterior>
+										<gml:Ring>
+											<gml:curveMember>
+												<gml:Curve gml:id="C0011">
+												<gml:segments>
+												<gml:GeodesicString>
+												<gml:posList>52.28903333333333 -32.034952777777775
+												52.28885555555556 -32.034927777777774
+												52.28883888888889 -32.035219444444444
+												52.28901666666666 -32.035244444444444
+												52.28903333333333
+												-32.034952777777775</gml:posList>
+												</gml:GeodesicString>
+												</gml:segments>
+												</gml:Curve>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:PolygonPatch>
+							</gml:patches>
+							<aixm:elevation uom="M">18</aixm:elevation>
+						</aixm:ElevatedSurface>
+					</aixm:extent>
+					<aixm:surfaceProperties>
+						<aixm:SurfaceCharacteristics gml:id="S-a51e32fb">
+							<aixm:composition>CONC</aixm:composition>
+						</aixm:SurfaceCharacteristics>
+					</aixm:surfaceProperties>
+					<aixm:associatedAirportHeliport
+						xlink:href="urn:uuid:dd062d88-3e64-4a5d-bebd-89476db9ebea"
+						xlink:title="EADH"/>
+					<aixm:approachTakeOffArea
+						xlink:href="urn:uuid:1e22a662-0601-43cc-a7ef-8402885a4f2f"
+						xlink:title="RWY_EADH_FATO_03_21"/>
+					<aixm:annotation>
+						<aixm:Note gml:id="nTLA001">
+							<aixm:propertyName>lenght</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="lnTLA001">
+									<aixm:note lang="eng">Accuracy is unknown</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="nTLA002">
+							<aixm:propertyName>width</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="lnTLA002">
+									<aixm:note lang="eng">Accuracy is unknown</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:TouchDownLiftOffTimeSlice>
+			</aixm:timeSlice>
+		</aixm:TouchDownLiftOff>
+	</message:hasMember>
+</message:AIXMBasicMessage>

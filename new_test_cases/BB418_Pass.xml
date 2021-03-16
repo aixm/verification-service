@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Donlon.xsl"?>
+<!-- This file includes contributions from Luciad, EUROCONTROL, Comsoft -->
+<message:AIXMBasicMessage
+        xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+        xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/draft_0.7/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+
+    <message:hasMember>
+        <aixm:ApronElement>
+            <aixm:supplyService xlink:href="urn:uuid:010d8451-d751-4abb-9c71-f48ad024045b">
+
+            </aixm:supplyService>
+        </aixm:ApronElement>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:AirportSuppliesService gml:id="uuid.010d8451-d751-4abb-9c71-f48ad024045b">
+            <gml:identifier codeSpace="urn:uuid:">010d8451-d751-4abb-9c71-f48ad024045b</gml:identifier>
+            <aixm:featureMetadata>
+                <gmd:MD_Metadata>
+                    <gmd:characterSet>
+                        <gmd:MD_CharacterSetCode codeList="http://www.aixm.aero/schema/5.1/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+                    </gmd:characterSet>
+                    <gmd:contact xlink:href="#MessageContact"/>
+                    <gmd:dateStamp>
+                        <gco:DateTime>2013-04-23T12:00:00Z</gco:DateTime>
+                    </gmd:dateStamp>
+                </gmd:MD_Metadata>
+            </aixm:featureMetadata>
+        </aixm:AirportSuppliesService>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>

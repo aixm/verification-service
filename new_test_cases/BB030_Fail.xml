@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+
+
+    <message:hasMember>
+        <aixm:DepartureLeg gml:id="uuid.d9d27801-b6ae-4508-a27e-bf55da19fd35">
+            <gml:identifier codeSpace="urn:uuid:">d9d27801-b6ae-4508-a27e-bf55da19fd35</gml:identifier>
+            <aixm:featureMetadata>
+                <gmd:MD_Metadata>
+                    <gmd:characterSet>
+                        <gmd:MD_CharacterSetCode codeList="http://www.aixm.aero/schema/5.1/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+                    </gmd:characterSet>
+                    <gmd:contact xlink:href="#MessageContact"/>
+                    <gmd:dateStamp>
+                        <gco:DateTime>2013-04-23T12:00:00Z</gco:DateTime>
+                    </gmd:dateStamp>
+                    <gmd:identificationInfo>
+                        <gmd:MD_DataIdentification>
+                            <gmd:citation xlink:href="#MessageCitation"/>
+                            <gmd:abstract>
+                                <gco:CharacterString>Donlon  sample data, including Digital NOTAM Events; initially created by Luciad (www.luciad.be); currently maintained by Eurocontrol.</gco:CharacterString>
+                            </gmd:abstract>
+                            <gmd:pointOfContact xlink:href="#MessagePOC"/>
+                            <gmd:resourceConstraints xlink:href="#MessageConstraints"/>
+                            <gmd:language>
+                                <gco:CharacterString>eng</gco:CharacterString>
+                            </gmd:language>
+                            <gmd:topicCategory>
+                                <gmd:MD_TopicCategoryCode>transportation</gmd:MD_TopicCategoryCode>
+                            </gmd:topicCategory>
+                        </gmd:MD_DataIdentification>
+                    </gmd:identificationInfo>
+                </gmd:MD_Metadata>
+            </aixm:featureMetadata>
+            <aixm:timeSlice>
+                <aixm:DepartureLegTimeSlice gml:id="DEPLEGTSSID4103">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtSID410337">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltSID410337">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:lowerLimitAltitude uom="M">1829</aixm:lowerLimitAltitude>
+                    <aixm:altitudeInterpretation>ABOVE_LOWER</aixm:altitudeInterpretation>
+                    <aixm:departure xlink:href="urn:uuid:6a2f2658-bba5-49e0-bdc5-9b31aa1e1ERROR"></aixm:departure>
+                </aixm:DepartureLegTimeSlice>
+            </aixm:timeSlice>
+        </aixm:DepartureLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:StandardInstrumentDeparture gml:id="uuid.6a2f2658-bba5-49e0-bdc5-9b31aa1e1dbf">
+            <gml:identifier codeSpace="urn:uuid:">6a2f2658-bba5-49e0-bdc5-9b31aa1e1dbf</gml:identifier>
+            <aixm:featureMetadata>
+                <gmd:MD_Metadata>
+                    <gmd:characterSet>
+                        <gmd:MD_CharacterSetCode codeList="http://www.aixm.aero/schema/5.1/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+                    </gmd:characterSet>
+                    <gmd:contact xlink:href="#MessageContact"/>
+                    <gmd:dateStamp>
+                        <gco:DateTime>2013-04-23T12:00:00Z</gco:DateTime>
+                    </gmd:dateStamp>
+                    <gmd:identificationInfo>
+                        <gmd:MD_DataIdentification>
+                            <gmd:citation xlink:href="#MessageCitation"/>
+                            <gmd:abstract>
+                                <gco:CharacterString>Donlon  sample data, including Digital NOTAM Events; initially created by Luciad (www.luciad.be); currently maintained by Eurocontrol.</gco:CharacterString>
+                            </gmd:abstract>
+                            <gmd:pointOfContact xlink:href="#MessagePOC"/>
+                            <gmd:resourceConstraints xlink:href="#MessageConstraints"/>
+                            <gmd:language>
+                                <gco:CharacterString>eng</gco:CharacterString>
+                            </gmd:language>
+                            <gmd:topicCategory>
+                                <gmd:MD_TopicCategoryCode>transportation</gmd:MD_TopicCategoryCode>
+                            </gmd:topicCategory>
+                        </gmd:MD_DataIdentification>
+                    </gmd:identificationInfo>
+                </gmd:MD_Metadata>
+            </aixm:featureMetadata>
+            <aixm:timeSlice>
+                <aixm:StandardInstrumentDepartureTimeSlice gml:id="SIDTS410">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtSID410438">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltSID410438">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:flightTransition>
+                        <aixm:ProcedureTransition gml:id="P-d4fcf0d8">
+                            <aixm:transitionId>TSI</aixm:transitionId>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-fcbf9110">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:9c6a4679-14f3-4ffb-a2bc-2d43f81722b6"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-c9ebb0e3">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:3a17efd0-adfe-4899-9d4c-5b8ac591645b"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-fefbcb4c">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:1a6f046a-e7aa-44e8-9712-aaaf89921734"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-c667df38">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:5a99887d-ab43-4163-95a4-b9699c651d98"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-cb5d0557">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:d9d27801-b6ae-4508-a27e-bf55da19fd35"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                        </aixm:ProcedureTransition>
+                    </aixm:flightTransition>
+                    <aixm:designator>EKCOMBE</aixm:designator>
+                </aixm:StandardInstrumentDepartureTimeSlice>
+            </aixm:timeSlice>
+        </aixm:StandardInstrumentDeparture>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:ArrivalLeg gml:id="uuid.d9d27801-b6ae-4508-a27e-bf55da19fd36">
+            <gml:identifier codeSpace="urn:uuid:">d9d27801-b6ae-4508-a27e-bf55da19fd36</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:ArrivalLegTimeSlice gml:id="DEPLEGTSSID4103">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtSID410339">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltSID410339">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:lowerLimitAltitude uom="M">1829</aixm:lowerLimitAltitude>
+                    <aixm:altitudeInterpretation>ABOVE_LOWER</aixm:altitudeInterpretation>
+                    <aixm:arrival xlink:href="urn:uuid:6a2f2658-bba5-49e0-bdc5-9b31aa1e2ERROR"></aixm:arrival>
+                </aixm:ArrivalLegTimeSlice>
+            </aixm:timeSlice>
+        </aixm:ArrivalLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:StandardInstrumentArrival gml:id="uuid.6a2f2658-bba5-49e0-bdc5-9b31aa1e1dcf">
+            <gml:identifier codeSpace="urn:uuid:">6a2f2658-bba5-49e0-bdc5-9b31aa1e1dcf</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:StandardInstrumentArrivalTimeSlice gml:id="SIDTS410">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtSID410439">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltSID410439">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:flightTransition>
+                        <aixm:ProcedureTransition gml:id="P-d4fcf0d8">
+                            <aixm:transitionId>TSI</aixm:transitionId>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-fcbf9110">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:9c6a4679-14f3-4ffb-a2bc-2d43f81722b6"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-c9ebb0e3">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:3a17efd0-adfe-4899-9d4c-5b8ac591645b"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-fefbcb4c">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:1a6f046a-e7aa-44e8-9712-aaaf89921734"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-c667df38">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:5a99887d-ab43-4163-95a4-b9699c651d98"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-cb5d0557">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:d9d27801-b6ae-4508-a27e-bf55da19fd35"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                        </aixm:ProcedureTransition>
+                    </aixm:flightTransition>
+                    <aixm:designator>EKCOMBE</aixm:designator>
+                </aixm:StandardInstrumentArrivalTimeSlice>
+            </aixm:timeSlice>
+        </aixm:StandardInstrumentArrival>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:CheckpointVOR gml:id="uuid.d9d27801-b6ae-4508-a27e-bf55da19fd36">
+            <gml:identifier codeSpace="urn:uuid:">d9d27801-b6ae-4508-a27e-bf55da19fd36</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:CheckpointVORTimeSlice gml:id="DEPLEGTSSID4103">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtSID410539">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltSID410539">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:lowerLimitAltitude uom="M">1829</aixm:lowerLimitAltitude>
+                    <aixm:altitudeInterpretation>ABOVE_LOWER</aixm:altitudeInterpretation>
+                    <aixm:checkPointFacility xlink:href="urn:uuid:6a2f2658-bba5-49e0-bdc5-9b31aa1f2ERROR"></aixm:checkPointFacility>
+                </aixm:CheckpointVORTimeSlice>
+            </aixm:timeSlice>
+        </aixm:CheckpointVOR>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:VOR gml:id="uuid.6a2f2658-bba5-49e0-bdc5-9b31aa1e1dcf">
+            <gml:identifier codeSpace="urn:uuid:">6a2f2658-bba5-49e0-bdc5-9b31aa1e1dcf</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:VORTimeSlice gml:id="SIDTS410">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtSID410639">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltSID410639">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:flightTransition>
+                        <aixm:ProcedureTransition gml:id="P-d4fcf0d8">
+                            <aixm:transitionId>TSI</aixm:transitionId>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-fcbf9110">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:9c6a4679-14f3-4ffb-a2bc-2d43f81722b6"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-c9ebb0e3">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:3a17efd0-adfe-4899-9d4c-5b8ac591645b"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-fefbcb4c">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:1a6f046a-e7aa-44e8-9712-aaaf89921734"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-c667df38">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:5a99887d-ab43-4163-95a4-b9699c651d98"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-cb5d0557">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:d9d27801-b6ae-4508-a27e-bf55da19fd35"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                        </aixm:ProcedureTransition>
+                    </aixm:flightTransition>
+                    <aixm:designator>EKCOMBE</aixm:designator>
+                </aixm:VORTimeSlice>
+            </aixm:timeSlice>
+        </aixm:VOR>
+    </message:hasMember>
+
+
+</message:AIXMBasicMessage>
