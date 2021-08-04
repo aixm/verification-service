@@ -1,0 +1,51 @@
+<message:hasMember>
+    <aixm:Airspace gml:id="uuid.f4d5e4d4-d84a-481f-b9e3-b359e42c0dff">
+        <gml:identifier codeSpace="urn:uuid:">f4d5e4d4-d84a-481f-b9e3-b359e42c0dff</gml:identifier>
+        <aixm:timeSlice>
+            <aixm:AirspaceTimeSlice gml:id="asptsFIRAMSWELL">
+                <gml:validTime>
+                    <gml:TimePeriod gml:id="vtFIRAMSWELL30">
+                        <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                        <gml:endPosition indeterminatePosition="unknown"/>
+                    </gml:TimePeriod>
+                </gml:validTime>
+                <aixm:type>CTA</aixm:type>
+                <aixm:type>FIR</aixm:type>
+                <aixm:type>P</aixm:type>
+                <aixm:designator>AMSWELL</aixm:designator>
+                <aixm:name>AMSWELL FIR</aixm:name>
+                <aixm:geometryComponent>
+                    <aixm:AirspaceGeometryComponent gml:id="A-cd43e44a">
+                        <aixm:theAirspaceVolume>
+                            <aixm:AirspaceVolume gml:id="A-c3969fee">
+                                <aixm:upperLimit uom="FT">UNL</aixm:upperLimit>
+                                <aixm:lowerLimit uom="FT">600.1</aixm:lowerLimit>
+                                <aixm:horizontalProjection>
+                                    <aixm:Surface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="SFIRAMSWELL">
+                                        <gml:patches>
+                                            <gml:PolygonPatch>
+                                                <gml:exterior>
+                                                    <gml:Ring>
+                                                        <gml:curveMember>
+                                                            <gml:Curve gml:id="CFIRAMSWELL">
+                                                                <gml:segments>
+                                                                    <gml:GeodesicString>
+                                                                        <gml:posList>57.0833333333333 -40.058479 52.857777 -41.7833333333333 48.4666666666667 -41.3333333333333 44.0333333333333</gml:posList>
+                                                                    </gml:GeodesicString>
+                                                                </gml:segments>
+                                                            </gml:Curve>
+                                                        </gml:curveMember>
+                                                    </gml:Ring>
+                                                </gml:exterior>
+                                            </gml:PolygonPatch>
+                                        </gml:patches>
+                                    </aixm:Surface>
+                                </aixm:horizontalProjection>
+                            </aixm:AirspaceVolume>
+                        </aixm:theAirspaceVolume>
+                    </aixm:AirspaceGeometryComponent>
+                </aixm:geometryComponent>
+            </aixm:AirspaceTimeSlice>
+        </aixm:timeSlice>
+    </aixm:Airspace>
+</message:hasMember>

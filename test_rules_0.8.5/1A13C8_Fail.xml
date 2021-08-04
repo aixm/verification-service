@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Donlon.xsl"?>
+<!-- This file includes contributions from Luciad, EUROCONTROL, Comsoft -->
+<message:AIXMBasicMessage
+        xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+        xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/draft_0.7/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+
+    <message:hasMember>
+        <aixm:AirspaceLayer>
+            <aixm:lowerLimit>50</aixm:lowerLimit>
+        </aixm:AirspaceLayer>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:MissedApproachLeg>
+            <aixm:upperLimitAltitude>40</aixm:upperLimitAltitude>
+        </aixm:MissedApproachLeg>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:Minima>
+            <aixm:altitude>30</aixm:altitude>
+        </aixm:Minima>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>

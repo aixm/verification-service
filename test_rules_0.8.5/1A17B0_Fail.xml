@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Donlon.xsl"?>
+<!-- This file includes contributions from Luciad, EUROCONTROL, Comsoft -->
+<message:AIXMBasicMessage
+        xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+        xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/draft_0.7/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+
+    <message:hasMember>
+        <aixm:StandardInstrumentArrival gml:id="uuid.202df567-8449-4342-adf7-43bca6fc7b87">
+            <gml:identifier codeSpace="urn:uuid:">202df567-8449-4342-adf7-43bca6fc7b87</gml:identifier>
+
+            <aixm:timeSlice>
+                <aixm:StandardInstrumentArrivalTimeSlice gml:id="STARTS224">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtSTAR224076">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltSTAR224076">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:flightTransition>
+                        <aixm:ProcedureTransition gml:id="P-d37171e2">
+                            <aixm:transitionId>TRID</aixm:transitionId>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-b549d7e6">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:f739ae66-baef-4bb6-b29a-7108eccf2d59"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                        </aixm:ProcedureTransition>
+                    </aixm:flightTransition>
+                    <aixm:designator>a</aixm:designator>
+                </aixm:StandardInstrumentArrivalTimeSlice>
+            </aixm:timeSlice>
+        </aixm:StandardInstrumentArrival>
+    </message:hasMember>
+
+
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.202df567-8449-4342-adf7-43bca6fc7b87">
+            <gml:identifier codeSpace="urn:uuid:">202df567-8449-4342-adf7-43bca6fc7b87</gml:identifier>
+
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="STARTS224">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtSTAR224076">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltSTAR224076">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:flightTransition>
+                        <aixm:ProcedureTransition gml:id="P-d37171e2">
+                            <aixm:transitionId>TRID</aixm:transitionId>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-b549d7e6">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:f739ae66-baef-4bb6-b29a-7108eccf2d59"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                        </aixm:ProcedureTransition>
+                    </aixm:flightTransition>
+                    <aixm:designator>a</aixm:designator>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:FlightRestriction gml:id="uuid.202df567-8449-4342-adf7-43bca6fc7b87">
+            <gml:identifier codeSpace="urn:uuid:">202df567-8449-4342-adf7-43bca6fc7b87</gml:identifier>
+
+            <aixm:timeSlice>
+                <aixm:FlightRestrictionTimeSlice gml:id="STARTS224">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtSTAR224076">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltSTAR224076">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:flightTransition>
+                        <aixm:ProcedureTransition gml:id="P-d37171e2">
+                            <aixm:transitionId>TRID</aixm:transitionId>
+                            <aixm:transitionLeg>
+                                <aixm:ProcedureTransitionLeg gml:id="P-b549d7e6">
+                                    <aixm:theSegmentLeg xlink:href="urn:uuid:f739ae66-baef-4bb6-b29a-7108eccf2d59"/>
+                                </aixm:ProcedureTransitionLeg>
+                            </aixm:transitionLeg>
+                        </aixm:ProcedureTransition>
+                    </aixm:flightTransition>
+                    <aixm:designator>a</aixm:designator>
+                </aixm:FlightRestrictionTimeSlice>
+            </aixm:timeSlice>
+        </aixm:FlightRestriction>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>

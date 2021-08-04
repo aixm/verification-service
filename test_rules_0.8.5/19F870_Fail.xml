@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Donlon.xsl"?>
+<!-- This file includes contributions from Luciad, EUROCONTROL, Comsoft -->
+<message:AIXMBasicMessage
+        xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+        xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/draft_0.7/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+
+    <message:hasMember>
+        <aixm:Airspace gml:id="uuid.4fd9f4be-8c65-43f6-b083-3ced9a4b2a7f">
+            <gml:identifier codeSpace="urn:uuid:">4fd9f4be-8c65-43f6-b083-3ced9a4b2a7f</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="asptsAlertACR001">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtAlertACR00129">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltAlertACR00129">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>R</aixm:type>
+                    <aixm:designator>ACR001</aixm:designator>
+
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="uuid.4344f989-50b4-4cb0-9920-870ccd89429f">
+                            <aixm:operationSequence>1</aixm:operationSequence>
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="uuid.59160a8e-a015-42ed-8346-34bc65436a72">
+                                    <aixm:contributorAirspace>
+                                        <aixm:AirspaceVolumeDependency gml:id="uuid.43a4e8ff-7995-492c-aa8f-50ef2c29b679">
+                                            <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                                            <aixm:theAirspace xlink:href="urn:uuid:0df377fe-dd53-4d60-b6c4-6546ef31d26b"/>
+                                        </aixm:AirspaceVolumeDependency>
+                                    </aixm:contributorAirspace>
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="uuid.4344f989-50b4-4cb0-9920-870ccd89429f">
+                            <aixm:operation></aixm:operation>
+                            <aixm:operationSequence>1</aixm:operationSequence>
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="uuid.59160a8e-a015-42ed-8346-34bc65436a72">
+                                    <aixm:contributorAirspace>
+                                        <aixm:AirspaceVolumeDependency gml:id="uuid.43a4e8ff-7995-492c-aa8f-50ef2c29b679">
+                                            <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                                            <aixm:theAirspace xlink:href="urn:uuid:0df377fe-dd53-4d60-b6c4-6546ef31d26b"/>
+                                        </aixm:AirspaceVolumeDependency>
+                                    </aixm:contributorAirspace>
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+</message:AIXMBasicMessage>

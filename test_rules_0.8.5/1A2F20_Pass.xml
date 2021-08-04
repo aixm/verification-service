@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Donlon.xsl"?>
+<!-- This file includes contributions from Luciad, EUROCONTROL, Comsoft -->
+<message:AIXMBasicMessage
+        xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+        xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/draft_0.7/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+
+    <message:hasMember>
+        <aixm:Navaid>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="ID_140">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_141">
+                            <gml:beginPosition>2012-10-07T10:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2012-10-07T14:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:availability>
+                        <aixm:NavaidOperationalStatus gml:id="ID_142">
+                            <aixm:operationalStatus>UNSERVICEABLE</aixm:operationalStatus>
+                        </aixm:NavaidOperationalStatus>
+                    </aixm:availability>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="ID_143">
+                            <aixm:propertyName>designator</aixm:propertyName>
+                            <aixm:purpose>REMARK</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="ID_144">
+                                    <aixm:note>DUE TO MAINTENANCE</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:ManoeuvringAreaUsage>
+            <aixm:timeSlice>
+                <aixm:ManoeuvringAreaUsageTimeSlice gml:id="ID_140">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_141">
+                            <gml:beginPosition>2012-10-07T10:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2012-10-07T14:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:availability>
+                        <aixm:ManoeuvringAreaUsageOperationalStatus gml:id="ID_142">
+                            <aixm:operationalStatus>UNSERVICEABLE</aixm:operationalStatus>
+                        </aixm:ManoeuvringAreaUsageOperationalStatus>
+                    </aixm:availability>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="ID_143">
+                            <aixm:propertyName>contact</aixm:propertyName>
+                            <aixm:purpose>REMARK</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="ID_144">
+                                    <aixm:note>DUE TO MAINTENANCE</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                </aixm:ManoeuvringAreaUsageTimeSlice>
+            </aixm:timeSlice>
+        </aixm:ManoeuvringAreaUsage>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:Nitrogen>
+            <aixm:timeSlice>
+                <aixm:NitrogenTimeSlice gml:id="ID_140">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_141">
+                            <gml:beginPosition>2012-10-07T10:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2012-10-07T14:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:availability>
+                        <aixm:NitrogenOperationalStatus gml:id="ID_142">
+                            <aixm:operationalStatus>UNSERVICEABLE</aixm:operationalStatus>
+                        </aixm:NitrogenOperationalStatus>
+                    </aixm:availability>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="ID_143">
+                            <aixm:propertyName>type</aixm:propertyName>
+                            <aixm:purpose>REMARK</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="ID_144">
+                                    <aixm:note>DUE TO MAINTENANCE</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                </aixm:NitrogenTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Nitrogen>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>

@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Donlon.xsl"?>
+<!-- This file includes contributions from Luciad, EUROCONTROL, Comsoft -->
+<message:AIXMBasicMessage
+        xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+        xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/draft_0.7/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+
+    <message:hasMember>
+        <aixm:RouteSegment gml:id="uuid.cc9c7cc4-e000-4741-854d-b7d93973e099">
+            <gml:identifier codeSpace="urn:uuid:">cc9c7cc4-e000-4741-854d-b7d93973e099</gml:identifier>
+            <aixm:featureMetadata>
+                <gmd:MD_Metadata>
+                    <gmd:characterSet>
+                        <gmd:MD_CharacterSetCode codeList="http://www.aixm.aero/schema/5.1/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+                    </gmd:characterSet>
+                    <gmd:contact xlink:href="#MessageContact"/>
+                    <gmd:dateStamp>
+                        <gco:DateTime>2013-04-23T12:00:00Z</gco:DateTime>
+                    </gmd:dateStamp>
+                    <gmd:identificationInfo>
+                        <gmd:MD_DataIdentification>
+                            <gmd:citation xlink:href="#MessageCitation"/>
+                            <gmd:abstract>
+                                <gco:CharacterString>Donlon  sample data, including Digital NOTAM Events; initially created by Luciad (www.luciad.be); currently maintained by Eurocontrol.</gco:CharacterString>
+                            </gmd:abstract>
+                            <gmd:pointOfContact xlink:href="#MessagePOC"/>
+                            <gmd:resourceConstraints xlink:href="#MessageConstraints"/>
+                            <gmd:language>
+                                <gco:CharacterString>eng</gco:CharacterString>
+                            </gmd:language>
+                            <gmd:topicCategory>
+                                <gmd:MD_TopicCategoryCode>transportation</gmd:MD_TopicCategoryCode>
+                            </gmd:topicCategory>
+                        </gmd:MD_DataIdentification>
+                    </gmd:identificationInfo>
+                </gmd:MD_Metadata>
+            </aixm:featureMetadata>
+            <aixm:timeSlice>
+                <aixm:RouteSegmentTimeSlice gml:id="rsts206">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vt21178">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="lt21178">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:level>UPPER</aixm:level>
+                    <aixm:upperLimit uom="FL">450</aixm:upperLimit>
+                    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                    <aixm:lowerLimit uom="FL">195</aixm:lowerLimit>
+                    <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+                    <aixm:pathType>GDS</aixm:pathType>
+                    <aixm:length uom="KM">69.3</aixm:length>
+                    <aixm:start>
+                        <aixm:EnRouteSegmentPoint gml:id="E-c5f43ddc">
+                            <aixm:reportingATC>COMPULSORY</aixm:reportingATC>
+                            <aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:bb9dcfb3-f45a-40f3-8852-fca1349801fc" xlink:title="BARIM"/>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:start>
+                    <aixm:routeFormed xlink:href="urn:uuid:a14a8751-5428-46bc-a2d1-32ef84d37b5c" xlink:title="UA4"/>
+                    <aixm:curveExtent>
+                        <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="crv2110">
+                            <gml:segments>
+                                <gml:GeodesicString>
+                                    <gml:posList>42.5016666666667 -37.0016666666667 42.675 -36.1733333333333</gml:posList>
+                                </gml:GeodesicString>
+                            </gml:segments>
+                        </aixm:Curve>
+                    </aixm:curveExtent>
+                    <aixm:end>
+                        <aixm:EnRouteSegmentPoint gml:id="E-c2a12282">
+                            <aixm:reportingATC>COMPULSORY</aixm:reportingATC>
+                            <aixm:pointChoice_navaidSystem xlink:href="urn:uuid:882e849c-682d-4e95-ac19-a7808d55cdbb" xlink:title="WOB VOR"/>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:end>
+                </aixm:RouteSegmentTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteSegment>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:DesignatedPoint gml:id="uuid.bb9dcfb3-f45a-40f3-8852-fca1349801fc">
+            <gml:identifier codeSpace="urn:uuid:">bb9dcfb3-f45a-40f3-8852-fca1349801fc</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:DesignatedPointTimeSlice gml:id="DP001">
+                    <aixm:type>ERROR</aixm:type>
+                </aixm:DesignatedPointTimeSlice>
+            </aixm:timeSlice>
+        </aixm:DesignatedPoint>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>

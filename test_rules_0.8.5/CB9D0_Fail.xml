@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file includes contributions from Solitec Software Solutions, Luciad, EUROCONTROL, Comsoft -->
+<!-- Copyright (c) 2019, EUROCONTROL
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+    Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+    Neither the names of EUROCONTROL or FAA nor the names of their contributors may be used to endorse or promote products derived from this specification without specific prior written permission.
+
+THIS FICTITIOUS DATA SET IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; 
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR 
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Editorial note: this license is an instance of the BSD license template as provided by the Open Source Initiative: http://www.opensource.org/licenses/bsd-license.php-->
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<gml:boundedBy>
+		<gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+			<gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+			<gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+		</gml:Envelope>
+	</gml:boundedBy>
+	<message:hasMember>
+		<aixm:Airspace gml:id="uuid.fdaeffb4-6897-41fb-a33d-8861c2e91e69">
+			<!-- Airspace aggregation by referencing-->
+			<gml:identifier codeSpace="urn:uuid:">fdaeffb4-6897-41fb-a33d-8861c2e91e69</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirspaceTimeSlice gml:id="ASE_MAGNETTO_TMA">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="uuid.820fdbbb-55d4-4f45-9d59-d770e5faec95">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="uuid.5e9c790e-b91b-4182-946d-145b6e0196de">
+							<gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>TMA</aixm:type>
+					<aixm:designator>EAMM</aixm:designator>
+					<aixm:name>MAGNETTO</aixm:name>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="uuid.4344f989-50b4-4cb0-9920-870ccd89429f">
+							<aixm:operation>BASE</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="uuid.59160a8e-a015-42ed-8346-34bc65436a72">
+									<aixm:contributorAirspace>
+										<aixm:AirspaceVolumeDependency gml:id="uuid.43a4e8ff-7995-492c-aa8f-50ef2c29b679">
+											<aixm:dependency>HORZ_PROJECTION</aixm:dependency>
+											<aixm:theAirspace xlink:href="urn:uuid:0df377fe-dd53-4d60-b6c4-6546ef31d26b"/>
+										</aixm:AirspaceVolumeDependency>
+									</aixm:contributorAirspace>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="uuid.e8995bfd-8f47-401e-84d5-81154957ad53">
+							<aixm:operation>UNION</aixm:operation>
+							<aixm:operationSequence>2</aixm:operationSequence>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="uuid.a91c0703-1a24-4c0a-a97b-f7a77ae6cdf2">
+									<aixm:contributorAirspace>
+										<aixm:AirspaceVolumeDependency gml:id="uuid.28854643-aca8-46e6-a199-57bf0d02a6e2">
+											<aixm:dependency>HORZ_PROJECTION</aixm:dependency>
+											<aixm:theAirspace xlink:href="urn:uuid:010d8451-d751-4abb-9c71-f48ad024045b"/>
+										</aixm:AirspaceVolumeDependency>
+									</aixm:contributorAirspace>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+				</aixm:AirspaceTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Airspace>
+	</message:hasMember>
+</message:AIXMBasicMessage>

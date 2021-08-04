@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Donlon.xsl"?>
+<!-- This file includes contributions from Luciad, EUROCONTROL, Comsoft -->
+<message:AIXMBasicMessage
+        xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+        xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/draft_0.7/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+
+    <message:hasMember>
+        <aixm:GuidanceLine gml:id="uuid.66ec0e97-5d40-4ca8-bf42-35f8e93723bb">
+            <gml:identifier codeSpace="urn:uuid:">66ec0e97-5d40-4ca8-bf42-35f8e93723bb</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:GuidanceLineTimeSlice gml:id="guidts1242522206.2N0322230.8W">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vttlofsa260141">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="lttlofsa260141">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>242</aixm:designator>
+                    <aixm:extent>
+                        <aixm:ElevatedCurve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="crv1242">
+                            <aixm:verticalAccuracy>50</aixm:verticalAccuracy>
+                            <aixm:elevation>20</aixm:elevation>
+                            <gml:segments>
+                                <gml:GeodesicString>
+                                    <gml:posList>52.37464269376479 -31.94655407346698 52.372661895885464 -31.946298658872173 52.37249328436266 -31.946309509256167 52.37226938754995 -31.946412846246652 52.372166050559464 -31.946602297395877 52.3720797641724 -31.948219693525278</gml:posList>
+                                </gml:GeodesicString>
+                            </gml:segments>
+                        </aixm:ElevatedCurve>
+                    </aixm:extent>
+                    <aixm:connectedTaxiway xlink:href="urn:uuid:78396f68-9c03-438a-a6b4-331157b1a79c"/>
+                </aixm:GuidanceLineTimeSlice>
+            </aixm:timeSlice>
+        </aixm:GuidanceLine>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:GuidanceLine gml:id="uuid.66ec0e97-5d40-4ca8-bf42-35f8e93723bc">
+            <gml:identifier codeSpace="urn:uuid:">66ec0e97-5d40-4ca8-bf42-35f8e93723bb</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:GuidanceLineTimeSlice gml:id="guidts1242522206.2N0322230.8W">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vttlofsa260141">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="lttlofsa260141">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>242</aixm:designator>
+                    <aixm:extent>
+                        <aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="crv1242">
+                            <aixm:verticalAccuracy>50</aixm:verticalAccuracy>
+                            <aixm:elevation>20</aixm:elevation>
+                            <gml:segments>
+                                <gml:GeodesicString>
+                                    <gml:posList>52.37464269376479 -31.94655407346698 52.372661895885464 -31.946298658872173 52.37249328436266 -31.946309509256167 52.37226938754995 -31.946412846246652 52.372166050559464 -31.946602297395877 52.3720797641724 -31.948219693525278</gml:posList>
+                                </gml:GeodesicString>
+                            </gml:segments>
+                        </aixm:ElevatedSurface>
+                    </aixm:extent>
+                    <aixm:connectedTaxiway xlink:href="urn:uuid:78396f68-9c03-438a-a6b4-331157b1a79c"/>
+                </aixm:GuidanceLineTimeSlice>
+            </aixm:timeSlice>
+        </aixm:GuidanceLine>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:GuidanceLine gml:id="uuid.66ec0e97-5d40-4ca8-bf42-35f8e93723be">
+            <gml:identifier codeSpace="urn:uuid:">66ec0e97-5d40-4ca8-bf42-35f8e93723bb</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:GuidanceLineTimeSlice gml:id="guidts1242522206.2N0322230.8W">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vttlofsa260141">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="lttlofsa260141">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>242</aixm:designator>
+                    <aixm:extent>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="crv1242">
+                            <aixm:verticalAccuracy>50</aixm:verticalAccuracy>
+                            <aixm:elevation>40</aixm:elevation>
+                            <gml:segments>
+                                <gml:GeodesicString>
+                                    <gml:posList>52.37464269376479 -31.94655407346698 52.372661895885464 -31.946298658872173 52.37249328436266 -31.946309509256167 52.37226938754995 -31.946412846246652 52.372166050559464 -31.946602297395877 52.3720797641724 -31.948219693525278</gml:posList>
+                                </gml:GeodesicString>
+                            </gml:segments>
+                        </aixm:ElevatedPoint>
+                    </aixm:extent>
+                    <aixm:connectedTaxiway xlink:href="urn:uuid:78396f68-9c03-438a-a6b4-331157b1a79c"/>
+                </aixm:GuidanceLineTimeSlice>
+            </aixm:timeSlice>
+        </aixm:GuidanceLine>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>

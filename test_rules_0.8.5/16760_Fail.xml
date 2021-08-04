@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Donlon.xsl"?>
+<!-- This file includes contributions from Luciad, EUROCONTROL, Comsoft -->
+<message:AIXMBasicMessage
+        xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+        xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/draft_0.7/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+    <aixm:messageMetadata>
+        <gmd:MD_Metadata id="MD_DONLON_MESSAGE">
+            <gmd:characterSet>
+                <gmd:MD_CharacterSetCode codeList="http://www.aixm.aero/schema/5.1/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+            </gmd:characterSet>
+            <gmd:contact>
+                <gmd:CI_ResponsibleParty id="MessageContact">
+                    <gmd:organisationName>
+                        <gco:CharacterString>EUROCONTROL</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:onlineResource>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://www.eurocontrol.int</gmd:URL>
+                                    </gmd:linkage>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.aixm.aero/schema/5.1/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:contact>
+            <gmd:dateStamp>
+                <gco:DateTime>2013-04-23T12:00:00Z</gco:DateTime>
+            </gmd:dateStamp>
+            <gmd:identificationInfo>
+                <gmd:MD_DataIdentification>
+                    <gmd:citation>
+                        <gmd:CI_Citation id="MessageCitation">
+                            <gmd:title>
+                                <gco:CharacterString>DONLON Sample</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:DateTime>2013-04-23T00:00:00Z</gco:DateTime>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode codeList="http://www.aixm.aero/schema/5.1/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                        </gmd:CI_Citation>
+                    </gmd:citation>
+                    <gmd:abstract>
+                        <gco:CharacterString>Donlon  sample data, including Digital NOTAM Events; initially created by Luciad (www.luciad.be); currently maintained by Eurocontrol.</gco:CharacterString>
+                    </gmd:abstract>
+                    <gmd:pointOfContact>
+                        <gmd:CI_ResponsibleParty id="MessagePOC">
+                            <gmd:individualName>
+                                <gco:CharacterString>Eduard Porosnicu</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Eurocontrol</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>www.aixm.aero</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:name>
+                                                <gco:CharacterString>AIXM 5.1 website</gco:CharacterString>
+                                            </gmd:name>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.aixm.aero/schema/5.1/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:pointOfContact>
+                    <gmd:resourceConstraints>
+                        <gmd:MD_Constraints id="MessageConstraints">
+                            <gmd:useLimitation>
+                                <gco:CharacterString>To be used for demonstration purposes only! Any opreational usage is prohibited!</gco:CharacterString>
+                            </gmd:useLimitation>
+                        </gmd:MD_Constraints>
+                    </gmd:resourceConstraints>
+                    <gmd:language>
+                        <gco:CharacterString>eng</gco:CharacterString>
+                    </gmd:language>
+                    <gmd:topicCategory>
+                        <gmd:MD_TopicCategoryCode>transportation</gmd:MD_TopicCategoryCode>
+                    </gmd:topicCategory>
+                    <gmd:extent>
+                        <gmd:EX_Extent>
+                            <gmd:geographicElement>
+                                <gmd:EX_GeographicBoundingBox>
+                                    <gmd:westBoundLongitude>
+                                        <gco:Decimal>-47.0</gco:Decimal>
+                                    </gmd:westBoundLongitude>
+                                    <gmd:eastBoundLongitude>
+                                        <gco:Decimal>52.4283333333333</gco:Decimal>
+                                    </gmd:eastBoundLongitude>
+                                    <gmd:southBoundLatitude>
+                                        <gco:Decimal>57.690815969999996</gco:Decimal>
+                                    </gmd:southBoundLatitude>
+                                    <gmd:northBoundLatitude>
+                                        <gco:Decimal>-32.0886111111111</gco:Decimal>
+                                    </gmd:northBoundLatitude>
+                                </gmd:EX_GeographicBoundingBox>
+                            </gmd:geographicElement>
+                        </gmd:EX_Extent>
+                    </gmd:extent>
+                </gmd:MD_DataIdentification>
+            </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+    </aixm:messageMetadata>
+
+    <message:hasMember>
+        <aixm:Airspace gml:id="uuid.fdaeffb4-6897-41fb-a33d-8861c2e91e69">
+            <gml:identifier codeSpace="urn:uuid:">fdaeffb4-6897-41fb-a33d-8861c2e91e69</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="uuid.56dfe479-2929-46aa-b775-ab6f0ba30ccb">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.820fdbbb-55d4-4f45-9d59-d770e5faec95">
+                            <gml:beginPosition>2011-01-13T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.5e9c790e-b91b-4182-946d-145b6e0196de">
+                            <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>CTA</aixm:type>
+                    <aixm:designator>EAMMb</aixm:designator>
+                    <aixm:name>MAGNETTO OCA</aixm:name>
+                    <aixm:designatorICAO>YES</aixm:designatorICAO>
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="uuid.4344f989-50b4-4cb0-9920-870ccd89429f">
+                            <aixm:operation>BASE</aixm:operation>
+                            <aixm:operationSequence></aixm:operationSequence>
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="uuid.59160a8e-a015-42ed-8346-34bc65436a72">
+                                    <aixm:contributorAirspace>
+                                        <aixm:AirspaceVolumeDependency gml:id="uuid.43a4e8ff-7995-492c-aa8f-50ef2c29b679">
+                                            <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                                            <aixm:theAirspace xlink:href="urn:uuid:0df377fe-dd53-4d60-b6c4-6546ef31d26b"/>
+                                        </aixm:AirspaceVolumeDependency>
+                                    </aixm:contributorAirspace>
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="uuid.e8995bfd-8f47-401e-84d5-81154957ad53">
+                            <aixm:operation>BASE</aixm:operation>
+                            <aixm:operationSequence>1</aixm:operationSequence>
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="uuid.a91c0703-1a24-4c0a-a97b-f7a77ae6cdf2">
+                                    <aixm:contributorAirspace>
+                                        <aixm:AirspaceVolumeDependency gml:id="uuid.28854643-aca8-46e6-a199-57bf0d02a6e2">
+                                            <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                                            <aixm:theAirspace xlink:href="urn:uuid:010d8451-d751-4abb-9c71-f48ad024045b"/>
+                                        </aixm:AirspaceVolumeDependency>
+                                    </aixm:contributorAirspace>
+                                    <aixm:centreline>
+                                        <aixm:AirspaceVolumeDependency gml:id="uuid.28854643-aca8-46e6-a199-57bf0d02a6e2">
+                                            <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                                            <aixm:theAirspace xlink:href="urn:uuid:010d8451-d751-4abb-9c71-f48ad024045b"/>
+                                        </aixm:AirspaceVolumeDependency>
+                                    </aixm:centreline>
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="uuid.56dfe479-2929-46aa-b775-ab6f0ba30ccb">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.820fdbbb-55d4-4f45-9d59-d770e5faec95">
+                            <gml:beginPosition>2011-01-13T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.5e9c790e-b91b-4182-946d-145b6e0196de">
+                            <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>CTB</aixm:type>
+                    <aixm:designator>EAMMb</aixm:designator>
+                    <aixm:name>MAGNETTO OCA</aixm:name>
+                    <aixm:designatorICAO>YES</aixm:designatorICAO>
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="uuid.4344f989-50b4-4cb0-9920-870ccd89429f">
+                            <aixm:operation>BASE</aixm:operation>
+                            <aixm:operationSequence></aixm:operationSequence>
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="uuid.59160a8e-a015-42ed-8346-34bc65436a72">
+                                    <aixm:contributorAirspace>
+                                        <aixm:AirspaceVolumeDependency gml:id="uuid.43a4e8ff-7995-492c-aa8f-50ef2c29b679">
+                                            <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                                            <aixm:theAirspace xlink:href="urn:uuid:0df377fe-dd53-4d60-b6c4-6546ef31d26b"/>
+                                        </aixm:AirspaceVolumeDependency>
+                                    </aixm:contributorAirspace>
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="uuid.e8995bfd-8f47-401e-84d5-81154957ad53">
+                            <aixm:operation>BASE</aixm:operation>
+                            <aixm:operationSequence>1</aixm:operationSequence>
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="uuid.a91c0703-1a24-4c0a-a97b-f7a77ae6cdf2">
+                                    <aixm:contributorAirspace>
+                                        <aixm:AirspaceVolumeDependency gml:id="uuid.28854643-aca8-46e6-a199-57bf0d02a6e2">
+                                            <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                                            <aixm:theAirspace xlink:href="urn:uuid:010d8451-d751-4abb-9c71-f48ad024045b"/>
+                                        </aixm:AirspaceVolumeDependency>
+                                    </aixm:contributorAirspace>
+                                    <aixm:centreline>
+                                        <aixm:AirspaceVolumeDependency gml:id="uuid.28854643-aca8-46e6-a199-57bf0d02a6e2">
+                                            <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                                            <aixm:theAirspace xlink:href="urn:uuid:010d8451-d751-4abb-9c71-f48ad024045b"/>
+                                        </aixm:AirspaceVolumeDependency>
+                                    </aixm:centreline>
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+</message:AIXMBasicMessage>

@@ -1,0 +1,215 @@
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+
+    <message:hasMember>
+        <aixm:Navaid gml:id="uuid.4316fc95-f2f7-4789-a249-3afc0b5cc27a">
+            <gml:identifier codeSpace="urn:uuid:">4316fc95-f2f7-4789-a249-3afc0b5cc27a</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="NAVTSOSTO">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtNAVOSTO">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltNAVOSTO">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>TACAN</aixm:type>
+                    <aixm:designator>OST</aixm:designator>
+                    <aixm:name>OSTO</aixm:name>
+                    <aixm:navaidEquipment>
+                        <aixm:NavaidComponent gml:id="N-NAVOSTO">
+                            <aixm:collocationGroup>1</aixm:collocationGroup>
+                            <aixm:theNavaidEquipment xlink:href="urn:uuid:3e33bd78-0b9c-4d27-9060-901fcb02fa47"/>
+                        </aixm:NavaidComponent>
+                    </aixm:navaidEquipment>
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="navelNAVOSTO">
+                            <gml:pos>52.51077777 -33.51136111</gml:pos>
+                            <aixm:elevation uom="M">15.0</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:Navaid gml:id="uuid.08a1bbd5-ea70-4fe3-836a-ea9686349495">
+            <gml:identifier codeSpace="urn:uuid:">08a1bbd5-ea70-4fe3-836a-ea9686349495</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="NAVTSNONAME1">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtNONAME12">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltNONAME12">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>VOR_DME</aixm:type>
+                    <aixm:designator>BOR</aixm:designator>
+                    <aixm:name>BOORSPIJK</aixm:name>
+                    <aixm:flightChecked>YES</aixm:flightChecked>
+                    <aixm:purpose>ENROUTE</aixm:purpose>
+                    <aixm:navaidEquipment>
+                        <aixm:NavaidComponent gml:id="N-df8103a4">
+                            <aixm:collocationGroup>1</aixm:collocationGroup>
+                            <aixm:theNavaidEquipment xlink:href="urn:uuid:7692166e-60e6-467d-b5f0-c728aeae85d6"/>
+                        </aixm:NavaidComponent>
+                    </aixm:navaidEquipment>
+                    <aixm:navaidEquipment>
+                        <aixm:NavaidComponent gml:id="N-df8103a5">
+                            <aixm:collocationGroup>1</aixm:collocationGroup>
+                            <aixm:theNavaidEquipment xlink:href="urn:uuid:0a45a38f-0f96-4ace-b09e-310ac0415693"/>
+                        </aixm:NavaidComponent>
+                    </aixm:navaidEquipment>
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="navelNONAME1">
+                            <gml:pos>52.36833333333333 -32.375</gml:pos>
+                            <aixm:elevation uom="M">60.0</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </message:hasMember>
+
+
+
+    <message:hasMember>
+        <aixm:DME gml:id="uuid.7692166e-60e6-467d-b5f0-c728aeae85d6">
+            <gml:identifier codeSpace="urn:uuid:">7692166e-60e6-467d-b5f0-c728aeae85d6</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:DMETimeSlice gml:id="dmeNONAME1">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtNONAME13">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltNONAME13">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>BOR</aixm:designator>
+                    <aixm:name>BOORSPIJK</aixm:name>
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="el450">
+                            <gml:pos>52.36833333333333 -32.375</gml:pos>
+                            <aixm:elevation uom="M">30.0</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:authority>
+                        <aixm:AuthorityForNavaidEquipment gml:id="A-e5cfe38d">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:c225ae5c-540f-4a48-8867-809b393b2407"/>
+                        </aixm:AuthorityForNavaidEquipment>
+                    </aixm:authority>
+                    <aixm:channel>102X</aixm:channel>
+                </aixm:DMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:DME>
+    </message:hasMember>
+
+
+    <message:hasMember>
+    <aixm:VOR gml:id="uuid.0a45a38f-0f96-4ace-b09e-310ac0415693">
+        <gml:identifier codeSpace="urn:uuid:">0a45a38f-0f96-4ace-b09e-310ac0415693</gml:identifier>
+        <aixm:timeSlice>
+            <aixm:VORTimeSlice gml:id="BOR_VOR">
+                <gml:validTime>
+                    <gml:TimePeriod gml:id="BOR_VOR_TP_1">
+                        <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                        <gml:endPosition indeterminatePosition="unknown"/>
+                    </gml:TimePeriod>
+                </gml:validTime>
+                <aixm:interpretation>BASELINE</aixm:interpretation>
+                <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                <aixm:featureLifetime>
+                    <gml:TimePeriod gml:id="BOR_VOR_TP_2">
+                        <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                        <gml:endPosition indeterminatePosition="unknown"/>
+                    </gml:TimePeriod>
+                </aixm:featureLifetime>
+                <aixm:designator>BOR</aixm:designator>
+                <aixm:name>BOORSPIJK</aixm:name>
+                <aixm:magneticVariation>-7</aixm:magneticVariation>
+                <aixm:location>
+                    <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="BOR_VOR_EP">
+                        <gml:pos>52.36833333 -32.375</gml:pos>
+                        <aixm:elevation uom="M">30.0</aixm:elevation>
+                    </aixm:ElevatedPoint>
+                </aixm:location>
+                <aixm:authority>
+                    <aixm:AuthorityForNavaidEquipment gml:id="BOR_VOR_AUTH">
+                        <aixm:theOrganisationAuthority xlink:href="urn:uuid:c225ae5c-540f-4a48-8867-809b393b2407"/>
+                    </aixm:AuthorityForNavaidEquipment>
+                </aixm:authority>
+                <aixm:frequency uom="MHZ">115.5</aixm:frequency>
+            </aixm:VORTimeSlice>
+        </aixm:timeSlice>
+    </aixm:VOR>
+    </message:hasMember>
+
+    <message:hasMember>
+    <aixm:TACAN gml:id="uuid.3e33bd78-0b9c-4d27-9060-901fcb02fa47">
+        <gml:identifier codeSpace="urn:uuid:">3e33bd78-0b9c-4d27-9060-901fcb02fa47</gml:identifier>
+        <aixm:timeSlice>
+            <aixm:TACANTimeSlice gml:id="TACANOSTO">
+                <gml:validTime>
+                    <gml:TimePeriod gml:id="vtTACANOSTO">
+                        <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                        <gml:endPosition indeterminatePosition="unknown"/>
+                    </gml:TimePeriod>
+                </gml:validTime>
+                <aixm:interpretation>BASELINE</aixm:interpretation>
+                <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                <aixm:featureLifetime>
+                    <gml:TimePeriod gml:id="ltTACANOSTO">
+                        <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                        <gml:endPosition indeterminatePosition="unknown"/>
+                    </gml:TimePeriod>
+                </aixm:featureLifetime>
+                <aixm:designator>OST</aixm:designator>
+                <aixm:name>OSTO</aixm:name>
+                <aixm:magneticVariation>-3.0</aixm:magneticVariation>
+                <aixm:dateMagneticVariation>1990</aixm:dateMagneticVariation>
+                <aixm:location>
+                    <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="elTACANOSTO">
+                        <gml:pos>52.51077777 -33.51136111</gml:pos>
+                        <aixm:elevation uom="M">15.0</aixm:elevation>
+                    </aixm:ElevatedPoint>
+                </aixm:location>
+                <aixm:authority>
+                    <aixm:AuthorityForNavaidEquipment gml:id="A-TACANOSTO">
+                        <aixm:theOrganisationAuthority xlink:href="urn:uuid:1e1bdf59-3dd6-4f96-9166-e6095e7231fc"/>
+                    </aixm:AuthorityForNavaidEquipment>
+                </aixm:authority>
+                <aixm:channel>119X</aixm:channel>
+            </aixm:TACANTimeSlice>
+        </aixm:timeSlice>
+    </aixm:TACAN>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>

@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Donlon.xsl"?>
+<!-- This file includes contributions from Luciad, EUROCONTROL, Comsoft -->
+<message:AIXMBasicMessage
+        xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+        xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/draft_0.7/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+
+    <!--EC541-->
+    <message:hasMember>
+        <aixm:EnRouteSegmentPointTimeSlice>
+            <aixm:pointChoice>
+                <aixm:SignificantPoint>
+                    <aixm:navaidSystem xlink:href="urn:uuid:fdaeffb4-6897-41fb-a33d-8861c2e91e70">
+                    </aixm:navaidSystem>
+                </aixm:SignificantPoint>
+            </aixm:pointChoice>
+        </aixm:EnRouteSegmentPointTimeSlice>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:Navaid gml:id="uuid.fdaeffb4-6897-41fb-a33d-8861c2e91e70">
+            <gml:identifier codeSpace="urn:uuid:">fdaeffb4-6897-41fb-a33d-8861c2e91e70</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="uuid.56dfe479-2929-46aa-b775-ab6f0ba30ccb">
+                    <aixm:location>
+                        <aixm:ElevatedPoint>
+                            <aixm:horizontalAccuracy uom="FT">400.0</aixm:horizontalAccuracy>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </message:hasMember>
+
+
+    <!--EC542-->
+    <message:hasMember>
+        <aixm:EnRouteSegmentPointTimeSlice>
+            <aixm:pointChoice>
+                <aixm:SignificantPoint>
+                    <aixm:fixDesignatedPoint xlink:href="urn:uuid:fdaeffb4-6897-41fb-a33d-8861c2e91e71">
+                    </aixm:fixDesignatedPoint>
+                </aixm:SignificantPoint>
+            </aixm:pointChoice>
+        </aixm:EnRouteSegmentPointTimeSlice>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:DesignatedPoint gml:id="uuid.fdaeffb4-6897-41fb-a33d-8861c2e91e71">
+            <gml:identifier codeSpace="urn:uuid:">fdaeffb4-6897-41fb-a33d-8861c2e91e71</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:DesignatedPointTimeSlice gml:id="uuid.56dfe479-2929-46aa-b775-ab6f0ba30ccc">
+                    <aixm:location>
+                        <aixm:Point>
+                            <aixm:horizontalAccuracy uom="M">300.0</aixm:horizontalAccuracy>
+                        </aixm:Point>
+                    </aixm:location>
+                </aixm:DesignatedPointTimeSlice>
+            </aixm:timeSlice>
+        </aixm:DesignatedPoint>
+    </message:hasMember>
+
+
+    <!--EC544-->
+    <message:hasMember>
+        <aixm:EnRouteSegmentPointTimeSlice>
+            <aixm:pointChoice>
+                <aixm:SignificantPoint>
+                    <aixm:navaidSystem xlink:href="urn:uuid:fdaeffb4-6897-41fb-a33d-8861c2e91e73">
+                    </aixm:navaidSystem>
+                </aixm:SignificantPoint>
+            </aixm:pointChoice>
+        </aixm:EnRouteSegmentPointTimeSlice>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:Navaid gml:id="uuid.fdaeffb4-6897-41fb-a33d-8861c2e91e73">
+            <gml:identifier codeSpace="urn:uuid:">fdaeffb4-6897-41fb-a33d-8861c2e91e73</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="uuid.56dfe479-2929-46aa-b775-ab6f0ba30ccb">
+                    <aixm:location>
+                        <aixm:ElevatedPoint>
+                            <aixm:horizontalAccuracy uom="M">400.0</aixm:horizontalAccuracy>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>
