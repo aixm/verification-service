@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+    
+    <!-- D8CC2 -->
+    
+    <message:hasMember>
+        <aixm:AerialRefuelling gml:id="urn.uuid.9d4a3d87-0637-46f1-9cca-9936287135b6">
+            <gml:identifier codeSpace="urn:uuid:">9d4a3d87-0637-46f1-9cca-9936287135b6</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AerialRefuellingTimeSlice gml:id="ID_D8CC2_02">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_D8CC2_03">
+                            <gml:beginPosition>2020-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>        
+                    
+                    <aixm:designatorPrefix>AR</aixm:designatorPrefix>
+                    <aixm:designatorNumber>1</aixm:designatorNumber>
+                    <aixm:designatorSuffix>DONLON</aixm:designatorSuffix>
+                    
+                    <aixm:anchor>                          
+                        <aixm:AerialRefuellingAnchor gml:id="ID_D8CC2_04">
+                            
+                            <!-- ERROR: legSeparation must have uom -->
+                            <aixm:legSeparation>1</aixm:legSeparation>
+                        </aixm:AerialRefuellingAnchor>
+                    </aixm:anchor>
+                    
+                </aixm:AerialRefuellingTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AerialRefuelling>
+    </message:hasMember>
+</message:AIXMBasicMessage>
+
+
