@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+            <gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+            <gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+    
+    <message:hasMember>
+        <aixm:ArrivalLeg gml:id="uuid.80e911b2-8168-462b-ac16-41ad35a9ac35">
+            <gml:identifier codeSpace="urn:uuid:">80e911b2-8168-462b-ac16-41ad35a9ac35</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:ArrivalLegTimeSlice gml:id="ID_156C61_05">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_156C61_06">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                </aixm:ArrivalLegTimeSlice>
+            </aixm:timeSlice>
+        </aixm:ArrivalLeg>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:ProcedureDME gml:id="ID_156C61_01">
+            <aixm:timeSlice>
+                <aixm:ProcedureDMETimeSlice gml:id="ID_156C61_02">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_156C61_03">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:segmentLeg xlink:href="urn:uuid:80e911b2-8168-462b-ac16-41ad35a9ac35"/>
+                    
+                </aixm:ProcedureDMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:ProcedureDME>
+    </message:hasMember>
+    
+    
+</message:AIXMBasicMessage>
