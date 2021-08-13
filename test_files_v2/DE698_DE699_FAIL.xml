@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- DE699 -->
+    
+    <message:hasMember>
+        <aixm:ApronElement gml:id="uuid.423bfcd2-06fd-492d-8ab6-c28062a01060">
+            <gml:identifier codeSpace="urn:uuid:">423bfcd2-06fd-492d-8ab6-c28062a01060</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:ApronElementTimeSlice gml:id="ID_DE699_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_DE699_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:extent>
+                        <aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DE699_03">
+                            <gml:patches>
+                                <gml:PolygonPatch>
+                                    <gml:exterior>
+                                        <gml:Ring>
+                                            <gml:curveMember>
+                                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DE699_04">
+                                                    <gml:segments>
+                                                        <gml:GeodesicString>
+                                                            <gml:posList>21.235689 12.235689 22.235689 13.235689 23.235689 14.235689 21.235689 12.235689</gml:posList>
+                                                        </gml:GeodesicString>
+                                                    </gml:segments>
+                                                </aixm:Curve>
+                                            </gml:curveMember>
+                                        </gml:Ring>
+                                    </gml:exterior>
+                                </gml:PolygonPatch>
+                            </gml:patches>
+                            
+                            <!-- ERROR horizontalAccuracy value should not be higher than 1.0 id uom="M" -->
+                            <aixm:horizontalAccuracy uom="M">2.75</aixm:horizontalAccuracy>
+                            
+                        </aixm:ElevatedSurface>
+                    </aixm:extent>
+                    
+                </aixm:ApronElementTimeSlice>
+            </aixm:timeSlice>
+        </aixm:ApronElement>
+    </message:hasMember>
+    
+    
+</message:AIXMBasicMessage>
+
+
