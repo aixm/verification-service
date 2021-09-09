@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 1A2F23 -->
+    
+    <message:hasMember>
+        <aixm:AeronauticalGroundLight gml:id="uuid.6fc5c911-a4c6-4a13-ab56-183f3960e8cc">
+            <gml:identifier codeSpace="urn:uuid:">6fc5c911-a4c6-4a13-ab56-183f3960e8cc</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AeronauticalGroundLightTimeSlice gml:id="ID_1A2F23_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A2F23_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:name>DONLON GROUNDLIGHT 1</aixm:name>
+                    <aixm:type>BCN</aixm:type>
+                    
+                    <aixm:structureBeacon xlink:href="urn:uuid:7252747b-0c07-4026-b3c5-d0971a982ea0"/>
+                    
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_1A2F23_03">
+                            <gml:pos>12.235689 23.235689</gml:pos>
+                            <aixm:elevation uom="M">256</aixm:elevation>
+                            <aixm:verticalAccuracy uom="M">0.1</aixm:verticalAccuracy>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    
+                    <aixm:annotation>
+                        <aixm:Note gml:id="ID_1A2F23_04">
+                            
+                            <!-- ERROR propertyName should not have value other than 'name', 'type', 'colour', 'flashing', 'structureBeacon', 'aerodromeBeacon', 'location' -->
+                            <aixm:propertyName>designator</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    
+                </aixm:AeronauticalGroundLightTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AeronauticalGroundLight>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:VerticalStructure gml:id="uuid.7252747b-0c07-4026-b3c5-d0971a982ea0">
+            <gml:identifier codeSpace="urn:uuid:">7252747b-0c07-4026-b3c5-d0971a982ea0</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:VerticalStructureTimeSlice gml:id="ID_1A2F23_05">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A2F23_06">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:type>ANTENNA</aixm:type>
+                    <aixm:lighted>YES</aixm:lighted>
+                    <aixm:group>NO</aixm:group>
+                    
+                    <aixm:part>
+                        <aixm:VerticalStructurePart gml:id="ID_1A2F23_07">
+                            <aixm:horizontalProjection_location>
+                                <aixm:ElevatedPoint gml:id="ID_1A2F23_08" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos>12.235698 34.456897</gml:pos>
+                                    <aixm:elevation uom="M">256</aixm:elevation>
+                                    <aixm:verticalAccuracy uom="M">0.1</aixm:verticalAccuracy>
+                                </aixm:ElevatedPoint>
+                            </aixm:horizontalProjection_location>
+                        </aixm:VerticalStructurePart>
+                    </aixm:part>
+                    
+                    <aixm:part>
+                        <aixm:VerticalStructurePart gml:id="ID_1A2F23_09">
+                            <aixm:horizontalProjection_linearExtent>
+                                <aixm:ElevatedCurve gml:id="ID_1A2F23_10" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:segments>
+                                        <gml:Arc>
+                                            <gml:posList>12.123456 13.123456 14.123456</gml:posList>
+                                        </gml:Arc>
+                                    </gml:segments>
+                                    
+                                    <aixm:elevation uom="M">256</aixm:elevation>
+                                    <aixm:verticalAccuracy uom="M">0.1</aixm:verticalAccuracy>
+                                    
+                                </aixm:ElevatedCurve>                               
+                            </aixm:horizontalProjection_linearExtent>
+                        </aixm:VerticalStructurePart>
+                    </aixm:part>
+                    
+                </aixm:VerticalStructureTimeSlice>
+            </aixm:timeSlice>
+        </aixm:VerticalStructure>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
