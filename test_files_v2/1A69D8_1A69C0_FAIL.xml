@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 1A69C0 -->
+    
+    <!-- CirclingArea.approach value resolved into exactly one InstrumentApproachProcedure -->
+    
+    <message:hasMember>
+        <aixm:CirclingArea gml:id="uuid.201a7d73-4087-4c93-93a1-f6fa5e39d090">
+            <gml:identifier codeSpace="urn:uuid:">201a7d73-4087-4c93-93a1-f6fa5e39d090</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:CirclingAreaTimeSlice gml:id="ID_1A69C0_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A69C0_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <!-- ERROR -->
+                    <aixm:approach xlink:href="urn:uuid:785e071d-cfa0-4108-aaa2-965818f62af1"/>
+                    
+                </aixm:CirclingAreaTimeSlice>
+            </aixm:timeSlice>
+        </aixm:CirclingArea>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:InstrumentApproachProcedure gml:id="uuid.785e071d-cfa0-4108-aaa2-965818f62af7">
+            <gml:identifier codeSpace="urn:uuid:">785e071d-cfa0-4108-aaa2-965818f62af7</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:InstrumentApproachProcedureTimeSlice gml:id="ID_1A69C0_03">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A69C0_04">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:name>ILS123</aixm:name>
+                    <aixm:airportHeliport xlink:href="urn:uuid:0661c9e8-8cd5-430e-a7b6-b9ed9dab943a "/>
+                    <aixm:approachType>ILS</aixm:approachType>
+                    
+                </aixm:InstrumentApproachProcedureTimeSlice>
+            </aixm:timeSlice>
+        </aixm:InstrumentApproachProcedure>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.e5efdb3a-c5e4-4f96-a4b7-5126d8778814">
+            <gml:identifier codeSpace="urn:uuid:">e5efdb3a-c5e4-4f96-a4b7-5126d8778814</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_1A69C0_05">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_1A69C0_06">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:name>DONLON</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:AirportHeliport gml:id="uuid.0661c9e8-8cd5-430e-a7b6-b9ed9dab943a ">
+            <gml:identifier codeSpace="urn:uuid:">0661c9e8-8cd5-430e-a7b6-b9ed9dab943a </gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirportHeliportTimeSlice gml:id="ID_1A69C0_07">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_1A69C0_08">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:designator>EADH</aixm:designator>
+                    <aixm:name>DONLON AIRPORT 1</aixm:name>
+                    <aixm:type>AD</aixm:type>
+                    <aixm:responsibleOrganisation>
+                        <aixm:AirportHeliportResponsibilityOrganisation gml:id="ID_1A69C0_09">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:e5efdb3a-c5e4-4f96-a4b7-5126d8778814"/>
+                        </aixm:AirportHeliportResponsibilityOrganisation>
+                    </aixm:responsibleOrganisation>
+                    <aixm:ARP>
+                        <aixm:ElevatedPoint gml:id="ID_1A69C0_10" srsName="urn:ogc:def:crs:EPSG::4326">
+                            <gml:pos>53.411256 14.547895</gml:pos>
+                            <aixm:elevation uom="M">1212</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:ARP>
+                </aixm:AirportHeliportTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirportHeliport>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
