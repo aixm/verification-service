@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+    gml:id="M00001">
+    
+    <!-- 1B2D0A -->
+    
+    <message:hasMember>
+        <aixm:GeoBorder gml:id="urn.uuid.bbeb9e26-de0e-4a4e-8c2f-5f4950ed444e">
+            <gml:identifier codeSpace="urn:uuid:">bbeb9e26-de0e-4a4e-8c2f-5f4950ed444e</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:GeoBorderTimeSlice gml:id="ID_1B2D0A_01">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_1B2D0A_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:name>DONLON GEOBORDER 1</aixm:name>
+                    <aixm:type>WATER</aixm:type>
+                    
+                    <aixm:border>
+                        
+                        <!-- ERROR - No srsName value -->
+                        <aixm:ElevatedCurve gml:id="ID_1B2D0A_03">
+                            <gml:segments>
+                                <gml:GeodesicString>
+                                    <gml:posList>25.652485 48.532658 26.356898 49.5874621 26.846985 49.67458214 25.652485 48.532658</gml:posList>
+                                </gml:GeodesicString>
+                            </gml:segments>
+                        </aixm:ElevatedCurve>
+                    </aixm:border>
+                    
+                </aixm:GeoBorderTimeSlice>
+            </aixm:timeSlice>
+        </aixm:GeoBorder>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
+
