@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 1B4861 -->
+    
+    <message:hasMember>
+        <aixm:AirportHeliport gml:id="uid.696cde4a-e8b2-45b8-9d98-0e5dec85af92">
+            <gml:identifier codeSpace="urn:uuid:">696cde4a-e8b2-45b8-9d98-0e5dec85af92</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirportHeliportTimeSlice gml:id="ID_1B4861_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1B4861_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>EADH</aixm:designator>
+                    <aixm:name>DONLON AIRPORT</aixm:name>
+                    <aixm:fieldElevation uom="M">112</aixm:fieldElevation>
+                    
+                    <aixm:responsibleOrganisation>
+                        <aixm:AirportHeliportResponsibilityOrganisation gml:id="ID_1B4861_05">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:84c9ea3f-ce58-4ffa-ba5c-65611c5894fa"/>
+                        </aixm:AirportHeliportResponsibilityOrganisation>
+                    </aixm:responsibleOrganisation>
+                    
+                    <aixm:ARP>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_1B4861_03">
+                            <gml:pos>25.123456 35.654321</gml:pos>
+                            <aixm:elevation uom="M">112</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:ARP>
+                    
+                </aixm:AirportHeliportTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirportHeliport>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.84c9ea3f-ce58-4ffa-ba5c-65611c5894fa">
+            <gml:identifier codeSpace="urn:uuid:">84c9ea3f-ce58-4ffa-ba5c-65611c5894fa</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_1B4861_11">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1B4861_12">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:name>DONLON AIRPORT</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                    
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:Runway gml:id="uuid.e475554c-2e08-4adf-8105-69caf66def66">
+            <gml:identifier codeSpace="urn:uuid:">e475554c-2e08-4adf-8105-69caf66def66</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:RunwayTimeSlice gml:id="ID_1B4861_13">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1B4861_14">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    
+                    <aixm:designator>01/19</aixm:designator>
+                    <aixm:type>RWY</aixm:type>
+                    <aixm:associatedAirportHeliport xlink:href="urn:uuid:696cde4a-e8b2-45b8-9d98-0e5dec85af92"/>
+                    
+                </aixm:RunwayTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Runway>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:Runway gml:id="uuid.fefa55a6-d7f4-4561-9221-9b6982ba9de8">
+            <gml:identifier codeSpace="urn:uuid:">fefa55a6-d7f4-4561-9221-9b6982ba9de8</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:RunwayTimeSlice gml:id="ID_1B4861_15">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1B4861_16">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    
+                    <!-- ERROR - the same designator value for 2 runways type="RWY" at the same AirportHeliport -->
+                    <aixm:designator>01/19</aixm:designator>
+                    <aixm:type>RWY</aixm:type>
+                    <aixm:associatedAirportHeliport xlink:href="urn:uuid:696cde4a-e8b2-45b8-9d98-0e5dec85af92"/>
+                    
+                </aixm:RunwayTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Runway>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
