@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 1A4A7B -->
+    
+    <!-- AirspaceLayer - If upperLimit.uom is FL or SM the value should be expressed with 1,2 or 3 digits -->
+    
+    <message:hasMember>
+        <aixm:Airspace gml:id="uuid.f4d5e4d4-d84a-481f-b9e3-b359e42c0dff">
+            <gml:identifier codeSpace="urn:uuid:">f4d5e4d4-d84a-481f-b9e3-b359e42c0dff</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="ID_1A4A7B_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A7B_02">
+                            <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ID_1A4A7B_03">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>FIR</aixm:type>
+                    <aixm:designator>EAAD</aixm:designator>
+                    <aixm:name>AMSWELL</aixm:name>
+                    <aixm:designatorICAO>YES</aixm:designatorICAO>
+                    
+                    <aixm:class>
+                        <aixm:AirspaceLayerClass gml:id="ID_1A4A7B_04">
+                            <aixm:classification>A</aixm:classification>
+                            <aixm:associatedLevels>
+                                <aixm:AirspaceLayer gml:id="ID_1A4A7B_05">
+                                    <aixm:upperLimit uom="FL">600</aixm:upperLimit>
+                                    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                                </aixm:AirspaceLayer>
+                            </aixm:associatedLevels>
+                        </aixm:AirspaceLayerClass>
+                    </aixm:class>
+                    
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="ID_1A4A7B_06">
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="ID_1A4A7B_07">
+                                    <aixm:upperLimit uom="FL">600</aixm:upperLimit>
+                                    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                                    <aixm:lowerLimit uom="FL">GND</aixm:lowerLimit>
+                                    <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+                                    <aixm:horizontalProjection>
+                                        <aixm:Surface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_1A4A7B_08">
+                                            <gml:patches>
+                                                <gml:PolygonPatch>
+                                                    <gml:exterior>
+                                                        <gml:Ring>
+                                                            <gml:curveMember>
+                                                                <gml:Curve gml:id="ID_1A4A7B_09">
+                                                                    <gml:segments>
+                                                                        <gml:GeodesicString>
+                                                                            <gml:posList>57.0833333333333 -40.0785 52.85331
+                                                                                -41.7833333333333 48.4666666666667
+                                                                                -41.3333333333333 44.0333333333333 -40.053 42.656
+                                                                                -37.0569 40.7333333333333 -37.1833333333333 41.452
+                                                                                -30.055 43.5166666666667 -21.1333333333333
+                                                                                56.6666666666667 -21.1333333333333
+                                                                                57.0833333333333 -40.098</gml:posList>
+                                                                        </gml:GeodesicString>
+                                                                    </gml:segments>
+                                                                </gml:Curve>
+                                                            </gml:curveMember>
+                                                        </gml:Ring>
+                                                    </gml:exterior>
+                                                </gml:PolygonPatch>
+                                            </gml:patches>
+                                            <aixm:horizontalAccuracy uom="M">2.0</aixm:horizontalAccuracy>
+                                        </aixm:Surface>
+                                    </aixm:horizontalProjection>
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                    
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+</message:AIXMBasicMessage>
