@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 1ADB05 -->
+    
+    <message:hasMember>
+        <aixm:DirectionFinder gml:id="uuid.d6fb7d01-c935-436c-9d54-375ebc3e875b">
+            <gml:identifier codeSpace="urn:uuid:">d6fb7d01-c935-436c-9d54-375ebc3e875b</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:DirectionFinderTimeSlice gml:id="ID_1ADB05_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1ADB05_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_1ADB05_03">
+                            
+                            <!-- Coordinates should not be expressed with less than 4 decimals -->
+                            <gml:pos>12.235689 23.235689</gml:pos>
+                            <aixm:elevation uom="M">121</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    
+                </aixm:DirectionFinderTimeSlice>
+            </aixm:timeSlice>
+        </aixm:DirectionFinder>
+    </message:hasMember>
+    
+    
+</message:AIXMBasicMessage>
