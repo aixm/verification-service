@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 1ABFA9 -->
+    
+    <message:hasMember>
+        <aixm:RadioFrequencyArea gml:id="uuid.83d392bd-e383-4e01-add0-7b47c52c156e">
+            <gml:identifier codeSpace="urn:uuid:">83d392bd-e383-4e01-add0-7b47c52c156e</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:RadioFrequencyAreaTimeSlice gml:id="ID_1ABFA9_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1ABFA9_10">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:type>RHG</aixm:type>
+                    
+                    <aixm:signalType>DISTANCE</aixm:signalType>
+                    
+                    <!-- Value resolved into exactly one SecondarySurveillanceRadar -->
+                    <aixm:equipment_radar xlink:href="urn:uuid:6841449c-ef85-43a6-93ee-24c7b7809ead"/>
+                    
+                </aixm:RadioFrequencyAreaTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RadioFrequencyArea>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.324cdc80-8026-42c1-b7d8-1b6eae1a6cfd">
+            <gml:identifier codeSpace="urn:uuid:">324cdc80-8026-42c1-b7d8-1b6eae1a6cfd</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_1ABFA9_08">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1ABFA9_09">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>DON2</aixm:designator>
+                    
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:SecondarySurveillanceRadar gml:id="uuid.6841449c-ef85-43a6-93ee-24c7b7809ead">
+            <gml:identifier codeSpace="urn:uuid:">6841449c-ef85-43a6-93ee-24c7b7809ead</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:SecondarySurveillanceRadarTimeSlice gml:id="ID_1ABFA9_12">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1ABFA9_11">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    
+                    
+                </aixm:SecondarySurveillanceRadarTimeSlice>
+            </aixm:timeSlice>
+        </aixm:SecondarySurveillanceRadar>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
