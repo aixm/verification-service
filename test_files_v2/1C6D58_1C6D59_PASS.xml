@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 1C6D59 -->
+    
+    <message:hasMember>
+        <aixm:AuthorityForAirspace gml:id="uuid.468a6169-a6a8-450c-bb66-b4f6398cbb05">
+            <gml:identifier codeSpace="urn:uuid:">468a6169-a6a8-450c-bb66-b4f6398cbb05</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AuthorityForAirspaceTimeSlice gml:id="ID_1C6D59_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1C6D59_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:responsibleOrganisation xlink:href="urn:uuid:ebfa33e1-89de-49e9-9b10-cf37bbf138be"/>
+                    <aixm:assignedAirspace xlink:href="urn:uuid:f116bc42-df98-4bb9-af9b-ca99da4d6647"/>
+                    
+                </aixm:AuthorityForAirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AuthorityForAirspace>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:Airspace gml:id="uuid.f116bc42-df98-4bb9-af9b-ca99da4d6647">
+            <gml:identifier codeSpace="urn:uuid:">f116bc42-df98-4bb9-af9b-ca99da4d6647</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="ID_1C6D59_03">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1C6D59_04">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:type>CTR</aixm:type>
+                    <aixm:designator>DONLON CTR</aixm:designator>
+                    
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="ID_1C6D59_05">
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="ID_1C6D59_06">
+                                    
+                                    <!-- minimumLimit should not be higher than the upperLimit -->
+                                    <aixm:upperLimit uom="FT">60000</aixm:upperLimit>
+                                    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                                    <aixm:maximumLimitReference>MSL</aixm:maximumLimitReference>
+                                    <aixm:minimumLimit uom="FT">2000</aixm:minimumLimit>
+                                    
+                                    <aixm:horizontalProjection>
+                                        <aixm:Surface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_1C6D59_07">
+                                            <gml:patches>
+                                                <gml:PolygonPatch>
+                                                    <gml:interior>
+                                                        <gml:LinearRing>
+                                                            <gml:posList>21.123456 41.123456 22.123456 42.123456 23.123456 43.123456 21.123456 41.123456</gml:posList>
+                                                        </gml:LinearRing>
+                                                    </gml:interior>
+                                                </gml:PolygonPatch>
+                                            </gml:patches>
+                                        </aixm:Surface>
+                                    </aixm:horizontalProjection>
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.ebfa33e1-89de-49e9-9b10-cf37bbf138be">
+            <gml:identifier codeSpace="urn:uuid:">ebfa33e1-89de-49e9-9b10-cf37bbf138be</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_1C6D59_08">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1C6D59_09">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:name>DONLON AUTHORITY</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                    
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+
+    
+    
+</message:AIXMBasicMessage>
