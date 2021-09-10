@@ -37,6 +37,7 @@
                         <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_1AA451_04">
                             <gml:pos>25.235689 23.205689</gml:pos>
                             <aixm:horizontalAccuracy uom="M">70</aixm:horizontalAccuracy>
+                            <aixm:elevation uom="M">112</aixm:elevation>
                         </aixm:ElevatedPoint>
                     </aixm:location>
                     
@@ -65,7 +66,10 @@
                     
                     <aixm:location>
                         <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_1AA451_07">
+                            
+                            <!-- Coordinates should be expressed with 5 or more decimals -->
                             <gml:pos>21.235689 12.235689</gml:pos>
+                            <aixm:elevation uom="M">112</aixm:elevation>
                         </aixm:ElevatedPoint>
                     </aixm:location>
                     
@@ -107,6 +111,7 @@
                         <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_1AA451_11">
                             <gml:pos>52.28888888 -32.03555555</gml:pos>
                             <aixm:horizontalAccuracy uom="M">6</aixm:horizontalAccuracy>
+                            <aixm:elevation uom="M">112</aixm:elevation>
                             <aixm:geoidUndulation uom="M">12.0</aixm:geoidUndulation>
                         </aixm:ElevatedPoint>
                     </aixm:ARP>
@@ -129,9 +134,11 @@
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
                     <aixm:name>DONLON</aixm:name>
                     <aixm:designator>DON2</aixm:designator>
                     <aixm:type>ATS</aixm:type>
+                    
                 </aixm:OrganisationAuthorityTimeSlice>
             </aixm:timeSlice>
         </aixm:OrganisationAuthority>
