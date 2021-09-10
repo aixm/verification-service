@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 1B4C49 -->
+    
+    <message:hasMember>
+        <aixm:AuthorityForAirspace gml:id="uuid.fb3b0c89-607d-4f04-97f5-ab1b8af23cef">
+            <gml:identifier codeSpace="urn:uuid:">fb3b0c89-607d-4f04-97f5-ab1b8af23cef</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AuthorityForAirspaceTimeSlice gml:id="ID_1B4C49_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1B4C49_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:responsibleOrganisation xlink:href="urn:uuid:5bbd7dec-c64a-41a6-b96c-a478fd9d7179"/>
+                    <aixm:assignedAirspace xlink:href="urn:uuid:ce3fb608-1a83-4567-b362-ed354fdc7142"/>
+                    
+                </aixm:AuthorityForAirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AuthorityForAirspace>
+    </message:hasMember>
+    
+    
+    <!-- ERROR - second authority for airspace with the same responsibleOrganisation and assignedAirspace values -->
+    <message:hasMember>
+        <aixm:AuthorityForAirspace gml:id="uuid.dc1cbe8d-4776-4daa-a8ea-22139c29a157">
+            <gml:identifier codeSpace="urn:uuid:">dc1cbe8d-4776-4daa-a8ea-22139c29a157</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AuthorityForAirspaceTimeSlice gml:id="ID_1B4C49_03">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1B4C49_04">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:responsibleOrganisation xlink:href="urn:uuid:5bbd7dec-c64a-41a6-b96c-a478fd9d7179"/>
+                    <aixm:assignedAirspace xlink:href="urn:uuid:ce3fb608-1a83-4567-b362-ed354fdc7142"/>
+                    
+                </aixm:AuthorityForAirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AuthorityForAirspace>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:Airspace gml:id="uuid.ce3fb608-1a83-4567-b362-ed354fdc7142">
+            <gml:identifier codeSpace="urn:uuid:">ce3fb608-1a83-4567-b362-ed354fdc7142</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="ID_1B4C49_05">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1B4C49_06">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:type>CTR</aixm:type>
+                    <aixm:designator>DONLON CTR</aixm:designator>
+                    
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="ID_1B4C49_07">
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="ID_1B4C49_08">
+                                    <aixm:horizontalProjection>
+                                        <aixm:Surface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_1B4C49_09">
+                                            <gml:patches>
+                                                <gml:PolygonPatch>
+                                                    <gml:interior>
+                                                        <gml:LinearRing>
+                                                            <gml:posList>21.123456 41.123456 22.123456 42.123456 23.123456 43.123456 21.123456 41.123456</gml:posList>
+                                                        </gml:LinearRing>
+                                                    </gml:interior>
+                                                </gml:PolygonPatch>
+                                            </gml:patches>
+                                        </aixm:Surface>
+                                    </aixm:horizontalProjection>
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                    
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.5bbd7dec-c64a-41a6-b96c-a478fd9d7179">
+            <gml:identifier codeSpace="urn:uuid:">5bbd7dec-c64a-41a6-b96c-a478fd9d7179</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_1B4C49_10">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1B4C49_11">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:name>DONLON AIRPORT</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                    
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
