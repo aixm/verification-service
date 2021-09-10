@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+<!-- 1A3363 -->    
+    
+    <message:hasMember>
+        <aixm:FlightRestriction gml:id="uuid.3e331d9d-31a0-4e13-a2a2-8d798196e9dc">
+            <gml:identifier codeSpace="urn:uuid:">3e331d9d-31a0-4e13-a2a2-8d798196e9dc</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:FlightRestrictionTimeSlice gml:id="ID_1A3363_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A3363_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>ABC</aixm:designator>
+                    <aixm:regulatedRoute>
+                        <aixm:FlightRestrictionRoute gml:id="ID_1A3363_03">
+                            <aixm:routeElement>
+                                
+                                <!-- Each FlightRestrictionRoute shall have assigned routeElement.FlightRoutingElement value -->
+                                <aixm:FlightRoutingElement gml:id="ID_1A3363_04">
+                                    <aixm:orderNumber>2563</aixm:orderNumber>
+                                    <aixm:speed uom="KT">300</aixm:speed>
+                                    <aixm:speedReference>TAS</aixm:speedReference>
+                                    <aixm:speedCriteria>EQUAL</aixm:speedCriteria>
+                                </aixm:FlightRoutingElement>
+                                
+                            </aixm:routeElement>
+                        </aixm:FlightRestrictionRoute>
+                    </aixm:regulatedRoute>
+                    
+                </aixm:FlightRestrictionTimeSlice>
+            </aixm:timeSlice>
+        </aixm:FlightRestriction>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
+
