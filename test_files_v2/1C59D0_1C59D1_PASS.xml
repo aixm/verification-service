@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 1C59D1 -->
+    
+    <!-- two routes can't have the same value for designatorPrefix and secondLetter and designatorNumber and multipleIdentifier and locationDesignator -->
+    
+    <message:hasMember>
+        <aixm:Route gml:id="uuid.6e9e3918-e260-48f7-a466-cb8fdfc3ba23">
+            <gml:identifier codeSpace="urn:uuid:">6e9e3918-e260-48f7-a466-cb8fdfc3ba23</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:RouteTimeSlice gml:id="ID_1C59D1_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1C59D1_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designatorPrefix>K</aixm:designatorPrefix>
+                    <aixm:designatorSecondLetter>L</aixm:designatorSecondLetter>
+                    <aixm:designatorNumber>210</aixm:designatorNumber>
+                    <aixm:multipleIdentifier>A</aixm:multipleIdentifier>
+                    <aixm:locationDesignator>DONLON 1</aixm:locationDesignator>
+                    
+                </aixm:RouteTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Route>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:Route gml:id="uuid.7e6235db-92f2-498b-9b82-1d9cdecd5728">
+            <gml:identifier codeSpace="urn:uuid:">6e9e3918-e260-48f7-a466-cb8fdfc3ba23</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:RouteTimeSlice gml:id="ID_1C59D1_03">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1C59D1_04">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designatorPrefix>S</aixm:designatorPrefix>
+                    <aixm:designatorSecondLetter>M</aixm:designatorSecondLetter>
+                    <aixm:designatorNumber>110</aixm:designatorNumber>
+                    <aixm:multipleIdentifier>B</aixm:multipleIdentifier>
+                    <aixm:locationDesignator>DONLON 2</aixm:locationDesignator>
+                    
+                </aixm:RouteTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Route>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
