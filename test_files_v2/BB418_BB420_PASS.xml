@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+    gml:id="M00001">
+    
+    <!-- BB420 -->
+    
+    <message:hasMember>
+        <aixm:ApronElement gml:id="uuid.b5bff3b3-193b-4e5f-b65f-e28302b6047f">
+            <gml:identifier codeSpace="urn:uuid:">b5bff3b3-193b-4e5f-b65f-e28302b6047f</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:ApronElementTimeSlice gml:id="ID_BB420_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_BB420_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:associatedApron xlink:href="urn:uuid:e0ac6e77-a5a5-424a-ab08-9be38802b887"/>
+                    
+                    <!-- Value should be resolved-into exactly one AirportSuppliesService -->
+                    <aixm:supplyService xlink:href="urn:uuid:c3deae41-54ff-4bec-aa44-423203f0733f"/>
+                    
+                </aixm:ApronElementTimeSlice>
+            </aixm:timeSlice>
+        </aixm:ApronElement>
+    </message:hasMember>
+    
+    
+<message:hasMember>
+    <aixm:Apron gml:id="uuid.e0ac6e77-a5a5-424a-ab08-9be38802b887">
+        <gml:identifier codeSpace="urn:uuid:">e0ac6e77-a5a5-424a-ab08-9be38802b887</gml:identifier>
+        <aixm:timeSlice>
+            <aixm:ApronTimeSlice gml:id="ID_BB420_03">
+                <gml:validTime>
+                    <gml:TimePeriod gml:id="ID_BB420_04">
+                        <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                        <gml:endPosition indeterminatePosition="unknown"/>
+                    </gml:TimePeriod>
+                </gml:validTime>
+                <aixm:interpretation>BASELINE</aixm:interpretation>
+                <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                
+                <aixm:name>APRON 1</aixm:name>
+                <aixm:surfaceProperties>
+                    <aixm:SurfaceCharacteristics gml:id="ID_BB420_05">
+                        <aixm:composition>ASPH</aixm:composition>
+                        <aixm:classPCN>75</aixm:classPCN>
+                        <aixm:pavementTypePCN>RIGID</aixm:pavementTypePCN>
+                        <aixm:maxTyrePressurePCN>X</aixm:maxTyrePressurePCN>
+                    </aixm:SurfaceCharacteristics>
+                </aixm:surfaceProperties>
+                <aixm:associatedAirportHeliport xlink:href="urn:uuid:695b9377-65bd-48ab-8c52-eddc8451769d"/>
+                
+            </aixm:ApronTimeSlice>
+        </aixm:timeSlice>
+    </aixm:Apron>
+</message:hasMember>
+
+<message:hasMember>
+    <aixm:OrganisationAuthority gml:id="uuid.b8a30ed6-f43a-4571-aff3-1befa698a8ec">
+        <gml:identifier codeSpace="urn:uuid:">b8a30ed6-f43a-4571-aff3-1befa698a8ec</gml:identifier>
+        <aixm:timeSlice>
+            <aixm:OrganisationAuthorityTimeSlice gml:id="ID_BB420_06">
+                <gml:validTime>      
+                    <gml:TimePeriod gml:id="ID_BB420_07">
+                        <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                        <gml:endPosition indeterminatePosition="unknown"/>
+                    </gml:TimePeriod>
+                </gml:validTime>
+                <aixm:interpretation>BASELINE</aixm:interpretation>
+                <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                <aixm:name>DONLON</aixm:name>
+                <aixm:designator>DON2</aixm:designator>
+                <aixm:type>ATS</aixm:type>
+            </aixm:OrganisationAuthorityTimeSlice>
+        </aixm:timeSlice>
+    </aixm:OrganisationAuthority>
+</message:hasMember>
+
+<message:hasMember>
+    <aixm:AirportHeliport gml:id="uuid.695b9377-65bd-48ab-8c52-eddc8451769d">
+        <gml:identifier codeSpace="urn:uuid:">695b9377-65bd-48ab-8c52-eddc8451769d</gml:identifier>
+        <aixm:timeSlice>
+            <aixm:AirportHeliportTimeSlice gml:id="ID_BB420_08">
+                <gml:validTime>      
+                    <gml:TimePeriod gml:id="ID_BB420_09">
+                        <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                        <gml:endPosition indeterminatePosition="unknown"/>
+                    </gml:TimePeriod>
+                </gml:validTime>
+                <aixm:interpretation>BASELINE</aixm:interpretation>
+                <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                <aixm:designator>EADH</aixm:designator>
+                <aixm:name>DONLON AIRPORT 1</aixm:name>
+                <aixm:type>AD</aixm:type>
+                <aixm:responsibleOrganisation>
+                    <aixm:AirportHeliportResponsibilityOrganisation gml:id="ID_BB420_10">
+                        <aixm:theOrganisationAuthority xlink:href="urn:uuid:b8a30ed6-f43a-4571-aff3-1befa698a8ec"/>
+                    </aixm:AirportHeliportResponsibilityOrganisation>
+                </aixm:responsibleOrganisation>
+                <aixm:ARP>
+                    <aixm:ElevatedPoint gml:id="ID_BB420_11" srsName="urn:ogc:def:crs:EPSG::4326">
+                        <gml:pos>53.411256 14.547895</gml:pos>
+                    </aixm:ElevatedPoint>
+                </aixm:ARP>
+            </aixm:AirportHeliportTimeSlice>
+        </aixm:timeSlice>
+    </aixm:AirportHeliport>
+</message:hasMember>
+    
+    <message:hasMember>
+        <aixm:AirportSuppliesService gml:id="uuid.c3deae41-54ff-4bec-aa44-423203f0733f">
+            <gml:identifier codeSpace="urn:uuid:">c3deae41-54ff-4bec-aa44-423203f0733f</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirportSuppliesServiceTimeSlice gml:id="ID_BB420_12">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_BB420_13">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:serviceProvider xlink:href="urn:uuid:b122835e-692b-44f9-af15-84a008c93ef8"/>
+                    <aixm:airportHeliport xlink:href="urn:uuid:695b9377-65bd-48ab-8c52-eddc8451769d"/>
+                    
+                </aixm:AirportSuppliesServiceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirportSuppliesService>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:Unit gml:id="uuid.b122835e-692b-44f9-af15-84a008c93ef8">
+            <gml:identifier codeSpace="urn:uuid:">b122835e-692b-44f9-af15-84a008c93ef8</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:UnitTimeSlice gml:id="ID_BB420_14">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_BB420_15">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:ownerOrganisation xlink:href="urn:uuid:b8a30ed6-f43a-4571-aff3-1befa698a8ec"/>
+                    
+                </aixm:UnitTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Unit>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>
