@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- RULE 1028BA -->
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.4030d9bd-7f11-4346-b883-c2cc945178cf">
+            <gml:identifier codeSpace="urn:uuid:">4030d9bd-7f11-4346-b883-c2cc945178cf</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_1028BA_01">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_1028BA_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:name>DONLON</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:Unit gml:id="uuid.a4c1876f-6c84-45cf-b4b5-55f0d5bc762a">
+            <gml:identifier codeSpace="urn:uuid:">a4c1876f-6c84-45cf-b4b5-55f0d5bc762a</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:UnitTimeSlice gml:id="ID_1028BA_03">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1028BA_04">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:name>DONLON UNIT 1</aixm:name>
+                    <aixm:type>ATCC</aixm:type>
+                    <aixm:compliantICAO>YES</aixm:compliantICAO>
+                    <aixm:ownerOrganisation xlink:href="urn:uuid:4030d9bd-7f11-4346-b883-c2cc945178cf"/>
+                    
+                </aixm:UnitTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Unit>       
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:AirTrafficControlService gml:id="ID_1028BA_05">
+            <aixm:timeSlice>
+                <aixm:AirTrafficControlServiceTimeSlice gml:id="ID_1028BA_06">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1028BA_07">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <!-- ERROR -->
+                    <aixm:serviceProvider xlink:href="urn:uuid:a4c1876f-6c84-45cf-b4b5-55f0d5bc7621"/>
+                    
+                </aixm:AirTrafficControlServiceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirTrafficControlService> 
+    </message:hasMember>
+    
+    
+</message:AIXMBasicMessage>
+
