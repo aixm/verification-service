@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 4611A -->
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.dfec19a2-7a93-4dfd-9168-8cc7a363c0ee">
+            <gml:identifier codeSpace="urn:uuid:">dfec19a2-7a93-4dfd-9168-8cc7a363c0ee</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_4611A_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_4611A_02">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:name>DONLON</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                    
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
+    
+    <message:hasMember>
+        <aixm:AirportHeliport gml:id="uuid.dd062d88-3e64-4a5d-bebd-89476db9ebea">
+            <gml:identifier codeSpace="urn:uuid:">dd062d88-3e64-4a5d-bebd-89476db9ebea</gml:identifier>
+            
+            <aixm:timeSlice>
+                <aixm:AirportHeliportTimeSlice gml:id="ID_4611A_03">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_4611A_04">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    
+                    <aixm:designator>EADH</aixm:designator>
+                    <aixm:name>DONLON/DOWNTOWN HELIPORT</aixm:name>
+                    <aixm:locationIndicatorICAO>EADH</aixm:locationIndicatorICAO>
+                    <aixm:type>HP</aixm:type>
+                    
+                    <aixm:responsibleOrganisation>
+                        <aixm:AirportHeliportResponsibilityOrganisation gml:id="ID_4611A_05">
+                            <aixm:role>OPERATE</aixm:role>
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:dfec19a2-7a93-4dfd-9168-8cc7a363c0ee"/>
+                        </aixm:AirportHeliportResponsibilityOrganisation>
+                    </aixm:responsibleOrganisation>
+                    
+                    <aixm:ARP>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_4611A_06">
+                            <gml:pos>52.28888888 -32.03555555</gml:pos>
+                            <aixm:geoidUndulation uom="M">12.0</aixm:geoidUndulation>
+                        </aixm:ElevatedPoint>
+                    </aixm:ARP>
+                    
+                </aixm:AirportHeliportTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirportHeliport>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:TouchDownLiftOff gml:id="uuid.7380b8e3-ecea-4b3c-939c-fcc7f542f7b2">
+            <gml:identifier codeSpace="urn:uuid:">7380b8e3-ecea-4b3c-939c-fcc7f542f7b2</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:TouchDownLiftOffTimeSlice gml:id="ID_4611A_07">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_4611A_08">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>EADH</aixm:designator>
+                    
+                    <aixm:aimingPoint>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_4611A_09">
+                            <gml:pos>52.2888888888 -32.0355236789</gml:pos>
+                            
+                            <!-- geoidUndulation.uom should be 'FT' or 'M' -->
+                            <aixm:geoidUndulation uom="FT">12.0</aixm:geoidUndulation>
+                        </aixm:ElevatedPoint>
+                    </aixm:aimingPoint>
+                    
+                    <aixm:associatedAirportHeliport xlink:href="urn:uuid:dd062d88-3e64-4a5d-bebd-89476db9ebea"/>
+                    
+                </aixm:TouchDownLiftOffTimeSlice>
+            </aixm:timeSlice>
+        </aixm:TouchDownLiftOff>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
