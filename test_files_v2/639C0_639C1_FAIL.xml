@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 639C1 -->
+    
+    <message:hasMember>
+        <aixm:RouteSegment gml:id="uuid.3652d64e-33c2-4d85-8897-379a47526c96">
+            <gml:identifier codeSpace="urn:uuid:">3652d64e-33c2-4d85-8897-379a47526c96</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:RouteSegmentTimeSlice gml:id="ID_639C1_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_639C1_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:start>
+                        <aixm:EnRouteSegmentPoint gml:id="ID_639C1_03">
+                            <aixm:pointChoice_position>
+                                <aixm:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_639C1_04">
+                                    
+                                    <!-- ERROR - coordinates expressed with less than 4 decimals -->
+                                    <gml:pos>21.1 41.1</gml:pos>
+                                </aixm:Point>
+                            </aixm:pointChoice_position>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:start>
+                    
+                    <aixm:routeFormed xlink:href="urn:uuid:309035bf-7d34-4359-9316-c6b99d048625"/>
+                    
+                    <aixm:end>
+                        <aixm:EnRouteSegmentPoint gml:id="ID_639C1_05">
+                            <aixm:pointChoice_position>
+                                <aixm:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_639C1_06">
+                                    <gml:pos>31.123456 11.123456</gml:pos>
+                                </aixm:Point>
+                            </aixm:pointChoice_position>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:end>
+                    
+                </aixm:RouteSegmentTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteSegment>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:Route gml:id="uuid.309035bf-7d34-4359-9316-c6b99d048625">
+            <gml:identifier codeSpace="urn:uuid:">309035bf-7d34-4359-9316-c6b99d048625</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:RouteTimeSlice gml:id="ID_639C1_07">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_639C1_08">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designatorPrefix>K</aixm:designatorPrefix>
+                    <aixm:designatorSecondLetter>L</aixm:designatorSecondLetter>
+                    <aixm:designatorNumber>210</aixm:designatorNumber>
+                    
+                </aixm:RouteTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Route>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
