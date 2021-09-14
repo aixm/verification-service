@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- EB1B9 -->
+    
+    <message:hasMember>
+        <aixm:RouteSegment gml:id="uuid.72888d56-f0d6-441d-9458-f75f75952563">
+            <gml:identifier codeSpace="urn:uuid:">72888d56-f0d6-441d-9458-f75f75952563</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:RouteSegmentTimeSlice gml:id="ID_EB1B9_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_EB1B9_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:start>
+                        <aixm:EnRouteSegmentPoint gml:id="ID_EB1B9_13">
+                            <aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:883affbc-31f6-4ec3-82e6-bcd404b330ee"/>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:start>
+                    
+                    <aixm:routeFormed xlink:href="urn:uuid:7b683a4f-727f-40d1-aaaf-044a3eae5aa8"/>
+                    
+                    <aixm:end>
+                        <aixm:EnRouteSegmentPoint gml:id="ID_EB1B9_30">
+                            <aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:754a12f4-9748-437d-9a7b-fd0ac7d12f75"/>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:end>
+                    
+                </aixm:RouteSegmentTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteSegment>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:Route gml:id="uuid.7b683a4f-727f-40d1-aaaf-044a3eae5aa8">
+            <gml:identifier codeSpace="urn:uuid:">7b683a4f-727f-40d1-aaaf-044a3eae5aa8</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:RouteTimeSlice gml:id="ID_EB1B9_05">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_EB1B9_06">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designatorPrefix>K</aixm:designatorPrefix>
+                    <aixm:designatorSecondLetter>L</aixm:designatorSecondLetter>
+                    <aixm:designatorNumber>210</aixm:designatorNumber>
+                    
+                </aixm:RouteTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Route>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:DesignatedPoint gml:id="uuid.883affbc-31f6-4ec3-82e6-bcd404b330ee">
+            <gml:identifier codeSpace="urn:uuid:">883affbc-31f6-4ec3-82e6-bcd404b330ee</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:DesignatedPointTimeSlice gml:id="ID_EB1B9_07">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_EB1B9_08">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>DONLO</aixm:designator>
+                    <aixm:type>ICAO</aixm:type>
+                    <aixm:location>
+                        <aixm:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_EB1B9_09">
+                            
+                            <!-- Coordinates should be expressed with 4 or more decimals -->
+                            <gml:pos>21.123456 41.123456</gml:pos>
+                        </aixm:Point>
+                    </aixm:location>
+                    
+                </aixm:DesignatedPointTimeSlice>
+            </aixm:timeSlice>
+        </aixm:DesignatedPoint>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:DesignatedPoint gml:id="uuid.754a12f4-9748-437d-9a7b-fd0ac7d12f75">
+            <gml:identifier codeSpace="urn:uuid:">754a12f4-9748-437d-9a7b-fd0ac7d12f75</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:DesignatedPointTimeSlice gml:id="ID_EB1B9_14">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_EB1B9_15">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>DOLON</aixm:designator>
+                    <aixm:type>ICAO</aixm:type>
+                    <aixm:location>
+                        <aixm:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_EB1B9_10">
+                            <gml:pos>21.123456 41.123456</gml:pos>
+                        </aixm:Point>
+                    </aixm:location>
+                    
+                </aixm:DesignatedPointTimeSlice>
+            </aixm:timeSlice>
+        </aixm:DesignatedPoint>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.cfcd35ca-b789-4154-938c-33e4d88c6c93">
+            <gml:identifier codeSpace="urn:uuid:">cfcd35ca-b789-4154-938c-33e4d88c6c93</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_EB1B9_11">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_EB1B9_12">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:name>DONLON</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                    
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
+
