@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+    gml:id="M00001">
+    
+    <!-- D8CEF -->
+    
+    <message:hasMember>
+        <aixm:FlightRestriction gml:id="uuid.d7d5c372-ad8c-429e-a2ba-5781092fa37c">
+            <gml:identifier codeSpace="urn:uuid:">d7d5c372-ad8c-429e-a2ba-5781092fa37c</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:FlightRestrictionTimeSlice gml:id="ID_D8CEF_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_D8CEF_02">
+                            <gml:beginPosition>2020-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>FR 123</aixm:designator>
+                    <aixm:type>FORBID</aixm:type>
+                    
+                    <aixm:flight>
+                        <aixm:FlightConditionCombination gml:id="ID_D8CEF_03">
+                            <aixm:element>
+                                <aixm:FlightConditionElement gml:id="ID_D8CEF_04">
+                                    <aixm:flightCondition_directFlightCondition>
+                                        <aixm:DirectFlightClass gml:id="ID_D8CEF_05">
+                                            
+                                            <!-- ERROR - exceedLength should have assigned value -->
+                                            <aixm:exceedLength>12</aixm:exceedLength>
+                                        </aixm:DirectFlightClass>
+                                    </aixm:flightCondition_directFlightCondition>
+                                </aixm:FlightConditionElement>
+                            </aixm:element>
+                        </aixm:FlightConditionCombination>
+                    </aixm:flight>
+                    
+                </aixm:FlightRestrictionTimeSlice>
+            </aixm:timeSlice>
+        </aixm:FlightRestriction>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
+
