@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+    gml:id="M00001">
+    
+    <!--DA04A-->
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.9bb848d9-1cdc-4599-a25b-6be22cc6c747">
+            <gml:identifier codeSpace="urn:uuid:">9bb848d9-1cdc-4599-a25b-6be22cc6c747</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="DA048_ID_021">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="DA048_ID_053">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:name>DONLON</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:Unit gml:id="uuid.ace9c765-1a77-4f40-b3f0-6940144e1276">
+            <gml:identifier codeSpace="urn:uuid:">ace9c765-1a77-4f40-b3f0-6940144e1276</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:UnitTimeSlice gml:id="DA048_ID_02">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="DA048_ID_03">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:name>DONLON/DOWNTOWN HELIPORT 1</aixm:name> 
+                    <aixm:ownerOrganisation xlink:href="urn:uuid:9bb848d9-1cdc-4599-a25b-6be22cc6c747"/>
+                </aixm:UnitTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Unit>
+    </message:hasMember>
+    
+    <message:hasMember>  
+        <aixm:Unit gml:id="uuid.b5ce30c5-1b1b-4850-a808-38490c309dce">
+            <gml:identifier codeSpace="urn:uuid:">b5ce30c5-1b1b-4850-a808-38490c309dce</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:UnitTimeSlice gml:id="DA048_ID_05">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="DA048_ID_06">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <!-- ERROR: 2 units can't have the same value for name -->
+                    <aixm:name>DONLON/DOWNTOWN HELIPORT 1</aixm:name>
+                    <aixm:ownerOrganisation xlink:href="urn:uuid:9bb848d9-1cdc-4599-a25b-6be22cc6c747"/>
+                </aixm:UnitTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Unit>
+    </message:hasMember>
+</message:AIXMBasicMessage>
+
