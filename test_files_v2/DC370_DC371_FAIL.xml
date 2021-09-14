@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- DC371 -->
+    
+    <message:hasMember>
+        <aixm:Navaid gml:id="uuid.c003676d-9d56-4072-a233-b6811c81b579">
+            <gml:identifier codeSpace="urn:uuid:">c003676d-9d56-4072-a233-b6811c81b579</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="ID_DC371_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_DC371_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:type>DME</aixm:type>
+                    
+                    <aixm:navaidEquipment>
+                        <aixm:NavaidComponent gml:id="ID_DC371_03">
+                            <aixm:theNavaidEquipment xlink:href="urn:uuid:690d933f-c081-44cb-a3f6-f57a511626fd"/>
+                        </aixm:NavaidComponent>
+                    </aixm:navaidEquipment>
+                    
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DC371_04">
+                            <gml:pos>25.235689 23.205689</gml:pos>
+                            <aixm:horizontalAccuracy uom="M">2.0</aixm:horizontalAccuracy>
+                            <aixm:elevation uom="M">1123</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:DME gml:id="uuid.690d933f-c081-44cb-a3f6-f57a511626fd">
+            <gml:identifier codeSpace="urn:uuid:">690d933f-c081-44cb-a3f6-f57a511626fd</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:DMETimeSlice gml:id="ID_DC371_05">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_DC371_06">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>DON2</aixm:designator>
+                    
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DC371_07">
+                            <gml:pos>21.235689 12.235689</gml:pos>
+                            <aixm:elevation uom="M">1123</aixm:elevation>
+                            
+                            <!-- ERROR verticalAccuracy value should be lower or equal to 3.0 -->
+                            <aixm:verticalAccuracy uom="M">5.0</aixm:verticalAccuracy>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    
+                    <aixm:authority>
+                        <aixm:AuthorityForNavaidEquipment gml:id="ID_DC371_08">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:38a3b289-e4c1-40a8-83f0-836c7db4fc3d"/>
+                        </aixm:AuthorityForNavaidEquipment>
+                    </aixm:authority>
+                    
+                    <aixm:type>PRECISION</aixm:type>
+                    <aixm:channel>10X</aixm:channel>
+                    <aixm:ghostFrequency uom="MHZ">115.20</aixm:ghostFrequency>
+                    
+                </aixm:DMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:DME>
+    </message:hasMember>  
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.38a3b289-e4c1-40a8-83f0-836c7db4fc3d">
+            <gml:identifier codeSpace="urn:uuid:">38a3b289-e4c1-40a8-83f0-836c7db4fc3d</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_DC371_09">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_DC371_10">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:name>DONLON</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
+    
+</message:AIXMBasicMessage>
+
+
