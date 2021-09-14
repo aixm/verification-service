@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+    gml:id="M00001">
+    
+    <!-- DAC1 -->
+    
+    <message:hasMember>
+        <aixm:Airspace gml:id="uuid.2d17180e-5814-4b7a-aa5e-480d3970bce4">
+            <gml:identifier codeSpace="urn:uuid:">2d17180e-5814-4b7a-aa5e-480d3970bce4</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="ID_DAC1_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_DAC1_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:type>CTR</aixm:type>
+                    <aixm:designator>DONLON CTR</aixm:designator>
+                    
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="ID_DAC1_03">
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="ID_DAC1_04">
+                                    <aixm:horizontalProjection>
+                                        <aixm:Surface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DAC1_05">
+                                            <gml:patches>
+                                                <gml:PolygonPatch>
+                                                    <gml:interior>
+                                                        <gml:LinearRing>
+                                                            <gml:posList>21.123456 41.123456 22.123456 42.123456 23.123456 43.123456 21.123456 41.123456</gml:posList>
+                                                        </gml:LinearRing>
+                                                    </gml:interior>
+                                                </gml:PolygonPatch>
+                                            </gml:patches>
+                                        </aixm:Surface>
+                                    </aixm:horizontalProjection>
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                    
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:Airspace gml:id="uuid.f45c7d91-662a-4e30-b2b7-1d0817e160bd">
+            <gml:identifier codeSpace="urn:uuid:">f45c7d91-662a-4e30-b2b7-1d0817e160bd</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="ID_DAC1_06">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_DAC1_07">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:type>CTR</aixm:type>
+                    
+                    <!-- ERROR - Two Airspaces can't have the same values for designator and type -->
+                    <aixm:designator>DONLON CTR</aixm:designator>
+                    
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="ID_DAC1_08">
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="ID_DAC1_09">
+                                    <aixm:horizontalProjection>
+                                        <aixm:Surface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DAC1_10">
+                                            <gml:patches>
+                                                <gml:PolygonPatch>
+                                                    <gml:interior>
+                                                        <gml:LinearRing>
+                                                            <gml:posList>11.123456 31.123456 12.123456 32.123456 13.123456 33.123456 11.123456 31.123456</gml:posList>
+                                                        </gml:LinearRing>
+                                                    </gml:interior>
+                                                </gml:PolygonPatch>
+                                            </gml:patches>
+                                        </aixm:Surface>
+                                    </aixm:horizontalProjection>
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                    
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
