@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- D8D5A -->
+    
+    <message:hasMember>
+        <aixm:SDF gml:id="uuid.be6361f7-f9e8-4a59-89ca-ccbb4e5116a1">
+            <gml:identifier codeSpace="urn:uuid:">be6361f7-f9e8-4a59-89ca-ccbb4e5116a1</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:SDFTimeSlice gml:id="ID_D8D5A_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_D8D5A_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_D8D5A_03">
+                            <gml:pos>12.235689 23.235689</gml:pos>
+                            <aixm:elevation uom="M">121</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    
+                    <!-- ERROR - frequency should have assigned uom value -->
+                    <aixm:frequency>114.5</aixm:frequency>
+                    
+                </aixm:SDFTimeSlice>
+            </aixm:timeSlice>
+        </aixm:SDF>
+    </message:hasMember>
+    
+    
+</message:AIXMBasicMessage>
