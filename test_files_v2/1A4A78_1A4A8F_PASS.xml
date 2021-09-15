@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!--1A4A8F-->
+    
+    <message:hasMember>
+        <aixm:RouteSegment gml:id="uuid.2c0a9109-333a-43b9-a038-275a00a09493">
+            <gml:identifier codeSpace="urn:uuid:">2c0a9109-333a-43b9-a038-275a00a09493</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:RouteSegmentTimeSlice gml:id="ID_1A4A8F_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A8F_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:level>LOWER</aixm:level>
+                    
+                    <!-- If uom='FL' the value for RouteSegment.upperLimit should be expressed with 1,2 or 3 digits -->
+                    <aixm:upperLimit uom="FL">600</aixm:upperLimit>
+                    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                    <aixm:lowerLimit uom="FL">200</aixm:lowerLimit>
+                    <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+                    
+                    <aixm:navigationType>RNAV</aixm:navigationType>
+                    
+                    <aixm:start>
+                        <aixm:EnRouteSegmentPoint gml:id="ID_1A4A8F_03">
+                            <aixm:pointChoice_navaidSystem xlink:href="urn:uuid:2f6264eb-e96d-4928-90a1-a155c6a569c9"/>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:start>
+                    
+                    <aixm:routeFormed xlink:href="urn:uuid:ec254d0d-d021-4a36-9a36-6aca56083183"/>
+                    
+                    <aixm:end>
+                        <aixm:EnRouteSegmentPoint gml:id="ID_1A4A8F_04">
+                            <aixm:pointChoice_navaidSystem xlink:href="urn:uuid:b608f0e1-5321-4e43-aeac-3c9c25932335"/>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:end>
+                    
+                </aixm:RouteSegmentTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteSegment>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:Route gml:id="uuid.3cecf6cb-4f80-404f-a8b5-bc0f710c3938">
+            <gml:identifier codeSpace="urn:uuid:">3cecf6cb-4f80-404f-a8b5-bc0f710c3938</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:RouteTimeSlice gml:id="ID_1A4A8F_05">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A8F_06">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designatorPrefix>K</aixm:designatorPrefix>
+                    <aixm:designatorSecondLetter>A</aixm:designatorSecondLetter>
+                    <aixm:designatorNumber>125</aixm:designatorNumber>
+                    <aixm:name>KA125</aixm:name>
+                    
+                </aixm:RouteTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Route>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:Navaid gml:id="uuid.2f6264eb-e96d-4928-90a1-a155c6a569c9">
+            <gml:identifier codeSpace="urn:uuid:">2f6264eb-e96d-4928-90a1-a155c6a569c9</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="ID_1A4A8F_07">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A8F_08">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:type>VOR</aixm:type>
+                    
+                    <aixm:navaidEquipment>
+                        <aixm:NavaidComponent gml:id="ID_1A4A8F_09">
+                            <aixm:theNavaidEquipment xlink:href="urn:uuid:1707fffd-4715-4c83-974f-e1a05d0d68d6"/>
+                        </aixm:NavaidComponent>
+                    </aixm:navaidEquipment>
+                    
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_1A4A8F_10">
+                            <gml:pos>25.235689 23.205689</gml:pos>
+                            <aixm:horizontalAccuracy uom="M">70</aixm:horizontalAccuracy>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:VOR gml:id="uuid.1707fffd-4715-4c83-974f-e1a05d0d68d6">
+            <gml:identifier codeSpace="urn:uuid:">1707fffd-4715-4c83-974f-e1a05d0d68d6</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:VORTimeSlice gml:id="ID_1A4A8F_11">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A8F_12">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>DON2</aixm:designator>
+                    
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_1A4A8F_13">
+                            <gml:pos>21.235689 12.235689</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    
+                    <aixm:authority>
+                        <aixm:AuthorityForNavaidEquipment gml:id="ID_1A4A8F_14">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:9fe74371-55d4-48e3-9a43-847aef44ea94"/>
+                        </aixm:AuthorityForNavaidEquipment>
+                    </aixm:authority>
+                    
+                    <aixm:type>VOR</aixm:type>
+                    <aixm:frequency uom="MHZ">115.20</aixm:frequency>
+                    <aixm:zeroBearingDirection>TRUE</aixm:zeroBearingDirection>
+                    
+                </aixm:VORTimeSlice>
+            </aixm:timeSlice>
+        </aixm:VOR>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:Navaid gml:id="uuid.b608f0e1-5321-4e43-aeac-3c9c25932335">
+            <gml:identifier codeSpace="urn:uuid:">b608f0e1-5321-4e43-aeac-3c9c25932335</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="ID_1A4A8F_15">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A8F_16">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:type>VOR</aixm:type>
+                    
+                    <aixm:navaidEquipment>
+                        <aixm:NavaidComponent gml:id="ID_1A4A8F_17">
+                            <aixm:theNavaidEquipment xlink:href="urn:uuid:dd3547a9-ee98-4526-807c-f15eedc37aa7"/>
+                        </aixm:NavaidComponent>
+                    </aixm:navaidEquipment>
+                    
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_1A4A8F_18">
+                            <gml:pos>25.235689 23.205689</gml:pos>
+                            <aixm:horizontalAccuracy uom="M">70</aixm:horizontalAccuracy>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:VOR gml:id="uuid.dd3547a9-ee98-4526-807c-f15eedc37aa7">
+            <gml:identifier codeSpace="urn:uuid:">dd3547a9-ee98-4526-807c-f15eedc37aa7</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:VORTimeSlice gml:id="ID_1A4A8F_19">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A8F_20">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>DON2</aixm:designator>
+                    
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_1A4A8F_21">
+                            <gml:pos>21.235689 12.235689</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    
+                    <aixm:authority>
+                        <aixm:AuthorityForNavaidEquipment gml:id="ID_1A4A8F_22">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:9fe74371-55d4-48e3-9a43-847aef44ea94"/>
+                        </aixm:AuthorityForNavaidEquipment>
+                    </aixm:authority>
+                    
+                    <aixm:type>VOR</aixm:type>
+                    <aixm:frequency uom="MHZ">115.20</aixm:frequency>
+                    <aixm:zeroBearingDirection>TRUE</aixm:zeroBearingDirection>
+                    
+                </aixm:VORTimeSlice>
+            </aixm:timeSlice>
+        </aixm:VOR>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.9fe74371-55d4-48e3-9a43-847aef44ea94">
+            <gml:identifier codeSpace="urn:uuid:">9fe74371-55d4-48e3-9a43-847aef44ea94</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_1A4A8F_23">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_1A4A8F_24">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:name>DONLON</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
