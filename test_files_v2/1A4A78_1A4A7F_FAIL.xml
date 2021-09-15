@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 1A4A7F -->
+    
+    <message:hasMember>
+        <aixm:Airspace gml:id="uuid.f7b6a571-cf37-44c8-8437-6108a0bf068d">
+            <gml:identifier codeSpace="urn:uuid:">f7b6a571-cf37-44c8-8437-6108a0bf068d</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="ID_1A4A7F_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A7F_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:type>CTA</aixm:type>
+                    <aixm:designator>DONLON CTA</aixm:designator>
+                    
+                    <aixm:class>
+                        <aixm:AirspaceLayerClass gml:id="ID_1A4A7F_03">
+                            <aixm:associatedLevels>
+                                <aixm:AirspaceLayer gml:id="ID_1A4A7F_04">
+                                    <aixm:upperLimit uom="FL">600</aixm:upperLimit>
+                                    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                                    <aixm:lowerLimit uom="FL">200</aixm:lowerLimit>
+                                    <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+                                </aixm:AirspaceLayer>
+                            </aixm:associatedLevels>
+                        </aixm:AirspaceLayerClass>
+                    </aixm:class>
+                    
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="ID_1A4A7F_05">
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="ID_1A4A7F_06">
+                                    <aixm:upperLimit uom="FL">600</aixm:upperLimit>
+                                    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                                    <aixm:maximumLimit uom="FL">600</aixm:maximumLimit>
+                                    <aixm:maximumLimitReference>STD</aixm:maximumLimitReference>
+                                    <aixm:lowerLimit uom="FL">200</aixm:lowerLimit>
+                                    <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+                                    
+                                    <!-- ERROR - If uom='FL' the value for AirspaceVolume.minimumLimit should be expressed with 1,2 or 3 digits -->
+                                    <aixm:minimumLimit uom="FL">2000</aixm:minimumLimit>
+                                    <aixm:minimumLimitReference>STD</aixm:minimumLimitReference>
+                                    
+                                    <aixm:horizontalProjection>
+                                        <aixm:Surface>
+                                            <gml:patches>
+                                                <gml:PolygonPatch>
+                                                    <gml:exterior>
+                                                        <gml:Ring>
+                                                            <gml:curveMember>
+                                                                <aixm:Curve>
+                                                                    <gml:segments>
+                                                                        <gml:GeodesicString>
+                                                                            <gml:posList>25.235689 10.235689 26.235689 11.235689 27.235689 12.235689 28.235689 10.235689</gml:posList>
+                                                                        </gml:GeodesicString>
+                                                                    </gml:segments>
+                                                                </aixm:Curve>
+                                                            </gml:curveMember>
+                                                        </gml:Ring>
+                                                    </gml:exterior>
+                                                </gml:PolygonPatch>
+                                            </gml:patches>
+                                        </aixm:Surface>
+                                    </aixm:horizontalProjection>
+                                    
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                    
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
