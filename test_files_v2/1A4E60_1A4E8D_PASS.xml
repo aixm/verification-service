@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 1A4E8D -->
+    
+    <message:hasMember>
+        <aixm:ArrivalLeg gml:id="uuid.d12498cc-efc4-49f7-b7da-f45fe08335ee">
+            <gml:identifier codeSpace="urn:uuid:">d12498cc-efc4-49f7-b7da-f45fe08335ee</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:ArrivalLegTimeSlice gml:id="ID_1A4E8D_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4E8D_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:upperLimitAltitude uom="FL">640</aixm:upperLimitAltitude>
+                    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                    <aixm:lowerLimitAltitude uom="FL">110</aixm:lowerLimitAltitude>
+                    <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+                    
+                    <!--  IF altitudeOverrideATC.uom value = 'FL' or 'SM' altitudeOverrideReference value should be 'STD' -->
+                    <aixm:altitudeOverrideATC uom="FL">200</aixm:altitudeOverrideATC>
+                    <aixm:altitudeOverrideReference>STD</aixm:altitudeOverrideReference>
+                    
+                </aixm:ArrivalLegTimeSlice>
+            </aixm:timeSlice>
+        </aixm:ArrivalLeg>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
