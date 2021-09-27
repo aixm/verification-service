@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 1A4E75 -->
+    
+    <message:hasMember>
+        <aixm:InstrumentApproachProcedure gml:id="uuid.1333b9c4-253a-4de5-aa79-bc020f63b6b0">
+            <gml:identifier codeSpace="urn:uuid:">1333b9c4-253a-4de5-aa79-bc020f63b6b0</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:InstrumentApproachProcedureTimeSlice gml:id="ID_1A4E75_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4E75_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:name>ILS325</aixm:name>
+                    
+                    <aixm:airportHeliport xlink:href="urn:uuid:9a67296f-c399-44da-96cb-dc082491fd8c"/>
+                    <aixm:approachType>ILS</aixm:approachType>
+                    
+                    <aixm:finalProfile>
+                        <aixm:FinalProfile gml:id="ID_1A4E75_03">
+                            <aixm:altitude>
+                                <aixm:ApproachAltitudeTable gml:id="ID_1A4E75_04">
+                                    
+                                    <!-- ERROR - if altitude.uom ='FL' or 'SM' altitudeReference value should be 'STD'  -->
+                                    <aixm:altitude uom="FL">200</aixm:altitude>
+                                    <aixm:altitudeReference>MSL</aixm:altitudeReference>
+                                </aixm:ApproachAltitudeTable>
+                            </aixm:altitude>
+                        </aixm:FinalProfile>
+                    </aixm:finalProfile>
+                    
+                </aixm:InstrumentApproachProcedureTimeSlice>
+            </aixm:timeSlice>
+        </aixm:InstrumentApproachProcedure>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.7c0029f5-00c8-4be5-9a2e-1bd5f386e434">
+            <gml:identifier codeSpace="urn:uuid:">7c0029f5-00c8-4be5-9a2e-1bd5f386e434</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_1A4E75_05">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_1A4E75_06">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:name>DONLON</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:AirportHeliport gml:id="uuid.9a67296f-c399-44da-96cb-dc082491fd8c">
+            <gml:identifier codeSpace="urn:uuid:">9a67296f-c399-44da-96cb-dc082491fd8c</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirportHeliportTimeSlice gml:id="ID_1A4E75_07">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_1A4E75_08">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:designator>EADH</aixm:designator>
+                    <aixm:name>DONLON AIRPORT 1</aixm:name>
+                    <aixm:type>AD</aixm:type>
+                    <aixm:responsibleOrganisation>
+                        <aixm:AirportHeliportResponsibilityOrganisation gml:id="ID_1A4E75_09">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:7c0029f5-00c8-4be5-9a2e-1bd5f386e434"/>
+                        </aixm:AirportHeliportResponsibilityOrganisation>
+                    </aixm:responsibleOrganisation>
+                    <aixm:ARP>
+                        <aixm:ElevatedPoint gml:id="ID_1A4E75_10" srsName="urn:ogc:def:crs:EPSG::4326">
+                            <gml:pos>23.411256 34.547895</gml:pos>
+                            <aixm:elevation uom="M">1241</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:ARP>
+                </aixm:AirportHeliportTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirportHeliport>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
