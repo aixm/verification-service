@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+    
+    <!-- 1A4E88 -->
+    
+    <message:hasMember>
+        <aixm:MissedApproachLeg gml:id="uuid.61c4a790-3670-4587-a496-1584d892e1e3">
+            <gml:identifier codeSpace="urn:uuid:">61c4a790-3670-4587-a496-1584d892e1e3</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:MissedApproachLegTimeSlice gml:id="ID_1A4E88_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4E88_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <!--  IF upperLimitAltitude.uom value = 'FL' or 'SM' upperLimitReference value should be 'STD' -->
+                    <aixm:upperLimitAltitude uom="FL">640</aixm:upperLimitAltitude>
+                    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                    <aixm:lowerLimitAltitude uom="FL">110</aixm:lowerLimitAltitude>
+                    <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+                    <aixm:altitudeOverrideATC uom="FL">200</aixm:altitudeOverrideATC>
+                    <aixm:altitudeOverrideReference>STD</aixm:altitudeOverrideReference>
+                    
+                </aixm:MissedApproachLegTimeSlice>
+            </aixm:timeSlice>
+        </aixm:MissedApproachLeg>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
