@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+    gml:id="M00001">
+    
+    <!-- 1A3320 --> 
+    
+    <message:hasMember>
+        <aixm:ApronElement gml:id="uuid.154aaaa7-97c6-4181-8066-617f4f68ae0d">
+            <gml:identifier codeSpace="urn:uuid:">154aaaa7-97c6-4181-8066-617f4f68ae0d</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:ApronElementTimeSlice gml:id="ID_1A3320_01">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_1A3320_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                </aixm:ApronElementTimeSlice>
+            </aixm:timeSlice>
+        </aixm:ApronElement>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:AircraftStand gml:id="uuid.b2c1d3c9-26e4-423c-9094-052009f265b8">
+            <gml:identifier codeSpace="urn:uuid:">b2c1d3c9-26e4-423c-9094-052009f265b8</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AircraftStandTimeSlice gml:id="ID_1A3320_03">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_1A3320_04">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <!-- ERROR - AircraftStand should have assigned designator value -->
+                    
+                    <aixm:type>RMT</aixm:type>
+                    
+                    <aixm:location>
+                        <aixm:ElevatedPoint gml:id="ID_1A3320_05" srsName="urn:ogc:def:crs:EPSG::4326">
+                            <gml:pos>12.35623512 48.25632035</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    
+                    <aixm:apronLocation xlink:href="urn:uuid:154aaaa7-97c6-4181-8066-617f4f68ae0d"/>
+                    
+                </aixm:AircraftStandTimeSlice> 
+            </aixm:timeSlice>
+        </aixm:AircraftStand>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
