@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+    gml:id="M00001">
+    
+    <!-- 1A33B9 -->
+    
+        <message:hasMember>
+            <aixm:AngleIndication gml:id="uuid.3f2429f1-4e46-4db0-8989-70e2d3f2ca61">
+                <gml:identifier codeSpace="urn:uuid:">3f2429f1-4e46-4db0-8989-70e2d3f2ca61</gml:identifier>
+                <aixm:timeSlice>
+                    <aixm:AngleIndicationTimeSlice gml:id="ID_1A33B9_01">
+                        <gml:validTime>
+                            <gml:TimePeriod gml:id="ID_1A33B9_02">
+                                <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                                <gml:endPosition indeterminatePosition="unknown"/>
+                            </gml:TimePeriod>
+                        </gml:validTime>
+                        <aixm:interpretation>BASELINE</aixm:interpretation>
+                        <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                        
+                        <!-- AngleIndication should have assigned angle value -->
+                        <aixm:angle>12</aixm:angle>
+                        <aixm:angleType>TRUE</aixm:angleType>
+                        <aixm:indicationDirection>FROM</aixm:indicationDirection>
+                        
+                    </aixm:AngleIndicationTimeSlice>
+                </aixm:timeSlice>
+            </aixm:AngleIndication>
+        </message:hasMember>    
+    
+    
+</message:AIXMBasicMessage>
