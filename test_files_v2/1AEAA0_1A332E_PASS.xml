@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+    gml:id="M00001">
+    
+    <!-- 1A332E -->
+    
+        <message:hasMember>
+            <aixm:FireFightingService gml:id="uuid.3bf4f1cf-3156-42c7-881f-d8abd567d383">
+                <gml:identifier codeSpace="urn:uuid:">3bf4f1cf-3156-42c7-881f-d8abd567d383</gml:identifier>
+                <aixm:timeSlice>
+                    <aixm:FireFightingServiceTimeSlice gml:id="ID_1A332E_01">
+                        <gml:validTime>
+                            <gml:TimePeriod gml:id="ID_1A332E_02">
+                                <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                                <gml:endPosition indeterminatePosition="unknown"/>
+                            </gml:TimePeriod>
+                        </gml:validTime>
+                        <aixm:interpretation>BASELINE</aixm:interpretation>
+                        <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                        
+                        <!-- FireFightingService should have assigned airportHeliport value -->
+                        <aixm:airportHeliport xlink:href="urn:uuid:82bd7888-c298-4244-b61d-5125f1826603"/>
+                        
+                    </aixm:FireFightingServiceTimeSlice>
+                </aixm:timeSlice>
+            </aixm:FireFightingService>
+        </message:hasMember>    
+    
+    <message:hasMember>
+        <aixm:AirportHeliport gml:id="uuid.82bd7888-c298-4244-b61d-5125f1826603">
+            <gml:identifier codeSpace="urn:uuid:">82bd7888-c298-4244-b61d-5125f1826603</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirportHeliportTimeSlice gml:id="ID_1A332E_03">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_1A332E_04">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:designator>EADH</aixm:designator>
+                    <aixm:name>DONLON AIRPORT 1</aixm:name>
+                    <aixm:type>AD</aixm:type>
+                    <aixm:responsibleOrganisation>
+                        <aixm:AirportHeliportResponsibilityOrganisation gml:id="ID_1A332E_05">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:32a6b1d2-6e00-4433-b9a4-693cc7fa13f7"/>
+                        </aixm:AirportHeliportResponsibilityOrganisation>
+                    </aixm:responsibleOrganisation>
+                    <aixm:ARP>
+                        <aixm:ElevatedPoint gml:id="ID_1A332E_06" srsName="urn:ogc:def:crs:EPSG::4326">
+                            <gml:pos>53.411256 14.547895</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:ARP>
+                </aixm:AirportHeliportTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirportHeliport>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.32a6b1d2-6e00-4433-b9a4-693cc7fa13f7">
+            <gml:identifier codeSpace="urn:uuid:">32a6b1d2-6e00-4433-b9a4-693cc7fa13f7</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_1A332E_07">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_1A332E_08">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:name>DONLON</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
