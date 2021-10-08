@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M00001">
+     
+  
+    <message:hasMember>
+        <aixm:Unit gml:id="urn.uuid.1aa57b0a-5f48-49b4-ab32-242a1ca6d185">
+            <gml:identifier codeSpace="urn:uuid:">1aa57b0a-5f48-49b4-ab32-242a1ca6d185</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:UnitTimeSlice gml:id="ahts1EADH1">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="tp001">
+                            <gml:beginPosition>2021-09-01T12:00:00.00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>3</aixm:sequenceNumber>
+                    <aixm:name>DONLON DOWNTOWN HELIPORT</aixm:name>
+                    <!-- xlink: href value is correctly referencing the below OrganisationAuthority by its gml:identifier -->
+                    <aixm:ownerOrganisation xlink:href="urn:uuid:26249e16-cc4f-4c03-b581-cafdd30555f6"/>
+                </aixm:UnitTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Unit>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="urn.uuid.26249e16-cc4f-4c03-b581-cafdd30555f6">
+            <gml:identifier codeSpace="urn:uuid:">26249e16-cc4f-4c03-b581-cafdd30555f6</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ahts2EADH1">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="tp002">
+                            <gml:beginPosition>2021-09-01T12:00:00.00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>3</aixm:sequenceNumber>
+                    <aixm:name>DONLON/DOWNTOWN HELIPORT</aixm:name>
+                    <aixm:designator>EADD</aixm:designator>
+                    <aixm:type>COMMERCIAL</aixm:type>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
