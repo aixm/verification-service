@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
+<!-- 1D3493_1D34A7_PASS -->
+
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.1/message" 
+	xmlns:gts="http://www.isotc211.org/2005/gts" 
+	xmlns:gco="http://www.isotc211.org/2005/gco" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:gss="http://www.isotc211.org/2005/gss" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1" 
+	xmlns:gsr="http://www.isotc211.org/2005/gsr" 
+	xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<message:hasMember>
+		<!-- AREA 1 -->
+		<aixm:ObstacleArea gml:id="uuid.03fcffab-d281-4da4-8acd-0b14461b7465">
+			<gml:identifier codeSpace="urn:uuid:">03fcffab-d281-4da4-8acd-0b14461b7465</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ObstacleAreaTimeSlice gml:id="oats0001">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp0002">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp0001">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>AREA1</aixm:type>
+					<aixm:obstructionIdSurfaceCondition xsi:nil="true"/>
+					<aixm:reference_ownerOrganisation xlink:href="urn:uuid:6384a4e0-8497-4f83-8eaa-d73ef549d90e" xlink:title="REPUBLIC OF DONLON"/>
+					<aixm:surfaceExtent>
+						<aixm:Surface srsName="urn:ogc:def:crs:EPSG::4326"
+							gml:id="AREA1_DONLON">
+							<gml:patches>
+								<gml:PolygonPatch>
+									<gml:exterior>
+										<gml:Ring>
+											<gml:curveMember>
+												<gml:Curve gml:id="CFIRAMSWELL">
+													<gml:segments>
+														<gml:GeodesicString>
+															<gml:posList>57.0833333333333 -40.0 52.85
+																-41.7833333333333 48.4666666666667
+																-41.3333333333333 44.0333333333333 -40.0 42.6
+																-37.0 40.7333333333333 -37.1833333333333 41.4
+																-30.05 43.5166666666667 -21.1333333333333
+																56.6666666666667 -21.1333333333333
+																57.0833333333333 -40.0</gml:posList>
+														</gml:GeodesicString>
+													</gml:segments>
+												</gml:Curve>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:PolygonPatch>
+							</gml:patches>
+							<aixm:horizontalAccuracy uom="KM"
+								>2.0</aixm:horizontalAccuracy>
+						</aixm:Surface>
+					</aixm:surfaceExtent>
+					<aixm:obstacle xlink:href="urn:uuid:5f68d835-828c-4ccd-91b7-791058d9dd4d" xlink:title="OBS-0001"/>
+					<aixm:obstacle xlink:href="urn:uuid:6c7fac45-c24f-4e36-b196-687458d99070" xlink:title="WINDPARK DONLON IV"/>
+					<aixm:obstacle xlink:href="urn:uuid:47db48e9-d46a-4100-a266-25a3968b6a98" xlink:title="RODSAND II"/>
+					<aixm:obstacle xlink:href="urn:uuid:87a585b3-0597-4f5c-974f-cddfc604dc93" xlink:title="LANGTALERECKHUETTE - HOCHWILDEHAUS"/>
+					<aixm:obstacle xlink:href="urn:uuid:718c2782-a624-405e-86b6-144b40b680b0" xlink:title="TUBORG IIB"/>
+					<aixm:obstacle xlink:href="urn:uuid:499c5bb4-de1e-49fc-8db1-11ffa84406d6" xlink:title=">DONLON NORTHEAST I"/>
+				</aixm:ObstacleAreaTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ObstacleArea>
+	</message:hasMember>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</message:AIXMBasicMessage>
