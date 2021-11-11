@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
+<!-- META_PASS -->
+
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.1/message" 
+	xmlns:gts="http://www.isotc211.org/2005/gts" 
+	xmlns:gco="http://www.isotc211.org/2005/gco" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:gss="http://www.isotc211.org/2005/gss" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1"
+	xmlns:gsr="http://www.isotc211.org/2005/gsr"
+	xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd" 
+	gml:id="M0000001">
+	<aixm:messageMetadata>
+		<gmd:MD_Metadata id="MD_DONLON_OBS_DS_AREA1">
+			<!-- MD_Metadata.contact > CI_ResponsibleParty (i.e. Metadata point of contact). Mandatory by ISO 19115 (2003). 
+				It should be marked as "inapplicable" (<gmd:contact/gco:nilReason="inapplicable"/>) or be used to give the organisation name and email address of the party who added the metadata.  -->
+			<gmd:contact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>Data initially created by Solitec Software Solutions(solitec.com); currently maintained by Eurocontrol.</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>info@organisation.org</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:contact>
+			<!--  MD_Metadata.dateStamp (Metadata date stamp). Mandatory by by ISO 19115 (2003).
+			It should be marked as "inapplicable"  (<gmd:dateStamp gco:nilReason="inapplicable"/>) or used to record a date. -->
+			<gmd:dateStamp>
+				<gco:DateTime>2019-11-28T00:00:00Z</gco:DateTime>
+			</gmd:dateStamp>
+			<gmd:identificationInfo>
+				<gmd:MD_DataIdentification>
+					<gmd:citation>
+						<gmd:CI_Citation>
+							<!-- MD_Metadata > MD_DataIdentification.citation > CI_Citation.title. Mandatory by ISO 19115 (2003).
+								Name by which the cited resource is known (i.e. name of the dataset).  -->
+							<gmd:title>
+								<gco:CharacterString>DONLON Area 1 Obstacle Data Set (Full)</gco:CharacterString>
+							</gmd:title>
+							<!-- MD_Metadata > MD_DataIdentification.citation > CI_Citation.date (Dataset reference date);
+								Publication date required by PANS-AIM chapter 5.3.2 "the date and time when the data set was provided".
+								Note: In addtion the creation and/or revision date of the data set may be provided as metadata as well, although not required by ICAO nor by ISO 19115 (2003).-->
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:DateTime>2019-11-28T00:00:00Z</gco:DateTime>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<!-- Revision date of data set. -->
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:DateTime>2019-11-21T00:00:00Z</gco:DateTime>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+						</gmd:CI_Citation>
+					</gmd:citation>
+					<!-- MD_Metadata > MD_DataIdentification.abstract (Abstract describing the dataset). Mandatory by ISO 19115 (2003). 
+						A short description of what data  based on what requirements are provided within the data set
+						(e.g. compliance with ICAO Provisons or, if applicapbe, deviations could be more or less stringent obstacle collection requirements).  -->
+					<!-- OPEN QUESTION: Horizontal & Vertical Confidence Level required by PANS-AIM Table A6-2. May it be coded in the abstract?. -->
+					<gmd:abstract>
+						<gco:CharacterString>DONLON Area 1 obstacle data set sample (Full initial data set) in AIXM 5.1 format.
+						Data collection and publication fully compliant with ICAO Annex 15 (16th Edition, July 2018) requirements and AIXM 5.1. coding guidelines (aixm.aero/confluence).
+						Horizontal and Vertical Confidence Level for all data is 90%.
+						</gco:CharacterString>
+					</gmd:abstract>
+					<!-- MD_Metadata > MD_DataIdentification.pointOfContact > CI_ResponsibleParty. (Dataset responsible party). Required by PANS-AIM: 						
+						5.3.2 "the names of the organization or entities providing the data set";
+						Table A6-2 Obstacle attributes "Data source idenitifier" -->
+					<gmd:pointOfContact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:organisationName>
+								<gco:CharacterString>Data initially created by Solitec Software Solutions(solitec.com); currently maintained by Eurocontrol.</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>+32 02...</gco:CharacterString>
+											</gmd:voice>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>info@organisation.org</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+									<gmd:onlineResource>
+										<gmd:CI_OnlineResource>
+											<gmd:linkage>
+												<gmd:URL>https://github.com/aixm/donlon</gmd:URL>
+											</gmd:linkage>
+										</gmd:CI_OnlineResource>
+									</gmd:onlineResource>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<!-- MD_Metadata > MD_DataIdentification.pointOfContact > CI_ResponsibleParty.role (function performed by the responsible party). Mandatory by ISO 19115 (2003). -->
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:pointOfContact>
+					<!-- MD_Metadata > MD_DataIdentification.resourceConstraints > MD_Constraints. Required by PANS-AIM:
+						5.3.2 "any limitations with regard to the use of the data set." 
+						In addtion also these elements may be coded:
+						gmd:accessConstraints (e.g. "license") to assure the protection of privacy or intellectual property, and any special restrictions or limitations on obtaining the resource or metadata
+						gmd:classification (e.g. "restricted"). -->
+					<gmd:resourceConstraints>
+						<gmd:MD_Constraints>
+							<gmd:useLimitation>
+								<gco:CharacterString>To be used for demonstration purposes only! Any operational usage is prohibited!</gco:CharacterString>
+							</gmd:useLimitation>
+						</gmd:MD_Constraints>
+					</gmd:resourceConstraints>
+					<!-- MD_Metadata > MD_DataIdentification.language. (Language(s) used within the dataset). Mandatory by ISO 19115(2003). -->
+					<gmd:language>
+						<gco:CharacterString>eng</gco:CharacterString>
+					</gmd:language>
+					<!-- MD_Metadata > MD_DataIdentification.topicCategory. (Main theme(s) of the dataset). Mandatory by ISO 19115(2003).
+						Default for ICAO data sets is "transportation".-->
+					<gmd:topicCategory>
+						<gmd:MD_TopicCategoryCode>transportation</gmd:MD_TopicCategoryCode>
+					</gmd:topicCategory>
+					<!-- MD_Metadata > MD_DataIdentification.extent > EX_Extent.geographicElement. (geographic area of the dataset). Required by PANS-AIM:
+						Table A6-2: "Area of coverage". 
+						One of the three options must be provided:
+						gmd:EX_GeographicBoundingBox or;
+						gmd:EX_BoundingPolygon or;
+						gmd:EX_GeographicDescription -->
+					<gmd:extent>
+						<gmd:EX_Extent>
+							<gmd:description>
+								<gco:CharacterString>Area of coverage (Area 1)</gco:CharacterString>
+							</gmd:description>
+							<gmd:geographicElement>
+								<gmd:EX_GeographicBoundingBox>
+									<gmd:westBoundLongitude>
+										<gco:Decimal>-41.78333334</gco:Decimal>
+									</gmd:westBoundLongitude>
+									<gmd:eastBoundLongitude>
+										<gco:Decimal>-21.13333334</gco:Decimal>
+									</gmd:eastBoundLongitude>
+									<gmd:southBoundLatitude>
+										<gco:Decimal>40.73333334</gco:Decimal>
+									</gmd:southBoundLatitude>
+									<gmd:northBoundLatitude>
+										<gco:Decimal>57.08333334</gco:Decimal>
+									</gmd:northBoundLatitude>
+								</gmd:EX_GeographicBoundingBox>
+							</gmd:geographicElement>
+							<gmd:geographicElement>
+								<gmd:EX_GeographicDescription>
+									<gmd:geographicIdentifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>DONLON State territory</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:geographicIdentifier>
+								</gmd:EX_GeographicDescription>
+							</gmd:geographicElement>
+						</gmd:EX_Extent>
+					</gmd:extent>
+					<!-- MD_Metadata > MD_DataIdentification.extent > EX_Extent.temporalElement. (time period covered by the content of the dataset). Required by PANS-AIM:
+						5.3.2 "validity of the data set" 
+						When the end of validity is unknown use indeterminatePosition="unknown". -->
+					<gmd:extent>
+						<gmd:EX_Extent>
+							<gmd:description>
+								<gco:CharacterString>Validity of data set</gco:CharacterString>
+							</gmd:description>
+							<gmd:temporalElement>
+								<gmd:EX_TemporalExtent>
+									<gmd:extent>
+										<gml:TimePeriod gml:id="period1">
+											<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+											<gml:endPosition indeterminatePosition="unknown"/>
+										</gml:TimePeriod>
+									</gmd:extent>
+								</gmd:EX_TemporalExtent>
+							</gmd:temporalElement>
+						</gmd:EX_Extent>
+					</gmd:extent>
+				</gmd:MD_DataIdentification>
+			</gmd:identificationInfo>
+			<gmd:dataQualityInfo>
+				<gmd:DQ_DataQuality>
+					<!-- gmd:level is required by ISO 19115 (2003). This should use the value "dataset". -->
+					<gmd:scope>
+						<gmd:DQ_Scope>
+							<gmd:level>
+								<gmd:MD_ScopeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+							</gmd:level>
+						</gmd:DQ_Scope>
+					</gmd:scope>
+					<gmd:report>
+						<gmd:DQ_ConceptualConsistency>
+							<gmd:result>
+								<gmd:DQ_ConformanceResult>
+									<gmd:specification></gmd:specification>
+									<gmd:explanation>
+										<gco:CharacterString>A statistical measure of the estimated confidence that 90% of the captured data meets the required horizontal accuracy.</gco:CharacterString>
+									</gmd:explanation>
+									<gmd:pass>
+										<gco:Boolean>true</gco:Boolean>
+									</gmd:pass>
+								</gmd:DQ_ConformanceResult>
+							</gmd:result>
+						</gmd:DQ_ConceptualConsistency>
+					</gmd:report>
+					<gmd:lineage>
+						<gmd:LI_Lineage>
+							<gmd:statement>
+								<gco:CharacterString>The routine data integrity level is assured.</gco:CharacterString>
+							</gmd:statement>
+						</gmd:LI_Lineage>
+					</gmd:lineage>
+				</gmd:DQ_DataQuality>
+			</gmd:dataQualityInfo>
+		</gmd:MD_Metadata>
+	</aixm:messageMetadata>
+	<message:hasMember>
+		<!-- SINGLE OART POINT OBSTACLE. 
+			This sample obstacle contains all the AIXM properties for Vertical Stucture (with annotations). 
+			Note: Not all of them are required by PANS-AIM for an Obstacle data set. -->
+		<aixm:VerticalStructure gml:id="uuid.5f68d835-828c-4ccd-91b7-791058d9dd4d">
+			<gml:identifier codeSpace="urn:uuid:">5f68d835-828c-4ccd-91b7-791058d9dd4d</gml:identifier>
+			<!-- validTime and featureLifetime is used to code PANS-AIM Table A-6.2 "Effectivity".  
+			NOTE: In case of temporary obstacles, also VerticalStructurePart.timeInterval.Timesheet may be needed to fulfill this requirement.-->
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-0001">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vt120131">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt120131">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<!-- VerticalStructure.name is used to code PANS-AIM Table A-6.2 "Obstacle Identifier"; ENR 5.4/AD 2.10 "obstacle identification or designation".-->
+					<aixm:name>OBS-0001</aixm:name> 
+					<!-- type required by PANS-AIM Table A6-2 and ENR 5.4, AD 2/3.10 -->
+					<aixm:type>ANTENNA</aixm:type>
+					<!-- lighted required by PANS-AIM Table A6-2 -->
+					<aixm:lighted>YES</aixm:lighted>
+					<!-- marking required by PANS-AIM Table A6-2 and ENR 5.4, AD 2/3.10.
+						NOTE: AIXM 5.1(.1) provides only the property MarkingICAOStandard but no 'general' marking property . 
+						In case the obstacle is marked but not acc. to ICAO standard, code "an annotation:
+						propertyName=markingICAOStandard,
+						purpose=“REMARK”,
+						translatedNote.LinguisticNote.note=”marked=YES”.
+						the other marking attributes such as markingFirstColour if applicable (as defined in CP AIXM-233). -->
+					<!-- markingICAOStandard is not expclicitly required by PANS-AIM -->
+					<aixm:markingICAOStandard xsi:nil="true" nilReason="inapplicable"/>
+					<!-- group not required by PANS-AIM (but should be coded as operationally required). -->
+					<aixm:group>NO</aixm:group>
+					<!-- horizontalExtent required by PANS-AIM Table A6-2. 
+						NOTE: In AIXM it can be coded as horizontalProjection either as ElevatedPoint, ElevatedCurve or ElevatedSurface. 
+						NOTE: length and width or radius are only applicable for point and line obstacles (e.g. to define the extend of the guy wires of the mast)
+						NOTE: It may also be used for an obstacle with polygon shape but georgaphical defined by its centre point, (e.g. a building) to provide a simplified polygon extend.
+						NOTE: Either radius or lenght and width shall be used to describe the horizontal extend. -->
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<!-- NOTE: radius should only be used for point obstacles, if applicable. -->
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<!-- lightingICAOStandard and synchronisedLighting is not expclicitly required by PANS-AIM -->
+					<aixm:lightingICAOStandard xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:synchronisedLighting xsi:nil="true" nilReason="inapplicable"/>
+					<!-- marker not required by PANS-AIM -->
+					<aixm:marker xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="V-af4ee6d6">
+							<!-- Height is an optional attribute in PANS-AIM Table A-6-2.
+							Height is listed in ENR 5.4 and AD2/3.10. 
+							Note: Height is mandatory in RTCA/EUROCAE ED-98C/DO-276C -->
+							<!-- NOTE: In case of a single part obstacle the verticalExtent is the height (above ground) of the obstacle. 
+							In case of a multi part obstacle it may not be the height above ground, as per definition verticalExtent is the height of the obstacle part from its bottom. -->
+							<aixm:verticalExtent uom="M">120</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">30</aixm:verticalExtentAccuracy>
+							<!-- type required by PANS-AIM Table A6-2. .
+							NOTE: In case of multi part obstacles types may have different values. -->
+							<aixm:type>ANTENNA</aixm:type>
+							<!-- constructionStatus not requried by PANS-AIM but contained in ED-98. -->
+							<aixm:constructionStatus xsi:nil="true" nilReason="inapplicable"/>
+							<!-- PANS-AIM table A6-2 only requires information if an obstcle is marked.
+								Marking pattern and colour is not explicitly required by PANS-AIM. -->
+							<aixm:markingPattern xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:markingFirstColour xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:markingSecondColour xsi:nil="true" nilReason="inapplicable"/>
+							<!-- mobile optional in PANS-AIM Table A6-2("operations") -->
+							<aixm:mobile>NO</aixm:mobile>
+							<!-- frangible not required by PANS-AIM -->
+							<aixm:frangible xsi:nil="true" nilReason="inapplicable"/>
+							<!-- visibleMaterial not required by PANS-AIM but contained in Appendix 1 "Aeronautical Data Catalogue" ("Material")-->
+							<aixm:visibleMaterial xsi:nil="true" nilReason="inapplicable"/>
+							<!-- part designator is not required by PANS-AIM (see VerticalStructure.name) but may be used for multiple part obstacles. -->
+							<aixm:designator xsi:nil="true" nilReason="inapplicable"/>
+							<!-- horizontalProjection required by PANS-AIM Table A6-2 "horizontal position" and ENR 5.4,AD 2/3.10 "obstacle position. -->							
+							<aixm:horizontalProjection_location>
+								<!-- Geometry type required by PANS-AIM Table A6-2 results from the horizontalProjection choice.-->
+								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="p1121">
+									<gml:pos>52.36171389 -28.03756667</gml:pos>
+									<!-- horizontalAccuracy required by PANS-AIM Table A6-2 -->
+									<aixm:horizontalAccuracy uom="M">50</aixm:horizontalAccuracy>
+									<!-- elevation required by PANS-AIM Table A6-2 "Elevation" and ENR 5.4,AD 2/3.10 -->
+									<aixm:elevation uom="M">150</aixm:elevation>
+									<!-- geoidUndulation not required by PANS-AIM -->
+									<aixm:geoidUndulation xsi:nil="true" nilReason="inapplicable"/>
+									<!-- verticalDatum required by PANS-AIM Table A6-2 "Vertical reference system" -->
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<!-- verticalAccuracy required by PANS-AIM Table A6-2 -->
+									<aixm:verticalAccuracy uom="M">30</aixm:verticalAccuracy>
+								</aixm:ElevatedPoint>
+							</aixm:horizontalProjection_location>
+							<aixm:lighting>
+								<aixm:LightElement gml:id="le0001">
+									<!-- PANS-AIM table A-6-2 only requires information if an obstcale is lighted. 
+										However, colour and type are properties listed in the PANS-AIM Appendix 1 "Aeronautical Data Catalogue" and ENR 5.4, AD2/3.10. 
+										intensityLevel, intensity and availability is not explicitly required by PANS-AIM. 
+										(Note that there is also a lightingAvailability element for the VerticalStructure.)  -->
+									<aixm:colour xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:intensityLevel xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:intensity xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:type xsi:nil="true" nilReason="inapplicable"/>
+									<!-- regarding availability, see also lightingAvailability, below.  -->
+									<aixm:availability xsi:nil="true" nilReason="inapplicable"/>
+								</aixm:LightElement>
+							</aixm:lighting>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<!-- Relationships to other "hosted/supported" AIXM features not required by PANS-AIM. -->
+					<aixm:hostedPassengerService xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:supportedGroundLight xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:hostedNavaidEquipment xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:hostedSpecialNavStation xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:hostedUnit xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:hostedOrganisation xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:supportedService xsi:nil="true" nilReason="inapplicable"/>
+					<!-- Coding that the obstacle is marked using an annotation (acc. to CP AIXM-322).-->
+					<aixm:annotation>
+						<aixm:Note gml:id="n0000">
+							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln0000">
+									<aixm:note>marked=YES</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<!-- Operator/Owner not required by PANS-AIM but contained in Appendix 1 "Aeronautical Data Catalogue".
+					In AIXM 5.1(1) it may only be coded as Note for an Obstacle data set.
+					Note: For data provided by the data orginator this information will be rather coded as metadata.-->
+					<aixm:annotation>
+						<aixm:Note gml:id="n0001">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln0001">
+									<aixm:note>Obstacle Owner: DONLON TELECOM, Donlon Street 100, 2020 DOLNLON, Phone: +00123456789, email: info@donlontele.com</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<!-- lightingAvailability not explicitly required by PANS-AIM. 
+					Coding of the availability meaning lighted during Night. May also be coded as annotation.
+					NOTE: There is also the availability property for the LightElement of the VerticalStructurePart. -->
+					<aixm:lightingAvailability>
+						<aixm:VerticalStructureLightingStatus gml:id="vsls02012">
+							<aixm:timeInterval>
+								<aixm:Timesheet gml:id="ts022">
+									<aixm:day>ANY</aixm:day>
+									<aixm:dayTil>ANY</aixm:dayTil>
+									<aixm:startEvent>SS</aixm:startEvent>
+									<aixm:endEvent>SR</aixm:endEvent>				
+								</aixm:Timesheet>
+							</aixm:timeInterval>
+							<aixm:specialDateAuthority xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:status>NORMAL</aixm:status>
+						</aixm:VerticalStructureLightingStatus>
+					</aixm:lightingAvailability>
+					</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+</message:AIXMBasicMessage>
