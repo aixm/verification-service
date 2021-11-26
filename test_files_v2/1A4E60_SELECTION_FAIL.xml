@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
+<!-- 1A4E60_SELECTION_FAIL
+	FAIL CONDITION: If the uom of a vertical limit has the value 'FL' or 'SM', then the corresponding limit reference shall have the value 'STD
+	File raises 2 Errors:
+		 1x FAIL: for 1A4E64 AirspaceLayer upperLimit
+		 2x FAIL: for 1A4E62 RouteSegment lowerLimit -->
+
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
+	xmlns:gts="http://www.isotc211.org/2005/gts" 
+	xmlns:gco="http://www.isotc211.org/2005/gco" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:gss="http://www.isotc211.org/2005/gss" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:gsr="http://www.isotc211.org/2005/gsr" 
+	xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<message:hasMember>
+		<aixm:Airspace gml:id="uuid.f4d5e4d4-d84a-481f-b9e3-b359e42c0dff">
+			<gml:identifier codeSpace="urn:uuid:">f4d5e4d4-d84a-481f-b9e3-b359e42c0dff</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirspaceTimeSlice gml:id="ASE_AMSWELL_FIR">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vtFIRAMSWELL30">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ltFIRAMSWELL30">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>FIR</aixm:type>
+					<aixm:designator>EAAD</aixm:designator>
+					<aixm:name>AMSWELL</aixm:name>
+					<aixm:designatorICAO>YES</aixm:designatorICAO>
+					<aixm:class>
+						<aixm:AirspaceLayerClass gml:id="alcASE_AMSWELL_FIR">
+							<aixm:classification>A</aixm:classification>
+							<aixm:associatedLevels>
+								<aixm:AirspaceLayer gml:id="alASE_AMSWELL_FIR">
+									<aixm:upperLimit uom="FL">UNL</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">195</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:altitudeInterpretation>BETWEEN</aixm:altitudeInterpretation>
+								</aixm:AirspaceLayer>
+							</aixm:associatedLevels>
+						</aixm:AirspaceLayerClass>
+					</aixm:class>
+					<aixm:class>
+						<aixm:AirspaceLayerClass gml:id="alcASE_AMSWELL_FIR_D">
+							<aixm:classification>D</aixm:classification>
+							<aixm:associatedLevels>
+								<aixm:AirspaceLayer gml:id="alASE_AMSWELL_FIR_D">
+									<aixm:upperLimit uom="FL">195</aixm:upperLimit>
+									<!-- 2x FAIL: for 1A4E64 AirspaceLayer upperlimit -->
+									<aixm:upperLimitReference>W84</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FT">3500</aixm:lowerLimit>
+									<aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+									<aixm:altitudeInterpretation>BETWEEN</aixm:altitudeInterpretation>
+								</aixm:AirspaceLayer>
+							</aixm:associatedLevels>
+						</aixm:AirspaceLayerClass>
+					</aixm:class>
+					<aixm:class>
+						<aixm:AirspaceLayerClass gml:id="alcASE_AMSWELL_FIR_G">
+							<aixm:classification>G</aixm:classification>
+							<aixm:associatedLevels>
+								<aixm:AirspaceLayer gml:id="alASE_AMSWELL_FIR_G">
+									<aixm:upperLimit>3500</aixm:upperLimit>
+									<aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FT">GND</aixm:lowerLimit>
+									<aixm:altitudeInterpretation>BETWEEN</aixm:altitudeInterpretation>
+								</aixm:AirspaceLayer>
+							</aixm:associatedLevels>
+						</aixm:AirspaceLayerClass>
+					</aixm:class>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="A-cd43e44a">
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="A-c3969fee">
+									<aixm:upperLimit>UNL</aixm:upperLimit>
+									<aixm:lowerLimit>GND</aixm:lowerLimit>
+									<aixm:horizontalProjection>
+										<aixm:Surface srsName="urn:ogc:def:crs:EPSG::4326"
+											gml:id="SFIRAMSWELL">
+											<gml:patches>
+												<gml:PolygonPatch>
+													<gml:exterior>
+														<gml:Ring>
+															<gml:curveMember>
+																<gml:Curve gml:id="CFIRAMSWELL">
+																	<gml:segments>
+																		<gml:GeodesicString>
+																			<gml:posList>57.0833333333333 -40.0 52.85
+																				-41.7833333333333 48.4666666666667
+																				-41.3333333333333 44.0333333333333 -40.0 42.6
+																				-37.0 40.7333333333333 -37.1833333333333 41.4
+																				-30.05 43.5166666666667 -21.1333333333333
+																				56.6666666666667 -21.1333333333333
+																				57.0833333333333 -40.0</gml:posList>
+																		</gml:GeodesicString>
+																	</gml:segments>
+																</gml:Curve>
+															</gml:curveMember>
+														</gml:Ring>
+													</gml:exterior>
+												</gml:PolygonPatch>
+											</gml:patches>
+											<aixm:horizontalAccuracy uom="KM"
+												>2.0</aixm:horizontalAccuracy>
+										</aixm:Surface>
+									</aixm:horizontalProjection>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:annotation>
+						<aixm:Note gml:id="nASE_AMSWELL_FIR">
+							<aixm:propertyName>class</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="lnASE_AMSWELL_FIR">
+									<aixm:note lang="eng">Class of airspace outside other regulated
+										airspace</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="nASE_AMSWELL_FIR2">
+							<aixm:propertyName>lowerLimit</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="lnASE_AMSWELL_FIR2">
+									<aixm:note lang="eng">Accuracy unknown</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:AirspaceTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Airspace>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="uuid.77e616c8-bf63-4dd0-b8c2-d4e60b565bd1">
+			<gml:identifier codeSpace="urn:uuid:"
+				>77e616c8-bf63-4dd0-b8c2-d4e60b565bd1</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="RSG_UL123_ABOLA_ILURU">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vt22179">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt22178">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">460</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">254</aixm:lowerLimit>
+					<!-- 3x FAIL: for 1A4E62 RouteSegment lowerlimit -->
+					<aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+					<aixm:pathType>GDS</aixm:pathType>
+					<aixm:magneticTrack xsi:nil="true" nilReason="unknown"/>
+					<aixm:reverseMagneticTrack xsi:nil="true" nilReason="unknown"/>
+					<aixm:length xsi:nil="true" nilReason="unknown"/>
+					<aixm:navigationType>OTHER:RNP4</aixm:navigationType>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="E-c6f43ddc">
+							<aixm:reportingATC>ON_REQUEST</aixm:reportingATC>
+							<aixm:facilityMakeup>
+								<aixm:PointReference gml:id="pr111">
+									<aixm:point
+										xlink:href="urn:uuid:9fcb360c-6933-46d6-9c85-a337202efe70"
+										xlink:title="ABOLA"/>
+									<aixm:facilityAngle>
+										<aixm:AngleUse gml:id="au111">
+											<aixm:theAngleIndication
+												xlink:href="urn:uuid:feea9acc-b18f-45e0-bf88-c0f001ea4847"
+												xlink:title="AIN_WOB_015"/>
+										</aixm:AngleUse>
+									</aixm:facilityAngle>
+									<aixm:facilityDistance
+										xlink:href="urn:uuid:c2864b35-bdef-4fa8-bd8d-3a21e5dee2de"
+										xlink:title="DIN_WOB_337"/>
+								</aixm:PointReference>
+							</aixm:facilityMakeup>
+							<aixm:pointChoice_fixDesignatedPoint
+								xlink:href="urn:uuid:9fcb360c-6933-46d6-9c85-a337202efe70"
+								xlink:title="ABOLA"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:40cc05ef-3ca8-47f8-ab1f-65d05ee3d836"
+						xlink:title="RTE_UL123"/>
+					<aixm:curveExtent>
+						<aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="crv21101">
+							<gml:segments>
+								<gml:GeodesicString>
+									<gml:posList>45.71 -35.169999999999995 50.019999999999996 -41.61333333333334</gml:posList>
+								</gml:GeodesicString>
+							</gml:segments>
+						</aixm:Curve>
+					</aixm:curveExtent>				
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="E-c2a1229">
+							<aixm:reportingATC>COMPULSORY</aixm:reportingATC>
+							<aixm:pointChoice_navaidSystem
+								xlink:href="urn:uuid:b35409d8-f236-4303-a12d-795e9e9c8759"
+								xlink:title="DPN_ILURU"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="ra001">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="al001">
+									<aixm:discreteLevelSeries
+										xlink:href="urn:uuid:0942496b-7ce7-0b22-e053-0b751dc2499f"
+										xlink:title="EVEN_FL_RVSM_IFR"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="ra002">
+							<aixm:direction>BACKWARD</aixm:direction>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="al002">
+									<aixm:discreteLevelSeries
+										xlink:href="urn:uuid:0942496b-7ce1-0b22-e053-0b751dc2499f"
+										xlink:title="ODD_FL_RVSM_IFR"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="n041">
+							<aixm:propertyName>length</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln041">
+									<aixm:note lang="eng">Accuracy unknown</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>	
+</message:AIXMBasicMessage>

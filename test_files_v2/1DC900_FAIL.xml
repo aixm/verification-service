@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
 <!-- 1DC900_FAIL
-	FAIL CONDITION: A VerticalStructure that has a VerticalStructurePart with horizontalProjection defined by ElevatedCurve or ElevatedSurface, 
-	should not have a radius value.
+	FAIL CONDITION: A VerticalStructure that has a VerticalStructurePart with horizontalProjection defined by an ElevatedSurface, 
+	should not have a radius, length or width.
 	File shall raise 2 x Warnings:
-	1x FAIL: 1DC901 linearExtent.ElevatedCurve 
-	2x FAIL: 1DC902 surfaceExtent.ElevatedSurface -->
+	1x FAIL: 1DC901 surfaceExtent.ElevatedSurface radius
+	2x FAIL: 1DC902 surfaceExtent.ElevatedSurface width -->
 
 <message:AIXMBasicMessage 
-	xmlns:message="http://www.aixm.aero/schema/5.1/message" 
+	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
 	xmlns:gts="http://www.isotc211.org/2005/gts" 
 	xmlns:gco="http://www.isotc211.org/2005/gco" 
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
 	xmlns:gml="http://www.opengis.net/gml/3.2" 
 	xmlns:gss="http://www.isotc211.org/2005/gss" 
-	xmlns:aixm="http://www.aixm.aero/schema/5.1" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
 	xmlns:gsr="http://www.isotc211.org/2005/gsr" 
 	xmlns:gmd="http://www.isotc211.org/2005/gmd" 
 	xmlns:xlink="http://www.w3.org/1999/xlink" 
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
 	<message:hasMember>
-		<!-- GROUP OF OBSTACLES GROUPED WITH AN AREA (POLYGON) (Windfarm area), Area 1 -->
+		<!-- GROUP OF OBSTACLES GROUPED WITH AN AREA (POLYGON) (Windfarm area) -->
 		<aixm:VerticalStructure gml:id="uuid.47db48e9-d46a-4100-a266-25a3968b6a98">
 			<gml:identifier codeSpace="urn:uuid:">47db48e9-d46a-4100-a266-25a3968b6a98</gml:identifier>
 			<aixm:timeSlice>
@@ -45,8 +45,9 @@
 					<aixm:lighted>YES</aixm:lighted>
 					<aixm:group>YES</aixm:group>
 					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
-					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
-					<!-- 2x FAIL: 1DC902  surfaceExtent.ElevatedCSurface -->
+					<!-- 2x FAIL: 1DC902  surfaceExtent.ElevatedCSurface width-->
+					<aixm:width uom="M">40.0</aixm:width>
+					<!-- 1x FAIL: 1DC902  surfaceExtent.ElevatedCSurface radius-->
 					<aixm:radius uom="M">50.5</aixm:radius> 
 					<aixm:part>
 						<aixm:VerticalStructurePart gml:id="vsp0002-1">
@@ -129,7 +130,7 @@
 		</aixm:VerticalStructure>
 	</message:hasMember>
 	<message:hasMember>
-		<!-- SINGLE PART LINE OBSTACLE (Windfarm), Area 1 -->
+		<!-- SINGLE PART LINE OBSTACLE (Windfarm) with lenght and width -->
 		<aixm:VerticalStructure gml:id="uuid.718c2782-a624-405e-86b6-144b40b680b0">
 			<gml:identifier codeSpace="urn:uuid:">718c2782-a624-405e-86b6-144b40b680b0</gml:identifier>
 			<aixm:timeSlice>
@@ -153,10 +154,9 @@
 					<aixm:type>WINDMILL_FARMS</aixm:type>
 					<aixm:lighted>YES</aixm:lighted>
 					<aixm:group>YES</aixm:group>
-					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
-					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
-					<!-- 1x FAIL: 1DC901 linearExtent.ElevatedCurve -->
-					<aixm:radius uom="M">5.5</aixm:radius>
+					<aixm:length uom="M">50.0</aixm:length>
+					<aixm:width uom="M">10</aixm:width>
+					<aixm:radius xsi:nil="true"/>
 					<aixm:part>
 						<aixm:VerticalStructurePart gml:id="vsp0006-1">
 							<aixm:verticalExtent uom="M">75</aixm:verticalExtent>
@@ -203,7 +203,7 @@
 		</aixm:VerticalStructure>
 	</message:hasMember>
 	<message:hasMember>
-		<!-- NAVAID OBSTACLE (NDB SCN) OLS & Area 2b 09L  -->
+		<!-- NAVAID OBSTACLE (NDB SCN), with radius -->
 		<aixm:VerticalStructure gml:id="uuid.83985f79-91f0-4f79-b9ba-87251e67ae9d">
 			<gml:identifier codeSpace="urn:uuid:">83985f79-91f0-4f79-b9ba-87251e67ae9d</gml:identifier>
 				<aixm:timeSlice>
@@ -230,7 +230,7 @@
 					<aixm:group>NO</aixm:group>
 					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
 					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
-					<aixm:radius xsi:nil="true" nilReason="unknown"/>
+					<aixm:radius uom="M">8.0</aixm:radius>
 					<aixm:part>
 						<aixm:VerticalStructurePart gml:id="vsp0003-12">
 							<aixm:verticalExtent uom="M">25.0</aixm:verticalExtent>
@@ -259,28 +259,4 @@
 			</aixm:timeSlice>
 		</aixm:VerticalStructure>
 	</message:hasMember>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 </message:AIXMBasicMessage>
