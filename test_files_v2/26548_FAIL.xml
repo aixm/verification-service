@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
+<!-- 26548_FAIL FAIL CONDITION: An ArcByCenterPoint shall  have startAngle.uom equal-to 'deg'
+	1x FAIL Error: startAngle.uom equal-to 'rad'
+	2x FAIL Error: startAngle.uom equal-to 'rad' -->
+
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
+	xmlns:gts="http://www.isotc211.org/2005/gts" 
+	xmlns:gco="http://www.isotc211.org/2005/gco" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:gss="http://www.isotc211.org/2005/gss" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:gsr="http://www.isotc211.org/2005/gsr" 
+	xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<message:hasMember>
+		<aixm:Airspace gml:id="uuid.6a23b1fb-5eba-468e-974a-d37cdecf089f">
+			<gml:identifier codeSpace="urn:uuid:"
+				>6a23b1fb-5eba-468e-974a-d37cdecf089f</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirspaceTimeSlice gml:id="ASE_BRAVO_R">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_246">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_246">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>R</aixm:type>
+					<aixm:designator>EAR1</aixm:designator>
+					<aixm:name>BRAVO</aixm:name>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="ID_247">
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="ID_248">
+									<aixm:upperLimit uom="M">1525</aixm:upperLimit>
+									<aixm:upperLimitReference>SFC</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FT">GND</aixm:lowerLimit>
+									<aixm:horizontalProjection>
+										<aixm:Surface srsName="urn:ogc:def:crs:EPSG::4326"
+											gml:id="ID_249">
+											<gml:patches>
+												<gml:PolygonPatch>
+													<gml:exterior>
+														<gml:Ring>
+															<gml:curveMember>
+																<gml:Curve gml:id="ID_250">
+																	<gml:segments>
+																		<gml:GeodesicString>
+																			<gml:posList>55.233333333333334
+																				-36.166666666666664 55.23116372807667
+																				-36.89437337916484</gml:posList>
+																		</gml:GeodesicString>
+																		<gml:ArcByCenterPoint numArc="1">
+																			<gml:posList>55.2333333333333
+																				-36.166666666666664</gml:posList>
+																			<gml:radius uom="nmi_i">25.0</gml:radius>
+																			<!-- 1x FAIL Error: startAngle.uom equal-to 'rad' -->
+																			<gml:startAngle uom="rad">270.0</gml:startAngle>
+																			<!-- 2x FAIL Error: startAngle.uom equal-to 'rad' -->
+																			<gml:endAngle uom="rad">497.0</gml:endAngle>
+																		</gml:ArcByCenterPoint>
+																		<gml:GeodesicString>
+																			<gml:posList>54.92816350530716 -35.674116070018954
+																				55.233333333333334
+																				-36.166666666666664</gml:posList>
+																		</gml:GeodesicString>
+																	</gml:segments>
+																</gml:Curve>
+															</gml:curveMember>
+														</gml:Ring>
+													</gml:exterior>
+												</gml:PolygonPatch>
+											</gml:patches>
+											<aixm:horizontalAccuracy uom="KM"
+												>2.0</aixm:horizontalAccuracy>
+										</aixm:Surface>
+									</aixm:horizontalProjection>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:activation>
+						<aixm:AirspaceActivation gml:id="ID_251">
+							<aixm:activity>SHOOTING</aixm:activity>
+							<aixm:status>ACTIVE</aixm:status>
+						</aixm:AirspaceActivation>
+					</aixm:activation>
+				</aixm:AirspaceTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Airspace>
+	</message:hasMember>	
+</message:AIXMBasicMessage>

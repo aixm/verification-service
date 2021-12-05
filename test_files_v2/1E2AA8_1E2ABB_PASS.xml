@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
+<!-- 1E2AA8_1E2ABB_PASS -->
+
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
+	xmlns:gts="http://www.isotc211.org/2005/gts" 
+	xmlns:gco="http://www.isotc211.org/2005/gco" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:gss="http://www.isotc211.org/2005/gss" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:gsr="http://www.isotc211.org/2005/gsr" 
+	xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<message:hasMember>
+		<!-- ACS with 2 x callSign (eng & ger) -->
+		<aixm:AirTrafficControlService gml:id="uuid.cbaa3d19-fcb6-4ead-8b3b-d5f6907ca419">
+			<gml:identifier codeSpace="urn:uuid:">cbaa3d19-fcb6-4ead-8b3b-d5f6907ca419</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirTrafficControlServiceTimeSlice gml:id="ATC_AMSWELL_ACC">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vtATC_AMSWELL_ACC">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="fltATC_AMSWELL_ACC">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:serviceProvider xlink:href="urn:uuid:1c1dd242-1a59-4fba-ac39-63de791c0afd"
+						xlink:title="UNI_AMSWELL_ACC"/>
+					<aixm:call-sign>
+						<aixm:CallsignDetail gml:id="cdATC_AMSWELL_ACC">
+							<aixm:callSign>AMSWELL CONTROL</aixm:callSign>
+							<aixm:language>eng</aixm:language>
+						</aixm:CallsignDetail>
+					</aixm:call-sign>
+					<aixm:call-sign>
+						<aixm:CallsignDetail gml:id="cdATC_AMSWELL_ACC_2">
+							<aixm:callSign>AMSWELL KONTROLLE</aixm:callSign>
+							<aixm:language>ger</aixm:language>
+						</aixm:CallsignDetail>
+					</aixm:call-sign>
+					<aixm:radioCommunication
+						xlink:href="urn:uuid:99c2b65e-a7ac-434d-aae0-0c3a2c62fe61"
+						xlink:title="RCC_AMSWELL_ACC_120.300MHZ"/>
+					<aixm:radioCommunication
+						xlink:href="urn:uuid:d02978c7-abb5-44ab-93a9-4337b634529b"
+						xlink:title="RCC_AMSWELL_ACC_117.900MHZ"/>
+					<aixm:radioCommunication
+						xlink:href="urn:uuid:2598f170-958a-4226-bfe9-3464468b0174"
+						xlink:title="RCC_AMSWELL_ACC_121.500MHZ"/>
+					<aixm:radioCommunication
+						xlink:href="urn:uuid:80b0ad9d-1c1a-4f51-be25-7a6a74d17856"
+						xlink:title="RCC_AMSWELL_ACC_4689.5KHZ"/>
+					<aixm:availability>
+						<aixm:ServiceOperationalStatus gml:id="sosATC_AMSWELL_ACC">
+							<aixm:timeInterval>
+								<aixm:Timesheet gml:id="tsATC_AMSWELL_ACC">
+									<aixm:timeReference>UTC</aixm:timeReference>
+									<aixm:day>ANY</aixm:day>
+									<aixm:dayTil>ANY</aixm:dayTil>
+									<aixm:startTime>00:00</aixm:startTime>
+									<aixm:endTime>00:00</aixm:endTime>
+									<aixm:daylightSavingAdjust xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:excluded>NO</aixm:excluded>
+								</aixm:Timesheet>
+							</aixm:timeInterval>
+							<aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+						</aixm:ServiceOperationalStatus>
+					</aixm:availability>
+					<aixm:type>ACS</aixm:type>
+					<aixm:clientAirspace xlink:href="urn:uuid:f4d5e4d4-d84a-481f-b9e3-b359e42c0dff" xlink:title="ASE_AMSWELL_FIR"/>
+					<aixm:clientRoute>
+						<aixm:RoutePortion gml:id="rp001">
+							<aixm:start_fixDesignatedPoint
+								xlink:href="urn:uuid:bb9dcfb3-f45a-40f3-8852-fca1349801fc"
+								xlink:title="DPN_BARIM"/>
+							<aixm:referencedRoute
+								xlink:href="urn:uuid:a14a8751-5428-46bc-a2d1-32ef84d37b5c"
+								xlink:title="RTE_UA4"/>
+							<aixm:end_fixDesignatedPoint
+								xlink:href="urn:uuid:26009f76-2e05-418d-a631-bec02f84ac5b"
+								xlink:title="DPN_VEGAT"/>
+						</aixm:RoutePortion>
+					</aixm:clientRoute>
+					<aixm:clientHolding xlink:href="urn:uuid:f37a6ecd-4765-48ed-88f1-6a42643fc13a"
+						xlink:title="HPT_BOR_090_1MIN"/>
+				</aixm:AirTrafficControlServiceTimeSlice>
+			</aixm:timeSlice>
+		</aixm:AirTrafficControlService>
+	</message:hasMember>
+	<message:hasMember>
+		<!-- Unit (AMSWELL ACC) proving the ACS -->
+		<aixm:Unit gml:id="uuid.1c1dd242-1a59-4fba-ac39-63de791c0afd">
+			<gml:identifier codeSpace="urn:uuid:">1c1dd242-1a59-4fba-ac39-63de791c0afd</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:UnitTimeSlice gml:id="UNI_AMSWELL_ACC">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vtUNI_AMSWELL_ACC">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="fltUNI_AMSWELL_ACC">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>AMSWELL ACC</aixm:name>
+					<aixm:ownerOrganisation xlink:href=""/> 
+				</aixm:UnitTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Unit>
+	</message:hasMember>
+	<message:hasMember>
+		<!-- OrganisationAuhority owning the Unit AMSWELL ACC -->
+		<aixm:OrganisationAuthority gml:id="uuid.c225ae5c-540f-4a48-8867-809b393b2407">
+			<gml:identifier codeSpace="urn:uuid:"
+				>c225ae5c-540f-4a48-8867-809b393b2407</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:OrganisationAuthorityTimeSlice gml:id="ORG_CAA">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="rtvtOXS0">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ltOXS118">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>CIVIL AVIATION ADMINISTRATION</aixm:name>
+					<aixm:type>NTL_AUTH</aixm:type>
+					<aixm:relatedOrganisationAuthority>
+						<aixm:OrganisationAuthorityAssociation gml:id="CAATODONLONSTATE">
+							<aixm:type>OWNED_BY</aixm:type>
+							<aixm:theOrganisationAuthority
+								xlink:href="urn:uuid:6384a4e0-8497-4f83-8eaa-d73ef549d90e"
+								xlink:title="ORG_REPUBLIC OF DONLON"/>
+						</aixm:OrganisationAuthorityAssociation>
+					</aixm:relatedOrganisationAuthority>
+				</aixm:OrganisationAuthorityTimeSlice>
+			</aixm:timeSlice>
+		</aixm:OrganisationAuthority>
+	</message:hasMember>
+	<message:hasMember>
+		<!-- OrganisationAuhority (State) owning the CIVIL AVIATION ADMINISTRATION -->
+		<aixm:OrganisationAuthority gml:id="uuid.6384a4e0-8497-4f83-8eaa-d73ef549d90e">
+			<gml:identifier codeSpace="urn:uuid:"
+				>6384a4e0-8497-4f83-8eaa-d73ef549d90e</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:OrganisationAuthorityTimeSlice gml:id="DONLONSTATE">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vtDONLONSTATE">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ltDONLONSTATE">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>REPUBLIC OF DONLON</aixm:name>
+					<aixm:type>STATE</aixm:type>
+				</aixm:OrganisationAuthorityTimeSlice>
+			</aixm:timeSlice>
+		</aixm:OrganisationAuthority>
+	</message:hasMember>	
+</message:AIXMBasicMessage>
