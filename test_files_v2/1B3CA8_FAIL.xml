@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
-<!-- 1B34D8_PASS -->
+<!-- 1B3CA8_FAIL 	
+	FAIL CONDITION: The gml:pos elements of the pointProperty that are descendants of Curve / ElevatedCurve used by ElevatedSurface 
+	shall have either their own srsName or must be able to inherit it
+	1x FAIL: missing srsName attribute -->
 
 <message:AIXMBasicMessage 
 	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
@@ -14,6 +17,13 @@
 	xmlns:gmd="http://www.isotc211.org/2005/gmd" 
 	xmlns:xlink="http://www.w3.org/1999/xlink" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<gml:boundedBy>
+		<!-- 1x FAIL: missing srsName attribute -->
+		<gml:Envelope>
+			<gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+			<gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+		</gml:Envelope>
+	</gml:boundedBy>	
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.21a13c9f-a8ff-4fdd-9aaa-5dbfd91514b9">
 			<gml:identifier codeSpace="urn:uuid:">21a13c9f-a8ff-4fdd-9aaa-5dbfd91514b9</gml:identifier>
@@ -42,7 +52,7 @@
 						</aixm:AirspaceLayerClass>
 					</aixm:class>
 					<aixm:geometryComponent>
-						<!-- Point referencing using aixm:Point annotations -->
+						<!-- Point referncing using aixm:Point annotations -->
 						<aixm:AirspaceGeometryComponent gml:id="ID_2388">
 							<aixm:theAirspaceVolume>
 								<aixm:AirspaceVolume gml:id="ID_2398">
@@ -50,7 +60,8 @@
 									<aixm:upperLimitReference>MSL</aixm:upperLimitReference>
 									<aixm:lowerLimit uom="FT">GND</aixm:lowerLimit>
 									<aixm:horizontalProjection>
-										<aixm:Surface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_2408">
+										<!-- 1x FAIL: missing srsName attribute -->
+										<aixm:ElevatedSurface gml:id="ID_2408">
 											<gml:patches>
 												<gml:PolygonPatch>
 													<gml:exterior>
@@ -83,7 +94,7 @@
 												</gml:PolygonPatch>
 											</gml:patches>
 											<aixm:horizontalAccuracy uom="M">100.0</aixm:horizontalAccuracy>
-										</aixm:Surface>
+										</aixm:ElevatedSurface>
 									</aixm:horizontalProjection>
 								</aixm:AirspaceVolume>
 							</aixm:theAirspaceVolume>
@@ -93,4 +104,5 @@
 			</aixm:timeSlice>
 		</aixm:Airspace>
 	</message:hasMember>
+	
 </message:AIXMBasicMessage>

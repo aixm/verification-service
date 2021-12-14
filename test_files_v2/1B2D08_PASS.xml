@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
+<!-- 1B2D08_PASS -->
+
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
+	xmlns:gts="http://www.isotc211.org/2005/gts" 
+	xmlns:gco="http://www.isotc211.org/2005/gco" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:gss="http://www.isotc211.org/2005/gss" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:gsr="http://www.isotc211.org/2005/gsr" 
+	xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<gml:boundedBy>
+		<gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+			<gml:lowerCorner>-32.0886111111111 -47.0</gml:lowerCorner>
+			<gml:upperCorner>57.690815969999996 52.4283333333333</gml:upperCorner>
+		</gml:Envelope>
+	</gml:boundedBy>	
+	<message:hasMember>
+		<aixm:Airspace gml:id="uuid.4fd9f4be-8c65-43f6-b083-3ced9a4b2a7f">
+			<gml:identifier codeSpace="urn:uuid:"
+				>4fd9f4be-8c65-43f6-b083-3ced9a4b2a7f</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirspaceTimeSlice gml:id="ASE_ACR001_A">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vtAlertACR00129">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ltAlertACR00129">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>A</aixm:type>
+					<aixm:designator>COR001</aixm:designator>
+					<aixm:name>COR001</aixm:name>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="A-d4933e30">
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="A-a072fe65">
+									<aixm:width uom="M">3000.0</aixm:width>
+									<aixm:centreline>
+										<aixm:Curve	gml:id="CAlertACR001">
+											<gml:segments>
+												<gml:GeodesicString>
+													<gml:pos>47.4 -41.6</gml:pos>
+													<gml:pointProperty xlink:href="#ElevatedPointId1"/>
+												</gml:GeodesicString>
+											</gml:segments>
+											<aixm:horizontalAccuracy uom="M">3.0</aixm:horizontalAccuracy>
+										</aixm:Curve>
+									</aixm:centreline>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+				</aixm:AirspaceTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Airspace>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:Navaid gml:id="id1">
+			<gml:identifier codeSpace="http://www.luciad.com">7358c3ab-c24f-44be-870b-d50d76fe7506</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:NavaidTimeSlice gml:id="NavaidTimeSliceId1">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="gmlTimePeriodId2">
+							<gml:beginPosition>2013-08-08T08:59:00.000Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>0</aixm:sequenceNumber>
+					<aixm:type>NDB</aixm:type>
+					<aixm:designator>DESI</aixm:designator>
+					<aixm:name>NAME</aixm:name>
+					<aixm:purpose>TERMINAL</aixm:purpose>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="ElevatedPointId1" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+							<gml:pos>47.5 -41.7</gml:pos>
+							<aixm:horizontalAccuracy uom="M">1.0</aixm:horizontalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:NavaidTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Navaid>
+	</message:hasMember>
+</message:AIXMBasicMessage>
