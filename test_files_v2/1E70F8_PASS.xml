@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
-<!-- 1E49E8_ALL_PASS -->
+<!-- 1E70F8_PASS -->
 
 <message:AIXMBasicMessage 
 	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
@@ -142,79 +142,6 @@
 							<aixm:status>NORMAL</aixm:status>
 						</aixm:VerticalStructureLightingStatus>
 					</aixm:lightingAvailability>
-				</aixm:VerticalStructureTimeSlice>
-			</aixm:timeSlice>
-		</aixm:VerticalStructure>
-	</message:hasMember>
-	<message:hasMember>
-		<!-- SINGLE PART CUVE OBSTACLE (Windfarm), Area 1 -->
-		<aixm:VerticalStructure gml:id="uuid.718c2782-a624-405e-86b6-144b40b680b0">
-			<gml:identifier codeSpace="urn:uuid:">718c2782-a624-405e-86b6-144b40b680b0</gml:identifier>
-			<aixm:timeSlice>
-				<aixm:VerticalStructureTimeSlice gml:id="OBS-00006">
-					<gml:validTime>
-						<gml:TimePeriod gml:id="tp0006-1">
-							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
-							<gml:endPosition indeterminatePosition="unknown"/>
-						</gml:TimePeriod>
-					</gml:validTime>
-					<aixm:interpretation>BASELINE</aixm:interpretation>
-					<aixm:sequenceNumber>1</aixm:sequenceNumber>
-					<aixm:correctionNumber>0</aixm:correctionNumber>
-					<aixm:featureLifetime>
-						<gml:TimePeriod gml:id="tp0006-2">
-							<gml:beginPosition>2009-12-05T00:00:00Z</gml:beginPosition>
-							<gml:endPosition indeterminatePosition="unknown"/>
-						</gml:TimePeriod>
-					</aixm:featureLifetime>
-					<aixm:name>TUBORG IIB</aixm:name>
-					<aixm:type>WINDMILL_FARMS</aixm:type>
-					<aixm:lighted>YES</aixm:lighted>
-					<aixm:group>YES</aixm:group>
-					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
-					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
-					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
-					<aixm:part>
-						<aixm:VerticalStructurePart gml:id="vsp0006-1">
-							<aixm:verticalExtent uom="M">75</aixm:verticalExtent>
-							<aixm:verticalExtentAccuracy uom="M">30</aixm:verticalExtentAccuracy>
-							<aixm:type>WINDMILL_FARMS</aixm:type>
-							<aixm:markingFirstColour>GREEN</aixm:markingFirstColour>
-							<aixm:mobile>NO</aixm:mobile>
-							<aixm:horizontalProjection_linearExtent>
-								<aixm:ElevatedCurve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="crv12456">
-									<gml:segments>
-										<gml:GeodesicString>
-											<gml:posList>54.33333333 -26.48555556 54.3 -26.4</gml:posList>
-										</gml:GeodesicString>
-									</gml:segments>
-									<aixm:horizontalAccuracy uom="M">50</aixm:horizontalAccuracy>
-									<aixm:elevation uom="M">75</aixm:elevation>
-									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
-									<aixm:verticalAccuracy uom="M">30.0</aixm:verticalAccuracy>
-								</aixm:ElevatedCurve>
-							</aixm:horizontalProjection_linearExtent>
-							<aixm:lighting>
-								<aixm:LightElement gml:id="le0006-1">
-									<aixm:colour>RED</aixm:colour>
-									<aixm:intensityLevel xsi:nil="true" nilReason="unknown"/>
-									<aixm:intensity xsi:nil="true" nilReason="unknown"/>
-									<aixm:type>OTHER:FLASHING</aixm:type>
-								</aixm:LightElement>
-							</aixm:lighting>
-						</aixm:VerticalStructurePart>
-					</aixm:part>
-					<aixm:annotation>
-						<aixm:Note gml:id="n000s0">
-							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
-							<aixm:purpose>REMARK</aixm:purpose>
-							<aixm:translatedNote>
-								<aixm:LinguisticNote gml:id="ln00ss00">
-									<aixm:note>marked=YES</aixm:note>
-								</aixm:LinguisticNote>
-							</aixm:translatedNote>
-						</aixm:Note>
-					</aixm:annotation>
 				</aixm:VerticalStructureTimeSlice>
 			</aixm:timeSlice>
 		</aixm:VerticalStructure>

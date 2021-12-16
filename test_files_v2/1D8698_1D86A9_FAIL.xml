@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
-<!-- 1D8698_1D86A4_FAIL
-	FAIL CONDITION: The ElevatedSurface.elevation.uom, ElevatedCurve.elevation.uom, ElevatedPoint.elevation.uom of a VerticalStructurePart should be in 'FT' or 'M'.
-	File shall raise 1 x Warning.
- 	NOTE: Only the ElevatedCurve instance of rule 1D8698 with 'CM' is tested, as it can be assumed that the rule works exactly the same for all instances and uom values.  -->
+<!-- 1D8698_1D86A9_FAIL
+	FAIL CONDITION: The verticalExtent.uom of a VerticalStructurePart should be in 'FT' or 'M'
+	File shall raise 1 x Warning  -->
 
 <message:AIXMBasicMessage 
 	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
@@ -48,7 +47,8 @@
 					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
 					<aixm:part>
 						<aixm:VerticalStructurePart gml:id="vsp0006-1">
-							<aixm:verticalExtent uom="M">75</aixm:verticalExtent>
+							<!-- 1x FAIL: verticalExtent.uom in NM -->
+							<aixm:verticalExtent uom="NM">75</aixm:verticalExtent>
 							<aixm:verticalExtentAccuracy uom="M">30</aixm:verticalExtentAccuracy>
 							<aixm:type>WINDMILL_FARMS</aixm:type>
 							<aixm:markingFirstColour>GREEN</aixm:markingFirstColour>
@@ -60,8 +60,7 @@
 											<gml:posList>54.33333333 -26.48555556 54.3 -26.4</gml:posList>
 										</gml:GeodesicString>
 									</gml:segments>
-									<!-- 1x FAIL: ElevatedCurve.elevation.uom in CM -->
-									<aixm:horizontalAccuracy uom="CM">50</aixm:horizontalAccuracy>
+									<aixm:horizontalAccuracy uom="M">30</aixm:horizontalAccuracy>
 									<aixm:elevation uom="M">75</aixm:elevation>
 									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
 									<aixm:verticalAccuracy uom="M">30</aixm:verticalAccuracy>

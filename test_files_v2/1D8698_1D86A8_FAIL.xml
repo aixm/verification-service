@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
-<!-- 1D8698_1D86A4_FAIL
-	FAIL CONDITION: The ElevatedSurface.elevation.uom, ElevatedCurve.elevation.uom, ElevatedPoint.elevation.uom of a VerticalStructurePart should be in 'FT' or 'M'.
+<!-- 1D8698_1D86A8_FAIL
+	FAIL CONDITION: The verticalExtentAccuracy.uom of a VerticalStructurePart should be in 'FT' or 'M'
 	File shall raise 1 x Warning.
- 	NOTE: Only the ElevatedCurve instance of rule 1D8698 with 'CM' is tested, as it can be assumed that the rule works exactly the same for all instances and uom values.  -->
+ 	N
+	-->
 
 <message:AIXMBasicMessage 
 	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
@@ -15,11 +16,10 @@
 	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
 	xmlns:gsr="http://www.isotc211.org/2005/gsr" 
 	xmlns:gmd="http://www.isotc211.org/2005/gmd" 
-	xmlns:event="http://www.aixm.aero/schema/5.1.1/event" 
 	xmlns:xlink="http://www.w3.org/1999/xlink" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
 	<message:hasMember>
-		<!-- SINGLE PART CURVE OBSTACLE (Windfarm) -->
+		<!-- SINGLE PART CURVE OBSTACLE (Windfarm) AREA1 -->
 		<aixm:VerticalStructure gml:id="uuid.718c2782-a624-405e-86b6-144b40b680b0">
 			<gml:identifier codeSpace="urn:uuid:">718c2782-a624-405e-86b6-144b40b680b0</gml:identifier>
 			<aixm:timeSlice>
@@ -49,7 +49,8 @@
 					<aixm:part>
 						<aixm:VerticalStructurePart gml:id="vsp0006-1">
 							<aixm:verticalExtent uom="M">75</aixm:verticalExtent>
-							<aixm:verticalExtentAccuracy uom="M">30</aixm:verticalExtentAccuracy>
+							<!-- 1x FAIL: erticalExtentAccuracy.uom with 'CM' -->
+							<aixm:verticalExtentAccuracy uom="CM">30</aixm:verticalExtentAccuracy>
 							<aixm:type>WINDMILL_FARMS</aixm:type>
 							<aixm:markingFirstColour>GREEN</aixm:markingFirstColour>
 							<aixm:mobile>NO</aixm:mobile>
@@ -60,8 +61,7 @@
 											<gml:posList>54.33333333 -26.48555556 54.3 -26.4</gml:posList>
 										</gml:GeodesicString>
 									</gml:segments>
-									<!-- 1x FAIL: ElevatedCurve.elevation.uom in CM -->
-									<aixm:horizontalAccuracy uom="CM">50</aixm:horizontalAccuracy>
+									<aixm:horizontalAccuracy uom="M">50</aixm:horizontalAccuracy>
 									<aixm:elevation uom="M">75</aixm:elevation>
 									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
 									<aixm:verticalAccuracy uom="M">30</aixm:verticalAccuracy>

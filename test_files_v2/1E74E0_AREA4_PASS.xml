@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
-<!-- 6801C_AREA4_AREA4_FAIL
-	FAIL CONDITION: The verticalAccuracy of the horizontalProjection of a VerticalStructurePart (within ObstacleArea with type equal-to 'AREA4') 
-	should be 1.0 'M' or better
-	File shall raise 1 x Warning for  
-	1x FAIL: vverticalAccuracy value higher than 1.0 Meters -->
+<!-- 1E74E0_AREA4_PASS -->
 
 <message:AIXMBasicMessage 
 	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
@@ -61,8 +57,7 @@
 									<aixm:elevation uom="M">28.5</aixm:elevation>
 									<aixm:geoidUndulation xsi:nil="true" nilReason="inapplicable"/>
 									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
-									<!-- 1x FAIL: 6801D surfaceExtent.ElevatedSurface.verticalAccuracy with value higher than 1.0 Meters -->
-									<aixm:verticalAccuracy uom="M">1.1</aixm:verticalAccuracy>
+									<aixm:verticalAccuracy uom="M">1.00</aixm:verticalAccuracy>
 								</aixm:ElevatedCurve>
 							</aixm:horizontalProjection_linearExtent>
 						</aixm:VerticalStructurePart>

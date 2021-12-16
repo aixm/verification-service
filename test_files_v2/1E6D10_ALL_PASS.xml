@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
-<!-- 1A9898_SELECTION_FAIL
-	The ElevatedSurface.elevation, ElevatedCurve.elevation or ElevatedPoint.elevation of a VerticalStructurePart related to ObstacleArea with type equal-to 'AREA3', 'AREA4') 
-	should be provided with a minimal resolution of 0.1 m or 0.1 ft (i.e. one decimal) 
-	File shall raise 3 (+1) x Warnings for  
-	1x FAIL: 1A9899 for surfaceExtent.ElevatedSurface, AREA 3
-	2x FAIL: 1A989E for linearExtent.ElevatedCurve, AREA 4
-	3.1x FAIL: 1A9899 for location.ElevatedPoint, 3.2x FAIL: surfaceExtent.ElevatedSurface, (multipart) AREA 3 -->
+<!-- 1E6D10_ALL_PASS -->
 
 <message:AIXMBasicMessage 
 	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
@@ -61,8 +55,7 @@
 										</gml:GeodesicString>
 									</gml:segments>
 									<aixm:horizontalAccuracy uom="M">2.5</aixm:horizontalAccuracy>
-									<!-- 2x FAIL: 1A989E for linearExtent.ElevatedCurve.elevation AREA 4 -->
-									<aixm:elevation uom="M">28</aixm:elevation>
+									<aixm:elevation uom="M">28.1</aixm:elevation>
 									<aixm:geoidUndulation xsi:nil="true" nilReason="inapplicable"/>
 									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
 									<aixm:verticalAccuracy uom="M">1</aixm:verticalAccuracy>
@@ -147,8 +140,7 @@
 										</gml:PolygonPatch>
 									</gml:patches>
 									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
-									<!-- 1x FAIL: 1A9899 for lsurfaceExtent.ElevatedSurface AREA 3 -->
-									<aixm:elevation uom="M">40</aixm:elevation>
+									<aixm:elevation uom="M">40.0</aixm:elevation>
 									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
 									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
 								</aixm:ElevatedSurface>
@@ -231,8 +223,7 @@
 										</gml:PolygonPatch>
 									</gml:patches>
 									<aixm:horizontalAccuracy uom="M">5</aixm:horizontalAccuracy>
-									<!-- 3.1x FAIL: 1A9899 for location.ElevatedPoint, 3.2x FAIL: surfaceExtent.ElevatedSurface, (multipart) AREA 3-->
-									<aixm:elevation uom="M">168</aixm:elevation>
+									<aixm:elevation uom="M">168.00</aixm:elevation>
 									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
 									<aixm:verticalAccuracy uom="M">1</aixm:verticalAccuracy>
 								</aixm:ElevatedSurface>
@@ -261,8 +252,7 @@
 								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="VID000005">
 									<gml:pos>55.52416667 -24.63888889</gml:pos>
 									<aixm:horizontalAccuracy uom="M">5</aixm:horizontalAccuracy>
-									<!-- 3.1x FAIL: 1A9899 for location.ElevatedPoint, 3.2x FAIL: surfaceExtent.ElevatedSurface, (multipart) AREA 3-->
-									<aixm:elevation uom="M">191</aixm:elevation>
+									<aixm:elevation uom="M">191.50</aixm:elevation>
 									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
 									<aixm:verticalAccuracy uom="M">1</aixm:verticalAccuracy>
 								</aixm:ElevatedPoint>

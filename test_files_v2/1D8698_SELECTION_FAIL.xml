@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
+<!-- 1D8698_SELECTION_FAIL
+	FAIL CONDITION: A VerticalStructure with type equal-to ('ANTENNA', 'CRANE', 'TETHERED_BALLOON', 'WINDMILL') with exactly one VerticalStrcuturePart with horizontalProjection defined by ElevatedPoint 
+	should have a horizontal extent either defined by  radius or by length and width
+	File raises 1x FAIL: for ANTENNA SINGLE PART OBS -->
+
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
+	xmlns:gts="http://www.isotc211.org/2005/gts" 
+	xmlns:gco="http://www.isotc211.org/2005/gco" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:gss="http://www.isotc211.org/2005/gss" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:gsr="http://www.isotc211.org/2005/gsr" 
+	xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<message:hasMember>
+		<!-- SINGLE PART POINT OBSTACLE (Antenna) -->
+		<aixm:VerticalStructure gml:id="uuid.5f68d835-828c-4ccd-91b7-791058d9dd4d">
+			<gml:identifier codeSpace="urn:uuid:">5f68d835-828c-4ccd-91b7-791058d9dd4d</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-0001">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vt120131">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt120131">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-0001</aixm:name> 
+					<aixm:type>ANTENNA</aixm:type>
+					<aixm:lighted>NO</aixm:lighted>
+					<aixm:markingICAOStandard xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:group>NO</aixm:group>
+					<!-- 1x FAIL: 1x FAIL: for ANTENNA SINGLE PART OBS -->
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:lightingICAOStandard xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:synchronisedLighting xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:marker xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="V-af4ee6d6">
+							<aixm:verticalExtent uom="M">120</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">30</aixm:verticalExtentAccuracy>
+							<aixm:type>ANTENNA</aixm:type>
+							<aixm:constructionStatus xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:markingPattern xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:markingFirstColour xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:markingSecondColour xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:mobile>NO</aixm:mobile>
+							<aixm:frangible xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:visibleMaterial xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:designator xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:horizontalProjection_location>
+								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="p1121">
+									<gml:pos>52.36171389 -28.03756667</gml:pos>
+									<aixm:horizontalAccuracy uom="M">50</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">150</aixm:elevation>
+									<aixm:geoidUndulation xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">30.00</aixm:verticalAccuracy>
+								</aixm:ElevatedPoint>
+							</aixm:horizontalProjection_location>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<message:hasMember>
+		<!-- POINT ON SURFACE: roof mounted antenna (Vertical Segmentation: 2 parts)-->
+		<aixm:VerticalStructure gml:id="uuid.15c2c2ba-c5f2-47b5-9ada-1964d51b82c0">
+			<gml:identifier codeSpace="urn:uuid:">15c2c2ba-c5f2-47b5-9ada-1964d51b82c0</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-00007">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp0007-1">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp0007-2">
+							<gml:beginPosition>2009-04-06T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-0007</aixm:name>
+					<aixm:type>BUILDING</aixm:type>
+					<aixm:lighted>YES</aixm:lighted>
+					<aixm:markingICAOStandard>YES</aixm:markingICAOStandard>
+					<aixm:group>NO</aixm:group>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<!-- Part 1: BULDING -->
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="vsp0007-1">
+							<aixm:verticalExtent uom="M">110</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">30</aixm:verticalExtentAccuracy>
+							<aixm:type>BUILDING</aixm:type>
+							<aixm:mobile>NO</aixm:mobile>
+							<aixm:designator xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ep0007-1">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="c4567">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>55.5243055555556 -24.64125833333333 
+																		55.5201388888889 -24.63178888888889 
+																		55.5211666666667 -24.63032222222222 
+																		55.5251944444444 -24.63868888888889 
+																		55.5243055555556 -24.64125833333333</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">50</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">168</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">30</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+							<aixm:lighting>
+								<aixm:LightElement gml:id="le0007-1">
+									<aixm:colour>RED</aixm:colour>
+									<aixm:type>OTHER:FLASHING</aixm:type>
+								</aixm:LightElement>
+							</aixm:lighting>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<!-- Part 2: ANTENNA -->
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="vsp0007-2">
+							<!-- Note: the verticalExtent represents the height of the obstacle part from its bottom (i.e. the roof top of the buidling)! -->
+							<aixm:verticalExtent uom="M">12</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">30</aixm:verticalExtentAccuracy>
+							<aixm:type>ANTENNA</aixm:type>
+							<aixm:markingPattern>HBANDS</aixm:markingPattern>
+							<aixm:markingFirstColour>RED</aixm:markingFirstColour>
+							<aixm:markingSecondColour>WHITE</aixm:markingSecondColour>
+							<aixm:mobile>NO</aixm:mobile>
+							<aixm:designator xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:horizontalProjection_location>
+								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="VID000005">
+									<gml:pos>55.52416667 -24.63888889</gml:pos>
+									<aixm:horizontalAccuracy uom="M">50</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">191</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">30</aixm:verticalAccuracy>
+								</aixm:ElevatedPoint>
+							</aixm:horizontalProjection_location>
+							<aixm:lighting>
+								<aixm:LightElement gml:id="le0007-2">
+									<aixm:colour>RED</aixm:colour>
+									<aixm:type>OTHER:FLASHING</aixm:type>
+								</aixm:LightElement>
+							</aixm:lighting>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+</message:AIXMBasicMessage>
