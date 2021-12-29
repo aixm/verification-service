@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
+<!-- 1E8098_1E8099_FAIL 
+	FAIL CONDITION: A Timesheet shall have either an endTime or an endEvent
+	1x FAIL: no endTime or endEvent --> 
+
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
+	xmlns:gts="http://www.isotc211.org/2005/gts" 
+	xmlns:gco="http://www.isotc211.org/2005/gco" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:gss="http://www.isotc211.org/2005/gss" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:gsr="http://www.isotc211.org/2005/gsr" 
+	xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<message:hasMember>
+		<!-- SINGLE PART POINT OBSTACLE (Antenna), Area 1 -->
+		<aixm:VerticalStructure gml:id="uuid.5f68d835-828c-4ccd-91b7-791058d9dd4d">
+			<gml:identifier codeSpace="urn:uuid:">5f68d835-828c-4ccd-91b7-791058d9dd4d</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-0001">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vt120131">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt120131">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-0001</aixm:name> 
+					<aixm:type>ANTENNA</aixm:type>
+					<aixm:lighted>YES</aixm:lighted>
+					<aixm:markingICAOStandard xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:group>NO</aixm:group>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:lightingICAOStandard xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:synchronisedLighting xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:marker xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="V-af4ee6d6">
+							<aixm:verticalExtent uom="M">120</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">30</aixm:verticalExtentAccuracy>
+							<aixm:type>ANTENNA</aixm:type>
+							<aixm:constructionStatus xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:markingPattern xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:markingFirstColour xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:markingSecondColour xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:mobile>NO</aixm:mobile>
+							<aixm:frangible xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:visibleMaterial xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:designator xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:horizontalProjection_location>
+								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="p1121">
+									<gml:pos>52.36171389 -28.03756667</gml:pos>
+									<aixm:horizontalAccuracy uom="M">50</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">150</aixm:elevation>
+									<aixm:geoidUndulation xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">30</aixm:verticalAccuracy>
+								</aixm:ElevatedPoint>
+							</aixm:horizontalProjection_location>
+							<aixm:lighting>
+								<aixm:LightElement gml:id="le0001">
+									<aixm:colour xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:intensityLevel xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:intensity xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:type xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:availability xsi:nil="true" nilReason="inapplicable"/>
+								</aixm:LightElement>
+							</aixm:lighting>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:hostedPassengerService xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:supportedGroundLight xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:hostedNavaidEquipment xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:hostedSpecialNavStation xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:hostedUnit xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:hostedOrganisation xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:supportedService xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:annotation>
+						<aixm:Note gml:id="n0000">
+							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln0000">
+									<aixm:note>marked=YES</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="n0001">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln0001">
+									<aixm:note>Obstacle Owner: DONLON TELECOM, Donlon Street 100, 2020 DOLNLON, Phone: +00123456789, email: info@donlontele.com</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:lightingAvailability>
+						<aixm:VerticalStructureLightingStatus gml:id="vsls02012">
+							<aixm:timeInterval>
+								<aixm:Timesheet gml:id="ts022">
+									<aixm:timeReference>UTC</aixm:timeReference>
+									<aixm:startDate xsi:nil="true"/>
+									<aixm:endDate xsi:nil="true"/>
+									<aixm:day>ANY</aixm:day>
+									<aixm:dayTil>ANY</aixm:dayTil>
+									<aixm:startTime xsi:nil="true"/>
+									<aixm:startEvent>SS</aixm:startEvent>
+									<aixm:startTimeRelativeEvent xsi:nil="true"/>
+									<aixm:startEventInterpretation xsi:nil="true"/>
+									<!-- 1x FAIL: no endTime or endEvent --> 
+									<aixm:endTime xsi:nil="true"/>
+									<aixm:endEvent xsi:nil="true"/>
+									<aixm:endTimeRelativeEvent xsi:nil="true"/>
+									<aixm:endEventInterpretation xsi:nil="true"/>
+									<aixm:daylightSavingAdjust xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:excluded xsi:nil="true"/>
+								</aixm:Timesheet>
+							</aixm:timeInterval>
+							<aixm:specialDateAuthority xlink:href="urn:uuid:5ef8b7d4-6b34-4201-a3fc-de39e2aef00e"/>
+							<aixm:status>NORMAL</aixm:status>
+						</aixm:VerticalStructureLightingStatus>
+					</aixm:lightingAvailability>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:SpecialDate gml:id="uuid.9cfebcca-766c-4bc6-a564-a02c4df49dc4">
+			<gml:identifier codeSpace="urn:uuid:">9cfebcca-766c-4bc6-a564-a02c4df49dc4</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:SpecialDateTimeSlice gml:id="data_0000000245">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="data_0000000246">
+							<gml:beginPosition>2019-12-24T00:00:00.000Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="data_0000000247">
+							<gml:beginPosition>2019-12-24T00:00:00.000Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>HOL</aixm:type>
+					<aixm:dateDay>01-01</aixm:dateDay>
+					<aixm:dateYear xsi:nil="true"/>
+					<aixm:name>NEW YEAR</aixm:name>
+					<aixm:annotation xsi:nil="true"/>
+					<aixm:authority xlink:href="urn:uuid:5ef8b7d4-6b34-4201-a3fc-de39e2aef00e"/>
+				</aixm:SpecialDateTimeSlice>
+			</aixm:timeSlice>
+		</aixm:SpecialDate>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:OrganisationAuthority gml:id="uuid.5ef8b7d4-6b34-4201-a3fc-de39e2aef00e">
+			<gml:identifier codeSpace="urn:uuid:">5ef8b7d4-6b34-4201-a3fc-de39e2aef00e</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:OrganisationAuthorityTimeSlice gml:id="data_0000000092">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="data_0000000093">
+							<gml:beginPosition>2019-12-24T00:00:00.000Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="data_0000000094">
+							<gml:beginPosition>2019-12-24T00:00:00.000Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>DONLON</aixm:name>
+					<aixm:designator xsi:nil="true"/>
+					<aixm:type>STATE</aixm:type>
+					<aixm:military xsi:nil="true"/>
+					<aixm:contact xsi:nil="true"/>
+					<aixm:relatedOrganisationAuthority xsi:nil="true"/>
+					<aixm:annotation xsi:nil="true"/>
+				</aixm:OrganisationAuthorityTimeSlice>
+			</aixm:timeSlice>
+		</aixm:OrganisationAuthority>
+	</message:hasMember>
+</message:AIXMBasicMessage>
