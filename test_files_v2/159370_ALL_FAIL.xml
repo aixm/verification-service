@@ -2,9 +2,9 @@
 <!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
 <!-- 159370_ALL_FAIL 
 	FAIL CONDITION: A gml:pos / gml:posList element shall not have a value that includes 'NaN'
-	1x FAIL: 159371 for gml:pos
-	2x FAIL: 159372 for gml:posList ElevatedCurve
-	3x FAIL:159372 for gml:posList ElevatedSurface -->
+	1x FAIL: INF for gml:pos
+	2x FAIL: NaN for gml:posList ElevatedCurve
+	3x FAIL: -INF for gml:posList ElevatedSurface -->
 
 <message:AIXMBasicMessage 
 	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
@@ -65,8 +65,8 @@
 							<aixm:designator xsi:nil="true" nilReason="inapplicable"/>
 							<aixm:horizontalProjection_location>
 								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="p1121">
-									<!-- 1x FAIL: 159371 for gml:pos -->
-									<gml:pos>NaN</gml:pos>
+									<!-- 1x FAIL: INF for gml:pos -->
+									<gml:pos>INF</gml:pos>
 									<aixm:horizontalAccuracy uom="M">50</aixm:horizontalAccuracy>
 									<aixm:elevation uom="M">150</aixm:elevation>
 									<aixm:geoidUndulation xsi:nil="true" nilReason="inapplicable"/>
@@ -119,7 +119,7 @@
 								<aixm:ElevatedCurve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="crv12456">
 									<gml:segments>
 										<gml:GeodesicString>
-											<!-- 2x FAIL: 159371 for gml:pos -->
+											<!-- 2x FAIL: NAN for gml:posList -->
 											<gml:posList>54.33333333 -26.48555556 NaN</gml:posList>
 										</gml:GeodesicString>
 									</gml:segments>
@@ -192,10 +192,10 @@
 														<gml:Curve gml:id="c0001">
 															<gml:segments>
 																<gml:GeodesicString>
-																	<!-- 3x FAIL:159372 for gml:posList ElevatedSurface -->
+																	<!-- 3x FAIL:-INF for gml:posList ElevatedSurface -->
 																	<gml:posList>52.36171388888889 -31.73756666666666 
 																		52.31271388888889 -31.74756666666666 
-																		NaN
+																		-INF
 																		52.36371388888889 -31.75756666666666
 																		52.36171388888889 -31.73756666666666</gml:posList>
 																</gml:GeodesicString>
