@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2022, EUROCONTROL All rights reserved. -->
+<!-- 1EE628_1EE68B_FAIL
+     FAIL Condition: The string 'T24' shall not appear in the value of TimeInstant.timePosition, TimePeriod.beginPosition or TimePeriod.endPosition
+     1x FAIL: 24:00:00 for  featureLifetime begin.Position --> 
+
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
+	xmlns:gts="http://www.isotc211.org/2005/gts" 
+	xmlns:gco="http://www.isotc211.org/2005/gco" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:gss="http://www.isotc211.org/2005/gss" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:gsr="http://www.isotc211.org/2005/gsr" 
+	xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+	xmlns:event="http://www.aixm.aero/schema/5.1.1/event" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<message:hasMember>
+		<!-- SINGLE PART POINT OBSTACLE (Antenna), Area 1 -->
+		<aixm:VerticalStructure gml:id="uuid.5f68d835-828c-4ccd-91b7-791058d9dd4d">
+			<gml:identifier codeSpace="urn:uuid:">5f68d835-828c-4ccd-91b7-791058d9dd4d</gml:identifier>
+						
+			<!-- 1st PERMDELTA (Feature start of life) -->
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-0001p">
+					<gml:validTime>
+						<gml:TimeInstant>
+							<gml:timePosition>2009-01-01T00:00:00Z</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+				    <!-- 1x FAIL: 24:00:00 for  featureLifetime begin.Position-->
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt120131p">
+							<gml:beginPosition>2009-01-01T24:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-0001</aixm:name> 
+					<aixm:type>ANTENNA</aixm:type>
+					<aixm:lighted>NO</aixm:lighted>
+					<aixm:markingICAOStandard xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:group>NO</aixm:group>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:lightingICAOStandard xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:synchronisedLighting xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:marker xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="V-af4ee6d1p">
+							<aixm:verticalExtent uom="M">120</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">30</aixm:verticalExtentAccuracy>
+							<aixm:type>ANTENNA</aixm:type>
+							<aixm:constructionStatus xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:markingPattern xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:markingFirstColour xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:markingSecondColour xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:mobile>NO</aixm:mobile>
+							<aixm:frangible xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:visibleMaterial xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:designator xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:horizontalProjection_location>
+								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="p1121p">
+									<gml:pos>52.36171389 -28.03756667</gml:pos>
+									<aixm:horizontalAccuracy uom="M">50</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">150</aixm:elevation>
+									<aixm:geoidUndulation xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">30</aixm:verticalAccuracy>
+								</aixm:ElevatedPoint>
+							</aixm:horizontalProjection_location>
+							<aixm:lighting>
+								<aixm:LightElement gml:id="le00021p">
+									<aixm:colour xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:intensityLevel xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:intensity xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:type xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:availability xsi:nil="true" nilReason="inapplicable"/>
+								</aixm:LightElement>
+							</aixm:lighting>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:annotation>
+						<aixm:Note gml:id="n00001p">
+							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln00001p">
+									<aixm:note>marked=YES</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+
+		</aixm:VerticalStructure>
+	</message:hasMember>	
+</message:AIXMBasicMessage>
+
+

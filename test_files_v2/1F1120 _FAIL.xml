@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
-<!-- 1E26C0_FAIL 
-	FAIL CONDITION (PART 1): An ICAO data set shall have as metadata a value for
+<!-- 1F1120_FAIL
+	FAIL CONDITION (DS-META-004 PART 4): An ICAO data set shall have as metadata a value for
 	gmd:MD_Metadata/gmd:MD_DataIdentification/gmd:extent/EX_Extent/gmd:description either equal-to 'AIRAC' or equal-to 'NON-AIRAC'
-	1x FAIL: Neither AIRAC nor NON-AIRAC string provided -->
+	1x FAIL: NON-AIRAC string is provided mor than once -->
 
 <message:AIXMBasicMessage 
 	xmlns:message="http://www.aixm.aero/schema/5.1/message" 
@@ -239,11 +239,18 @@
 						</gmd:EX_Extent>
 					</gmd:extent>
 					<!-- DS-META-004 - Indication that this is an AIRAC update -->
-					<!-- 1x FAIL: Neither AIRAC nor NON-AIRAC string provided -->
+					<!-- 1x FAIL: NON-AIRAC string is provided mor than once -->
 					<gmd:extent>
 						<gmd:EX_Extent>
 							<gmd:description>
-								<gco:CharacterString></gco:CharacterString>
+								<gco:CharacterString>NON-AIRAC</gco:CharacterString>
+							</gmd:description>
+						</gmd:EX_Extent>
+					</gmd:extent>
+					<gmd:extent>
+						<gmd:EX_Extent>
+							<gmd:description>
+								<gco:CharacterString>NON-AIRAC</gco:CharacterString>
 							</gmd:description>
 						</gmd:EX_Extent>
 					</gmd:extent>

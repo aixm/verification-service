@@ -46,6 +46,23 @@
 			<gmd:dateStamp>
 				<gco:DateTime>2019-11-28T00:00:00Z</gco:DateTime>
 			</gmd:dateStamp>
+			<!-- DS-META-006 - Temporal reference system
+				Required by ICAO Annex 15 1.2.3.: 
+				Mandatory if a reference system other than the Gregorian calendar and Coordinated Universal Time (UTC) is used.	-->
+			<gmd:referenceSystemInfo>
+				<gmd:MD_ReferenceSystem>
+					<gmd:referenceSystemIdentifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gco:CharacterString>8601</gco:CharacterString>
+							</gmd:code>
+							<gmd:codeSpace>
+								<gco:CharacterString>ISO</gco:CharacterString>
+							</gmd:codeSpace>
+						</gmd:RS_Identifier>
+					</gmd:referenceSystemIdentifier>
+				</gmd:MD_ReferenceSystem>
+			</gmd:referenceSystemInfo>
 			<gmd:identificationInfo>
 				<gmd:MD_DataIdentification>
 					<gmd:citation>
@@ -55,7 +72,8 @@
 							<gmd:title>
 								<gco:CharacterString>DONLON Area 1 Obstacle Data Set (Full)</gco:CharacterString>
 							</gmd:title>
-							<!-- MD_Metadata > MD_DataIdentification.citation > CI_Citation.date (Dataset reference date);
+							<!-- DS-META-002 - Date and time when provided
+								MD_Metadata > MD_DataIdentification.citation > CI_Citation.date (Dataset reference date);
 								Publication date required by PANS-AIM chapter 5.3.2 "the date and time when the data set was provided".
 								Note: In addtion the creation and/or revision date of the data set may be provided as metadata as well, although not required by ICAO nor by ISO 19115 (2003).-->
 							<gmd:date>
@@ -84,14 +102,14 @@
 					<!-- MD_Metadata > MD_DataIdentification.abstract (Abstract describing the dataset). Mandatory by ISO 19115 (2003). 
 						A short description of what data  based on what requirements are provided within the data set
 						(e.g. compliance with ICAO Provisons or, if applicapbe, deviations could be more or less stringent obstacle collection requirements).  -->
-					<!-- OPEN QUESTION: Horizontal & Vertical Confidence Level required by PANS-AIM Table A6-2. May it be coded in the abstract?. -->
 					<gmd:abstract>
 						<gco:CharacterString>DONLON Area 1 obstacle data set sample (Full initial data set) in AIXM 5.1 format.
 						Data collection and publication fully compliant with ICAO Annex 15 (16th Edition, July 2018) requirements and AIXM 5.1. coding guidelines (aixm.aero/confluence).
 						Horizontal and Vertical Confidence Level for all data is 90%.
 						</gco:CharacterString>
 					</gmd:abstract>
-					<!-- MD_Metadata > MD_DataIdentification.pointOfContact > CI_ResponsibleParty. (Dataset responsible party). Required by PANS-AIM: 						
+					<!-- DS-META-001 - Name of provider
+						MD_Metadata > MD_DataIdentification.pointOfContact > CI_ResponsibleParty. (Dataset responsible party). Required by PANS-AIM: 						
 						5.3.2 "the names of the organization or entities providing the data set";
 						Table A6-2 Obstacle attributes "Data source idenitifier" -->
 					<gmd:pointOfContact>
@@ -130,7 +148,9 @@
 							</gmd:role>
 						</gmd:CI_ResponsibleParty>
 					</gmd:pointOfContact>
-					<!-- MD_Metadata > MD_DataIdentification.resourceConstraints > MD_Constraints. Required by PANS-AIM:
+					<!-- DS-META-005 - Limitations on use
+						MD_Metadata > MD_DataIdentification.resourceConstraints > MD_Constraints. 
+						Required by PANS-AIM:
 						5.3.2 "any limitations with regard to the use of the data set." 
 						In addtion also these elements may be coded:
 						gmd:accessConstraints (e.g. "license") to assure the protection of privacy or intellectual property, and any special restrictions or limitations on obtaining the resource or metadata
@@ -151,7 +171,9 @@
 					<gmd:topicCategory>
 						<gmd:MD_TopicCategoryCode>transportation</gmd:MD_TopicCategoryCode>
 					</gmd:topicCategory>
-					<!-- MD_Metadata > MD_DataIdentification.extent > EX_Extent.geographicElement. (geographic area of the dataset). Required by PANS-AIM:
+					<!-- DS-META-007 - Geographical extent of the data set
+						MD_Metadata > MD_DataIdentification.extent > EX_Extent.geographicElement. (geographic area of the dataset). 
+						Required by PANS-AIM:
 						Table A6-2: "Area of coverage". 
 						One of the three options must be provided:
 						gmd:EX_GeographicBoundingBox or;
@@ -191,13 +213,15 @@
 							</gmd:geographicElement>
 						</gmd:EX_Extent>
 					</gmd:extent>
-					<!-- MD_Metadata > MD_DataIdentification.extent > EX_Extent.temporalElement. (time period covered by the content of the dataset). Required by PANS-AIM:
+					<!-- DS-META-003 - Validity of the data set
+						MD_Metadata > MD_DataIdentification.extent > EX_Extent.temporalElement. (time period covered by the content of the dataset). 
+						Required by PANS-AIM:
 						5.3.2 "validity of the data set" 
 						When the end of validity is unknown use indeterminatePosition="unknown". -->
 					<gmd:extent>
 						<gmd:EX_Extent>
 							<gmd:description>
-								<gco:CharacterString>Validity of data set</gco:CharacterString>
+								<gco:CharacterString>Validity of the data set</gco:CharacterString>
 							</gmd:description>
 							<gmd:temporalElement>
 								<gmd:EX_TemporalExtent>
@@ -209,6 +233,14 @@
 									</gmd:extent>
 								</gmd:EX_TemporalExtent>
 							</gmd:temporalElement>
+						</gmd:EX_Extent>
+					</gmd:extent>
+					<!-- DS-META-004 - Indication that this is an AIRAC update -->
+					<gmd:extent>
+						<gmd:EX_Extent>
+							<gmd:description>
+								<gco:CharacterString>NON-AIRAC</gco:CharacterString>
+							</gmd:description>
 						</gmd:EX_Extent>
 					</gmd:extent>
 				</gmd:MD_DataIdentification>
@@ -223,11 +255,33 @@
 							</gmd:level>
 						</gmd:DQ_Scope>
 					</gmd:scope>
+					<!-- OB-META-001 - Horizontal confidence level
+					Required by PANS-AIM 
+					Table A6-2. Obstacle attributes –-->
 					<gmd:report>
 						<gmd:DQ_ConceptualConsistency>
+							<gmd:nameOfMeasure>
+								<gco:CharacterString>Horizontal confidence level</gco:CharacterString>
+							</gmd:nameOfMeasure>
 							<gmd:result>
 								<gmd:DQ_ConformanceResult>
-									<gmd:specification></gmd:specification>
+									<gmd:specification>
+										<gmd:CI_Citation>
+											<gmd:title>
+												<gco:CharacterString>Horizontal Confidence Level</gco:CharacterString>
+											</gmd:title>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:DateTime>2019-11-21T00:00:00Z</gco:DateTime>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.aixm.aero/schema/5.1/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+										</gmd:CI_Citation>
+									</gmd:specification>
 									<gmd:explanation>
 										<gco:CharacterString>A statistical measure of the estimated confidence that 90% of the captured data meets the required horizontal accuracy.</gco:CharacterString>
 									</gmd:explanation>
@@ -238,6 +292,46 @@
 							</gmd:result>
 						</gmd:DQ_ConceptualConsistency>
 					</gmd:report>
+					<!-- OB-META-002 - Vertical Confidence Level
+					Required by PANS-AIM 
+					Table A6-2. Obstacle attributes –-->
+					<gmd:report>
+						<gmd:DQ_ConceptualConsistency>
+							<gmd:nameOfMeasure>
+								<gco:CharacterString>Vertical Confidence Level</gco:CharacterString>
+							</gmd:nameOfMeasure>
+							<gmd:result>
+								<gmd:DQ_ConformanceResult>
+									<gmd:specification>
+										<gmd:CI_Citation>
+											<gmd:title>
+												<gco:CharacterString>Vertical Confidence Level</gco:CharacterString>
+											</gmd:title>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:DateTime>2019-11-21T00:00:00Z</gco:DateTime>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.aixm.aero/schema/5.1/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+										</gmd:CI_Citation>
+									</gmd:specification>
+									<gmd:explanation>
+										<gco:CharacterString>A statistical measure of the estimated confidence that 90% of the captured data meets the required vertical accuracy.</gco:CharacterString>
+									</gmd:explanation>
+									<gmd:pass>
+										<gco:Boolean>true</gco:Boolean>
+									</gmd:pass>
+								</gmd:DQ_ConformanceResult>
+							</gmd:result>
+						</gmd:DQ_ConceptualConsistency>
+					</gmd:report>
+					<!-- DS-META-008 - Data integrity assurance level 
+					Required by PANS-AIM
+					Table A6-2. Obstacle attributes - Integrity - Mandatory-->
 					<gmd:lineage>
 						<gmd:LI_Lineage>
 							<gmd:statement>
@@ -250,7 +344,7 @@
 		</gmd:MD_Metadata>
 	</aixm:messageMetadata>
 	<message:hasMember>
-		<!-- SINGLE OART POINT OBSTACLE. 
+		<!-- SINGLE PART POINT OBSTACLE. 
 			This sample obstacle contains all the AIXM properties for Vertical Stucture (with annotations). 
 			Note: Not all of them are required by PANS-AIM for an Obstacle data set. -->
 		<aixm:VerticalStructure gml:id="uuid.5f68d835-828c-4ccd-91b7-791058d9dd4d">
