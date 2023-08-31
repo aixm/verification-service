@@ -1,0 +1,590 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+  <aixm:messageMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <gmd:MD_Metadata>
+      <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+            <gco:CharacterString>EAD Data Operations Provider</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+49 6196 7696 222</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>helpdesk@ead.eurocontrol.int</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="./resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="CI_RoleCode_publisher"/>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:contact>
+      <gmd:dateStamp>
+        <gco:DateTime>2023-07-16T00:00:33Z</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>EUROCONTROL-SIM-27</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:DateTime>2023-07-16T00:00:33Z</gco:DateTime>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="./resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="CI_DateTypeCode_creation"/>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract>
+            <gco:CharacterString>AIXM 5.1 file generated for effective date start: 2023-08-10T00:00:00, effective date end: 2023-08-10T00:00:00 with delivery date: 2023-07-16T00:00:00</gco:CharacterString>
+          </gmd:abstract>
+          <gmd:language>
+            <gmd:LanguageCode codeList="./resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng"/>
+          </gmd:language>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+    </gmd:MD_Metadata>
+  </aixm:messageMetadata>
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:GeoBorder gml:id="uuid.c897f99f-f55f-4579-8eb8-ce6be80a1647">
+      <gml:identifier codeSpace="urn:uuid:">c897f99f-f55f-4579-8eb8-ce6be80a1647</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:GeoBorderTimeSlice gml:id="uuid.6ea9622d-0a92-497e-b00e-552e74920f20">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.95f5d052-0419-420f-8bbe-5b552587c9ce">
+              <gml:beginPosition>2020-11-04T11:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.0ae63214-15ea-436c-9eb2-b190e5a69771">
+              <gml:beginPosition>2009-06-26T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>NZT354_GEO</aixm:name>
+          <aixm:type>OTHER</aixm:type>
+          <aixm:border>
+            <aixm:Curve xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.ec199a96-1780-4f6a-b974-b47d0eb381bf">
+              <gml:segments>
+                <gml:GeodesicString interpolation="geodesic">
+                  <gml:posList>-40.2821944 175.5169167 -40.2935611 175.5086111 -40.3019917 175.5100611 -40.3054139 175.5099889 -40.3053889 175.5079556 -40.3112306 175.5017333 -40.3111917 175.4984806 -40.3108306 175.4944194 -40.3129806 175.4919361 -40.3151833 175.4939222 -40.317 175.4898194 -40.3182056 175.4865389 -40.31785 175.4828861 -40.3199528 175.4763361 -40.3214917 175.4750861 -40.3214306 175.4698 -40.3202833 175.4611694 -40.3256528 175.4583306 -40.3275194 175.4582917 -40.3293472 175.4550028 -40.3324806 175.4569722 -40.3383444 175.4527889 -40.3392944 175.4543972 -40.3417833 175.4543472 -40.3405111 175.4519333 -40.3426361 175.4474194 -40.3438806 175.4473944 -40.3471833 175.4452083 -40.3505861 175.4522806 -40.3545083 175.4520611 -40.3570083 175.4532278 -40.3585861 175.4552306 -40.3623 175.4539361 -40.3672306 175.4501806 -40.3693917 175.4489167 -40.3699944 175.4472806 -40.37355 175.4494056 -40.3768361 175.4479583 -40.3799444 175.4478944 -40.3814917 175.4474583 -40.3839528 175.4453778 -40.3860833 175.4416806 -40.3885361 175.4387889 -40.3921111 175.4348611</gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:Curve>
+          </aixm:border>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.7d9b7db2-f00d-487a-940b-40f6fec0a8b3">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.5e26dad0-8a05-48ea-bb43-f12ec3424ca8">
+                  <aixm:note>Physical (Political) Border Vertex number:1 , type = GRC&#13;
+CRC:401655.90S,1753100.90E,,,C0078F2E</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.ee482964-9f24-4364-84b6-24ced0168ea4">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.a07953eb-ade0-4b29-9bfc-815eb7c7b042">
+                  <aixm:note>Physical (Political) Border Vertex number:2 , type = GRC&#13;
+CRC:401736.82S,1753031.00E,,,71601DE3</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.154aa50c-f533-4e35-863b-0250c14f9c8c">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.2a98094d-6e41-479e-9e33-4679d2ec6922">
+                  <aixm:note>Physical (Political) Border Vertex number:3 , type = GRC&#13;
+CRC:401807.17S,1753036.22E,,,B84EE46D</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.c994d825-1da6-448f-aec4-78c3e5624fa9">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.0f679301-4cf9-4cb8-9a0b-a530063fbc5e">
+                  <aixm:note>Physical (Political) Border Vertex number:4 , type = GRC&#13;
+CRC:401819.49S,1753035.96E,,,D89933EB</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.e5aefd7b-8e21-4537-802b-44f903b77af7">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.7cfb286f-b1e4-4fb1-82ac-d8d30091b8e6">
+                  <aixm:note>Physical (Political) Border Vertex number:5 , type = GRC&#13;
+CRC:401819.40S,1753028.64E,,,4FB009C8</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.fd43a1d1-67eb-4d78-8f2c-a5ff82d369ac">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.c9098ada-c4fa-4f65-a189-81cd11034c8e">
+                  <aixm:note>Physical (Political) Border Vertex number:6 , type = GRC&#13;
+CRC:401840.43S,1753006.24E,,,4A997BC8</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.b23bb3a4-2257-438c-adfe-9820cc0deb45">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.1a178077-8d87-4845-b63b-f0f4b9d9a7f0">
+                  <aixm:note>Physical (Political) Border Vertex number:7 , type = GRC&#13;
+CRC:401840.29S,1752954.53E,,,47FD8028</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.7ec62bdc-a81c-4cb2-9441-8405fb20ad92">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f9f7ad9e-059a-48e9-be9c-5c893ebfae2c">
+                  <aixm:note>Physical (Political) Border Vertex number:8 , type = GRC&#13;
+CRC:401838.99S,1752939.91E,,,62BA2CA0</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.4ff98372-c5b5-4911-b93a-4ef236ef456e">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.4344efa0-30fd-47f2-bf8c-c5cdf73daac7">
+                  <aixm:note>Physical (Political) Border Vertex number:9 , type = GRC&#13;
+CRC:401846.73S,1752930.97E,,,70F983A6</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.66ee8901-7e09-46c6-b82a-8ab6fabac73c">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.33eb64d9-5125-4c90-9285-06727b7903bf">
+                  <aixm:note>Physical (Political) Border Vertex number:10 , type = GRC&#13;
+CRC:401854.66S,1752938.12E,,,53EC1BA0</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.5e66793a-f2a8-4a1b-b59a-a4bb97cd62f6">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f98621de-fc7a-4c19-af85-e9bb14200c40">
+                  <aixm:note>Physical (Political) Border Vertex number:11 , type = GRC&#13;
+CRC:401901.20S,1752923.35E,,,CABD4A95</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.a36e529a-78f4-41ed-8d96-cad43cc81dc3">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f2bacccc-3823-424c-9561-5a91fcf4835c">
+                  <aixm:note>Physical (Political) Border Vertex number:12 , type = GRC&#13;
+CRC:401905.54S,1752911.54E,,,9E48F26A</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.cb3ee109-571f-43bb-aec9-0688e5505794">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.2723e28d-8535-414f-ab3c-89e572763441">
+                  <aixm:note>Physical (Political) Border Vertex number:13 , type = GRC&#13;
+CRC:401904.26S,1752858.39E,,,A20CC455</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.b08dc2b3-3b7b-4ccb-8e32-a8f1436e64f8">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.74260fb6-71b7-4d67-b210-22dccd262bbc">
+                  <aixm:note>Physical (Political) Border Vertex number:14 , type = GRC&#13;
+CRC:401911.83S,1752834.81E,,,1E905F5B</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.fe02a5b2-0f17-49ae-a1f6-1e03ae78239f">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.4dd8d785-3c4c-464f-962c-6d76d686ea67">
+                  <aixm:note>Physical (Political) Border Vertex number:15 , type = GRC&#13;
+CRC:401917.37S,1752830.31E,,,D36545E9</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.6f5a093f-3f62-4a26-850c-ac4b930b2605">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.dd7f840b-0763-482a-b490-00d516a8319c">
+                  <aixm:note>Physical (Political) Border Vertex number:16 , type = GRC&#13;
+CRC:401917.15S,1752811.28E,,,7DE341DF</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.24a3c473-81ba-4049-9ccd-2fb741b30176">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.120f8c4c-d208-4199-9e93-5ec207dc27b0">
+                  <aixm:note>Physical (Political) Border Vertex number:17 , type = GRC&#13;
+CRC:401913.02S,1752740.21E,,,A659547A</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.212732f7-4aa4-4b8c-b6b5-4820a4cf451f">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.0826d29a-8c3b-4249-8d30-ee3aeb5ed1ff">
+                  <aixm:note>Physical (Political) Border Vertex number:18 , type = GRC&#13;
+CRC:401932.35S,1752729.99E,,,FB63A4BA</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.b9ea2512-a0b0-4b98-a5d2-5b6f0aceeba3">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.4762b11b-399b-415d-b3ff-336906e41ff0">
+                  <aixm:note>Physical (Political) Border Vertex number:19 , type = GRC&#13;
+CRC:401939.07S,1752729.85E,,,329643B7</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.899d85b8-d8bd-4644-8587-83121076dffe">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.35d5b036-ae94-48a6-9684-8e5a5ced3cdf">
+                  <aixm:note>Physical (Political) Border Vertex number:20 , type = GRC&#13;
+CRC:401945.65S,1752718.01E,,,F14EB8B4</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.d23325cd-f394-4e79-a40e-b1f8c88778f0">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.66900f4c-27c0-47fc-9ebe-a87e86bd5174">
+                  <aixm:note>Physical (Political) Border Vertex number:21 , type = GRC&#13;
+CRC:401956.93S,1752725.10E,,,AAF6345C</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.ba32eaeb-961a-4fce-9d42-b5dddbbc3abc">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.aa13662b-4470-457a-87cc-eec8a452ed2d">
+                  <aixm:note>Physical (Political) Border Vertex number:22 , type = GRC&#13;
+CRC:402018.04S,1752710.04E,,,06D4BB17</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.80cf2627-ded9-40ba-ad50-c5080f68c7a5">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.0981b348-c1a6-4d97-8cb1-1ae177efce5e">
+                  <aixm:note>Physical (Political) Border Vertex number:23 , type = GRC&#13;
+CRC:402021.46S,1752715.83E,,,400586C9</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.d6bfb965-55fb-4b57-a444-3d07e2f5bd5b">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.8872e076-8fd4-4949-a870-ebd4cf259294">
+                  <aixm:note>Physical (Political) Border Vertex number:24 , type = GRC&#13;
+CRC:402030.42S,1752715.65E,,,054813BA</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19ffd77b-c6ee-4e29-8582-e1958d294b46">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.a52bfff3-b997-4344-bf85-13e8c144aaa0">
+                  <aixm:note>Physical (Political) Border Vertex number:25 , type = GRC&#13;
+CRC:402025.84S,1752706.96E,,,6A78CE94</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.f3921eb0-e528-4d27-b436-f2d57f90eef6">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.af94297b-ddf4-401f-80a5-44f04602c795">
+                  <aixm:note>Physical (Political) Border Vertex number:26 , type = GRC&#13;
+CRC:402033.49S,1752650.71E,,,2CF40A1C</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.5480c6bc-b524-4d69-bfb2-010882e059dd">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.61a94074-9da8-4654-a908-b07fde008e7c">
+                  <aixm:note>Physical (Political) Border Vertex number:27 , type = GRC&#13;
+CRC:402037.97S,1752650.62E,,,D6711A64</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.e3a6a894-7929-4c7d-ab87-5bb226fb9735">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.bcf926bb-0673-40a1-91a9-4819432a0022">
+                  <aixm:note>Physical (Political) Border Vertex number:28 , type = GRC&#13;
+CRC:402049.86S,1752642.75E,,,DB2C98AB</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.7edbbcdc-1796-4bb4-9eeb-c2cb3939e670">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.8e295afd-cae2-4a5c-a561-2e95f883a457">
+                  <aixm:note>Physical (Political) Border Vertex number:29 , type = GRC&#13;
+CRC:402102.11S,1752708.21E,,,4587C49A</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.fd98fb6c-a425-4f1c-b520-4f92f62cb37e">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.a0500e70-3d08-4e96-a3d0-345dbef45dda">
+                  <aixm:note>Physical (Political) Border Vertex number:30 , type = GRC&#13;
+CRC:402116.23S,1752707.42E,,,092B584E</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.ab2e047d-909c-4ee2-a28b-2d9b33fe4499">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.d0dda2a3-e64b-4b2b-9d3f-959c262bee25">
+                  <aixm:note>Physical (Political) Border Vertex number:31 , type = GRC&#13;
+CRC:402125.23S,1752711.62E,,,E0BE93F3</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.9e0c38b7-2d7c-46f3-bb40-6183b822f8eb">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.15360eb2-411e-48e7-bcec-258fa2dce65a">
+                  <aixm:note>Physical (Political) Border Vertex number:32 , type = GRC&#13;
+CRC:402130.91S,1752718.83E,,,97182B5E</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.547c98bf-c62c-468e-91f4-599375002b36">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.b4b2cc2f-4062-4898-8db5-b8c710f1c33f">
+                  <aixm:note>Physical (Political) Border Vertex number:33 , type = GRC&#13;
+CRC:402144.28S,1752714.17E,,,6265CEA0</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.e42c9c50-0737-4d91-b071-2d0619c2cdf4">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.ff54a1e7-8333-41ca-b4a2-3935cdf96574">
+                  <aixm:note>Physical (Political) Border Vertex number:34 , type = GRC&#13;
+CRC:402202.03S,1752700.65E,,,1A7E02BC</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.f44755f7-b63e-4782-984a-2e75a4a7f65e">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.e0d41d09-4c4d-4858-92cf-bad1e765211a">
+                  <aixm:note>Physical (Political) Border Vertex number:35 , type = GRC&#13;
+CRC:402209.81S,1752656.10E,,,01B8EBF4</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.e25f3163-6a1a-4bf6-945d-a42757d33648">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.abf5441d-63a9-4654-adb8-1e92630d10d5">
+                  <aixm:note>Physical (Political) Border Vertex number:36 , type = GRC&#13;
+CRC:402211.98S,1752650.21E,,,D5BCB3CB</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.1242f2a3-5e38-4787-95d4-bd6c72b0f2fa">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.064bbb2d-c13b-41ff-9948-d934f51ba3cc">
+                  <aixm:note>Physical (Political) Border Vertex number:37 , type = GRC&#13;
+CRC:402224.78S,1752657.86E,,,62EC79D1</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.fd19a91b-2108-46dd-8ecb-dad0ddad865b">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.c93b6241-150f-4fab-8f57-801fdda178d3">
+                  <aixm:note>Physical (Political) Border Vertex number:38 , type = GRC&#13;
+CRC:402236.61S,1752652.65E,,,3086FD9E</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.7b9a5853-6ab5-45be-bf5b-ba0bcd8c514f">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.881407e2-55ef-40ab-aeb6-2a18c199e258">
+                  <aixm:note>Physical (Political) Border Vertex number:39 , type = GRC&#13;
+CRC:402247.80S,1752652.42E,,,A8AA47AF</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.b972bb31-ae4b-41dd-8681-e8ee70bf561c">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.45c44b70-e00c-4c25-9304-f04b570787f6">
+                  <aixm:note>Physical (Political) Border Vertex number:40 , type = GRC&#13;
+CRC:402253.37S,1752650.85E,,,60557378</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.c5b2a4c6-50fb-4a79-ba22-cac936921684">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.a2674107-2154-4972-a913-4ad7645357ea">
+                  <aixm:note>Physical (Political) Border Vertex number:41 , type = GRC&#13;
+CRC:402302.23S,1752643.36E,,,5BC9785C</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.0e964ff9-078a-4c81-a935-3315360ef606">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.8582effb-7580-4a64-8693-9bec5b750cdf">
+                  <aixm:note>Physical (Political) Border Vertex number:42 , type = GRC&#13;
+CRC:402309.90S,1752630.05E,,,2CC3B880</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.242b4e90-9157-4b86-a51e-7cd24404bbfa">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.1a40a9dd-2a1d-4fba-877d-58cab65530c7">
+                  <aixm:note>Physical (Political) Border Vertex number:43 , type = GRC&#13;
+CRC:402318.73S,1752619.64E,,,DC35DEE1</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:extension>
+            <ead-audit:GeoBorderExtension gml:id="uuid.0d8b4e68-47e6-46f5-9afb-fc1e90760df9">
+              <ead-audit:auditInformation>
+                <ead-audit:Audit gml:id="uuid.154b3e80-dcf6-495e-be76-336f466f913f">
+                  <ead-audit:createdBy>NZ_ESI_NZ</ead-audit:createdBy>
+                  <ead-audit:creationDate>2020-09-24T05:39:43Z</ead-audit:creationDate>
+                  <ead-audit:createdByOrg>AIRWAYS CORPORATION OF NEW ZEALAND LTD</ead-audit:createdByOrg>
+                  <ead-audit:reasonForChange>Automatic Upload for 04-NOV-2020 11:00</ead-audit:reasonForChange>
+                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
+                </ead-audit:Audit>
+              </ead-audit:auditInformation>
+            </ead-audit:GeoBorderExtension>
+          </aixm:extension>
+        </aixm:GeoBorderTimeSlice>
+      </aixm:timeSlice>
+    </aixm:GeoBorder>
+  </hasMember>
+
+</AIXMBasicMessage>

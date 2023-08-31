@@ -1,0 +1,191 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+  <aixm:messageMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <gmd:MD_Metadata>
+      <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+            <gco:CharacterString>EAD Data Operations Provider</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+49 6196 7696 222</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>helpdesk@ead.eurocontrol.int</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="./resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="CI_RoleCode_publisher"/>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:contact>
+      <gmd:dateStamp>
+        <gco:DateTime>2023-07-16T00:00:33Z</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>EUROCONTROL-SIM-27</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:DateTime>2023-07-16T00:00:33Z</gco:DateTime>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="./resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="CI_DateTypeCode_creation"/>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract>
+            <gco:CharacterString>AIXM 5.1 file generated for effective date start: 2023-08-10T00:00:00, effective date end: 2023-08-10T00:00:00 with delivery date: 2023-07-16T00:00:00</gco:CharacterString>
+          </gmd:abstract>
+          <gmd:language>
+            <gmd:LanguageCode codeList="./resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng"/>
+          </gmd:language>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+    </gmd:MD_Metadata>
+  </aixm:messageMetadata>
+
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:DesignatedPoint gml:id="uuid.402b7ec2-67b3-4222-8f0e-eb636f3ec898">
+      <gml:identifier codeSpace="urn:uuid:">402b7ec2-67b3-4222-8f0e-eb636f3ec898</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:DesignatedPointTimeSlice gml:id="uuid.09a97b07-6b70-465e-895e-375e4b405059">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.aa30b727-3b77-436e-a891-6a6667c71e43">
+              <gml:beginPosition>2015-08-20T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.22053aeb-84a6-417d-90ac-24355a5d2547">
+              <gml:beginPosition>2003-02-20T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <!-- ERROR: There cannot exists two different DesignatedPoint that have identical values for designator and also for their position (within a tolerance of 1 second) -->
+          <aixm:designator>BIRES</aixm:designator>
+          <aixm:type>ICAO</aixm:type>
+          <aixm:name>MONIN</aixm:name>
+          <aixm:location>
+            <aixm:Point xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.313920e5-6a52-4e83-9883-e278c3c3fd69">
+              <gml:pos>46.68426972 7.98841444</gml:pos>
+            </aixm:Point>
+          </aixm:location>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.0d985d04-c2b1-4d19-b8ba-db8528251de1">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f53f54b8-c701-462a-8e96-613807983a7f">
+                  <aixm:note>CRC:464103.371N, 0075918.292E, , , 0FD0AC84</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:extension>
+            <ead-audit:DesignatedPointExtension gml:id="uuid.ae689187-de63-4ce4-88fb-1a656208016f">
+              <ead-audit:auditInformation>
+                <ead-audit:Audit gml:id="uuid.b8d6714e-f68b-4fee-9712-5eb99fcd3a20">
+                  <ead-audit:createdBy>LS_WGRAF</ead-audit:createdBy>
+                  <ead-audit:creationDate>2016-02-09T23:03:39Z</ead-audit:creationDate>
+                  <ead-audit:createdByOrg>SKYGUIDE</ead-audit:createdByOrg>
+                  <ead-audit:reasonForChange>Data Harmonization</ead-audit:reasonForChange>
+                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
+                </ead-audit:Audit>
+              </ead-audit:auditInformation>
+            </ead-audit:DesignatedPointExtension>
+          </aixm:extension>
+        </aixm:DesignatedPointTimeSlice>
+      </aixm:timeSlice>
+    </aixm:DesignatedPoint>
+  </hasMember>
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:DesignatedPoint gml:id="uuid.8919454e-b920-498d-b03c-e54d6f07022f">
+      <gml:identifier codeSpace="urn:uuid:">8919454e-b920-498d-b03c-e54d6f07022f</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:DesignatedPointTimeSlice gml:id="uuid.b0246635-979d-43fb-99c2-cf45e9d2e6b2">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.3337a53b-8137-4afa-adce-46e176797f3b">
+              <gml:beginPosition>2023-03-23T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.4cc099ac-1891-4992-a824-84c4db4ca463">
+              <gml:beginPosition>2020-03-26T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>BIRES</aixm:designator>
+          <aixm:type>ICAO</aixm:type>
+          <aixm:name>BIRES</aixm:name>
+          <aixm:location>
+            <aixm:Point xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.71e33863-d554-49b6-9606-bb6a1d2981ae">
+              <gml:pos>33.09583 32.87167</gml:pos>
+            </aixm:Point>
+          </aixm:location>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.0ce01580-d95e-47b2-8e0c-09c89cca6764">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.9f4b947d-60a5-4ec9-834d-4e98cdb6b0a0">
+                  <aixm:note>CRC:330545N, 0325218E, , , 4890AA12</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.f149dc7c-2757-43da-a088-dc2b14cf7d09">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.2f4e06e0-a5e5-479e-b3af-74b02f7741e8">
+                  <aixm:note>txtRmk:FRA (I)</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:extension>
+            <ead-audit:DesignatedPointExtension gml:id="uuid.d667a76c-175e-46bd-8a54-084a9e3361ad">
+              <ead-audit:auditInformation>
+                <ead-audit:Audit gml:id="uuid.49e4df6b-e401-4344-b5b6-01a83c48056d">
+                  <ead-audit:createdBy>LC_AGEORGIO</ead-audit:createdBy>
+                  <ead-audit:creationDate>2023-01-11T15:49:23Z</ead-audit:creationDate>
+                  <ead-audit:createdByOrg>CYPRUS DEPARTMENT OF CIVIL AVIATION</ead-audit:createdByOrg>
+                  <ead-audit:reasonForChange>reason: AIRAC AIP AMDT  01/23</ead-audit:reasonForChange>
+                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
+                </ead-audit:Audit>
+              </ead-audit:auditInformation>
+            </ead-audit:DesignatedPointExtension>
+          </aixm:extension>
+        </aixm:DesignatedPointTimeSlice>
+      </aixm:timeSlice>
+    </aixm:DesignatedPoint>
+  </hasMember>
+</AIXMBasicMessage>
