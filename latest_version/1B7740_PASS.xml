@@ -1,68 +1,6 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-  <aixm:messageMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <gmd:MD_Metadata>
-      <gmd:contact>
-        <gmd:CI_ResponsibleParty>
-          <gmd:organisationName>
-            <gco:CharacterString>EAD Data Operations Provider</gco:CharacterString>
-          </gmd:organisationName>
-          <gmd:contactInfo>
-            <gmd:CI_Contact>
-              <gmd:phone>
-                <gmd:CI_Telephone>
-                  <gmd:voice>
-                    <gco:CharacterString>+49 6196 7696 222</gco:CharacterString>
-                  </gmd:voice>
-                </gmd:CI_Telephone>
-              </gmd:phone>
-              <gmd:address>
-                <gmd:CI_Address>
-                  <gmd:electronicMailAddress>
-                    <gco:CharacterString>helpdesk@ead.eurocontrol.int</gco:CharacterString>
-                  </gmd:electronicMailAddress>
-                </gmd:CI_Address>
-              </gmd:address>
-            </gmd:CI_Contact>
-          </gmd:contactInfo>
-          <gmd:role>
-            <gmd:CI_RoleCode codeList="./resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="CI_RoleCode_publisher"/>
-          </gmd:role>
-        </gmd:CI_ResponsibleParty>
-      </gmd:contact>
-      <gmd:dateStamp>
-        <gco:DateTime>2023-07-16T00:00:33Z</gco:DateTime>
-      </gmd:dateStamp>
-      <gmd:identificationInfo>
-        <gmd:MD_DataIdentification>
-          <gmd:citation>
-            <gmd:CI_Citation>
-              <gmd:title>
-                <gco:CharacterString>EUROCONTROL-SIM-27</gco:CharacterString>
-              </gmd:title>
-              <gmd:date>
-                <gmd:CI_Date>
-                  <gmd:date>
-                    <gco:DateTime>2023-07-16T00:00:33Z</gco:DateTime>
-                  </gmd:date>
-                  <gmd:dateType>
-                    <gmd:CI_DateTypeCode codeList="./resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="CI_DateTypeCode_creation"/>
-                  </gmd:dateType>
-                </gmd:CI_Date>
-              </gmd:date>
-            </gmd:CI_Citation>
-          </gmd:citation>
-          <gmd:abstract>
-            <gco:CharacterString>AIXM 5.1 file generated for effective date start: 2023-08-10T00:00:00, effective date end: 2023-08-10T00:00:00 with delivery date: 2023-07-16T00:00:00</gco:CharacterString>
-          </gmd:abstract>
-          <gmd:language>
-            <gmd:LanguageCode codeList="./resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng"/>
-          </gmd:language>
-        </gmd:MD_DataIdentification>
-      </gmd:identificationInfo>
-    </gmd:MD_Metadata>
-  </aixm:messageMetadata>
 
   <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.ec2942ea-8104-4a5f-a46a-a46a1b061646">
@@ -110,19 +48,6 @@
             </aixm:ElevatedPoint>
           </aixm:location>
           <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:5a2a23ec-9a83-418b-aaf1-fcaf2805e022"/>
-          <aixm:extension>
-            <ead-audit:NavaidExtension gml:id="uuid.5bc222ee-a13f-4c91-8941-9676e88cf5e1">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.3dae028c-083d-4330-9f2a-46fd22c3ed89">
-                  <ead-audit:createdBy>LE_PCABEZAS</ead-audit:createdBy>
-                  <ead-audit:creationDate>2022-08-31T06:15:50Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>ENAIRE</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Reason: AIRAC 10/22</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NavaidExtension>
-          </aixm:extension>
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
@@ -180,19 +105,6 @@
           <aixm:type>DVOR</aixm:type>
           <aixm:frequency uom="MHZ">117.85</aixm:frequency>
           <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
-          <aixm:extension>
-            <ead-audit:VORExtension gml:id="uuid.6abe9b5b-0d10-4295-9aec-573194e48ac4">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.5b59f20b-2f31-45dc-8fbd-86ff893fd890">
-                  <ead-audit:createdBy>LE_PCABEZAS</ead-audit:createdBy>
-                  <ead-audit:creationDate>2022-08-31T06:15:35Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>ENAIRE</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Reason: AIRAC 10/22</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:VORExtension>
-          </aixm:extension>
         </aixm:VORTimeSlice>
       </aixm:timeSlice>
     </aixm:VOR>

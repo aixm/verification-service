@@ -2,68 +2,6 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-  <aixm:messageMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <gmd:MD_Metadata>
-      <gmd:contact>
-        <gmd:CI_ResponsibleParty>
-          <gmd:organisationName>
-            <gco:CharacterString>EAD Data Operations Provider</gco:CharacterString>
-          </gmd:organisationName>
-          <gmd:contactInfo>
-            <gmd:CI_Contact>
-              <gmd:phone>
-                <gmd:CI_Telephone>
-                  <gmd:voice>
-                    <gco:CharacterString>+49 6196 7696 222</gco:CharacterString>
-                  </gmd:voice>
-                </gmd:CI_Telephone>
-              </gmd:phone>
-              <gmd:address>
-                <gmd:CI_Address>
-                  <gmd:electronicMailAddress>
-                    <gco:CharacterString>helpdesk@ead.eurocontrol.int</gco:CharacterString>
-                  </gmd:electronicMailAddress>
-                </gmd:CI_Address>
-              </gmd:address>
-            </gmd:CI_Contact>
-          </gmd:contactInfo>
-          <gmd:role>
-            <gmd:CI_RoleCode codeList="./resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="CI_RoleCode_publisher"/>
-          </gmd:role>
-        </gmd:CI_ResponsibleParty>
-      </gmd:contact>
-      <gmd:dateStamp>
-        <gco:DateTime>2023-07-16T00:00:33Z</gco:DateTime>
-      </gmd:dateStamp>
-      <gmd:identificationInfo>
-        <gmd:MD_DataIdentification>
-          <gmd:citation>
-            <gmd:CI_Citation>
-              <gmd:title>
-                <gco:CharacterString>EUROCONTROL-SIM-27</gco:CharacterString>
-              </gmd:title>
-              <gmd:date>
-                <gmd:CI_Date>
-                  <gmd:date>
-                    <gco:DateTime>2023-07-16T00:00:33Z</gco:DateTime>
-                  </gmd:date>
-                  <gmd:dateType>
-                    <gmd:CI_DateTypeCode codeList="./resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="CI_DateTypeCode_creation"/>
-                  </gmd:dateType>
-                </gmd:CI_Date>
-              </gmd:date>
-            </gmd:CI_Citation>
-          </gmd:citation>
-          <gmd:abstract>
-            <gco:CharacterString>AIXM 5.1 file generated for effective date start: 2023-08-10T00:00:00, effective date end: 2023-08-10T00:00:00 with delivery date: 2023-07-16T00:00:00</gco:CharacterString>
-          </gmd:abstract>
-          <gmd:language>
-            <gmd:LanguageCode codeList="./resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng"/>
-          </gmd:language>
-        </gmd:MD_DataIdentification>
-      </gmd:identificationInfo>
-    </gmd:MD_Metadata>
-  </aixm:messageMetadata>
 
   <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.8cb4439d-ea58-4d0b-8777-eda87dfbaa10">
@@ -112,19 +50,6 @@
               </aixm:annotation>
             </aixm:ElevatedPoint>
           </aixm:location>
-          <aixm:extension>
-            <ead-audit:NavaidExtension gml:id="uuid.0c77a311-058c-48f0-ac79-c0a4e63d0324">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.d7c10a47-3a8b-42a5-b0b6-8a685f47e4fb">
-                  <ead-audit:createdBy>G1_AALONSO</ead-audit:createdBy>
-                  <ead-audit:creationDate>2016-02-04T13:35:33Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>GROUPEAD EUROPE S.L.</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Update</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NavaidExtension>
-          </aixm:extension>
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
@@ -175,19 +100,6 @@
           </aixm:authority>
           <aixm:frequency uom="KHZ">358</aixm:frequency>
           <aixm:class>ENR</aixm:class>
-          <aixm:extension>
-            <ead-audit:NDBExtension gml:id="uuid.8e3364c7-07ba-4cb7-a2c8-f070dd37ea3a">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.b19ccb30-87cc-4822-80d7-5f954b77ee82">
-                  <ead-audit:createdBy>G1_AALONSO</ead-audit:createdBy>
-                  <ead-audit:creationDate>2016-02-04T13:35:33Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>GROUPEAD EUROPE S.L.</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Update</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NDBExtension>
-          </aixm:extension>
         </aixm:NDBTimeSlice>
       </aixm:timeSlice>
     </aixm:NDB>
@@ -237,19 +149,6 @@
           </aixm:authority>
           <aixm:frequency uom="KHZ">358</aixm:frequency>
           <aixm:class>ENR</aixm:class>
-          <aixm:extension>
-            <ead-audit:NDBExtension gml:id="uuid.8e3364c7-07ba-4cb7-a2c8-f070dd37ea3a">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.b19ccb30-87cc-4822-80d7-5f954b77ee82">
-                  <ead-audit:createdBy>G1_AALONSO</ead-audit:createdBy>
-                  <ead-audit:creationDate>2016-02-04T13:35:33Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>GROUPEAD EUROPE S.L.</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Update</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NDBExtension>
-          </aixm:extension>
         </aixm:NDBTimeSlice>
       </aixm:timeSlice>
     </aixm:NDB>
@@ -303,19 +202,6 @@
             </aixm:ElevatedPoint>
           </aixm:location>
           <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:9bb1b68b-0187-4c74-897f-150c8df97466"/>
-          <aixm:extension>
-            <ead-audit:NavaidExtension gml:id="uuid.3ee8071d-a502-4395-a7b3-de26205723a0">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.cca854e9-8a76-4950-88ed-0494a4cf2b28">
-                  <ead-audit:createdBy>ET_ESI_SDO</ead-audit:createdBy>
-                  <ead-audit:creationDate>2022-12-07T12:22:58Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>BUNDESWEHR</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Reason Bundeswehr Database Update 13/22</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NavaidExtension>
-          </aixm:extension>
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
@@ -373,19 +259,6 @@
             </aixm:NavaidOperationalStatus>
           </aixm:availability>
           <aixm:channel>32X</aixm:channel>
-          <aixm:extension>
-            <ead-audit:TACANExtension gml:id="uuid.d75fc8c4-942d-47de-a548-19ca5acc133f">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.a25b5728-f77d-45dc-bc6b-9c46732d116a">
-                  <ead-audit:createdBy>ET_ESI_SDO</ead-audit:createdBy>
-                  <ead-audit:creationDate>2022-12-07T12:22:36Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>BUNDESWEHR</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Reason Bundeswehr Database Update 13/22</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:TACANExtension>
-          </aixm:extension>
         </aixm:TACANTimeSlice>
       </aixm:timeSlice>
     </aixm:TACAN>
@@ -436,19 +309,6 @@
               </aixm:annotation>
             </aixm:ElevatedPoint>
           </aixm:location>
-          <aixm:extension>
-            <ead-audit:NavaidExtension gml:id="uuid.80e46fec-4027-450f-9f27-eb4651e30c04">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.8d914e59-376b-4d52-a921-3a88d8e5f47e">
-                  <ead-audit:createdBy>G1_SGUTIERR</ead-audit:createdBy>
-                  <ead-audit:creationDate>2022-12-21T12:19:55Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>GROUPEAD EUROPE S.L.</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Reason: AIRAC AMDT 64/22</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NavaidExtension>
-          </aixm:extension>
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
@@ -500,19 +360,6 @@
           <aixm:type>VOR</aixm:type>
           <aixm:frequency uom="MHZ">115.8</aixm:frequency>
           <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
-          <aixm:extension>
-            <ead-audit:VORExtension gml:id="uuid.e1a8b026-e2a6-43ad-b013-8e9d5604f2ae">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.03dcd090-1124-4786-82b8-76aa23797429">
-                  <ead-audit:createdBy>G1_SGUTIERR</ead-audit:createdBy>
-                  <ead-audit:creationDate>2022-12-21T12:19:32Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>GROUPEAD EUROPE S.L.</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Reason: AIRAC AMDT 64/22</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:VORExtension>
-          </aixm:extension>
         </aixm:VORTimeSlice>
       </aixm:timeSlice>
     </aixm:VOR>
@@ -579,19 +426,6 @@
               </aixm:translatedNote>
             </aixm:Note>
           </aixm:annotation>
-          <aixm:extension>
-            <ead-audit:NavaidExtension gml:id="uuid.b432effb-a28f-44c9-9c71-207c868cedb3">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.3421d46d-da50-435d-8cb5-3cd2ff7ccc1a">
-                  <ead-audit:createdBy>EB_JGRIVNA</ead-audit:createdBy>
-                  <ead-audit:creationDate>2020-12-07T09:15:35Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>SKEYES</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>AIRAC AMDT 01/21: EBFS New ILS RWY 08L</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NavaidExtension>
-          </aixm:extension>
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
@@ -640,19 +474,6 @@
             </aixm:NavaidOperationalStatus>
           </aixm:availability>
           <aixm:frequency uom="MHZ">108.35</aixm:frequency>
-          <aixm:extension>
-            <ead-audit:LocalizerExtension gml:id="uuid.1ba26333-f0d1-448d-ae9f-413db3503f82">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.7dbd9381-4a2b-454c-8dd4-c739905e00bb">
-                  <ead-audit:createdBy>EB_JGRIVNA</ead-audit:createdBy>
-                  <ead-audit:creationDate>2020-12-07T09:16:56Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>SKEYES</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>AIRAC AMDT 01/21: EBFS New ILS RWY 08L</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:LocalizerExtension>
-          </aixm:extension>
         </aixm:LocalizerTimeSlice>
       </aixm:timeSlice>
     </aixm:Localizer>
@@ -756,18 +577,6 @@
               </aixm:translatedNote>
             </aixm:Note>
           </aixm:annotation>
-          <aixm:extension>
-            <ead-audit:NavaidExtension gml:id="uuid.8bc9bc3a-2f35-47dd-9a28-8efb3c33fc3f">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.08ce6a69-a5fd-43cf-b7bf-795b1559ad9c">
-                  <ead-audit:createdBy>en_wizard</ead-audit:createdBy>
-                  <ead-audit:creationDate>2023-02-15T12:47:46Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>AVINOR ORGANISATION FOR EAD</ead-audit:createdByOrg>
-                  <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NavaidExtension>
-          </aixm:extension>
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
@@ -859,18 +668,6 @@
           <aixm:widthCourse>5.5</aixm:widthCourse>
           <aixm:widthCourseAccuracy xsi:nil="true"/>
           <aixm:backCourseUsable nilReason="other:notavailable" xsi:nil="true"/>
-          <aixm:extension>
-            <ead-audit:LocalizerExtension gml:id="uuid.d5305c71-48d2-4ad0-bbe8-7f0d5e5e8dd0">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.b6120b8b-7535-4b3f-85cf-9a81446e6e40">
-                  <ead-audit:createdBy>en_wizard</ead-audit:createdBy>
-                  <ead-audit:creationDate>2023-02-15T12:52:20Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>AVINOR ORGANISATION FOR EAD</ead-audit:createdByOrg>
-                  <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:LocalizerExtension>
-          </aixm:extension>
         </aixm:LocalizerTimeSlice>
       </aixm:timeSlice>
     </aixm:Localizer>
@@ -963,18 +760,6 @@
           <aixm:channel>44X</aixm:channel>
           <aixm:ghostFrequency nilReason="other:notavailable" xsi:nil="true"/>
           <aixm:displace nilReason="other:notavailable" xsi:nil="true"/>
-          <aixm:extension>
-            <ead-audit:DMEExtension gml:id="uuid.cf2865ae-9f7c-43c8-8639-345d45f4589f">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.795f7ad4-fd43-464d-b02f-72f016557c97">
-                  <ead-audit:createdBy>en_wizard</ead-audit:createdBy>
-                  <ead-audit:creationDate>2023-02-15T12:46:10Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>AVINOR ORGANISATION FOR EAD</ead-audit:createdByOrg>
-                  <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:DMEExtension>
-          </aixm:extension>
         </aixm:DMETimeSlice>
       </aixm:timeSlice>
     </aixm:DME>
@@ -1038,19 +823,6 @@
           </aixm:location>
           <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:b66c249d-96c4-4411-abb8-adf963f2a4c0"/>
           <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:717eed8f-3ece-4aec-93d0-824f4901654d"/>
-          <aixm:extension>
-            <ead-audit:NavaidExtension gml:id="uuid.14997c7e-e428-41a7-9374-a3dc2b916cde">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.010be0b2-f60f-4a96-a3d9-64cfed65ad74">
-                  <ead-audit:createdBy>CY_ESI_NAVC</ead-audit:createdBy>
-                  <ead-audit:creationDate>2021-12-15T12:33:00Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>NAV CANADA</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Automatic Upload for 24-MAR-2022 00:00</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NavaidExtension>
-          </aixm:extension>
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
@@ -1117,19 +889,6 @@
             </aixm:Note>
           </aixm:annotation>
           <aixm:channel>89X</aixm:channel>
-          <aixm:extension>
-            <ead-audit:DMEExtension gml:id="uuid.3b19fd4f-e2ab-47a3-a281-4bfa251ab97c">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.30a0ab50-33e7-46fd-acfb-02f958de8dfe">
-                  <ead-audit:createdBy>CY_PPANES</ead-audit:createdBy>
-                  <ead-audit:creationDate>2016-02-10T01:42:30Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>NAV CANADA</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>AMEND AD DATA</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:DMEExtension>
-          </aixm:extension>
         </aixm:DMETimeSlice>
       </aixm:timeSlice>
     </aixm:DME>
@@ -1201,19 +960,6 @@
           <aixm:frequency uom="MHZ">114.2</aixm:frequency>
           <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
           <aixm:declination>-5</aixm:declination>
-          <aixm:extension>
-            <ead-audit:VORExtension gml:id="uuid.523f725e-a365-4605-963d-c0cc0f3b277a">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.cc169cb0-17a3-4f97-8e0d-e2ebac7a7ab7">
-                  <ead-audit:createdBy>CY_PPANES</ead-audit:createdBy>
-                  <ead-audit:creationDate>2016-02-10T01:32:23Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>NAV CANADA</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>AMEND AD DATA</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:VORExtension>
-          </aixm:extension>
         </aixm:VORTimeSlice>
       </aixm:timeSlice>
     </aixm:VOR>
@@ -1265,19 +1011,6 @@
               </aixm:annotation>
             </aixm:ElevatedPoint>
           </aixm:location>
-          <aixm:extension>
-            <ead-audit:NavaidExtension gml:id="uuid.c6a45788-d794-40e3-9abc-09a8252f7852">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.a3550f35-e0b2-44ed-9ae2-710b1de41242">
-                  <ead-audit:createdBy>LE_MIRUIZ</ead-audit:createdBy>
-                  <ead-audit:creationDate>2016-02-10T02:32:56Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>AENA</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Radioayudas</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NavaidExtension>
-          </aixm:extension>
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
@@ -1332,19 +1065,6 @@
           </aixm:availability>
           <aixm:frequency uom="MHZ">75</aixm:frequency>
           <aixm:auralMorseCode>--</aixm:auralMorseCode>
-          <aixm:extension>
-            <ead-audit:MarkerBeaconExtension gml:id="uuid.dbea0554-7032-420e-8aea-4d7dfb04a053">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.3d760485-e709-40e0-980b-032a3eb8c0dd">
-                  <ead-audit:createdBy>LE_MIRUIZ</ead-audit:createdBy>
-                  <ead-audit:creationDate>2016-02-10T02:32:55Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>AENA</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Radioayudas</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:MarkerBeaconExtension>
-          </aixm:extension>
         </aixm:MarkerBeaconTimeSlice>
       </aixm:timeSlice>
     </aixm:MarkerBeacon>
@@ -1405,19 +1125,6 @@
             </aixm:ElevatedPoint>
           </aixm:location>
           <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:909b3b87-c3d3-41b9-844e-8ac4b58a69b2"/>
-          <aixm:extension>
-            <ead-audit:NavaidExtension gml:id="uuid.ba8b6a12-6725-48e8-a7c7-cc4d48d43c9d">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.2cb39842-940e-48f6-9090-ce237a1b2d3a">
-                  <ead-audit:createdBy>UK_IPAPETA</ead-audit:createdBy>
-                  <ead-audit:creationDate>2016-02-10T02:34:00Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>UKRAINIAN STATE AIR TRAFFIC SERVICES ENTERPRISE</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>General review corection</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NavaidExtension>
-          </aixm:extension>
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
@@ -1493,19 +1200,6 @@
           </aixm:annotation>
           <aixm:frequency uom="MHZ">75</aixm:frequency>
           <aixm:auralMorseCode>...</aixm:auralMorseCode>
-          <aixm:extension>
-            <ead-audit:MarkerBeaconExtension gml:id="uuid.70043468-d209-4dd3-b30a-8355a5746d25">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.6aba328e-ab47-4c21-bd86-d7d5e944b817">
-                  <ead-audit:createdBy>UK_IPAPETA</ead-audit:createdBy>
-                  <ead-audit:creationDate>2016-02-10T02:34:00Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>UKRAINIAN STATE AIR TRAFFIC SERVICES ENTERPRISE</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>General review corection</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:MarkerBeaconExtension>
-          </aixm:extension>
         </aixm:MarkerBeaconTimeSlice>
       </aixm:timeSlice>
     </aixm:MarkerBeacon>
@@ -1575,19 +1269,6 @@
           </aixm:availability>
           <aixm:frequency uom="KHZ">257</aixm:frequency>
           <aixm:class>L</aixm:class>
-          <aixm:extension>
-            <ead-audit:NDBExtension gml:id="uuid.f7c81ba8-d631-4001-9dcc-5459d9533920">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.fb545990-fc12-4998-855a-f2f341663534">
-                  <ead-audit:createdBy>UK_IPAPETA</ead-audit:createdBy>
-                  <ead-audit:creationDate>2016-02-04T13:43:44Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>UKRAINIAN STATE AIR TRAFFIC SERVICES ENTERPRISE</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Source: AIRAC AMDT 09/15</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NDBExtension>
-          </aixm:extension>
         </aixm:NDBTimeSlice>
       </aixm:timeSlice>
     </aixm:NDB>
@@ -1654,18 +1335,6 @@
               </aixm:translatedNote>
             </aixm:Note>
           </aixm:annotation>
-          <aixm:extension>
-            <ead-audit:NavaidExtension gml:id="uuid.f6a25f1a-ca46-4d2b-9183-1ebc20772d1e">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.6f84d42e-581b-48e2-b816-800b09591e13">
-                  <ead-audit:createdBy>en_wizard</ead-audit:createdBy>
-                  <ead-audit:creationDate>2023-02-15T12:42:53Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>AVINOR ORGANISATION FOR EAD</ead-audit:createdByOrg>
-                  <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NavaidExtension>
-          </aixm:extension>
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
@@ -1736,18 +1405,6 @@
               </aixm:translatedNote>
             </aixm:Note>
           </aixm:annotation>
-          <aixm:extension>
-            <ead-audit:NavaidExtension gml:id="uuid.50fef241-b34e-4acc-8366-3be978016cd0">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.a49d85ee-6f8f-485d-bbe6-d055926470f9">
-                  <ead-audit:createdBy>ek_AEROEADOPS</ead-audit:createdBy>
-                  <ead-audit:creationDate>2022-05-12T13:53:09Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>NAVIAIR ATS</ead-audit:createdByOrg>
-                  <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NavaidExtension>
-          </aixm:extension>
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
@@ -1828,18 +1485,6 @@
             </aixm:Note>
           </aixm:annotation>
           <aixm:channel>114X</aixm:channel>
-          <aixm:extension>
-            <ead-audit:TACANExtension gml:id="uuid.78b08d7b-af2b-4c58-883d-de29b78aca3d">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.354c9342-26f6-4987-bcc3-4c9482b3255c">
-                  <ead-audit:createdBy>ek_AEROEADOPS</ead-audit:createdBy>
-                  <ead-audit:creationDate>2022-05-12T14:06:44Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>NAVIAIR ATS</ead-audit:createdByOrg>
-                  <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:TACANExtension>
-          </aixm:extension>
         </aixm:TACANTimeSlice>
       </aixm:timeSlice>
     </aixm:TACAN>
@@ -1911,18 +1556,6 @@
           <aixm:type>VOR</aixm:type>
           <aixm:frequency uom="MHZ">116.7</aixm:frequency>
           <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
-          <aixm:extension>
-            <ead-audit:VORExtension gml:id="uuid.6422b706-9265-495b-99a8-893e75dd8fd7">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.ecfda6f5-81c4-4cc8-92d2-0cc55525558c">
-                  <ead-audit:createdBy>ek_AEROEADOPS</ead-audit:createdBy>
-                  <ead-audit:creationDate>2022-12-13T10:41:15Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>NAVIAIR ATS</ead-audit:createdByOrg>
-                  <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:VORExtension>
-          </aixm:extension>
         </aixm:VORTimeSlice>
       </aixm:timeSlice>
     </aixm:VOR>
@@ -1998,19 +1631,6 @@
             </aixm:ElevatedPoint>
           </aixm:location>
           <aixm:runwayDirection xlink:type="simple" xlink:href="urn:uuid:5b541431-c0ad-4aa4-9bf4-35dc60c7957a"/>
-          <aixm:extension>
-            <ead-audit:NavaidExtension gml:id="uuid.3f871011-01bd-4a2b-9db6-1eb492184fef">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.94c4a51b-556e-42cb-b129-60fba904fb28">
-                  <ead-audit:createdBy>LL_SGEAD01</ead-audit:createdBy>
-                  <ead-audit:creationDate>2017-12-06T00:41:27Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>CIVIL AVIATION AUTHORITY ISRAEL</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Reason: Migration to SDO full data-set including AIRAC AMDT 02/17</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NavaidExtension>
-          </aixm:extension>
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
@@ -2073,19 +1693,6 @@
             </aixm:NavaidOperationalStatus>
           </aixm:availability>
           <aixm:frequency uom="MHZ">110.9</aixm:frequency>
-          <aixm:extension>
-            <ead-audit:LocalizerExtension gml:id="uuid.e4bec6fa-ed8c-45e7-b253-943895dbeb3c">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.39b457c6-5560-470c-bbd0-8534dc121e42">
-                  <ead-audit:createdBy>LL_SGEAD01</ead-audit:createdBy>
-                  <ead-audit:creationDate>2017-12-06T00:40:54Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>CIVIL AVIATION AUTHORITY ISRAEL</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Reason: Migration to SDO full data-set including AIRAC AMDT 02/17</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:LocalizerExtension>
-          </aixm:extension>
         </aixm:LocalizerTimeSlice>
       </aixm:timeSlice>
     </aixm:Localizer>
@@ -2147,19 +1754,6 @@
           <aixm:frequency uom="MHZ">330.8</aixm:frequency>
           <aixm:slope>3</aixm:slope>
           <aixm:rdh uom="FT">50</aixm:rdh>
-          <aixm:extension>
-            <ead-audit:GlidepathExtension gml:id="uuid.2ba97b20-6d58-4b8c-83b3-e51cbd5b8744">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.3ad83c8d-70c4-4f40-a26e-d83797130acc">
-                  <ead-audit:createdBy>LL_SGEAD01</ead-audit:createdBy>
-                  <ead-audit:creationDate>2017-12-06T00:38:12Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>CIVIL AVIATION AUTHORITY ISRAEL</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Reason: Migration to SDO full data-set including AIRAC AMDT 02/17</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:GlidepathExtension>
-          </aixm:extension>
         </aixm:GlidepathTimeSlice>
       </aixm:timeSlice>
     </aixm:Glidepath>
@@ -2226,19 +1820,6 @@
             </aixm:NavaidOperationalStatus>
           </aixm:availability>
           <aixm:channel>46X</aixm:channel>
-          <aixm:extension>
-            <ead-audit:DMEExtension gml:id="uuid.1d446339-9934-44f1-bae8-74dcacdaf212">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.2fdd366c-57c6-44ab-bd58-c5c4ad80b11c">
-                  <ead-audit:createdBy>LL_SGEAD01</ead-audit:createdBy>
-                  <ead-audit:creationDate>2017-12-06T00:40:32Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>CIVIL AVIATION AUTHORITY ISRAEL</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Reason: Migration to SDO full data-set including AIRAC AMDT 02/17</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:DMEExtension>
-          </aixm:extension>
         </aixm:DMETimeSlice>
       </aixm:timeSlice>
     </aixm:DME>
@@ -2291,19 +1872,6 @@
               <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
             </aixm:ElevatedPoint>
           </aixm:location>
-          <aixm:extension>
-            <ead-audit:NavaidExtension gml:id="uuid.44876b49-d487-4ba0-afce-7aeb559c66a3">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.face5079-82f7-443a-a195-a1e65505b3c6">
-                  <ead-audit:createdBy>EH_LESI1</ead-audit:createdBy>
-                  <ead-audit:creationDate>2023-05-23T13:08:25Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>AIR TRAFFIC CONTROL - THE NETHERLANDS (LVNL)</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Reason: AIRAC AMDT 07/2023; Withdrawn: Adg, Ase, Abd, Ahp; New: Org, Ase, Abd; Change: Vor, Ase, Abd, Ahp, Dme, Ndb, Rwy, Rsg, Rsu</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NavaidExtension>
-          </aixm:extension>
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
@@ -2366,19 +1934,6 @@
           </aixm:annotation>
           <aixm:channel>22Y</aixm:channel>
           <aixm:displace uom="NM">0.1777</aixm:displace>
-          <aixm:extension>
-            <ead-audit:DMEExtension gml:id="uuid.67c5ad39-1ba7-4d21-8314-5a759a46f7fd">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.d50c1ee9-1782-4803-bf1f-0d676393676e">
-                  <ead-audit:createdBy>EH_LESI1</ead-audit:createdBy>
-                  <ead-audit:creationDate>2023-05-23T13:06:54Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>AIR TRAFFIC CONTROL - THE NETHERLANDS (LVNL)</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Reason: AIRAC AMDT 07/2023; Withdrawn: Adg, Ase, Abd, Ahp; New: Org, Ase, Abd; Change: Vor, Ase, Abd, Ahp, Dme, Ndb, Rwy, Rsg, Rsu</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:DMEExtension>
-          </aixm:extension>
         </aixm:DMETimeSlice>
       </aixm:timeSlice>
     </aixm:DME>

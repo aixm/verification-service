@@ -1,68 +1,6 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-  <aixm:messageMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <gmd:MD_Metadata>
-      <gmd:contact>
-        <gmd:CI_ResponsibleParty>
-          <gmd:organisationName>
-            <gco:CharacterString>EAD Data Operations Provider</gco:CharacterString>
-          </gmd:organisationName>
-          <gmd:contactInfo>
-            <gmd:CI_Contact>
-              <gmd:phone>
-                <gmd:CI_Telephone>
-                  <gmd:voice>
-                    <gco:CharacterString>+49 6196 7696 222</gco:CharacterString>
-                  </gmd:voice>
-                </gmd:CI_Telephone>
-              </gmd:phone>
-              <gmd:address>
-                <gmd:CI_Address>
-                  <gmd:electronicMailAddress>
-                    <gco:CharacterString>helpdesk@ead.eurocontrol.int</gco:CharacterString>
-                  </gmd:electronicMailAddress>
-                </gmd:CI_Address>
-              </gmd:address>
-            </gmd:CI_Contact>
-          </gmd:contactInfo>
-          <gmd:role>
-            <gmd:CI_RoleCode codeList="./resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="CI_RoleCode_publisher"/>
-          </gmd:role>
-        </gmd:CI_ResponsibleParty>
-      </gmd:contact>
-      <gmd:dateStamp>
-        <gco:DateTime>2023-07-16T00:00:33Z</gco:DateTime>
-      </gmd:dateStamp>
-      <gmd:identificationInfo>
-        <gmd:MD_DataIdentification>
-          <gmd:citation>
-            <gmd:CI_Citation>
-              <gmd:title>
-                <gco:CharacterString>EUROCONTROL-SIM-27</gco:CharacterString>
-              </gmd:title>
-              <gmd:date>
-                <gmd:CI_Date>
-                  <gmd:date>
-                    <gco:DateTime>2023-07-16T00:00:33Z</gco:DateTime>
-                  </gmd:date>
-                  <gmd:dateType>
-                    <gmd:CI_DateTypeCode codeList="./resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="CI_DateTypeCode_creation"/>
-                  </gmd:dateType>
-                </gmd:CI_Date>
-              </gmd:date>
-            </gmd:CI_Citation>
-          </gmd:citation>
-          <gmd:abstract>
-            <gco:CharacterString>AIXM 5.1 file generated for effective date start: 2023-08-10T00:00:00, effective date end: 2023-08-10T00:00:00 with delivery date: 2023-07-16T00:00:00</gco:CharacterString>
-          </gmd:abstract>
-          <gmd:language>
-            <gmd:LanguageCode codeList="./resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng"/>
-          </gmd:language>
-        </gmd:MD_DataIdentification>
-      </gmd:identificationInfo>
-    </gmd:MD_Metadata>
-  </aixm:messageMetadata>
 
   <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Route gml:id="uuid.00b3dcc9-e8e8-4639-9a9c-1e60e7340581">
@@ -91,19 +29,6 @@
           <aixm:multipleIdentifier>A</aixm:multipleIdentifier>
           <aixm:locationDesignator>RP-RP</aixm:locationDesignator>
           <aixm:internationalUse nilReason="withheld" xsi:nil="true"/>
-          <aixm:extension>
-            <ead-audit:RouteExtension gml:id="uuid.ba5803e2-7041-4f88-9c6b-179f92870520">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.808734f2-a51e-499c-bb1d-e459ca1b0c1e">
-                  <ead-audit:createdBy>RP_ELIZADA</ead-audit:createdBy>
-                  <ead-audit:creationDate>2019-10-07T15:09:23Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>CIVIL AVIATION AUTHORITY OF THE PHILIPPINES</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Reason: AIRAC AIP SUP A020/19</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:RouteExtension>
-          </aixm:extension>
         </aixm:RouteTimeSlice>
       </aixm:timeSlice>
     </aixm:Route>
@@ -135,19 +60,6 @@
           <aixm:designatorNumber>389</aixm:designatorNumber>
           <aixm:multipleIdentifier>B</aixm:multipleIdentifier>
           <aixm:locationDesignator>CAN</aixm:locationDesignator>
-          <aixm:extension>
-            <ead-audit:RouteExtension gml:id="uuid.9043ac73-f22a-4a1f-8ded-060813ad0fbd">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.e7d19073-5c90-4bb8-a590-889ce84e506b">
-                  <ead-audit:createdBy>CY_BRULED</ead-audit:createdBy>
-                  <ead-audit:creationDate>2016-02-04T12:54:03Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>NAV CANADA</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>add NAR routes</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:RouteExtension>
-          </aixm:extension>
         </aixm:RouteTimeSlice>
       </aixm:timeSlice>
     </aixm:Route>

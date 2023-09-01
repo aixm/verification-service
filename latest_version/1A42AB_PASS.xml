@@ -1,68 +1,6 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-  <aixm:messageMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <gmd:MD_Metadata>
-      <gmd:contact>
-        <gmd:CI_ResponsibleParty>
-          <gmd:organisationName>
-            <gco:CharacterString>EAD Data Operations Provider</gco:CharacterString>
-          </gmd:organisationName>
-          <gmd:contactInfo>
-            <gmd:CI_Contact>
-              <gmd:phone>
-                <gmd:CI_Telephone>
-                  <gmd:voice>
-                    <gco:CharacterString>+49 6196 7696 222</gco:CharacterString>
-                  </gmd:voice>
-                </gmd:CI_Telephone>
-              </gmd:phone>
-              <gmd:address>
-                <gmd:CI_Address>
-                  <gmd:electronicMailAddress>
-                    <gco:CharacterString>helpdesk@ead.eurocontrol.int</gco:CharacterString>
-                  </gmd:electronicMailAddress>
-                </gmd:CI_Address>
-              </gmd:address>
-            </gmd:CI_Contact>
-          </gmd:contactInfo>
-          <gmd:role>
-            <gmd:CI_RoleCode codeList="./resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="CI_RoleCode_publisher"/>
-          </gmd:role>
-        </gmd:CI_ResponsibleParty>
-      </gmd:contact>
-      <gmd:dateStamp>
-        <gco:DateTime>2023-07-16T00:00:33Z</gco:DateTime>
-      </gmd:dateStamp>
-      <gmd:identificationInfo>
-        <gmd:MD_DataIdentification>
-          <gmd:citation>
-            <gmd:CI_Citation>
-              <gmd:title>
-                <gco:CharacterString>EUROCONTROL-SIM-27</gco:CharacterString>
-              </gmd:title>
-              <gmd:date>
-                <gmd:CI_Date>
-                  <gmd:date>
-                    <gco:DateTime>2023-07-16T00:00:33Z</gco:DateTime>
-                  </gmd:date>
-                  <gmd:dateType>
-                    <gmd:CI_DateTypeCode codeList="./resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="CI_DateTypeCode_creation"/>
-                  </gmd:dateType>
-                </gmd:CI_Date>
-              </gmd:date>
-            </gmd:CI_Citation>
-          </gmd:citation>
-          <gmd:abstract>
-            <gco:CharacterString>AIXM 5.1 file generated for effective date start: 2023-08-10T00:00:00, effective date end: 2023-08-10T00:00:00 with delivery date: 2023-07-16T00:00:00</gco:CharacterString>
-          </gmd:abstract>
-          <gmd:language>
-            <gmd:LanguageCode codeList="./resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng"/>
-          </gmd:language>
-        </gmd:MD_DataIdentification>
-      </gmd:identificationInfo>
-    </gmd:MD_Metadata>
-  </aixm:messageMetadata>
 
   <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.ff0c638d-5a71-452c-82a3-3fc0addf09cf">
@@ -105,18 +43,6 @@
             </aixm:ElevatedPoint>
           </aixm:location>
           <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:3a91f301-902c-4538-a17f-23f9b8a9b697"/>
-          <aixm:extension>
-            <ead-audit:NavaidExtension gml:id="uuid.0d2187ed-76f5-4753-b694-b3ad5e2db62a">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.f74cf32f-8a0a-459b-a766-dd4d19050e73">
-                  <ead-audit:createdBy>li_EADEnav</ead-audit:createdBy>
-                  <ead-audit:creationDate>2022-03-24T15:02:45Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>ENAV</ead-audit:createdByOrg>
-                  <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:NavaidExtension>
-          </aixm:extension>
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
@@ -188,18 +114,6 @@
           </aixm:annotation>
           <aixm:channel>54Y</aixm:channel>
           <aixm:displace uom="M">0.0</aixm:displace>
-          <aixm:extension>
-            <ead-audit:DMEExtension gml:id="uuid.791e3e80-4c50-439a-aaa9-1ec70f00c6e4">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.ddd6360b-27d2-434f-8917-18b3fd3aff9a">
-                  <ead-audit:createdBy>li_EADEnav</ead-audit:createdBy>
-                  <ead-audit:creationDate>2023-06-12T11:58:53Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>ENAV</ead-audit:createdByOrg>
-                  <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:DMEExtension>
-          </aixm:extension>
         </aixm:DMETimeSlice>
       </aixm:timeSlice>
     </aixm:DME>
