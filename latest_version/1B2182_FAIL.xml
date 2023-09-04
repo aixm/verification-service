@@ -1307,7 +1307,9 @@
               <aixm:markerPosition nilReason="inapplicable" xsi:nil="true"/>
               <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
               <aixm:annotation xsi:nil="true"/>
-              <aixm:theNavaidEquipment xlink:type="simple" xlink:href="urn:uuid:68c8c2e4-2e14-4fff-b72d-b09fc7dd0f15"/>
+              <!-- <aixm:theNavaidEquipment xlink:type="simple" xlink:href="urn:uuid:68c8c2e4-2e14-4fff-b72d-b09fc7dd0f15"/> -->
+              <!-- ERROR: The Navaid type shall be consistent with the associated NavaidEquipment(s). -->
+              <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.716da4c0-1a6c-4377-9e65-70922fe98e05"/>
             </aixm:NavaidComponent>
           </aixm:navaidEquipment>
           <aixm:location>
