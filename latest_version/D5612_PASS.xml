@@ -1,0 +1,1106 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Airspace gml:id="uuid.e2294fa4-d690-46c6-bcda-3836526099a2">
+      <gml:identifier codeSpace="urn:uuid:">e2294fa4-d690-46c6-bcda-3836526099a2</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.f20031c4-a071-4867-aaf5-2bebbe70de4a">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.578bb2df-c7da-4643-85a3-0f4d90e2b469">
+              <gml:beginPosition>2021-12-02T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.37425c92-ac43-4b09-94b0-7416ca069514">
+              <gml:beginPosition>2021-12-02T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>CTR_P</aixm:type>
+          <aixm:designator>LFSB3</aixm:designator>
+          <aixm:name>BASEL EASTERN PART</aixm:name>
+          <aixm:designatorICAO>NO</aixm:designatorICAO>
+          <aixm:class>
+            <aixm:AirspaceLayerClass gml:id="uuid.e7bf09f2-3926-4827-b830-2051a4bde94c">
+              <aixm:classification>D</aixm:classification>
+            </aixm:AirspaceLayerClass>
+          </aixm:class>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.2be66f7c-b111-4776-81c0-3f149ab3da5a">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.322cb1c7-568d-45fb-bd59-2315e67f6075">
+                  <aixm:upperLimit uom="FT">1000</aixm:upperLimit>
+                  <aixm:upperLimitReference>SFC</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="FT">0</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
+                  <aixm:horizontalProjection>
+                    <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.837990b2-f4ec-4f52-85db-4e2be6993af9">
+                      <gml:patches>
+                        <gml:PolygonPatch interpolation="planar">
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e69eb589-1b17-422b-9123-aa03f4318fe9">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>47.587376111 7.67188075 47.584511167 7.674083611</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xlink:type="simple" xlink:href="urn:uuid:d01c561b-7081-4100-a247-463f66b39c85"/>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b8bc189b-2190-41ed-a873-9ae0799a198a">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>47.587376111 7.67188075 47.587376111 7.67188075</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:ElevatedSurface>
+                  </aixm:horizontalProjection>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.3f51d3e3-c563-4441-83b6-8ccc6920a64d">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.5a85a168-761b-413b-bb62-a9ce660ede5b">
+                          <aixm:note>Airspace Border Vertex number:1 , type = GRC&#13;
+CRC:473514.5540N,0074018.7707E,,,E143D598</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.1e3777db-d14d-43ba-a9a2-d110c99d66ea">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.bdbadcbe-0827-4fa3-97a9-da8562789cc6">
+                          <aixm:note>Airspace Border Vertex number:2 , type = FNT&#13;
+CRC:473504.2402N,0074026.7010E,,,FAFF6624</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.2599cd85-6041-430a-8575-cd93b912d231">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.0e5f32a0-2330-4515-b7a1-5e643fc088c4">
+                  <aixm:note>txtRmk:BASEL TWR provides the air traffic services within the German part of BASEL CTR, on the authority of LANGEN ACC.</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </hasMember>
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Airspace gml:id="uuid.ad75031e-8688-497b-a530-4cad9cb5bd02">
+      <gml:identifier codeSpace="urn:uuid:">ad75031e-8688-497b-a530-4cad9cb5bd02</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.b9e1a7c5-f666-496a-8328-47be909ccf58">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.bb7cdd48-d989-4da1-a394-3e0c55eed48c">
+              <gml:beginPosition>2023-09-07T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.6401f582-48ce-4cb3-b81f-cf038b43ffad">
+              <gml:beginPosition>2022-05-19T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>CTA_P</aixm:type>
+          <aixm:designator>LICTANA2</aixm:designator>
+          <aixm:name>ZONE '2'</aixm:name>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.fb304891-b6a3-4449-87e8-1034d5a7c6e2">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.e3cdb245-29d4-48ac-8d01-dd99bab48b4c">
+                  <aixm:upperLimit uom="FT">3500.0</aixm:upperLimit>
+                  <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="FT">1500.0</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                  <aixm:horizontalProjection>
+                    <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.6d9a18c8-ff16-4f8f-9f45-76e720304e16">
+                      <gml:patches>
+                        <gml:PolygonPatch interpolation="planar">
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                                <gml:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.96db7a32-0421-4900-81f1-6e1486ff9e77">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>40.538498778 14.61431175 40.665543111 14.821299806</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </gml:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                                <gml:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.34f06ed8-edb8-4cc1-b91f-4844e6a0190c">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>40.665543111 14.821299806 40.591616222 14.761511056</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </gml:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                                <gml:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.2078b781-01cc-4d6c-937f-3b3f8686a629">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>40.591616222 14.761511056 40.513091083 14.847752667</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </gml:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                                <gml:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.63e3512e-dc2b-45d6-8bad-a9bfbbd98d23">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>40.513091083 14.847752667 40.5025 14.821388889</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </gml:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                                <gml:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.be664093-e4ef-43cc-a979-342d43ea8ec7">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>40.5025 14.821388889 40.468008444 14.842540389</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </gml:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                                <gml:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.3a4c6a8c-aab8-49a4-b612-b75225d3c441">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>40.468008444 14.842540389 40.411800278 14.753684667</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </gml:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                                <gml:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4a1187e1-c3df-4bd0-89be-931b2d699d16">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>40.411800278 14.753684667 40.538498778 14.61431175</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </gml:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:Surface>
+                  </aixm:horizontalProjection>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:activation>
+            <aixm:AirspaceActivation gml:id="uuid.5506e467-3104-49b6-9f1b-911813f68b03">
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.cc71f685-391c-478b-9523-2ed6edf47552">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>01-01</aixm:startDate>
+                  <aixm:endDate>31-12</aixm:endDate>
+                  <aixm:day>ANY</aixm:day>
+                  <aixm:startTime>00:00</aixm:startTime>
+                  <aixm:endTime>24:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:status>ACTIVE</aixm:status>
+            </aixm:AirspaceActivation>
+          </aixm:activation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.a5a02a57-2810-4d3e-9ac5-155c4eedb000">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.5104648c-ce78-4756-b7c5-3a872958565a">
+                  <aixm:note>SALERNO</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </hasMember>
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Airspace gml:id="uuid.1014ae12-20a2-43b2-ae89-52d5a10dda8f">
+      <gml:identifier codeSpace="urn:uuid:">1014ae12-20a2-43b2-ae89-52d5a10dda8f</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.5758f23f-2da0-4db8-acd3-894d443af0ed">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.904a9380-915b-4ddf-ae1a-8b9882e356e2">
+              <gml:beginPosition>2019-02-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>3</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.8118a64b-fe65-4241-9de5-8ba2e169dd2f">
+              <gml:beginPosition>2007-07-22T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>TMA</aixm:type>
+          <aixm:designator>UTFN</aixm:designator>
+          <aixm:name>NAMANGAN TMA</aixm:name>
+          <aixm:designatorICAO>NO</aixm:designatorICAO>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.3e7d6a69-e9cb-413d-9c41-668ccd6b255b">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.8e58887f-46e6-492d-8bf3-958afc217d18">
+                  <aixm:upperLimit uom="FL">80</aixm:upperLimit>
+                  <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="M">0</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
+                  <aixm:horizontalProjection>
+                    <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.c165f248-52a2-44a5-b546-181f62f87935">
+                      <gml:patches>
+                        <gml:PolygonPatch interpolation="planar">
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.0b827915-9648-4e22-8e79-1ebbcffba984">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>41.133333 72.116667 40.7001 71.8501 40.633333 71.3001 41.291667 71.1001 41.2501 71.566667 41.133333 72.116667</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:ElevatedSurface>
+                  </aixm:horizontalProjection>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.1d3cc93c-5b70-4fc2-a3a4-6e49a1feed8a">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.d4c23a69-1efe-41fd-ba6f-10b23deac113">
+                          <aixm:note>Airspace Border Vertex number:1 , type = GRC&#13;
+CRC:410800.0N,0720700.0E,,,865A17DD</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.62132880-bd9c-432a-a4d3-7df863ce2629">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.c0be8324-50fc-46b8-ae77-1c3e7037eff1">
+                          <aixm:note>Airspace Border Vertex number:2 , type = GRC&#13;
+CRC:404200.0N,0715100.0E,,,08BE2B95</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.5d202045-dc46-4f05-ab33-13c7ad6f94b3">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.89c35983-f28b-4e08-a2e4-09f746880ac7">
+                          <aixm:note>Airspace Border Vertex number:3 , type = GRC&#13;
+CRC:403800.0N,0711800.0E,,,9469A79D</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.0704c13a-0563-4eb2-8fb9-e843e2db803c">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.f90e7ed3-382f-4e8c-bc03-019b87720dce">
+                          <aixm:note>Airspace Border Vertex number:4 , type = GRC&#13;
+CRC:411730.0N,0710600.0E,,,85DFF689</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.b18950e0-a412-4a31-8f53-31ae4661f53c">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.fa761345-d035-41a4-88e8-8bdda85b24aa">
+                          <aixm:note>Airspace Border Vertex number:5 , type = GRC&#13;
+CRC:411500.0N,0713400.0E,,,4A8D56E8</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </hasMember>
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Airspace gml:id="uuid.bca38c94-03e3-4218-8d1f-16466857213b">
+      <gml:identifier codeSpace="urn:uuid:">bca38c94-03e3-4218-8d1f-16466857213b</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.c2decbc2-81b6-45d5-954a-2107a8a4d213">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.be45c1fd-9662-42e2-8340-75bd615012ba">
+              <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>3</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.8e704a4d-aa3c-4bdc-911b-8c76d40b1fbb">
+              <gml:beginPosition>2018-04-26T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>CTR</aixm:type>
+          <aixm:designator>EPOK</aixm:designator>
+          <aixm:localType>MCTR</aixm:localType>
+          <aixm:name>OKSYWIE (EPOK)</aixm:name>
+          <aixm:designatorICAO>YES</aixm:designatorICAO>
+          <aixm:controlType>MIL</aixm:controlType>
+          <aixm:class>
+            <aixm:AirspaceLayerClass gml:id="uuid.4313e48a-e934-4d47-afb6-da93d4e5c81b">
+              <aixm:classification>D</aixm:classification>
+            </aixm:AirspaceLayerClass>
+          </aixm:class>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.6c2c07a9-68a1-4175-9b53-c8fbfd9e08bd">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.b55df8bf-d772-456b-bac6-3e62e7df6a74">
+                  <aixm:upperLimit uom="FT">3500</aixm:upperLimit>
+                  <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="FT">0</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
+                  <aixm:horizontalProjection>
+                    <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b183dfcc-29d3-4b30-b530-3bfbebfe88f4">
+                      <gml:patches>
+                        <gml:PolygonPatch interpolation="planar">
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.726e53a3-9de7-4b8a-a298-dc2fc2656208">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>54.497222222 18.385833333 54.779166667 18.164444444 54.796666667 18.410555556 54.495833333 18.923055556 54.419166667 18.797222222 54.448888889 18.544444444 54.497222222 18.385833333</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:ElevatedSurface>
+                  </aixm:horizontalProjection>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.fc66e5e0-4b00-4820-bf08-9a174da10363">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.528a2f4e-7966-47d0-9fa5-0c57ea33d025">
+                          <aixm:note>Airspace Border Vertex number:1 , type = GRC&#13;
+CRC:542950.0000N,0182309.0000E,,,A831F42F</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.b3bc91fe-e72f-474b-a6c0-609382a7f147">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.5e31291e-e760-4ce7-a629-a6406b6309b3">
+                          <aixm:note>Airspace Border Vertex number:2 , type = GRC&#13;
+CRC:544645.0000N,0180952.0000E,,,D4571F08</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.bbc528ee-6095-428e-83c5-e7f66fe9398b">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.144fa7d6-80e6-49a7-a67d-06362982d440">
+                          <aixm:note>Airspace Border Vertex number:3 , type = GRC&#13;
+CRC:544748.0000N,0182438.0000E,,,2F2F031C</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.bde8bdf3-bb5b-4d4e-9afe-798e83b3f7f7">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.68c2a164-9282-4e59-b6ec-ec6722d75e5e">
+                          <aixm:note>Airspace Border Vertex number:4 , type = GRC&#13;
+CRC:542945.0000N,0185523.0000E,,,B169D0BB</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.56260099-2baf-493a-8d9e-5d9945d61807">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.7d1efeb4-768b-4588-b2e8-769fd45dcbee">
+                          <aixm:note>Airspace Border Vertex number:5 , type = GRC&#13;
+CRC:542509.0000N,0184750.0000E,,,36AD749C</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.fc8ef31d-bac8-4b61-a5a0-fc6af73b0d0a">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.df137c9a-aaac-4419-803a-4fc8622f4fce">
+                          <aixm:note>Airspace Border Vertex number:6 , type = GRC&#13;
+CRC:542656.0000N,0183240.0000E,,,C819492D</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:activation>
+            <aixm:AirspaceActivation gml:id="uuid.1905a917-b1d7-4670-bcfe-3573279ad30c">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.4a5a4f92-d67d-41d2-943f-f8664fc8ff63">
+                  <aixm:propertyName>timeInterval</aixm:propertyName>
+                  <aixm:purpose>WARNING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.a901be4f-baf5-44db-882b-1cb8d56ea19e">
+                      <aixm:note>OTHER</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.d7d60187-72e7-4166-bd21-a05a340e2ef9">
+                  <aixm:propertyName>timeInterval</aixm:propertyName>
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.73de5212-290a-4257-b55c-7457d80b4fb8">
+                      <aixm:note>Remark:Accordance with the ATC working hours.</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:status>ACTIVE</aixm:status>
+            </aixm:AirspaceActivation>
+          </aixm:activation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.afe81099-d443-4ed5-af34-900c35c5e8a0">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.dacdeae5-e37a-46ed-a206-ab1b08367052">
+                  <aixm:note>txtRmk:Excluding active EPTR157.</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </hasMember>
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Airspace gml:id="uuid.1d9be11f-19af-464c-8ad9-3501702ffcc0">
+      <gml:identifier codeSpace="urn:uuid:">1d9be11f-19af-464c-8ad9-3501702ffcc0</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.c5cfe548-b93a-4981-b977-643eba7ff56b">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.618322cf-3431-4b58-87b5-62bf00c7787b">
+              <gml:beginPosition>2019-01-31T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.23f5939c-1bef-41e3-9292-36797370a7eb">
+              <gml:beginPosition>2016-01-21T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>CTA</aixm:type>
+          <aixm:designator>DTTJ</aixm:designator>
+          <aixm:name>TUNIS CTA SOUTH EAST</aixm:name>
+          <aixm:designatorICAO>NO</aixm:designatorICAO>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.a4127f33-2ebb-4dc1-aba5-0278ce807b58">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.7aafd5d8-982d-46c9-b7f0-5be2690ebc82">
+                  <aixm:upperLimit uom="FL">460</aixm:upperLimit>
+                  <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="FL">75</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+                  <aixm:horizontalProjection>
+                    <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.530086ae-8540-4c2c-9162-0d8455abaf87">
+                      <gml:patches>
+                        <gml:PolygonPatch interpolation="planar">
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4805a473-6454-4ca4-846f-2555ae91b8db">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>35.38278 10.24806 35.38028 10.71083 35.65667 11.5001 33.41528 11.5001 33.46111 10.26667 34.01667 10.26667 34.14556 10.09139 35.38278 10.24806</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:ElevatedSurface>
+                  </aixm:horizontalProjection>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.b5027eb9-acc3-43c8-b384-8b971cc7437e">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.03738140-81f1-4f42-8f9c-b77a7f53fe10">
+                          <aixm:note>Airspace Border Vertex number:1 , type = GRC&#13;
+CRC:352258N,0101453E,,,790C3CD2</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.145ec71b-5940-426d-8952-8b93641d55b2">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.3b25cc9b-b9a2-42f8-9671-41eced63de3c">
+                          <aixm:note>Airspace Border Vertex number:2 , type = GRC&#13;
+CRC:352249N,0104239E,,,2EF38387</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.61a1490e-292a-43b0-ae17-d43ab921db71">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.9978719b-115c-432e-9ccb-0a5658610c4f">
+                          <aixm:note>Airspace Border Vertex number:3 , type = GRC&#13;
+CRC:353924N,0113000E,,,3A087895</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.245d556b-9683-4d89-9d1e-5807641b763f">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.1722248a-0a89-4e5f-97dd-1877fc497697">
+                          <aixm:note>Airspace Border Vertex number:4 , type = GRC&#13;
+CRC:332455N,0113000E,,,43922849</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.b198b980-2218-4f3c-ae28-7ed93221e2bb">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.86d19a17-5fad-4646-8265-65f85a8bdc45">
+                          <aixm:note>Airspace Border Vertex number:5 , type = GRC&#13;
+CRC:332740N,0101600E,,,149E7AF5</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.b09a3629-2417-4fa8-b867-bf23529e1ade">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.a7218766-e034-4872-90dc-c0a5abf46e89">
+                          <aixm:note>Airspace Border Vertex number:6 , type = GRC&#13;
+CRC:340100N,0101600E,,,F62A868C</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.f8eb42a0-7fcf-495e-a87c-b3ed1184be01">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.726351d8-6194-46d4-b820-27163ca1eda6">
+                          <aixm:note>Airspace Border Vertex number:7 , type = GRC&#13;
+CRC:340844N,0100529E,,,9E37785E</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </hasMember>
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Airspace gml:id="uuid.1bbf615f-6f34-4427-bded-d114b5f13de8">
+      <gml:identifier codeSpace="urn:uuid:">1bbf615f-6f34-4427-bded-d114b5f13de8</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.e3953ca4-a143-4c4d-8b06-83837717c1c7">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.5b1a75e9-91d4-40d1-ab43-6ee181068107">
+              <gml:beginPosition>2022-02-14T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.3e0399a4-a0b5-4928-9b1a-6f2cf073bc3f">
+              <gml:beginPosition>2022-02-14T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>TMA_P</aixm:type>
+          <aixm:designator>UKLU1</aixm:designator>
+          <aixm:name>UZHHOROD EAST TMA</aixm:name>
+          <aixm:designatorICAO>NO</aixm:designatorICAO>
+          <aixm:controlType>CIVIL</aixm:controlType>
+          <aixm:class>
+            <aixm:AirspaceLayerClass gml:id="uuid.1c10b445-f6af-4d9d-b28e-7a450f5a337f">
+              <aixm:classification>D</aixm:classification>
+            </aixm:AirspaceLayerClass>
+          </aixm:class>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.36c9a51a-5aa6-444e-b205-304b54f29fa8">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.4e33c2ba-039c-48ba-81c1-a105ba6e5697">
+                  <aixm:upperLimit uom="M">3050</aixm:upperLimit>
+                  <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="M">600</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                  <aixm:horizontalProjection>
+                    <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:ead-slot="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.d6f02e2b-a4fe-4a1c-b3e1-7e42acfa3cb2">
+                      <gml:patches>
+                        <gml:PolygonPatch interpolation="planar">
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4d5a2685-3b94-4e8a-b44c-a93e7abe8f8e">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>49.01417 22.89722 48.94083 23.04444 48.53667 23.18833 48.13083 22.60194</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xlink:type="simple" xlink:href="urn:uuid:69a889da-7b02-47dd-88dc-84dca9347aee"/>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.74469b93-c844-424d-b59f-5d7e1aaecbc2">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>48.4033111 22.1553694 48.4033111 22.1553694</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xlink:type="simple" xlink:href="urn:uuid:0cb5ed2d-7622-4a77-9764-63a36660371f"/>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.44757e10-929d-47eb-854a-3ff494288839">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>49.0879944 22.5657083 49.0879944 22.5657083</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xlink:type="simple" xlink:href="urn:uuid:618ab2b8-3bd1-4987-b77a-b4e18f4efbc5"/>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b27ca56c-2339-42bd-a96c-22d77d9c61be">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>49.01417 22.89722 49.01417 22.89722</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:ElevatedSurface>
+                  </aixm:horizontalProjection>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.46fd3dab-d31c-4945-afdd-a4c9c7d0f629">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.1dd14d50-cd82-4198-ae3e-9d9395d7f88f">
+                          <aixm:note>Airspace Border Vertex number:1 , type = GRC&#13;
+CRC:490051N,0225350E,,,2611141E</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.641441df-4497-4dcd-8161-a24cbc7b1a0f">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.4a08c8e3-0bcd-47de-bb86-426e4426fefd">
+                          <aixm:note>Airspace Border Vertex number:2 , type = GRC&#13;
+CRC:485627N,0230240E,,,6B0CA6D5</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.416a1a21-01a9-4f31-bcf9-f7b79103cdd6">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.8cfda858-4755-42ab-85e2-70bb6f6374fd">
+                          <aixm:note>Airspace Border Vertex number:3 , type = GRC&#13;
+CRC:483212N,0231118E,,,E5E99573</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.69782d9c-5eb6-472b-8b8d-1d6aa426bf4f">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.9d042188-4a33-49d9-92c2-7a395986f913">
+                          <aixm:note>Airspace Border Vertex number:4 , type = FNT&#13;
+CRC:480751N,0223607E,,,A61FABB7</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.1ea4ce7a-8a74-468f-9d20-104f063822f5">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.1a9aa9b1-a7d9-4b69-832c-0671c7b49dac">
+                          <aixm:note>Airspace Border Vertex number:5 , type = FNT&#13;
+CRC:482411.92N,0220919.33E,,,71408B05&#13;
+Airspace Border Vertex Remark:Vertex modified to create geometry</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.818460e7-dc1a-4a18-9974-775a4c5dbdd6">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.17fc058c-53ad-4d87-a6cd-6b6df8c8a06f">
+                          <aixm:note>Airspace Border Vertex number:6 , type = FNT&#13;
+CRC:490516.78N,0223356.55E,,,09F77A3D&#13;
+Airspace Border Vertex Remark:Vertex modified to create geometry</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:activation>
+            <aixm:AirspaceActivation gml:id="uuid.58cd06d8-ad5e-40a6-aaa4-b9e89d31519f">
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.0a99b6d0-6a28-4b69-9a56-500eb9e8179d">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>MON</aixm:day>
+                  <aixm:startTime>04:00</aixm:startTime>
+                  <aixm:endTime>10:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.6944d6a1-e32f-4004-8595-bf3049c5c407">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>MON</aixm:day>
+                  <aixm:startTime>14:30</aixm:startTime>
+                  <aixm:endTime>20:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.7f1aca85-3938-4997-a07e-a88a07f28586">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>TUE</aixm:day>
+                  <aixm:startTime>04:00</aixm:startTime>
+                  <aixm:endTime>10:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.417c43c2-b1b0-4dc2-8900-8706e30d0f55">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>TUE</aixm:day>
+                  <aixm:startTime>14:30</aixm:startTime>
+                  <aixm:endTime>20:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.cd137621-880e-4677-9d86-29e74e071ec1">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>WED</aixm:day>
+                  <aixm:startTime>04:00</aixm:startTime>
+                  <aixm:endTime>10:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.0d4f72c1-62c6-4d45-b556-9dd520dd072d">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>WED</aixm:day>
+                  <aixm:startTime>14:30</aixm:startTime>
+                  <aixm:endTime>20:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.86c3ae80-6657-4adb-a307-a795f2ac5d10">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>THU</aixm:day>
+                  <aixm:startTime>04:00</aixm:startTime>
+                  <aixm:endTime>10:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.ca949940-6aa7-4faa-96c1-4732ae042893">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>THU</aixm:day>
+                  <aixm:startTime>14:30</aixm:startTime>
+                  <aixm:endTime>20:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.f06bf707-1f0b-4bfc-af92-1300e25687cd">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>FRI</aixm:day>
+                  <aixm:startTime>04:00</aixm:startTime>
+                  <aixm:endTime>10:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.7bd9ff77-17b9-4ba1-9b23-471ecc27f59b">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>FRI</aixm:day>
+                  <aixm:startTime>14:30</aixm:startTime>
+                  <aixm:endTime>20:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.e987949c-25cd-4fc8-843e-ad1a2861823e">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>MON</aixm:day>
+                  <aixm:startTime>02:00</aixm:startTime>
+                  <aixm:endTime>08:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.37a4baf6-7d51-4a43-a89d-2c0f72c32708">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>MON</aixm:day>
+                  <aixm:startTime>15:30</aixm:startTime>
+                  <aixm:endTime>21:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.b5ff1626-50f0-4970-9dfd-d1998a60908b">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>TUE</aixm:day>
+                  <aixm:startTime>02:00</aixm:startTime>
+                  <aixm:endTime>08:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.24e9b5f4-41c5-458e-9475-047ee31fdd72">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>TUE</aixm:day>
+                  <aixm:startTime>15:30</aixm:startTime>
+                  <aixm:endTime>21:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.9a98326e-ec34-4d9d-af8a-599c3f9dd390">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>WED</aixm:day>
+                  <aixm:startTime>02:00</aixm:startTime>
+                  <aixm:endTime>08:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.60a58a1e-b6f7-4d5b-b36b-58af272e11b1">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>WED</aixm:day>
+                  <aixm:startTime>15:30</aixm:startTime>
+                  <aixm:endTime>21:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.bc0cc1e0-b57d-4057-86e7-b6da29e53c3d">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>THU</aixm:day>
+                  <aixm:startTime>02:00</aixm:startTime>
+                  <aixm:endTime>08:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.58a1a9f0-5968-4f9a-9fc5-6460034ae7c8">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>THU</aixm:day>
+                  <aixm:startTime>15:30</aixm:startTime>
+                  <aixm:endTime>21:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.03f5b833-3ed2-4abe-8627-e8afdca7c54a">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>FRI</aixm:day>
+                  <aixm:startTime>02:00</aixm:startTime>
+                  <aixm:endTime>08:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.29b3bc92-1819-4fe0-b709-fba8e5a176e2">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>FRI</aixm:day>
+                  <aixm:startTime>15:30</aixm:startTime>
+                  <aixm:endTime>21:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:activity>ATS</aixm:activity>
+              <aixm:status>ACTIVE</aixm:status>
+            </aixm:AirspaceActivation>
+          </aixm:activation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.0f9c0c5f-6dcf-4f59-9aba-2d6a9ff6ea4f">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f120c368-fb39-414f-b9eb-710670b37cf7">
+                  <aixm:note>txtRmk:Horizontal and vertical limits are applied during the working hours of the ATS unit</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </hasMember>
+</AIXMBasicMessage>

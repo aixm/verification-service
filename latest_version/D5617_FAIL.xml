@@ -1,0 +1,116 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Airspace gml:id="uuid.e2294fa4-d690-46c6-bcda-3836526099a2">
+      <gml:identifier codeSpace="urn:uuid:">e2294fa4-d690-46c6-bcda-3836526099a2</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.f20031c4-a071-4867-aaf5-2bebbe70de4a">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.578bb2df-c7da-4643-85a3-0f4d90e2b469">
+              <gml:beginPosition>2021-12-02T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.37425c92-ac43-4b09-94b0-7416ca069514">
+              <gml:beginPosition>2021-12-02T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>CTR_P</aixm:type>
+          <aixm:designator>LFSB3</aixm:designator>
+          <aixm:name>BASEL EASTERN PART</aixm:name>
+          <aixm:designatorICAO>NO</aixm:designatorICAO>
+          <aixm:class>
+            <aixm:AirspaceLayerClass gml:id="uuid.e7bf09f2-3926-4827-b830-2051a4bde94c">
+              <aixm:classification>D</aixm:classification>
+            </aixm:AirspaceLayerClass>
+          </aixm:class>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.2be66f7c-b111-4776-81c0-3f149ab3da5a">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.322cb1c7-568d-45fb-bd59-2315e67f6075">
+                  <aixm:upperLimit uom="FT">1000</aixm:upperLimit>
+                  <aixm:upperLimitReference>SFC</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="FT">0</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
+                  <aixm:horizontalProjection>
+                    <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.837990b2-f4ec-4f52-85db-4e2be6993af9">
+                      <gml:patches>
+                        <gml:PolygonPatch interpolation="planar">
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e69eb589-1b17-422b-9123-aa03f4318fe9">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <!-- ERROR: Longitude and Latitude of CTR_P boundary points shall be published with at least 4 decimals resolution. -->
+                                      <gml:posList>47.587 7.67188075 47.584511167 7.674083611</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xlink:type="simple" xlink:href="urn:uuid:d01c561b-7081-4100-a247-463f66b39c85"/>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b8bc189b-2190-41ed-a873-9ae0799a198a">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <!-- ERROR: Longitude and Latitude of CTR_P boundary points shall be published with at least 4 decimals resolution. -->
+                                      <gml:posList>47.587376111 7.67188075 47.587376111 7.671</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:ElevatedSurface>
+                  </aixm:horizontalProjection>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.3f51d3e3-c563-4441-83b6-8ccc6920a64d">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.5a85a168-761b-413b-bb62-a9ce660ede5b">
+                          <aixm:note>Airspace Border Vertex number:1 , type = GRC&#13;
+CRC:473514.5540N,0074018.7707E,,,E143D598</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.1e3777db-d14d-43ba-a9a2-d110c99d66ea">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.bdbadcbe-0827-4fa3-97a9-da8562789cc6">
+                          <aixm:note>Airspace Border Vertex number:2 , type = FNT&#13;
+CRC:473504.2402N,0074026.7010E,,,FAFF6624</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.2599cd85-6041-430a-8575-cd93b912d231">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.0e5f32a0-2330-4515-b7a1-5e643fc088c4">
+                  <aixm:note>txtRmk:BASEL TWR provides the air traffic services within the German part of BASEL CTR, on the authority of LANGEN ACC.</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </hasMember>
+</AIXMBasicMessage>

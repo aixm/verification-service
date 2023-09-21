@@ -1,0 +1,252 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Airspace gml:id="uuid.1da19a20-e54b-44ae-8131-662b3233a902">
+      <gml:identifier codeSpace="urn:uuid:">1da19a20-e54b-44ae-8131-662b3233a902</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.dec21c00-c3df-4021-89b1-b2f796271366">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.f9125aff-ff2e-4e60-95b7-37c575690711">
+              <gml:beginPosition>2018-05-24T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.2c949486-d22f-4891-9f74-e391639aafd4">
+              <gml:beginPosition>2018-05-24T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>ADIZ</aixm:type>
+          <aixm:designator>C_ADIZ</aixm:designator>
+          <aixm:localType>AIR DEFENSE IDENTIFICATION ZONE</aixm:localType>
+          <aixm:name>CANADA ADIZ</aixm:name>
+          <aixm:designatorICAO>NO</aixm:designatorICAO>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.be7bd58e-ac36-47c6-9cb9-eb0b8d40906c">
+              <aixm:operation>BASE</aixm:operation>
+              <aixm:operationSequence>1</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.22ea3139-1140-42f9-89f9-cd20eb4d6a36">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.0798c9f7-39a9-48a5-a26c-e9a71be2f537">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.048e7797-71b2-4a40-9e15-807f3fa8e4ab"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.764d8583-09e2-42e9-b2db-847c4c7e0d74">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>2</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.3399c241-0fbe-4659-a8e1-2a4ca7548b1f">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.0a3ba43c-5072-4341-8019-eb15d5dada55">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.f089a3d8-22bf-4f5d-98ea-a4f988a53cc7"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:activation>
+            <aixm:AirspaceActivation gml:id="uuid.62fdd7b6-249e-456d-954c-5ea11557118e">
+              <aixm:status>ACTIVE</aixm:status>
+            </aixm:AirspaceActivation>
+          </aixm:activation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </hasMember>
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Airspace gml:id="uuid.048e7797-71b2-4a40-9e15-807f3fa8e4ab">
+      <gml:identifier codeSpace="urn:uuid:">048e7797-71b2-4a40-9e15-807f3fa8e4ab</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.adf7ec8b-029d-4142-941d-966e2a1cc615">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.b19cc315-fa49-4bfb-af28-5d1b60e09fa4">
+              <gml:beginPosition>2018-05-24T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.a0ff3890-1732-4c45-8d7c-32481435a2a1">
+              <gml:beginPosition>2007-05-10T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>PART</aixm:type>
+          <aixm:designator>C_ADIZ_1</aixm:designator>
+          <aixm:localType>AIR DEFENSE IDENTIFICATION ZONE</aixm:localType>
+          <aixm:name>CANADA ADIZ WEST COAST</aixm:name>
+          <aixm:designatorICAO>NO</aixm:designatorICAO>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.948f7cf6-27d5-4b09-98d0-7010f9c61b4d">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.b7ef0fa4-4907-4d25-854a-cba874b96988">
+                  <aixm:upperLimit uom="FL">999</aixm:upperLimit>
+                  <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="FT">0</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
+                  <aixm:horizontalProjection>
+                    <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.918d69e1-d2e1-4f01-b43d-b297a414d102">
+                      <gml:patches>
+                        <gml:PolygonPatch interpolation="planar">
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.6f9543c8-ff0f-4120-b30d-10fa73aec68a">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>54.5833333 -133.01 54.01 -136.01 52.01 -135.01 48.3333333 -132.01</gml:posList>
+                                    </gml:GeodesicString>
+                                    <gml:LineStringSegment interpolation="linear">
+                                      <gml:posList>48.3333333 -132.01 48.3333333 -128.01</gml:posList>
+                                    </gml:LineStringSegment>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>48.3333333 -128.01 48.51 -125.01 51.01 -129.75 52.71 -132.51 53.8166667 -133.01 54.5833333 -133.01</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:ElevatedSurface>
+                  </aixm:horizontalProjection>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.6c158a6c-ed3d-47e6-85d8-7c7dbb7e9c9e">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.1127f8f3-8b82-4c26-b35c-7488e79c07fc">
+                          <aixm:note>Airspace Border Vertex number:1 , type = GRC&#13;
+CRC:543500.00N,1330000.00W,,,3074607A&#13;
+Airspace Border Vertex Remark:(coincident with Alaska ADIZ)</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.5404ec3d-58b5-46c5-b939-dac125f60652">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.ff5fa7ec-a031-483e-b5bc-26552b9ba754">
+                          <aixm:note>Airspace Border Vertex number:2 , type = GRC&#13;
+CRC:540000.00N,1360000.00W,,,17C72A08&#13;
+Airspace Border Vertex Remark:coincident with Alaska ADIZ(most westerly point of the CADIZ)</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.553532f0-62ce-4b51-b428-3bd6c7f8fc99">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.eeff1a07-8c20-4e12-a3e9-406037a22c38">
+                          <aixm:note>Airspace Border Vertex number:3 , type = GRC&#13;
+CRC:520000.00N,1350000.00W,,,1F7EDCC7</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.b43af75a-e696-41c1-8603-d87710efb62e">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.9d305dc0-2df2-4154-991d-dbca7a57903a">
+                          <aixm:note>Airspace Border Vertex number:4 , type = RHL&#13;
+CRC:482000.00N,1320000.00W,,,3B0A6200&#13;
+Airspace Border Vertex Remark:(along latitude N4820 to next point)</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.c525a18d-ea6f-4c29-9289-0b56019b09b8">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.52d0b097-8893-4249-8787-01238dfa4666">
+                          <aixm:note>Airspace Border Vertex number:5 , type = GRC&#13;
+CRC:482000.00N,1280000.00W,,,6B039BE3</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.fbfdda9c-7683-45a4-9c56-f8cc43af7f16">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.29cb7095-63e7-4b6c-9e99-d1ede37f6374">
+                          <aixm:note>Airspace Border Vertex number:6 , type = GRC&#13;
+CRC:483000.00N,1250000.00W,,,EB323E9E&#13;
+Airspace Border Vertex Remark:(southwest Vancouver Island)</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.95088b28-7cbc-46cd-90e8-fd910f9c1faf">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.0318dd49-7470-49b3-af5f-5c19a4a30b5b">
+                          <aixm:note>Airspace Border Vertex number:7 , type = GRC&#13;
+CRC:510000.00N,1294500.00W,,,C603A316&#13;
+Airspace Border Vertex Remark:(northwest Vancouver Island)</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.53527ef8-c163-4536-90c2-1be325bf5254">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.ad3e3fcf-b83a-4722-bc52-2f551676c7d2">
+                          <aixm:note>Airspace Border Vertex number:8 , type = GRC&#13;
+CRC:524200.00N,1323000.00W,,,EB068EE2&#13;
+Airspace Border Vertex Remark:(western edge of Queen Charlotte Islands)</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.e06ab593-7151-4ee6-a880-fe5c91903cb8">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.c2d42403-451c-4a96-9556-9fc6ec01cad8">
+                          <aixm:note>Airspace Border Vertex number:9 , type = GRC&#13;
+CRC:534900.00N,1330000.00W,,,E8C542BF&#13;
+Airspace Border Vertex Remark:(northwestern edge of Queen Charlotte Islands)</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:activation>
+            <aixm:AirspaceActivation gml:id="uuid.4f6db407-c59e-4ab7-947d-b2c7ebdb74cf">
+              <aixm:status>ACTIVE</aixm:status>
+            </aixm:AirspaceActivation>
+          </aixm:activation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </hasMember>
+</AIXMBasicMessage>

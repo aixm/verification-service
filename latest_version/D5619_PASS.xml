@@ -1,0 +1,398 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Airspace gml:id="uuid.33f0b71e-2879-4bd4-b58e-9e560b61a2db">
+      <gml:identifier codeSpace="urn:uuid:">33f0b71e-2879-4bd4-b58e-9e560b61a2db</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.f02f4585-bfc4-48b3-8395-48ac3fa969b7">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.4f495166-cb23-4ecf-b580-592f55d08e15">
+              <gml:beginPosition>2011-10-20T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.873d18d0-35af-48e3-99d1-cc2a1d7dc415">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>FIR</aixm:type>
+          <aixm:designator>CZEG</aixm:designator>
+          <aixm:name>EDMONTON FLIGHT INFORMATION REGION</aixm:name>
+          <aixm:designatorICAO>YES</aixm:designatorICAO>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.3e5a4a03-d333-4d04-87c3-07b9c4d8c64e">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.f608391e-b750-4959-92f9-30f3e9f95b2b">
+                  <aixm:upperLimit uom="FL">999</aixm:upperLimit>
+                  <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="FT">0</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
+                  <aixm:horizontalProjection>
+                    <aixm:ElevatedSurface xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.89ad0714-8aaf-440c-bf67-3a4a0c6763bb">
+                      <gml:patches>
+                        <gml:PolygonPatch interpolation="planar">
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.4c54bc2d-1b4c-451b-b60a-4a96b60d2cdc">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>48.9996139 -110.01 48.9996139 -110.01</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xlink:type="simple" xlink:href="urn:uuid:e6cbea24-1959-49ee-9c07-051276157848"/>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.d43cf611-3947-47e7-899c-fb34dc0ebac1">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>49.0007083 -114.6666583 49.0007083 -114.6666583</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xlink:type="simple" xlink:href="urn:uuid:e6cbea24-1959-49ee-9c07-051276157848"/>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.9fb786b7-b9bc-4f07-8062-b4ee1c5e770c">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>49.0004833 -115.4999528 49.51 -115.1375 49.9625139 -115.1471139</gml:posList>
+                                    </gml:GeodesicString>
+                                    <gml:ArcByCenterPoint interpolation="circularArcCenterPointWithRadius" numArc="1">
+                                      <gml:pos>49.955 -115.7922222</gml:pos>
+                                      <gml:radius uom="[nmi_i]">24.995843</gml:radius>
+                                      <gml:startAngle uom="deg">88.7187393009126</gml:startAngle>
+                                      <gml:endAngle uom="deg">-26.69437089746674</gml:endAngle>
+                                    </gml:ArcByCenterPoint>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>50.3264056 -116.0842222 53.41 -119.0 56.01 -123.25 56.9999889 -132.0659861</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xlink:type="simple" xlink:href="urn:uuid:7ef672be-0dd2-407e-a4b3-4e3884e629d6"/>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.c765f278-1258-466f-b752-650cce88320d">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>60.3063167 -141.001875 60.3063167 -141.001875</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xlink:type="simple" xlink:href="urn:uuid:120cb205-6bf8-4dae-8dc3-b6330e92b3f7"/>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.43d6ccb9-cb98-450e-af4a-62dd36c29a62">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>69.6466139 -141.0005917 72.01 -141.0005917 90.01 -141.01 82.01 -60.01 78.01 -75.01 76.01 -76.01 65.01 -57.75 65.01 -60.01 65.01 -68.01 62.75 -80.01 64.4083333 -80.01 54.7666667 -108.4166667 54.7666667 -108.6944444</gml:posList>
+                                    </gml:GeodesicString>
+                                    <gml:ArcByCenterPoint interpolation="circularArcCenterPointWithRadius" numArc="1">
+                                      <gml:pos>54.4086111 -110.2958333</gml:pos>
+                                      <gml:radius uom="[nmi_i]">60.0917985</gml:radius>
+                                      <gml:startAngle uom="deg">68.29243115081954</gml:startAngle>
+                                      <gml:endAngle uom="deg">169.853432082131</gml:endAngle>
+                                    </gml:ArcByCenterPoint>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>53.4208333 -110.01 48.9996139 -110.01</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:ElevatedSurface>
+                  </aixm:horizontalProjection>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.531f1c51-cab9-4535-9813-594f54046320">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.54b647b2-ac76-420e-b7a8-b3be32c3bd9e">
+                          <aixm:note>Airspace Border Vertex number:1 , type = FNT&#13;
+CRC:485958.61N,1100000.00W,,,FD7AEA78&#13;
+Airspace Border Vertex Remark:thence westerly along the Can/USA bdry</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.ed42c339-9b8e-4b48-a061-2c795e81d90e">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.12ad7dbf-b607-499d-ae28-b4cb959608d0">
+                          <aixm:note>Airspace Border Vertex number:2 , type = FNT&#13;
+CRC:490002.55N,1143959.97W,,,EE505842&#13;
+Airspace Border Vertex Remark:FNT added for KZSE, KZLC coding</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.083f0cab-409c-498d-83f9-8b7f434e3f8a">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.95d523a1-bb16-4b2d-b1ca-0b07a7c7de3f">
+                          <aixm:note>Airspace Border Vertex number:3 , type = GRC&#13;
+CRC:490001.74N,1152959.83W,,,65C65C2A</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.72c52ef3-1aa8-4f7d-b533-5f244057037f">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.75972542-69d6-4d22-be91-6ead5be9c48c">
+                          <aixm:note>Airspace Border Vertex number:4 , type = GRC&#13;
+CRC:493000.00N,1150815.00W,,,5F352F4A</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.c468fa6b-f374-4f4c-8680-ffefa77779c1">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.19e5ea05-b3a2-4277-9ef5-62c84977b6b0">
+                          <aixm:note>Airspace Border Vertex number:5 , type = CCA&#13;
+CRC:495718.00N,1154732.00W,,,5BB41901</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.5b913280-f1a5-44a5-b024-11d94daabe70">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.98bcd033-9439-4649-84e3-70aa9a57df67">
+                          <aixm:note>Airspace Border Vertex number:6 , type = GRC&#13;
+CRC:501935.06N,1160503.20W,,,79053F3C</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.9872bc83-8db5-4487-b3bc-93b7f2289344">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.8baff815-21b5-4224-b35d-e5226db9b251">
+                          <aixm:note>Airspace Border Vertex number:7 , type = GRC&#13;
+CRC:532400.00N,1190000.00W,,,10E462DA</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.e2406d38-917c-47a8-a43b-47304350e0a1">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.34f91f54-a455-4cba-8ea5-e9910cf490a4">
+                          <aixm:note>Airspace Border Vertex number:8 , type = GRC&#13;
+CRC:560000.00N,1231500.00W,,,ED69B4F0</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.dcb4ee60-1fbb-4612-892f-60f1cc5959ff">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.5087fae4-7347-4a8c-9079-b9da6d91098c">
+                          <aixm:note>Airspace Border Vertex number:9 , type = FNT&#13;
+CRC:565959.96N,1320357.55W,,,C9AC7370&#13;
+Airspace Border Vertex Remark:thence northerly along Can/AK bdry</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.6e808367-97f4-49ce-987d-ec6258f0cc19">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.b882d3de-79ad-498b-8bcc-f3d8c1b5dad6">
+                          <aixm:note>Airspace Border Vertex number:10 , type = FNT&#13;
+CRC:601822.74N,1410006.75W,,,74D21F1E</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.902ee357-a3e9-443c-b55a-c683250b918d">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.fb715099-2ac5-4a17-98ad-5c62912f48ce">
+                          <aixm:note>Airspace Border Vertex number:11 , type = GRC&#13;
+CRC:693847.81N,1410002.13W,,,4ABE4111</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.2e1b5fbf-3320-4921-91eb-54e00fc10f13">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.819f2264-6896-488a-b40c-9182a4f9a026">
+                          <aixm:note>Airspace Border Vertex number:12 , type = GRC&#13;
+CRC:720000.00N,1410002.13W,,,C3851776&#13;
+Airspace Border Vertex Remark:GRC added for PAZA1 coding</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.5a414d90-c802-490a-a899-812ec0ba83e3">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.90543203-319b-4964-9d77-271535912d11">
+                          <aixm:note>Airspace Border Vertex number:13 , type = GRC&#13;
+CRC:900000.00N,1410000.00W,,,BA0096A1</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.fe01b5aa-9f5d-4a48-9157-3186674e1776">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.e0aa7938-1a37-4495-9384-e41b833771b8">
+                          <aixm:note>Airspace Border Vertex number:14 , type = GRC&#13;
+CRC:820000.00N,0600000.00W,,,651820FA</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.d7cbb75b-b4f2-4a2e-8810-885c9723d55a">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.9ab4218a-4ea0-495a-bb2f-56a175da7dd0">
+                          <aixm:note>Airspace Border Vertex number:15 , type = GRC&#13;
+CRC:780000.00N,0750000.00W,,,D356B356</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.e74faca4-d625-4bae-aaf4-2bc1004d5ad4">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.160713c8-60e2-464a-8829-86deab5f2578">
+                          <aixm:note>Airspace Border Vertex number:16 , type = GRC&#13;
+CRC:760000.00N,0760000.00W,,,29D7D04C</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.5b04d6d1-db51-4b22-abc2-0e9621db5c17">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.16c32ad9-bf6d-4165-8d2f-bb028caf5801">
+                          <aixm:note>Airspace Border Vertex number:17 , type = GRC&#13;
+CRC:650000.00N,0574500.00W,,,C8DD3A6C</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.d0a5ddf2-6730-447a-bae0-71677b63f882">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.da5372ed-8efe-4971-a2f7-86d14413ba96">
+                          <aixm:note>Airspace Border Vertex number:18 , type = GRC&#13;
+CRC:650000.00N,0600000.00W,,,487314D4</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.9c955502-d2ab-452c-b9d9-82e5806ebe59">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.f8b5fff8-3f15-454b-b682-2d97d5e0cc30">
+                          <aixm:note>Airspace Border Vertex number:19 , type = GRC&#13;
+CRC:650000.00N,0680000.00W,,,11F9ECFD</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.362cde8f-aac0-41a4-992b-f4e1f48f48fb">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.fd62c7cb-0b16-4188-8a9d-4495d7885689">
+                          <aixm:note>Airspace Border Vertex number:20 , type = GRC&#13;
+CRC:624500.00N,0800000.00W,,,445E1FBE</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.07994510-ddb0-4c4c-afd7-f5698d2b7ba1">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.9a1a305a-5918-4b6d-ac02-a31fc5a8f63f">
+                          <aixm:note>Airspace Border Vertex number:21 , type = GRC&#13;
+CRC:642430.00N,0800000.00W,,,7D1B25A5</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.75825acd-1b73-4993-a881-3cc38c8ccbf1">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.44ddc694-bd57-4ed6-a52e-e2dff179f420">
+                          <aixm:note>Airspace Border Vertex number:22 , type = GRC&#13;
+CRC:544600.00N,1082500.00W,,,19E5AA78</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.7523ef78-f9bd-41f7-a15f-6d6b95b70167">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.299e4e8d-a338-4548-be58-743a5193146c">
+                          <aixm:note>Airspace Border Vertex number:23 , type = CWA&#13;
+CRC:542431.00N,1101745.00W,,,ED190F31</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.7c13db9e-6904-4374-a724-b398227c572b">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.ad7ee2b1-5530-4450-8d6c-c17ce34e6bab">
+                          <aixm:note>Airspace Border Vertex number:24 , type = GRC&#13;
+CRC:532515.00N,1100000.00W,,,6A285418</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:activation>
+            <aixm:AirspaceActivation gml:id="uuid.27482c9d-1582-4909-8d7c-9a3eca34838b">
+              <aixm:status>ACTIVE</aixm:status>
+            </aixm:AirspaceActivation>
+          </aixm:activation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </hasMember>
+</AIXMBasicMessage>
