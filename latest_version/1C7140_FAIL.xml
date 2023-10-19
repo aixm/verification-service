@@ -1,0 +1,55 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:VOR gml:id="uuid.a84f569b-247a-4792-b8fc-2373ff16be71">
+      <gml:identifier codeSpace="urn:uuid:">a84f569b-247a-4792-b8fc-2373ff16be71</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:VORTimeSlice gml:id="uuid.5af30687-600c-4efa-862e-149ebfc80b49">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.0751e87d-4d93-4629-a534-94a081a56ab6">
+              <gml:beginPosition>2012-04-04T16:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.f30911e9-506f-4fce-aa2a-04f013146308">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>LBN</aixm:designator>
+          <aixm:name>LAIBIN</aixm:name>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.cf64e780-7218-4c0c-ae2e-e45c6feaf2c0">
+              <gml:pos>23.76333 109.14667</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.8dae3c58-0362-45f8-8513-95ba92f5fd44">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.7bf61062-6903-4ba3-a9b7-5c5307427dc2">
+                      <aixm:note>CRC:234548N, 1090848E, , , 8D4435BC</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:authority>
+            <aixm:AuthorityForNavaidEquipment gml:id="uuid.0bc27f50-6c7a-490c-9ca7-c065c15dfa43">
+              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7ebd-0ae9-e053-0b751dc2b779"/>
+            </aixm:AuthorityForNavaidEquipment>
+          </aixm:authority>
+          <aixm:type>VOR</aixm:type>
+          <aixm:frequency uom="MHZ">113.7</aixm:frequency>
+          <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
+        </aixm:VORTimeSlice>
+      </aixm:timeSlice>
+    </aixm:VOR>
+  </hasMember>
+</AIXMBasicMessage>
