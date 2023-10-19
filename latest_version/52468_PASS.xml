@@ -1,0 +1,81 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:MarkerBeacon gml:id="uuid.be81833c-6f46-4b32-ac2f-6efd3c18382d">
+      <gml:identifier codeSpace="urn:uuid:">be81833c-6f46-4b32-ac2f-6efd3c18382d</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:MarkerBeaconTimeSlice gml:id="uuid.d0110d64-0ff3-4e54-8c1f-1c4e7d1f04c4">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.606dba32-cf4c-485a-89f3-0f939ecd47e0">
+              <gml:beginPosition>2017-10-12T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.c8f1ce33-b7ef-45b5-bb7e-2fc14410de88">
+              <gml:beginPosition>2005-07-07T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>MKR</aixm:name>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4cef5704-7cd0-41e0-b267-f8bd0cef4d1b">
+              <gml:pos>49.062721917 20.442225806</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.7461fff7-9fea-45da-b3ef-0e704d3b22fc">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.64567907-d7ae-4eb8-bc83-13effa586fb3">
+                      <aixm:note>CRC:490345.7989N, 0202632.0129E, , , 26B2D8CE</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:authority>
+            <aixm:AuthorityForNavaidEquipment gml:id="uuid.bf1277a7-8f60-40e4-adf2-2431084b32f1">
+              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-830a-0ae9-e053-0b751dc2b779"/>
+            </aixm:AuthorityForNavaidEquipment>
+          </aixm:authority>
+          <aixm:availability>
+            <aixm:NavaidOperationalStatus gml:id="uuid.e65dff07-026b-402f-baa8-3271c632b2e9">
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.d4c2b79f-4ee1-4083-9d18-54c5159dce60">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>01-01</aixm:startDate>
+                  <aixm:endDate>31-12</aixm:endDate>
+                  <aixm:day>ANY</aixm:day>
+                  <aixm:startTime>06:15</aixm:startTime>
+                  <aixm:endTime>18:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.7b4f3b27-0b84-4d98-8b8f-9a9f0722b6af">
+                  <aixm:propertyName>timeInterval</aixm:propertyName>
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.c594754e-415c-49b4-b447-e6fc4e81ba56">
+                      <aixm:note>Remark:As Air Traffic Services.</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:NavaidOperationalStatus>
+          </aixm:availability>
+          <aixm:frequency uom="MHZ">75</aixm:frequency>
+          <aixm:axisBearing>94.1</aixm:axisBearing>
+          <aixm:auralMorseCode>.</aixm:auralMorseCode>
+        </aixm:MarkerBeaconTimeSlice>
+      </aixm:timeSlice>
+    </aixm:MarkerBeacon>
+  </hasMember>
+</AIXMBasicMessage>

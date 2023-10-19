@@ -1,0 +1,68 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Route gml:id="uuid.8450d727-8ccd-42b3-b837-1a961f46f108">
+      <gml:identifier codeSpace="urn:uuid:">8450d727-8ccd-42b3-b837-1a961f46f108</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:RouteTimeSlice gml:id="uuid.10a74342-5976-474d-91fb-7257f07ac1e7">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.833ebfc1-4cbc-498e-bd96-8c71045ff906">
+              <gml:beginPosition>2019-05-23T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.37dc502c-e1ff-403d-b854-fb91f2682cc0">
+              <gml:beginPosition>2009-05-07T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:locationDesignator>LP-LP</aixm:locationDesignator>
+          <!-- ERROR: There cannot exists two different Route that have no value for designatorPrefix, designatorSecondLetter, designatorNumber, multipleIdentifier and that have identical name and locationDesignator properties. -->
+          <aixm:name>LPC63</aixm:name>
+          <aixm:flightRule nilReason="withheld" xsi:nil="true"/>
+          <aixm:internationalUse nilReason="withheld" xsi:nil="true"/>
+          <aixm:militaryUse nilReason="withheld" xsi:nil="true"/>
+        </aixm:RouteTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Route>
+  </hasMember>
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Route gml:id="uuid.17b05cbf-59cc-42de-b9bb-dca45a8f1bd6">
+      <gml:identifier codeSpace="urn:uuid:">17b05cbf-59cc-42de-b9bb-dca45a8f1bd6</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:RouteTimeSlice gml:id="uuid.4da5d91c-c1c0-4d41-87fc-fa89e04f10b9">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.3e70b1db-cdba-4cc8-8e1c-72370718045a">
+              <gml:beginPosition>2012-11-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.e4451824-4adf-432b-8fd3-90ade312a806">
+              <gml:beginPosition>2009-05-07T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:locationDesignator>LP-LP</aixm:locationDesignator>
+          <!-- ERROR: There cannot exists two different Route that have no value for designatorPrefix, designatorSecondLetter, designatorNumber, multipleIdentifier and that have identical name and locationDesignator properties. -->
+          <aixm:name>LPC63</aixm:name>
+          <aixm:flightRule nilReason="withheld" xsi:nil="true"/>
+          <aixm:internationalUse nilReason="withheld" xsi:nil="true"/>
+          <aixm:militaryUse nilReason="withheld" xsi:nil="true"/>
+        </aixm:RouteTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Route>
+  </hasMember>
+</AIXMBasicMessage>
+
