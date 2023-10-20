@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+    
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:AirportHeliport gml:id="uuid.9ec8a920-46bd-42a1-a1b0-d4c2ccac1d28">
+      <gml:identifier codeSpace="urn:uuid:">9ec8a920-46bd-42a1-a1b0-d4c2ccac1d28</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirportHeliportTimeSlice gml:id="uuid.1d21453f-fd2b-45b8-9ae8-7b7cad8a8b18">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.6f6c9ba5-334e-40ff-91a6-7eeace4c1773">
+              <gml:beginPosition>2017-03-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.781d9ee5-ef9d-45e3-9206-76b80ba55860">
+              <gml:beginPosition>2017-03-02T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>ED0029</aixm:designator>
+          <aixm:name>HEILBRONN-BOECKINGEN</aixm:name>
+          <aixm:type>LS</aixm:type>
+          <aixm:fieldElevation uom="FT">512</aixm:fieldElevation>
+          <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+          <aixm:magneticVariation>2</aixm:magneticVariation>
+          <aixm:dateMagneticVariation>2016</aixm:dateMagneticVariation>
+          <aixm:responsibleOrganisation>
+            <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.5a4e3d93-49a5-4d04-935d-96478a0cb8db">
+              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-8352-0ae9-e053-0b751dc2b779"/>
+            </aixm:AirportHeliportResponsibilityOrganisation>
+          </aixm:responsibleOrganisation>
+          <aixm:ARP>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR
+" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/
+5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aix
+m.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName=
+"urn:ogc:def:crs:EPSG::4326" gml:id="uuid.c3aebd35-7e64-4102-ba68-50d3f299dc89">
+              <gml:pos>49.123611111 9.183888889</gml:pos>
+            </aixm:ElevatedPoint>
+          </aixm:ARP>
+          <aixm:availability>
+            <aixm:AirportHeliportAvailability gml:id="uuid.11cfddb4-c700-4ff5-a36d-c5395ea16723">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.5250d6ca-ba47-4a92-a3cc-1a500885d3df">
+                  <aixm:propertyName>timeInterval</aixm:propertyName>
+                  <aixm:purpose>WARNING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.da830011-8bf3-447e-a458-798507adf770">
+                      <aixm:note>OTHER</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>              
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.5250d6ca-ba47-4a92-a3cc-1a500885d3e0">
+                  <aixm:propertyName>specialDateAuthority</aixm:propertyName>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.5250d6ca-ba47-4a92-a3cc-1a500885d3e1">
+                  <aixm:propertyName>operationalStatus</aixm:propertyName>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.5250d6ca-ba47-4a92-a3cc-1a500885d3e2">
+                  <aixm:propertyName>warning</aixm:propertyName>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.5250d6ca-ba47-4a92-a3cc-1a500885d3e3">
+                  <aixm:propertyName>usage</aixm:propertyName>
+                </aixm:Note>
+              </aixm:annotation>
+
+              <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+            </aixm:AirportHeliportAvailability>
+          </aixm:availability>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.a5f4f665-7fa6-4cc4-b087-01a01282d3ef">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.7fe0d425-885e-4909-bbe7-4b52423b4720">
+                  <aixm:note>CRC:490725.0000N, 0091102.0000E, 512, , 9FD900AA</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+      </aixm:AirportHeliportTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AirportHeliport>
+  </hasMember>
+
+
+</AIXMBasicMessage>
