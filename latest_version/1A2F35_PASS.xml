@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Airspace gml:id="uuid.d6976fe2-01cf-4fe2-b728-937729f5b84f">
+      <gml:identifier codeSpace="urn:uuid:">d6976fe2-01cf-4fe2-b728-937729f5b84f</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.39a914f9-a097-47c2-91d1-f351d9601117">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.b15d867a-0849-4ab3-8556-6cacb8d4f2c2">
+              <gml:beginPosition>2017-08-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.595dd8d7-3ee7-4863-b88e-1e656ac023ce">
+              <gml:beginPosition>2016-05-17T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>TMA</aixm:type>
+          <aixm:designator>WIOO</aixm:designator>
+          <aixm:name>PONTIANAK TMA</aixm:name>
+          <aixm:designatorICAO>NO</aixm:designatorICAO>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.e0a3cf0e-b9b0-4bc5-a629-394b37be354a">
+              <aixm:operation>BASE</aixm:operation>
+              <aixm:operationSequence>1</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.ca27444b-a7ad-4c69-9133-24573aa386d2">
+                    <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.35f52b0f-8822-41ca-816a-8a68e5f8cf59">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.d8694310-c9d2-4910-ad59-2b9f96e4974d"/>
+                      <aixm:annotation>
+                          <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                              <aixm:propertyName>dependency</aixm:propertyName>
+                          </aixm:Note>
+                      </aixm:annotation>
+                      <aixm:annotation>
+                          <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                              <aixm:propertyName>theAirspace</aixm:propertyName>
+                          </aixm:Note>
+                      </aixm:annotation>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </hasMember>
+
+</AIXMBasicMessage>
