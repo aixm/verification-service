@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<aixm:Navaid gml:id="uuid.e834c28f-6a88-4c2a-8d70-e5369e1557ce">
+  <gml:identifier codeSpace="urn:uuid:">e834c28f-6a88-4c2a-8d70-e5369e1557ce</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.d94129ab-0da3-4a19-8b42-b2f91bfe25a2">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.49a607a4-b5bc-40af-9013-54640d59b198">
+          <gml:beginPosition>2022-05-19T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.569b6aaf-7660-4e63-84af-daf247a35830">
+          <gml:beginPosition>2022-05-19T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>NDB</aixm:type>
+      <aixm:designator>RIV</aixm:designator>
+      <aixm:name>RIVOLTO</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.705e2d73-0ceb-49f3-ae53-905caedeb697">
+          <aixm:collocationGroup>1</aixm:collocationGroup>
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.57782b15-eee6-428e-b7a2-db483d682262"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.182bfcff-f01f-44ac-b9ae-cc8920fafb6c">
+          <gml:pos>45.935333333 12.942011111</gml:pos>
+          <aixm:horizontalAccuracy uom="M">3.0</aixm:horizontalAccuracy>
+          <aixm:elevation uom="M">32.0</aixm:elevation>
+          <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:extension>
+        <ead-audit:NavaidExtension gml:id="uuid.d752fdc7-bb2a-4118-af71-f08d827f795f">
+          <ead-audit:auditInformation>
+            <ead-audit:Audit gml:id="uuid.c48cf9af-a5e8-4c58-8f7b-c4a97dd45915">
+              <ead-audit:createdBy>li_EADEnav</ead-audit:createdBy>
+              <ead-audit:creationDate>2022-03-24T14:55:54Z</ead-audit:creationDate>
+              <ead-audit:createdByOrg>ENAV</ead-audit:createdByOrg>
+              <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
+            </ead-audit:Audit>
+          </ead-audit:auditInformation>
+        </ead-audit:NavaidExtension>
+      </aixm:extension>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+</aixm:Navaid> 
+
+</AIXMBasicMessage>
