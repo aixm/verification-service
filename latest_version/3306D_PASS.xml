@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<aixm:Navaid gml:id="uuid.2487f22c-096a-4584-9eec-0ccf00f01310">
+  <gml:identifier codeSpace="urn:uuid:">2487f22c-096a-4584-9eec-0ccf00f01310</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.0bb02543-e5f0-4e6c-9c89-89c5fbc4ce7e">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.8b3bd067-ec22-44d0-84d7-174e960a27e9">
+          <gml:beginPosition>2022-05-19T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.c4c9e8da-52a4-46d4-b913-51ba4d265377">
+          <gml:beginPosition>2022-05-19T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>VOR</aixm:type>
+      <aixm:designator>GEN</aixm:designator>
+      <aixm:name>GENOVA</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.ba0df9ff-875e-4adb-960f-1a54f02b0b32">
+          <aixm:collocationGroup>1</aixm:collocationGroup>
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.75f1cadc-c7ac-4eed-9174-29f8834ea4e6"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.7fb499d4-3bb1-40ff-bdec-b0568640e7b0">
+          <gml:pos>44.424440583 9.082328778</gml:pos>
+          <aixm:horizontalAccuracy uom="M">3.0</aixm:horizontalAccuracy>
+          <aixm:elevation uom="M">890.739</aixm:elevation>
+          <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:f3d9b052-0719-4d58-b4c9-d07801deb4e2"/>
+      <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:62eeab22-72d5-410a-85af-d170947829bf"/>
+      <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:b1391d9b-699f-483b-95c8-17c1755181c5"/>
+      <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:983580db-d2b6-48cf-a81d-0867595ea18a"/>
+      <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:49678f68-813f-4361-ac3b-55080ccc70f6"/>
+      <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:31d7b173-5c9f-4215-b8e1-d81ca74855c2"/>
+      <aixm:extension>
+        <ead-audit:NavaidExtension gml:id="uuid.65d254d9-a64b-4737-9960-8ab3eb7a24cd">
+          <ead-audit:auditInformation>
+            <ead-audit:Audit gml:id="uuid.fecafaa4-2bb6-4b56-8d26-07959612e520">
+              <ead-audit:createdBy>li_EADEnav</ead-audit:createdBy>
+              <ead-audit:creationDate>2022-03-24T15:02:16Z</ead-audit:creationDate>
+              <ead-audit:createdByOrg>ENAV</ead-audit:createdByOrg>
+              <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
+            </ead-audit:Audit>
+          </ead-audit:auditInformation>
+        </ead-audit:NavaidExtension>
+      </aixm:extension>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+</aixm:Navaid> 
+
+</AIXMBasicMessage>
