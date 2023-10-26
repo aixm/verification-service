@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:AirportClearanceService gml:id="uuid.dd787fd9-7f93-45b9-b84c-50cc7f67f3cb">
+      <gml:identifier codeSpace="urn:uuid:">dd787fd9-7f93-45b9-b84c-50cc7f67f3cb</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirportClearanceServiceTimeSlice gml:id="uuid.80cb05ed-6d82-4332-a15f-e3d77e30fe76">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.cbd2661d-6da0-471b-afba-9e6d8820e233">
+              <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>5</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.836a980b-d25c-4049-8a74-7e3ffc4bd82a">
+              <gml:beginPosition>2019-07-18T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:flightOperations nilReason="other:notavailable" xsi:nil="true"/>
+          <aixm:rank nilReason="other:notavailable" xsi:nil="true"/>
+          <aixm:compliantICAO nilReason="other:notavailable" xsi:nil="true"/>
+          <aixm:name>SNOW REMOVAL</aixm:name>
+          <aixm:location xsi:nil="true"/>
+          <aixm:serviceProvider xsi:nil="true"/>
+          <aixm:groundCommunication>
+            <aixm:ContactInformation gml:id="uuid.95914d94-f2b4-4d21-a0ea-3d31315fc6d5">
+              <aixm:name>SNOW REMOVAL</aixm:name>
+              <aixm:title nilReason="other:notavailable" xsi:nil="true"/>
+              <aixm:annotation xsi:nil="true"/>
+
+              <aixm:annotation>
+                  <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                      <aixm:propertyName>name</aixm:propertyName>
+                  </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                  <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                      <aixm:propertyName>title</aixm:propertyName>
+                  </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                  <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                      <aixm:propertyName>address</aixm:propertyName>
+                  </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                  <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                      <aixm:propertyName>networkNode</aixm:propertyName>
+                  </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                  <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+                      <aixm:propertyName>phoneFax</aixm:propertyName>
+                  </aixm:Note>
+              </aixm:annotation>
+
+            </aixm:ContactInformation>
+          </aixm:groundCommunication>
+          <aixm:availability>
+            <aixm:ServiceOperationalStatus gml:id="uuid.f19086b5-c5da-4b2b-86cd-17c45242ebb6">
+              <aixm:annotation xsi:nil="true"/>
+              <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+            </aixm:ServiceOperationalStatus>
+          </aixm:availability>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.b8a68e1c-ce29-4be6-b153-f0b557da4d49">
+              <aixm:purpose>OTHER:EAD_SDD_TRANSITION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.71c0e760-05f0-4e1b-8522-2245abc7e0a8">
+                  <aixm:note lang="eng">Annotation created in order to force a change in relation to EAD transition on AIRAC 2023-04-20</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+        </aixm:annotation>
+          <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.4c30ea32-1117-489d-b291-4e47563c0b02"/>
+          <aixm:snowPlan>REF AD 1.2</aixm:snowPlan>
+          <aixm:extension>
+            <ead-audit:AirportClearanceServiceExtension gml:id="uuid.401a7b15-86c2-4e67-b77f-006914ab69ca">
+              <ead-audit:auditInformation>
+                <ead-audit:Audit gml:id="uuid.ad371837-6689-4684-96a1-df30a40deb98">
+                  <ead-audit:createdBy>en_wizard</ead-audit:createdBy>
+                  <ead-audit:creationDate>2023-02-15T12:36:15Z</ead-audit:creationDate>
+                  <ead-audit:createdByOrg>AVINOR ORGANISATION FOR EAD</ead-audit:createdByOrg>
+                  <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
+                </ead-audit:Audit>
+              </ead-audit:auditInformation>
+            </ead-audit:AirportClearanceServiceExtension>
+          </aixm:extension>
+        </aixm:AirportClearanceServiceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AirportClearanceService>
+  </hasMember>
+
+
+</AIXMBasicMessage>

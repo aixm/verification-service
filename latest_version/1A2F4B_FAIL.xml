@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+    <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:AirTrafficControlService gml:id="uuid.1a056b39-c611-4d57-924e-bc857a79a1bb">
+            <gml:identifier codeSpace="urn:uuid:">1a056b39-c611-4d57-924e-bc857a79a1bb</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:AirTrafficControlServiceTimeSlice gml:id="uuid.639e8f01-5be9-40b5-bd10-81d55816e768">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.29023bf0-54a2-4397-9f1f-da1cba551431">
+                            <gml:beginPosition>2022-11-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>5</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.049a35a6-fb6d-47b2-a288-e34816aa6c44">
+                            <gml:beginPosition>2015-07-23T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:serviceProvider xlink:type="simple" xlink:href="urn:uuid:89e59e4e-7b34-4574-8f9e-4cc7eb4537cf"/>
+                    <aixm:call-sign>
+                        <aixm:CallsignDetail gml:id="uuid.8589f062-1df0-43f3-9970-19e85f5b3a59">
+                            <aixm:callSign>SCHLESWIG TOWER</aixm:callSign>
+                            <aixm:language>eng</aixm:language>
+                            
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                                    <!-- WARNING It is prohibited that CallsignDetail has annotation.Note.propertyName value other-than-one-of ('callSign', 'language') -->
+                                    <aixm:propertyName>invalidPropertyName</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.b991bd6a-863a-413a-8c67-3b01f1e02b56">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.cc883296-4345-4981-86c2-d10a17e46be2">
+                                            <aixm:note>Call sign on frequency 243</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:CallsignDetail>
+                    </aixm:call-sign>
+                    <aixm:call-sign>
+                        <aixm:CallsignDetail gml:id="uuid.9c43e26b-de94-4eea-83ea-1d67f0b8305e">
+                            <aixm:callSign>SCHLESWIG TURM</aixm:callSign>
+                            <aixm:language>ger</aixm:language>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.631e6625-3e37-4091-b220-367b90442d62">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.c652d303-90ba-42c0-b00d-0bfae5569b40">
+                                            <aixm:note>Call sign on frequency 243</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:CallsignDetail>
+                    </aixm:call-sign>
+                    <aixm:call-sign>
+                        <aixm:CallsignDetail gml:id="uuid.8237304c-73be-4b93-b76d-0b9f8f0a208f">
+                            <aixm:callSign>SCHLESWIG TOWER</aixm:callSign>
+                            <aixm:language>eng</aixm:language>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.79ea898a-924b-45be-9fa9-b3972db9ee54">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.24a268ba-3315-4a74-8c71-f9af5ad54af0">
+                                            <aixm:note>Call sign on frequency 121.5</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:CallsignDetail>
+                    </aixm:call-sign>
+                    <aixm:call-sign>
+                        <aixm:CallsignDetail gml:id="uuid.ebd871bb-6771-47b6-907c-c1fc624aa7fb">
+                            <aixm:callSign>SCHLESWIG TURM</aixm:callSign>
+                            <aixm:language>ger</aixm:language>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.99bb7733-dc90-4a3f-b85d-c0dcaea19fd8">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.e171c6dc-0ea2-4bcd-adad-d8b8351ec7d0">
+                                            <aixm:note>Call sign on frequency 121.5</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:CallsignDetail>
+                    </aixm:call-sign>
+                    <aixm:call-sign>
+                        <aixm:CallsignDetail gml:id="uuid.9cf48347-e4c7-45fe-b7b7-a4fd9708eee7">
+                            <aixm:callSign>SCHLESWIG TOWER</aixm:callSign>
+                            <aixm:language>eng</aixm:language>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.1a742cb4-13c3-498e-ab33-37944a521dd6">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.acfceded-833f-4f27-b221-4e00bdba0e49">
+                                            <aixm:note>Call sign on frequency 246.5</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:CallsignDetail>
+                    </aixm:call-sign>
+                    <aixm:call-sign>
+                        <aixm:CallsignDetail gml:id="uuid.b5101a36-4aa6-4846-8c55-02efb6d2ba82">
+                            <aixm:callSign>SCHLESWIG TURM</aixm:callSign>
+                            <aixm:language>ger</aixm:language>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.89af2b61-2dea-47cb-8417-7b297748f5bb">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.7d4597dd-005e-4b6c-917a-c2e5ce02e6b5">
+                                            <aixm:note>Call sign on frequency 246.5</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:CallsignDetail>
+                    </aixm:call-sign>
+                    <aixm:call-sign>
+                        <aixm:CallsignDetail gml:id="uuid.e6a2289c-8337-42f8-a762-ad9882738b29">
+                            <aixm:callSign>SCHLESWIG TURM</aixm:callSign>
+                            <aixm:language>ger</aixm:language>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.0724433d-537a-46ab-86e8-c3ae89759778">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.2430f3f8-1945-4516-b037-e336b8e451df">
+                                            <aixm:note>Call sign on frequency 135.155</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:CallsignDetail>
+                    </aixm:call-sign>
+                    <aixm:call-sign>
+                        <aixm:CallsignDetail gml:id="uuid.8790f893-83b7-4bf4-99f3-3c4de7fb4ae1">
+                            <aixm:callSign>SCHLESWIG TOWER</aixm:callSign>
+                            <aixm:language>eng</aixm:language>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.af4baa95-b1db-4a78-b252-8934a62f34d8">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.82f444d1-4b20-4603-9ac7-4c97a5e70cec">
+                                            <aixm:note>Call sign on frequency 135.155</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:CallsignDetail>
+                    </aixm:call-sign>
+                    <aixm:call-sign>
+                        <aixm:CallsignDetail gml:id="uuid.003838f1-15cb-4ae3-8dd8-2d55cd069416">
+                            <aixm:callSign>SCHLESWIG TOWER</aixm:callSign>
+                            <aixm:language>eng</aixm:language>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.189eef8b-721d-44c9-af23-b5ce24e7df59">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.df0d8322-9328-4c53-9f49-6f54840ab78e">
+                                            <aixm:note>Call sign on frequency 257.8</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:CallsignDetail>
+                    </aixm:call-sign>
+                    <aixm:call-sign>
+                        <aixm:CallsignDetail gml:id="uuid.19748fd9-79d6-498d-b50b-02badb2c6c8f">
+                            <aixm:callSign>SCHLESWIG TURM</aixm:callSign>
+                            <aixm:language>ger</aixm:language>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.4f96ecdc-1974-4e56-8d4a-6f66bb66da0a">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.b1c96c84-8810-435e-a7cd-c08ffc2a7436">
+                                            <aixm:note>Call sign on frequency 257.8</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:CallsignDetail>
+                    </aixm:call-sign>
+                    <aixm:call-sign>
+                        <aixm:CallsignDetail gml:id="uuid.c481e40d-4dc9-4c4f-af2b-6a05586c63c6">
+                            <aixm:callSign>SCHLESWIG TOWER</aixm:callSign>
+                            <aixm:language>eng</aixm:language>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.d8b68f10-4bb7-4b77-b6c4-ce1b45e3c8e4">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.105fa171-2205-4452-92d8-ef0fbae16420">
+                                            <aixm:note>Call sign on frequency 122.1</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:CallsignDetail>
+                    </aixm:call-sign>
+                    <aixm:call-sign>
+                        <aixm:CallsignDetail gml:id="uuid.57d201da-ff03-42c8-b35f-5f6de59fce93">
+                            <aixm:callSign>SCHLESWIG TURM</aixm:callSign>
+                            <aixm:language>ger</aixm:language>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.f5b18a28-6d49-4995-b2f1-dd6091358b06">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.c89fda50-1f64-4ac5-9fa3-aa594869b638">
+                                            <aixm:note>Call sign on frequency 122.1</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:CallsignDetail>
+                    </aixm:call-sign>
+                    <aixm:radioCommunication xlink:type="simple" xlink:href="urn:uuid:0e4655bd-8d39-4f32-b90f-333910c60f4a"/>
+                    <aixm:radioCommunication xlink:type="simple" xlink:href="urn:uuid:546faf51-363a-4ef8-9dad-f85e6c8ca002"/>
+                    <aixm:radioCommunication xlink:type="simple" xlink:href="urn:uuid:edabf1dd-4d98-40c3-95b1-169f341fa579"/>
+                    <aixm:radioCommunication xlink:type="simple" xlink:href="urn:uuid:a94ed2f8-94d1-4c1c-95ba-38bf6fc1ca0a"/>
+                    <aixm:radioCommunication xlink:type="simple" xlink:href="urn:uuid:cdee9ce9-62a2-482d-9000-8bf864b17f0b"/>
+                    <aixm:radioCommunication xlink:type="simple" xlink:href="urn:uuid:72523555-0e38-4424-945b-ace343260050"/>
+                    <aixm:availability>
+                        <aixm:ServiceOperationalStatus gml:id="uuid.44517d26-62e9-4ac4-825c-c0a21a94f348">
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.d3f10e3b-4d3a-4523-b237-29acd2665860">
+                                    <aixm:propertyName>timeInterval</aixm:propertyName>
+                                    <aixm:purpose>WARNING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.4df3da61-8934-45b0-bc5e-10033af788ff">
+                                            <aixm:note>HO - service available to meet operational requests</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
+                        </aixm:ServiceOperationalStatus>
+                    </aixm:availability>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.3efda1f9-81c0-4e41-be29-fa844a16f839">
+                            <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.d62a2d0a-403b-4a4a-81c8-ab264b9a7608">
+                                    <aixm:note>noSeq:2</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.ddcc0c40-f2a9-470e-a3d8-ccdb1f4d6659">
+                            <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.ed3a0840-d6d0-4812-aae4-1ae6f708f117">
+                                    <aixm:note>codeSource:ICAO</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.74e2f4ce-1610-4588-9b2f-1739b5bfd024">
+                            <aixm:purpose>REMARK</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.e31a9d4c-7c8b-40cb-89ae-4eea91d225eb">
+                                    <aixm:note>txtRmk:NIL</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:type>TWR</aixm:type>
+                    <!--                    <aixm:clientAirport xlink:type="simple" xlink:href="#uuid.27182fa4-a679-4653-9315-e51c08e6c45f"/> -->
+                    <aixm:clientAirspace xlink:type="simple" xlink:href="urn:uuid:0e7afab0-4ccc-4c04-ad30-653a1c524745"/>
+                    <aixm:extension>
+                        <ead-audit:AirTrafficControlServiceExtension gml:id="uuid.06ba7ce3-0672-4347-a103-df8e65fdb4eb">
+                            <ead-audit:auditInformation>
+                                <ead-audit:Audit gml:id="uuid.691a9dad-87f2-4f1b-ba34-82db37fb8643">
+                                    <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
+                                    <ead-audit:creationDate>2022-09-01T09:55:10Z</ead-audit:creationDate>
+                                    <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
+                                    <ead-audit:reasonForChange>Reason AIRAC AMDT 11/2022 WITH: AhpUid NEW: Ahp, Dpn CHG: DmeUid, DME, ILS</ead-audit:reasonForChange>
+                                    <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
+                                </ead-audit:Audit>
+                            </ead-audit:auditInformation>
+                        </ead-audit:AirTrafficControlServiceExtension>
+                    </aixm:extension>
+                </aixm:AirTrafficControlServiceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirTrafficControlService>
+    </hasMember>
+
+
+</AIXMBasicMessage>

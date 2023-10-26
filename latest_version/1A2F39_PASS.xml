@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:AngleIndication gml:id="uuid.ca1a1674-0ef2-4345-bcd7-e01d34982e8e">
+      <gml:identifier codeSpace="urn:uuid:">ca1a1674-0ef2-4345-bcd7-e01d34982e8e</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AngleIndicationTimeSlice gml:id="uuid.b5a6e407-a164-42b3-9d76-ad003b55155a">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.d99de95c-e4ed-411b-a8d3-2c98542d8223">
+              <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.d2df322b-0ea2-491f-b499-cafc59d9b272">
+              <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:angle>290.84</aixm:angle>
+          <aixm:angleType>RDL</aixm:angleType>
+          <aixm:fix xlink:type="simple" xlink:href="#uuid.189db995-8c6c-4417-a8f0-8ebb6b53e663"/>
+          <aixm:pointChoice_navaidSystem xlink:type="simple" xlink:href="#uuid.4f8de54d-bf6b-452c-a662-7646e994f1b0"/>
+         
+          <aixm:annotation>
+              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                  <aixm:propertyName>angle</aixm:propertyName>
+              </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                  <aixm:propertyName>angleType</aixm:propertyName>
+              </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:annotation>
+              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                  <aixm:propertyName>indicationDirection</aixm:propertyName>
+              </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:annotation>
+              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                  <aixm:propertyName>trueAngle</aixm:propertyName>
+              </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:annotation>
+              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+                  <aixm:propertyName>cardinalDirection</aixm:propertyName>
+              </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:annotation>
+              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
+                  <aixm:propertyName>minimumReceptionAltitude</aixm:propertyName>
+              </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:annotation>
+              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
+                  <aixm:propertyName>fix</aixm:propertyName>
+              </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:annotation>
+              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
+                  <aixm:propertyName>pointChoiceFixDesignatedPoint</aixm:propertyName>
+              </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:annotation>
+              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
+                  <aixm:propertyName>pointChoiceNavaidSystem</aixm:propertyName>
+              </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:annotation>
+              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
+                  <aixm:propertyName>pointChoicePosition</aixm:propertyName>
+              </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:annotation>
+              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
+                  <aixm:propertyName>pointChoiceRunwayPoint</aixm:propertyName>
+              </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:annotation>
+              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2b">
+                  <aixm:propertyName>pointChoiceAimingPoint</aixm:propertyName>
+              </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:annotation>
+              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2c">
+                  <aixm:propertyName>pointChoiceAirportReferencePoint</aixm:propertyName>
+              </aixm:Note>
+          </aixm:annotation>
+
+       </aixm:AngleIndicationTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AngleIndication>
+  </hasMember>
+
+</AIXMBasicMessage>
