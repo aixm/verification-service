@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<aixm:Navaid gml:id="uuid.f819662e-b606-49f8-88ed-9c16ad91093b">
+  <gml:identifier codeSpace="urn:uuid:">f819662e-b606-49f8-88ed-9c16ad91093b</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.bb3f51ac-e655-4aec-a12a-583ef040b582">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.182d9b55-9fc4-4bbb-8004-a611817b306f">
+          <gml:beginPosition>2016-01-08T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.db921769-dc07-4f6e-94d0-ac83dbb4ece0">
+          <gml:beginPosition>2004-01-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>MKR</aixm:type>
+      <aixm:name>LPPR OM 17</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.9b11b0fe-c98c-463c-9c8e-34e289fd0b24">
+          <aixm:markerPosition>OUTER</aixm:markerPosition>
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.88963fdb-e6b9-4b3b-8665-d790d6624133"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+          <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.7e608ab7-5bdd-4273-ac47-87a8daff7130">
+          <!-- ERROR Latitude and Longitude of Navaid of type MKR shall be published with 1/10 sec resolution -->
+          <gml:pos>41.3479 -8.7075</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.918c6932-f8f3-44e7-93b6-9e8f16f1bf8d">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.7022fe13-b124-4c7c-b355-67441cbcde29">
+                  <aixm:note>CRC:412052.7510N, 0084227.0520W, , , BC5CAE23</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:ad98d4b2-4d66-40c9-8c29-492c3e214290"/>
+      <aixm:extension>
+        <ead-audit:NavaidExtension gml:id="uuid.9ce9843f-09bb-4517-8561-8bfd74bdde50">
+          <ead-audit:auditInformation>
+            <ead-audit:Audit gml:id="uuid.25d8d086-7f63-4304-b6d3-14d0e84af07b">
+              <ead-audit:createdBy>LP_LREIS</ead-audit:createdBy>
+              <ead-audit:creationDate>2016-02-10T02:34:39Z</ead-audit:creationDate>
+              <ead-audit:createdByOrg>PORTUGAL</ead-audit:createdByOrg>
+              <ead-audit:reasonForChange>Source: Points, Procedures SDC Review 
+
+L.Reis; 01-Dec-2015</ead-audit:reasonForChange>
+              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
+            </ead-audit:Audit>
+          </ead-audit:auditInformation>
+        </ead-audit:NavaidExtension>
+      </aixm:extension>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+</aixm:Navaid> 
+
+  </hasMember>
+</AIXMBasicMessage>
