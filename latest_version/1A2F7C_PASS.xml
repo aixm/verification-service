@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Localizer gml:id="uuid.d03c54f7-d139-4f62-8e09-3ddaa5200bc6">
+      <gml:identifier codeSpace="urn:uuid:">d03c54f7-d139-4f62-8e09-3ddaa5200bc6</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:LocalizerTimeSlice gml:id="uuid.383f9660-b5bc-48d9-bb03-64fa270a9d4a">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.a100cb62-c9ea-4a27-982d-dacdc75c0604">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>4</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.e0197551-da4e-4727-81bf-04bdb96da470">
+              <gml:beginPosition>2007-05-10T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>IFP</aixm:designator>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.b3797c51-d276-4ea4-8dca-776672796c0a">
+              <gml:pos>53.284356167 -113.559054972</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.c8446192-de19-4e71-8555-d2a54a996f3b">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.9196a77e-9cc1-4f71-85a3-68c9db959876">
+                      <aixm:note>CRC:531703.6822N, 1133332.5979W, 2382.051, 66.7388, 2867390C</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:elevation uom="FT">2382.051</aixm:elevation>
+              <aixm:geoidUndulation uom="FT">66.7388</aixm:geoidUndulation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:availability>
+            <aixm:NavaidOperationalStatus gml:id="uuid.f27f09ae-d6f5-45a0-8779-acefbc1acbbb">
+              <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
+            </aixm:NavaidOperationalStatus>
+          </aixm:availability>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.b4ef769b-fbe1-4b2d-8d22-1503812f3d46">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.85581f61-e3ff-4727-b3b3-b6d6454809f0">
+                  <aixm:note>txtRmk:LOC reliable only within 10 either side of centreline</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                <aixm:propertyName>designator</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                <aixm:propertyName>name</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                <aixm:propertyName>emissionClass</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                <aixm:propertyName>mobile</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+                <aixm:propertyName>magneticVariation</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
+                <aixm:propertyName>magneticVariationAccuracy</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
+                <aixm:propertyName>dateMagneticVariation</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
+                <aixm:propertyName>flightChecked</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
+                <aixm:propertyName>location</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
+                <aixm:propertyName>authority</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
+                <aixm:propertyName>monitoring</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2b">
+                <aixm:propertyName>availability</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2c">
+                <aixm:propertyName>frequency</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2d">
+                <aixm:propertyName>magneticBearing</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2e">
+                <aixm:propertyName>magneticBearingAccuracy</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2f">
+                <aixm:propertyName>trueBearing</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd30">
+                <aixm:propertyName>trueBearingAccuracy</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd31">
+                <aixm:propertyName>declination</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd32">
+                <aixm:propertyName>widthCourse</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd33">
+                <aixm:propertyName>widthCourseAccuracy</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd34">
+                <aixm:propertyName>backCourseUsable</aixm:propertyName>
+            </aixm:Note>
+        </aixm:annotation>
+
+        <aixm:frequency uom="MHZ">109.9</aixm:frequency>
+        <aixm:magneticBearing>120</aixm:magneticBearing>
+        <aixm:trueBearing>134.9454</aixm:trueBearing>
+        <aixm:widthCourse>3.56</aixm:widthCourse>
+        <aixm:backCourseUsable>NO</aixm:backCourseUsable>
+    </aixm:LocalizerTimeSlice>
+</aixm:timeSlice>
+    </aixm:Localizer>
+</hasMember>
+
+</AIXMBasicMessage>
