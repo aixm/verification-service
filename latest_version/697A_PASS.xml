@@ -1,0 +1,142 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+
+<aixm:Airspace gml:id="uuid.3835ddde-2a80-4426-9e60-59fe0b69a99f">
+  <gml:identifier codeSpace="urn:uuid:">3835ddde-2a80-4426-9e60-59fe0b69a99f</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AirspaceTimeSlice gml:id="uuid.9a1bb8c5-cbc4-472b-91dd-bdfb54b87233">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.2cb3cd89-72a9-4ae3-98c6-7568ac927e2b">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>9</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.1f9f3ca7-4765-42d1-a8ab-9a3866ab7a0f">
+          <gml:beginPosition>2016-06-23T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>RAS</aixm:type>
+      <aixm:designator>EVDLGTD</aixm:designator>
+      <aixm:localType>DELEGATED AIRSPACE</aixm:localType>
+      <aixm:name nilReason="unknown" xsi:nil="true"/>
+      <aixm:designatorICAO nilReason="unknown" xsi:nil="true"/>
+      <aixm:controlType>CIVIL</aixm:controlType>
+      <aixm:upperLowerSeparation nilReason="unknown" xsi:nil="true"/>
+      <aixm:class>
+        <aixm:AirspaceLayerClass gml:id="uuid.861c28fe-e91d-4e83-aebe-2ee0395aabde">
+          <aixm:classification>C</aixm:classification>
+          <aixm:associatedLevels>
+            <aixm:AirspaceLayer gml:id="uuid.5d7e1234-7812-4961-94c4-146ca6b3bb0e">
+              <aixm:upperLimit uom="FL">660</aixm:upperLimit>
+              <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+              <aixm:lowerLimit uom="FL">95</aixm:lowerLimit>
+              <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+            </aixm:AirspaceLayer>
+          </aixm:associatedLevels>
+        </aixm:AirspaceLayerClass>
+      </aixm:class>
+      <aixm:class>
+        <aixm:AirspaceLayerClass gml:id="uuid.559d6d15-2bd9-4c9c-a223-c1ee6bfba86b">
+          <aixm:classification>G</aixm:classification>
+          <aixm:associatedLevels>
+            <aixm:AirspaceLayer gml:id="uuid.260af412-3fd6-4607-9fe2-ebb6dbb10dec">
+              <aixm:upperLimit uom="FL">95</aixm:upperLimit>
+              <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+              <aixm:lowerLimit uom="FT">0</aixm:lowerLimit>
+              <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
+            </aixm:AirspaceLayer>
+          </aixm:associatedLevels>
+          <aixm:associatedLevels>
+            <aixm:AirspaceLayer gml:id="uuid.bc3dec0c-b2a8-4617-a8d6-d02b79951640">
+              <aixm:upperLimit uom="FL">999</aixm:upperLimit>
+              <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+              <aixm:lowerLimit uom="FL">660</aixm:lowerLimit>
+              <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+            </aixm:AirspaceLayer>
+          </aixm:associatedLevels>
+        </aixm:AirspaceLayerClass>
+      </aixm:class>
+      <aixm:protectedRoute nilReason="unknown" xsi:nil="true"/>
+      <aixm:geometryComponent>
+        <aixm:AirspaceGeometryComponent gml:id="uuid.d8e29f4d-050d-4886-8fdb-eaad5c7e2e78">
+          <aixm:theAirspaceVolume>
+            <aixm:AirspaceVolume gml:id="uuid.3294a5c4-559a-44f3-89ae-43a7b37dc79e">
+              <aixm:upperLimit uom="FL">999</aixm:upperLimit>
+              <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+              <aixm:lowerLimit uom="FT">0</aixm:lowerLimit>
+              <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
+              <aixm:horizontalProjection>
+                <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.9ba8e1df-f846-452b-9719-47a2ecf0ee86" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                  <gml:patches>
+                    <gml:PolygonPatch>
+                      <gml:exterior>
+                        <gml:Ring>
+                          <gml:curveMember>
+                            <gml:Curve gml:id="uuid.6dcbb9a6-a737-4f7f-bf21-ba847f92c798">
+                              <gml:segments>
+                                <gml:GeodesicString>
+                                  <gml:posList>19.2602778 56.2527778 18.0636111 56.1186111 18.5063889 56.3452778 19.2602778 56.2527778 </gml:posList>
+                                </gml:GeodesicString>
+                              </gml:segments>
+                            </gml:Curve>
+                          </gml:curveMember>
+                        </gml:Ring>
+                      </gml:exterior>
+                    </gml:PolygonPatch>
+                  </gml:patches>
+                </aixm:Surface>
+              </aixm:horizontalProjection>
+            </aixm:AirspaceVolume>
+          </aixm:theAirspaceVolume>
+        </aixm:AirspaceGeometryComponent>
+      </aixm:geometryComponent>
+      <aixm:activation>
+        <aixm:AirspaceActivation gml:id="uuid.e653564c-630a-4197-8557-81d945b2fe25">
+          <aixm:activity>ATS</aixm:activity>
+          <aixm:status>IN_USE</aixm:status>
+        </aixm:AirspaceActivation>
+      </aixm:activation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.903557d0-3ba8-47a0-b9e0-aeed25c72bed">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.c29b4117-c935-4f6f-ba2d-0c386da6e241">
+              <aixm:note lang="eng">DAILY
+1800-0700 (1700-0600)
+RIGA ACC
+RIGA CONTROL</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.ca600285-e11a-4bf1-9f5a-bc346c89c5c6">
+              <aixm:note lang="eng">DAILY
+0700-1800 (0600-1700)
+LIEPAJA FIC
+LIEPAJA INFORMATION</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.8ea828ff-bebf-4316-aa75-f57b45776c6f">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.58c4ca52-a9c5-4d81-bc8c-471f4bcc2ea8">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirspaceTimeSlice>
+  </aixm:timeSlice>
+</aixm:Airspace> 
+
+</AIXMBasicMessage>
