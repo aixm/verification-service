@@ -15,63 +15,67 @@
     xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd">
 
   <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <aixm:Glidepath gml:id="uuid.cef38699-94b6-40e8-830d-0d8a4e0994ee">
-      <gml:identifier codeSpace="urn:uuid:">cef38699-94b6-40e8-830d-0d8a4e0994ee</gml:identifier>
+    <aixm:Localizer gml:id="uuid.d03c54f7-d139-4f62-8e09-3ddaa5200bc6">
+      <gml:identifier codeSpace="urn:uuid:">d03c54f7-d139-4f62-8e09-3ddaa5200bc6</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
       <aixm:timeSlice>
-        <aixm:GlidepathTimeSlice gml:id="uuid.a0589371-f136-4582-a0c4-a9a1d2d7f062">
+        <aixm:LocalizerTimeSlice gml:id="uuid.48a5e3b4-6607-4e98-ba05-e5c3a3321092">
           <gml:validTime>
-            <gml:TimePeriod gml:id="uuid.81a567f6-efc2-4d3c-baea-c4da06df33d2">
-              <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+            <gml:TimePeriod gml:id="uuid.5085867a-721b-49fd-a76d-19060997d2ca">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
               <gml:endPosition indeterminatePosition="unknown"/>
             </gml:TimePeriod>
           </gml:validTime>
           <aixm:interpretation>BASELINE</aixm:interpretation>
-          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:sequenceNumber>4</aixm:sequenceNumber>
           <aixm:correctionNumber>0</aixm:correctionNumber>
           <aixm:featureLifetime>
-            <gml:TimePeriod gml:id="uuid.7af5b911-639c-4bee-af73-4d7b0ce74019">
-              <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+            <gml:TimePeriod gml:id="uuid.e60465b8-03b1-4069-9e51-4abbc2aedf50">
+              <gml:beginPosition>2007-05-10T00:00:00Z</gml:beginPosition>
               <gml:endPosition indeterminatePosition="unknown"/>
             </gml:TimePeriod>
           </aixm:featureLifetime>
+          <aixm:designator>IFP</aixm:designator>
           <aixm:location>
-            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.39e72265-5b9b-4e74-be56-f056b6c38a4c">
-              <!-- WARNING Latitude and Longitude of Glidepath shall be published with 1/10 sec resolution (aerodrome navaid equipment) -->
-              <gml:pos>38.282 -0.571111</gml:pos>
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.b3797c51-d276-4ea4-8dca-776672796c0a">
+              <gml:pos>53.284356167 -113.559054972</gml:pos>
               <aixm:annotation>
-                <aixm:Note gml:id="uuid.1f20fbc0-e01c-4eee-a213-95dbb16a3d35">
+                <aixm:Note gml:id="uuid.c8446192-de19-4e71-8555-d2a54a996f3b">
                   <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
                   <aixm:translatedNote>
-                    <aixm:LinguisticNote gml:id="uuid.8b5290fd-3c0e-4d98-94b0-416924b968cc">
-                      <aixm:note>CRC:381658.4N, 0003416.0W, , , BB5FD988</aixm:note>
+                    <aixm:LinguisticNote gml:id="uuid.9196a77e-9cc1-4f71-85a3-68c9db959876">
+                      <aixm:note>CRC:531703.6822N, 1133332.5979W, 2382.051, 66.7388, 2867390C</aixm:note>
                     </aixm:LinguisticNote>
                   </aixm:translatedNote>
                 </aixm:Note>
               </aixm:annotation>
+              <aixm:elevation uom="FT">2382.051</aixm:elevation>
+              <aixm:geoidUndulation uom="FT">66.7388</aixm:geoidUndulation>
             </aixm:ElevatedPoint>
           </aixm:location>
           <aixm:availability>
-            <aixm:NavaidOperationalStatus gml:id="uuid.fa79aca2-3a3a-416f-8089-bfd04aab75ac">
+            <aixm:NavaidOperationalStatus gml:id="uuid.688471bc-c1d8-4d30-a304-325e04127610">
               <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
             </aixm:NavaidOperationalStatus>
           </aixm:availability>
           <aixm:annotation>
-            <aixm:Note gml:id="uuid.44bcc800-504f-4116-a3c9-138954a39ad2">
+            <aixm:Note gml:id="uuid.4d861ad9-1caf-48d0-81dd-8e5c1bda8078">
               <aixm:purpose>REMARK</aixm:purpose>
               <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.78d531b5-4dd3-47a8-b7d8-3b5ab3591727">
-                  <aixm:note>txtRmk:3°; RDH 15 m; at 367 m FM THR 10 &amp; 118 m FM RCL To the right in direction APCH.
-COV 10 NM AVBL BTN ± 8º AVBL at 2200 ft AMSL  or ABV.</aixm:note>
+                <aixm:LinguisticNote gml:id="uuid.34e500c3-60b9-44b4-a231-1a47b2703191">
+                  <aixm:note>txtRmk:LOC reliable only within 10° either side of centreline</aixm:note>
                 </aixm:LinguisticNote>
               </aixm:translatedNote>
             </aixm:Note>
           </aixm:annotation>
-          <aixm:frequency uom="MHZ">335</aixm:frequency>
-          <aixm:slope>3</aixm:slope>
-        </aixm:GlidepathTimeSlice>
+          <aixm:frequency uom="MHZ">109.9</aixm:frequency>
+          <aixm:magneticBearing>120</aixm:magneticBearing>
+          <aixm:trueBearing>134.9454</aixm:trueBearing>
+          <aixm:widthCourse>3.56</aixm:widthCourse>
+          <aixm:backCourseUsable>NO</aixm:backCourseUsable>
+        </aixm:LocalizerTimeSlice>
       </aixm:timeSlice>
-    </aixm:Glidepath>
+    </aixm:Localizer>
   </hasMember>
 
 

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" 
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+    xmlns:gml="http://www.opengis.net/gml/3.2" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:gco="http://www.isotc211.org/2005/gco" 
+    xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+    xmlns:gts="http://www.isotc211.org/2005/gts" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns:sdd="http://www.teamead.com/ws/sdd" 
+    xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" 
+    xmlns:aimsl="http://www.teamead.com/ws/aimsl" 
+    gml:id="uniqueId"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd">
 
   <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <aixm:Navaid gml:id="uuid.580fdc26-8d00-4bfe-9b7a-e7f7e76d30a0">
@@ -34,7 +46,7 @@
         </aixm:NavaidComponent>
       </aixm:navaidEquipment>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.f00f28cf-3c9f-47d5-898d-2780645fb04b">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.f00f28cf-3c9f-47d5-898d-2780645fb04b">
           <!-- WARNING Latitude and Longitude of Navaid of type NDB shall be published with 1/10 sec resolution -->
           <gml:pos>46.1732306 14.5</gml:pos>
           <aixm:annotation>
@@ -50,19 +62,6 @@
           <aixm:elevation uom="M">324</aixm:elevation>
         </aixm:ElevatedPoint>
       </aixm:location>
-      <aixm:extension>
-        <ead-audit:NavaidExtension gml:id="uuid.03bf14ee-2c12-4185-b15c-bde8865128a1">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.ce43f7ef-04b4-4cae-9cfa-54ae860eba50">
-              <ead-audit:createdBy>LJ_UGROSELJ</ead-audit:createdBy>
-              <ead-audit:creationDate>2016-02-04T13:34:27Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>SLOVENIA DIRECTORATE OF AVIATION AND MARITIME TRANSPORT</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>INITIAL DATA POPULATION</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:NavaidExtension>
-      </aixm:extension>
     </aixm:NavaidTimeSlice>
   </aixm:timeSlice>
 </aixm:Navaid> 
