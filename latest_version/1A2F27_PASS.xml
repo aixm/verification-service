@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:AirportClearanceService gml:id="uuid.d3e38b49-9e34-4818-a467-609b86379a5d">
       <gml:identifier codeSpace="urn:uuid:">d3e38b49-9e34-4818-a467-609b86379a5d</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -21,17 +31,47 @@
               <gml:endPosition indeterminatePosition="unknown"/>
             </gml:TimePeriod>
           </aixm:featureLifetime>
+          <aixm:flightOperations>ARR</aixm:flightOperations>
+          <aixm:rank>ALTERNATE</aixm:rank>
+          <aixm:compliantICAO>YES</aixm:compliantICAO>
           <aixm:name>CLEARANCE</aixm:name>
-          <aixm:annotation>
-            <aixm:Note gml:id="uuid.082f612e-791e-426d-8ab3-e3ae7c8214b6">
-              <aixm:purpose>REMARK</aixm:purpose>
-              <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.bf93596a-7d00-4f2d-98fd-82303b8dcd94">
-                  <aixm:note lang="eng">Surface friction testers: Moventor Skiddometer BV11</aixm:note>
-                </aixm:LinguisticNote>
-              </aixm:translatedNote>
-            </aixm:Note>
-          </aixm:annotation>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
+                                xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                                xmlns:gco="http://www.isotc211.org/2005/gco"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:gml="http://www.opengis.net/gml/3.2"
+                                xmlns:gts="http://www.isotc211.org/2005/gts"
+                                xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                srsName="urn:ogc:def:crs:EPSG::4326"
+                                gml:id="uuid.fc0bf8d6-aa4c-4c9d-9880-95994669ccd8">
+              <gml:pos>33.5062778 6.7877722</gml:pos>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:serviceProvider/>
+          <aixm:call-sign>
+            <aixm:CallsignDetail gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfdaa"/>
+          </aixm:call-sign>
+          <aixm:radioCommunication/>
+          <aixm:groundCommunication>
+            <aixm:ContactInformation gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfdbb"/>
+          </aixm:groundCommunication>
+          <aixm:availability>
+            <aixm:ServiceOperationalStatus gml:id="uuid.e7425ffd-cf63-4550-9338-8002f2a14a5f">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.ee2fe0e3-6980-4302-9453-e7a3b0e3d679">
+                  <aixm:propertyName>timeInterval</aixm:propertyName>
+                  <aixm:purpose>WARNING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.50750271-6922-4c57-af6e-76cd58113046">
+                      <aixm:note>HX - no specific working hours</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
+            </aixm:ServiceOperationalStatus>
+          </aixm:availability>
 
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
@@ -77,7 +117,7 @@
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
               <aixm:propertyName>groundCommunication</aixm:propertyName>
             </aixm:Note>
-          </aixm:annotation>          
+          </aixm:annotation>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
               <aixm:propertyName>availability</aixm:propertyName>
@@ -105,6 +145,5 @@
           </aixm:AirportClearanceServiceTimeSlice>
       </aixm:timeSlice>
     </aixm:AirportClearanceService>
-  </hasMember>
-
-</AIXMBasicMessage>
+  </message:hasMember>
+</message:AIXMBasicMessage>

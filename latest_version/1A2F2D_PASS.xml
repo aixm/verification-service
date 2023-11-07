@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:AirportHotSpot gml:id="uuid.789184bb-ec29-4914-b6e3-6b8d90a05eb7">
+            <gml:identifier codeSpace="urn:uuid:">789184bb-ec29-4914-b6e3-6b8d90a05eb7</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:AirportHotSpotTimeSlice gml:id="uuid.bc62a6c9-1768-4cf9-9191-bca3bb6e85cd">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.2b9fd5bb-0964-4d6e-931d-27e473dea55c">
+                            <gml:beginPosition>2012-12-13T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.22a51b7a-b211-4c6b-b6be-01faf594ae11">
+                            <gml:beginPosition>2009-05-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>K06M</aixm:designator>
+                    <aixm:instruction>INSTRUCTION</aixm:instruction>
+                    <aixm:area>
+                        <aixm:ElevatedSurface>
+                            <gml:patches>
+                                <gml:PolygonPatch interpolation="planar">
+                                    <gml:exterior>
+                                        <gml:Ring>
+                                            <gml:curveMember xlink:type="simple">
+                                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.96632147-f97d-49ae-a763-1fa2f74a44d7">
+                                                    <gml:segments>
+                                                        <gml:GeodesicString interpolation="geodesic">
+                                                            <gml:posList>1.65056 8.07806 1.86667 9.47139</gml:posList>
+                                                        </gml:GeodesicString>
+                                                        <gml:LineStringSegment interpolation="linear">
+                                                            <gml:posList>1.86667 9.47139 1.86667 10.25</gml:posList>
+                                                        </gml:LineStringSegment>
+                                                        <gml:GeodesicString interpolation="geodesic">
+                                                            <gml:posList>1.86667 10.25 1.5901222 10.1396667</gml:posList>
+                                                        </gml:GeodesicString>
+                                                        <gml:ArcByCenterPoint interpolation="circularArcCenterPointWithRadius" numArc="1">
+                                                            <gml:pos>0.4798472 9.4019833</gml:pos>
+                                                            <gml:radius uom="[nmi_i]">79.6720098</gml:radius>
+                                                            <gml:startAngle uom="deg">33.768012238563756</gml:startAngle>
+                                                            <gml:endAngle uom="deg">179.9868989376423</gml:endAngle>
+                                                        </gml:ArcByCenterPoint>
+                                                        <gml:GeodesicString interpolation="geodesic">
+                                                            <gml:posList>-0.8533056 9.4022861 -0.8533056 9.4022861</gml:posList>
+                                                        </gml:GeodesicString>
+                                                        <gml:ArcByCenterPoint interpolation="circularArcCenterPointWithRadius" numArc="1">
+                                                            <!-- ERROR: The symbol deg shall be used for the unit of measurement of gml:endAngle -->
+                                                            <gml:pos>-0.7287778 8.7474722</gml:pos>
+                                                            <gml:radius uom="[nmi_i]">40.02711</gml:radius>
+                                                            <gml:startAngle uom="deg">100.70252308372585</gml:startAngle>
+                                                            <gml:endAngle uom="deg">28.606565853302868</gml:endAngle>
+                                                        </gml:ArcByCenterPoint>
+                                                        <gml:GeodesicString interpolation="geodesic">
+                                                            <gml:posList>-0.14056 9.06611 0.34722 8.04778 1.65056 8.07806</gml:posList>
+                                                        </gml:GeodesicString>
+                                                    </gml:segments>
+                                                </aixm:Curve>
+                                            </gml:curveMember>
+                                        </gml:Ring>
+                                    </gml:exterior>
+                                </gml:PolygonPatch>
+                            </gml:patches>
+                        </aixm:ElevatedSurface>
+                    </aixm:area>
+                    <aixm:affectedAirport/>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                            <aixm:propertyName>designator</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                            <aixm:propertyName>instruction</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                            <aixm:propertyName>area</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                            <aixm:propertyName>affectedAirport</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                </aixm:AirportHotSpotTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirportHotSpot>
+    </message:hasMember>
+</message:AIXMBasicMessage>
