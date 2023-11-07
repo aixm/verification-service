@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" 
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+    xmlns:gml="http://www.opengis.net/gml/3.2" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:gco="http://www.isotc211.org/2005/gco" 
+    xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+    xmlns:gts="http://www.isotc211.org/2005/gts" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns:sdd="http://www.teamead.com/ws/sdd" 
+    xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" 
+    xmlns:aimsl="http://www.teamead.com/ws/aimsl" 
+    gml:id="uniqueId"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd">
 
   <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <aixm:Navaid gml:id="uuid.2be12ce1-97f6-4b7d-860e-8ecc96a384fb">
@@ -33,23 +45,11 @@
         </aixm:NavaidComponent>
       </aixm:navaidEquipment>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.00509ea3-7c29-40e4-9d94-cb81e0d753a0">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.00509ea3-7c29-40e4-9d94-cb81e0d753a0">
             <!-- WARNING Latitude and Longitude of Navaid of type LOC shall be published with 1/10 sec resolution -->
           <gml:pos>55.618 12.6435611</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:location>
-      <aixm:extension>
-        <ead-audit:NavaidExtension gml:id="uuid.079acb18-cff2-4ba8-9915-0e365e7e8d54">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.92788baa-adf0-4a61-adad-f1bfe88aa366">
-              <ead-audit:createdBy>ek_AEROEADOPS</ead-audit:createdBy>
-              <ead-audit:creationDate>2022-08-18T10:18:21Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>NAVIAIR ATS</ead-audit:createdByOrg>
-              <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:NavaidExtension>
-      </aixm:extension>
     </aixm:NavaidTimeSlice>
   </aixm:timeSlice>
 </aixm:Navaid> 

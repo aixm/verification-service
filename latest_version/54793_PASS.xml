@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" 
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+    xmlns:gml="http://www.opengis.net/gml/3.2" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:gco="http://www.isotc211.org/2005/gco" 
+    xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+    xmlns:gts="http://www.isotc211.org/2005/gts" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns:sdd="http://www.teamead.com/ws/sdd" 
+    xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" 
+    xmlns:aimsl="http://www.teamead.com/ws/aimsl" 
+    gml:id="uniqueId"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd">
 
   <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <aixm:Navaid gml:id="uuid.fefe4ff5-bc55-4f03-8b08-db572a1b9d12">
@@ -33,7 +45,7 @@
         </aixm:NavaidComponent>
       </aixm:navaidEquipment>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.a5627c0a-710c-4a94-976c-33d3e00b769f">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.a5627c0a-710c-4a94-976c-33d3e00b769f">
           <gml:pos>35.598444 53.497306</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.5c56458e-2f8a-45da-a4dc-aef744491cd3">
@@ -47,19 +59,6 @@
           </aixm:annotation>
         </aixm:ElevatedPoint>
       </aixm:location>
-      <aixm:extension>
-        <ead-audit:NavaidExtension gml:id="uuid.a2249498-b762-4c46-8523-3ee4d6c7908a">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.866773ee-898d-4bab-b5e4-17221158b5ed">
-              <ead-audit:createdBy>G1_SCERNIS</ead-audit:createdBy>
-              <ead-audit:creationDate>2016-02-10T01:42:15Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>GROUPEAD EUROPE S.L.</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AIRAC AMDT 01/14</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:NavaidExtension>
-      </aixm:extension>
     </aixm:NavaidTimeSlice>
   </aixm:timeSlice>
 </aixm:Navaid> 
