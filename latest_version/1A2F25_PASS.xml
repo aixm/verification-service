@@ -10,31 +10,32 @@
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
-  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <aixm:AirportClearanceService gml:id="uuid.d3e38b49-9e34-4818-a467-609b86379a5d">
-      <gml:identifier codeSpace="urn:uuid:">d3e38b49-9e34-4818-a467-609b86379a5d</gml:identifier>
+
+<message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:AircraftGroundService gml:id="uuid.6378d5b1-0558-47d0-a194-aaf19137da6a">
+      <gml:identifier codeSpace="urn:uuid:">6378d5b1-0558-47d0-a194-aaf19137da6a</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
       <aixm:timeSlice>
-        <aixm:AirportClearanceServiceTimeSlice gml:id="uuid.36450507-aafe-4b7c-80a4-bd401f6fb353">
+        <aixm:AircraftGroundServiceTimeSlice gml:id="uuid.c5e6c0ce-cb1a-4ffb-a8b8-320bbdb94215">
           <gml:validTime>
-            <gml:TimePeriod gml:id="uuid.f35189a7-d46a-43ce-8986-844d0df3b045">
-              <gml:beginPosition>2023-06-15T00:00:00Z</gml:beginPosition>
+            <gml:TimePeriod gml:id="uuid.5e34e0f6-4b2b-49b5-97d3-a01f85dc4119">
+              <gml:beginPosition>2022-03-24T00:00:00Z</gml:beginPosition>
               <gml:endPosition indeterminatePosition="unknown"/>
             </gml:TimePeriod>
           </gml:validTime>
           <aixm:interpretation>BASELINE</aixm:interpretation>
-          <aixm:sequenceNumber>1</aixm:sequenceNumber>
-          <aixm:correctionNumber>1</aixm:correctionNumber>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
           <aixm:featureLifetime>
-            <gml:TimePeriod gml:id="uuid.985f1821-c2d4-4c15-8bc8-43dc4a749a9e">
-              <gml:beginPosition>2023-06-15T00:00:00Z</gml:beginPosition>
+            <gml:TimePeriod gml:id="uuid.a2ca18d6-d294-473b-9f5d-744601d30f87">
+              <gml:beginPosition>2004-08-28T00:00:00Z</gml:beginPosition>
               <gml:endPosition indeterminatePosition="unknown"/>
             </gml:TimePeriod>
           </aixm:featureLifetime>
           <aixm:flightOperations>ARR</aixm:flightOperations>
           <aixm:rank>ALTERNATE</aixm:rank>
           <aixm:compliantICAO>YES</aixm:compliantICAO>
-          <aixm:name>CLEARANCE</aixm:name>
+          <aixm:name>NAME</aixm:name>
           <aixm:location>
             <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
                                 xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -46,15 +47,27 @@
                                 srsName="urn:ogc:def:crs:EPSG::4326"
                                 gml:id="uuid.fc0bf8d6-aa4c-4c9d-9880-95994669ccd8">
               <gml:pos>33.5062778 6.7877722</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.3bb09590-8641-44cb-8b13-8c6c90ffa843">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.54bcd8f4-b2f9-4e21-964e-4ef418195c44">
+                      <aixm:note>CRC:333022.60N, 0064715.98E, , , 0573DCCE</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
             </aixm:ElevatedPoint>
           </aixm:location>
           <aixm:serviceProvider/>
           <aixm:call-sign>
-            <aixm:CallsignDetail gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfdaa"/>
+            <aixm:CallsignDetail gml:id="uuid.8589f062-1df0-43f3-9970-19e85f5b3a59">
+              <aixm:callSign>SCHLESWIG TOWER</aixm:callSign>
+            </aixm:CallsignDetail>
           </aixm:call-sign>
           <aixm:radioCommunication/>
           <aixm:groundCommunication>
-            <aixm:ContactInformation gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfdbb"/>
+            <aixm:ContactInformation gml:id="uuid.8589f062-1df0-43f3-9970-19e85f5b3a60"/>
           </aixm:groundCommunication>
           <aixm:availability>
             <aixm:ServiceOperationalStatus gml:id="uuid.e7425ffd-cf63-4550-9338-8002f2a14a5f">
@@ -73,6 +86,7 @@
             </aixm:ServiceOperationalStatus>
           </aixm:availability>
 
+
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
               <aixm:propertyName>flightOperations</aixm:propertyName>
@@ -83,67 +97,73 @@
               <aixm:propertyName>rank</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
+
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
               <aixm:propertyName>compliantICAO</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
+
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
               <aixm:propertyName>name</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
+
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
               <aixm:propertyName>location</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
+
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
               <aixm:propertyName>serviceProvider</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
+
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
               <aixm:propertyName>callsign</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
+
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
               <aixm:propertyName>radioCommunication</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
+
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
               <aixm:propertyName>groundCommunication</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
+
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
               <aixm:propertyName>availability</aixm:propertyName>
-              <aixm:purpose>DESCRIPTION</aixm:purpose>
-              <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.82427035-fa23-40b4-bf1e-7ace21f65941">
-                  <aixm:note lang="eng">Types of clearing equipement: Snow plough, brush</aixm:note>
-                </aixm:LinguisticNote>
-              </aixm:translatedNote>
-            </aixm:Note>
-          </aixm:annotation>
-          <aixm:annotation>
-            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcf2a">
-              <aixm:propertyName>airportHeliport</aixm:propertyName>
-            </aixm:Note>
-          </aixm:annotation>
-          <aixm:annotation>
-            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcf2b">
-              <aixm:propertyName>snowPlan</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
 
-          <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.de99eba6-20ed-4720-a97a-51b37006eaec"/>
-          <aixm:snowPlan>RWY 13/31, TWY G and H, Main Apron</aixm:snowPlan>
-          </aixm:AirportClearanceServiceTimeSlice>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
+              <aixm:propertyName>airportHeliport</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2b">
+              <aixm:propertyName>type</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.72ddec67-8769-4ce5-a72f-9699a8cecd2f"/>
+          <aixm:type>HANGAR</aixm:type>
+
+        </aixm:AircraftGroundServiceTimeSlice>
       </aixm:timeSlice>
-    </aixm:AirportClearanceService>
+    </aixm:AircraftGroundService>
   </message:hasMember>
+
 </message:AIXMBasicMessage>
