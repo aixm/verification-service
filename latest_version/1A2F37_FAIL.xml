@@ -11,11 +11,11 @@
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
   <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <aixm:AirTrafficControlService gml:id="uuid.1a056b39-c611-4d57-924e-bc857a79a1bb">
+    <aixm:AirTrafficManagementService gml:id="uuid.1a056b39-c611-4d57-924e-bc857a79a1bb">
       <gml:identifier codeSpace="urn:uuid:">1a056b39-c611-4d57-924e-bc857a79a1bb</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
       <aixm:timeSlice>
-        <aixm:AirTrafficControlServiceTimeSlice gml:id="uuid.7ee7d068-5b3a-4d5d-adbd-028e682e9ccc">
+        <aixm:AirTrafficManagementServiceTimeSlice gml:id="uuid.7ee7d068-5b3a-4d5d-adbd-028e682e9ccc">
           <gml:validTime>
             <gml:TimePeriod gml:id="uuid.3f38b862-c0d9-44fd-b528-b1430eec2098">
               <gml:beginPosition>2022-11-03T00:00:00Z</gml:beginPosition>
@@ -86,27 +86,20 @@
 
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
-              <!-- WARNING It is prohibited that AirTrafficControlServiceTimeSlice has annotation.Note.propertyName value other-than-one-of ('flightOperations', 'rank', 'compliantICAO', 'name', 'location', 'serviceProvider', 'callsign', 'radioCommunication', 'groundCommunication', 'availability', 'radarAssisted', 'dataLinkEnabled', 'dataLinkChannel', 'type', 'clientAirport', 'clientAirspace', 'clientRoute', 'clientProcedure', 'clientHolding', 'clientAerialRefuelling', 'aircraftLocator')  -->
+              <!-- WARNING It is prohibited that AirTrafficManagementServiceTimeSlice has annotation.Note.propertyName value other-than-one-of ('flightOperations', 'rank', 'compliantICAO', 'name', 'location', 'serviceProvider', 'callsign', 'radioCommunication', 'groundCommunication', 'availability', 'type', 'clientAirspace', 'clientAerialRefuelling', 'clientRoute')  -->
               <aixm:propertyName>invalidPropertyName</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
 
-          <aixm:radarAssisted>YES</aixm:radarAssisted>
-          <aixm:dataLinkEnabled>YES</aixm:dataLinkEnabled>
-          <aixm:dataLinkChannel>11</aixm:dataLinkChannel>
-          <aixm:type>TWR</aixm:type>
-          <aixm:clientAirport xlink:type="simple" xlink:href="#uuid.27182fa4-a679-4653-9315-e51c08e6c45f"/>
+          <aixm:type>ATFM</aixm:type>
           <aixm:clientAirspace xlink:type="simple" xlink:href="urn:uuid:0e7afab0-4ccc-4c04-ad30-653a1c524745"/>
+          <aixm:clientAerialRefuelling/>
           <aixm:clientRoute>
             <aixm:RoutePortion gml:id="uuid.5b05ee5e-1a61-474c-a7bb-26513fe1adfe"/>
           </aixm:clientRoute>
-          <aixm:clientProcedure/>
-          <aixm:clientHolding/>
-          <aixm:clientAerialRefuelling/>
-          <aixm:aircraftLocator/>
 
-        </aixm:AirTrafficControlServiceTimeSlice>
+        </aixm:AirTrafficManagementServiceTimeSlice>
       </aixm:timeSlice>
-    </aixm:AirTrafficControlService>
+    </aixm:AirTrafficManagementService>
   </message:hasMember>
 </message:AIXMBasicMessage>
