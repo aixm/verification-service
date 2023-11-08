@@ -11,43 +11,44 @@
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <aixm:AirTrafficControlService gml:id="uuid.1a056b39-c611-4d57-924e-bc857a79a1bb">
-            <gml:identifier codeSpace="urn:uuid:">1a056b39-c611-4d57-924e-bc857a79a1bb</gml:identifier>
-            <gml:boundedBy xsi:nil="true"/>
+        <aixm:RadioFrequencyArea gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+            <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
             <aixm:timeSlice>
-                <aixm:AirTrafficControlServiceTimeSlice gml:id="uuid.639e8f01-5be9-40b5-bd10-81d55816e768">
+                <aixm:RadioFrequencyAreaTimeSlice gml:id="ID_1A4A9A_01">
                     <gml:validTime>
-                        <gml:TimePeriod gml:id="uuid.29023bf0-54a2-4397-9f1f-da1cba551431">
-                            <gml:beginPosition>2022-11-03T00:00:00Z</gml:beginPosition>
+                        <gml:TimePeriod gml:id="ID_1A4A9A_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
                             <gml:endPosition indeterminatePosition="unknown"/>
                         </gml:TimePeriod>
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
-                    <aixm:sequenceNumber>5</aixm:sequenceNumber>
-                    <aixm:correctionNumber>0</aixm:correctionNumber>
-                    <aixm:featureLifetime>
-                        <gml:TimePeriod gml:id="uuid.049a35a6-fb6d-47b2-a288-e34816aa6c44">
-                            <gml:beginPosition>2015-07-23T00:00:00Z</gml:beginPosition>
-                            <gml:endPosition indeterminatePosition="unknown"/>
-                        </gml:TimePeriod>
-                    </aixm:featureLifetime>
-                    <aixm:serviceProvider xlink:type="simple" xlink:href="urn:uuid:89e59e4e-7b34-4574-8f9e-4cc7eb4537cf"/>
-                    <aixm:call-sign>
-                        <aixm:CallsignDetail gml:id="uuid.8589f062-1df0-43f3-9970-19e85f5b3a59">
-                            <aixm:callSign>SCHLESWIG TOWER</aixm:callSign>
-                            <aixm:language>eng</aixm:language>
-                            
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:sector>
+                        <aixm:CircleSector gml:id="uuid.20dfc7d4-abd0-4776-989e-1951e1bcfd25">
+                            <aixm:arcDirection>CCA</aixm:arcDirection>
+                            <aixm:fromAngle>10</aixm:fromAngle>
+                            <aixm:toAngle>20</aixm:toAngle>
+                            <aixm:angleType>HDG</aixm:angleType>
+                            <aixm:angleDirectionReference>FROM</aixm:angleDirectionReference>
+                            <aixm:innerDistance>10</aixm:innerDistance>
+                            <aixm:outerDistance>20</aixm:outerDistance>
+                            <aixm:upperLimit>10</aixm:upperLimit>
+                            <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                            <aixm:lowerLimit>5</aixm:lowerLimit>
+                            <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+
                             <aixm:annotation>
                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
-                                    <!-- WARNING It is prohibited that CallsignDetail has annotation.Note.propertyName value other-than-one-of ('callSign', 'language') -->
+                                    <!-- WARNING It is prohibited that CircleSector has annotation.Note.propertyName value other-than-one-of ('arcDirection', 'fromAngle', 'toAngle', 'angleType', 'angleDirectionReference', 'innerDistance', 'outerDistance', 'upperLimit', 'upperLimitReference', 'lowerLimit', 'lowerLimitReference')  -->
                                     <aixm:propertyName>invalidPropertyName</aixm:propertyName>
                                 </aixm:Note>
                             </aixm:annotation>
 
-                        </aixm:CallsignDetail>
-                    </aixm:call-sign>
-                </aixm:AirTrafficControlServiceTimeSlice>
+                        </aixm:CircleSector>
+                    </aixm:sector>
+                </aixm:RadioFrequencyAreaTimeSlice>
             </aixm:timeSlice>
-        </aixm:AirTrafficControlService>
+        </aixm:RadioFrequencyArea>
     </message:hasMember>
 </message:AIXMBasicMessage>
