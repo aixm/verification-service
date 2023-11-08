@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:gco="http://www.isotc211.org/2005/gco"
+                  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml"
+                  gml:id="uniqueId"
+>
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:AircraftGroundService gml:id="uuid.6378d5b1-0558-47d0-a194-aaf19137da6a">
+      <gml:identifier codeSpace="urn:uuid:">6378d5b1-0558-47d0-a194-aaf19137da6a</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AircraftGroundServiceTimeSlice gml:id="uuid.d3780566-07c2-47c9-8620-d4a0372d3d7c">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.8b4e7b3a-009b-487b-98b1-fa27dd5f3863">
+              <gml:beginPosition>2022-03-24T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.ba229a64-d30e-4d77-b123-e28cf04cd039">
+              <gml:beginPosition>2004-08-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:availability>
+            <aixm:ServiceOperationalStatus gml:id="uuid.c2e9a0f5-2a52-4f3e-b8c8-054bb78ee863">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.7950c0a1-de14-4e02-9b97-5657de42d14d">
+                  <aixm:propertyName>timeInterval</aixm:propertyName>
+                  <aixm:purpose>WARNING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.39e5f4ac-4e05-4513-87e6-5b5e15626ad2">
+                      <aixm:note>HX - no specific working hours</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
+            </aixm:ServiceOperationalStatus>
+          </aixm:availability>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.9d5a72c7-be51-4472-b25a-e98bfe65be10">
+              <aixm:purpose>DESCRIPTION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.51436a72-a0da-484a-8a57-099de649e3b4">
+                  <aixm:note>txtDescrFac:On request from Dublin Aerospace and Aer Lingus.</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <!-- ERROR: Found AircraftGroundService with airportHeliport@xlink:href value that does not match any AirportHeliport (${association})  -->
+          <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.92d9d95e-0969-4ca6-9a82-76d52d31f32c"/>
+          <aixm:type>HANGAR</aixm:type>
+        </aixm:AircraftGroundServiceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AircraftGroundService> 
+  </hasMember>
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<aixm:AircraftGroundService gml:id="uuid.92d9d95e-0969-4ca6-9a82-76d52d31f32c">
+  <gml:identifier codeSpace="urn:uuid:">92d9d95e-0969-4ca6-9a82-76d52d31f32c</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AircraftGroundServiceTimeSlice gml:id="uuid.1279f811-7802-470d-a469-a4369a4d08bf">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.deae7608-1d2e-4d61-9f50-6129bac6cbe7">
+          <gml:beginPosition>2017-08-17T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.e6328369-7a60-40ce-b712-be9e3213ea79">
+          <gml:beginPosition>2008-01-17T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:availability>
+        <aixm:ServiceOperationalStatus gml:id="uuid.fd771f0a-1a42-447a-8926-2f076c0cf5b4">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.a3ca59a7-48e7-44de-ac43-c954adc01fe4">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:day>MON</aixm:day>
+              <aixm:startTime>06:00</aixm:startTime>
+              <aixm:endTime>21:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.5f4e200a-5615-4cbe-9c48-32987c9f772f">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:day>TUE</aixm:day>
+              <aixm:startTime>04:30</aixm:startTime>
+              <aixm:endTime>21:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.cb20a466-e22f-4823-8303-d1e202b69e50">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:day>WED</aixm:day>
+              <aixm:startTime>04:30</aixm:startTime>
+              <aixm:endTime>21:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.b97f738e-3c77-44c2-a781-0da63922a359">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:day>THU</aixm:day>
+              <aixm:startTime>04:30</aixm:startTime>
+              <aixm:endTime>21:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.8fc04cc4-9dae-4f15-9e30-ef3965956be3">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:day>FRI</aixm:day>
+              <aixm:startTime>04:30</aixm:startTime>
+              <aixm:endTime>21:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.1b348ce4-cd76-41ec-960a-191aee4aa3d7">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:day>SAT</aixm:day>
+              <aixm:startTime>04:30</aixm:startTime>
+              <aixm:endTime>10:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
+        </aixm:ServiceOperationalStatus>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.d2b9c362-facc-4036-82af-b671190d5086">
+          <aixm:purpose>DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.e5d9e008-643e-4c52-8523-7c3e2f9543e1">
+              <aixm:note>txtDescrFac:1 de-icing unit Global with fluid Type I (capacity 3800 I) and Type II (capacity 1100 I) and 1 unit Mallgan with fluid Type I (capacity 6400 I) and Type II (capacity 2100 I), 1 heater with hot air for engines.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.09c13fd2-ea35-4d2a-b800-a6e4b0df0ca2"/>
+      <aixm:type>DEICE</aixm:type>
+    </aixm:AircraftGroundServiceTimeSlice>
+  </aixm:timeSlice>
+</aixm:AircraftGroundService>     
+  </hasMember>
+
+</AIXMBasicMessage>
+
