@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:AirportHeliport gml:id="uuid.789184bb-ec29-4914-b6e3-6b8d90a05eb7">
+      <gml:identifier codeSpace="urn:uuid:">789184bb-ec29-4914-b6e3-6b8d90a05eb7</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirportHeliportTimeSlice gml:id="uuid.bc62a6c9-1768-4cf9-9191-bca3bb6e85cd">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.2b9fd5bb-0964-4d6e-931d-27e473dea55c">
+              <gml:beginPosition>2012-12-13T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.22a51b7a-b211-4c6b-b6be-01faf594ae11">
+              <gml:beginPosition>2009-05-01T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>K06M</aixm:designator>
+          <aixm:name>EUPORA</aixm:name>
+          <aixm:type>AD</aixm:type>
+          <aixm:fieldElevation uom="FT">450.0</aixm:fieldElevation>
+          <aixm:magneticVariation>2</aixm:magneticVariation>
+          <aixm:dateMagneticVariation>1985</aixm:dateMagneticVariation>
+          <aixm:servedCity>
+            <aixm:City gml:id="uuid.25160846-996e-46fd-8809-aa61812d0e59">
+              <aixm:name>EUPORA</aixm:name>
+            </aixm:City>
+          </aixm:servedCity>
+          <aixm:responsibleOrganisation>
+            <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.96a0dd25-6d8a-4262-80c4-220c3c91820b">
+              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7fef-0ae9-e053-0b751dc2b779"/>
+            </aixm:AirportHeliportResponsibilityOrganisation>
+          </aixm:responsibleOrganisation>
+          <aixm:ARP>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:gml="http://www.opengis.net/gml/3.2"
+                                xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                srsName="urn:ogc:def:crs:EPSG::4326"
+                                gml:id="uuid.c3aebd35-7e64-4102-ba68-50d3f299dc89">
+              <gml:pos>33.534833333 -89.313111111</gml:pos>
+            </aixm:ElevatedPoint>
+          </aixm:ARP>
+          <aixm:availability>
+            <aixm:AirportHeliportAvailability gml:id="uuid.31e6e9d4-c780-4dfb-8067-3cca23d3a549">
+              <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+              <aixm:usage>
+                <aixm:AirportHeliportUsage gml:id="uuid.bb6bdbce-221a-4304-bb2a-bc0199205dd3">
+                  <aixm:type>PERMIT</aixm:type>
+                  <aixm:priorPermission uom="HR">1</aixm:priorPermission>
+                  <aixm:contact>
+                    <aixm:ContactInformation gml:id="uuid.debf83f9-b6e5-4e7c-9457-8a421a2f81ff"/>
+                  </aixm:contact>
+                  <aixm:selection>
+                    <aixm:ConditionCombination gml:id="uuid.debf83f9-b6e5-4e7c-9457-8a421a2f81fd">
+                      <aixm:logicalOperator>OR</aixm:logicalOperator>
+                      <aixm:flight>
+                        <aixm:FlightCharacteristic gml:id="uuid.9b85ca9f-1768-4725-9331-bd7c76fc77e8">
+                          <aixm:military>MIL</aixm:military>
+                        </aixm:FlightCharacteristic>
+                      </aixm:flight>
+                      <aixm:flight>
+                        <aixm:FlightCharacteristic gml:id="uuid.cbd77300-2d10-41bf-a0c0-e3c84dc153ac">
+                          <aixm:military>CIVIL</aixm:military>
+                        </aixm:FlightCharacteristic>
+                      </aixm:flight>
+                    </aixm:ConditionCombination>
+                  </aixm:selection>
+
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                      <!-- WARNING It is prohibited that AirportHeliportUsage has annotation.Note.propertyName value other-than-one-of ('type', 'priorPermission', 'contact', 'selection', 'operation')  -->
+                      <aixm:propertyName>invalidPropertyName</aixm:propertyName>
+                    </aixm:Note>
+                  </aixm:annotation>
+
+                  <aixm:operation>AIRSHOW</aixm:operation>
+                </aixm:AirportHeliportUsage>
+              </aixm:usage>
+            </aixm:AirportHeliportAvailability>
+          </aixm:availability>
+        </aixm:AirportHeliportTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AirportHeliport>
+  </message:hasMember>
+</message:AIXMBasicMessage>

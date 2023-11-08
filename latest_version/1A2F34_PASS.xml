@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:Airspace gml:id="uuid.d6976fe2-01cf-4fe2-b728-937729f5b84f">
+            <gml:identifier codeSpace="urn:uuid:">d6976fe2-01cf-4fe2-b728-937729f5b84f</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="uuid.39a914f9-a097-47c2-91d1-f351d9601117">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.b15d867a-0849-4ab3-8556-6cacb8d4f2c2">
+                            <gml:beginPosition>2017-08-28T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.595dd8d7-3ee7-4863-b88e-1e656ac023ce">
+                            <gml:beginPosition>2016-05-17T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>TMA</aixm:type>
+                    <aixm:designator>WIOO</aixm:designator>
+                    <aixm:name>PONTIANAK TMA</aixm:name>
+                    <aixm:designatorICAO>NO</aixm:designatorICAO>
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="uuid.e0a3cf0e-b9b0-4bc5-a629-394b37be354a">
+                            <aixm:operation>BASE</aixm:operation>
+                            <aixm:operationSequence>1</aixm:operationSequence>
+                            <aixm:theAirspaceVolume>
+                                <aixm:AirspaceVolume gml:id="uuid.ca27444b-a7ad-4c69-9133-24573aa386d2">
+                                    <aixm:upperLimit>11</aixm:upperLimit>
+                                    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                                    <aixm:maximumLimit>11</aixm:maximumLimit>
+                                    <aixm:maximumLimitReference>MSL</aixm:maximumLimitReference>
+                                    <aixm:lowerLimit>5</aixm:lowerLimit>
+                                    <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                                    <aixm:minimumLimit>5</aixm:minimumLimit>
+                                    <aixm:minimumLimitReference>MSL</aixm:minimumLimitReference>
+                                    <aixm:width>4</aixm:width>
+                                    <aixm:horizontalProjection>
+                                        <aixm:Surface>
+                                            <gml:patches>
+                                                <gml:PolygonPatch interpolation="planar">
+                                                    <gml:exterior>
+                                                        <gml:Ring>
+                                                            <gml:curveMember xlink:type="simple">
+                                                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.5ee3af85-f1c4-4491-a8b8-f045c3a7ee04">
+                                                                    <gml:segments>
+                                                                        <gml:GeodesicString interpolation="geodesic">
+                                                                            <gml:posList>64.055 22.90389 63.52861 22.67639 63.41639 22.49417 63.30944 22.13611 63.45 21.56694 64.01194 22.39833 64.055 22.90389</gml:posList>
+                                                                        </gml:GeodesicString>
+                                                                    </gml:segments>
+                                                                </aixm:Curve>
+                                                            </gml:curveMember>
+                                                        </gml:Ring>
+                                                    </gml:exterior>
+                                                </gml:PolygonPatch>
+                                            </gml:patches>
+                                        </aixm:Surface>
+                                    </aixm:horizontalProjection>
+                                    <aixm:centreline>
+                                        <aixm:Curve>
+                                            <gml:segments>
+                                                <gml:GeodesicString interpolation="geodesic">
+                                                    <gml:pointProperty xlink:type="simple">
+                                                        <aixm:Point gml:id="uuid.5091b9a5-3a26-49a8-b0b1-98a62a92c202">
+                                                            <gml:pos>63.525347333 8.086885917</gml:pos>
+
+                                                            <aixm:horizontalAccuracy uom="M">3.0</aixm:horizontalAccuracy>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfdff">
+                                                                    <aixm:propertyName>horizontalAccuracy</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+
+                                                        </aixm:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty xlink:type="simple">
+                                                        <aixm:Point gml:id="uuid.39f3590b-2c36-4669-b812-1e251577de33">
+                                                            <gml:pos>63.556264778 8.319210083</gml:pos>
+                                                            <aixm:horizontalAccuracy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                            <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                        </aixm:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty xlink:type="simple">
+                                                        <aixm:Point gml:id="uuid.6e6cd97e-ef86-469b-83f6-8ac98d2ab3af">
+                                                            <gml:pos>63.461579500 9.034008778</gml:pos>
+                                                            <aixm:horizontalAccuracy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                            <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                        </aixm:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty xlink:type="simple">
+                                                        <aixm:Point gml:id="uuid.5fb12f97-fdf7-4ed6-a6e3-ada11ce7987b">
+                                                            <gml:pos>62.975157917 9.051756639</gml:pos>
+                                                            <aixm:horizontalAccuracy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                            <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                        </aixm:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty xlink:type="simple">
+                                                        <aixm:Point gml:id="uuid.ae115fa0-1a1b-4071-a988-4607f2d721d0">
+                                                            <gml:pos>62.722160722 8.375677917</gml:pos>
+                                                            <aixm:horizontalAccuracy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                            <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                        </aixm:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty xlink:type="simple">
+                                                        <aixm:Point gml:id="uuid.7a02189d-40e1-4f19-8063-1f19cbe06249">
+                                                            <gml:pos>62.814706139 8.160967667</gml:pos>
+                                                            <aixm:horizontalAccuracy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                            <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                        </aixm:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty xlink:type="simple">
+                                                        <aixm:Point gml:id="uuid.3275a420-f211-4669-998f-0fb92494f9dd">
+                                                            <gml:pos>63.178838361 7.487893833</gml:pos>
+                                                            <aixm:horizontalAccuracy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                            <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                        </aixm:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty xlink:type="simple">
+                                                        <aixm:Point gml:id="uuid.7d94d56a-8417-45a7-91c8-39e9bd1698b8">
+                                                            <gml:pos>63.525347333 8.086885917</gml:pos>
+                                                            <aixm:horizontalAccuracy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                            <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                        </aixm:Point>
+                                                    </gml:pointProperty>
+                                                </gml:GeodesicString>
+                                            </gml:segments>
+                                        </aixm:Curve>
+                                    </aixm:centreline>
+
+                                    <aixm:contributorAirspace>
+                                        <aixm:AirspaceVolumeDependency gml:id="uuid.35f52b0f-8822-41ca-816a-8a68e5f8cf59">
+                                            <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                                            <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.d8694310-c9d2-4910-ad59-2b9f96e4974d"/>
+                                        </aixm:AirspaceVolumeDependency>
+                                    </aixm:contributorAirspace>
+
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                                            <aixm:propertyName>upperLimit</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                                            <aixm:propertyName>upperLimitReference</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                                            <aixm:propertyName>maximumLimit</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                                            <aixm:propertyName>maximumLimitReference</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+                                            <aixm:propertyName>lowerLimit</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
+                                            <aixm:propertyName>lowerLimitReference</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
+                                            <aixm:propertyName>minimumLimit</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
+                                            <aixm:propertyName>minimumLimitReference</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
+                                            <aixm:propertyName>width</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
+                                            <aixm:propertyName>horizontalProjection</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
+                                            <aixm:propertyName>centreline</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2b">
+                                            <aixm:propertyName>contributorAirspace</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+
+
+                                </aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>
