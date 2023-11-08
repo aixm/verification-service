@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:gco="http://www.isotc211.org/2005/gco"
+                  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml"
+                  gml:id="uniqueId"
+>
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:AircraftGroundService gml:id="uuid.6378d5b1-0558-47d0-a194-aaf19137da6a">
+      <gml:identifier codeSpace="urn:uuid:">6378d5b1-0558-47d0-a194-aaf19137da6a</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AircraftGroundServiceTimeSlice gml:id="uuid.d3780566-07c2-47c9-8620-d4a0372d3d7c">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.8b4e7b3a-009b-487b-98b1-fa27dd5f3863">
+              <gml:beginPosition>2022-03-24T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.ba229a64-d30e-4d77-b123-e28cf04cd039">
+              <gml:beginPosition>2004-08-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:availability>
+            <aixm:ServiceOperationalStatus gml:id="uuid.c2e9a0f5-2a52-4f3e-b8c8-054bb78ee863">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.7950c0a1-de14-4e02-9b97-5657de42d14d">
+                  <aixm:propertyName>timeInterval</aixm:propertyName>
+                  <aixm:purpose>WARNING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.39e5f4ac-4e05-4513-87e6-5b5e15626ad2">
+                      <aixm:note>HX - no specific working hours</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
+            </aixm:ServiceOperationalStatus>
+          </aixm:availability>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.9d5a72c7-be51-4472-b25a-e98bfe65be10">
+              <aixm:purpose>DESCRIPTION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.51436a72-a0da-484a-8a57-099de649e3b4">
+                  <aixm:note>txtDescrFac:On request from Dublin Aerospace and Aer Lingus.</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.72ddec67-8769-4ce5-a72f-9699a8cecd2f"/>
+          <aixm:type>HANGAR</aixm:type>
+        </aixm:AircraftGroundServiceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AircraftGroundService> 
+  </hasMember>
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:AirportHeliport gml:id="uuid.72ddec67-8769-4ce5-a72f-9699a8cecd2f">
+      <gml:identifier codeSpace="urn:uuid:">72ddec67-8769-4ce5-a72f-9699a8cecd2f</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirportHeliportTimeSlice gml:id="uuid.8603ac52-a47c-4294-83fb-e6abb1e7eb81">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.9c055422-ad3d-47f3-a023-c59e7f31fcb9">
+              <gml:beginPosition>2022-08-11T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>10</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.1629a6c6-40b0-404b-8dca-c55044c3c8b3">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>EIDW</aixm:designator>
+          <aixm:name>DUBLIN INTERNATIONAL</aixm:name>
+          <aixm:locationIndicatorICAO>EIDW</aixm:locationIndicatorICAO>
+          <aixm:designatorIATA>DUB</aixm:designatorIATA>
+          <aixm:type>AD</aixm:type>
+          <aixm:fieldElevation uom="FT">243</aixm:fieldElevation>
+          <aixm:fieldElevationAccuracy uom="FT">1</aixm:fieldElevationAccuracy>
+          <aixm:verticalDatum>OTHER:SEE_NOTE_AIXM_4_5_MAPPING</aixm:verticalDatum>
+          <aixm:magneticVariation>-2.0</aixm:magneticVariation>
+          <aixm:dateMagneticVariation>2022</aixm:dateMagneticVariation>
+          <aixm:magneticVariationChange>-0.18</aixm:magneticVariationChange>
+          <aixm:referenceTemperature uom="C">19.7</aixm:referenceTemperature>
+          <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+          <aixm:servedCity>
+            <aixm:City gml:id="uuid.12eb0327-7ed0-42fa-acee-5287528ae090">
+              <aixm:name>DUBLIN</aixm:name>
+            </aixm:City>
+          </aixm:servedCity>
+          <aixm:responsibleOrganisation>
+            <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.be43d64e-4282-4c35-8bf4-5ac084d2343f">
+              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7d61-0ae9-e053-0b751dc2b779"/>
+            </aixm:AirportHeliportResponsibilityOrganisation>
+          </aixm:responsibleOrganisation>
+          <aixm:ARP>
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.cbaef722-e766-4983-94d6-ee671f3f1d30">
+              <gml:pos>53.42139 -6.27</gml:pos>
+              <aixm:horizontalAccuracy uom="M">30</aixm:horizontalAccuracy>
+              <aixm:geoidUndulation uom="FT">184</aixm:geoidUndulation>
+            </aixm:ElevatedPoint>
+          </aixm:ARP>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.11324f86-c742-4651-839f-71ab3b59b28b">
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.f73ff207-0473-489d-ac4c-6cf9b8abfb9f">
+                  <aixm:voice>+ 353 1 944 1111</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.b8d51af2-f1e5-473d-bde0-f9e168816bad">
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.db1d8f5e-ca13-4928-836a-125c47d0fc9c">
+                  <aixm:network>AFTN</aixm:network>
+                  <aixm:linkage>EIDWYDYX</aixm:linkage>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.3676a28d-1c23-4d48-bdeb-d614ff6739ba">
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.f5605f93-e94c-496e-891d-db1b14c6d742">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.d7eaa58c-73f9-492e-9618-e70da6c54dd5">
+                      <aixm:purpose>REMARK</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.420514fe-07ae-4eaf-ad85-e0edb5419e11">
+                          <aixm:note>txtRmk:(Airport Administration)</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:network>SITA</aixm:network>
+                  <aixm:linkage>DUBRN7X</aixm:linkage>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.17a3fed6-c5ea-4751-96a5-03f60ed5f24d">
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.6419a5ea-446f-439b-9c1c-dc3de628f2ec">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.1eef8395-3759-47a4-8901-20e2a5a1392c">
+                      <aixm:purpose>REMARK</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.81beee9d-2a54-4d29-82d1-3263673ad0e1">
+                          <aixm:note>txtRmk:AVBL H24</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:facsimile>+ 353 1 944 4715</aixm:facsimile>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.7a622627-fe1f-44c9-a4e2-216d4f7d103e">
+              <aixm:address>
+                <aixm:PostalAddress gml:id="uuid.bbfb552a-59cc-4e9a-8142-dffb55288856">
+                  <aixm:deliveryPoint>daa plc.
+                    Dublin Airport
+                    Co Dublin</aixm:deliveryPoint>
+                </aixm:PostalAddress>
+              </aixm:address>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.8d2db500-75d2-4045-a94e-219b3decda10">
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.960930cd-57dd-4b90-a3c3-6437bc958ff9">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.2de010e0-8f72-4c27-845b-8fd8ae7bf0f8">
+                      <aixm:purpose>REMARK</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.6d62e389-d034-42db-9a16-2d9ed6afc219">
+                          <aixm:note>txtRmk:Resource Allocation Unit</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:voice>+ 353 1 944 5228
+                  </aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.9babe2e4-33c2-4eaa-a950-0712d1d201ce">
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.fb489f79-9c41-4e4b-bb41-f69683ba8d1d">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.cfc344a3-1ca0-458d-88bf-7c822abc6008">
+                      <aixm:purpose>REMARK</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.1c4dbd53-3146-4674-8e0a-5aa46b414169">
+                          <aixm:note>txtRmk:Resource Allocation Unit (for stand allocation)</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:network>INTERNET</aixm:network>
+                  <aixm:eMail>ops.aoso@daa.ie</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.84685bb2-7834-41bc-a727-000542cc6d73">
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.a15fcab2-2bac-4409-8b10-2f47e86db33f">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.208b29bd-aea8-41e1-b392-3205d457ca32">
+                      <aixm:purpose>REMARK</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.61c71989-0671-4fb4-ad31-d071b94c29d4">
+                          <aixm:note>txtRmk:Airside Operations and Safety Officers (AOSO)</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:voice>+ 353 87 2892277
+                  </aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.a39225e0-acfd-4061-9a2c-92aa9c7b93f7">
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.5df510cb-dfa2-487b-b699-3cd322dc3fa8">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.ef424f46-4c08-4090-b954-cc53a3d896ae">
+                      <aixm:purpose>REMARK</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.ad62663d-0020-481d-96e3-d16856b81a73">
+                          <aixm:note>txtRmk:Airside Operations and Safety Officers (AOSO)</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:network>INTERNET</aixm:network>
+                  <aixm:eMail>AMU@daa.ie</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.0dab2be1-413d-4edf-b4e2-b0e72dcbcd11">
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.233f0176-8d39-47e0-802f-06cf967c793c">
+                  <aixm:voice>+ 353 87 2892222
+                  </aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.c05ab057-fa16-4858-8008-cb7dcbf17502">
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.4f1d4688-cc9d-4a4f-8555-3377c22c2d11">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.43f7b81f-e7bc-4d3d-bac8-cda21f533c9b">
+                      <aixm:purpose>REMARK</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.1bc2425a-e275-4e13-a597-406453411f9e">
+                          <aixm:note>txtRmk:Airport Duty Manager</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:network>INTERNET</aixm:network>
+                  <aixm:eMail>Airportdmdublin@daa.ie</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:availability>
+            <aixm:AirportHeliportAvailability gml:id="uuid.763f13ac-3910-497c-8af2-c161f28f3441">
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.4f0890d3-adff-494a-9dc9-ce73e118aada">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:day>ANY</aixm:day>
+                  <aixm:startTime>00:00</aixm:startTime>
+                  <aixm:endTime>24:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.f819f79a-8871-409c-8721-a908af335a9c">
+                  <aixm:propertyName>timeInterval</aixm:propertyName>
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.371771aa-60d2-4f77-aa52-a9c12c07dbcb">
+                      <aixm:note>Remark:Airport closed on 25th December. Exact hours advised by NOTAM</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+              <aixm:usage>
+                <aixm:AirportHeliportUsage gml:id="uuid.34580410-09d5-4f54-955a-61517f56e5f2">
+                  <aixm:type>PERMIT</aixm:type>
+                  <aixm:selection>
+                    <aixm:ConditionCombination gml:id="uuid.920d0e24-4e25-4468-9b8f-c5de8d71a989">
+                      <aixm:timeInterval>
+                        <aixm:Timesheet gml:id="uuid.da32d452-9271-4be8-aff7-eee71ef2195f">
+                          <aixm:timeReference>UTC</aixm:timeReference>
+                          <aixm:day>ANY</aixm:day>
+                          <aixm:startTime>00:00</aixm:startTime>
+                          <aixm:endTime>24:00</aixm:endTime>
+                          <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                          <aixm:excluded>NO</aixm:excluded>
+                        </aixm:Timesheet>
+                      </aixm:timeInterval>
+                      <aixm:logicalOperator>OR</aixm:logicalOperator>
+                      <aixm:flight>
+                        <aixm:FlightCharacteristic gml:id="uuid.caf3b10f-ff73-410c-b0c0-5d1d8dd1decb">
+                          <aixm:rule>ALL</aixm:rule>
+                          <aixm:military>CIVIL</aixm:military>
+                          <aixm:origin>ALL</aixm:origin>
+                          <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                        </aixm:FlightCharacteristic>
+                      </aixm:flight>
+                      <aixm:flight>
+                        <aixm:FlightCharacteristic gml:id="uuid.0c3231d4-323a-4f9a-a85e-711fd0d822c8">
+                          <aixm:rule>ALL</aixm:rule>
+                          <aixm:military>CIVIL</aixm:military>
+                          <aixm:origin>ALL</aixm:origin>
+                          <aixm:purpose>SCHEDULED</aixm:purpose>
+                        </aixm:FlightCharacteristic>
+                      </aixm:flight>
+                      <aixm:flight>
+                        <aixm:FlightCharacteristic gml:id="uuid.d930bca8-016d-49c4-9aff-cdc2ca11ce7a">
+                          <aixm:rule>ALL</aixm:rule>
+                          <aixm:military>CIVIL</aixm:military>
+                          <aixm:origin>ALL</aixm:origin>
+                          <aixm:purpose>PRIVATE</aixm:purpose>
+                        </aixm:FlightCharacteristic>
+                      </aixm:flight>
+                    </aixm:ConditionCombination>
+                  </aixm:selection>
+                </aixm:AirportHeliportUsage>
+              </aixm:usage>
+            </aixm:AirportHeliportAvailability>
+          </aixm:availability>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.60306b9e-5c17-4822-b60c-d95d00da5ccb">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.11ca521d-a03e-4af9-a8cb-57b578782ad3">
+                  <aixm:note>CRC:532517N, 0061612W, 243, 184, E32D1738</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.efa31f95-da04-495d-a3a4-d361add5e95b">
+              <aixm:propertyName>verticalDatum</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.06c7c47e-8662-42d5-9bd7-4eb674b8125a">
+                  <aixm:note>Vertical datum:Malin Head</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.8e82b589-2682-46bd-8b8a-50087c49edcb">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.1290a64e-000a-470f-8599-0d3b55688f67">
+                  <aixm:note>Organisation in charge:DUBLIN AIRPORT AUTHORITY</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.2e356dad-2dac-4355-9ac7-f74e48c2b71f">
+              <aixm:propertyName>altimeterCheckLocation</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.21b7779b-6adf-45c2-a80a-f09faa4709d4">
+                  <aixm:note>Altimeter check location description:Location:           South Apron 
+                    Elevation:          201 FT AMSL</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.aded7c78-09c4-4ae5-bf37-f2abb397582f">
+              <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.433f9bc1-96e2-4454-8d3b-09a4aa88c4e9">
+                  <aixm:note>Secondary Power Supply:Emergency power supply provided, switch over time 15 SEC (1 SEC in Low Visibility Procedures) Electric battery lamps.</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.820fcfa5-25f7-4ab3-b7b5-ea700a0b79e5">
+              <aixm:propertyName>windDirectionIndicator</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.ab08df27-4003-49b7-a31b-4566e8351b1e">
+                  <aixm:note>Wind Direction Indicator:WDI's 4 Nr (2 lighted)</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.49ed5dae-1de1-4109-a0c6-8a0b901caad1">
+              <aixm:propertyName>landingDirectionIndicator</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.e6799e5a-ff84-4c13-a0ef-a77f5bb7d0bd">
+                  <aixm:note>Landing Direction Indicator Description:Nil</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.8d90ded4-66b4-4351-95f3-4431df2ae187">
+              <aixm:propertyName>arp</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.af2cf970-c597-49f5-a249-b741ea002e84">
+                  <aixm:note>Aerodrome Reference Point Description:Midpoint RWY 10R/28L</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.62ffeaa5-b25a-4f43-8ab5-839aca496480">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.13461950-9ee5-4d8d-be68-2afb3bb9defd">
+                  <aixm:note>Site Description:10 KM (5.4 NM) North of Dublin</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.ee4c8de8-84af-452a-a6bf-14f47532acc6">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.bcbd1354-b564-4b9a-832e-c3015d898bda">
+                  <aixm:note>txtRmk:AD Administration H24</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AirportHeliportTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AirportHeliport> 
+  </hasMember>
+
+</AIXMBasicMessage>
+

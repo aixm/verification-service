@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:gco="http://www.isotc211.org/2005/gco"
+                  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml"
+                  gml:id="uniqueId"
+>
+
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:AirportClearanceService gml:id="uuid.dd787fd9-7f93-45b9-b84c-50cc7f67f3cb">
+      <gml:identifier codeSpace="urn:uuid:">dd787fd9-7f93-45b9-b84c-50cc7f67f3cb</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirportClearanceServiceTimeSlice gml:id="uuid.a9d48c8f-1bbc-4fc5-86b5-6a8f0d348e09">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.2e6753b0-27e0-4b26-a1ef-d41e6b22699d">
+              <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>5</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.2011ec3f-334a-4bae-bfc7-4c22e27c58e0">
+              <gml:beginPosition>2019-07-18T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:flightOperations nilReason="other:notavailable" xsi:nil="true"/>
+          <aixm:rank nilReason="other:notavailable" xsi:nil="true"/>
+          <aixm:compliantICAO nilReason="other:notavailable" xsi:nil="true"/>
+          <aixm:name>SNOW REMOVAL</aixm:name>
+          <aixm:location xsi:nil="true"/>
+          <aixm:serviceProvider xsi:nil="true"/>
+          <aixm:groundCommunication>
+            <aixm:ContactInformation gml:id="uuid.eb368e22-b98a-4163-bff7-0174e37196ae">
+              <aixm:name>SNOW REMOVAL</aixm:name>
+              <aixm:title nilReason="other:notavailable" xsi:nil="true"/>
+              <aixm:annotation xsi:nil="true"/>
+            </aixm:ContactInformation>
+          </aixm:groundCommunication>
+          <aixm:availability>
+            <aixm:ServiceOperationalStatus gml:id="uuid.061d208d-2a15-4d1a-ba5a-b522c8082b34">
+              <aixm:annotation xsi:nil="true"/>
+              <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+            </aixm:ServiceOperationalStatus>
+          </aixm:availability>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.f6ce47f1-2038-4a5a-bd6d-d97cf14e6c74">
+              <aixm:purpose>OTHER:EAD_SDD_TRANSITION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.9e68fa36-be47-4fb0-b16f-295372ee2779">
+                  <aixm:note lang="eng">Annotation created in order to force a change in relation to EAD transition on AIRAC 2023-04-20</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <!-- ERROR: Found AirportClearanceService with airportHeliport@xlink:href value that does not match any AirportHeliport (${association}) -->
+          <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.0891587e-94a7-4468-bd70-77138ef70ae9"/>
+          <aixm:snowPlan>REF AD 1.2</aixm:snowPlan>
+        </aixm:AirportClearanceServiceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AirportClearanceService> 
+    
+  </hasMember>
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:AirportClearanceService gml:id="uuid.0891587e-94a7-4468-bd70-77138ef70ae9">
+      <gml:identifier codeSpace="urn:uuid:">0891587e-94a7-4468-bd70-77138ef70ae9</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirportClearanceServiceTimeSlice gml:id="uuid.893eddf7-a5f9-4ed9-942e-235266e9ccde">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.0385ac84-85e8-489f-9e56-9aec9cf30d8c">
+              <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>3</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.9e9e3de2-a323-4c37-aae3-d3f4efd0fb8e">
+              <gml:beginPosition>2019-07-18T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:flightOperations nilReason="other:notavailable" xsi:nil="true"/>
+          <aixm:rank nilReason="other:notavailable" xsi:nil="true"/>
+          <aixm:compliantICAO nilReason="other:notavailable" xsi:nil="true"/>
+          <aixm:name>SNOW REMOVAL</aixm:name>
+          <aixm:location xsi:nil="true"/>
+          <aixm:serviceProvider xsi:nil="true"/>
+          <aixm:groundCommunication>
+            <aixm:ContactInformation gml:id="uuid.51cdc62f-9623-4e35-8971-5fa972a034b4">
+              <aixm:name>SNOW REMOVAL</aixm:name>
+              <aixm:title nilReason="other:notavailable" xsi:nil="true"/>
+              <aixm:annotation xsi:nil="true"/>
+            </aixm:ContactInformation>
+          </aixm:groundCommunication>
+          <aixm:availability>
+            <aixm:ServiceOperationalStatus gml:id="uuid.5a298f66-db2b-4212-b9fb-0478b26e281e">
+              <aixm:annotation xsi:nil="true"/>
+              <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+            </aixm:ServiceOperationalStatus>
+          </aixm:availability>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.67803cc2-1737-4c80-abfe-aaacea404285">
+              <aixm:purpose>OTHER:EAD_SDD_TRANSITION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.6543d9e4-ce3d-4720-ad45-bb8c8a1c6bc7">
+                  <aixm:note lang="eng">Annotation created in order to force a change in relation to EAD transition on AIRAC 2023-04-20</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.9025d12a-b952-4a74-9335-19e609aa34a5"/>
+          <aixm:snowPlan>REF AD 1.2</aixm:snowPlan>
+        </aixm:AirportClearanceServiceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AirportClearanceService> 
+    
+  </hasMember>
+
+  
+</AIXMBasicMessage>
+

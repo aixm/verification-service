@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:gco="http://www.isotc211.org/2005/gco"
+                  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml"
+                  gml:id="uniqueId"
+>
+
+    <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:Navaid gml:id="uuid.27987624-d500-48de-b358-db5e712a5b21">
+            <gml:identifier codeSpace="urn:uuid:">27987624-d500-48de-b358-db5e712a5b21</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="uuid.96fb5690-69b5-408c-a9e9-22f80d3af8c2">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.ac220e61-9ab2-4582-ab1b-0cc75f038745">
+                            <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>3</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.c89adb19-0605-4165-8d78-8bf40af0af4d">
+                            <gml:beginPosition>2019-07-18T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>DF</aixm:type>
+                    <aixm:designator nilReason="inapplicable" xsi:nil="true"/>
+                    <aixm:name>BATSFJORD</aixm:name>
+                    <aixm:flightChecked>YES</aixm:flightChecked>
+                    <aixm:purpose>TERMINAL</aixm:purpose>
+                    <aixm:signalPerformance nilReason="other:notavailable" xsi:nil="true"/>
+                    <aixm:courseQuality nilReason="other:notavailable" xsi:nil="true"/>
+                    <aixm:integrityLevel nilReason="other:notavailable" xsi:nil="true"/>
+                    <aixm:navaidEquipment>
+                        <aixm:NavaidComponent gml:id="uuid.8bb385ce-c925-4fde-a465-af512982e6af">
+                            <aixm:collocationGroup>1</aixm:collocationGroup>
+                            <aixm:markerPosition nilReason="inapplicable" xsi:nil="true"/>
+                            <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+                            <aixm:annotation xsi:nil="true"/>
+                            <aixm:theNavaidEquipment xlink:type="simple"
+                                                     xlink:href="#uuid:68c8c2e4-2e14-4fff-b72d-b09fc7dd0f15"/>
+                        </aixm:NavaidComponent>
+                    </aixm:navaidEquipment>
+                    <aixm:location>
+                        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            srsName="urn:ogc:def:crs:EPSG::4326"
+                                            gml:id="uuid.c4dc7488-70a7-48e8-a8cd-dad7c82737e6">
+                            <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">70.601075083 29.697872806</gml:pos>
+                            <aixm:horizontalAccuracy uom="M">0.3</aixm:horizontalAccuracy>
+                            <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                            <aixm:elevation uom="M">154.584</aixm:elevation>
+                            <aixm:geoidUndulation uom="M">20.451</aixm:geoidUndulation>
+                            <aixm:verticalDatum>OTHER:NN2000</aixm:verticalDatum>
+                            <aixm:verticalAccuracy uom="M">0.01</aixm:verticalAccuracy>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:13e1897c-9710-4804-828d-a523059a4d6d"/>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.f8700adb-9210-4b8a-b734-5423ae029548">
+                            <aixm:purpose>OTHER:EAD_SDD_TRANSITION</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.6dadf34c-fc1a-4e65-8c6e-e18937199b2f">
+                                    <aixm:note lang="eng">Annotation created in order to force a change in relation to
+                                        EAD transition on AIRAC 2023-04-20
+                                    </aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </hasMember>
+
+    <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:SDF gml:id="uuid.68c8c2e4-2e14-4fff-b72d-b09fc7dd0f15">
+            <gml:identifier codeSpace="urn:uuid:">28d835f7-4409-45f7-b670-55cfbbcd2fb0</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:SDFTimeSlice gml:id="uuid.22e511ff-ece6-4e87-a922-a1f127fe1957">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.8301522d-6e88-48b4-93d9-1b6baf40e3f0">
+                            <gml:beginPosition>2022-07-14T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.02e2ae87-7adc-4b7c-bc30-f173a8a58b64">
+                            <gml:beginPosition>2022-07-14T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>MF</aixm:designator>
+                    <aixm:location>
+                        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            srsName="urn:ogc:def:crs:EPSG::4326"
+                                            gml:id="uuid.a91ec682-518d-417b-a4dd-1e4183dfdafd">
+                            <gml:pos>62.0676778 -7.2935278</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:availability>
+                        <aixm:NavaidOperationalStatus gml:id="uuid.bbf6202f-3faa-4d11-a3fc-0fd009ade580">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.7d55fc55-a973-4e03-9a36-9aef45311cc6">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:startDate>01-01</aixm:startDate>
+                                    <aixm:endDate>31-12</aixm:endDate>
+                                    <aixm:day>ANY</aixm:day>
+                                    <aixm:dayTil>ANY</aixm:dayTil>
+                                    <aixm:startTime>00:00</aixm:startTime>
+                                    <aixm:endTime>24:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
+                        </aixm:NavaidOperationalStatus>
+                    </aixm:availability>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.ebf82200-dce8-43b9-aac4-b8ac2360f4b3">
+                            <aixm:purpose>REMARK</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.1ec5704d-f47c-4eeb-b075-28e972cfc2bb">
+                                    <aixm:note>txtRmk:140 DEG GEO, 0.10 NM/176 M from THR 12, LLZ course 296 DEG GEO,
+                                        offset 2 DEG from RWY centre line. The LLZ is not to be used outside 10 DEG on
+                                        each side of the approach course.
+                                    </aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.2d6fc375-63fb-4653-9802-7452184b3d30">
+                            <aixm:purpose>REMARK</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.7a474a9f-748b-4e54-bfba-0d26e90933f5">
+                                    <aixm:note>Source: EAD for the purpose of the transition to SDD</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:frequency uom="MHZ">110.3</aixm:frequency>
+                    <aixm:trueBearing>140.0</aixm:trueBearing>
+                </aixm:SDFTimeSlice>
+            </aixm:timeSlice>
+        </aixm:SDF>
+    </hasMember>
+
+
+</AIXMBasicMessage>

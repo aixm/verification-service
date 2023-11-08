@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:gco="http://www.isotc211.org/2005/gco"
+                  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml"
+                  gml:id="uniqueId"
+>
+
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Navaid gml:id="uuid.3d0730b1-e946-4b24-add6-4daab838dc21">
+      <gml:identifier codeSpace="urn:uuid:">3d0730b1-e946-4b24-add6-4daab838dc21</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:NavaidTimeSlice gml:id="uuid.ff575060-1b14-44a5-928b-60d875a3f5d7">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.aeab3645-a0d4-43d4-b5f2-5bdcdf3d9293">
+              <gml:beginPosition>2007-07-05T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.9b3e8efc-d8c7-43f3-b82f-f8211ec879d8">
+              <gml:beginPosition>2007-07-05T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>MKR</aixm:type>
+          <aixm:name>MM 09</aixm:name>
+          <aixm:navaidEquipment>
+            <aixm:NavaidComponent gml:id="uuid.dcb912a4-1d5f-475d-b554-a9ec52bebbd2">
+              <aixm:markerPosition>MIDDLE</aixm:markerPosition>
+              <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+              <!-- ERROR: Found 'MKR' Navaid composed of incorrect equipment (DirectionFinder) -->
+              <aixm:theNavaidEquipment xlink:type="simple"
+                                       xlink:href="#uuid.716da4c0-1a6c-4377-9e65-70922fe98e05"/>
+            </aixm:NavaidComponent>
+          </aixm:navaidEquipment>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
+                                xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                                xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                                xmlns:gco="http://www.isotc211.org/2005/gco"
+                                xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:gml="http://www.opengis.net/gml/3.2"
+                                xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot"
+                                xmlns:gts="http://www.isotc211.org/2005/gts"
+                                xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                srsName="urn:ogc:def:crs:EPSG::4326"
+                                gml:id="uuid.79f4ba25-721f-4ce5-99be-ecd12aaa549c">
+              <gml:pos>38.94889 -1.89</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.33486c26-24d7-472e-8d7b-b43483a969e3">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.2f9c48d2-8c1b-4a38-a0a7-74ab82d05e86">
+                      <aixm:note>CRC:385656N, 0015324W, , , 8E88EF87</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+
+        </aixm:NavaidTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Navaid>
+
+  </hasMember>
+  
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:DirectionFinder gml:id="uuid.716da4c0-1a6c-4377-9e65-70922fe98e05">
+      <gml:identifier codeSpace="urn:uuid:">716da4c0-1a6c-4377-9e65-70922fe98e05</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:DirectionFinderTimeSlice gml:id="uuid.21d05a56-46ee-420e-94b4-c448e58472d2">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.9d70d988-c17d-480a-b819-65c57f03fd58">
+              <gml:beginPosition>2007-07-05T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.679359e5-1508-4a44-8392-3a16678c9b86">
+              <gml:beginPosition>2007-07-05T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>MM 09</aixm:name>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
+                                xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                                xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                                xmlns:gco="http://www.isotc211.org/2005/gco"
+                                xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"
+                                xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot"
+                                xmlns:gts="http://www.isotc211.org/2005/gts"
+                                xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326"
+                                gml:id="uuid.c6f519e6-be34-4c42-86bf-11a91ff85b45">
+              <gml:pos>38.94889 -1.89</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.c8cd4ad4-de18-444b-b7d5-cba7fb0b873d">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.3019b8f3-818b-4609-80f9-9ec43f788713">
+                      <aixm:note>CRC:385656N, 0015324W, , , 8E88EF87</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:authority>
+            <aixm:AuthorityForNavaidEquipment gml:id="uuid.dbc8ae19-da85-4a41-9d26-d527972e0e77">
+              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7e4b-0ae9-e053-0b751dc2b779"/>
+            </aixm:AuthorityForNavaidEquipment>
+          </aixm:authority>
+          <aixm:availability>
+            <aixm:NavaidOperationalStatus gml:id="uuid.c30e8f68-6d8f-46ab-adeb-dad6ffc009bd">
+              <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
+            </aixm:NavaidOperationalStatus>
+          </aixm:availability>
+        </aixm:DirectionFinderTimeSlice>
+      </aixm:timeSlice>
+    </aixm:DirectionFinder>
+
+
+
+    
+  </hasMember>
+</AIXMBasicMessage>
+

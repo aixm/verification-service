@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:gco="http://www.isotc211.org/2005/gco"
+                  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml"
+                  gml:id="uniqueId"
+>
+
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:AirportSuppliesService gml:id="uuid.d98c60b4-ac28-4f88-b619-866c722264d6">
+      <gml:identifier codeSpace="urn:uuid:">d98c60b4-ac28-4f88-b619-866c722264d6</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirportSuppliesServiceTimeSlice gml:id="uuid.69a83055-60cb-4010-ae28-7c20a19c38f9">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.73a9930b-b565-4c8e-af79-726389167c94">
+              <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.5a7ddc17-a7f9-4fac-a7f5-601b2687b0f9">
+              <gml:beginPosition>2022-07-14T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.b964832e-252f-4ce0-9c08-0e585b97c925">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.98d4d62e-1010-4623-a7b9-b59f17d0517f">
+                  <aixm:note>Source: EAD for the purpose of the transition to SDD</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <!-- ERROR: Found AirportSuppliesService with airportHeliport@xlink:href value that does not match any AirportHeliport (${association}) -->
+          <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.0e93e944-2e5e-42f6-8565-7bce192077b6"/>
+          <aixm:fuelSupply>
+            <aixm:Fuel gml:id="uuid.3a85c7ac-aa56-4cff-b3af-049aa2d70e25">
+              <aixm:category>AVGAS_LL</aixm:category>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.40c5f5aa-2c36-4109-9a3f-2211ff99a827">
+                  <aixm:purpose>DESCRIPTION</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.9785c877-995f-403d-89c3-b38cb03274fa">
+                      <aixm:note>60 L/MIN</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.92c9c0ec-f314-4bf7-bdf0-2ad7771c9c76">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.c5384407-43a4-4ec8-ba7a-7257a3700277">
+                      <aixm:note>Self-service. 100LL fuelling operational hours: From 0800 until one hour before closing as AD. 100LL card verification is required. Verification via phone +45 20 32 10 43 during opening hours 0800 - 1600 on weekdays. 100LL self-service, although fuel request is necessary 1 HR before: +45 56 95 26 26, ekrn@trafikstyrelsen.dk</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:Fuel>
+          </aixm:fuelSupply>
+        </aixm:AirportSuppliesServiceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AirportSuppliesService> 
+  </hasMember>
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:AirportSuppliesService gml:id="uuid.0e93e944-2e5e-42f6-8565-7bce192077b6">
+      <gml:identifier codeSpace="urn:uuid:">0e93e944-2e5e-42f6-8565-7bce192077b6</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirportSuppliesServiceTimeSlice gml:id="uuid.74d5e243-81d5-48f1-8c3e-7a414556bbb0">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.2b4687b4-f8c6-48c4-9802-e8ee20cee6ae">
+              <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.7385efa0-9c57-4aa1-aec1-1d2d2ba573c3">
+              <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:groundCommunication>
+            <aixm:ContactInformation gml:id="uuid.104bfc05-d6cb-4450-8ac8-a30f3b1deb06">
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.2282f8af-4d18-40fa-854a-ae0a6d84fb04">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.25ad637a-8398-42ed-aa12-e81d439736f2">
+                      <aixm:propertyName>voice</aixm:propertyName>
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.7119d4d1-f18e-4e6e-8ea7-41572d9be58b">
+                          <aixm:note>Address:+358 400 789 062 FUELLING</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:groundCommunication>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.de9d5eba-cc3d-436e-91b9-6b06968ccc56">
+              <aixm:purpose>DESCRIPTION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f65600a1-6457-41fb-9f7c-289975278236">
+                  <aixm:note>txtDescrFac:JET A-1: one truck MAX 10000 L, 300 L/MIN
+                    100LL: one fixed fuel bin MAX 10000 L, 60 L/MIN</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.e7660874-9e38-4d61-88d1-6a8479f46eed"/>
+        </aixm:AirportSuppliesServiceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AirportSuppliesService> 
+
+  </hasMember>
+
+  
+</AIXMBasicMessage>
+

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:gco="http://www.isotc211.org/2005/gco"
+                  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml"
+                  gml:id="uniqueId"
+>
+
+
+    <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:AirportSuppliesService gml:id="uuid.d98c60b4-ac28-4f88-b619-866c722264d6">
+            <gml:identifier codeSpace="urn:uuid:">d98c60b4-ac28-4f88-b619-866c722264d6</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:AirportSuppliesServiceTimeSlice gml:id="uuid.69a83055-60cb-4010-ae28-7c20a19c38f9">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.73a9930b-b565-4c8e-af79-726389167c94">
+                            <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.5a7ddc17-a7f9-4fac-a7f5-601b2687b0f9">
+                            <gml:beginPosition>2022-07-14T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.b964832e-252f-4ce0-9c08-0e585b97c925">
+                            <aixm:purpose>REMARK</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.98d4d62e-1010-4623-a7b9-b59f17d0517f">
+                                    <aixm:note>Source: EAD for the purpose of the transition to SDD</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.7426e476-f4b3-49ee-93e6-43fb1f666270"/>
+                    <aixm:fuelSupply>
+                        <aixm:Fuel gml:id="uuid.3a85c7ac-aa56-4cff-b3af-049aa2d70e25">
+                            <aixm:category>AVGAS_LL</aixm:category>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.40c5f5aa-2c36-4109-9a3f-2211ff99a827">
+                                    <aixm:purpose>DESCRIPTION</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.9785c877-995f-403d-89c3-b38cb03274fa">
+                                            <aixm:note>60 L/MIN</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.92c9c0ec-f314-4bf7-bdf0-2ad7771c9c76">
+                                    <aixm:purpose>REMARK</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.c5384407-43a4-4ec8-ba7a-7257a3700277">
+                                            <aixm:note>Self-service. 100LL fuelling operational hours: From 0800 until
+                                                one hour before closing as AD. 100LL card verification is required.
+                                                Verification via phone +45 20 32 10 43 during opening hours 0800 - 1600
+                                                on weekdays. 100LL self-service, although fuel request is necessary 1 HR
+                                                before: +45 56 95 26 26, ekrn@trafikstyrelsen.dk
+                                            </aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:Fuel>
+                    </aixm:fuelSupply>
+                </aixm:AirportSuppliesServiceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirportSuppliesService>
+
+    </hasMember>
+
+    <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:AirportHeliport gml:id="uuid.7426e476-f4b3-49ee-93e6-43fb1f666270">
+            <gml:identifier codeSpace="urn:uuid:">7426e476-f4b3-49ee-93e6-43fb1f666270</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:AirportHeliportTimeSlice gml:id="uuid.a08dee1f-9b50-40c7-810f-61b0f332fec3">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.458851b6-14f8-4f39-bb13-84edfab8ff6e">
+                            <gml:beginPosition>2022-07-14T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>1</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.ae052001-44d7-49ed-b06d-5a419a9d9f5d">
+                            <gml:beginPosition>2022-07-14T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>EKRN</aixm:designator>
+                    <aixm:name>BORNHOLM/ROENNE</aixm:name>
+                    <aixm:locationIndicatorICAO>EKRN</aixm:locationIndicatorICAO>
+                    <aixm:designatorIATA>RNN</aixm:designatorIATA>
+                    <aixm:type>AD</aixm:type>
+                    <aixm:fieldElevation uom="FT">52.0</aixm:fieldElevation>
+                    <aixm:magneticVariation>5.0</aixm:magneticVariation>
+                    <aixm:dateMagneticVariation>2020</aixm:dateMagneticVariation>
+                    <aixm:magneticVariationChange>0.18</aixm:magneticVariationChange>
+                    <aixm:referenceTemperature uom="C">19.2</aixm:referenceTemperature>
+                    <aixm:transitionAltitude uom="FT">5000.0</aixm:transitionAltitude>
+                    <aixm:servedCity>
+                        <aixm:City gml:id="uuid.bd2cbe2f-615b-4d55-b3be-e8ca2fed2021">
+                            <aixm:name>ROENNE</aixm:name>
+                        </aixm:City>
+                    </aixm:servedCity>
+                    <aixm:responsibleOrganisation>
+                        <aixm:AirportHeliportResponsibilityOrganisation
+                                gml:id="uuid.527840cf-316b-4b87-9b58-e6485173e581">
+                            <aixm:theOrganisationAuthority xlink:type="simple"
+                                                           xlink:href="urn:uuid:09424934-7f59-0ae9-e053-0b751dc2b779"/>
+                        </aixm:AirportHeliportResponsibilityOrganisation>
+                    </aixm:responsibleOrganisation>
+                    <aixm:ARP>
+                        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            srsName="urn:ogc:def:crs:EPSG::4326"
+                                            gml:id="uuid.e323ff7c-1582-4670-9bdd-b1a0d53d28e9">
+                            <gml:pos>55.0632667 14.7595583</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:ARP>
+                    <aixm:contact>
+                        <aixm:ContactInformation gml:id="uuid.9ff924cb-b87b-404a-a3e0-0f7fdb316d96">
+                            <aixm:address>
+                                <aixm:PostalAddress gml:id="uuid.d5abac6c-a85f-428e-b738-ad97bab84a2f">
+                                    <aixm:deliveryPoint>Bornholms Lufthavn
+                                        Bornholm Airport
+                                        Sandre Landevej 2
+                                        DK-3700 Runne
+                                    </aixm:deliveryPoint>
+                                </aixm:PostalAddress>
+                            </aixm:address>
+                        </aixm:ContactInformation>
+                    </aixm:contact>
+                    <aixm:contact>
+                        <aixm:ContactInformation gml:id="uuid.3c0fbf38-f941-4c0d-a4fc-627549c840f9">
+                            <aixm:phoneFax>
+                                <aixm:TelephoneContact gml:id="uuid.0e52e460-a416-4701-a19d-4ad64abd9dd8">
+                                    <aixm:voice>+45 56 95 26 26</aixm:voice>
+                                </aixm:TelephoneContact>
+                            </aixm:phoneFax>
+                        </aixm:ContactInformation>
+                    </aixm:contact>
+                    <aixm:contact>
+                        <aixm:ContactInformation gml:id="uuid.8ae49bc9-b337-490b-93ee-d81c434450f5">
+                            <aixm:networkNode>
+                                <aixm:OnlineContact gml:id="uuid.f303935e-1641-405f-8508-acf00c2dce6b">
+                                    <aixm:network>AFTN</aixm:network>
+                                    <aixm:linkage>EKRN</aixm:linkage>
+                                </aixm:OnlineContact>
+                            </aixm:networkNode>
+                        </aixm:ContactInformation>
+                    </aixm:contact>
+                    <aixm:contact>
+                        <aixm:ContactInformation gml:id="uuid.cdb079ae-3726-41b0-9895-6c6dff0ae8a2">
+                            <aixm:networkNode>
+                                <aixm:OnlineContact gml:id="uuid.88ed9243-06fa-4815-8c4e-c6eee464a790">
+                                    <aixm:network>INTERNET</aixm:network>
+                                    <aixm:eMail>ekrn@trafikstyrelsen.dk</aixm:eMail>
+                                </aixm:OnlineContact>
+                            </aixm:networkNode>
+                        </aixm:ContactInformation>
+                    </aixm:contact>
+                    <aixm:availability>
+                        <aixm:AirportHeliportAvailability gml:id="uuid.4b0f3622-019b-415b-a60b-e9bc150e946e">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.5f317e35-9658-4209-abcb-d4e7e9a1292b">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:startDate>01-01</aixm:startDate>
+                                    <aixm:endDate>31-12</aixm:endDate>
+                                    <aixm:day>MON</aixm:day>
+                                    <aixm:startTime>05:00</aixm:startTime>
+                                    <aixm:endTime>21:45</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.7706ccb8-55fb-407f-9092-32866fe7faac">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:startDate>01-01</aixm:startDate>
+                                    <aixm:endDate>31-12</aixm:endDate>
+                                    <aixm:day>TUE</aixm:day>
+                                    <aixm:startTime>05:00</aixm:startTime>
+                                    <aixm:endTime>21:45</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.a93610ed-7751-4df7-92a0-6dbc7234b50c">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:startDate>01-01</aixm:startDate>
+                                    <aixm:endDate>31-12</aixm:endDate>
+                                    <aixm:day>WED</aixm:day>
+                                    <aixm:startTime>05:00</aixm:startTime>
+                                    <aixm:endTime>21:45</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.94520df3-34d5-4565-b9db-bd03ed6b3308">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:startDate>01-01</aixm:startDate>
+                                    <aixm:endDate>31-12</aixm:endDate>
+                                    <aixm:day>THU</aixm:day>
+                                    <aixm:startTime>05:00</aixm:startTime>
+                                    <aixm:endTime>21:45</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.2d035d0d-e740-4d4e-ad0e-6a5749538c37">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:startDate>01-01</aixm:startDate>
+                                    <aixm:endDate>31-12</aixm:endDate>
+                                    <aixm:day>FRI</aixm:day>
+                                    <aixm:startTime>05:00</aixm:startTime>
+                                    <aixm:endTime>21:45</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.8a9955f7-5802-4b56-9b2e-6e0f0b98c1b2">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:startDate>01-01</aixm:startDate>
+                                    <aixm:endDate>31-12</aixm:endDate>
+                                    <aixm:day>SUN</aixm:day>
+                                    <aixm:startTime>07:00</aixm:startTime>
+                                    <aixm:endTime>21:45</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.6f209392-e458-4135-a5cd-4516742a43fc">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:startDate>EDLST</aixm:startDate>
+                                    <aixm:endDate>SDLST</aixm:endDate>
+                                    <aixm:day>SAT</aixm:day>
+                                    <aixm:startTime>07:00</aixm:startTime>
+                                    <aixm:endTime>15:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.63ddecfc-8306-49ec-999c-ffe393d56aff">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:startDate>SDLST</aixm:startDate>
+                                    <aixm:endDate>EDLST</aixm:endDate>
+                                    <aixm:day>SAT</aixm:day>
+                                    <aixm:startTime>06:00</aixm:startTime>
+                                    <aixm:endTime>17:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+                            <aixm:usage>
+                                <aixm:AirportHeliportUsage gml:id="uuid.7f41e298-abfc-40f4-b06a-44c6b44cc212">
+                                    <aixm:type>OTHER</aixm:type>
+                                    <aixm:selection>
+                                        <aixm:ConditionCombination gml:id="uuid.7c34be6f-7298-4287-93ed-9aa856ad7f98">
+                                            <aixm:logicalOperator>OR</aixm:logicalOperator>
+                                        </aixm:ConditionCombination>
+                                    </aixm:selection>
+                                </aixm:AirportHeliportUsage>
+                            </aixm:usage>
+                        </aixm:AirportHeliportAvailability>
+                    </aixm:availability>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.27238572-912b-4086-9e7b-39979e370c70">
+                            <aixm:purpose>OTHER</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.a91dd6c9-6520-4bde-85c5-72e1be5de4a3">
+                                    <aixm:note>CRC:550347.76N, 0144534.41E, 52, , 8A34860F</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.b089219d-565b-486d-8973-7af622895ba1">
+                            <aixm:purpose>OTHER</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.2250d082-0fcf-4e25-ac10-ba09983d1e62">
+                                    <aixm:note>Organisation in charge:TRAFIKSTYRELSEN</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.37760318-752c-485e-8075-75dd9cc79539">
+                            <aixm:propertyName>altimeterCheckLocation</aixm:propertyName>
+                            <aixm:purpose>OTHER</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.3e423ea5-3b8b-43e7-b75f-f962f4320a83">
+                                    <aixm:note>Altimeter check location description:At apron 49 FT</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.355074e3-b41d-4ed3-b5bd-4abe8daa213a">
+                            <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+                            <aixm:purpose>OTHER</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.636c9b7a-0a78-4437-a0f6-f780241004b1">
+                                    <aixm:note>Secondary Power Supply:Switch-over time MAX 15 SEC</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.a5b9d13f-5c12-4dea-8dfc-03edfa781998">
+                            <aixm:propertyName>windDirectionIndicator</aixm:propertyName>
+                            <aixm:purpose>OTHER</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.3efeee3a-a5e4-41e1-be0e-ccb310c254ca">
+                                    <aixm:note>Wind Direction Indicator:See ADC</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.989fe42f-b3e9-42c4-890e-103d145f0e2c">
+                            <aixm:propertyName>arp</aixm:propertyName>
+                            <aixm:purpose>OTHER</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.84ff337f-78a5-44d3-9066-a22682a03480">
+                                    <aixm:note>Aerodrome Reference Point Description:1000 M from THR 11</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.e1b8489e-6bd2-4a65-8beb-c7363411943f">
+                            <aixm:purpose>OTHER</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.cd98fcda-9d15-406f-a952-b568482be1ec">
+                                    <aixm:note>Site Description:2.7 NM SE of Roenne</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                </aixm:AirportHeliportTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirportHeliport>
+    </hasMember>
+
+
+</AIXMBasicMessage>
+
