@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
- <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:DME gml:id="uuid.aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7">
       <gml:identifier codeSpace="urn:uuid:">aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -25,13 +34,12 @@
           <aixm:designator>YGE</aixm:designator>
           <aixm:name>YONAGO</aixm:name>
           <aixm:location>
-            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/
-2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http:
-//www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:
-audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensi
-ons/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.c669
-1ac2-beab-44c5-b570-f2c74c51c6f9">
-              <gml:pos>35.5013778 133.2572056</gml:pos>
+              <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                                  xmlns:gml="http://www.opengis.net/gml/3.2"
+                                  srsName="urn:ogc:def:crs:EPSG::4269"
+                                  gml:id="uuid.d5d409c4-7013-4fd7-a388-ea7930320b27">
+                <gml:pos>35.5013778 133.2572056</gml:pos>
               <aixm:annotation>
                 <aixm:Note gml:id="uuid.4937db0d-28bb-4be8-baba-02da33ee5b05">
                   <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
@@ -46,21 +54,22 @@ ons/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www
           </aixm:location>
           <aixm:authority>
             <aixm:AuthorityForNavaidEquipment gml:id="uuid.99ae6317-39eb-43e1-8cb5-81703871b009">
-                <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7f35-0ae9-e053-0b751dc2b779"/>
+                <aixm:type>OPERATE</aixm:type>
 
                 <aixm:annotation>
                     <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
-                        <!-- WARNING It is prohibited that AuthorityForNavaidEquipment has annotation.Note.propertyName value other-than-one-of ('type', 'theOrganisationAuthority') -->
-                        <aixm:propertyName>type</aixm:propertyName>
+                        <!-- WARNING It is prohibited that AuthorityForNavaidEquipment has annotation.Note.propertyName value other-than-one-of ('type', 'theOrganisationAuthority')  -->
+                        <aixm:propertyName>invalidPropertyName</aixm:propertyName>
                     </aixm:Note>
                 </aixm:annotation>
-                
+
+                <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7f35-0ae9-e053-0b751dc2b779"/>
             </aixm:AuthorityForNavaidEquipment>
           </aixm:authority>
           <aixm:channel>120X</aixm:channel>
         </aixm:DMETimeSlice>
       </aixm:timeSlice>
     </aixm:DME>
-  </hasMember>
+    </message:hasMember>
 
-</AIXMBasicMessage>
+</message:AIXMBasicMessage>
