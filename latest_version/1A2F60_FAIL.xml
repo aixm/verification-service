@@ -26,30 +26,27 @@
 
                     <aixm:condition>
                         <aixm:ApproachCondition gml:id="uuid.c706fd83-be38-46ad-b3aa-54e5f52feed8">
-                            <aixm:circlingRestriction>
-                                <aixm:CirclingRestriction gml:id="uuid.dd06fd83-be38-46ad-b3aa-54e5f52fcdd8">
-                                    <aixm:timeInterval>
-                                        <aixm:Timesheet gml:id="uuid.c706fd83-be38-46ad-b3aa-54e5f52fcdee"/>
-                                    </aixm:timeInterval>
+                            <aixm:minimumSet>
+                                <aixm:Minima gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000">
+                                    <aixm:adjustmentINOP>
+                                        <aixm:EquipmentUnavailableAdjustment gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001">
+                                            <aixm:type>NONSTANDARD</aixm:type>
+                                            <aixm:approachLightingInoperative>YES</aixm:approachLightingInoperative>
+                                            <aixm:adjustmentINOPCol>
+                                                <aixm:EquipmentUnavailableAdjustmentColumn gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd002"/>
+                                            </aixm:adjustmentINOPCol>
 
-                                    <aixm:annotation>
-                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
-                                            <!-- WARNING It is prohibited that CirclingRestriction has annotation.Note.propertyName value other-than-one-of ('timeInterval', 'specialDateAuthority', 'sectorDescription', 'restrictionArea')  -->
-                                            <aixm:propertyName>invalidPropertyName</aixm:propertyName>
-                                        </aixm:Note>
-                                    </aixm:annotation>
+                                            <aixm:annotation>
+                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                                                    <!-- WARNING It is prohibited that EquipmentUnavailableAdjustment has annotation.Note.propertyName value other-than-one-of ('type', 'approachLightingInoperative', 'adjustmentINOPCol')  -->
+                                                    <aixm:propertyName>invalidPropertyName</aixm:propertyName>
+                                                </aixm:Note>
+                                            </aixm:annotation>
 
-                                    <aixm:specialDateAuthority/>
-                                    <aixm:sectorDescription>
-                                        <aixm:CircleSector gml:id="uuid.c706fd83-be38-46ad-b3aa-54e5f52fcdd8"/>
-                                    </aixm:sectorDescription>
-                                    <aixm:restrictionArea>
-                                        <aixm:Surface>
-                                            <gml:patches/>
-                                        </aixm:Surface>
-                                    </aixm:restrictionArea>
-                                </aixm:CirclingRestriction>
-                            </aixm:circlingRestriction>
+                                        </aixm:EquipmentUnavailableAdjustment>
+                                    </aixm:adjustmentINOP>
+                                </aixm:Minima>
+                            </aixm:minimumSet>
                         </aixm:ApproachCondition>
                     </aixm:condition>
                 </aixm:CirclingAreaTimeSlice>

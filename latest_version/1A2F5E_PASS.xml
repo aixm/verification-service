@@ -11,29 +11,29 @@
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <aixm:DME gml:id="uuid.aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7">
-            <gml:identifier codeSpace="urn:uuid:">aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7</gml:identifier>
+        <aixm:Elevation gml:id="uuid.0a9364ca-1d88-40aa-924f-95971d402401">
+            <gml:identifier codeSpace="urn:uuid:">0a9364ca-1d88-40aa-924f-95971d402401</gml:identifier>
             <gml:boundedBy xsi:nil="true"/>
             <aixm:timeSlice>
-                <aixm:DMETimeSlice gml:id="uuid.d5c6ba12-5031-4e4d-ae9d-2da0837df042">
+                <aixm:ElevationTimeSlice gml:id="uuid.23c701d4-813e-4cce-a543-b2b9181f5cd7">
                     <gml:validTime>
-                        <gml:TimePeriod gml:id="uuid.c3102d9c-7ac8-4937-af0b-37931e10541b">
-                            <gml:beginPosition>2020-12-31T00:00:00Z</gml:beginPosition>
-                            <gml:endPosition indeterminatePosition="unknown"/>
+                        <gml:TimePeriod gml:id="uuid.0682ca7a-24cf-4864-8690-ade41fa44cb6">
+                            <gml:beginPosition>2023-07-13T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2023-11-02T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
-                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
-                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>1</aixm:correctionNumber>
                     <aixm:featureLifetime>
-                        <gml:TimePeriod gml:id="uuid.93a4345b-9616-4f90-9814-7f7708b95abc">
-                            <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+                        <gml:TimePeriod gml:id="uuid.a95f6b88-e890-484d-a4d5-a9a2738753ac">
+                            <gml:beginPosition>2023-07-13T00:00:00Z</gml:beginPosition>
                             <gml:endPosition indeterminatePosition="unknown"/>
                         </gml:TimePeriod>
                     </aixm:featureLifetime>
 
-                    <aixm:designator>YGE</aixm:designator>
-                    <aixm:name>YONAGO</aixm:name>
+                    <aixm:designator>1</aixm:designator>
+                    <aixm:name>NAME</aixm:name>
                     <aixm:emissionClass>A2</aixm:emissionClass>
                     <aixm:mobile>YES</aixm:mobile>
                     <aixm:magneticVariation>1</aixm:magneticVariation>
@@ -41,40 +41,18 @@
                     <aixm:dateMagneticVariation>1999</aixm:dateMagneticVariation>
                     <aixm:flightChecked>YES</aixm:flightChecked>
                     <aixm:location>
-                        <aixm:ElevatedPoint
-                                xmlns="http://www.aixm.aero/schema/5.1.1/message"
-                                xmlns:gml="http://www.opengis.net/gml/3.2"
-                                xmlns:gts="http://www.isotc211.org/2005/gts"
-                                xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
-                                xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
-                                xmlns:gco="http://www.isotc211.org/2005/gco"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                                srsName="urn:ogc:def:crs:EPSG::4326"
-                                gml:id="uuid.c6691ac2-beab-44c5-b570-f2c74c51c6f9">
-                            <gml:pos>35.5013778 133.2572056</gml:pos>
-                            <aixm:annotation>
-                                <aixm:Note gml:id="uuid.4937db0d-28bb-4be8-baba-02da33ee5b05">
-                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                                    <aixm:translatedNote>
-                                        <aixm:LinguisticNote gml:id="uuid.153d0997-6589-4315-89f3-a14933d12dcb">
-                                            <aixm:note>CRC:353004.96N, 1331525.94E, , , 3F1B697B</aixm:note>
-                                        </aixm:LinguisticNote>
-                                    </aixm:translatedNote>
-                                </aixm:Note>
-                            </aixm:annotation>
+                        <aixm:ElevatedPoint>
+                            <gml:pos>39.125944444 -123.200861111</gml:pos>
                         </aixm:ElevatedPoint>
                     </aixm:location>
                     <aixm:authority>
-                        <aixm:AuthorityForNavaidEquipment gml:id="uuid.d5aec7e7-001e-48b0-add4-041c3fdff74e">
-                            <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7f35-0ae9-e053-0b751dc2b779"/>
-                        </aixm:AuthorityForNavaidEquipment>
+                        <aixm:AuthorityForNavaidEquipment gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000"/>
                     </aixm:authority>
                     <aixm:monitoring>
-                        <aixm:NavaidEquipmentMonitoring gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000"/>
+                        <aixm:NavaidEquipmentMonitoring gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001"/>
                     </aixm:monitoring>
                     <aixm:availability>
-                        <aixm:NavaidOperationalStatus gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001"/>
+                        <aixm:NavaidOperationalStatus gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd002"/>
                     </aixm:availability>
 
                     <aixm:annotation>
@@ -139,31 +117,31 @@
                     </aixm:annotation>
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2c">
-                            <aixm:propertyName>type</aixm:propertyName>
+                            <aixm:propertyName>angleNominal</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2d">
-                            <aixm:propertyName>channel</aixm:propertyName>
+                            <aixm:propertyName>angleMinimum</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2e">
-                            <aixm:propertyName>ghostFrequency</aixm:propertyName>
+                            <aixm:propertyName>angleSpan</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2f">
-                            <aixm:propertyName>displace</aixm:propertyName>
+                            <aixm:propertyName>angleAccuracy</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
 
-                    <aixm:type>NARROW</aixm:type>
-                    <aixm:channel>120X</aixm:channel>
-                    <aixm:ghostFrequency>100</aixm:ghostFrequency>
-                    <aixm:displace>1</aixm:displace>
-                </aixm:DMETimeSlice>
+                    <aixm:angleNominal>1</aixm:angleNominal>
+                    <aixm:angleMinimum>1</aixm:angleMinimum>
+                    <aixm:angleSpan>10</aixm:angleSpan>
+                    <aixm:angleAccuracy>1</aixm:angleAccuracy>
+                </aixm:ElevationTimeSlice>
             </aixm:timeSlice>
-        </aixm:DME>
+        </aixm:Elevation>
     </message:hasMember>
 </message:AIXMBasicMessage>
