@@ -1,0 +1,112 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+
+<aixm:TACAN gml:id="uuid.8361ffb2-9b13-4f2b-b815-3da7e42b6f3c">
+  <gml:identifier codeSpace="urn:uuid:">8361ffb2-9b13-4f2b-b815-3da7e42b6f3c</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:TACANTimeSlice gml:id="uuid.0e3a3655-4e05-457b-b0af-776524435f37">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.d995122c-3375-418b-9d89-3ef918e379b8">
+          <gml:beginPosition>2010-12-16T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.aa853efa-d491-4db8-883f-a65f0f659ba7">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>TVD</aixm:designator>
+      <aixm:name>VALLADOLID</aixm:name>
+
+      <!-- ERROR: Found TACANTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('designator', 'name', 'emissionClass', 'mobile', 'magneticVariation', 'magneticVariationAccuracy', 'dateMagneticVariation', 'flightChecked', 'location', 'authority', 'monitoring', 'availability', 'channel', 'declination'). -->
+      <aixm:referenceTemperature uom="C">22</aixm:referenceTemperature>
+
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.300c8bcc-eaf3-4845-901d-cc4bee6f1f0b">
+          <gml:pos>41.704111 -4.849806</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.db0ef853-cde7-4513-94e9-ab7b4e41b127">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.258cd3d2-c7da-4aad-bbb4-60324b585928">
+                  <aixm:note>CRC:414214.8N, 0045059.3W, , , B9EA498E</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:authority>
+        <aixm:AuthorityForNavaidEquipment gml:id="uuid.4e7cb45b-3ce4-460f-8912-65bf3f40e3cf">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7e4b-0ae9-e053-0b751dc2b779"/>
+        </aixm:AuthorityForNavaidEquipment>
+      </aixm:authority>
+      <aixm:availability>
+        <aixm:NavaidOperationalStatus gml:id="uuid.4e6e2755-50b6-49ab-bb44-7aa3bbe22c9a">
+          <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
+        </aixm:NavaidOperationalStatus>
+      </aixm:availability>
+      <aixm:channel>19X</aixm:channel>
+    </aixm:TACANTimeSlice>
+  </aixm:timeSlice>
+</aixm:TACAN> 
+
+<aixm:Navaid gml:id="uuid.8d79cf5b-b6b7-4238-a392-d556b02fe44d">
+  <gml:identifier codeSpace="urn:uuid:">8d79cf5b-b6b7-4238-a392-d556b02fe44d</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.1699fe84-3ac2-441d-b9c1-74a1bf12695b">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.c9e8c88e-9cd3-4470-b329-5b19361ed116">
+          <gml:beginPosition>2010-12-16T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.a39357dd-e82b-4958-8664-41531e1e4057">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>TACAN</aixm:type>
+      <aixm:designator>TVD</aixm:designator>
+      <aixm:name>VALLADOLID</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.ec14d0ee-37c7-463d-82f1-8bed50b09064">
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.8361ffb2-9b13-4f2b-b815-3da7e42b6f3c"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.43458564-3a45-4ab2-a25d-1033a887af61">
+          <gml:pos>41.704111 -4.849806</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.4570a69c-3ecf-4d7f-a8c4-313ff005066f">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.662448e2-6c49-4d6f-96fb-670091965184">
+                  <aixm:note>CRC:414214.8N, 0045059.3W, , , B9EA498E</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:b1fa0356-1acd-4960-b9a1-a27f83ec102d"/>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+</aixm:Navaid> 
+
+</AIXMBasicMessage>
+

@@ -1,0 +1,225 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+
+<aixm:Navaid gml:id="uuid.580fdc26-8d00-4bfe-9b7a-e7f7e76d30a0">
+  <gml:identifier codeSpace="urn:uuid:">580fdc26-8d00-4bfe-9b7a-e7f7e76d30a0</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.bb2655a5-e3cb-4b3f-8a30-b6205bc645ff">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.e20a054a-cfcc-49be-9c98-0212a2b99f4e">
+          <gml:beginPosition>2003-09-04T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.7e5f54a4-a6f3-4ea7-8ad0-823bbd9e6315">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>NDB</aixm:type>
+
+      <!-- <aixm:designator>MG</aixm:designator> -->
+      <!-- ERROR: There cannot exists two different NDB that have identical values for designator and also for their position (within a tolerance of 1 second) -->
+      <aixm:designator>LK</aixm:designator>
+
+      <aixm:name>LJUBLJANA</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.fea6ab97-6e72-4cba-8c95-4dd332ce7fc7">
+          <aixm:markerPosition>OUTER</aixm:markerPosition>
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.a97cff02-b66c-468d-9991-52437c6c4469"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.f00f28cf-3c9f-47d5-898d-2780645fb04b">
+
+          <!-- <gml:pos>46.1732306 14.5559444</gml:pos> -->
+      <!-- ERROR: There cannot exists two different NDB that have identical values for designator and also for their position (within a tolerance of 1 second) -->
+          <gml:pos>38.14480278 -85.63339361</gml:pos>
+
+
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.9bd07a7f-41ee-40e0-a7d5-2d722f72a73d">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.87a5b622-0943-4b56-8332-3c93a5079c24">
+                  <aixm:note>CRC:461023.63N, 0143321.40E, 324, , 8CA29B3C</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:elevation uom="M">324</aixm:elevation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+</aixm:Navaid> 
+
+<aixm:Navaid gml:id="uuid.fac97728-f3c3-4b4a-854b-d9b496a2c817">
+  <gml:identifier codeSpace="urn:uuid:">fac97728-f3c3-4b4a-854b-d9b496a2c817</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.ece370bf-c304-43a7-9752-221b3efe12cc">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.3962a112-84b3-4468-b1dc-cc810fa77105">
+          <gml:beginPosition>2022-06-16T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>3</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.acc68719-2e22-4820-9958-f7271f79759b">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>NDB</aixm:type>
+      <aixm:designator>LK</aixm:designator>
+      <aixm:name>LAANG</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.5481049a-7cdb-4492-8a29-a716c2ae0481">
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.a93954fa-ab2c-478f-b5ef-d3bc3470b51d"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.c4946319-81f4-4fc3-9536-a4bec58fca7c">
+          <gml:pos>38.14480278 -85.63339361</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.13b39ba4-8cb7-43ea-b332-1269944442ab">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.b9ebf8b4-27fc-4f8c-87bf-65212e77b804">
+                  <aixm:note>CRC:380841.290N, 0853800.217W, 609.5, , A8361FFB</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:elevation uom="FT">609.5</aixm:elevation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+</aixm:Navaid> 
+
+<aixm:NDB gml:id="uuid.a97cff02-b66c-468d-9991-52437c6c4469">
+  <gml:identifier codeSpace="urn:uuid:">a97cff02-b66c-468d-9991-52437c6c4469</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NDBTimeSlice gml:id="uuid.46ad22d5-20c9-40cf-a3e5-3ca36f531820">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.7b8cee59-6eae-4731-aaa3-32530115bf6e">
+          <gml:beginPosition>2003-09-04T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.7e0998b8-cb80-4c3d-a49c-ca97ae7672f6">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+
+      <!-- <aixm:designator>MG</aixm:designator> -->
+      <!-- ERROR: There cannot exists two different NDB that have identical values for designator and also for their position (within a tolerance of 1 second) -->
+      <aixm:designator>LK</aixm:designator>
+
+      <aixm:name>LJUBLJANA</aixm:name>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.431a76d0-9aef-4c80-b3c4-816c307ec5e4">
+      <!-- ERROR: There cannot exists two different NDB that have identical values for designator and also for their position (within a tolerance of 1 second) -->
+          <gml:pos>38.14480278 -85.63339361</gml:pos>
+          <!-- <gml:pos>46.1732306 14.5559444</gml:pos> -->
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.5a3c1807-4879-4003-a865-aacca086810c">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.31e4f31b-9085-42ad-aad9-dbfd42ca2587">
+                  <aixm:note>CRC:461023.63N, 0143321.40E, 324, , 8CA29B3C</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:elevation uom="M">324</aixm:elevation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:authority>
+        <aixm:AuthorityForNavaidEquipment gml:id="uuid.0844a027-b048-4f5b-816b-f5927bb8cbbc">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7fb0-0ae9-e053-0b751dc2b779"/>
+        </aixm:AuthorityForNavaidEquipment>
+      </aixm:authority>
+      <aixm:availability>
+        <aixm:NavaidOperationalStatus gml:id="uuid.b08535f6-969b-43fc-ab65-c19b490a1ea1">
+          <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
+        </aixm:NavaidOperationalStatus>
+      </aixm:availability>
+      <aixm:frequency uom="KHZ">296</aixm:frequency>
+      <aixm:class>L</aixm:class>
+    </aixm:NDBTimeSlice>
+  </aixm:timeSlice>
+</aixm:NDB> 
+
+<aixm:NDB gml:id="uuid.a93954fa-ab2c-478f-b5ef-d3bc3470b51d">
+  <gml:identifier codeSpace="urn:uuid:">a93954fa-ab2c-478f-b5ef-d3bc3470b51d</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NDBTimeSlice gml:id="uuid.5ccbf88a-c55c-4839-adc5-727862684a27">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.885cfa36-6198-44d9-ad6c-e45dd495dcc5">
+          <gml:beginPosition>2022-06-16T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>3</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.b74c0b2e-f4f1-482b-b378-535f8c2ad6f4">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>LK</aixm:designator>
+      <aixm:name>LAANG</aixm:name>
+      <aixm:magneticVariation>-4</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2010</aixm:dateMagneticVariation>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.19375cd2-70e4-4c68-acda-0ee240188475">
+          <gml:pos>38.14480278 -85.63339361</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.1c38a5db-c2fe-4fdc-8759-24aac7ba5b19">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.2bdcb3c1-9905-4514-bf7e-c4296626e316">
+                  <aixm:note>CRC:380841.290N, 0853800.217W, 609.5, , A8361FFB</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:elevation uom="FT">609.5</aixm:elevation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:authority>
+        <aixm:AuthorityForNavaidEquipment gml:id="uuid.6ae27f61-3e99-44d3-94ec-77899835cf2f">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7fef-0ae9-e053-0b751dc2b779"/>
+        </aixm:AuthorityForNavaidEquipment>
+      </aixm:authority>
+      <aixm:frequency uom="KHZ">414</aixm:frequency>
+      <aixm:class>ENR</aixm:class>
+    </aixm:NDBTimeSlice>
+  </aixm:timeSlice>
+</aixm:NDB> 
+
+</AIXMBasicMessage>
