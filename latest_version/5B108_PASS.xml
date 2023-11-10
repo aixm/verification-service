@@ -1,0 +1,72 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+
+<aixm:ApronElement gml:id="uuid.90223411-10c5-43cb-a065-ca768d5e8d7a">
+  <gml:identifier codeSpace="urn:uuid:">90223411-10c5-43cb-a065-ca768d5e8d7a</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:ApronElementTimeSlice gml:id="uuid.38bb02b6-e8cb-4dfe-bee3-f7fbf4fa2ea7">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.37c97dd9-400c-4177-85fc-cbea2f0854bf">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.ecc90ad3-3648-4c21-b5fb-ff77407bbdda">
+          <gml:beginPosition>2020-05-21T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>NORMAL</aixm:type>
+      <aixm:jetwayAvailability nilReason="unknown" xsi:nil="true"/>
+      <aixm:towingAvailability nilReason="unknown" xsi:nil="true"/>
+      <aixm:dockingAvailability nilReason="unknown" xsi:nil="true"/>
+      <aixm:groundPowerAvailability nilReason="unknown" xsi:nil="true"/>
+      <aixm:length nilReason="unknown" xsi:nil="true"/>
+      <aixm:width nilReason="unknown" xsi:nil="true"/>
+      <aixm:associatedApron xlink:type="simple" xlink:href="#uuid.53bf9fcf-fef7-4272-a6e7-a85fc85904d5"/>
+      <aixm:surfaceProperties nilReason="unknown" xsi:nil="true"/>
+      <aixm:extent>
+        <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.7d1f4b21-3ee8-485e-91d6-eacb708b601d" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+          <gml:patches>
+            <gml:PolygonPatch>
+              <gml:exterior>
+                <gml:Ring>
+                  <gml:curveMember>
+                    <gml:Curve gml:id="uuid.e1d259f0-f302-4fae-8b9f-da151d610447">
+                      <gml:segments>
+                        <gml:GeodesicString>
+                          <gml:posList>21.5460879 57.3618439 21.54608 57.3618022 21.5453452 57.3620846 21.5462471 57.3627544 21.5469222 57.3624788 21.5460879 57.3618439 </gml:posList>
+                        </gml:GeodesicString>
+                      </gml:segments>
+                    </gml:Curve>
+                  </gml:curveMember>
+                </gml:Ring>
+              </gml:exterior>
+            </gml:PolygonPatch>
+          </gml:patches>
+        </aixm:ElevatedSurface>
+      </aixm:extent>
+      <aixm:supplyService nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.3e8e3d61-36dd-41bc-9567-7ba4830dca59">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.cd016b62-c263-4f2e-96c4-c4b439e5cb90">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:availability nilReason="unknown" xsi:nil="true"/>
+    </aixm:ApronElementTimeSlice>
+  </aixm:timeSlice>
+</aixm:ApronElement> 
+
+</AIXMBasicMessage>
