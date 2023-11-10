@@ -1,57 +1,20 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" 
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+    xmlns:gml="http://www.opengis.net/gml/3.2" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:gco="http://www.isotc211.org/2005/gco" 
+    xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+    xmlns:gts="http://www.isotc211.org/2005/gts" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns:sdd="http://www.teamead.com/ws/sdd" 
+    xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" 
+    xmlns:aimsl="http://www.teamead.com/ws/aimsl" 
+    gml:id="uniqueId"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd">
 
-
-<aixm:Navaid gml:id="uuid.1b5a6f06-0c37-4267-b5a2-653bb187cd13">
-  <gml:identifier codeSpace="urn:uuid:">1b5a6f06-0c37-4267-b5a2-653bb187cd13</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:NavaidTimeSlice gml:id="uuid.96dd6295-1f6d-4a63-b76b-48b300b440cd">
-      <gml:validTime>
-        <gml:TimePeriod gml:id="uuid.a85fb87c-cd59-4fe2-ba71-a4a6c573aeed">
-          <gml:beginPosition>2005-10-03T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>1</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime>
-        <gml:TimePeriod gml:id="uuid.d2119afd-4cdf-4fa6-a823-e22c226c5c4b">
-          <gml:beginPosition>2003-08-22T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:type>MKR</aixm:type>
-      <aixm:navaidEquipment>
-        <aixm:NavaidComponent gml:id="uuid.6c124a3c-2f36-429c-937c-acb15396ec32">
-          <aixm:markerPosition>OUTER</aixm:markerPosition>
-          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
-          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.bfa9649c-2b86-4e9c-b6bf-22e247280bcf"/>
-        </aixm:NavaidComponent>
-      </aixm:navaidEquipment>
-      <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.3efe5f27-b9bb-498d-9d15-182d4da15ebb">
-          <!-- ERROR: Found MarkerBeacon that has horizontal position expressed with insufficient resolution (less than 4 decimals, which is less than 1 sec resolution) -->
-          <gml:pos>46.4276167 15.7</gml:pos>
-          <aixm:annotation>
-            <aixm:Note gml:id="uuid.6546de7a-63a6-4508-a710-9db20b159236">
-              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-              <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.cb5a0ad4-3e3d-4b41-b3c6-4f9ef805080b">
-                  <aixm:note>CRC:462539.42N, 0154411.41E, 251, , B9210EE4</aixm:note>
-                </aixm:LinguisticNote>
-              </aixm:translatedNote>
-            </aixm:Note>
-          </aixm:annotation>
-          <aixm:elevation uom="M">251</aixm:elevation>
-        </aixm:ElevatedPoint>
-      </aixm:location>
-    </aixm:NavaidTimeSlice>
-  </aixm:timeSlice>
-</aixm:Navaid> 
-
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <aixm:MarkerBeacon gml:id="uuid.bfa9649c-2b86-4e9c-b6bf-22e247280bcf">
   <gml:identifier codeSpace="urn:uuid:">bfa9649c-2b86-4e9c-b6bf-22e247280bcf</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -73,7 +36,7 @@
         </gml:TimePeriod>
       </aixm:featureLifetime>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4e83c406-850a-470c-8835-9b7538cd3487">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4e83c406-850a-470c-8835-9b7538cd3487">
           <!-- ERROR: Found MarkerBeacon that has horizontal position expressed with insufficient resolution (less than 4 decimals, which is less than 1 sec resolution) -->
           <gml:pos>46.4276167 15.7</gml:pos>
           <aixm:annotation>
@@ -104,5 +67,6 @@
     </aixm:MarkerBeaconTimeSlice>
   </aixm:timeSlice>
 </aixm:MarkerBeacon> 
+  </hasMember>
 
 </AIXMBasicMessage>

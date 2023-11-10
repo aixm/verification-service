@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:Elevation gml:id="uuid.0a9364ca-1d88-40aa-924f-95971d402401">
+            <gml:identifier codeSpace="urn:uuid:">0a9364ca-1d88-40aa-924f-95971d402401</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:ElevationTimeSlice gml:id="uuid.23c701d4-813e-4cce-a543-b2b9181f5cd7">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.0682ca7a-24cf-4864-8690-ade41fa44cb6">
+                            <gml:beginPosition>2023-07-13T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2023-11-02T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>1</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.a95f6b88-e890-484d-a4d5-a9a2738753ac">
+                            <gml:beginPosition>2023-07-13T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+
+                    <aixm:designator>1</aixm:designator>
+                    <aixm:name>NAME</aixm:name>
+                    <aixm:emissionClass>A2</aixm:emissionClass>
+                    <aixm:mobile>YES</aixm:mobile>
+                    <aixm:magneticVariation>1</aixm:magneticVariation>
+                    <aixm:magneticVariationAccuracy>1</aixm:magneticVariationAccuracy>
+                    <aixm:dateMagneticVariation>1999</aixm:dateMagneticVariation>
+                    <aixm:flightChecked>YES</aixm:flightChecked>
+                    <aixm:location>
+                        <aixm:ElevatedPoint>
+                            <gml:pos>39.125944444 -123.200861111</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:authority>
+                        <aixm:AuthorityForNavaidEquipment gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000"/>
+                    </aixm:authority>
+                    <aixm:monitoring>
+                        <aixm:NavaidEquipmentMonitoring gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001"/>
+                    </aixm:monitoring>
+                    <aixm:availability>
+                        <aixm:NavaidOperationalStatus gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd002"/>
+                    </aixm:availability>
+
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                            <!-- WARNING It is prohibited that ElevationTimeSlice has annotation.Note.propertyName value other-than-one-of ('designator', 'name', 'emissionClass', 'mobile', 'magneticVariation', 'magneticVariationAccuracy', 'dateMagneticVariation', 'flightChecked', 'location', 'authority', 'monitoring', 'availability', 'angleNominal', 'angleMinimum', 'angleSpan', 'angleAccuracy')  -->
+                            <aixm:propertyName>invalidPropertyName</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+
+                    <aixm:angleNominal>1</aixm:angleNominal>
+                    <aixm:angleMinimum>1</aixm:angleMinimum>
+                    <aixm:angleSpan>10</aixm:angleSpan>
+                    <aixm:angleAccuracy>1</aixm:angleAccuracy>
+                </aixm:ElevationTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Elevation>
+    </message:hasMember>
+</message:AIXMBasicMessage>

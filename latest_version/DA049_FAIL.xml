@@ -1,0 +1,143 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+
+<aixm:OrganisationAuthority gml:id="uuid.09424934-8040-0ae9-e053-0b751dc2b779">
+  <gml:identifier codeSpace="urn:uuid:">09424934-8040-0ae9-e053-0b751dc2b779</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.a00e3fac-4384-4db0-8f90-34a79bba6e5e">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.8cb8cc8c-b817-4ffe-8dc1-13f405b07b84">
+          <gml:beginPosition>2016-11-10T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.ed69d69c-6006-4969-a081-adae200c67ce">
+          <gml:beginPosition>2005-07-07T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+
+      <!-- ERROR: There cannot exists two different OrganisationAuthority that have identical values for name -->
+      <!-- <aixm:name>INSTITUTE OF PUBLIC HEALTH</aixm:name> -->
+      <aixm:name>ROBERTS FIR AIS CENTRAL OFFICE / GUINEA</aixm:name>
+
+      <aixm:designator>LJ-SAN</aixm:designator>
+      <aixm:type>NTL_AUTH</aixm:type>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.bb25adcb-53ff-4b86-879d-1ff694ab6581">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.32cc7a48-ec24-434c-878b-45d2ff6181e2">
+              <aixm:facsimile>+386 1 2441 441</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.c640648e-a66b-4a71-848f-cefd30d1d739">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.cf7ac09a-e9b4-4b85-96ad-2372b71752b1">
+              <aixm:voice>+386 1 2441 410</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.84834712-2fdc-4825-acdb-fd3870df89b3">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.e6bc3021-5b1d-40eb-b754-25efbcfe9ba7">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.d564de87-4e05-4c4a-8b39-4100c451e7dd">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.a37e2149-3535-4149-b4e9-bf5eb45cf3be">
+                      <aixm:note>txtRmk:National Institute of Public Health
+Communicable Diseases Center
+Trubarjeva 2
+SI-1000 Ljubljana
+SLOVENIA</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:deliveryPoint>see Remark</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.c665b653-c2c6-4dcc-83ea-1a6a20442132">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.b7df5a56-0630-4098-b963-ffcefdf44000">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:linkage>http://www.nijz.si</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.ce003930-d453-4d51-9cc9-3ba7bbee8bf3">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.35b220a7-5fd1-4e3f-9514-179c405bb993">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:eMail>info@nijz.si</aixm:eMail>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:relatedOrganisationAuthority>
+        <aixm:OrganisationAuthorityAssociation gml:id="uuid.a36aa50d-9b09-4844-8bad-1dbf9aa72d0b">
+          <aixm:type>OWNED_BY</aixm:type>
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7fb0-0ae9-e053-0b751dc2b779"/>
+        </aixm:OrganisationAuthorityAssociation>
+      </aixm:relatedOrganisationAuthority>
+      <aixm:relatedOrganisationAuthority>
+        <aixm:OrganisationAuthorityAssociation gml:id="uuid.6e940d35-a69d-437b-bf47-1164461cf0ee">
+          <aixm:type>OWNED_BY</aixm:type>
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-82d1-0ae9-e053-0b751dc2b779"/>
+        </aixm:OrganisationAuthorityAssociation>
+      </aixm:relatedOrganisationAuthority>
+    </aixm:OrganisationAuthorityTimeSlice>
+  </aixm:timeSlice>
+</aixm:OrganisationAuthority> 
+
+<aixm:OrganisationAuthority gml:id="uuid.09424934-8286-0ae9-e053-0b751dc2b779">
+  <gml:identifier codeSpace="urn:uuid:">09424934-8286-0ae9-e053-0b751dc2b779</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.255af26c-71bd-446f-b28b-8b00e41b3638">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.46270765-b9eb-48cb-9559-2e824984d016">
+          <gml:beginPosition>2007-02-20T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.8fe5892f-cb8f-40c0-b4f5-a4730c2d1b20">
+          <gml:beginPosition>2003-10-10T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:name>ROBERTS FIR AIS CENTRAL OFFICE / GUINEA</aixm:name>
+      <aixm:designator>GU-CAA</aixm:designator>
+      <aixm:type>NTL_AUTH</aixm:type>
+      <aixm:relatedOrganisationAuthority>
+        <aixm:OrganisationAuthorityAssociation gml:id="uuid.492e8407-88ca-4fba-bd87-6f6853f49b43">
+          <aixm:type>OWNED_BY</aixm:type>
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7f11-0ae9-e053-0b751dc2b779"/>
+        </aixm:OrganisationAuthorityAssociation>
+      </aixm:relatedOrganisationAuthority>
+    </aixm:OrganisationAuthorityTimeSlice>
+  </aixm:timeSlice>
+</aixm:OrganisationAuthority> 
+
+</AIXMBasicMessage>

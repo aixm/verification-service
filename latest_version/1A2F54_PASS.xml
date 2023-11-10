@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
-<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:AirportClearanceService gml:id="uuid.dd787fd9-7f93-45b9-b84c-50cc7f67f3cb">
       <gml:identifier codeSpace="urn:uuid:">dd787fd9-7f93-45b9-b84c-50cc7f67f3cb</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -32,7 +41,15 @@
             <aixm:ContactInformation gml:id="uuid.95914d94-f2b4-4d21-a0ea-3d31315fc6d5">
               <aixm:name>SNOW REMOVAL</aixm:name>
               <aixm:title nilReason="other:notavailable" xsi:nil="true"/>
-              <aixm:annotation xsi:nil="true"/>
+              <aixm:address>
+                <aixm:PostalAddress gml:id="uuid.95914d94-f2b4-4d21-a0ea-3d31315fcfff"/>
+              </aixm:address>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.95914d94-f2b4-4d21-a0ea-3d31315fcffe"/>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.95914d94-f2b4-4d21-a0ea-3d31315fcffc"/>
+              </aixm:phoneFax>
 
               <aixm:annotation>
                   <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
@@ -80,22 +97,8 @@
         </aixm:annotation>
           <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.4c30ea32-1117-489d-b291-4e47563c0b02"/>
           <aixm:snowPlan>REF AD 1.2</aixm:snowPlan>
-          <aixm:extension>
-            <ead-audit:AirportClearanceServiceExtension gml:id="uuid.401a7b15-86c2-4e67-b77f-006914ab69ca">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.ad371837-6689-4684-96a1-df30a40deb98">
-                  <ead-audit:createdBy>en_wizard</ead-audit:createdBy>
-                  <ead-audit:creationDate>2023-02-15T12:36:15Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>AVINOR ORGANISATION FOR EAD</ead-audit:createdByOrg>
-                  <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:AirportClearanceServiceExtension>
-          </aixm:extension>
         </aixm:AirportClearanceServiceTimeSlice>
       </aixm:timeSlice>
     </aixm:AirportClearanceService>
-  </hasMember>
-
-
-</AIXMBasicMessage>
+  </message:hasMember>
+</message:AIXMBasicMessage>

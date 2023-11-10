@@ -1,0 +1,504 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+
+<aixm:AirportHeliport gml:id="uuid.0090039d-71f3-431d-b8b8-fe8398c003c5">
+  <gml:identifier codeSpace="urn:uuid:">0090039d-71f3-431d-b8b8-fe8398c003c5</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.07e10518-6c8f-4870-bf66-478d87357706">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.aed853c9-9114-45dd-b936-ddb90325d3f8">
+          <gml:beginPosition>2023-03-23T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>11</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.c2e5fac6-4f41-4eb3-a850-31f8277ce164">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>EBBR</aixm:designator>
+      <aixm:name>BRUSSELS / BRUSSELS-NATIONAL</aixm:name>
+      <aixm:locationIndicatorICAO>EBBR</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>BRU</aixm:designatorIATA>
+      <aixm:type>AH</aixm:type>
+      <aixm:fieldElevation uom="FT">175</aixm:fieldElevation>
+      <aixm:magneticVariation>1</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2020</aixm:dateMagneticVariation>
+      <aixm:referenceTemperature uom="C">25.3</aixm:referenceTemperature>
+      <aixm:transitionAltitude uom="FT">4500</aixm:transitionAltitude>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.feea5f18-ffd9-41f7-b526-cfe2df9ca912">
+          <aixm:name>BRUSSELS</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.09986e7d-f310-4eea-90ee-d08b31a984c8">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7d58-0ae9-e053-0b751dc2b779"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.c4909a56-3562-4b2a-b9c7-5cc06c118d3b">
+          <gml:pos>50.90139 4.48444</gml:pos>
+          <!-- ERROR: Found AirportHeliport with ARP.ElevatedPoint.geoidUndulation with insufficient resolution (unit of measurement is not 'FT' or 'M') -->
+          <aixm:geoidUndulation>149</aixm:geoidUndulation>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.deffd87d-85ad-48c3-a9d2-f4771a85432b">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.076cad86-3259-4af9-a543-43a2ebd0e59d">
+              <aixm:network>OTHER:TLX</aixm:network>
+              <aixm:linkage>21318 aero b</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.f350349e-60ff-4b42-bf80-31f6f017f5ef">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.1ce568c3-6f9b-486a-a134-8b5ca4e8bcda">
+              <aixm:network>AFTN</aixm:network>
+              <aixm:linkage>EBBRYDYX</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.ff18b7cc-bde0-4b20-a5f6-cef4d25bd69d">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.d2f4a1eb-4f29-442f-9f42-0e16bd45dc9a">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:eMail>inspect@brusselsairport.be (Airside Inspection)</aixm:eMail>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.77bc342a-efa0-4fb6-a637-efb73a835575">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.b0eaf02f-9777-441a-a675-7a6a3ee5c479">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.23d41466-6e5f-467f-be4e-4cb2230dcbc2">
+                  <aixm:propertyName>facsimile</aixm:propertyName>
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.145f8129-f7b0-4fe3-80a3-840344cd2179">
+                      <aixm:note>Address:+32 (0) 2 753 69 09 (Airside Inspection)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.08e6b36b-e4e2-42cf-ba75-e2d1a3e1a49a">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.b61c0171-1df6-41e5-b12d-b72853567bc0">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.ecf7c307-b3a9-4089-a03d-5696234ced45">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.f66bb244-7fa3-4085-91ca-dcb86182c7c1">
+                      <aixm:note>txtRmk:office hours only</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+32 (0) 2 753 42 00</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.ec5f0717-531f-4d8d-83d8-6ae778c35e21">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.594c5074-6994-4345-9e52-f6bf6ae65780">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.6671d499-ed9c-404f-9099-fb9d3db6d955">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.67e0ca98-b760-49b0-bb1b-becc26add090">
+                      <aixm:note>txtRmk:Airside Inspection: H24</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+32 (0) 2 753 69 00</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.6df07d0d-2945-43ab-aaa3-c64f19db455b">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.6bddcb7d-04e1-46e9-baf3-729783aa9d2a">
+              <aixm:deliveryPoint>Brussels Airport Company
+Brussels Airport
+B-1930 Zaventem
+Belgium</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.417b03be-bd6e-4188-8ad8-d8035a3dec28">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.02e5e195-ddda-4ed3-8051-3ab937a3a4d8">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.2ae5a605-0160-4922-b219-2b7b4d031d70">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.4d08d39c-e018-4c45-8840-40032d5988b4">
+                      <aixm:note>txtRmk:office hours only</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:eMail>reception@brusselsairport.be</aixm:eMail>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.564e3605-2165-4d05-a5ab-5d4f1bd0a114">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.de47f940-56b3-46fa-a7e8-f01c4aa082e4">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:linkage>www.brusselsairport.be</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.99395af2-1bfa-4ca3-bd0e-f9b3d9b70fb4">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.f66a502c-3ded-4669-906a-0c5cfafd1255">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>00:00</aixm:startTime>
+              <aixm:endTime>24:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.e744acac-bef1-4e03-b93e-f2f1ec37bf48">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.5922b22d-7325-43ad-9184-5f3ec631d371">
+                  <aixm:timeInterval>
+                    <aixm:Timesheet gml:id="uuid.11b1a0c5-115e-411b-86f7-88aad2ebda64">
+                      <aixm:timeReference>UTC</aixm:timeReference>
+                      <aixm:day>ANY</aixm:day>
+                      <aixm:startTime>00:00</aixm:startTime>
+                      <aixm:endTime>24:00</aixm:endTime>
+                      <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                      <aixm:excluded>NO</aixm:excluded>
+                    </aixm:Timesheet>
+                  </aixm:timeInterval>
+                  <aixm:logicalOperator>OR</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.d148aa9c-c3ae-4fa0-a55a-9b1cb4a50684">
+                      <aixm:rule>IFR</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.db446ddc-1fdf-4705-af8d-5e84cff1d89c">
+                      <aixm:rule>IFR</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.8cf17263-8d09-43f3-ba6a-c76bfb890ddc">
+                      <aixm:rule>IFR</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:purpose>PRIVATE</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.af8b717f-801d-4722-a93b-0a1d2857dbb1">
+              <aixm:type>FORBID</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.8702ef70-3a60-4147-ae24-b5739b45c42b">
+                  <aixm:timeInterval>
+                    <aixm:Timesheet gml:id="uuid.f061cfd8-0078-4788-be8d-8dd7318d66ff">
+                      <aixm:timeReference>UTC</aixm:timeReference>
+                      <aixm:startDate>01-01</aixm:startDate>
+                      <aixm:endDate>31-12</aixm:endDate>
+                      <aixm:day>ANY</aixm:day>
+                      <aixm:startTime>22:00</aixm:startTime>
+                      <aixm:endTime>04:49</aixm:endTime>
+                      <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                      <aixm:excluded>NO</aixm:excluded>
+                    </aixm:Timesheet>
+                  </aixm:timeInterval>
+                  <aixm:timeInterval>
+                    <aixm:Timesheet gml:id="uuid.b700cd28-c5a6-4e5d-8c23-d5aa77d50948">
+                      <aixm:timeReference>UTC</aixm:timeReference>
+                      <aixm:startDate>01-01</aixm:startDate>
+                      <aixm:endDate>31-12</aixm:endDate>
+                      <aixm:day>WORK_DAY</aixm:day>
+                      <aixm:startTime>06:00</aixm:startTime>
+                      <aixm:endTime>10:00</aixm:endTime>
+                      <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                      <aixm:excluded>NO</aixm:excluded>
+                    </aixm:Timesheet>
+                  </aixm:timeInterval>
+                  <aixm:timeInterval>
+                    <aixm:Timesheet gml:id="uuid.3261e305-46c9-4fa0-bbd6-65087b875aba">
+                      <aixm:timeReference>UTC</aixm:timeReference>
+                      <aixm:startDate>01-01</aixm:startDate>
+                      <aixm:endDate>31-12</aixm:endDate>
+                      <aixm:day>WORK_DAY</aixm:day>
+                      <aixm:startTime>16:00</aixm:startTime>
+                      <aixm:endTime>19:00</aixm:endTime>
+                      <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                      <aixm:excluded>NO</aixm:excluded>
+                    </aixm:Timesheet>
+                  </aixm:timeInterval>
+                  <aixm:timeInterval>
+                    <aixm:Timesheet gml:id="uuid.8b353bd7-1451-4b01-8416-19b2f6dd2270">
+                      <aixm:timeReference>UTC</aixm:timeReference>
+                      <aixm:startDate>01-01</aixm:startDate>
+                      <aixm:endDate>31-12</aixm:endDate>
+                      <aixm:day>SAT</aixm:day>
+                      <aixm:startTime>07:00</aixm:startTime>
+                      <aixm:endTime>10:00</aixm:endTime>
+                      <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                      <aixm:excluded>NO</aixm:excluded>
+                    </aixm:Timesheet>
+                  </aixm:timeInterval>
+                  <aixm:logicalOperator>NONE</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.3eae250f-037a-4be2-9b11-7d6581b1603e">
+                      <aixm:rule>IFR</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:purpose>AIR_TRAINING</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.b61a9083-cadc-4251-a63d-88ed641926e0">
+              <aixm:type>FORBID</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.fc8fc257-8965-4b37-8056-f6442f8e21aa">
+                  <aixm:timeInterval>
+                    <aixm:Timesheet gml:id="uuid.e34d31c5-1e8e-4307-b617-76c403db99c2">
+                      <aixm:timeReference>UTC</aixm:timeReference>
+                      <aixm:startDate>01-01</aixm:startDate>
+                      <aixm:endDate>31-12</aixm:endDate>
+                      <aixm:day>WORK_DAY</aixm:day>
+                      <aixm:startTime>07:00</aixm:startTime>
+                      <aixm:endTime>09:00</aixm:endTime>
+                      <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                      <aixm:excluded>NO</aixm:excluded>
+                    </aixm:Timesheet>
+                  </aixm:timeInterval>
+                  <aixm:timeInterval>
+                    <aixm:Timesheet gml:id="uuid.e6770462-7061-4ad8-9786-92d905cdaf2d">
+                      <aixm:timeReference>UTC</aixm:timeReference>
+                      <aixm:startDate>01-01</aixm:startDate>
+                      <aixm:endDate>31-12</aixm:endDate>
+                      <aixm:day>WORK_DAY</aixm:day>
+                      <aixm:startTime>12:00</aixm:startTime>
+                      <aixm:endTime>13:00</aixm:endTime>
+                      <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                      <aixm:excluded>NO</aixm:excluded>
+                    </aixm:Timesheet>
+                  </aixm:timeInterval>
+                  <aixm:timeInterval>
+                    <aixm:Timesheet gml:id="uuid.f4226e85-76ec-4bca-9b7b-0a4019da8d57">
+                      <aixm:timeReference>UTC</aixm:timeReference>
+                      <aixm:startDate>01-01</aixm:startDate>
+                      <aixm:endDate>31-12</aixm:endDate>
+                      <aixm:day>WORK_DAY</aixm:day>
+                      <aixm:startTime>16:00</aixm:startTime>
+                      <aixm:endTime>19:00</aixm:endTime>
+                      <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                      <aixm:excluded>NO</aixm:excluded>
+                    </aixm:Timesheet>
+                  </aixm:timeInterval>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.e802b927-18c5-428e-8be9-6d2eb34534d2">
+                      <aixm:propertyName>timeInterval</aixm:propertyName>
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.fd325281-7bf0-44bc-be8e-9bace53d1a03">
+                          <aixm:note>Remark:These restrictions do not apply to State ACFT and HEL FLT</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:logicalOperator>NONE</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.c5dd1b5d-7847-4011-a895-03ca8ac06f9c">
+                      <aixm:rule>VFR</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>ALL</aixm:origin>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.c50f9156-227b-46b9-b940-dd684441fa94">
+              <aixm:type>FORBID</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.ac0cf394-4728-437d-9acc-992023332ecd">
+                  <aixm:timeInterval>
+                    <aixm:Timesheet gml:id="uuid.20deeef1-8e0d-4f77-9ba4-9cdd0069614f">
+                      <aixm:timeReference>UTC</aixm:timeReference>
+                      <aixm:day>ANY</aixm:day>
+                      <aixm:startTime>00:00</aixm:startTime>
+                      <aixm:endTime>24:00</aixm:endTime>
+                      <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                      <aixm:excluded>NO</aixm:excluded>
+                    </aixm:Timesheet>
+                  </aixm:timeInterval>
+                  <aixm:logicalOperator>AND</aixm:logicalOperator>
+                  <aixm:aircraft>
+                    <aixm:AircraftCharacteristic gml:id="uuid.35c993d0-ce47-4894-b50e-4b584818bf9f">
+                      <aixm:type>GLIDER</aixm:type>
+                    </aixm:AircraftCharacteristic>
+                  </aixm:aircraft>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.24f33706-ae3d-41e7-8d71-5964ddffd771">
+                      <aixm:military>CIVIL</aixm:military>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.5dea6f2c-2a03-4a0c-a8d2-91380c40dceb">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.8d95f9cf-b5e2-418d-badc-82e8e8600444">
+                      <aixm:note>txtRmk:AD is also prohibited for Parachuting FLT, acrobatic FLT and ACFT without radio.</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.79abb978-c323-4975-9947-f26312f44451">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.d8733ba9-9164-43f9-9dbd-bd06cc9c47ec">
+              <aixm:note>CRC:505405N, 0042904E, 175, 149, BD2859D6</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.3c8f41b8-73a2-4a70-82cf-940e5291ad5e">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.7a42b8c4-b0fb-4b58-95a7-54a48e3e7713">
+              <aixm:note>Organisation in charge:BRUSSELS  AIRPORT COMPANY</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.86ef69ce-4fab-49bf-8ebe-81fdda5c0cd2">
+          <aixm:propertyName>altimeterCheckLocation</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.d1f8047b-a689-4795-80bb-b35f0397f713">
+              <aixm:note>Altimeter check location description:On satellite and parking areas, mean ELEV 184 ft.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.4dc8c9ee-7d7e-4c09-b0d9-70d1cd6f2a2b">
+          <aixm:propertyName>windDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.fd7af1c5-ea1f-4133-b56b-4f17bdd93c70">
+              <aixm:note>Wind Direction Indicator:At THR 07L (lighted).
+At 198 m from THR 07R (lighted).
+At 378 m from THR 25L (lighted).
+At 430 m from THR 19 and 209 m from THR 25R (lighted).
+At 472 m from THR 01 and 940 m from THR 07R (lighted).
+Located on the West side (not lighted) for H FATO/TLOF.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.dc200760-b506-4bcf-9d9f-2c42d672cbc3">
+          <aixm:propertyName>landingDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.ed1ce25c-fac9-4905-8e85-150f268473b6">
+              <aixm:note>Landing Direction Indicator Description:NIL</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.2826af11-f934-4a6c-9846-990e21d8499b">
+          <aixm:propertyName>arp</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.ceb2e754-cac2-49a9-9b1c-fc8e4f003f53">
+              <aixm:note>Aerodrome Reference Point Description:246 DEG MAG / 1.8 km from the TWR.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.43ec4ea6-25e1-45cc-8e4c-94d3339fdeeb">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.b4e6bb40-af58-4ef4-a879-fbe6e0f282f9">
+              <aixm:note>Site Description:6.5 NM NE from Brussels</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.3e371b3a-4e0f-4da0-967e-4420d1f64439">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.58752255-4839-4bcd-9191-526792ed63b8">
+              <aixm:note>txtRmk:Aircraft code F are subject to a special permission. However B747-8F are authorized to operate at EBBR.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+</aixm:AirportHeliport> 
+
+</AIXMBasicMessage>

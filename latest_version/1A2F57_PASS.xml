@@ -1,309 +1,285 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:DepartureLeg gml:id="uuid.69279a8b-fc2f-4130-938a-6abef84597ea">
+            <gml:identifier codeSpace="urn:uuid:">69279a8b-fc2f-4130-938a-6abef84597ea</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:DepartureLegTimeSlice gml:id="uuid.393e35bd-569f-45ff-852c-c3fcb1b08c24">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.b890f9d6-03a8-4aa5-8334-13b4abd66095">
+                            <gml:beginPosition>2023-09-07T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>3</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.f55655b8-259c-4f5a-afc9-72ba5403f8e9">
+                            <gml:beginPosition>2017-03-30T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
 
-<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <aixm:DepartureLeg gml:id="uuid.69279a8b-fc2f-4130-938a-6abef84597ea">
-      <gml:identifier codeSpace="urn:uuid:">69279a8b-fc2f-4130-938a-6abef84597ea</gml:identifier>
-      <gml:boundedBy xsi:nil="true"/>
-      <aixm:timeSlice>
-        <aixm:DepartureLegTimeSlice gml:id="uuid.393e35bd-569f-45ff-852c-c3fcb1b08c24">
-          <gml:validTime>
-            <gml:TimePeriod gml:id="uuid.b890f9d6-03a8-4aa5-8334-13b4abd66095">
-              <gml:beginPosition>2023-09-07T00:00:00Z</gml:beginPosition>
-              <gml:endPosition indeterminatePosition="unknown"/>
-            </gml:TimePeriod>
-          </gml:validTime>
-          <aixm:interpretation>BASELINE</aixm:interpretation>
-          <aixm:sequenceNumber>3</aixm:sequenceNumber>
-          <aixm:correctionNumber>0</aixm:correctionNumber>
-          <aixm:featureLifetime>
-            <gml:TimePeriod gml:id="uuid.f55655b8-259c-4f5a-afc9-72ba5403f8e9">
-              <gml:beginPosition>2017-03-30T00:00:00Z</gml:beginPosition>
-              <gml:endPosition indeterminatePosition="unknown"/>
-            </gml:TimePeriod>
-          </aixm:featureLifetime>
-          <aixm:endConditionDesignator>INTERCEPT</aixm:endConditionDesignator>
-          <aixm:legPath>STRAIGHT</aixm:legPath>
-          <aixm:legTypeARINC>VI</aixm:legTypeARINC>
-          <aixm:course>297.3</aixm:course>
-          <aixm:courseType>TRUE_TRACK</aixm:courseType>
-          <aixm:courseDirection nilReason="unknown" xsi:nil="true"/>
-          <aixm:turnDirection>EITHER</aixm:turnDirection>
-          <aixm:speedLimit uom="KT">205</aixm:speedLimit>
-          <aixm:speedReference>IAS</aixm:speedReference>
-          <aixm:speedInterpretation nilReason="unknown" xsi:nil="true"/>
-          <aixm:bankAngle nilReason="unknown" xsi:nil="true"/>
-          <aixm:length uom="NM">17.115</aixm:length>
-          <aixm:duration nilReason="unknown" xsi:nil="true"/>
-          <aixm:procedureTurnRequired>NO</aixm:procedureTurnRequired>
-          <aixm:upperLimitAltitude nilReason="unknown" xsi:nil="true"/>
-          <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
-          <aixm:lowerLimitAltitude uom="FT">954.7</aixm:lowerLimitAltitude>
-          <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
-          <aixm:altitudeInterpretation>ABOVE_LOWER</aixm:altitudeInterpretation>
-          <aixm:altitudeOverrideATC nilReason="unknown" xsi:nil="true"/>
-          <aixm:altitudeOverrideReference nilReason="unknown" xsi:nil="true"/>
-          <aixm:verticalAngle>2.46220172958629</aixm:verticalAngle>
-          <aixm:startPoint nilReason="unknown" xsi:nil="true"/>
-          <aixm:endPoint nilReason="unknown" xsi:nil="true"/>
-<aixm:trajectory>
-            <aixm:Curve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.2ab46c5c-f37a-471a-bad8-0e3dc39f376b" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
-              <gml:segments>
-                <gml:GeodesicString>
-                  <gml:posList>21.2251327 56.5428079 21.2251327 56.5428079 21.2264196 56.5430542 21.227714 56.543288 21.2290157 56.5435092 21.2303242 56.5437179 21.2316391 56.5439139 21.23296 56.5440972 21.2342865 56.5442678 21.2356182 56.5444255 21.2369546 56.5445703 21.2382955 56.5447022 21.2396403 56.5448212 21.2409887 56.5449271 21.2423403 56.5450201 21.2436945 56.5450999 21.2450511 56.5451667 21.2464096 56.5452204 21.2477696 56.545261 21.2491307 56.5452885 21.2504924 56.5453028 21.2518544 56.545304 21.2532162 56.545292 21.2545774 56.5452669 21.2559376 56.5452286 21.2572964 56.5451773 21.2586534 56.5451128 21.2600081 56.5450353 21.2613602 56.5449447 21.2627092 56.544841 21.2640547 56.5447244 21.2653963 56.5445948 21.2667335 56.5444523 21.2680661 56.5442968 21.2693936 56.5441286 21.2707155 56.5439476 21.2720315 56.5437538 21.2733411 56.5435474 21.2746441 56.5433283 21.2759398 56.5430968 21.2772281 56.5428527 21.2785084 56.5425963 21.2797805 56.5423276 21.2810438 56.5420466 21.282298 56.5417535 21.2835428 56.5414483 21.2847777 56.5411311 21.2860024 56.5408021 21.2872165 56.5404613 21.2884197 56.5401089 21.2896115 56.5397449 21.2907916 56.5393694 21.2919596 56.5389826 21.2931152 56.5385846 21.2942581 56.5381756 21.2953878 56.5377555 21.2965041 56.5373246 21.2976066 56.536883 21.2986949 56.5364309 21.2997687 56.5359683 21.3008278 56.5354954 21.3018718 56.5350124 21.3029003 56.5345194 21.303913 56.5340165 21.3049097 56.5335039 21.30589 56.5329818 21.3068537 56.5324503 21.3078004 56.5319096 21.3087299 56.5313598 21.3096418 56.5308012 21.310536 56.5302338 21.311412 56.5296579 21.3122698 56.5290737 21.3131089 56.5284812 21.3139291 56.5278807 21.3147303 56.5272725 21.3155121 56.5266565 21.3162743 56.5260332 21.3170167 56.5254025 21.317739 56.5247648 21.3184411 56.5241202 21.3191227 56.523469 21.3197837 56.5228113 21.3204237 56.5221473 21.3210426 56.5214772 21.3216403 56.5208012 21.3222166 56.5201196 21.3227712 56.5194326 21.323304 56.5187402 21.3238149 56.5180429 21.3243037 56.5173407 21.3247702 56.5166339 21.3252143 56.5159227 21.3256359 56.5152074 21.3260348 56.5144881 21.326411 56.513765 21.3267642 56.5130384 21.3270945 56.5123086 21.3274017 56.5115756 21.3276857 56.5108398 21.3279464 56.5101014 21.3281838 56.5093606 21.3283977 56.5086175 21.3285882 56.5078726 21.3287551 56.5071259 21.3288984 56.5063777 21.3290181 56.5056283 21.3291141 56.5048778 21.3291864 56.5041265 21.329235 56.5033746 21.3292599 56.5026223 21.329261 56.50187 21.3292385 56.5011177 21.3291921 56.5003658 21.3291221 56.4996144 21.3290284 56.4988638 21.328911 56.4981142 21.32877 56.4973659 21.3286054 56.4966191 21.3284173 56.4958739 21.3282057 56.4951307 21.3279707 56.4943897 21.3277124 56.493651 21.3274308 56.4929149 21.3271261 56.4921817 21.3267983 56.4914515 21.3264475 56.4907246 21.3260739 56.4900011 21.3256775 56.4892814 21.3252585 56.4885657 21.3248171 56.487854 21.3243532 56.4871468 21.3238672 56.4864441 21.323359 56.4857462 21.322829 56.4850534 21.3222772 56.4843657 21.3217039 56.4836835 21.3211091 56.4830069 21.3204931 56.4823362 21.3198561 56.4816715 21.3191982 56.481013 21.3185197 56.480361 21.3178208 56.4797157 21.3171016 56.4790772 21.3163625 56.4784457 21.3156035 56.4778215 21.3148251 56.4772046 21.3140273 56.4765954 21.3132105 56.475994 21.3123748 56.4754005 21.3115206 56.4748152 21.3106481 56.4742383 21.3097576 56.4736698 21.3088493 56.47311 21.3079236 56.4725591 21.3069806 56.4720171 21.3060207 56.4714844 21.3050442 56.470961 21.3040514 56.4704471 21.3030426 56.4699429 21.302018 56.4694484 21.300978 56.468964 21.299923 56.4684896 21.2988532 56.4680255 21.2977689 56.4675718 21.2966706 56.4671286 21.2955584 56.4666961 21.2944328 56.4662744 21.2932942 56.4658636 21.2921427 56.4654639 21.2909789 56.4650753 21.289803 56.464698 21.2886155 56.4643321 21.2874166 56.4639778 21.2862067 56.463635 21.2849863 56.463304 21.2837556 56.4629848 21.2825151 56.4626776 21.2812651 56.4623823 21.280006 56.4620992 21.2787382 56.4618282 21.277462 56.4615696 21.2761779 56.4613232 21.2748863 56.4610894 21.2735875 56.460868 21.272282 56.4606591 21.27097 56.4604629 21.2696521 56.4602794 21.2683287 56.4601087 21.267 56.4599507 21.2656666 56.4598056 21.2643289 56.4596733 21.2629872 56.459554 21.2616419 56.4594477 21.2602935 56.4593544 21.2589424 56.459274 21.2575889 56.4592068 21.2562335 56.4591526 21.2548767 56.4591115 21.2535187 56.4590834 21.2521601 56.4590685 21.2508012 56.4590667 21.2494425 56.4590781 21.2480843 56.4591025 21.2467271 56.45914 21.2453713 56.4591907 21.2440173 56.4592543 21.2426654 56.4593311 21.2413162 56.4594209 21.2399701 56.4595237 21.2386274 56.4596394 21.2372885 56.4597681 21.2359538 56.4599097 21.2346239 56.4600642 21.2332989 56.4602315 21.2319795 56.4604115 21.2306659 56.4606042 21.2293585 56.4608096 21.2280579 56.4610276 21.2267642 56.4612581 21.225478 56.461501 21.2241997 56.4617563 21.2229296 56.4620239 21.221668 56.4623037 21.2204155 56.4625957 21.2191723 56.4628997 21.2179389 56.4632156 21.2167157 56.4635434 21.2155029 56.4638829 21.0759225 56.5036904 21.0759225 56.5036904 21.0747398 56.5040197 21.0735472 56.5043378 21.072345 56.5046446 21.0711335 56.5049401 21.0699131 56.5052242 21.0686841 56.5054968 21.0674469 56.5057577 21.0662019 56.506007 21.0649493 56.5062446 21.0636897 56.5064703 21.0624233 56.5066842 21.0611504 56.5068862 21.0598716 56.5070761 21.0585871 56.507254 21.0572973 56.5074198 21.0560025 56.5075734 21.0547033 56.5077149 21.0533999 56.5078441 21.0520926 56.5079611 21.050782 56.5080657 21.0494684 56.508158 21.048152 56.508238 21.0468335 56.5083056 21.045513 56.5083607 21.044191 56.5084035 21.0428679 56.5084338 21.0415441 56.5084516 21.0402199 56.508457 21.0388957 56.50845 21.0375719 56.5084305 21.036249 56.5083986 21.0349272 56.5083543 21.0336069 56.5082975 21.0322886 56.5082283 21.0309726 56.5081468 21.0296593 56.5080529 21.0283491 56.5079466 </gml:posList>
-                </gml:GeodesicString>
-              </gml:segments>
-            </aixm:Curve>
-          </aixm:trajectory>
-          <aixm:arcCentre nilReason="unknown" xsi:nil="true"/>
-          <aixm:angle nilReason="unknown" xsi:nil="true"/>
-          <aixm:distance nilReason="unknown" xsi:nil="true"/>
-          <aixm:aircraftCategory>
-<aixm:AircraftCharacteristic gml:id="uuid.841d6ae5-2899-4e7f-8dd6-221b593b2891">
-              <aixm:aircraftLandingCategory>D</aixm:aircraftLandingCategory>
-            </aixm:AircraftCharacteristic>
-          </aixm:aircraftCategory>
-          <aixm:holding nilReason="unknown" xsi:nil="true"/>
-          <aixm:designSurface>
-            <aixm:ObstacleAssessmentArea gml:id="uuid.2fbc5162-8f65-49b1-bf27-773d2965355c">
-              <aixm:type>PRIMARY</aixm:type>
-              <aixm:sectionNumber>0</aixm:sectionNumber>
-              <aixm:surfaceZone>PRIMARY</aixm:surfaceZone>
-              <aixm:significantObstacle>
-                <aixm:Obstruction gml:id="uuid.adc325ec-e70b-4f6b-92df-11e1d196b383">
-                  <aixm:requiredClearance uom="M">90</aixm:requiredClearance>
-                  <aixm:minimumAltitude uom="FT">736.7</aixm:minimumAltitude>
-                  <aixm:theVerticalStructure xlink:type="simple" xlink:href="urn:uuid:001d121b-dd13-4e68-8ef9-3b53b63946df"/>
-                </aixm:Obstruction>
-              </aixm:significantObstacle>
-              <aixm:significantObstacle>
-                <aixm:Obstruction gml:id="uuid.299adb1c-5931-4b89-8b90-93697ac66cc9">
-                  <aixm:requiredClearance uom="M">119.550452754102</aixm:requiredClearance>
-                  <aixm:minimumAltitude uom="FT">405.7</aixm:minimumAltitude>
-                </aixm:Obstruction>
-              </aixm:significantObstacle>
-              </aixm:ObstacleAssessmentArea>
-          </aixm:designSurface>
-          <aixm:annotation nilReason="unknown" xsi:nil="true"/>
+                    <aixm:endConditionDesignator>INTERCEPT</aixm:endConditionDesignator>
+                    <aixm:legPath>STRAIGHT</aixm:legPath>
+                    <aixm:legTypeARINC>VI</aixm:legTypeARINC>
+                    <aixm:course>297.3</aixm:course>
+                    <aixm:courseType>TRUE_TRACK</aixm:courseType>
+                    <aixm:courseDirection nilReason="unknown" xsi:nil="true"/>
+                    <aixm:turnDirection>EITHER</aixm:turnDirection>
+                    <aixm:speedLimit uom="KT">205</aixm:speedLimit>
+                    <aixm:speedReference>IAS</aixm:speedReference>
+                    <aixm:speedInterpretation nilReason="unknown" xsi:nil="true"/>
+                    <aixm:bankAngle nilReason="unknown" xsi:nil="true"/>
+                    <aixm:length uom="NM">17.115</aixm:length>
+                    <aixm:duration nilReason="unknown" xsi:nil="true"/>
+                    <aixm:procedureTurnRequired>NO</aixm:procedureTurnRequired>
+                    <aixm:upperLimitAltitude nilReason="unknown" xsi:nil="true"/>
+                    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                    <aixm:lowerLimitAltitude uom="FT">954.7</aixm:lowerLimitAltitude>
+                    <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                    <aixm:altitudeInterpretation>ABOVE_LOWER</aixm:altitudeInterpretation>
+                    <aixm:altitudeOverrideATC nilReason="unknown" xsi:nil="true"/>
+                    <aixm:altitudeOverrideReference nilReason="unknown" xsi:nil="true"/>
+                    <aixm:verticalAngle>2.46220172958629</aixm:verticalAngle>
+                    <aixm:startPoint nilReason="unknown" xsi:nil="true"/>
+                    <aixm:endPoint nilReason="unknown" xsi:nil="true"/>
+                    <aixm:trajectory>
+                        <aixm:Curve xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                                    gml:id="uuid.2ab46c5c-f37a-471a-bad8-0e3dc39f376b"
+                                    srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                            <gml:segments>
+                                <gml:GeodesicString>
+                                    <gml:posList>21.2251327 56.5428079 21.2251327 56.5428079 21.2264196 56.5430542 21.227714 56.543288 21.2290157 56.5435092 21.2303242 56.5437179 21.2316391 56.5439139 21.23296 56.5440972 21.2342865 56.5442678 21.2356182 56.5444255 21.2369546 56.5445703 21.2382955 56.5447022 21.2396403 56.5448212 21.2409887 56.5449271 21.2423403 56.5450201 21.2436945 56.5450999 21.2450511 56.5451667 21.2464096 56.5452204 21.2477696 56.545261 21.2491307 56.5452885 21.2504924 56.5453028 21.2518544 56.545304 21.2532162 56.545292 21.2545774 56.5452669 21.2559376 56.5452286 21.2572964 56.5451773 21.2586534 56.5451128 21.2600081 56.5450353 21.2613602 56.5449447 21.2627092 56.544841 21.2640547 56.5447244 21.2653963 56.5445948 21.2667335 56.5444523 21.2680661 56.5442968 21.2693936 56.5441286 21.2707155 56.5439476 21.2720315 56.5437538 21.2733411 56.5435474 21.2746441 56.5433283 21.2759398 56.5430968 21.2772281 56.5428527 21.2785084 56.5425963 21.2797805 56.5423276 21.2810438 56.5420466 21.282298 56.5417535 21.2835428 56.5414483 21.2847777 56.5411311 21.2860024 56.5408021 21.2872165 56.5404613 21.2884197 56.5401089 21.2896115 56.5397449 21.2907916 56.5393694 21.2919596 56.5389826 21.2931152 56.5385846 21.2942581 56.5381756 21.2953878 56.5377555 21.2965041 56.5373246 21.2976066 56.536883 21.2986949 56.5364309 21.2997687 56.5359683 21.3008278 56.5354954 21.3018718 56.5350124 21.3029003 56.5345194 21.303913 56.5340165 21.3049097 56.5335039 21.30589 56.5329818 21.3068537 56.5324503 21.3078004 56.5319096 21.3087299 56.5313598 21.3096418 56.5308012 21.310536 56.5302338 21.311412 56.5296579 21.3122698 56.5290737 21.3131089 56.5284812 21.3139291 56.5278807 21.3147303 56.5272725 21.3155121 56.5266565 21.3162743 56.5260332 21.3170167 56.5254025 21.317739 56.5247648 21.3184411 56.5241202 21.3191227 56.523469 21.3197837 56.5228113 21.3204237 56.5221473 21.3210426 56.5214772 21.3216403 56.5208012 21.3222166 56.5201196 21.3227712 56.5194326 21.323304 56.5187402 21.3238149 56.5180429 21.3243037 56.5173407 21.3247702 56.5166339 21.3252143 56.5159227 21.3256359 56.5152074 21.3260348 56.5144881 21.326411 56.513765 21.3267642 56.5130384 21.3270945 56.5123086 21.3274017 56.5115756 21.3276857 56.5108398 21.3279464 56.5101014 21.3281838 56.5093606 21.3283977 56.5086175 21.3285882 56.5078726 21.3287551 56.5071259 21.3288984 56.5063777 21.3290181 56.5056283 21.3291141 56.5048778 21.3291864 56.5041265 21.329235 56.5033746 21.3292599 56.5026223 21.329261 56.50187 21.3292385 56.5011177 21.3291921 56.5003658 21.3291221 56.4996144 21.3290284 56.4988638 21.328911 56.4981142 21.32877 56.4973659 21.3286054 56.4966191 21.3284173 56.4958739 21.3282057 56.4951307 21.3279707 56.4943897 21.3277124 56.493651 21.3274308 56.4929149 21.3271261 56.4921817 21.3267983 56.4914515 21.3264475 56.4907246 21.3260739 56.4900011 21.3256775 56.4892814 21.3252585 56.4885657 21.3248171 56.487854 21.3243532 56.4871468 21.3238672 56.4864441 21.323359 56.4857462 21.322829 56.4850534 21.3222772 56.4843657 21.3217039 56.4836835 21.3211091 56.4830069 21.3204931 56.4823362 21.3198561 56.4816715 21.3191982 56.481013 21.3185197 56.480361 21.3178208 56.4797157 21.3171016 56.4790772 21.3163625 56.4784457 21.3156035 56.4778215 21.3148251 56.4772046 21.3140273 56.4765954 21.3132105 56.475994 21.3123748 56.4754005 21.3115206 56.4748152 21.3106481 56.4742383 21.3097576 56.4736698 21.3088493 56.47311 21.3079236 56.4725591 21.3069806 56.4720171 21.3060207 56.4714844 21.3050442 56.470961 21.3040514 56.4704471 21.3030426 56.4699429 21.302018 56.4694484 21.300978 56.468964 21.299923 56.4684896 21.2988532 56.4680255 21.2977689 56.4675718 21.2966706 56.4671286 21.2955584 56.4666961 21.2944328 56.4662744 21.2932942 56.4658636 21.2921427 56.4654639 21.2909789 56.4650753 21.289803 56.464698 21.2886155 56.4643321 21.2874166 56.4639778 21.2862067 56.463635 21.2849863 56.463304 21.2837556 56.4629848 21.2825151 56.4626776 21.2812651 56.4623823 21.280006 56.4620992 21.2787382 56.4618282 21.277462 56.4615696 21.2761779 56.4613232 21.2748863 56.4610894 21.2735875 56.460868 21.272282 56.4606591 21.27097 56.4604629 21.2696521 56.4602794 21.2683287 56.4601087 21.267 56.4599507 21.2656666 56.4598056 21.2643289 56.4596733 21.2629872 56.459554 21.2616419 56.4594477 21.2602935 56.4593544 21.2589424 56.459274 21.2575889 56.4592068 21.2562335 56.4591526 21.2548767 56.4591115 21.2535187 56.4590834 21.2521601 56.4590685 21.2508012 56.4590667 21.2494425 56.4590781 21.2480843 56.4591025 21.2467271 56.45914 21.2453713 56.4591907 21.2440173 56.4592543 21.2426654 56.4593311 21.2413162 56.4594209 21.2399701 56.4595237 21.2386274 56.4596394 21.2372885 56.4597681 21.2359538 56.4599097 21.2346239 56.4600642 21.2332989 56.4602315 21.2319795 56.4604115 21.2306659 56.4606042 21.2293585 56.4608096 21.2280579 56.4610276 21.2267642 56.4612581 21.225478 56.461501 21.2241997 56.4617563 21.2229296 56.4620239 21.221668 56.4623037 21.2204155 56.4625957 21.2191723 56.4628997 21.2179389 56.4632156 21.2167157 56.4635434 21.2155029 56.4638829 21.0759225 56.5036904 21.0759225 56.5036904 21.0747398 56.5040197 21.0735472 56.5043378 21.072345 56.5046446 21.0711335 56.5049401 21.0699131 56.5052242 21.0686841 56.5054968 21.0674469 56.5057577 21.0662019 56.506007 21.0649493 56.5062446 21.0636897 56.5064703 21.0624233 56.5066842 21.0611504 56.5068862 21.0598716 56.5070761 21.0585871 56.507254 21.0572973 56.5074198 21.0560025 56.5075734 21.0547033 56.5077149 21.0533999 56.5078441 21.0520926 56.5079611 21.050782 56.5080657 21.0494684 56.508158 21.048152 56.508238 21.0468335 56.5083056 21.045513 56.5083607 21.044191 56.5084035 21.0428679 56.5084338 21.0415441 56.5084516 21.0402199 56.508457 21.0388957 56.50845 21.0375719 56.5084305 21.036249 56.5083986 21.0349272 56.5083543 21.0336069 56.5082975 21.0322886 56.5082283 21.0309726 56.5081468 21.0296593 56.5080529 21.0283491 56.5079466 </gml:posList>
+                                </gml:GeodesicString>
+                            </gml:segments>
+                        </aixm:Curve>
+                    </aixm:trajectory>
+                    <aixm:arcCentre nilReason="unknown" xsi:nil="true"/>
+                    <aixm:angle nilReason="unknown" xsi:nil="true"/>
+                    <aixm:distance nilReason="unknown" xsi:nil="true"/>
+                    <aixm:aircraftCategory>
+                        <aixm:AircraftCharacteristic gml:id="uuid.841d6ae5-2899-4e7f-8dd6-221b593b2891">
+                            <aixm:aircraftLandingCategory>D</aixm:aircraftLandingCategory>
+                        </aixm:AircraftCharacteristic>
+                    </aixm:aircraftCategory>
+                    <aixm:holding nilReason="unknown" xsi:nil="true"/>
+                    <aixm:designSurface>
+                        <aixm:ObstacleAssessmentArea gml:id="uuid.2fbc5162-8f65-49b1-bf27-773d2965355c">
+                            <aixm:type>PRIMARY</aixm:type>
+                            <aixm:sectionNumber>0</aixm:sectionNumber>
+                            <aixm:surfaceZone>PRIMARY</aixm:surfaceZone>
+                            <aixm:significantObstacle>
+                                <aixm:Obstruction gml:id="uuid.adc325ec-e70b-4f6b-92df-11e1d196b383">
+                                    <aixm:requiredClearance uom="M">90</aixm:requiredClearance>
+                                    <aixm:minimumAltitude uom="FT">736.7</aixm:minimumAltitude>
+                                    <aixm:theVerticalStructure xlink:type="simple" xlink:href="urn:uuid:001d121b-dd13-4e68-8ef9-3b53b63946df"/>
+                                </aixm:Obstruction>
+                            </aixm:significantObstacle>
+                            <aixm:significantObstacle>
+                                <aixm:Obstruction gml:id="uuid.299adb1c-5931-4b89-8b90-93697ac66cc9">
+                                    <aixm:requiredClearance uom="M">119.550452754102</aixm:requiredClearance>
+                                    <aixm:minimumAltitude uom="FT">405.7</aixm:minimumAltitude>
+                                </aixm:Obstruction>
+                            </aixm:significantObstacle>
+                        </aixm:ObstacleAssessmentArea>
+                    </aixm:designSurface>
 
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
-                  <aixm:propertyName>endConditionDesignator</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
-                  <aixm:propertyName>legPath</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                            <aixm:propertyName>endConditionDesignator</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                            <aixm:propertyName>legPath</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                            <aixm:propertyName>legTypeARINC</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                            <aixm:propertyName>course</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+                            <aixm:propertyName>courseType</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
+                            <aixm:propertyName>courseDirection</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
+                            <aixm:propertyName>turnDirection</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
+                            <aixm:propertyName>speedLimit</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
+                            <aixm:propertyName>speedReference</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
+                            <aixm:propertyName>speedInterpretation</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
+                            <aixm:propertyName>bankAngle</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2b">
+                            <aixm:propertyName>length</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2c">
+                            <aixm:propertyName>duration</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2d">
+                            <aixm:propertyName>procedureTurnRequired</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2e">
+                            <aixm:propertyName>upperLimitAltitude</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2f">
+                            <aixm:propertyName>upperLimitReference</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd30">
+                            <aixm:propertyName>lowerLimitAltitude</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd31">
+                            <aixm:propertyName>lowerLimitReference</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd32">
+                            <aixm:propertyName>altitudeInterpretation</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd33">
+                            <aixm:propertyName>altitudeOverrideATC</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd34">
+                            <aixm:propertyName>altitudeOverrideReference</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd35">
+                            <aixm:propertyName>verticalAngle</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd36">
+                            <aixm:propertyName>startPoint</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd37">
+                            <aixm:propertyName>endPoint</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd38">
+                            <aixm:propertyName>trajectory</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd39">
+                            <aixm:propertyName>arcCentre</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd3a">
+                            <aixm:propertyName>angle</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd3b">
+                            <aixm:propertyName>distance</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd3c">
+                            <aixm:propertyName>aircraftCategory</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd3d">
+                            <aixm:propertyName>holding</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd3e">
+                            <aixm:propertyName>designSurface</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd3f">
+                            <aixm:propertyName>requiredNavigationPerformance</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd40">
+                            <aixm:propertyName>minimumObstacleClearanceAltitude</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd41">
+                            <aixm:propertyName>departure</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd42">
+                            <aixm:propertyName>condition</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
 
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
-                  <aixm:propertyName>legTypeARINC</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
-                  <aixm:propertyName>course</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
-                  <aixm:propertyName>courseType</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
-                  <aixm:propertyName>courseDirection</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
-                  <aixm:propertyName>turnDirection</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
-                  <aixm:propertyName>speedLimit</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
-                  <aixm:propertyName>speedReference</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
-                  <aixm:propertyName>speedInterpretation</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
-                  <aixm:propertyName>bankAngle</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2b">
-                  <aixm:propertyName>length</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2c">
-                  <aixm:propertyName>duration</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2d">
-                  <aixm:propertyName>procedureTurnRequired</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2e">
-                  <aixm:propertyName>upperLimitAltitude</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2f">
-                  <aixm:propertyName>upperLimitReference</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd30">
-                  <aixm:propertyName>lowerLimitAltitude</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd31">
-                  <aixm:propertyName>lowerLimitReference</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd32">
-                  <aixm:propertyName>altitudeInterpretation</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd33">
-                  <aixm:propertyName>altitudeOverrideATC</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd34">
-                  <aixm:propertyName>altitudeOverrideReference</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd35">
-                  <aixm:propertyName>verticalAngle</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd36">
-                  <aixm:propertyName>startPoint</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd37">
-                  <aixm:propertyName>endPoint</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd38">
-                  <aixm:propertyName>trajectory</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd39">
-                  <aixm:propertyName>arcCentre</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd3a">
-                  <aixm:propertyName>angle</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd3b">
-                  <aixm:propertyName>distance</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd3c">
-                  <aixm:propertyName>aircraftCategory</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd3d">
-                  <aixm:propertyName>holding</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd3e">
-                  <aixm:propertyName>designSurface</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd3f">
-                  <aixm:propertyName>requiredNavigationPerformance</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd40">
-                  <aixm:propertyName>minimumObstacleClearanceAltitude</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd41">
-                  <aixm:propertyName>departure</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:annotation>
-              <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd42">
-                  <aixm:propertyName>condition</aixm:propertyName>
-              </aixm:Note>
-          </aixm:annotation>
-
-          <aixm:requiredNavigationPerformance nilReason="unknown" xsi:nil="true"/>
-          <aixm:minimumObstacleClearanceAltitude nilReason="unknown" xsi:nil="true"/>
-          <aixm:departure xlink:type="simple" xlink:href="#uuid.827abcae-0e4c-4389-899c-3b9bac612915"/>
-          <aixm:condition nilReason="unknown" xsi:nil="true"/>
-        </aixm:DepartureLegTimeSlice>
-      </aixm:timeSlice>
-    </aixm:DepartureLeg>
-  </hasMember>
-
-
-              
-</AIXMBasicMessage>
+                    <aixm:requiredNavigationPerformance nilReason="unknown" xsi:nil="true"/>
+                    <aixm:minimumObstacleClearanceAltitude nilReason="unknown" xsi:nil="true"/>
+                    <aixm:departure xlink:type="simple" xlink:href="#uuid.827abcae-0e4c-4389-899c-3b9bac612915"/>
+                    <aixm:condition nilReason="unknown" xsi:nil="true"/>
+                </aixm:DepartureLegTimeSlice>
+            </aixm:timeSlice>
+        </aixm:DepartureLeg>
+    </message:hasMember>
+</message:AIXMBasicMessage>
