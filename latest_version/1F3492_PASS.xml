@@ -1,0 +1,113 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+
+<aixm:Airspace gml:id="uuid.f02ef1ac-2fa6-420b-bb06-cfb003742ccf">
+  <gml:identifier codeSpace="urn:uuid:">f02ef1ac-2fa6-420b-bb06-cfb003742ccf</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AirspaceTimeSlice gml:id="uuid.1aed410b-7a8a-42e2-b609-4d2c05bcb6f4">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.51568d16-3c98-40e0-a9e2-581ef415f8dd">
+          <gml:beginPosition>2018-02-01T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.2a8fb051-4243-4026-9d78-fc010a4178b0">
+          <gml:beginPosition>2011-05-05T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>TMA</aixm:type>
+      <aixm:designator>CTA023</aixm:designator>
+      <aixm:localType>TRANSITION AREA</aixm:localType>
+      <aixm:name>NARAMATA, BC</aixm:name>
+      <aixm:designatorICAO>NO</aixm:designatorICAO>
+      <aixm:protectedRoute xlink:type="simple" xlink:href="#uuid.e6b31a09-e62f-4bb6-97d8-843bc241ce06"/>
+      <aixm:geometryComponent>
+        <aixm:AirspaceGeometryComponent gml:id="uuid.b96bf61c-2cd5-47d4-838f-5a76787c31df">
+          <aixm:operation>BASE</aixm:operation>
+          <aixm:operationSequence>1</aixm:operationSequence>
+          <aixm:theAirspaceVolume>
+            <aixm:AirspaceVolume gml:id="uuid.04e5f415-8915-4cd7-a0cf-5070651a5ae3">
+              <aixm:contributorAirspace>
+                <aixm:AirspaceVolumeDependency gml:id="uuid.c583a3be-2ec4-4819-b056-d298abbde691">
+                  <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                  <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.d0b7892b-df47-4b38-97ad-6576ebec4dd5"/>
+                </aixm:AirspaceVolumeDependency>
+              </aixm:contributorAirspace>
+            </aixm:AirspaceVolume>
+          </aixm:theAirspaceVolume>
+        </aixm:AirspaceGeometryComponent>
+      </aixm:geometryComponent>
+      <aixm:geometryComponent>
+        <aixm:AirspaceGeometryComponent gml:id="uuid.82412514-9044-4dd2-9414-20828a03ba49">
+          <aixm:operation>UNION</aixm:operation>
+          <aixm:operationSequence>2</aixm:operationSequence>
+          <aixm:theAirspaceVolume>
+            <aixm:AirspaceVolume gml:id="uuid.f40abfef-086a-4ca0-ad88-8abbcb746201">
+              <aixm:contributorAirspace>
+                <aixm:AirspaceVolumeDependency gml:id="uuid.7b282691-c91f-4654-8c82-478deb222d7a">
+                  <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                  <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.22560699-28d0-4d9e-b4e6-5f3e6803b104"/>
+                </aixm:AirspaceVolumeDependency>
+              </aixm:contributorAirspace>
+            </aixm:AirspaceVolume>
+          </aixm:theAirspaceVolume>
+        </aixm:AirspaceGeometryComponent>
+      </aixm:geometryComponent>
+      <aixm:activation>
+        <aixm:AirspaceActivation gml:id="uuid.53881ad5-d807-4101-b5b0-7cb708156bc8">
+          <aixm:activity>ATS</aixm:activity>
+        </aixm:AirspaceActivation>
+      </aixm:activation>
+      <aixm:extension>
+        <ead-audit:AirspaceExtension gml:id="uuid.4dbed510-1b30-48f6-b352-2393346e07d7">
+          <ead-audit:auditInformation>
+            <ead-audit:Audit gml:id="uuid.993d9a10-b1ce-47e3-bf9d-5ae3432f4946">
+              <ead-audit:createdBy>CY_ESI_NAVC</ead-audit:createdBy>
+              <ead-audit:creationDate>2018-01-23T16:28:56Z</ead-audit:creationDate>
+              <ead-audit:createdByOrg>NAV CANADA</ead-audit:createdByOrg>
+              <ead-audit:reasonForChange>Automatic Upload for 01-FEB-2018 00:00</ead-audit:reasonForChange>
+              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
+            </ead-audit:Audit>
+          </ead-audit:auditInformation>
+        </ead-audit:AirspaceExtension>
+      </aixm:extension>
+    </aixm:AirspaceTimeSlice>
+  </aixm:timeSlice>
+</aixm:Airspace> 
+
+<aixm:Route gml:id="uuid.e6b31a09-e62f-4bb6-97d8-843bc241ce06">
+  <gml:identifier codeSpace="urn:uuid:">e6b31a09-e62f-4bb6-97d8-843bc241ce06</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:RouteTimeSlice gml:id="uuid.fae63fc0-ad10-4b35-992a-4c3418359f45">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.cb1fb783-10f4-40ac-9d2e-5e113e7a3869">
+          <gml:beginPosition>2013-05-02T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.99cff27f-d134-4175-bf96-211e99c63eac">
+          <gml:beginPosition>2011-05-05T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designatorSecondLetter>T</aixm:designatorSecondLetter>
+      <aixm:designatorNumber>701</aixm:designatorNumber>
+      <aixm:locationDesignator>CAN</aixm:locationDesignator>
+    </aixm:RouteTimeSlice>
+  </aixm:timeSlice>
+</aixm:Route> 
+
+</AIXMBasicMessage>
