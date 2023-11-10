@@ -1,0 +1,98 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+
+<aixm:Airspace gml:id="uuid.72d56bbd-63c0-405f-b2f5-036dbe87f1c1">
+  <gml:identifier codeSpace="urn:uuid:">72d56bbd-63c0-405f-b2f5-036dbe87f1c1</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AirspaceTimeSlice gml:id="uuid.b76bf9b6-852a-447a-be49-f9c6f848396b">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.21dfb2eb-5f8a-4e16-84c3-bc9f7b103fd7">
+          <gml:beginPosition>2017-10-13T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.6d40ab2d-02f0-48ac-a59f-48c3212a9f8b">
+          <gml:beginPosition>2017-09-14T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>TRA</aixm:type>
+      <aixm:designator>LYTRA67</aixm:designator>
+      <aixm:name>TRA 67</aixm:name>
+      <aixm:designatorICAO>NO</aixm:designatorICAO>
+      <aixm:controlType>MIL</aixm:controlType>
+      <aixm:geometryComponent>
+        <aixm:AirspaceGeometryComponent gml:id="uuid.5bbe5e24-56bb-4652-81f4-29cd8c1fda7e">
+          <aixm:theAirspaceVolume>
+            <aixm:AirspaceVolume gml:id="uuid.b953fed1-b2d6-4e0b-bc22-6b072e44a1a2">
+            <!-- ERROR: If AirspaceVolume has corridor shape non-zero width must be assigned -->
+              <!-- <aixm:width uom="NM">6</aixm:width> -->
+              <aixm:centreline>
+                <aixm:ElevatedCurve xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.8d41b290-2c20-483a-960a-266cf1575040">
+                  <gml:segments>
+                    <gml:GeodesicString interpolation="geodesic">
+                      <gml:posList>43.90833 19.73861 43.84611 20.03556</gml:posList>
+                    </gml:GeodesicString>
+                  </gml:segments>
+                </aixm:ElevatedCurve>
+              </aixm:centreline>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.83174a1b-a348-4ea0-a71b-654697b31210">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.c2d7039e-788c-474b-ad04-77c1d0fd3569">
+                      <aixm:note>Airspace Centreline Vertex number:1 , type = GRC&#13;
+CRC:435430N,0194419E,,,86A07F8F</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirspaceVolume>
+          </aixm:theAirspaceVolume>
+        </aixm:AirspaceGeometryComponent>
+      </aixm:geometryComponent>
+      <aixm:activation>
+        <aixm:AirspaceActivation gml:id="uuid.69128093-787a-4deb-b718-7347e0789856">
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.a16722c0-0b6c-46a6-a7eb-2799f5ac86c2">
+              <aixm:propertyName>timeInterval</aixm:propertyName>
+              <aixm:purpose>WARNING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.a511a69d-a88b-4d6d-807d-79ea923e2931">
+                  <aixm:note>activity period to be published by NOTAM</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:activity>EXERCISE</aixm:activity>
+          <aixm:status>ACTIVE</aixm:status>
+        </aixm:AirspaceActivation>
+      </aixm:activation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.ac6e6660-8068-416d-99ed-8f779b5b6eeb">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.19acaa73-f541-4982-bfec-a1ca06266e65">
+              <aixm:note>txtRmk:[Upper/lower limit:] By NOTAM 
+(Within 6000 FT AMSL / GND)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:extension>
+        <ead-adr:AirspaceExtension gml:id="uuid.2d1ac8fe-ac42-4988-8bc8-7b40122b81db">
+          <ead-adr:flexibleUse>YES</ead-adr:flexibleUse>
+        </ead-adr:AirspaceExtension>
+      </aixm:extension>
+    </aixm:AirspaceTimeSlice>
+  </aixm:timeSlice>
+</aixm:Airspace> 
+
+</AIXMBasicMessage>
