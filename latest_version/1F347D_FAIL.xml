@@ -1,0 +1,283 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+
+<aixm:Airspace gml:id="uuid.f0792394-16c2-49cd-9bd4-7c42e09354ef">
+  <gml:identifier codeSpace="urn:uuid:">f0792394-16c2-49cd-9bd4-7c42e09354ef</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AirspaceTimeSlice gml:id="uuid.a0b90e7c-9772-4d24-8f38-968a84c76b22">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.e1622eab-dafd-4e79-94f1-6bf865bc1b89">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>10</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.6829b42f-0ca7-4482-a942-7cc290cae1a8">
+          <gml:beginPosition>2016-06-23T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>ATZ_P</aixm:type>
+      <aixm:designator>EVRSB</aixm:designator>
+      <aixm:localType>SPILVE ATZ</aixm:localType>
+      <aixm:name>SPILVE ATZ SECTOR B</aixm:name>
+      <aixm:designatorICAO nilReason="unknown" xsi:nil="true"/>
+      <aixm:controlType nilReason="unknown" xsi:nil="true"/>
+      <aixm:upperLowerSeparation nilReason="unknown" xsi:nil="true"/>
+      <aixm:class>
+        <aixm:AirspaceLayerClass gml:id="uuid.c2ad5958-e9a6-43ae-b7b7-9daf562a2eca">
+          <aixm:classification>G</aixm:classification>
+        </aixm:AirspaceLayerClass>
+      </aixm:class>
+      <aixm:protectedRoute nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:geometryComponent>
+        <aixm:AirspaceGeometryComponent gml:id="uuid.2e0e0a93-0fbc-4ba0-b680-e058b1daf31f">
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.f0f4b930-825b-4b53-9a32-74d0156d8e2c">
+              <aixm:propertyName>mapName</aixm:propertyName>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.dbf2fd11-f85a-42bb-986b-a8823008b9d1">
+                  <aixm:note lang="eng">SPILVE Sector B</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:theAirspaceVolume>
+            <aixm:AirspaceVolume gml:id="uuid.bacf8190-16f2-4da1-8c0f-3af0673105a1">
+              <aixm:upperLimit uom="FT">1000</aixm:upperLimit>
+              <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+              <aixm:lowerLimit uom="FT">0</aixm:lowerLimit>
+              <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
+              <aixm:horizontalProjection>
+                <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.7e93ced6-3bdb-4207-9af1-94fca99fd4ea" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                  <gml:patches>
+                    <gml:PolygonPatch>
+                      <gml:exterior>
+                        <gml:Ring>
+                          <gml:curveMember>
+                            <gml:Curve gml:id="uuid.ecbf5b0f-1b28-49a9-bc3c-e47ff2bddf0b">
+                              <gml:segments>
+                                <gml:GeodesicString>
+                                  <gml:posList>24.1794444 57.005 24.1788889 56.9502778 24.0925 56.9619444 24.0744444 56.9919444 24.0852778 57.0230556 24.1708333 57.0497222 24.1794444 57.005 </gml:posList>
+                                </gml:GeodesicString>
+                              </gml:segments>
+                            </gml:Curve>
+                          </gml:curveMember>
+                        </gml:Ring>
+                      </gml:exterior>
+                    </gml:PolygonPatch>
+                  </gml:patches>
+                </aixm:Surface>
+              </aixm:horizontalProjection>
+            </aixm:AirspaceVolume>
+          </aixm:theAirspaceVolume>
+        </aixm:AirspaceGeometryComponent>
+      </aixm:geometryComponent>
+      <aixm:activation>
+        <aixm:AirspaceActivation gml:id="uuid.54390f67-05b2-4df7-a5de-3cf4cdf4d719">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.167dc6ce-3657-4a67-92bc-903baddf9bc0">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:startTime>00:00</aixm:startTime>
+              <aixm:endTime>23:59</aixm:endTime>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <!-- <aixm:user xlink:type="simple" xlink:href="#uuid.8ebeb2c4-7851-46af-916c-a72f9fc49fea"/> -->
+          <!-- ERROR: Found AirspaceActivation with user@xlink:href value that does not match any OrganisationAuthority (${association}) -->
+          <aixm:user xlink:type="simple" xlink:href="#uuid.8ebeb2c4-7851-46af-916c-a000000000ea"/>
+        </aixm:AirspaceActivation>
+      </aixm:activation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.a5350067-c3b1-478c-a16d-dcff636294ee">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.a982de67-a92d-4252-9ef8-c1c9ae9ea689">
+              <aixm:note lang="eng">Common traffic advisory frequency (CTAF) <U+2013> 124.380 MHz <U+2013> should be used by the pilots for self-announcing their positions and intentions or for air-air communications in order to exchange traffic information.
+TMZ</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.8021e733-a2ca-4805-8a61-43b62ac9d7bb">
+              <aixm:note lang="lav">Kop<U+0113>j<U+0101> satiksmes konsult<U+0101>ciju frekvence (CTAF) <U+2013> 124.380 MHz <U+2013> pilotiem j<U+0101>izmanto pa<U+0161>u zi<U+0146>ojumiem par sav<U+0101>m poz<U+012B>cij<U+0101>m un nodomiem vai gaiss-gaiss sakariem, lai apmain<U+012B>tos ar inform<U+0101>ciju par satiksmi. 
+TMZ</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.be821d3a-68df-40ce-a21c-624970f80349">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.c02c91a5-7431-4f37-9408-90f0d3740200">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirspaceTimeSlice>
+  </aixm:timeSlice>
+</aixm:Airspace> 
+
+<aixm:OrganisationAuthority gml:id="uuid.8ebeb2c4-7851-46af-916c-a72f9fc49fea">
+  <gml:identifier codeSpace="urn:uuid:">8ebeb2c4-7851-46af-916c-a72f9fc49fea</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.e596b059-b670-4010-919a-1f39f56cb549">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.2f0b2a6e-93fc-42ce-9754-69f755873bcc">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>4</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.12da33c8-6ec4-4436-a17c-e73924788fe1">
+          <gml:beginPosition>2016-06-23T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:name>FOUNDATION "LIDOSTA SPILVE" AD DIRECTOR JANIS MASLOVSKIS</aixm:name>
+      <aixm:designator nilReason="unknown" xsi:nil="true"/>
+      <aixm:type>COMMERCIAL</aixm:type>
+      <aixm:military nilReason="unknown" xsi:nil="true"/>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.37a1667c-8b64-4117-8e93-d22a6d816a5a">
+          <aixm:name>JANIS MASLOVSKIS</aixm:name>
+          <aixm:title>DIRECTOR</aixm:title>
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.a66b3453-d210-4a2e-aaf7-83c118da793f">
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.4392e4b5-a8e5-44b4-a74d-70c5d0da27dd">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.43629962-f6c3-471d-bbdf-277612480dfb">
+                      <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.af09d2d5-b743-4efb-bc7e-d1817e19238f">
+                          <aixm:note lang="eng">MON-FRI 08:00-12:00 (a meeting with the AD operator, by prior arrangement).</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.fd01002b-f9eb-4e3c-b740-dc2e9b66c685">
+                          <aixm:note lang="lav">MON-FRI 08:00-12:00 ( iepriek<U+0161><U+0113>ja vieno<U+0161>an<U+0101>s par tik<U+0161>anos ar AD operatoru)</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.14e4a1db-6348-46c9-9af8-d63a9057135f">
+                  <aixm:propertyName>deliveryPoint</aixm:propertyName>
+                  <aixm:purpose>DESCRIPTION</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.a290b7c0-8200-4cff-9331-29532d167814">
+                      <aixm:note lang="eng">Daugavgr<U+012B>vas <U+0161>oseja 2, R<U+012B>ga, LV-1007, Latvija</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.b6555978-2c29-430d-a5db-442e12df1cb6">
+                      <aixm:note lang="lav">Daugavgr<U+012B>vas <U+0161>oseja 2, R<U+012B>ga, LV-1007, Latvija</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:deliveryPoint>Daugavgr<U+012B>vas <U+0161>oseja 2,</aixm:deliveryPoint>
+              <aixm:city>RIGA</aixm:city>
+              <aixm:administrativeArea>RIGA</aixm:administrativeArea>
+              <aixm:postalCode>LV-1007</aixm:postalCode>
+              <aixm:country>LATVIJA</aixm:country>
+            </aixm:PostalAddress>
+          </aixm:address>
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.dc054913-0059-4402-94af-b1e07b308486">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:linkage>www.spilve.org</aixm:linkage>
+              <aixm:eMail>info@spilve.org</aixm:eMail>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.bf63aa2b-9884-4fb7-932a-c6a0d81d1b62">
+              <aixm:network>AFTN</aixm:network>
+              <aixm:linkage>EVRSYDYD</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.7754226e-fbfe-4340-98bb-e1a1fcca3114">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.4fc92f03-fc0c-4697-8cd9-ab7110c58b83">
+                  <aixm:purpose>DESCRIPTION</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.8a92cf7b-97c9-446a-ae65-fa129563eca0">
+                      <aixm:note lang="eng">(duty officer)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.43cb383b-0413-4e27-8d20-d5febf0e4ded">
+                      <aixm:note lang="lav">(de<U+017E>urants)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+371 29407095</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.b1d3913c-d2fe-4106-85ec-d066b3e8d4e5">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.6fe99c33-f61e-4768-a7e1-d03aed52ee4b">
+                  <aixm:purpose>DESCRIPTION</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.07405fb4-3b8d-40c9-9673-eb624f88c314">
+                      <aixm:note lang="eng">(administration)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.b670b8eb-635b-4b74-a135-27ef7d7cee6f">
+                      <aixm:note lang="lav">(administr<U+0101>cija)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+371 29446915</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:relatedOrganisationAuthority nilReason="unknown" xsi:nil="true"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.d2a1c8f9-717b-4346-ba36-c6a191be1767">
+          <aixm:propertyName>name</aixm:propertyName>
+          <aixm:purpose>OTHER:PROPERTY_TRANSLATION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.7687a2f5-b7d8-4267-b058-8a74646fe982">
+              <aixm:note lang="lav">NODIBIN<U+0100>JUMS "LIDOSTA SPILVE"
+AD DIREKTORS J<U+0100>NIS MASLOVSKIS</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.b039c691-487a-40dc-8f59-93f981ead36e">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.112b9222-ab49-402d-8a93-360f0ce6f4e1">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:OrganisationAuthorityTimeSlice>
+  </aixm:timeSlice>
+</aixm:OrganisationAuthority> 
+
+</AIXMBasicMessage>
