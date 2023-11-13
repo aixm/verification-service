@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
-<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:RunwayDirection gml:id="uuid.51bd54e5-9911-417e-97eb-919cff7dd353">
       <gml:identifier codeSpace="urn:uuid:">51bd54e5-9911-417e-97eb-919cff7dd353</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -62,14 +71,22 @@
               <aixm:usage>
                 <aixm:ManoeuvringAreaUsage gml:id="uuid.1cd65dfc-d783-4ce4-aced-3090472946e4">
                   <aixm:type>PERMIT</aixm:type>
-                  <aixm:operation>LANDING</aixm:operation>
+                  <aixm:priorPermission>1</aixm:priorPermission>
+                  <aixm:contact>
+                    <aixm:ContactInformation gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000"/>
+                  </aixm:contact>
+                  <aixm:selection>
+                    <aixm:ConditionCombination gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001"/>
+                  </aixm:selection>
 
                   <aixm:annotation>
-                      <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
-                          <!-- WARNING It is prohibited that ManoeuvringAreaUsage has annotation.Note.propertyName value other-than-one-of ('type', 'priorPermission', 'contact', 'selection', 'operation') -->
-                          <aixm:propertyName>type</aixm:propertyName>
-                      </aixm:Note>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                      <!-- WARNING It is prohibited that ManoeuvringAreaUsage has annotation.Note.propertyName value other-than-one-of ('type', 'priorPermission', 'contact', 'selection', 'operation')  -->
+                      <aixm:propertyName>invalidPropertyName</aixm:propertyName>
+                    </aixm:Note>
                   </aixm:annotation>
+
+                  <aixm:operation>LANDING</aixm:operation>
                 </aixm:ManoeuvringAreaUsage>
               </aixm:usage>
             </aixm:ManoeuvringAreaAvailability>
@@ -77,6 +94,5 @@
         </aixm:RunwayDirectionTimeSlice>
       </aixm:timeSlice>
     </aixm:RunwayDirection>
-  </hasMember>
-
-</AIXMBasicMessage>
+  </message:hasMember>
+</message:AIXMBasicMessage>

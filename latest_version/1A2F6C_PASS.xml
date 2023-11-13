@@ -11,28 +11,20 @@
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <aixm:FireFightingService gml:id="uuid.f98a6403-8a9f-40d9-ab58-0bfc28388a8f">
-            <gml:identifier codeSpace="urn:uuid:">f98a6403-8a9f-40d9-ab58-0bfc28388a8f</gml:identifier>
-            <gml:boundedBy xsi:nil="true"/>
+        <aixm:GroundTrafficControlService gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+            <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
             <aixm:timeSlice>
-                <aixm:FireFightingServiceTimeSlice gml:id="uuid.21a6237a-1e3d-4a65-8550-3e4e4d917cad">
+                <aixm:GroundTrafficControlServiceTimeSlice gml:id="ID_1A4A9A_01">
                     <gml:validTime>
-                        <gml:TimePeriod gml:id="uuid.7a80bcec-316d-43d3-9391-e4199ca621d6">
+                        <gml:TimePeriod gml:id="ID_1A4A9A_02">
                             <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
                             <gml:endPosition indeterminatePosition="unknown"/>
                         </gml:TimePeriod>
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
-                    <aixm:sequenceNumber>3</aixm:sequenceNumber>
-                    <aixm:correctionNumber>0</aixm:correctionNumber>
-                    <aixm:featureLifetime>
-                        <gml:TimePeriod gml:id="uuid.1be1b838-6a0d-4bcc-85cf-a99ad624f74a">
-                            <gml:beginPosition>2005-02-20T00:00:00Z</gml:beginPosition>
-                            <gml:endPosition indeterminatePosition="unknown"/>
-                        </gml:TimePeriod>
-                    </aixm:featureLifetime>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
 
-                    <aixm:flightOperations>ARR</aixm:flightOperations>
+                    <aixm:flightOperations>ALL</aixm:flightOperations>
                     <aixm:rank>ALTERNATE</aixm:rank>
                     <aixm:compliantICAO>YES</aixm:compliantICAO>
                     <aixm:name>NAME</aixm:name>
@@ -49,34 +41,8 @@
                     <aixm:groundCommunication>
                         <aixm:ContactInformation gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001"/>
                     </aixm:groundCommunication>
-
                     <aixm:availability>
-                        <aixm:ServiceOperationalStatus gml:id="uuid.b2b7e740-67a5-41e9-951b-af52bd5c57d2">
-                            <aixm:annotation>
-                                <aixm:Note gml:id="uuid.10bee076-d407-40a3-89a3-f9ee3e645d67">
-                                    <aixm:propertyName>timeInterval</aixm:propertyName>
-                                    <aixm:purpose>WARNING</aixm:purpose>
-                                    <aixm:translatedNote>
-                                        <aixm:LinguisticNote gml:id="uuid.ff59f870-60b9-4b94-a1b3-eae7ea082e2b">
-                                            <aixm:note>HO - service available to meet operational requests</aixm:note>
-                                        </aixm:LinguisticNote>
-                                    </aixm:translatedNote>
-                                </aixm:Note>
-                            </aixm:annotation>
-                            <aixm:annotation>
-                                <aixm:Note gml:id="uuid.01ad02fb-af86-45b8-87a7-266c05d0aecb">
-                                    <aixm:propertyName>timeInterval</aixm:propertyName>
-                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                                    <aixm:translatedNote>
-                                        <aixm:LinguisticNote gml:id="uuid.d19c1dcf-fed9-495f-81ef-e591a3d14a52">
-                                            <aixm:note>Remark:Fire cover available during operating hrs.
-                                                24hrs PN required to AD Duty Supervisor for services outside of operating hrs.</aixm:note>
-                                        </aixm:LinguisticNote>
-                                    </aixm:translatedNote>
-                                </aixm:Note>
-                            </aixm:annotation>
-                            <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
-                        </aixm:ServiceOperationalStatus>
+                        <aixm:ServiceOperationalStatus gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd002"/>
                     </aixm:availability>
 
                     <aixm:annotation>
@@ -89,79 +55,80 @@
                             <aixm:propertyName>rank</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
                             <aixm:propertyName>compliantICAO</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
                             <aixm:propertyName>name</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
                             <aixm:propertyName>location</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
                             <aixm:propertyName>serviceProvider</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
                             <aixm:propertyName>callsign</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
                             <aixm:propertyName>radioCommunication</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
                             <aixm:propertyName>groundCommunication</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
                             <aixm:propertyName>availability</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
-                            <aixm:propertyName>airportHeliport</aixm:propertyName>
+                            <aixm:propertyName>radarAssisted</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2b">
-                            <aixm:propertyName>category</aixm:propertyName>
+                            <aixm:propertyName>dataLinkEnabled</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2c">
-                            <aixm:propertyName>standard</aixm:propertyName>
+                            <aixm:propertyName>dataLinkChannel</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2d">
+                            <aixm:propertyName>type</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2e">
+                            <aixm:propertyName>clientAirport</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
 
-                    <aixm:airportHeliport/>
-                    <aixm:category>A2</aixm:category>
-                    <aixm:standard>FAA</aixm:standard>
+                    <aixm:radarAssisted>YES</aixm:radarAssisted>
+                    <aixm:dataLinkEnabled>YES</aixm:dataLinkEnabled>
+                    <aixm:dataLinkChannel>100</aixm:dataLinkChannel>
+                    <aixm:type>SMGCS</aixm:type>
+                    <aixm:clientAirport/>
 
-                </aixm:FireFightingServiceTimeSlice>
+                </aixm:GroundTrafficControlServiceTimeSlice>
             </aixm:timeSlice>
-        </aixm:FireFightingService>
+        </aixm:GroundTrafficControlService>
     </message:hasMember>
 </message:AIXMBasicMessage>

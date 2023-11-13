@@ -1,50 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:GeoBorder gml:id="uuid.e9a58c23-9195-4b31-9d2a-d763bc0b4c16">
+            <gml:identifier codeSpace="urn:uuid:">e9a58c23-9195-4b31-9d2a-d763bc0b4c16</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:GeoBorderTimeSlice gml:id="uuid.fd8d85da-b743-4cf3-93c2-b3585e99aa29">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.dd913816-7879-48a6-94e6-c2ce2a784cf9">
+                            <gml:beginPosition>2011-04-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.ae4706e3-9afe-4728-95ae-c5c6160c9017">
+                            <gml:beginPosition>2011-04-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
 
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <aixm:GeoBorder gml:id="uuid.e9a58c23-9195-4b31-9d2a-d763bc0b4c16">
-      <gml:identifier codeSpace="urn:uuid:">e9a58c23-9195-4b31-9d2a-d763bc0b4c16</gml:identifier>
-      <gml:boundedBy xsi:nil="true"/>
-      <aixm:timeSlice>
-        <aixm:GeoBorderTimeSlice gml:id="uuid.fd8d85da-b743-4cf3-93c2-b3585e99aa29">
-          <gml:validTime>
-            <gml:TimePeriod gml:id="uuid.dd913816-7879-48a6-94e6-c2ce2a784cf9">
-              <gml:beginPosition>2011-04-01T00:00:00Z</gml:beginPosition>
-              <gml:endPosition indeterminatePosition="unknown"/>
-            </gml:TimePeriod>
-          </gml:validTime>
-          <aixm:interpretation>BASELINE</aixm:interpretation>
-          <aixm:sequenceNumber>1</aixm:sequenceNumber>
-          <aixm:correctionNumber>0</aixm:correctionNumber>
-          <aixm:featureLifetime>
-            <gml:TimePeriod gml:id="uuid.ae4706e3-9afe-4728-95ae-c5c6160c9017">
-              <gml:beginPosition>2011-04-01T00:00:00Z</gml:beginPosition>
-              <gml:endPosition indeterminatePosition="unknown"/>
-            </gml:TimePeriod>
-          </aixm:featureLifetime>
-          <aixm:name>NZA855_C_GEO2</aixm:name>
-          <aixm:type>OTHER</aixm:type>
-          <aixm:border>
-            <aixm:Curve xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.a1381a18-fbe3-42a1-bdc5-3f9c145a4519">
-              <gml:segments>
-                <gml:GeodesicString interpolation="geodesic">
-                  <gml:posList>-43.6361111 172.4495556 -43.6347278 172.4458167 -43.6301944 172.432825 -43.6219694 172.4061778 -43
-.6065694 172.3920278 -43.5918694 172.380175 -43.5908333 172.379</gml:posList>
-                </gml:GeodesicString>
-              </gml:segments>
-            </aixm:Curve>
-          </aixm:border>
-        </aixm:GeoBorderTimeSlice>
+                    <aixm:name>NZA855_C_GEO2</aixm:name>
+                    <aixm:type>OTHER</aixm:type>
+                    <aixm:border>
+                        <aixm:Curve xmlns="http://www.aixm.aero/schema/5.1.1/message"
+                                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                                    xmlns:gts="http://www.isotc211.org/2005/gts"
+                                    xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                    xmlns:gco="http://www.isotc211.org/2005/gco"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                                    srsName="urn:ogc:def:crs:EPSG::4326"
+                                    gml:id="uuid.a1381a18-fbe3-42a1-bdc5-3f9c145a4519">
+                            <gml:segments>
+                                <gml:GeodesicString interpolation="geodesic">
+                                    <gml:posList>-43.6361111 172.4495556 -43.6347278 172.4458167 -43.6301944 172.432825 -43.6219694 172.4061778 -43
+                                        .6065694 172.3920278 -43.5918694 172.380175 -43.5908333 172.379</gml:posList>
+                                </gml:GeodesicString>
+                            </gml:segments>
+                        </aixm:Curve>
+                    </aixm:border>
 
-      <aixm:annotation>
-          <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
-              <!-- WARNING It is prohibited that GeoBorderTimeSlice has annotation.Note.propertyName value other-than-one-of ('name', 'type', 'border') -->
-              <aixm:propertyName>invalidPropertyName</aixm:propertyName>
-          </aixm:Note>
-      </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                            <!-- WARNING It is prohibited that GeoBorderTimeSlice has annotation.Note.propertyName value other-than-one-of ('name', 'type', 'border')  -->
+                            <aixm:propertyName>invalidPropertyName</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
 
-      </aixm:timeSlice>
-    </aixm:GeoBorder>
-  </hasMember>
-
-</AIXMBasicMessage>
+                </aixm:GeoBorderTimeSlice>
+            </aixm:timeSlice>
+        </aixm:GeoBorder>
+    </message:hasMember>
+</message:AIXMBasicMessage>

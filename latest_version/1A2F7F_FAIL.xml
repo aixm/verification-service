@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:MarkerBeacon gml:id="uuid.d7253c20-4517-49af-92d6-2930cc7f4a18">
+            <gml:identifier codeSpace="urn:uuid:">d7253c20-4517-49af-92d6-2930cc7f4a18</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:MarkerBeaconTimeSlice gml:id="uuid.9b63b674-be05-4d12-a487-b12ab4fac752">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.da194b8b-000e-4575-a4db-2502f6df5f11">
+                            <gml:beginPosition>2011-03-27T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.66894b1d-7c17-4507-9cf3-edf8e8d0d954">
+                            <gml:beginPosition>2011-03-27T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
 
-<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <aixm:MarkerBeacon gml:id="uuid.d7253c20-4517-49af-92d6-2930cc7f4a18">
-      <gml:identifier codeSpace="urn:uuid:">d7253c20-4517-49af-92d6-2930cc7f4a18</gml:identifier>
-      <gml:boundedBy xsi:nil="true"/>
-      <aixm:timeSlice>
-        <aixm:MarkerBeaconTimeSlice gml:id="uuid.9b63b674-be05-4d12-a487-b12ab4fac752">
-          <gml:validTime>
-            <gml:TimePeriod gml:id="uuid.da194b8b-000e-4575-a4db-2502f6df5f11">
-              <gml:beginPosition>2011-03-27T00:00:00Z</gml:beginPosition>
-              <gml:endPosition indeterminatePosition="unknown"/>
-            </gml:TimePeriod>
-          </gml:validTime>
-          <aixm:interpretation>BASELINE</aixm:interpretation>
-          <aixm:sequenceNumber>1</aixm:sequenceNumber>
-          <aixm:correctionNumber>0</aixm:correctionNumber>
-          <aixm:featureLifetime>
-            <gml:TimePeriod gml:id="uuid.66894b1d-7c17-4507-9cf3-edf8e8d0d954">
-              <gml:beginPosition>2011-03-27T00:00:00Z</gml:beginPosition>
-              <gml:endPosition indeterminatePosition="unknown"/>
-            </gml:TimePeriod>
-          </aixm:featureLifetime>
-          <aixm:name>MM</aixm:name>
-          <aixm:emissionClass>OTHER</aixm:emissionClass>
-          <aixm:location>
-            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.3da458f9-c4db-4324-8905-7d271e44932a">
-              <gml:pos>61.6920972 27.1747139</gml:pos>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.1fd5b499-adb0-43d2-a188-99522394841e">
-                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                  <aixm:translatedNote>
-                    <aixm:LinguisticNote gml:id="uuid.1c16fb40-b6bc-42c3-9cc8-72032663dd51">
-                      <aixm:note>CRC:614131.55N, 0271028.97E, , , B740E9BF</aixm:note>
-                    </aixm:LinguisticNote>
-                  </aixm:translatedNote>
-                </aixm:Note>
-              </aixm:annotation>
-            </aixm:ElevatedPoint>
-          </aixm:location>
-          <aixm:authority>
-            <aixm:AuthorityForNavaidEquipment gml:id="uuid.68bca976-bc2f-4a63-a2f4-ec5ee6441f3f">
-              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7ef3-0ae9-e053-0b751dc2b779"/>
-            </aixm:AuthorityForNavaidEquipment>
-          </aixm:authority>
-          <aixm:availability>
-            <aixm:NavaidOperationalStatus gml:id="uuid.d305edc3-03cd-4e11-b965-391d952b5cf9">
-              <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
-            </aixm:NavaidOperationalStatus>
-          </aixm:availability>
+                    <aixm:name>MM</aixm:name>
+                    <aixm:emissionClass>OTHER</aixm:emissionClass>
+                    <aixm:mobile>YES</aixm:mobile>
+                    <aixm:magneticVariation>1</aixm:magneticVariation>
+                    <aixm:magneticVariationAccuracy>1</aixm:magneticVariationAccuracy>
+                    <aixm:dateMagneticVariation>1999</aixm:dateMagneticVariation>
+                    <aixm:flightChecked>YES</aixm:flightChecked>
+                    <aixm:location>
+                        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            srsName="urn:ogc:def:crs:EPSG::4269"
+                                            gml:id="uuid.3da458f9-c4db-4324-8905-7d271e44932a">
+                            <gml:pos>61.6920972 27.1747139</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:authority>
+                        <aixm:AuthorityForNavaidEquipment gml:id="uuid.68bca976-bc2f-4a63-a2f4-ec5ee6441f3f">
+                            <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7ef3-0ae9-e053-0b751dc2b779"/>
+                        </aixm:AuthorityForNavaidEquipment>
+                    </aixm:authority>
+                    <aixm:monitoring>
+                        <aixm:NavaidEquipmentMonitoring gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000"/>
+                    </aixm:monitoring>
+                    <aixm:availability>
+                        <aixm:NavaidOperationalStatus gml:id="uuid.d305edc3-03cd-4e11-b965-391d952b5cf9">
+                            <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
+                        </aixm:NavaidOperationalStatus>
+                    </aixm:availability>
 
-          <aixm:annotation>
-            <aixm:Note gml:id="uuid.69efef62-2989-43d5-ba58-11cbea28dd42">
-              <aixm:purpose>REMARK</aixm:purpose>
-              <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.0a7de21d-3378-438f-9057-7be1001b1eca">
-                  <aixm:note>txtRmk:LCA 293 GEO / 945 M FM DTHR 11</aixm:note>
-                </aixm:LinguisticNote>
-              </aixm:translatedNote>
-            </aixm:Note>
-         </aixm:annotation>
-          
-         <aixm:annotation>
-             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
-                 <!-- WARNING It is prohibited that MarkerBeaconTimeSlice has annotation.Note.propertyName value other-than-one-of ('designator', 'name', 'emissionClass', 'mobile', 'magneticVariation', 'magneticVariationAccuracy', 'dateMagneticVariation', 'flightChecked', 'location', 'authority', 'monitoring', 'availability', 'class', 'frequency', 'axisBearing', 'auralMorseCode') -->
-                 <aixm:propertyName>invalidPropertyName</aixm:propertyName>
-             </aixm:Note>
-         </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                            <!-- WARNING It is prohibited that MarkerBeaconTimeSlice has annotation.Note.propertyName value other-than-one-of ('designator', 'name', 'emissionClass', 'mobile', 'magneticVariation', 'magneticVariationAccuracy', 'dateMagneticVariation', 'flightChecked', 'location', 'authority', 'monitoring', 'availability', 'class', 'frequency', 'axisBearing', 'auralMorseCode') -->
+                            <aixm:propertyName>invalidPropertyName</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
 
-          <aixm:class>OTHER</aixm:class>
-          <aixm:frequency uom="MHZ">75</aixm:frequency>
-          <aixm:auralMorseCode>-</aixm:auralMorseCode>
-        </aixm:MarkerBeaconTimeSlice>
-      </aixm:timeSlice>
-    </aixm:MarkerBeacon>
-  </hasMember>
-
-
-</AIXMBasicMessage>
+                    <aixm:class>BONES</aixm:class>
+                    <aixm:frequency>100</aixm:frequency>
+                    <aixm:axisBearing>1</aixm:axisBearing>
+                    <aixm:auralMorseCode>-</aixm:auralMorseCode>
+                </aixm:MarkerBeaconTimeSlice>
+            </aixm:timeSlice>
+        </aixm:MarkerBeacon>
+    </message:hasMember>
+</message:AIXMBasicMessage>

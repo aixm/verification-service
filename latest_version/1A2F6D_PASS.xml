@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:GuidanceLine gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+      <aixm:timeSlice>
+        <aixm:GuidanceLineTimeSlice gml:id="uuid.87a11a56-3da2-4932-9d82-79003fb83525">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.5df0cf7c-9a7d-4303-9cc9-8ebbada527a6">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.62044cb5-d536-4d96-8b6e-9ed2c6fee78a">
+              <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+
+          <aixm:designator>STAND 304</aixm:designator>
+          <aixm:type>GATE_TLANE</aixm:type>
+          <aixm:maxSpeed nilReason="unknown" xsi:nil="true"/>
+          <aixm:usageDirection>FORWARD</aixm:usageDirection>
+          <aixm:connectedTouchDownLiftOff nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+          <aixm:connectedRunwayCentrelinePoint nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+          <aixm:connectedApron xlink:type="simple" xlink:href="#uuid.129878d3-89d1-4a67-9e6d-880ea03540f4"/>
+          <aixm:connectedStand xlink:type="simple" xlink:href="#uuid.db1dc66f-a8aa-49c5-a6f6-f52cb9682779"/>
+          <aixm:extent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                xmlns:gml="http://www.opengis.net/gml/3.2"
+                                gml:id="uuid.37f69779-f767-4cb4-a1f5-31c052462cd6"
+                                srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>24.8477929 56.7741594 24.8477965 56.7741701 24.8478003 56.7741771 24.8478036 56.7741821 24.8478064 56.7741858 24.8478107 56.7741906 24.8478145 56.7741944 24.8478186 56.774198 24.8478258 56.7742036 24.8478296 56.7742063 24.8478372 56.7742111 24.8478413 56.7742133 24.8478499 56.7742177 24.8478591 56.7742218 24.8478646 56.7742239 24.8478745 56.7742274 24.8478815 56.7742295 24.8478929 56.7742318 24.8479058 56.774234 24.8479132 56.774235 24.8479273 56.7742366 24.8479424 56.7742377 24.847957 56.7742383 24.8479655 56.7742384 24.8483266 56.7742146 24.8488058 56.7741819 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+              <aixm:horizontalAccuracy uom="M">0.011</aixm:horizontalAccuracy>
+            </aixm:ElevatedCurve>
+          </aixm:extent>
+          <aixm:connectedTaxiway nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.6520caff-e0bd-4c93-b514-065e775a10ff">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.fbaf99c4-7b1e-475e-9749-9010866da017">
+                  <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+              <aixm:propertyName>designator</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+              <aixm:propertyName>type</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+              <aixm:propertyName>maxSpeed</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+              <aixm:propertyName>usageDirection</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+              <aixm:propertyName>connectedTouchDownLiftOff</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
+              <aixm:propertyName>connectedRunwayCentrelinePoint</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
+              <aixm:propertyName>connectedApron</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
+              <aixm:propertyName>connectedStand</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
+              <aixm:propertyName>extent</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
+              <aixm:propertyName>connectedTaxiway</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+
+        </aixm:GuidanceLineTimeSlice>
+      </aixm:timeSlice>
+    </aixm:GuidanceLine>
+  </message:hasMember>
+</message:AIXMBasicMessage>
