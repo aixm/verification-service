@@ -1,0 +1,1660 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<aixm:FinalLeg gml:id="uuid.3bc04181-f4fd-4200-b930-7072695d2002">
+  <gml:identifier codeSpace="urn:uuid:">3bc04181-f4fd-4200-b930-7072695d2002</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:FinalLegTimeSlice gml:id="uuid.916bb4b1-4fde-4ef8-a198-a425e0997f9f">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.e198a1a4-7c4d-4d2b-834b-e2f31fc348de">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.3dd907eb-8c80-45c4-94fd-a35d2f45f669">
+          <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:endConditionDesignator>INTERCEPT</aixm:endConditionDesignator>
+      <aixm:legPath>STRAIGHT</aixm:legPath>
+      <aixm:legTypeARINC>TF</aixm:legTypeARINC>
+      <aixm:course>185.158210260344</aixm:course>
+      <aixm:courseType>TRUE_TRACK</aixm:courseType>
+      <aixm:courseDirection>TO</aixm:courseDirection>
+      <aixm:turnDirection nilReason="unknown" xsi:nil="true"/>
+      <aixm:speedLimit uom="KT">185</aixm:speedLimit>
+      <aixm:speedReference>IAS</aixm:speedReference>
+      <aixm:speedInterpretation nilReason="unknown" xsi:nil="true"/>
+      <aixm:bankAngle nilReason="unknown" xsi:nil="true"/>
+      <aixm:length uom="NM">5.6817</aixm:length>
+      <aixm:duration nilReason="unknown" xsi:nil="true"/>
+      <aixm:procedureTurnRequired nilReason="unknown" xsi:nil="true"/>
+      <aixm:upperLimitAltitude uom="FT">2000</aixm:upperLimitAltitude>
+      <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+      <aixm:lowerLimitAltitude uom="FT">159.8</aixm:lowerLimitAltitude>
+      <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+      <aixm:altitudeInterpretation>AT_LOWER</aixm:altitudeInterpretation>
+      <aixm:altitudeOverrideATC nilReason="unknown" xsi:nil="true"/>
+      <aixm:altitudeOverrideReference nilReason="unknown" xsi:nil="true"/>
+      <aixm:verticalAngle>-3</aixm:verticalAngle>
+      <aixm:startPoint>
+        <aixm:TerminalSegmentPoint gml:id="uuid.3f0cb13b-1914-48ac-8531-1afc0ac3edba">
+          <aixm:reportingATC>NO_REPORT</aixm:reportingATC>
+          <aixm:waypoint>NO</aixm:waypoint>
+          <aixm:radarGuidance>NO</aixm:radarGuidance>
+          <aixm:facilityMakeup>
+            <aixm:PointReference gml:id="uuid.f1a6b4b7-777b-4889-86e4-43db00d8ce2a">
+              <aixm:facilityAngle>
+                <aixm:AngleUse gml:id="uuid.07a81a65-075f-468f-910e-e4bd14f77709">
+                  <aixm:alongCourseGuidance>YES</aixm:alongCourseGuidance>
+                  <!-- ERROR: Found AngleUse with theAngleIndication@xlink:href value that does not match any AngleIndication (${association}) -->
+                  <aixm:theAngleIndication xlink:type="simple" xlink:href="#uuid.00000007-4c33-4dab-b762-6ce7b5968018"/>
+                </aixm:AngleUse>
+              </aixm:facilityAngle>
+            </aixm:PointReference>
+          </aixm:facilityMakeup>
+          <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="#uuid.c389a6eb-13d0-4351-8c58-c57e53e3743b"/>
+          <aixm:role>FAF</aixm:role>
+        </aixm:TerminalSegmentPoint>
+      </aixm:startPoint>
+      <aixm:endPoint>
+        <aixm:TerminalSegmentPoint gml:id="uuid.0bf505c9-c65e-4c4f-a7c9-3c6435c94334">
+          <aixm:reportingATC>NO_REPORT</aixm:reportingATC>
+          <aixm:waypoint>NO</aixm:waypoint>
+          <aixm:radarGuidance>NO</aixm:radarGuidance>
+          <aixm:facilityMakeup>
+            <aixm:PointReference gml:id="uuid.540736fb-0531-4883-914d-f4587a4c8ede">
+              <aixm:facilityAngle>
+                <aixm:AngleUse gml:id="uuid.1ea62eaa-dad1-4d25-b893-3106d398ba90">
+                  <aixm:alongCourseGuidance>YES</aixm:alongCourseGuidance>
+                  <!-- ERROR: Found AngleUse with theAngleIndication@xlink:href value that does not match any AngleIndication (${association}) -->
+                  <aixm:theAngleIndication xlink:type="simple" xlink:href="#uuid.00000001-545d-4205-8c7c-3dc0003cba27"/>
+                </aixm:AngleUse>
+              </aixm:facilityAngle>
+            </aixm:PointReference>
+          </aixm:facilityMakeup>
+          <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="#uuid.495057b1-0a03-4183-a738-51899605267e"/>
+          <aixm:role>MAPT</aixm:role>
+        </aixm:TerminalSegmentPoint>
+      </aixm:endPoint>
+      <aixm:trajectory>
+        <aixm:Curve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.edda52ec-cd57-4cea-a6b2-fd7a3eac18fd" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+          <gml:segments>
+            <gml:GeodesicString>
+              <gml:posList>23.9893179 57.0331082 23.9737308 56.9389623 </gml:posList>
+            </gml:GeodesicString>
+          </gml:segments>
+        </aixm:Curve>
+      </aixm:trajectory>
+      <aixm:arcCentre nilReason="unknown" xsi:nil="true"/>
+      <aixm:angle nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:distance nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:aircraftCategory>
+        <aixm:AircraftCharacteristic gml:id="uuid.782f9e0f-82fb-47a5-af0c-e0bdd61394e4">
+          <aixm:aircraftLandingCategory>D</aixm:aircraftLandingCategory>
+        </aixm:AircraftCharacteristic>
+      </aixm:aircraftCategory>
+      <aixm:holding nilReason="unknown" xsi:nil="true"/>
+      <aixm:designSurface>
+        <aixm:ObstacleAssessmentArea gml:id="uuid.150b8ff2-0994-41d2-aa03-fd80269a56f8">
+          <aixm:type>PRIMARY</aixm:type>
+          <aixm:sectionNumber>0</aixm:sectionNumber>
+          <aixm:assessedAltitude uom="FT">150</aixm:assessedAltitude>
+          <aixm:significantObstacle>
+            <aixm:Obstruction gml:id="uuid.aabf3749-498c-4924-b951-c9ff9d81b559">
+              <aixm:requiredClearance uom="M">0</aixm:requiredClearance>
+              <aixm:minimumAltitude uom="FT">159.8</aixm:minimumAltitude>
+              <aixm:theVerticalStructure xlink:type="simple" xlink:href="#uuid.789aacb2-2b4b-42a4-9d9e-951ec23d4265"/>
+            </aixm:Obstruction>
+          </aixm:significantObstacle>
+          <aixm:significantObstacle>
+            <aixm:Obstruction gml:id="uuid.4f82947c-6bc7-4807-9709-fe31cac4e850">
+              <aixm:requiredClearance uom="M">0</aixm:requiredClearance>
+              <aixm:minimumAltitude uom="FT">152.6</aixm:minimumAltitude>
+              <aixm:theVerticalStructure xlink:type="simple" xlink:href="#uuid.61dd9b33-d41c-4e86-ad45-b8eaace02207"/>
+            </aixm:Obstruction>
+          </aixm:significantObstacle>
+          <aixm:surface>
+            <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.a9c3ddf9-8c8a-4662-b41b-840ffe2272c4" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:patches>
+                <gml:PolygonPatch>
+                  <gml:exterior>
+                    <gml:Ring>
+                      <gml:curveMember>
+                        <gml:Curve gml:id="uuid.0e18f40d-7c8e-4de5-8025-b5d4cbe9b4a7">
+                          <gml:segments>
+                            <gml:GeodesicString>
+                              <gml:posList>23.9749351 56.9322385 23.9751665 56.9268479 23.9683506 56.9271842 23.9703435 56.9324651 23.9726607 56.9376299 23.9743471 56.9375467 23.9749351 56.9322385 </gml:posList>
+                            </gml:GeodesicString>
+                          </gml:segments>
+                        </gml:Curve>
+                      </gml:curveMember>
+                    </gml:Ring>
+                  </gml:exterior>
+                </gml:PolygonPatch>
+              </gml:patches>
+            </aixm:Surface>
+          </aixm:surface>
+        </aixm:ObstacleAssessmentArea>
+      </aixm:designSurface>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.a42c23db-3557-4ca3-be89-90b9471a3f69">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.a23e8bbf-8b53-4058-9234-67882b2e07d1">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:approach nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:guidanceSystem>ILS</aixm:guidanceSystem>
+      <aixm:landingSystemCategory>ILS_PRECISION_CAT_II</aixm:landingSystemCategory>
+      <aixm:minimumBaroVnavTemperature nilReason="unknown" xsi:nil="true"/>
+      <aixm:rnpDMEAuthorized nilReason="unknown" xsi:nil="true"/>
+      <aixm:courseOffsetAngle nilReason="unknown" xsi:nil="true"/>
+      <aixm:courseOffsetSide nilReason="unknown" xsi:nil="true"/>
+      <aixm:courseCentrelineDistance nilReason="unknown" xsi:nil="true"/>
+      <aixm:courseOffsetDistance nilReason="unknown" xsi:nil="true"/>
+      <aixm:courseCentrelineIntersect nilReason="unknown" xsi:nil="true"/>
+      <aixm:condition>
+        <aixm:ApproachCondition gml:id="uuid.0abb11b2-39a2-4cb2-b5eb-3dddc727028b">
+          <aixm:finalApproachPath>STRAIGHT_IN</aixm:finalApproachPath>
+          <aixm:minimumSet>
+            <aixm:Minima gml:id="uuid.f234c969-757b-485e-a30e-afda363f07cc">
+              <aixm:altitude uom="FT">159.8</aixm:altitude>
+              <aixm:altitudeCode>OCA</aixm:altitudeCode>
+              <aixm:altitudeReference>MSL</aixm:altitudeReference>
+              <aixm:height uom="FT">127.3</aixm:height>
+              <aixm:heightCode>OCH</aixm:heightCode>
+              <aixm:heightReference>HAT</aixm:heightReference>
+            </aixm:Minima>
+          </aixm:minimumSet>
+          <aixm:aircraftCategory>
+            <aixm:AircraftCharacteristic gml:id="uuid.08ffbc01-9f12-471d-946c-e713b7317735">
+              <aixm:aircraftLandingCategory>D</aixm:aircraftLandingCategory>
+            </aixm:AircraftCharacteristic>
+          </aixm:aircraftCategory>
+        </aixm:ApproachCondition>
+      </aixm:condition>
+      <aixm:visualDescentPoint nilReason="unknown" xsi:nil="true"/>
+      <aixm:FASData nilReason="unknown" xsi:nil="true"/>
+    </aixm:FinalLegTimeSlice>
+  </aixm:timeSlice>
+</aixm:FinalLeg>
+
+<aixm:AngleIndication gml:id="uuid.90cee837-4c33-4dab-b762-6ce7b5968018">
+  <gml:identifier codeSpace="urn:uuid:">90cee837-4c33-4dab-b762-6ce7b5968018</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AngleIndicationTimeSlice gml:id="uuid.48c3e232-8a27-48d8-b696-41da698fb1e3">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.a5083297-7974-40af-8655-f56e92eb1552">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.9788881a-dce4-4f35-a9a3-65c5f3f8f1da">
+          <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:angle>355.153</aixm:angle>
+      <aixm:angleType>MAG</aixm:angleType>
+      <aixm:indicationDirection>FROM</aixm:indicationDirection>
+      <aixm:trueAngle>5.17126408506319</aixm:trueAngle>
+      <aixm:cardinalDirection nilReason="unknown" xsi:nil="true"/>
+      <aixm:minimumReceptionAltitude nilReason="unknown" xsi:nil="true"/>
+      <aixm:fix xlink:type="simple" xlink:href="#uuid.c389a6eb-13d0-4351-8c58-c57e53e3743b"/>
+      <aixm:pointChoice_navaidSystem xlink:type="simple" xlink:href="#uuid.0c168fdb-ae01-4162-be56-d8336604cf4a"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.8872a64b-8731-4157-8720-1711dc87f6f6">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.4c6cdb81-69a5-4be6-b7b2-06e7bea2f7d5">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AngleIndicationTimeSlice>
+  </aixm:timeSlice>
+</aixm:AngleIndication> 
+
+<aixm:DesignatedPoint gml:id="uuid.c389a6eb-13d0-4351-8c58-c57e53e3743b">
+  <gml:identifier codeSpace="urn:uuid:">c389a6eb-13d0-4351-8c58-c57e53e3743b</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:DesignatedPointTimeSlice gml:id="uuid.bc81faf9-f16a-4482-9204-277adc17d8d4">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.ec18c3e3-25d1-4cf9-a862-65676ec6f6fc">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.75d32e13-ef5b-456a-8392-56cbc769e053">
+          <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>FAP</aixm:designator>
+      <aixm:type>DESIGNED</aixm:type>
+      <aixm:name>FAP</aixm:name>
+      <aixm:location>
+        <aixm:Point xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.97a384c3-9043-47e5-9aed-d5cc8b902162" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+          <gml:pos>23.9893179 57.0331082</gml:pos>
+        </aixm:Point>
+      </aixm:location>
+      <aixm:aimingPoint nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:airportHeliport nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:runwayPoint nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.6a2a5874-437e-4a14-85fc-593b0ccf0206">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.18455656-9b94-4c62-bf4a-0cf0f59eee09">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:DesignatedPointTimeSlice>
+  </aixm:timeSlice>
+</aixm:DesignatedPoint> 
+
+<aixm:AngleIndication gml:id="uuid.a7184f91-545d-4205-8c7c-3dc0003cba27">
+  <gml:identifier codeSpace="urn:uuid:">a7184f91-545d-4205-8c7c-3dc0003cba27</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AngleIndicationTimeSlice gml:id="uuid.fbacbf2e-4947-4e36-a2c3-ca9f624d5a44">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.2451a0d1-3631-4731-93d5-7184441c7d53">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.e47d1907-3677-4e81-8bb2-2e09876089dc">
+          <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:angle>355.153</aixm:angle>
+      <aixm:angleType>MAG</aixm:angleType>
+      <aixm:indicationDirection>FROM</aixm:indicationDirection>
+      <aixm:trueAngle>5.15821023907973</aixm:trueAngle>
+      <aixm:cardinalDirection nilReason="unknown" xsi:nil="true"/>
+      <aixm:minimumReceptionAltitude nilReason="unknown" xsi:nil="true"/>
+      <aixm:fix xlink:type="simple" xlink:href="#uuid.495057b1-0a03-4183-a738-51899605267e"/>
+      <aixm:pointChoice_navaidSystem xlink:type="simple" xlink:href="#uuid.0c168fdb-ae01-4162-be56-d8336604cf4a"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.6a903cfb-a2f8-4aff-a47f-acafae8f557f">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.1c21e55d-2f08-451f-abdd-cbf0a8ac0b29">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AngleIndicationTimeSlice>
+  </aixm:timeSlice>
+</aixm:AngleIndication> 
+
+<aixm:DesignatedPoint gml:id="uuid.495057b1-0a03-4183-a738-51899605267e">
+  <gml:identifier codeSpace="urn:uuid:">495057b1-0a03-4183-a738-51899605267e</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:DesignatedPointTimeSlice gml:id="uuid.cc3ba6b7-0792-4a57-aa86-cc88fd6f5d41">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.ec716feb-3f13-45cd-a027-7d7b150dec62">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.29f049bb-e7ac-4c7a-88ae-c2a288001edc">
+          <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>MAPT</aixm:designator>
+      <aixm:type>DESIGNED</aixm:type>
+      <aixm:name>MAPT</aixm:name>
+      <aixm:location>
+        <aixm:Point xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.2358a473-e983-4309-bdc0-e7b239bb0af2" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+          <gml:pos>23.9737308 56.9389623</gml:pos>
+        </aixm:Point>
+      </aixm:location>
+      <aixm:aimingPoint nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:airportHeliport nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:runwayPoint nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.bbda61ec-7cde-44d4-8546-cb76adaeb9b8">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.1d80262f-59cf-4a73-bf32-9828e634e487">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:DesignatedPointTimeSlice>
+  </aixm:timeSlice>
+</aixm:DesignatedPoint> 
+
+<aixm:VerticalStructure gml:id="uuid.789aacb2-2b4b-42a4-9d9e-951ec23d4265">
+  <gml:identifier codeSpace="urn:uuid:">789aacb2-2b4b-42a4-9d9e-951ec23d4265</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:VerticalStructureTimeSlice gml:id="uuid.8211c673-cb21-437b-b9ce-5ffed9819e4c">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.b183feca-5d3a-4df4-a91f-84eaede92c53">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>10</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.c4932518-5a1f-4993-8da4-6fd659c9275d">
+          <gml:beginPosition>2017-06-22T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:name>RIX_N_1211</aixm:name>
+      <aixm:type>VEGETATION</aixm:type>
+      <aixm:lighted>NO</aixm:lighted>
+      <aixm:markingICAOStandard nilReason="unknown" xsi:nil="true"/>
+      <aixm:group>NO</aixm:group>
+      <aixm:length nilReason="unknown" xsi:nil="true"/>
+      <aixm:width nilReason="unknown" xsi:nil="true"/>
+      <aixm:radius nilReason="unknown" xsi:nil="true"/>
+      <aixm:lightingICAOStandard nilReason="unknown" xsi:nil="true"/>
+      <aixm:synchronisedLighting nilReason="unknown" xsi:nil="true"/>
+      <aixm:marker nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:part>
+        <aixm:VerticalStructurePart gml:id="uuid.2b3d9c5c-f19b-4a5b-ad75-3d629a08aa84">
+          <aixm:type>VEGETATION</aixm:type>
+          <aixm:mobile>NO</aixm:mobile>
+          <aixm:frangible>NO</aixm:frangible>
+          <aixm:designator>EVRA-VSPG-001210</aixm:designator>
+          <aixm:horizontalProjection_surfaceExtent>
+            <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.208a580b-35fb-4174-8ca9-e5e94081de1e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:patches>
+                <gml:PolygonPatch>
+                  <gml:exterior>
+                    <gml:Ring>
+                      <gml:curveMember>
+                        <gml:Curve gml:id="uuid.6e9f0047-ff12-48da-8b00-d39184416963">
+                          <gml:segments>
+                            <gml:GeodesicString>
+                              <gml:posList>23.9652695 56.9233509 23.9653881 56.9231857 23.9652698 56.9230107 23.9653232 56.9228844 23.9654773 56.9227646 23.9655012 56.9225476 23.9653474 56.9223921 23.9647435 56.9222235 23.9641515 56.9221553 23.9634233 56.9219542 23.963086 56.9217403 23.9628552 56.9216204 23.9624764 56.9215005 23.9621449 56.9213513 23.9619199 56.9213416 23.9618429 56.9213998 23.9618961 56.9215262 23.962038 56.9216396 23.9620557 56.9217724 23.9620496 56.921902 23.9621561 56.9220089 23.9622212 56.9220446 23.962233 56.9221158 23.9621263 56.9222162 23.9620728 56.9223555 23.9622088 56.9226341 23.9622796 56.9228188 23.9618294 56.9229644 23.9616218 56.9233595 23.9617401 56.9234567 23.9620184 56.9235086 23.9624862 56.9235282 23.9626047 56.9234408 23.9626344 56.923295 23.9628299 56.9232595 23.9631732 56.9233665 23.963493 56.9233633 23.9636885 56.9233115 23.9640496 56.9233926 23.9643396 56.9235838 23.9645111 56.923775 23.9647184 56.9238074 23.9649731 56.9237233 23.9651036 56.9234966 23.9652695 56.9233509 </gml:posList>
+                            </gml:GeodesicString>
+                          </gml:segments>
+                        </gml:Curve>
+                      </gml:curveMember>
+                    </gml:Ring>
+                  </gml:exterior>
+                </gml:PolygonPatch>
+              </gml:patches>
+              <aixm:horizontalAccuracy uom="M">0.61</aixm:horizontalAccuracy>
+              <aixm:elevation uom="M">39.7</aixm:elevation>
+              <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+              <aixm:verticalAccuracy uom="M">0.15</aixm:verticalAccuracy>
+            </aixm:ElevatedSurface>
+          </aixm:horizontalProjection_surfaceExtent>
+        </aixm:VerticalStructurePart>
+      </aixm:part>
+      <aixm:hostedPassengerService nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:supportedGroundLight nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:hostedNavaidEquipment nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:hostedSpecialNavStation nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:hostedUnit nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:hostedOrganisation nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:supportedService nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.313d2924-8886-4fc9-bd1c-b26c02ecfc46">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.a0f50702-b45f-45fe-b2cb-4106e14aa3c4">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:lightingAvailability nilReason="unknown" xsi:nil="true"/>
+    </aixm:VerticalStructureTimeSlice>
+  </aixm:timeSlice>
+</aixm:VerticalStructure> 
+
+<aixm:VerticalStructure gml:id="uuid.61dd9b33-d41c-4e86-ad45-b8eaace02207">
+  <gml:identifier codeSpace="urn:uuid:">61dd9b33-d41c-4e86-ad45-b8eaace02207</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:VerticalStructureTimeSlice gml:id="uuid.1ccb3374-35c9-4fa4-87eb-aae0c8082897">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.7d4ee9e3-4227-4971-9a69-9f7f4ed3be0c">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.904ce873-5a35-42fc-afd0-9d082777ac67">
+          <gml:beginPosition>2020-07-16T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:name>A3_G_54</aixm:name>
+      <aixm:type>ELECTRICAL_EXIT_LIGHT</aixm:type>
+      <aixm:lighted>NO</aixm:lighted>
+      <aixm:markingICAOStandard nilReason="unknown" xsi:nil="true"/>
+      <aixm:group>NO</aixm:group>
+      <aixm:length nilReason="unknown" xsi:nil="true"/>
+      <aixm:width nilReason="unknown" xsi:nil="true"/>
+      <aixm:radius nilReason="unknown" xsi:nil="true"/>
+      <aixm:lightingICAOStandard nilReason="unknown" xsi:nil="true"/>
+      <aixm:synchronisedLighting nilReason="unknown" xsi:nil="true"/>
+      <aixm:marker nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:part>
+        <aixm:VerticalStructurePart gml:id="uuid.00f5c999-1398-4c7a-8801-e1a3e4460ab2">
+          <aixm:type>ELECTRICAL_EXIT_LIGHT</aixm:type>
+          <aixm:mobile>NO</aixm:mobile>
+          <aixm:frangible>NO</aixm:frangible>
+          <aixm:designator>EVRA-VSPT-002645</aixm:designator>
+          <aixm:horizontalProjection_location>
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.2f5bab1f-8edf-4f89-8f38-e6edeecfc944" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:pos>23.9769246 56.9206684</gml:pos>
+              <aixm:horizontalAccuracy uom="M">0.024</aixm:horizontalAccuracy>
+              <aixm:elevation uom="M">11.71</aixm:elevation>
+              <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+              <aixm:verticalAccuracy uom="M">0.041</aixm:verticalAccuracy>
+            </aixm:ElevatedPoint>
+          </aixm:horizontalProjection_location>
+        </aixm:VerticalStructurePart>
+      </aixm:part>
+      <aixm:part>
+        <aixm:VerticalStructurePart gml:id="uuid.95f7ba25-9713-4487-ba7f-b7d2938946a9">
+          <aixm:type>ELECTRICAL_EXIT_LIGHT</aixm:type>
+          <aixm:mobile>NO</aixm:mobile>
+          <aixm:frangible>NO</aixm:frangible>
+          <aixm:designator>EVRA-VSPT-002646</aixm:designator>
+          <aixm:horizontalProjection_location>
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.4eaa82ec-099b-4b3f-922e-807960fbc7cc" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:pos>23.9769259 56.9206748</gml:pos>
+              <aixm:horizontalAccuracy uom="M">0.024</aixm:horizontalAccuracy>
+              <aixm:elevation uom="M">11.7</aixm:elevation>
+              <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+              <aixm:verticalAccuracy uom="M">0.041</aixm:verticalAccuracy>
+            </aixm:ElevatedPoint>
+          </aixm:horizontalProjection_location>
+        </aixm:VerticalStructurePart>
+      </aixm:part>
+      <aixm:part>
+        <aixm:VerticalStructurePart gml:id="uuid.c403225f-ddd7-4c36-90a5-34c7b6a09b4b">
+          <aixm:type>POLE</aixm:type>
+          <aixm:mobile>NO</aixm:mobile>
+          <aixm:frangible>NO</aixm:frangible>
+          <aixm:designator>EVRA-VSPT-002647</aixm:designator>
+          <aixm:horizontalProjection_location>
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.b03c981d-c726-46f4-8a7f-ff002296677f" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:pos>23.9769312 56.9206885</gml:pos>
+              <aixm:horizontalAccuracy uom="M">0.024</aixm:horizontalAccuracy>
+              <aixm:elevation uom="M">42.33</aixm:elevation>
+              <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+              <aixm:verticalAccuracy uom="M">0.041</aixm:verticalAccuracy>
+            </aixm:ElevatedPoint>
+          </aixm:horizontalProjection_location>
+        </aixm:VerticalStructurePart>
+      </aixm:part>
+      <aixm:part>
+        <aixm:VerticalStructurePart gml:id="uuid.05796466-5d92-4a04-9bdd-e3866e2ae3db">
+          <aixm:type>FENCE</aixm:type>
+          <aixm:markingPattern>MONOCOLOUR</aixm:markingPattern>
+          <aixm:mobile>NO</aixm:mobile>
+          <aixm:frangible>NO</aixm:frangible>
+          <aixm:designator>EVRA-VSLN-000378</aixm:designator>
+          <aixm:horizontalProjection_linearExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.f1e9ca32-edda-428c-9f86-9a1492259e23" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9769488 56.9206973 23.9769119 56.9206991 23.9769052 56.9206617 23.9769416 56.9206599 23.9769488 56.9206973 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+              <aixm:horizontalAccuracy uom="M">0.024</aixm:horizontalAccuracy>
+              <aixm:elevation uom="M">10.91</aixm:elevation>
+              <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+              <aixm:verticalAccuracy uom="M">0.041</aixm:verticalAccuracy>
+            </aixm:ElevatedCurve>
+          </aixm:horizontalProjection_linearExtent>
+        </aixm:VerticalStructurePart>
+      </aixm:part>
+      <aixm:hostedPassengerService nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:supportedGroundLight nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:hostedNavaidEquipment nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:hostedSpecialNavStation nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:hostedUnit nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:hostedOrganisation nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:supportedService nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.ae0c00d6-1c54-4fe9-8959-a6d0ac93cb53">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.0e95dbd1-a91f-4705-8da9-1a27b4537f05">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:lightingAvailability nilReason="unknown" xsi:nil="true"/>
+    </aixm:VerticalStructureTimeSlice>
+  </aixm:timeSlice>
+</aixm:VerticalStructure> 
+
+<aixm:Navaid gml:id="uuid.0c168fdb-ae01-4162-be56-d8336604cf4a">
+  <gml:identifier codeSpace="urn:uuid:">0c168fdb-ae01-4162-be56-d8336604cf4a</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.9bd5124d-dc6d-4e33-ac5f-78addb7ab19c">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.cbbbf6d4-a571-4938-9509-349a1d3ba9f3">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2023-01-26T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>12</aixm:sequenceNumber>
+      <aixm:correctionNumber>6</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.2e33ca04-31ae-45ca-8f39-a8f5baa85508">
+          <gml:beginPosition>2017-01-05T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>ILS_DME</aixm:type>
+      <aixm:designator>IRV</aixm:designator>
+      <aixm:name>RIGA</aixm:name>
+      <aixm:flightChecked>YES</aixm:flightChecked>
+      <aixm:purpose>TERMINAL</aixm:purpose>
+      <aixm:signalPerformance>II</aixm:signalPerformance>
+      <aixm:courseQuality nilReason="unknown" xsi:nil="true"/>
+      <aixm:integrityLevel nilReason="unknown" xsi:nil="true"/>
+      <aixm:touchDownLiftOff nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.ee86451d-437f-4e23-9257-ee55530a01f8">
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.7f1e4c06-5099-435f-9e07-2c7f234c3ef7"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.29afedd7-57d5-4011-8420-021ae6954484">
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.1a412b11-3fb6-47f4-9810-15d61ae796db"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.1cb0a056-d4c5-417c-9385-d48a29c87efd">
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.6e7cb67e-5517-4793-81d7-1291fa715024"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:OGC:1.3:CRS84" gml:id="uuid.30fdc065-d5b1-46ea-9a66-7b4194e78e5e">
+          <gml:pos>23.9706389 56.9323056</gml:pos>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:runwayDirection xlink:type="simple" xlink:href="#uuid.b6bc7f7b-1e1c-4a66-b844-694438321a19"/>
+      <aixm:servedAirport xlink:type="simple" xlink:href="#uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b"/>
+      <aixm:availability nilReason="unknown" xsi:nil="true"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.5fadd771-ced3-46e3-b373-69a4ba46d76a">
+          <aixm:propertyName>availability</aixm:propertyName>
+          <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.5e9323c4-fe93-4b56-8f26-040053e34afd">
+              <aixm:note lang="eng">H24</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.43b0bcaa-243c-48b9-bc58-d03e470c4052">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.1405dc7d-3dc9-42a3-9132-40772570e587">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:extension>
+        <ead-audit:NavaidExtension gml:id="uuid.f6d52442-1c5b-48fd-b0ed-a5fcb091995b">
+          <ead-audit:auditInformation>
+            <ead-audit:Audit gml:id="uuid.ad355612-e0e0-40d1-b006-f5dee6662e49">
+              <ead-audit:createdBy>ev_AMSL_LGS</ead-audit:createdBy>
+              <ead-audit:creationDate>2022-11-28T18:20:52Z</ead-audit:creationDate>
+              <ead-audit:createdByOrg>LATVIJAS GAISA SATIKSME</ead-audit:createdByOrg>
+              <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
+            </ead-audit:Audit>
+          </ead-audit:auditInformation>
+        </ead-audit:NavaidExtension>
+      </aixm:extension>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.2960331a-e269-4b67-838a-546cd2ffe9eb">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.1f4f4316-1eb9-49ee-b20a-5008631ecf87">
+          <gml:beginPosition>2023-01-26T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>13</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.0a65416b-58cd-41ec-b6ca-9b11cc04ff7b">
+          <gml:beginPosition>2017-01-05T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>ILS_DME</aixm:type>
+      <aixm:designator>IRV</aixm:designator>
+      <aixm:name>RIGA</aixm:name>
+      <aixm:flightChecked>YES</aixm:flightChecked>
+      <aixm:purpose>TERMINAL</aixm:purpose>
+      <aixm:signalPerformance>II</aixm:signalPerformance>
+      <aixm:courseQuality>D</aixm:courseQuality>
+      <aixm:integrityLevel>3</aixm:integrityLevel>
+      <aixm:touchDownLiftOff nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.7000ac38-64b0-4ca4-b5b5-5291e0edba87">
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.7f1e4c06-5099-435f-9e07-2c7f234c3ef7"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.21a0abbe-775e-4565-972c-88cd8b42836a">
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.1a412b11-3fb6-47f4-9810-15d61ae796db"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.52436c8b-fa4c-4b93-bcb9-7e1972dac547">
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.6e7cb67e-5517-4793-81d7-1291fa715024"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:OGC:1.3:CRS84" gml:id="uuid.1da3f57e-e260-422f-bb1b-db8457ad739b">
+          <gml:pos>23.9706389 56.9323056</gml:pos>
+          <aixm:elevation uom="M">30</aixm:elevation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:runwayDirection xlink:type="simple" xlink:href="#uuid.b6bc7f7b-1e1c-4a66-b844-694438321a19"/>
+      <aixm:servedAirport xlink:type="simple" xlink:href="#uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b"/>
+      <aixm:availability nilReason="unknown" xsi:nil="true"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.85adf224-3831-44b1-a233-76f0bb6dfbbe">
+          <aixm:propertyName>availability</aixm:propertyName>
+          <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.58c8e2fb-e6c7-4ac5-9b21-554a7eb69d37">
+              <aixm:note lang="eng">H24</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+</aixm:Navaid> 
+
+<aixm:DME gml:id="uuid.7f1e4c06-5099-435f-9e07-2c7f234c3ef7">
+  <gml:identifier codeSpace="urn:uuid:">7f1e4c06-5099-435f-9e07-2c7f234c3ef7</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:DMETimeSlice gml:id="uuid.07357760-cb85-4079-82e2-ede7e607971c">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.08932b5b-b4b6-4050-900b-5b9b97a17e3f">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>22</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.316687b4-56dc-4f78-a1a4-b5c90d12bb50">
+          <gml:beginPosition>2017-01-05T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>IRV</aixm:designator>
+      <aixm:name>DME18</aixm:name>
+      <aixm:emissionClass nilReason="unknown" xsi:nil="true"/>
+      <aixm:mobile nilReason="unknown" xsi:nil="true"/>
+      <aixm:magneticVariation nilReason="unknown" xsi:nil="true"/>
+      <aixm:magneticVariationAccuracy nilReason="unknown" xsi:nil="true"/>
+      <aixm:dateMagneticVariation nilReason="unknown" xsi:nil="true"/>
+      <aixm:flightChecked>YES</aixm:flightChecked>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.003d6921-1bf1-4345-ad34-6e52ae8b551f" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+          <gml:pos>23.9706389 56.9323056</gml:pos>
+          <aixm:horizontalAccuracy uom="M">1</aixm:horizontalAccuracy>
+          <aixm:elevation uom="M">30</aixm:elevation>
+          <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+          <aixm:verticalAccuracy uom="M">1</aixm:verticalAccuracy>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:authority>
+        <aixm:AuthorityForNavaidEquipment gml:id="uuid.8007a47d-8503-4231-b17a-c2c6fa539887">
+          <aixm:type>OWN</aixm:type>
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-89eb-0ae9-e053-0b751dc2b779"/>
+        </aixm:AuthorityForNavaidEquipment>
+      </aixm:authority>
+      <aixm:monitoring nilReason="unknown" xsi:nil="true"/>
+      <aixm:availability>
+        <aixm:NavaidOperationalStatus gml:id="uuid.2f2d0bd9-b65b-4140-8ebb-bfe1e28a527f">
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.02e479fd-14ac-4717-9968-d9e364dc2a10">
+              <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.83571265-cebd-4e07-86a0-d3b7469dd646">
+                  <aixm:note lang="eng">H24</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.6a7d351d-1936-4e08-a1ee-4273d9d4e8fe">
+                  <aixm:note lang="lav">H24</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:NavaidOperationalStatus>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.33ab16e1-a83e-4b4d-87fb-6d0c63ca4cb3">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.fb4b5a33-1402-4c0a-aeb0-48fab878dfb4">
+              <aixm:note lang="eng">IRV DME reading refers to THR 18</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.fb456350-7f68-4f7e-b59a-fee56fde0161">
+              <aixm:note lang="lav">IRV DME las<U+012B>jums attiecas uz THR 18</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.f6619798-950b-4a4b-a081-bf50e58caa32">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.05c35d96-6822-4f21-aae4-8ac40f86d1e7">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:type nilReason="unknown" xsi:nil="true"/>
+      <aixm:channel>48X</aixm:channel>
+      <aixm:ghostFrequency nilReason="inapplicable" xsi:nil="true"/>
+      <aixm:displace uom="M">321.4</aixm:displace>
+    </aixm:DMETimeSlice>
+  </aixm:timeSlice>
+</aixm:DME> 
+
+<aixm:Glidepath gml:id="uuid.1a412b11-3fb6-47f4-9810-15d61ae796db">
+  <gml:identifier codeSpace="urn:uuid:">1a412b11-3fb6-47f4-9810-15d61ae796db</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:GlidepathTimeSlice gml:id="uuid.ba28447f-7e8a-4a60-a193-7ade44ff3920">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.42459f97-d39f-41cc-b513-37f4e0266809">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>14</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.919f07e3-a4b9-4e49-a796-399effab9b61">
+          <gml:beginPosition>2017-01-05T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator nilReason="unknown" xsi:nil="true"/>
+      <aixm:name>GP18</aixm:name>
+      <aixm:emissionClass nilReason="unknown" xsi:nil="true"/>
+      <aixm:mobile nilReason="unknown" xsi:nil="true"/>
+      <aixm:magneticVariation nilReason="unknown" xsi:nil="true"/>
+      <aixm:magneticVariationAccuracy nilReason="unknown" xsi:nil="true"/>
+      <aixm:dateMagneticVariation nilReason="unknown" xsi:nil="true"/>
+      <aixm:flightChecked>YES</aixm:flightChecked>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.9149a5b4-536f-4f06-8bc0-75902858034d" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+          <gml:pos>23.9706389 56.9323056</gml:pos>
+          <aixm:horizontalAccuracy uom="M">1</aixm:horizontalAccuracy>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:authority>
+        <aixm:AuthorityForNavaidEquipment gml:id="uuid.f1989b57-106c-45fd-984b-2e6b5b2396fb">
+          <aixm:type>OWN</aixm:type>
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-89eb-0ae9-e053-0b751dc2b779"/>
+        </aixm:AuthorityForNavaidEquipment>
+      </aixm:authority>
+      <aixm:monitoring nilReason="unknown" xsi:nil="true"/>
+      <aixm:availability>
+        <aixm:NavaidOperationalStatus gml:id="uuid.29c2a557-05c0-4af2-80d7-1cc88c9bf4f6">
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.a4c8a1e8-45e6-4461-9aa5-3bd4d7a3d076">
+              <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f2d644c1-e34c-4f2b-823e-5f70723b1c64">
+                  <aixm:note lang="eng">H24</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.44ace5e3-071d-424c-a490-57f9cc845364">
+                  <aixm:note lang="lav">H24</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:NavaidOperationalStatus>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.b516254e-7aad-480f-896a-4b382cd7e5d4">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.b8d22671-54e4-4aea-8e93-22409e692ddd">
+              <aixm:note lang="eng">GP 3.0<U+00B0> 
+RDH 52 FT</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.9ddddc66-1518-4847-9522-2f9731f3f86a">
+              <aixm:note lang="lav">GP 3.0<U+00B0> 
+RDH 52 FT</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.f83021e8-94fe-4c98-a19c-cd382c14ac9b">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.fc204ce8-d89a-4526-bb1b-38442bf656e7">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:frequency uom="MHZ">331.7</aixm:frequency>
+      <aixm:slope>3</aixm:slope>
+      <aixm:angleAccuracy nilReason="unknown" xsi:nil="true"/>
+      <aixm:rdh uom="FT">52.44</aixm:rdh>
+      <aixm:rdhAccuracy nilReason="unknown" xsi:nil="true"/>
+    </aixm:GlidepathTimeSlice>
+  </aixm:timeSlice>
+</aixm:Glidepath> 
+
+<aixm:Localizer gml:id="uuid.6e7cb67e-5517-4793-81d7-1291fa715024">
+  <gml:identifier codeSpace="urn:uuid:">6e7cb67e-5517-4793-81d7-1291fa715024</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:LocalizerTimeSlice gml:id="uuid.a78a3830-78a6-4aa2-9992-faf764e1cc5c">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.2daf082d-d6f1-4d97-8e5c-c137e6d9ade7">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2023-01-26T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>15</aixm:sequenceNumber>
+      <aixm:correctionNumber>6</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.43c55ac7-9cae-49d7-a218-8107981b0cdf">
+          <gml:beginPosition>2017-01-05T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>IRV</aixm:designator>
+      <aixm:name>LOC18</aixm:name>
+      <aixm:emissionClass nilReason="unknown" xsi:nil="true"/>
+      <aixm:mobile nilReason="unknown" xsi:nil="true"/>
+      <aixm:magneticVariation>10</aixm:magneticVariation>
+      <aixm:magneticVariationAccuracy>0.1</aixm:magneticVariationAccuracy>
+      <aixm:dateMagneticVariation>2021</aixm:dateMagneticVariation>
+      <aixm:flightChecked>YES</aixm:flightChecked>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:OGC:1.3:CRS84" gml:id="uuid.7ccda54c-372a-4247-a7fb-40274b7014ed">
+          <gml:pos>23.9675 56.9011944</gml:pos>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:authority>
+        <aixm:AuthorityForNavaidEquipment gml:id="uuid.75f282f9-1b36-4a7b-a0c4-9c2d252a8db4">
+          <aixm:type>OWN</aixm:type>
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-89eb-0ae9-e053-0b751dc2b779"/>
+        </aixm:AuthorityForNavaidEquipment>
+      </aixm:authority>
+      <aixm:monitoring nilReason="unknown" xsi:nil="true"/>
+      <aixm:availability>
+        <aixm:NavaidOperationalStatus gml:id="uuid.ea8e3dc3-dbe9-4953-bc54-082f597521a4">
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.b80c7a21-79a1-4caa-951a-f05fff652ae6">
+              <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.58d9b42f-fe1a-4d79-b88f-f4cbb498f69e">
+                  <aixm:note lang="eng">H24</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.681f5b4b-a557-4538-8faa-f31b0ef3e4eb">
+                  <aixm:note lang="lav">H24</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:NavaidOperationalStatus>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.86b5c790-008a-45a0-9941-dec37a541946">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.cc66f7b2-e4fc-4a6c-b465-efaa3b87ab3d">
+              <aixm:note lang="eng">Class II/D/3
+(refer to LVP GEN 3.4.3 paragraph 1, AD 1.1.3 and EVRA AD 2.22 paragraph 4)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.43a1ae80-26d4-4db0-8c0d-c6c403c76e59">
+              <aixm:note lang="lav">Klase II/D/3 (atsauce uz LVP GEN 3.4.3 1. punktu, AD 1.1.3 un EVRA AD 2.22 4. punktu)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.3885c681-963b-4a71-b72f-5eca322bdba6">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.8a727568-0242-4378-83a7-6b2ee4592d21">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:frequency uom="MHZ">111.1</aixm:frequency>
+      <aixm:magneticBearing>175.153</aixm:magneticBearing>
+      <aixm:magneticBearingAccuracy nilReason="unknown" xsi:nil="true"/>
+      <aixm:trueBearing>185.153</aixm:trueBearing>
+      <aixm:trueBearingAccuracy nilReason="unknown" xsi:nil="true"/>
+      <aixm:declination>10</aixm:declination>
+      <aixm:widthCourse>3.16</aixm:widthCourse>
+      <aixm:widthCourseAccuracy nilReason="unknown" xsi:nil="true"/>
+      <aixm:backCourseUsable nilReason="unknown" xsi:nil="true"/>
+      <aixm:extension>
+        <ead-audit:LocalizerExtension gml:id="uuid.88e7fdba-d78a-494c-bd4e-72d17d5c92ed">
+          <ead-audit:auditInformation>
+            <ead-audit:Audit gml:id="uuid.4b9bc905-4bb0-4e41-8021-67b1553f634c">
+              <ead-audit:createdBy>ev_AMSL_LGS</ead-audit:createdBy>
+              <ead-audit:creationDate>2022-11-28T18:21:39Z</ead-audit:creationDate>
+              <ead-audit:createdByOrg>LATVIJAS GAISA SATIKSME</ead-audit:createdByOrg>
+              <ead-audit:responsibleSubsystem>SDD</ead-audit:responsibleSubsystem>
+            </ead-audit:Audit>
+          </ead-audit:auditInformation>
+        </ead-audit:LocalizerExtension>
+      </aixm:extension>
+    </aixm:LocalizerTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:LocalizerTimeSlice gml:id="uuid.94b7063b-b612-421e-b2fa-2c767b03f514">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.9330979a-8641-4250-a639-8805f5ccd056">
+          <gml:beginPosition>2023-01-26T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>16</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.b0bce771-5703-4a9b-8a0b-c600a7f3e762">
+          <gml:beginPosition>2017-01-05T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>IRV</aixm:designator>
+      <aixm:name>LOC18</aixm:name>
+      <aixm:emissionClass nilReason="unknown" xsi:nil="true"/>
+      <aixm:mobile nilReason="unknown" xsi:nil="true"/>
+      <aixm:magneticVariation>10</aixm:magneticVariation>
+      <aixm:magneticVariationAccuracy>0.1</aixm:magneticVariationAccuracy>
+      <aixm:dateMagneticVariation>2021</aixm:dateMagneticVariation>
+      <aixm:flightChecked>YES</aixm:flightChecked>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:OGC:1.3:CRS84" gml:id="uuid.e2c589a0-0408-48e4-9a27-6e5fad2b4011">
+          <gml:pos>23.9675 56.9011944</gml:pos>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:authority>
+        <aixm:AuthorityForNavaidEquipment gml:id="uuid.85e1c56b-6af4-430d-89bc-3022e64de4a2">
+          <aixm:type>OWN</aixm:type>
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-89eb-0ae9-e053-0b751dc2b779"/>
+        </aixm:AuthorityForNavaidEquipment>
+      </aixm:authority>
+      <aixm:monitoring nilReason="unknown" xsi:nil="true"/>
+      <aixm:availability>
+        <aixm:NavaidOperationalStatus gml:id="uuid.f95e98c7-ba10-4195-86fa-8b05db94a334">
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.1a432a55-41ad-4f88-8a40-c4dd798a5da5">
+              <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.108e8490-f479-4c5b-af1f-d7a0406d609c">
+                  <aixm:note lang="eng">H24</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.8f4ddd79-87a7-43eb-a296-d8778efa5a7e">
+                  <aixm:note lang="lav">H24</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:NavaidOperationalStatus>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.341acf4e-3212-497d-926a-f80eee1b2018">
+          <aixm:purpose>OTHER:AD_2_19_GENERAL_REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.aade12a7-88c2-425c-b9f1-b64986f722f4">
+              <aixm:note lang="eng">Refer to LVP GEN 3.4.3 paragraph 1, AD 1.1.3 and EVRA AD 2.22 paragraph 4.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.2844cf34-9800-41f0-a40e-2fad96083aab">
+              <aixm:note lang="lav">Atsauce uz LVP GEN 3.4.3 1. punktu, AD 1.1.3 un EVRA AD 2.22 4. punktu.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:frequency uom="MHZ">111.1</aixm:frequency>
+      <aixm:magneticBearing>175.153</aixm:magneticBearing>
+      <aixm:magneticBearingAccuracy nilReason="unknown" xsi:nil="true"/>
+      <aixm:trueBearing>185.153</aixm:trueBearing>
+      <aixm:trueBearingAccuracy nilReason="unknown" xsi:nil="true"/>
+      <aixm:declination>10</aixm:declination>
+      <aixm:widthCourse>3.16</aixm:widthCourse>
+      <aixm:widthCourseAccuracy nilReason="unknown" xsi:nil="true"/>
+      <aixm:backCourseUsable nilReason="unknown" xsi:nil="true"/>
+    </aixm:LocalizerTimeSlice>
+  </aixm:timeSlice>
+</aixm:Localizer> 
+
+<aixm:AirportHeliport gml:id="uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b">
+  <gml:identifier codeSpace="urn:uuid:">52766fb6-7a3b-49ce-9586-f90250f0dd1b</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.742fc33c-54fd-4ef0-91b1-3bd680dc383b">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.e9806956-5276-4e26-b967-cec458aa275e">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>65</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.3f42522d-70e2-42b5-8d27-2f23e408809f">
+          <gml:beginPosition>2017-06-22T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>EVRA</aixm:designator>
+      <aixm:name>RIGA</aixm:name>
+      <aixm:locationIndicatorICAO>EVRA</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>RIX</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:certifiedICAO>YES</aixm:certifiedICAO>
+      <aixm:privateUse>NO</aixm:privateUse>
+      <aixm:controlType>CIVIL</aixm:controlType>
+      <aixm:fieldElevation uom="FT">37</aixm:fieldElevation>
+      <aixm:fieldElevationAccuracy uom="FT">0.43</aixm:fieldElevationAccuracy>
+      <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+      <aixm:magneticVariation>10</aixm:magneticVariation>
+      <aixm:magneticVariationAccuracy>0.1</aixm:magneticVariationAccuracy>
+      <aixm:dateMagneticVariation>2021</aixm:dateMagneticVariation>
+      <aixm:magneticVariationChange>0.18</aixm:magneticVariationChange>
+      <aixm:referenceTemperature uom="C">25.15</aixm:referenceTemperature>
+      <aixm:altimeterCheckLocation>YES</aixm:altimeterCheckLocation>
+      <aixm:secondaryPowerSupply>YES</aixm:secondaryPowerSupply>
+      <aixm:windDirectionIndicator>YES</aixm:windDirectionIndicator>
+      <aixm:landingDirectionIndicator>YES</aixm:landingDirectionIndicator>
+      <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+      <aixm:transitionLevel nilReason="unknown" xsi:nil="true"/>
+      <aixm:lowestTemperature uom="C">-19.3</aixm:lowestTemperature>
+      <aixm:abandoned nilReason="unknown" xsi:nil="true"/>
+      <aixm:certificationDate>2017-12-12</aixm:certificationDate>
+      <aixm:certificationExpirationDate nilReason="inapplicable" xsi:nil="true"/>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.70a8dc2d-991d-4967-ba39-2342497271dc">
+          <aixm:name>RIGA</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.42546e86-4cfd-484c-b5d8-a56e11094bd0">
+          <aixm:role>OPERATE</aixm:role>
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.dd50e73d-e1a4-489b-87bf-647bfc297fda"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.14401d75-afea-4421-902d-4a6af75c4b80" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+          <gml:pos>23.9711111 56.9236111</gml:pos>
+          <aixm:horizontalAccuracy uom="FT">10</aixm:horizontalAccuracy>
+          <aixm:elevation uom="FT">37</aixm:elevation>
+          <aixm:geoidUndulation uom="FT">68</aixm:geoidUndulation>
+          <aixm:verticalAccuracy uom="FT">0.43</aixm:verticalAccuracy>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:aviationBoundary nilReason="unknown" xsi:nil="true"/>
+      <aixm:altimeterSource nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.a0378103-dcff-4fe5-8e6f-d456d4bdc686">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.af258cce-c9ed-44b1-8d3e-d8bcd205cf96">
+              <aixm:deliveryPoint>Lidosta <U+201C>R<U+012B>ga<U+201D> 10/1, M<U+0101>rupes novads,</aixm:deliveryPoint>
+              <aixm:postalCode>LV-1053</aixm:postalCode>
+              <aixm:country>LATVIJA</aixm:country>
+            </aixm:PostalAddress>
+          </aixm:address>
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.d8f31598-be55-459f-816a-43283c5a5d4a">
+              <aixm:network>AFTN</aixm:network>
+              <aixm:linkage>EVRAYDYD</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.be9d605d-35ac-45bf-9fa5-f921629e50c6">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.a3c73937-3d15-4f1f-bca5-bb588cb10efb">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:startTime>05:00</aixm:startTime>
+              <aixm:endTime>06:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+              <aixm:excluded>YES</aixm:excluded>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.fd5535fa-2245-4791-9458-9b4ad5248643">
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.f81b198e-ee9a-4232-964b-eb62d92cd94a">
+                      <aixm:note lang="eng">Only sked or charter flights or general aviation may operate at the aerodrome</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.0f3601a2-87e2-4de0-a9e4-e9d3278c92c8">
+                  <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.44e048ab-e12a-4c67-bf8d-e9f9ae55da4b">
+                      <aixm:note lang="eng">H24, except for the periods 0500-0600 (0400-0500) and 2000-2100 (1900-2000) when only scheduled or charter flights or general aviation may operate at the aerodrome.</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.d336bf55-c867-4647-b2cf-b83d81a343c0">
+                      <aixm:note lang="lav">H24, iz<U+0146>emot laika periodu no 0500-0600 (0400-5000) un no 2000-2100 (1900-2000), kad var tikt veikti tikai regul<U+0101>rie, <U+010D><U+0101>rtera vai visp<U+0101>r<U+0113>j<U+0101>s avi<U+0101>cijas lidojumi.</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.022cbb21-52b3-468b-bdbf-c9951ace8abb">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:startTime>20:00</aixm:startTime>
+              <aixm:endTime>21:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+              <aixm:excluded>YES</aixm:excluded>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.869236fa-57b4-45d5-bf47-aac3bfd9a2c9">
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.9a772e1a-6f2f-4d45-96ac-104705aae214">
+                      <aixm:note lang="eng">Only sked or charter flights or general aviation may operate at the aerodrome</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.cb6a826f-3021-4fa8-b76c-f54de68276f0">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:startTime>00:00</aixm:startTime>
+              <aixm:endTime>23:59</aixm:endTime>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.4e6b26e0-4828-4813-85e0-36d817aa5dfb">
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.4c851449-7321-4fd1-8bd6-10d16ef825dd">
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.a050fc23-72d1-4624-9f25-ad66a2c9bd88">
+                      <aixm:type>OAT</aixm:type>
+                      <aixm:rule>IFR</aixm:rule>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:annotation>
+                        <aixm:Note gml:id="uuid.2c09ff4c-6c69-416a-9c6b-2dd722c83982">
+                          <aixm:propertyName>purpose</aixm:propertyName>
+                          <aixm:purpose>DESCRIPTION</aixm:purpose>
+                          <aixm:translatedNote>
+                            <aixm:LinguisticNote gml:id="uuid.ea6c341c-aaf3-4a05-bfdb-1de46ba2ca99">
+                              <aixm:note lang="eng">GA</aixm:note>
+                            </aixm:LinguisticNote>
+                          </aixm:translatedNote>
+                          <aixm:translatedNote>
+                            <aixm:LinguisticNote gml:id="uuid.e81740e9-c028-4a9c-b6c3-0147d93a7cef">
+                              <aixm:note lang="lav">GA</aixm:note>
+                            </aixm:LinguisticNote>
+                          </aixm:translatedNote>
+                        </aixm:Note>
+                      </aixm:annotation>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.d00f1069-8117-46f7-bfce-70cc35989645">
+                      <aixm:type>OAT</aixm:type>
+                      <aixm:rule>VFR</aixm:rule>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.41e30b14-52df-431f-9d74-56daa978ee87">
+                      <aixm:type>OAT</aixm:type>
+                      <aixm:rule>IFR</aixm:rule>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.1d5229c3-3cad-428d-adc7-c65e2bd05f8f">
+                      <aixm:type>OAT</aixm:type>
+                      <aixm:rule>IFR</aixm:rule>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.d05c59e1-ebdd-4d2c-b54e-c17ab59197ad">
+                      <aixm:type>OAT</aixm:type>
+                      <aixm:rule>VFR</aixm:rule>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.b213d1f9-fcfa-4756-b7fb-0052c0cb5925">
+                      <aixm:type>OAT</aixm:type>
+                      <aixm:rule>VFR</aixm:rule>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:annotation>
+                        <aixm:Note gml:id="uuid.bf3e849b-9edf-45c2-860b-683b01027b4a">
+                          <aixm:propertyName>purpose</aixm:propertyName>
+                          <aixm:purpose>DESCRIPTION</aixm:purpose>
+                          <aixm:translatedNote>
+                            <aixm:LinguisticNote gml:id="uuid.8fe3c336-c70a-48d3-921a-85175dded032">
+                              <aixm:note lang="eng">GA</aixm:note>
+                            </aixm:LinguisticNote>
+                          </aixm:translatedNote>
+                          <aixm:translatedNote>
+                            <aixm:LinguisticNote gml:id="uuid.52af0b91-de53-41fb-b196-e80c4ebb33f1">
+                              <aixm:note lang="lav">GA</aixm:note>
+                            </aixm:LinguisticNote>
+                          </aixm:translatedNote>
+                        </aixm:Note>
+                      </aixm:annotation>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.88d57e2f-63e9-4a36-a8d1-bf537fc1de24">
+          <aixm:propertyName>referencePointDescription</aixm:propertyName>
+          <aixm:purpose>DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.c2ecf5b4-6020-4753-96a3-2c0e0c2f71b8">
+              <aixm:note lang="eng">On the axis of RWY</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.16e23bad-7207-4638-98b8-24e146f72933">
+              <aixm:note lang="lav">Uz skrejce<U+013C>a ass</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.2af909c1-b257-44b3-8212-922fa2620cdc">
+          <aixm:propertyName>locationDescription</aixm:propertyName>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.fa01b2b4-a41d-4ee0-afb1-518feb515278">
+              <aixm:note lang="eng">250<U+00B0>, 4.8 NM from the centre of Riga</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.5a09bcc5-a76c-42c4-9ab7-4caac4bc324b">
+              <aixm:note lang="lav">250<U+00BA>, 4.8 NM no R<U+012B>gas centra</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.98d6bc75-464c-4259-9623-d87285aa23bc">
+          <aixm:propertyName>altimeterCheckLocation</aixm:propertyName>
+          <aixm:purpose>DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.2078024e-54ce-46b3-9854-e811accfbc1f">
+              <aixm:note lang="eng">Apron 1 ACL: at Apron 34 FT
+Apron 2 ACL: at Apron 33 FT
+Apron 3 ACL: at Apron 33 FT
+Apron 4 ACL: at Apron 33 FT
+Apron 5 ACL: at Apron 32 FT
+Apron Z3 ACL: at Apron 29 FT</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.de8f3877-b1dd-4c17-9fc7-7c705aa829a9">
+              <aixm:note lang="lav">Perona 1 ACL: uz perona 34 FT 
+Perona 2 ACL: uz perona 33 FT 
+Perona 3 ACL: uz perona 33 FT 
+Perona 4 ACL: uz perona 33 FT
+Perona 5 ACL: uz perona 32 FT
+Perona Z3 ACL: uz perona 29 FT</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.1a8d6416-4c5f-493d-b5b5-61a07634d7c1">
+          <aixm:propertyName>windDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.22442806-03eb-41b0-9c70-ca5906777efc">
+              <aixm:note lang="eng">Anemometer: 370 m from THR 18, 380 m from THR 36, lighted (Ref. Table GEN 3.5.3)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.e840c72f-07e6-4ead-a07f-407aae29780a">
+              <aixm:note lang="lav">Anemometrs: 370 m no THR18, 380 m no THR36, izgaismots (sk. tabulu GEN 3.5.3)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.d8ae718f-84ff-48c7-b63c-fde00797d714">
+          <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+          <aixm:purpose>DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.f63f9ccf-a98d-4e2b-a1b5-4382b45a2694">
+              <aixm:note lang="eng">Diesel rotary uninterruptible power supply (DRUPS) device on each RWY substation / 0 SEC</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.d953aea0-32c4-4561-82e5-2fac5d7810f8">
+              <aixm:note lang="lav">Dinamisk<U+0101> nep<U+0101>rtraukt<U+0101>s baro<U+0161>anas iek<U+0101>rta (DRUPS) katra RWY apak<U+0161>stacij<U+0101> / 0 SEC</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.0c14aa51-f098-4e3d-b917-a366ec9c62b5">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.56832683-08e7-4c50-8e42-2fff8cb4e389">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+</aixm:AirportHeliport> 
+
+<aixm:RunwayDirection gml:id="uuid.b6bc7f7b-1e1c-4a66-b844-694438321a19">
+  <gml:identifier codeSpace="urn:uuid:">b6bc7f7b-1e1c-4a66-b844-694438321a19</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:RunwayDirectionTimeSlice gml:id="uuid.c3ecfba0-47b1-45d3-ad74-b516e818be48">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.2d19f9c4-24b8-4a5a-81a3-5b84b5f30520">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>35</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.421a07a4-ef1a-400b-87f6-976cee05aa6b">
+          <gml:beginPosition>2017-01-05T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>18</aixm:designator>
+      <aixm:trueBearing>185.16</aixm:trueBearing>
+      <aixm:trueBearingAccuracy>0.0036</aixm:trueBearingAccuracy>
+      <aixm:magneticBearing>175.16</aixm:magneticBearing>
+      <aixm:patternVFR nilReason="unknown" xsi:nil="true"/>
+      <aixm:slopeTDZ>-0.1</aixm:slopeTDZ>
+      <aixm:elevationTDZ uom="FT">32.6</aixm:elevationTDZ>
+      <aixm:elevationTDZAccuracy uom="FT">0.3</aixm:elevationTDZAccuracy>
+      <aixm:approachMarkingType nilReason="unknown" xsi:nil="true"/>
+      <aixm:approachMarkingCondition nilReason="unknown" xsi:nil="true"/>
+      <aixm:classLightingJAR nilReason="unknown" xsi:nil="true"/>
+      <aixm:precisionApproachGuidance>ILS_PRECISION_CAT_II</aixm:precisionApproachGuidance>
+      <aixm:usedRunway xlink:type="simple" xlink:href="#uuid.3fd5bb29-33a9-4dc5-9102-d8674a8cb42e"/>
+      <aixm:startingElement nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.7c5f9798-ee3d-4306-adb7-9cf74a5f1ccd">
+          <aixm:purpose>OTHER:RWY_SWY_SLOPE</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.e694eaf0-19f3-410b-bc9b-0bc140ff5074">
+              <aixm:note lang="eng">-0.1 %/NIL/0.3%/-0.1%/0.2%
+(465 m/1785 m/500 m/280 m/170 m)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.3d99ec1f-e33a-4d40-afa0-325a7d537c88">
+              <aixm:note lang="lav">-0.1 %/NIL/0.3%/-0.1%/0.2%
+(465 m/1785 m/500 m/280 m/170 m)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.ead7e70b-c2fc-4bdd-8f29-45ae74c5a509">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.adf134ab-0e97-4b19-a47d-742b8a02c081">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:availability nilReason="unknown" xsi:nil="true"/>
+    </aixm:RunwayDirectionTimeSlice>
+  </aixm:timeSlice>
+</aixm:RunwayDirection> 
+
+<aixm:Runway gml:id="uuid.3fd5bb29-33a9-4dc5-9102-d8674a8cb42e">
+  <gml:identifier codeSpace="urn:uuid:">3fd5bb29-33a9-4dc5-9102-d8674a8cb42e</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:RunwayTimeSlice gml:id="uuid.c6d1d726-2347-43a0-9442-66be19fb15ba">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.a059b6c5-fdc1-459b-a477-854ba1e5267a">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>46</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.52ae9171-30d4-45cd-988b-da3e929db72e">
+          <gml:beginPosition>2017-06-22T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>RWY-18/36</aixm:designator>
+      <aixm:type>RWY</aixm:type>
+      <aixm:nominalLength uom="M">3200</aixm:nominalLength>
+      <aixm:lengthAccuracy uom="M">0.5</aixm:lengthAccuracy>
+      <aixm:nominalWidth uom="M">45</aixm:nominalWidth>
+      <aixm:widthAccuracy uom="M">0.5</aixm:widthAccuracy>
+      <aixm:widthShoulder nilReason="unknown" xsi:nil="true"/>
+      <aixm:lengthStrip uom="M">3320</aixm:lengthStrip>
+      <aixm:widthStrip uom="M">280</aixm:widthStrip>
+      <aixm:lengthOffset nilReason="inapplicable" xsi:nil="true"/>
+      <aixm:widthOffset nilReason="inapplicable" xsi:nil="true"/>
+      <aixm:abandoned nilReason="unknown" xsi:nil="true"/>
+      <aixm:surfaceProperties>
+        <aixm:SurfaceCharacteristics gml:id="uuid.b47dce6f-dba4-4547-8b85-23436350a21b">
+          <aixm:composition>ASPH</aixm:composition>
+          <aixm:classPCN>110</aixm:classPCN>
+          <aixm:pavementTypePCN>FLEXIBLE</aixm:pavementTypePCN>
+          <aixm:pavementSubgradePCN>A</aixm:pavementSubgradePCN>
+          <aixm:maxTyrePressurePCN>W</aixm:maxTyrePressurePCN>
+          <aixm:evaluationMethodPCN>TECH</aixm:evaluationMethodPCN>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.d2f613a6-15df-4ef1-9084-570bbb8bcba7">
+              <aixm:purpose>OTHER:STRIP_DIMENSIONS</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.c646f024-3e07-452e-9989-aad98f211641">
+                  <aixm:note lang="eng">(unpaved)</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.4903cf01-e5f0-4a39-b39f-a78dcc2e5586">
+                  <aixm:note lang="lav">(bez m<U+0101>ksl<U+012B>g<U+0101> seguma)</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:SurfaceCharacteristics>
+      </aixm:surfaceProperties>
+      <aixm:associatedAirportHeliport xlink:type="simple" xlink:href="#uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.d210ea01-f5c3-437c-ab32-c808c308b421">
+          <aixm:purpose>OTHER:MARKING_LGT_DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.56fefcc6-bc25-4563-86b9-7fe0d1942faf">
+              <aixm:note lang="eng">RWY 18/36: Designation, THR, TDZ, aiming point, CL, edge marked.
+RWY18/36: THR, TDZ, CL, RWY end, edge lighted.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.0cb7b9f2-0a10-41aa-a437-22019b7da58e">
+              <aixm:note lang="lav">RWY18/36: mar<U+0137><U+0113>ti apz<U+012B>m<U+0113>jumi, THR, TDZ, galapunkts, CL, malas.
+RWY18/36: ar ugun<U+012B>m THR, TDZ, CL, RWY gals, malas.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.0383b8d4-ab31-465b-8435-1b2556f841df">
+          <aixm:purpose>OTHER:STOP_BARS_AND_RWY_GUARD_LIGHTS</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.4274b993-1883-4492-8a5f-25d3256dcd4f">
+              <aixm:note lang="eng">Red, LIH at all RWY holding PSN
+RWY 18/36 guard lights at TWYs A, B, C, D, E, G, K and Y.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.8bbb597b-ad44-49ff-a680-844a14de4cf4">
+              <aixm:note lang="lav">Sarkanas, augstas intensit<U+0101>tes ugunis vis<U+0101>s gaid<U+012B><U+0161>anas viet<U+0101>s pie skrejce<U+013C>a.
+RWY 18/36 aizsardz<U+012B>bas ugunis pie TWY A, B, C, D, E, G, K un Y.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.95485c77-1f0b-4814-b608-8ea5d6a2dd5b">
+          <aixm:purpose>OTHER:AD_2_12_GENERAL_REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.2537d03c-964a-4d2f-9211-115d44e762cd">
+              <aixm:note lang="eng">See also EVRA AD 2.24.1.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.ed325b29-22eb-4b44-8b9f-fa864ca207cc">
+              <aixm:note lang="lav">Skat<U+012B>t ar<U+012B> EVRA AD 2.24.1.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.9b02281c-b045-451e-88ee-28b13cc06650">
+          <aixm:purpose>OTHER:AD_2_13_GENERAL_REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.77e66835-425a-4142-ba1a-c910e8470edc">
+              <aixm:note lang="eng">See also EVRA AD 2.24.4.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.59da08ca-519f-4c5c-af88-7b09799476ae">
+              <aixm:note lang="lav">Skat<U+012B>t ar<U+012B> EVRA AD 2.24.4.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.03eb07ed-d661-4e23-874e-988f450854e8">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.60ecfdd1-ede3-4be5-8f43-48cb99461e8d">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:RunwayTimeSlice>
+  </aixm:timeSlice>
+</aixm:Runway>
+
+</AIXMBasicMessage>
