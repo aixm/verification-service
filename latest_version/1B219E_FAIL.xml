@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:gco="http://www.isotc211.org/2005/gco"
+                  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml"
+                  gml:id="uniqueId"
+>
+
+    <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:Navaid gml:id="uuid.0db879e3-ce38-4e3f-8324-0136c4f18c02">
+            <gml:identifier codeSpace="urn:uuid:">0db879e3-ce38-4e3f-8324-0136c4f18c02</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="uuid.d72384cd-e03a-436f-9bc9-2908b2307c6a">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.d11fb432-dc30-40e7-9c37-f06d959793aa">
+                            <gml:beginPosition>2020-09-10T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>3</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.2f0e82d7-cfc3-48a9-b292-df1c72d3601d">
+                            <gml:beginPosition>2007-04-12T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>VOR</aixm:type>
+                    <aixm:designator>PJV</aixm:designator>
+                    <aixm:name>PORT ST JOHNS</aixm:name>
+                    <aixm:navaidEquipment>
+                        <aixm:NavaidComponent gml:id="uuid.ea0fad0e-3f8a-47bc-aa69-7e03002ee1f7">
+                            <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+                            <!-- ERROR:Found 'VOR' Navaid composed of incorrect equipment (SDF)  -->
+                            <aixm:theNavaidEquipment xlink:type="simple"
+                                                     xlink:href="#uuid.e435c76c-8449-48f6-b746-141473223fdc"/>
+                        </aixm:NavaidComponent>
+                    </aixm:navaidEquipment>
+                    <aixm:location>
+                        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            xmlns:gts="http://www.isotc211.org/2005/gts"
+                                            xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot"
+                                            xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                                            xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport"
+                                            xmlns:gco="http://www.isotc211.org/2005/gco"
+                                            xmlns:extKey="http://www.aixm.aero/schema/5.1.1/extensions/externalkey"
+                                            xmlns:audit="http://www.aixm.aero/schema/5.1.1/extensions/audit"
+                                            xmlns:event="http://www.aixm.aero/schema/5.1.1/event"
+                                            xmlns:nk="http://www.aixm.aero/schema/5.1.1/extensions/naturalkey"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                                            srsName="urn:ogc:def:crs:EPSG::4326"
+                                            gml:id="uuid.3a57639a-0646-459c-aba6-007983b3a63a">
+                            <gml:pos>-31.6088778 29.5198583</gml:pos>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.b25b124e-b6e1-4ae8-996d-daa9d0fb8c7e">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.00ae1455-1f38-42b9-81df-90975ead51a7">
+                                            <aixm:note>CRC:313631.96S, 0293111.49E, , , D344D3A5</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </hasMember>
+
+
+
+    <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:SDF gml:id="uuid.e435c76c-8449-48f6-b746-141473223fdc">
+            <gml:identifier codeSpace="urn:uuid:">e435c76c-8449-48f6-b746-141473223fdc</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:SDFTimeSlice gml:id="uuid.a39004b5-c218-4a94-ac37-239bbbfa7620">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.0ca299cf-9c15-4853-81b4-e7e2d667e463">
+                            <gml:beginPosition>2020-09-10T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>3</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.5750d9be-6eaa-4a9c-8cf8-978de51cbae9">
+                            <gml:beginPosition>2007-04-12T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>PJV</aixm:designator>
+                    <aixm:name>PORT ST JOHNS</aixm:name>
+                    <aixm:location>
+                        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            xmlns:gts="http://www.isotc211.org/2005/gts"
+                                            xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot"
+                                            xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                                            xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport"
+                                            xmlns:gco="http://www.isotc211.org/2005/gco"
+                                            xmlns:extKey="http://www.aixm.aero/schema/5.1.1/extensions/externalkey"
+                                            xmlns:audit="http://www.aixm.aero/schema/5.1.1/extensions/audit"
+                                            xmlns:event="http://www.aixm.aero/schema/5.1.1/event"
+                                            xmlns:nk="http://www.aixm.aero/schema/5.1.1/extensions/naturalkey"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                                            srsName="urn:ogc:def:crs:EPSG::4326"
+                                            gml:id="uuid.973ab951-6896-4fe4-a702-cf2256be68e7">
+                            <gml:pos>-31.6088778 29.5198583</gml:pos>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.1725a93a-80c0-4366-a2d1-d906ec7a5793">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.19394ac9-dbe0-44d6-b87a-ffcde0aa499d">
+                                            <aixm:note>CRC:313631.96S, 0293111.49E, , , D344D3A5</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:authority>
+                        <aixm:AuthorityForNavaidEquipment gml:id="uuid.29a38ac5-cfd4-46e1-bacc-274707df04bc">
+                            <aixm:theOrganisationAuthority xlink:type="simple"
+                                                           xlink:href="urn:uuid:09424934-7e48-0ae9-e053-0b751dc2b779"/>
+                        </aixm:AuthorityForNavaidEquipment>
+                    </aixm:authority>
+                    <aixm:availability>
+                        <aixm:NavaidOperationalStatus gml:id="uuid.fe379c6b-6728-41d0-a7ef-1a0a6bb3b096">
+                            <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
+                        </aixm:NavaidOperationalStatus>
+                    </aixm:availability>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.124c25d6-7ca2-4b78-b777-bffa2a1adcef">
+                            <aixm:purpose>REMARK</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.5a227958-69a2-49c3-be19-06121fbfdcdd">
+                                    <aixm:note>txtRmk:Power Output 50W</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                </aixm:SDFTimeSlice>
+            </aixm:timeSlice>
+        </aixm:SDF>
+
+    </hasMember>
+
+
+</AIXMBasicMessage>
+
