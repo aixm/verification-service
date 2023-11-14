@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.6384a4e0-8497-4f83-8eaa-d73ef549d90e">
+            <gml:identifier codeSpace="urn:uuid:">6384a4e0-8497-4f83-8eaa-d73ef549d90e</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="DONLONSTATE">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtDONLONSTATE">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltDONLONSTATE">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+
+                    <aixm:name>REPUBLIC OF DONLON</aixm:name>
+                    <aixm:designator>DON</aixm:designator>
+                    <aixm:type>STATE</aixm:type>
+                    <aixm:military>CIVIL</aixm:military>
+                    <aixm:contact>
+                        <aixm:ContactInformation gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000">
+                            <aixm:address>
+                                <aixm:PostalAddress gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001">
+                                    <aixm:timeInterval>
+                                        <aixm:Timesheet gml:id="tndbMKR_EADD_MM27R">
+                                            <aixm:day>ANY</aixm:day>
+                                            <aixm:startTime>00:00</aixm:startTime>
+                                            <aixm:endTime>00:00</aixm:endTime>
+                                        </aixm:Timesheet>
+                                    </aixm:timeInterval>
+
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                                            <!-- WARNING It is prohibited that PostalAddress has annotation.Note.propertyName value other-than-one-of ('timeInterval', 'specialDateAuthority', 'deliveryPoint', 'city', 'administrativeArea', 'postalCode', 'country')  -->
+                                            <aixm:propertyName>invadliPropertyName</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+
+                                    <aixm:specialDateAuthority xlink:href="urn:uuid:6384a4e0-8497-4f83-8eaa-d73ef549d90e"/>
+                                    <aixm:deliveryPoint>A</aixm:deliveryPoint>
+                                    <aixm:city>CITY</aixm:city>
+                                    <aixm:administrativeArea>A</aixm:administrativeArea>
+                                    <aixm:postalCode>1000</aixm:postalCode>
+                                    <aixm:country>DONLON</aixm:country>
+                                </aixm:PostalAddress>
+                            </aixm:address>
+                        </aixm:ContactInformation>
+                    </aixm:contact>
+                    <aixm:relatedOrganisationAuthority>
+                        <aixm:OrganisationAuthorityAssociation gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd002"/>
+                    </aixm:relatedOrganisationAuthority>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.6384a4e0-8497-4fff-8eaa-d73ef549d90e">
+            <gml:identifier codeSpace="urn:uuid:">6384a4e0-8497-4fff-8eaa-d73ef549d90e</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.6384a4e0-eeee-4fff-8eaa-d73ef549d90e">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.6384a4e0-eee1-4fff-8eaa-d73ef549d90e">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.6384a4e0-eee2-4fff-8eaa-d73ef549d90e">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:name>REPUBLIC OF DONLON</aixm:name>
+                    <aixm:type>STATE</aixm:type>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+</message:AIXMBasicMessage>

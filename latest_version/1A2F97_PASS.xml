@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:DepartureLeg gml:id="uuid.dc8d4ea0-a851-4925-9f67-9a0000bf6144">
+            <gml:identifier codeSpace="urn:uuid:">dc8d4ea0-a851-4925-9f67-9a0000bf6144</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:DepartureLegTimeSlice gml:id="uuid.b9f3b990-25db-4e0f-a52a-82e45481e525">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b969">
+                            <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.24abbfbd-4b4b-49d0-bfb7-a68b9b2f1997">
+                            <gml:beginPosition>2017-03-30T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:endConditionDesignator nilReason="unknown" xsi:nil="true"/>
+                    <aixm:legPath nilReason="unknown" xsi:nil="true"/>
+                    <aixm:legTypeARINC>CF</aixm:legTypeARINC>
+                    <aixm:course>218</aixm:course>
+                    <aixm:courseType>TRUE_TRACK</aixm:courseType>
+                    <aixm:courseDirection>FROM</aixm:courseDirection>
+                    <aixm:turnDirection>EITHER</aixm:turnDirection>
+                    <aixm:speedLimit uom="KT">205</aixm:speedLimit>
+                    <aixm:speedReference>IAS</aixm:speedReference>
+                    <aixm:speedInterpretation nilReason="unknown" xsi:nil="true"/>
+                    <aixm:bankAngle nilReason="unknown" xsi:nil="true"/>
+                    <aixm:length uom="NM">15.785</aixm:length>
+                    <aixm:duration nilReason="unknown" xsi:nil="true"/>
+                    <aixm:procedureTurnRequired nilReason="unknown" xsi:nil="true"/>
+                    <aixm:upperLimitAltitude nilReason="unknown" xsi:nil="true"/>
+                    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                    <aixm:lowerLimitAltitude uom="FT">1544.6</aixm:lowerLimitAltitude>
+                    <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                    <aixm:altitudeInterpretation>ABOVE_LOWER</aixm:altitudeInterpretation>
+                    <aixm:altitudeOverrideATC nilReason="unknown" xsi:nil="true"/>
+                    <aixm:altitudeOverrideReference nilReason="unknown" xsi:nil="true"/>
+                    <aixm:verticalAngle>2.57657183026883</aixm:verticalAngle>
+                    <aixm:startPoint nilReason="unknown" xsi:nil="true"/>
+                    <aixm:endPoint>
+                        <aixm:TerminalSegmentPoint gml:id="uuid.f35f15af-a8eb-4da0-aa83-1912c0b6952e">
+                            <aixm:reportingATC>COMPULSORY</aixm:reportingATC>
+                            <aixm:flyOver>NO</aixm:flyOver>
+                            <aixm:waypoint>YES</aixm:waypoint>
+                            <aixm:radarGuidance>NO</aixm:radarGuidance>
+                            <aixm:facilityMakeup>
+                                <aixm:PointReference gml:id="uuid.9c4ea9c2-daaf-4852-9686-1f3a1fea633a">
+                                    <aixm:role>RAD_DME</aixm:role>
+                                    <aixm:priorFixTolerance uom="NM">0.58</aixm:priorFixTolerance>
+                                    <aixm:postFixTolerance uom="NM">0.499</aixm:postFixTolerance>
+                                    <aixm:point/>
+                                    <aixm:facilityAngle>
+                                        <aixm:AngleUse gml:id="uuid.91b50879-7636-4023-b9c3-1ab6a1cc39b0">
+                                            <aixm:alongCourseGuidance>YES</aixm:alongCourseGuidance>
+                                            <aixm:theAngleIndication xlink:type="simple" xlink:href="urn:uuid:ab2fe4ce-bf01-4943-b386-5ce27f7e2d92"/>
+                                        </aixm:AngleUse>
+                                    </aixm:facilityAngle>
+                                    <aixm:facilityDistance xlink:type="simple" xlink:href="urn:uuid:aa3d22a0-5757-4fd9-a302-273efce801d6"/>
+                                    <aixm:fixToleranceArea>
+                                        <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                                      xmlns:gml="http://www.opengis.net/gml/3.2"
+                                                      gml:id="uuid.ee58ac8e-a055-425b-a7b2-5dedfb04a720"
+                                                      srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                                            <gml:patches>
+                                                <gml:PolygonPatch>
+                                                    <gml:exterior>
+                                                        <gml:Ring>
+                                                            <gml:curveMember>
+                                                                <gml:Curve gml:id="uuid.e835751d-fa28-424d-82c2-9b400ed5381e">
+                                                                    <gml:segments>
+                                                                        <gml:GeodesicString>
+                                                                            <gml:posList>20.7704238 56.2392091 20.7524408 56.2242737 20.6624558 56.2630286 20.6839171 56.2764741 20.7704238 56.2392091 </gml:posList>
+                                                                        </gml:GeodesicString>
+                                                                    </gml:segments>
+                                                                </gml:Curve>
+                                                            </gml:curveMember>
+                                                        </gml:Ring>
+                                                    </gml:exterior>
+                                                </gml:PolygonPatch>
+                                            </gml:patches>
+                                        </aixm:Surface>
+                                    </aixm:fixToleranceArea>
+
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                                            <aixm:propertyName>role</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                                            <aixm:propertyName>priorFixTolerance</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                                            <aixm:propertyName>postFixTolerance</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                                            <aixm:propertyName>point</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+                                            <aixm:propertyName>facilityAngle</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
+                                            <aixm:propertyName>facilityDistance</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
+                                            <aixm:propertyName>fixToleranceArea</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                </aixm:PointReference>
+                            </aixm:facilityMakeup>
+                            <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="urn:uuid:364886b3-f492-49bc-9e2a-8a5ef31a01e0"/>
+                        </aixm:TerminalSegmentPoint>
+                    </aixm:endPoint>
+                    <aixm:trajectory>
+                        <aixm:Curve xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                                    gml:id="uuid.3890de36-367e-4096-a9bb-3dcf93ac878d"
+                                    srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                            <gml:segments>
+                                <gml:GeodesicString>
+                                    <gml:posList>21.0068569 56.4576204 20.7165909 56.2502232 </gml:posList>
+                                </gml:GeodesicString>
+                            </gml:segments>
+                        </aixm:Curve>
+                    </aixm:trajectory>
+                    <aixm:arcCentre nilReason="unknown" xsi:nil="true"/>
+                    <aixm:angle nilReason="unknown" xsi:nil="true"/>
+                    <aixm:distance nilReason="unknown" xsi:nil="true"/>
+                    <aixm:aircraftCategory>
+                        <aixm:AircraftCharacteristic gml:id="uuid.d1924763-2dcd-4d2d-8892-ae5c172e43ce">
+                            <aixm:aircraftLandingCategory>D</aixm:aircraftLandingCategory>
+                        </aixm:AircraftCharacteristic>
+                    </aixm:aircraftCategory>
+                    <aixm:holding nilReason="unknown" xsi:nil="true"/>
+                    <aixm:designSurface nilReason="unknown" xsi:nil="true"/>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.881770ab-5148-4cc3-89ae-d5267ae2f3b5">
+                            <aixm:purpose>REMARK</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.73e48147-524e-49ad-90c8-45f0d62b4343">
+                                    <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:requiredNavigationPerformance nilReason="unknown" xsi:nil="true"/>
+                    <aixm:minimumObstacleClearanceAltitude nilReason="unknown" xsi:nil="true"/>
+                    <!--          <aixm:departure xlink:type="simple" xlink:href="#uuid.e951769d-e361-476f-9c1a-a40cb87a7879"/> -->
+                    <aixm:condition nilReason="unknown" xsi:nil="true"/>
+                </aixm:DepartureLegTimeSlice>
+            </aixm:timeSlice>
+        </aixm:DepartureLeg>
+    </message:hasMember>
+</message:AIXMBasicMessage>
