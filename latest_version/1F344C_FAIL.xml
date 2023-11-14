@@ -1,0 +1,2287 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+
+<aixm:AeronauticalGroundLight gml:id="uuid.67e2f371-6858-4435-98eb-11da253b27ba">
+  <gml:identifier codeSpace="urn:uuid:">67e2f371-6858-4435-98eb-11da253b27ba</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AeronauticalGroundLightTimeSlice gml:id="uuid.d4e74f09-63cb-4978-bb7b-432d98820f5a">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.a1c4e553-7310-45b0-be54-3ab6e488fe6a">
+          <gml:beginPosition>2012-03-01T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.ee026c63-f51d-49a9-83ed-92a82aa65e9c">
+          <gml:beginPosition>2012-03-01T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:name>BAYREUTH</aixm:name>
+      <aixm:type>ABN</aixm:type>
+      <!-- ERROR: Found AeronauticalGroundLight with aerodromeBeacon@xlink:href value that does not match any AirportHeliport (${association}) -->
+      <aixm:aerodromeBeacon xlink:type="simple" xlink:href="#uuid.b7df05db-b022-4349-bf32-900000000009"/>
+      <aixm:location>
+        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.7df4a632-0b8d-4fd3-8077-78f382515f3a">
+          <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">49.984427778 11.638569444</gml:pos>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.16e9a8f1-1930-40d9-8be7-1350f6324ffa">
+          <aixm:purpose>DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.c1167d18-9184-4bdc-941e-993fbc1559d1">
+              <aixm:note>txtDescrCharact:ABN white/white on TWR</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.98b31e3e-72d8-4083-bfca-f7f8ec188841">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.84caa44e-11c2-4599-ad0c-e1161a3ac131">
+              <aixm:note>timetable:codeWorkHr: 'HX'
+</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AeronauticalGroundLightTimeSlice>
+  </aixm:timeSlice>
+</aixm:AeronauticalGroundLight> 
+
+<aixm:AirportHeliport gml:id="uuid.b7df05db-b022-4349-bf32-92253ba0a3c9">
+  <gml:identifier codeSpace="urn:uuid:">b7df05db-b022-4349-bf32-92253ba0a3c9</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.45b0a6cd-0f77-4498-9e9f-320734f255a5">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.8442db53-539c-4979-bddd-c9a8d7e29936">
+          <gml:beginPosition>2015-08-20T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2018-11-08T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.ba68006b-1818-47ec-a551-78e4ee5b831e">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>EDQD</aixm:designator>
+      <aixm:name>BAYREUTH</aixm:name>
+      <aixm:locationIndicatorICAO>EDQD</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>BYU</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:fieldElevation uom="FT">1601</aixm:fieldElevation>
+      <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+      <aixm:magneticVariation>2.5</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2014</aixm:dateMagneticVariation>
+      <aixm:referenceTemperature uom="C">22.5</aixm:referenceTemperature>
+      <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.fbf85c26-39e5-461a-ac14-fde7839f20bb">
+          <aixm:name>BAYREUTH</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.faf1d7b6-b39c-421c-bd80-c9868ad5befd">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-8352-0ae9-e053-0b751dc2b779"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.f2aa4f91-dce5-4a4b-a1c8-622021564e53">
+          <gml:pos>49.984427417 11.638569639</gml:pos>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.72ff01a4-8483-4621-b627-5b297a30301c">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.23707900-cbfc-4c4a-a284-49577e39534e">
+              <aixm:deliveryPoint>POSTFACH 101052, 95410 BAYREUTH</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.fb733c9e-a8e5-4d1d-9d68-3cc9de5e289a">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.c62993d8-2a14-462e-9503-2afe661a94fd">
+              <aixm:facsimile>+49 (0)9208 6570-14</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.270a6b77-71d5-44eb-98fb-8a3b87cb95a3">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.ce0cad74-d984-412d-a430-cca2cfa974e7">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.2703ff44-6f4c-4f6c-8f0b-a4bfd7bdd3f2">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.da703ecb-345f-4da0-aa48-8470e9d1dc8c">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+49 (0)9208 6570-24</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.a3961041-3329-46ca-88d2-9dedaaa4ac5b">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.08442a35-4ff1-4faf-9987-1d6930dab948">
+              <aixm:voice>+49 (0)9208 6570-0</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.ba9fc47d-a084-43cf-968a-683e7fe469f3">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.45ad34e2-e180-4f99-9ec0-17c6f8ac1106">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.818ee662-165f-4f23-8816-8e3a4bb32420">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.8070f2b2-9f9c-4b05-839a-1c8dae675b01">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+49 (0)9208 6570-20</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.2a1bcd6e-5cfe-4e21-9c47-23a87dff1da2">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.2055d02d-e727-474c-9585-218ab4b1bc54">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>EDLST</aixm:startDate>
+              <aixm:endDate>SDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>07:30</aixm:startTime>
+              <aixm:endTime>18:00</aixm:endTime>
+              <aixm:endEvent>SS</aixm:endEvent>
+              <aixm:endTimeRelativeEvent uom="MIN">30</aixm:endTimeRelativeEvent>
+              <aixm:endEventInterpretation>EARLIEST</aixm:endEventInterpretation>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.def00e72-1adc-4b96-afe4-6bda548fc0a8">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>SDLST</aixm:startDate>
+              <aixm:endDate>EDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>06:30</aixm:startTime>
+              <aixm:endTime>18:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.f877e9d6-3449-4590-9ddd-adbd89be75e6">
+              <aixm:propertyName>timeInterval</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.def3b953-5deb-4c66-9163-da980bd87375">
+                  <aixm:note>Remark:Other times: PPR</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.823c0d4b-7d26-47ba-bd5b-36838083fadc">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.dbc30dd0-4b1c-46cf-b9ae-5543eee077a9">
+                  <aixm:logicalOperator>OR</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.d767b815-2733-4938-9c57-b004adf0767b">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.9d2df95e-e834-484f-85d9-63b2112284da">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>PRIVATE</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.0b699ed3-e195-4185-815a-403d6db75161">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.fd533649-96ff-4b52-a5d3-bd003fa1c132">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.9fed96f5-c476-49df-b4d9-5891e9ce4c81">
+                      <aixm:note>txtRmk:PPR for all IFR flights</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.74919522-036d-4915-927b-a219dcc6abb5">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.64466e94-757e-46eb-8f1b-45b9087af939">
+              <aixm:note>CRC:495903.9387N, 0113818.8507E, 1601, , BB562AE8</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.a5efe781-49a2-46cb-972e-ab501dc1c9ac">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.6db2f048-7db6-4ad3-9490-4b326ca1e00a">
+              <aixm:note>Organisation in charge:STADT BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.6fe3e334-dcdb-49e2-a0af-1216e8b32863">
+          <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.3934d2e6-3cf1-4343-9b84-6d7eaea45340">
+              <aixm:note>Secondary Power Supply:Available</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.72b50717-147c-4d1e-9bca-b37cf4acbe27">
+          <aixm:propertyName>landingDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.c5179e88-62f0-4266-a9c9-623c8ecf4de6">
+              <aixm:note>Landing Direction Indicator Description:See Chart AD 2 EDQD 2-5</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.5849e98b-aabc-4687-86cd-1a6a564d2def">
+          <aixm:propertyName>arp</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.250d562e-d782-49b1-8b33-9003082b7a01">
+              <aixm:note>Aerodrome Reference Point Description:387 m W of THR 24 on the paved RWY centre line</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.410e3d71-2dea-4042-b1f5-65f747929694">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.9d4ebe3c-b826-445e-aea2-20c29b8a1217">
+              <aixm:note>Site Description:5 KM (2.7 NM) NE BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.8d85b201-976a-4cb9-ba89-9c4f304376cd">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.19faf3cc-a7c4-4516-a128-1fb1553be854">
+          <gml:beginPosition>2018-11-08T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2020-04-23T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.8a0a4931-46c0-4cbe-8fd5-09355f600e92">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>EDQD</aixm:designator>
+      <aixm:name>BAYREUTH</aixm:name>
+      <aixm:locationIndicatorICAO>EDQD</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>BYU</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:fieldElevation uom="FT">1601</aixm:fieldElevation>
+      <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+      <aixm:magneticVariation>2.9</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2018</aixm:dateMagneticVariation>
+      <aixm:referenceTemperature uom="C">22.5</aixm:referenceTemperature>
+      <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.2a0b0a32-c676-4b25-9bc3-1cc2fe5e6053">
+          <aixm:name>BAYREUTH</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.564deeee-efbb-41bd-92ee-0ffa5b7121ad">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-8352-0ae9-e053-0b751dc2b779"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.ff966b33-0adf-4b06-a6bd-df31060ef1bf">
+          <gml:pos>49.984427417 11.638569639</gml:pos>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.1c7b8492-397b-407b-869f-4c9b2999f9a2">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.ba9be02b-35ec-436b-8f0b-48dc81847cf2">
+              <aixm:deliveryPoint>POSTFACH 101052, 95410 BAYREUTH</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.cf74054f-c38e-4618-b529-8c3bb9dc41c5">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.2eee846d-63af-4776-b22b-655f62086c40">
+              <aixm:facsimile>+49 (0)9208 6570-14</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.af6f658d-1edc-4938-8633-bd24b611ca43">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.c6075def-f596-4aa2-8345-952e41f0451c">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.66a71e6c-9e17-44bb-a566-af4a82ed9909">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.293957b5-dc35-4ac6-84d2-30d6c5e5d843">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+49 (0)9208 6570-24</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.0d9c7acb-d172-4661-b2ae-1f3babef8495">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.f87e9e91-8fbd-4f90-852f-81dd3bbf0374">
+              <aixm:voice>+49 (0)9208 6570-0</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.f4dba777-b9b6-4f1c-ae5c-c36118997822">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.b241c383-2bdb-409e-8c9d-1384029d6b46">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.efe81ae1-77c9-4f76-a179-ffd98baa96e3">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.ca0afefe-3d14-4d7e-a993-6319295ee3ab">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+49 (0)9208 6570-20</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.48352902-1fe8-41bf-a031-5dae85d7cc89">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.e5f03822-2983-4540-bc2f-9d2167b9dad5">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>EDLST</aixm:startDate>
+              <aixm:endDate>SDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>07:30</aixm:startTime>
+              <aixm:endTime>18:00</aixm:endTime>
+              <aixm:endEvent>SS</aixm:endEvent>
+              <aixm:endTimeRelativeEvent uom="MIN">30</aixm:endTimeRelativeEvent>
+              <aixm:endEventInterpretation>EARLIEST</aixm:endEventInterpretation>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.b415b327-0a3c-46cd-af2a-5575361480df">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>SDLST</aixm:startDate>
+              <aixm:endDate>EDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>06:30</aixm:startTime>
+              <aixm:endTime>18:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.d357aa03-8342-48aa-bc0e-3adb951268a2">
+              <aixm:propertyName>timeInterval</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.9cc83eb4-6981-48bd-99b3-45af13491bd3">
+                  <aixm:note>Remark:Other times: PPR</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.ce7ede65-5716-427d-957a-19e4057644d8">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.b7685454-28bf-4877-9b4d-5c014dc239a5">
+                  <aixm:logicalOperator>OR</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.331d3284-ca7b-44e5-8add-9126310980f2">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.9640963b-73a5-4e0e-9d75-f17e0a5caaec">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>PRIVATE</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.3e718732-ed2c-4bbd-b200-1d8f5034bdf5">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.f4e71ce8-ab2f-455f-ba7c-c386b2f98700">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.d263e7a0-e640-491b-91e5-6856bcf39fcd">
+                      <aixm:note>txtRmk:PPR for all IFR flights</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.90c21692-0bb1-4e77-aa5e-8ef488bd3217">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.70a78e2a-a75d-4e56-8f57-fa522ebbebd7">
+              <aixm:note>CRC:495903.9387N, 0113818.8507E, 1601, , BB562AE8</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.8a4b8d0f-18c5-4c6f-b1a9-e0199fdae9fc">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.81ea2e7c-fe23-4eeb-af17-8dd3bde18a3f">
+              <aixm:note>Organisation in charge:STADT BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.85549c02-2b75-4c25-aa7e-4a9ba65ace1e">
+          <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.ece59552-5e77-443b-9a21-fff3a1986380">
+              <aixm:note>Secondary Power Supply:Available</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.6b84c801-70e3-4ec4-a1ce-f83546c90154">
+          <aixm:propertyName>landingDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.dc127c80-3eff-45ac-8410-2f93be9e3baa">
+              <aixm:note>Landing Direction Indicator Description:See Chart AD 2 EDQD 2-5</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.318731ad-0db6-4233-965b-67a0c31cbc9a">
+          <aixm:propertyName>arp</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.af91851f-8a74-4800-8341-03c68f392009">
+              <aixm:note>Aerodrome Reference Point Description:387 m W of THR 24 on the paved RWY centre line</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.fd2b1b3f-d147-488a-9e0a-8e2e5b321bf6">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.20799fac-58d8-4dea-801d-85f65fd2b6d9">
+              <aixm:note>Site Description:5 KM (2.7 NM) NE BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.06257858-85de-4776-9d18-01222b09862e">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.e096566c-477c-46c0-96f1-12f6b394166e">
+          <gml:beginPosition>2020-04-23T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2020-05-21T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>3</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.6d94556f-6125-4d96-bb39-1718bb3b9dda">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>EDQD</aixm:designator>
+      <aixm:name>BAYREUTH</aixm:name>
+      <aixm:locationIndicatorICAO>EDQD</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>BYU</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:fieldElevation uom="FT">1601</aixm:fieldElevation>
+      <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+      <aixm:magneticVariation>2.9000</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2018</aixm:dateMagneticVariation>
+      <aixm:referenceTemperature uom="C">22.5</aixm:referenceTemperature>
+      <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.a63b5cd0-5c7e-4e94-a524-70e2547188ec">
+          <aixm:name>BAYREUTH</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.2ca0609b-df3f-4df7-ab45-2d86eaa13d8c">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-8352-0ae9-e053-0b751dc2b779"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4d4609b9-1368-4a7b-94fa-97e30d6cccc7">
+          <gml:pos>49.984427417 11.638569639</gml:pos>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.36b27a5c-a89a-4d19-bb24-76a6bcd09a62">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.555b6892-a4b6-44d7-b220-b2e64fc92a03">
+              <aixm:deliveryPoint>POSTFACH 101052, 95410 BAYREUTH</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.54f8fef7-fbcd-444a-828d-3287968296df">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.bacfdcfb-4746-405e-bd1a-55a800466bac">
+              <aixm:facsimile>+49 (0)9208 6570-14</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.f40c4678-68c4-45d3-b945-a51979591384">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.0060576d-2ba7-4915-8e53-61cc514d1327">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.e5747391-73d5-4323-92eb-5a81b1b114ee">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.2fccec5e-c657-42c4-bc08-b5c4b50215a2">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+49 (0)9208 6570-24</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.0e17fd8b-1ec4-4e17-94c6-87c7461c79b0">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.4750b05c-5db4-4218-90bc-6fe0c56e4142">
+              <aixm:voice>+49 (0)9208 6570-0</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.f419f36f-9062-461b-adba-f7bd823d8579">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.6754edc3-241a-4847-b56b-3318aaf7ea09">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.ba6bdccb-bed5-4873-9db5-15c523e09080">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.587d151d-edca-47b4-9693-03c02fc74f66">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+49 (0)9208 6570-20</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.717de465-72bb-4340-b51d-8914b948cc3a">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.f9a5b4e8-41d6-4ed3-b332-266821835439">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>EDLST</aixm:startDate>
+              <aixm:endDate>SDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>07:30</aixm:startTime>
+              <aixm:endTime>18:00</aixm:endTime>
+              <aixm:endEvent>SS</aixm:endEvent>
+              <aixm:endTimeRelativeEvent uom="MIN">30</aixm:endTimeRelativeEvent>
+              <aixm:endEventInterpretation>EARLIEST</aixm:endEventInterpretation>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.cac1a1b6-8adb-4d1b-8d33-eb3f045ed596">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>SDLST</aixm:startDate>
+              <aixm:endDate>EDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>06:30</aixm:startTime>
+              <aixm:endTime>18:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.70a49edb-01cb-4435-9f7a-28b014fdeb53">
+              <aixm:propertyName>timeInterval</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.b5555290-373b-41d7-b37c-9070555c7bca">
+                  <aixm:note>Remark:Other times: PPR</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.0697407c-fa09-4c12-88af-c134711ff707">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.85ae750d-6004-48a5-9429-d1399ca03c60">
+                  <aixm:logicalOperator>OR</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.1ba292ac-6a24-4216-a79f-8fdc68fcb5a3">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.fe5d094e-a43b-479f-a20f-4a6356ced21e">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>PRIVATE</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.8fc7ae24-24fd-4bca-a1e4-10b4db9302b4">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.b9233bd4-1ab7-45dc-9e94-a0e774654d90">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.e0596a90-bc26-46ee-a8cc-6d49c97eebd7">
+                      <aixm:note>txtRmk:PPR for all IFR flights</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.276b335e-d3d6-4871-b4f3-019188daef4b">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.cfd7bd01-b6fa-4bed-a4a2-34914ce8ea0b">
+              <aixm:note>CRC:495903.9387N, 0113818.8507E, 1601, , BB562AE8</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.e5da5ddb-77f7-4afa-acb3-79a67b3bbdb3">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.d380b661-d720-4037-8686-9690ab3eb211">
+              <aixm:note>Organisation in charge:STADT BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.eb50d79b-5b4b-409e-87c3-3f56be335b0e">
+          <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.5fc94290-21e8-41e4-aa2f-debdd866a686">
+              <aixm:note>Secondary Power Supply:Available</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.d2a59790-29e4-4f75-8064-1a57bea3b6a7">
+          <aixm:propertyName>landingDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.be226562-1e76-4cd1-9510-c607b99e3795">
+              <aixm:note>Landing Direction Indicator Description:See Chart AD 2 EDQD 2-5</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.669f5cef-8d8d-46de-8f2d-c82ab3965eef">
+          <aixm:propertyName>arp</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.96b885a2-60e8-4763-9c4e-07135f39ad23">
+              <aixm:note>Aerodrome Reference Point Description:387 m W of THR 24 on the paved RWY centre line</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.f0f7dd1b-526c-4fb2-a229-15c62d690657">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.0652bc36-3604-43d2-bb2a-0347e380414d">
+              <aixm:note>Site Description:5 KM (2.7 NM) NE BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.ff4c76af-93f0-4272-b2f3-9f97ec9e3167">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.4dd34ffd-bc91-4484-9449-15b0595c3376">
+              <aixm:note>txtRmk:USE OF ALL GRASS RUNWAYS ONLY PPR.DEP AND APCH WITHOUT LANDING DURING TRAINING, EXERCISE AND CHECK FLIGHTS ARE NOT PERMITTED AT THE FOLLOWING TIMES: DAILY: 2000-0500 (1900-0400), SAT 1200-1400 (1100-1300), SUN + HOL 1100-2000 (1000-1900). EXCEPTED ARE DEP TO ENROUTE FLIGHTS. IN INDIVIDUAL CASES THE ADMINISTRATION OF BAYREUTH MAY GRANT EXCEPTIONS FROM THESE RESTRICTIONS.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.7f152e7e-7106-4fac-b664-f4715337189d">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.ea328eaf-0951-4db4-8bbf-bca73cd64c71">
+          <gml:beginPosition>2020-05-21T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2020-08-13T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>4</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.eabc4378-d33e-4421-8c52-ab873984a215">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>EDQD</aixm:designator>
+      <aixm:name>BAYREUTH</aixm:name>
+      <aixm:locationIndicatorICAO>EDQD</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>BYU</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:fieldElevation uom="FT">1601</aixm:fieldElevation>
+      <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+      <aixm:magneticVariation>2.9000</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2018</aixm:dateMagneticVariation>
+      <aixm:referenceTemperature uom="C">22.5</aixm:referenceTemperature>
+      <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.7f2fc19a-8473-49b5-9dd6-b3c839b478c2">
+          <aixm:name>BAYREUTH</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.809e963d-98be-4059-8765-66647f682495">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-8352-0ae9-e053-0b751dc2b779"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.c7af1245-a3aa-4bac-a1cb-8b60fe4781b7">
+          <gml:pos>49.984427417 11.638569639</gml:pos>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.b50f5631-c461-41c8-84c0-8aad959c1ced">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.ce7c5e59-3f2c-449f-b336-48c724c4220a">
+              <aixm:deliveryPoint>POSTFACH 101052, 95410 BAYREUTH</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.67a66b86-9d0c-4207-a0f3-30d3778650a8">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.bf8ee6e6-e825-4f0f-8d88-ed4630a97222">
+              <aixm:facsimile>+49 9208 6570-14</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.cb11c1eb-726a-40bc-95eb-6f96e82718fc">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.87df348c-9d4d-453d-88f2-64635df333b9">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.7ae4949a-2593-4e9b-bbe6-b8914aa24213">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.ce60f5f9-5435-4de1-903e-76067e173ac3">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+49 9208 6570-24</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.93f0a096-0278-4d8a-88fb-c74f18d86f03">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.5e00b815-7a54-4107-82b8-5c925e7d9a31">
+              <aixm:voice>+49 9208 6570-0</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.49a8e0a6-5dea-4e9c-a6ce-4fe30400fe80">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.58251349-d4e1-43a7-bbf1-50637fe8e55b">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.09dd4b21-2844-4f09-8ae5-4c39351451b0">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.148e91b0-d270-4535-9b55-a1769a3b97fc">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+49 9208 6570-20</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.cd1e9e55-0395-447a-88b7-bacaabd24899">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.e2a302c8-5c26-4eec-9822-aff8b731e251">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>EDLST</aixm:startDate>
+              <aixm:endDate>SDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>07:30</aixm:startTime>
+              <aixm:endTime>18:00</aixm:endTime>
+              <aixm:endEvent>SS</aixm:endEvent>
+              <aixm:endTimeRelativeEvent uom="MIN">30</aixm:endTimeRelativeEvent>
+              <aixm:endEventInterpretation>EARLIEST</aixm:endEventInterpretation>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.8ebde462-ac2a-4dde-b5e1-ac55adb76dde">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>SDLST</aixm:startDate>
+              <aixm:endDate>EDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>06:30</aixm:startTime>
+              <aixm:endTime>18:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.f7f6992d-3a5b-4abc-ac24-a5e9c2768c3b">
+              <aixm:propertyName>timeInterval</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.d4942139-c53b-4962-ba77-dae9f6b2f29f">
+                  <aixm:note>Remark:Other times: PPR</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.c94358f3-e826-4bc0-bb53-49019fcd4f1e">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.f96d109f-79b6-4960-aa29-bffa344d6a91">
+                  <aixm:logicalOperator>OR</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.320b9d8a-e7c4-494d-b3bf-d1003ba99b11">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.d9a58ac1-3435-4047-84d8-8aa36e40ca39">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>PRIVATE</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.0ef1f916-f551-42a1-b93a-696fb8ded8e1">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.d36aaf4c-97f4-4531-835e-f222ac0f695d">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.b979543d-cfe0-4b6b-b8fd-468bcd88d7b7">
+                      <aixm:note>txtRmk:PPR for all IFR flights</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.7b335f04-8422-4885-8569-ab13220fa249">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.f1b4944b-cf94-47c9-9796-234a2b8dbf79">
+              <aixm:note>CRC:495903.9387N, 0113818.8507E, 1601, , BB562AE8</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.61d4a3e5-2101-4619-b9d8-2ed39cb0d057">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.692d91e6-71a8-43a6-9035-300c11af1c2b">
+              <aixm:note>Organisation in charge:STADT BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.f45a7d05-ec60-4dd9-9d78-f833cdd2503f">
+          <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.1abd9ef9-7ad8-4984-ad41-84690bdcb955">
+              <aixm:note>Secondary Power Supply:Available</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.a3250a49-6f68-44ee-a498-a3f262633e0a">
+          <aixm:propertyName>landingDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.6e8f529c-f54e-4c47-a1bd-5690aaea15f6">
+              <aixm:note>Landing Direction Indicator Description:See Chart AD 2 EDQD 2-5</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.86ec6e9f-3631-4534-a9a5-7321ec6a6b5a">
+          <aixm:propertyName>arp</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.b0065c59-645b-477d-b928-e55734fb0499">
+              <aixm:note>Aerodrome Reference Point Description:387 m W of THR 24 on the paved RWY centre line</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.7b5b0e75-a303-42f5-ab2e-8dcd494eaf8e">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.159691c0-77dc-4cf1-8912-ff3c7ee26da4">
+              <aixm:note>Site Description:5 KM (2.7 NM) NE BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.039f2f23-7044-45da-a3b8-562c629662fc">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.174879d8-9c24-4405-9512-7ea4b5dfab15">
+              <aixm:note>txtRmk:USE OF ALL GRASS RUNWAYS ONLY PPR.DEP AND APCH WITHOUT LANDING DURING TRAINING, EXERCISE AND CHECK FLIGHTS ARE NOT PERMITTED AT THE FOLLOWING TIMES: DAILY: 2000-0500 (1900-0400), SAT 1200-1400 (1100-1300), SUN + HOL 1100-2000 (1000-1900). EXCEPTED ARE DEP TO ENROUTE FLIGHTS. IN INDIVIDUAL CASES THE ADMINISTRATION OF BAYREUTH MAY GRANT EXCEPTIONS FROM THESE RESTRICTIONS.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.eb4d272c-840b-4a79-9e0b-49872c6ab6bb">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.cc8c9b3b-0c9f-440e-aa03-19c9db71627a">
+          <gml:beginPosition>2020-08-13T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2020-10-08T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>5</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.178b48ad-9e39-4ec4-bd4e-891ffd8d269e">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>EDQD</aixm:designator>
+      <aixm:name>BAYREUTH</aixm:name>
+      <aixm:locationIndicatorICAO>EDQD</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>BYU</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:fieldElevation uom="FT">1601</aixm:fieldElevation>
+      <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+      <aixm:magneticVariation>2.9000</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2018</aixm:dateMagneticVariation>
+      <aixm:referenceTemperature uom="C">22.5</aixm:referenceTemperature>
+      <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.db984408-41f9-4fd7-90eb-2aee2fdea396">
+          <aixm:name>BAYREUTH</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.0a66ba34-aae4-442c-95c6-e50502fa90fe">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-8352-0ae9-e053-0b751dc2b779"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.8e6d0dfc-3675-41bd-bc85-d4e382eb58e3">
+          <gml:pos>49.984427417 11.638569639</gml:pos>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.5328596f-7d23-49b8-8ea2-0ad85339b94b">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.abfe24cf-35dc-4e3f-b191-1c70e24546a5">
+              <aixm:deliveryPoint>POSTFACH 101052, 95410 BAYREUTH</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.fee67fb4-9f56-4793-b1e6-482bf9725003">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.76f054b1-920c-4a76-8133-d3979f72f2aa">
+              <aixm:facsimile>+49 9208 6570-14</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.f56d8184-ab5c-42d7-ba05-a889a82400f6">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.332dcf62-9439-4958-a28f-ede933c10f25">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.ef53d15d-ebd3-498a-9541-8b4d1984dee9">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.1e98681c-5802-48f3-9921-ca33d3ec160e">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+49 9208 6570-24</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.b689af8e-49a7-42c4-94fc-34270711820c">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.dbd9524e-828b-461e-bf23-d60a8b375c64">
+              <aixm:voice>+49 9208 6570-0</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.bbecb248-013a-4ce0-aba5-5be662bfe4a2">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.2b45ee9c-29d1-44bb-a3e0-7762392f0053">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.62e763eb-3e0c-4d96-891c-992253661011">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.5441c937-2abe-4661-92bb-a3635bc261b3">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+49 9208 6570-20</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.d5a872cd-42bd-4031-9535-cffb90189d8f">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.f2d2630c-5c77-402f-9b40-87516b83d91a">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>EDLST</aixm:startDate>
+              <aixm:endDate>SDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>07:30</aixm:startTime>
+              <aixm:endTime>18:00</aixm:endTime>
+              <aixm:endEvent>SS</aixm:endEvent>
+              <aixm:endTimeRelativeEvent uom="MIN">30</aixm:endTimeRelativeEvent>
+              <aixm:endEventInterpretation>EARLIEST</aixm:endEventInterpretation>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.a672cfd7-9131-45e5-90b6-da60fda7f2a2">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>SDLST</aixm:startDate>
+              <aixm:endDate>EDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>06:30</aixm:startTime>
+              <aixm:endTime>18:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.9b47cf32-e8cc-423f-a723-2da1311e0a94">
+              <aixm:propertyName>timeInterval</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.8056f637-7993-4665-b059-4d3519deb6f8">
+                  <aixm:note>Remark:Other times: PPR</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.71dbae6a-3c81-4c2d-a1ae-a84e140934fb">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.8af9be6d-44d2-4576-b95a-344fcd2fb022">
+                  <aixm:logicalOperator>OR</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.5d4be1b1-cf44-486c-bceb-d8f369f30da0">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.f1d89d60-820c-4c3b-b278-c4ec64adca1e">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>PRIVATE</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.b148e005-7b48-4aba-93d1-2c8d03e7f978">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.fb51ce94-7007-409a-9062-f3fb16c6f331">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.53a871ae-55c8-4b5b-9878-c9c5f465bbf3">
+                      <aixm:note>txtRmk:PPR for all IFR flights</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.0e3fe1f7-4a83-4215-b882-381ff7597908">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.3b090005-c7bf-43b8-93bd-2ff8f59e5515">
+              <aixm:note>CRC:495903.9387N, 0113818.8507E, 1601, , BB562AE8</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.d5ca9abe-5857-4453-80c2-b3b91952c3bc">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.443c08fb-8cb2-4652-9ead-331c2881afaa">
+              <aixm:note>Organisation in charge:STADT BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.8ea5b7d3-52ff-45fe-a795-a4ee9d25c175">
+          <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.5b31ce5a-eb4e-4ea5-997a-26dcd4ab49e6">
+              <aixm:note>Secondary Power Supply:Available</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.3bd3adec-7bea-4609-b87f-2b21dc1f8ea4">
+          <aixm:propertyName>landingDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.ed419e99-571c-4cc9-b8fe-031df89daa64">
+              <aixm:note>Landing Direction Indicator Description:See Chart AD 2 EDQD 2-5</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.aef472eb-c01b-495a-9703-1cc5c09a384d">
+          <aixm:propertyName>arp</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.a584c6cc-2923-4e37-a4e4-1ff0e054dc96">
+              <aixm:note>Aerodrome Reference Point Description:387 m W of THR 24 on the paved RWY centre line</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.11bcb2f2-562f-49d3-8ca3-2b8414f7e7ae">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.1e6c7b16-747a-4a04-8da6-77d636115090">
+              <aixm:note>Site Description:5 KM (2.7 NM) NE BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.d8e148f8-8e1a-473d-a99a-c90cb0a2ff7b">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.bdfdfd35-40c6-4382-913a-341817576077">
+              <aixm:note>txtRmk:BENUTZUNG ALLER GRASBAHNEN AUSSCHLIESSLICH PPR. / USE OF ALL GRASS RUNWAYS ONLY PPR. DEP UND APCH OHNE LANDUNG IM RAHMEN VON AUSBILDUNGS-, UEBUNGS- UND UEBERPRUEFUNGSFLUEGEN SIND ZU FOLGENDEN ZEITEN NICHT ZULAESSIG: TAEGLICH: / DEP AND APCH WITHOUT LANDING DURING TRAINING, EXERCISE AND CHECK FLIGHTS ARE NOT PERMITTED AT THE FOLLOWING TIMES: DAILY: SUN + HOL 1100<U+2013>2000 (1000<U+2013>1900). HIERVON AUSGENOMMEN SIND DEP ZU STRECKENFLUEGEN. DIE STADT BAYREUTH KANN IM EINZELFALL AUSNAHMEN VON DIESEN BESCHRAENKUNGEN ZULASSEN. / EXCEPTED ARE DEP TO ENROUTE FLIGHTS. IN INDIVIDUAL CASES THE ADMINISTRATION OF BAYREUTH MAY GRANT EXCEPTIONS FROM THESE RESTRICTIONS. 5700 KG, 10000 KG PPR, HEL, GLD (P), GLD, PJE, UL, AIRSHIPS PPR</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.8828513a-4fb3-4f31-8404-66178cc6a7b9">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.e2baa201-0004-4ea7-bf8e-16369b51bba3">
+          <gml:beginPosition>2020-10-08T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2021-01-28T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>6</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.e4fb63bd-b477-417c-bc16-1ef636e89ba2">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>EDQD</aixm:designator>
+      <aixm:name>BAYREUTH</aixm:name>
+      <aixm:locationIndicatorICAO>EDQD</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>BYU</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:fieldElevation uom="FT">1601</aixm:fieldElevation>
+      <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+      <aixm:magneticVariation>2.9000</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2018</aixm:dateMagneticVariation>
+      <aixm:referenceTemperature uom="C">22.5</aixm:referenceTemperature>
+      <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.8b29a641-8cf3-4b1a-9f33-a5329ceabc49">
+          <aixm:name>BAYREUTH</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.b434401c-0036-408f-a272-cec51be71f8f">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-8352-0ae9-e053-0b751dc2b779"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.24c0215d-b86c-448e-94d8-ab0baaf10584">
+          <gml:pos>49.984427417 11.638569639</gml:pos>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.654c5ff5-9b22-4a34-8726-4aaedf21fab3">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.4184603a-09ef-4bc3-a19c-ed7258afbda3">
+              <aixm:deliveryPoint>POSTFACH 101052, 95410 BAYREUTH</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.69e75f6b-f398-4a88-a8e6-23bc48809680">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.a14f6833-b6bb-43f1-86a6-86fda77c3f11">
+              <aixm:facsimile>+49 9208 6570-14</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.d7906547-8526-4a15-afbe-aa145cc82d71">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.7fcbd021-a095-4cf2-a15b-fa493dae37f9">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.0e3a2572-b380-4687-ab01-2c7aa212fd3f">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.36240ff1-1c83-4fff-819a-86eafb8f7e09">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+49 9208 6570-24</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.1826b8e2-469d-49b8-9fd2-6da905bf9e45">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.807a64c4-eaad-461f-8a12-57d427c44886">
+              <aixm:voice>+49 9208 6570-0</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.8a2478cc-9773-4201-85e6-9fd6de8d2b1d">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.a233cd48-6386-4fef-a630-06862d53e941">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.75b67619-f9a1-46c8-8f66-3567205ddc70">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.c46496d0-e835-43eb-821b-dda5a03b56ca">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+49 9208 6570-20</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.f2b3a99f-5a60-43ac-bcef-90b4c38a5759">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.a3c79da5-1b41-4afc-aff2-b0dba400cfa6">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>EDLST</aixm:startDate>
+              <aixm:endDate>SDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>07:30</aixm:startTime>
+              <aixm:endTime>18:00</aixm:endTime>
+              <aixm:endEvent>SS</aixm:endEvent>
+              <aixm:endTimeRelativeEvent uom="MIN">30</aixm:endTimeRelativeEvent>
+              <aixm:endEventInterpretation>EARLIEST</aixm:endEventInterpretation>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.ddcf83e1-11e2-4cfd-9dbd-e502c2d75b45">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>SDLST</aixm:startDate>
+              <aixm:endDate>EDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>06:30</aixm:startTime>
+              <aixm:endTime>17:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.a63770ae-04c1-433c-9858-43729ba56f53">
+              <aixm:propertyName>timeInterval</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.1fb1c73a-4452-46f9-9ba9-604807026079">
+                  <aixm:note>Remark:Other times: PPR</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.95420172-ee11-4faa-b30f-9e30204f6bb4">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.be9324f2-18aa-49dd-9abe-60401a71e292">
+                  <aixm:logicalOperator>OR</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.ba93a5f6-0d4f-412e-92bf-87fdec571c16">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.cc3b1a78-a72f-4239-86f6-06466b9f2ebe">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>PRIVATE</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.844c6d3d-dc4c-4f96-93b5-b1750d4d70df">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.a2d0ee03-1eda-4518-8f4a-d940f48dcfa6">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.ee6c1ab7-4c25-404a-8c1b-34018502699e">
+                      <aixm:note>txtRmk:PPR for all IFR flights</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.5d37d2bf-f5ac-455e-9cc0-4b41d8598089">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.41ae90ef-7fc9-4057-b6ba-96e19897ad20">
+              <aixm:note>CRC:495903.9387N, 0113818.8507E, 1601, , BB562AE8</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.2b0a5ae4-e628-483f-9c63-3042882b5efc">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.684ab8d7-80b6-4ed4-8c6b-02da6ef69bf6">
+              <aixm:note>Organisation in charge:STADT BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.d4beb5b3-0319-42d8-a8e7-c7b9ac61b612">
+          <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.6242fd69-26d9-45bf-9f3f-69bb65191325">
+              <aixm:note>Secondary Power Supply:Available</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.12b88889-bc79-487d-b217-1031c7291002">
+          <aixm:propertyName>landingDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.dcb146a0-1a4c-46b0-89c3-c8ff686baf78">
+              <aixm:note>Landing Direction Indicator Description:See Chart AD 2 EDQD 2-5</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.49a6f385-6a9f-47d0-b660-a682ae31133c">
+          <aixm:propertyName>arp</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.882bfcff-e763-4fde-832c-a1090eac7934">
+              <aixm:note>Aerodrome Reference Point Description:387 m W of THR 24 on the paved RWY centre line</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.efba1e8f-3888-40ba-8389-ad6f08466202">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.ef16ba15-b174-4692-b910-193f39cfbb0c">
+              <aixm:note>Site Description:5 KM (2.7 NM) NE BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.7e5d8f73-ec8e-4f39-bbc1-0698da987924">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.61e2a4c7-5dd1-4cdd-9609-3cad73aee6f5">
+              <aixm:note>txtRmk:BENUTZUNG ALLER GRASBAHNEN AUSSCHLIESSLICH PPR. / USE OF ALL GRASS RUNWAYS ONLY PPR. DEP UND APCH OHNE LANDUNG IM RAHMEN VON AUSBILDUNGS-, UEBUNGS- UND UEBERPRUEFUNGSFLUEGEN SIND ZU FOLGENDEN ZEITEN NICHT ZULAESSIG: TAEGLICH: / DEP AND APCH WITHOUT LANDING DURING TRAINING, EXERCISE AND CHECK FLIGHTS ARE NOT PERMITTED AT THE FOLLOWING TIMES: DAILY: SUN + HOL 1100<U+2013>2000 (1000<U+2013>1900). HIERVON AUSGENOMMEN SIND DEP ZU STRECKENFLUEGEN. DIE STADT BAYREUTH KANN IM EINZELFALL AUSNAHMEN VON DIESEN BESCHRAENKUNGEN ZULASSEN. / EXCEPTED ARE DEP TO ENROUTE FLIGHTS. IN INDIVIDUAL CASES THE ADMINISTRATION OF BAYREUTH MAY GRANT EXCEPTIONS FROM THESE RESTRICTIONS. 5700 KG, 10000 KG PPR, HEL, GLD (P), GLD, PJE, UL, AIRSHIPS PPR</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.71878b21-ca9b-4a45-8bcd-28f7fff7f7d5">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.9b067ebf-9b39-4f2b-8d9c-99c85ad82b16">
+          <gml:beginPosition>2021-01-28T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2022-04-21T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>7</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.0917223c-c6ea-4c42-9b69-837b412c9a09">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>EDQD</aixm:designator>
+      <aixm:name>BAYREUTH</aixm:name>
+      <aixm:locationIndicatorICAO>EDQD</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>BYU</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:fieldElevation uom="FT">1601</aixm:fieldElevation>
+      <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+      <aixm:magneticVariation>2.9000</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2018</aixm:dateMagneticVariation>
+      <aixm:referenceTemperature uom="C">22.5</aixm:referenceTemperature>
+      <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.6420f3fa-6abc-4a56-8460-979c2f0a0b4e">
+          <aixm:name>BAYREUTH</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.c6c638d2-5cbb-4ed3-821e-5ed7bfff6cac">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-8352-0ae9-e053-0b751dc2b779"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.5c880317-6209-408e-ab53-5caddd06478c">
+          <gml:pos>49.984427417 11.638569639</gml:pos>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.cef5e4d9-cb68-4f42-bea9-a4926dcc0968">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.d6530420-2c81-4593-b5dd-880e29c00e57">
+              <aixm:deliveryPoint>POSTFACH 101052, 95410 BAYREUTH</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.a7518c05-c9aa-4c2b-8cdb-9a63be9d802c">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.b69c2127-9990-4a7c-8d84-544a05b26d5b">
+              <aixm:facsimile>+49 9208 6570-14</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.9f33a6a8-616f-4707-ba18-4a8bff6611c6">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.75bc9977-83a1-4b94-95f0-e15d067e7335">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.edad71d5-ad5d-4ccf-ab5a-9fc69a253d06">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.f4a98633-3325-4f36-b877-554c239f9fcb">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+49 9208 6570-24</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.bec92556-d58f-491f-922c-f0d6cdc9fb18">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.879c8ce3-459b-48da-8cc2-97cd43a6c526">
+              <aixm:voice>+49 9208 6570-0</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.7b4907de-1be6-4ed8-baeb-43a90dd6e479">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.6a08f5e1-f1d6-444e-a639-fda70eb2e0db">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.ac891828-49c3-4bde-99fc-73a3bf6880df">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.db524d85-fb04-4238-9dc6-016f5c88ceb0">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+49 9208 6570-20</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.71ec52e0-3f30-4be7-8f9c-51ef5866ce4a">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.adf392d7-2af5-4660-8e94-b4085c5d19db">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>EDLST</aixm:startDate>
+              <aixm:endDate>SDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>07:30</aixm:startTime>
+              <aixm:endTime>18:00</aixm:endTime>
+              <aixm:endEvent>SS</aixm:endEvent>
+              <aixm:endTimeRelativeEvent uom="MIN">30</aixm:endTimeRelativeEvent>
+              <aixm:endEventInterpretation>EARLIEST</aixm:endEventInterpretation>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.5c4cd650-e640-486d-8ad2-037d2d565bba">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>SDLST</aixm:startDate>
+              <aixm:endDate>EDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>06:30</aixm:startTime>
+              <aixm:endTime>17:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.78197599-ca9d-426f-bdc2-421cdaf2dea2">
+              <aixm:propertyName>timeInterval</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.9df37ddb-d6da-4f1b-9a5e-b7f803491636">
+                  <aixm:note>Remark:Other times: PPR</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.875c1601-fa78-477d-bc7b-10b54b89a80e">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.6f835a77-8435-4715-acfc-c5c7fb1f74bf">
+                  <aixm:logicalOperator>OR</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.fa37fa8d-6207-4302-86a3-144cd767fa7e">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.0a04a75a-53cf-4719-bccf-407f6a23fd80">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>PRIVATE</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.1c938cbf-4fcc-498c-9c87-5eaeb28d75c7">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.fd188534-ecbb-424a-916a-8d074f9ee98e">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.a41538b4-c6ac-43fa-b8c1-0989839241bf">
+                      <aixm:note>txtRmk:PPR for all IFR flights</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.67865b2a-0468-47b7-b482-dc57f05af04d">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.da900ab1-e2cd-4143-9eb5-6e948e456e95">
+              <aixm:note>CRC:495903.9387N, 0113818.8507E, 1601, , BB562AE8</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.4d066971-af42-4e93-949a-a8e145146464">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.93fc709c-c8d9-4e9b-86a4-5c14497c3d1b">
+              <aixm:note>Organisation in charge:STADT BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.ae493c93-f1f3-4180-8c83-f79dc6852b4c">
+          <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.5262922a-c871-4e25-b3e7-829d240824b5">
+              <aixm:note>Secondary Power Supply:Available</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.e6cf4278-4730-4988-9dba-11d15dda86c2">
+          <aixm:propertyName>landingDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.93ad788f-35f2-4eec-8ba8-16804f166043">
+              <aixm:note>Landing Direction Indicator Description:See Chart AD 2 EDQD 2-5</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.5d6ad453-fb72-483b-b91a-a967b7b0d28f">
+          <aixm:propertyName>arp</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.91585a5e-b5e6-49f4-a7e3-fd68c5dde828">
+              <aixm:note>Aerodrome Reference Point Description:387 m W of THR 24 on the paved RWY centre line</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.4d1a36eb-5982-47fb-9f7e-f01339dbf255">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.078415e6-ee67-4e91-b00a-4258d6658f55">
+              <aixm:note>Site Description:5 KM (2.7 NM) NE BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.953f5586-abaa-4bbe-b2cf-8a5a650e46b3">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.15d1f5c6-723d-40a3-856d-7b6f1395ff9c">
+              <aixm:note>txtRmk:5700 KG, 10000 KG PPR, HEL, GLD (P), GLD, PJE, UL, AIRSHIPS PPR</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.579cea53-1041-4e68-8cd3-d317dbf528fa">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.a3ad98fb-2e49-46f1-972f-00f3ed5d40b2">
+          <gml:beginPosition>2022-04-21T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>8</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.809f202f-d6b2-497e-ba9d-26660372695a">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>EDQD</aixm:designator>
+      <aixm:name>BAYREUTH</aixm:name>
+      <aixm:locationIndicatorICAO>EDQD</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>BYU</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:fieldElevation uom="FT">1601</aixm:fieldElevation>
+      <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+      <aixm:magneticVariation>2.9000</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2018</aixm:dateMagneticVariation>
+      <aixm:referenceTemperature uom="C">22.5</aixm:referenceTemperature>
+      <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.4494c4da-7480-4dca-99bc-beb08d419639">
+          <aixm:name>BAYREUTH</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.1b4f659b-9a32-4080-8579-73c3d575ed78">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-8352-0ae9-e053-0b751dc2b779"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.af93dd54-6a01-4787-87ef-f155c6282d9c">
+          <gml:pos>49.984427417 11.638569639</gml:pos>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.14d942fd-9536-4752-928f-77b137c60589">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.0be3c526-f279-4c14-9cc8-c934e9b00885">
+              <aixm:deliveryPoint>FLUGPLATZSTRASSE 1, 95463 BINDLACH</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.30f3520b-b522-433d-8230-b6f9598a8693">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.911e82e4-ed25-4b1d-a9a3-7ee0ef697acf">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.4e7ce975-9389-4433-8f70-55a5c9dd1700">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.4662a237-6b4e-4623-a5ca-2068d9427375">
+                      <aixm:note>txtRmk:(PLATZWART)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+49 9208 6570-34</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.8f5491ff-d8bc-4ea0-b25a-a0791aaa8120">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.42bfd899-1a6c-44d9-baed-c0498999d813">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.aaf7c9a5-fef3-4ede-abf1-6571f84fc4df">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.cab8270e-7d65-43e2-8bc4-f62a99be481f">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+49 9208 6570-24</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.1cdb9c2f-0c44-4e39-b81a-2856c97167a0">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.063424a8-a126-44d5-b095-f0d646b8e6af">
+              <aixm:voice>+49 9208 6570-0</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.c0327172-9fa0-45a6-b985-4bfdf9556b82">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.71a8a002-be58-45df-973a-c6c8509fd5e0">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.79d3f785-ecf8-448c-9998-a59b71196b3f">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.45f61e47-fb7b-463e-947a-e5af0f78f1c2">
+                      <aixm:note>txtRmk:(AVIATION SUPERVISION OFFICE)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+49 9208 6570-20</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.2b4b663b-c4e9-46ae-9588-64851b583a62">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.45ba57fe-faf9-481d-aaa5-7c0516849d20">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:eMail>INFO@AIRPORT-BAYREUTH.DE</aixm:eMail>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.18c90daa-16d9-4ce9-8475-e4a118563020">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.511eef47-ffec-4359-9d83-b4819dfc9ea7">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>EDLST</aixm:startDate>
+              <aixm:endDate>SDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>07:30</aixm:startTime>
+              <aixm:endTime>18:00</aixm:endTime>
+              <aixm:endEvent>SS</aixm:endEvent>
+              <aixm:endTimeRelativeEvent uom="MIN">30</aixm:endTimeRelativeEvent>
+              <aixm:endEventInterpretation>EARLIEST</aixm:endEventInterpretation>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.6c59c10a-a867-4b36-ac55-ea84eb36c14e">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>SDLST</aixm:startDate>
+              <aixm:endDate>EDLST</aixm:endDate>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>06:30</aixm:startTime>
+              <aixm:endTime>17:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.83f748b1-3564-40dc-9cd0-ce85c7bf9c75">
+              <aixm:propertyName>timeInterval</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.7e103911-6048-4c1d-9425-27f1428ce32a">
+                  <aixm:note>Remark:Other times: PPR</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.03768a17-1aad-44dd-a452-f86056af06d0">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.628fbe1c-3507-4fb5-b7ce-4f82449594bc">
+                  <aixm:logicalOperator>OR</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.346d3a2b-4667-46e2-acb2-0c1a1787fa5c">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.13e7ed02-b5a7-41df-aa37-567749d201f5">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>PRIVATE</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.baeab678-0023-4286-a763-263751ec1be2">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.f30647f6-f54e-4926-ad19-fd07e1354de4">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.01cce044-3504-424b-9e62-a1fd31fc66eb">
+                      <aixm:note>txtRmk:PPR for all IFR flights</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.1ca438c6-49cf-4f15-a8f8-e26a12f634f3">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.7f92975d-77b3-445c-b92d-f9e726e79ba6">
+              <aixm:note>CRC:495903.9387N, 0113818.8507E, 1601, , BB562AE8</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.babbc75b-5949-4ff0-b1df-2170b7e1515e">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.193572d8-d76f-474f-a9f7-b276a5808822">
+              <aixm:note>Organisation in charge:VERKEHRSLANDEPLATZ BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.edc062f2-844a-4821-afe9-4e035193379d">
+          <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.9d0fff92-7b0b-4178-9c4a-8bfcb7950254">
+              <aixm:note>Secondary Power Supply:Available / 20 SEC</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.e98a0e71-5421-4bba-bd23-10faeba05f83">
+          <aixm:propertyName>landingDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.929edb12-cdbc-41a2-b8cd-ee9d099197e9">
+              <aixm:note>Landing Direction Indicator Description:See Chart AD 2 EDQD 2-5</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.717d4999-1e69-4ff8-8164-1d25ca9666ea">
+          <aixm:propertyName>arp</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.7a1510b1-712d-438c-bb02-eeca2df67325">
+              <aixm:note>Aerodrome Reference Point Description:387 m W of THR 24 on the paved RWY centre line</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.7fb1cb9c-77d5-4a97-8d56-f2ec2af994d1">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.50bb2231-cc51-4850-acb8-6d0dfcb5894b">
+              <aixm:note>Site Description:5 KM (2.7 NM) NE BAYREUTH</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.c48bc219-8e6f-42a9-ad40-029859c0538c">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.a3d2b7e9-28c2-4274-b8c5-6732de43549a">
+              <aixm:note>txtRmk:5700 KG, 10000 KG PPR, HEL, GLD (P), GLD, PJE, UL, AIRSHIPS PPR</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+</aixm:AirportHeliport> 
+
+<aixm:OrganisationAuthority gml:id="uuid.09424934-8352-0ae9-e053-0b751dc2b779">
+  <gml:identifier codeSpace="urn:uuid:">09424934-8352-0ae9-e053-0b751dc2b779</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.e774672d-c756-45ca-8b9f-88749210b38a">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.1bb60c0c-149f-4e94-a9eb-b7197f9ecdff">
+          <gml:beginPosition>2008-08-28T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.cd178348-9d7a-4598-8cd3-5e4ab62db0a7">
+          <gml:beginPosition>2003-05-20T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:name>DFS DEUTSCHE FLUGSICHERUNG GMBH</aixm:name>
+      <aixm:designator>ED-ATS</aixm:designator>
+      <aixm:type>ORG</aixm:type>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.e9edc0ee-ba29-4232-81fc-b523c4568ae5">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.eb7dd95b-6378-43e1-baeb-5b830b93afc2">
+              <aixm:deliveryPoint>Am DFS-Campus 10, Dept. TXG, 63225 Langen</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:relatedOrganisationAuthority>
+        <aixm:OrganisationAuthorityAssociation gml:id="uuid.d3ac99fb-6c2e-45b2-948a-cde584366ee9">
+          <aixm:type>OWNED_BY</aixm:type>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.9afac5ec-3984-435f-9519-21624c4cd29e">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.47ebc02a-f6ec-4dd6-9c0e-70509b38e9a8">
+                  <aixm:note>txtRmk:Created for TO</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7f02-0ae9-e053-0b751dc2b779"/>
+        </aixm:OrganisationAuthorityAssociation>
+      </aixm:relatedOrganisationAuthority>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.86b4cf78-8777-455f-973c-024b89abd718">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.92aeedef-93d6-4053-ad7e-91155e38bb8b">
+              <aixm:note>txtRmk:Germany Air Navigation Services Provider</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:OrganisationAuthorityTimeSlice>
+  </aixm:timeSlice>
+</aixm:OrganisationAuthority> 
+
+</AIXMBasicMessage>
