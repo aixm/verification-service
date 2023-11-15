@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+    gml:id="M00001">
+    
+    <message:hasMember>
+        <aixm:FlightRestriction gml:id="uuid.d7d5c372-ad8c-429e-a2ba-5781092fa37c">
+            <gml:identifier codeSpace="urn:uuid:">d7d5c372-ad8c-429e-a2ba-5781092fa37c</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:FlightRestrictionTimeSlice gml:id="uuid.4e78893f-0c08-4196-af19-259f495b6df2">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.ba910552-27ee-45d8-9f4e-0d93bd33b900">
+                            <gml:beginPosition>2020-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>FR 123</aixm:designator>
+                    <aixm:type>FORBID</aixm:type>
+                    
+                    <aixm:flight>
+                        <aixm:FlightConditionCombination gml:id="uuid.ba910552-27ee-45d8-9f4e-0d93bd33b901">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000"/>
+                            </aixm:timeInterval>
+
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                                    <!-- WARNING It is prohibited that FlightConditionCombination has annotation.Note.propertyName value other-than-one-of ('timeInterval', 'specialDateAuthority', 'logicalOperator', 'element')  -->
+                                    <aixm:propertyName>invalidPropertyName</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+
+                            <aixm:specialDateAuthority/>
+                            <aixm:logicalOperator>NONE</aixm:logicalOperator>
+                            <aixm:element>
+                                <aixm:FlightConditionElement gml:id="uuid.ba910552-27ee-45d8-9f4e-0d93bd33b902">
+                                    <aixm:flightCondition_directFlightCondition>
+                                        <aixm:DirectFlightClass gml:id="uuid.ba910552-27ee-45d8-9f4e-0d93bd33b903">
+                                            <aixm:exceedLength uom="M">12</aixm:exceedLength>
+                                        </aixm:DirectFlightClass>
+                                    </aixm:flightCondition_directFlightCondition>
+                                </aixm:FlightConditionElement>
+                            </aixm:element>
+
+
+                        </aixm:FlightConditionCombination>
+                    </aixm:flight>
+                    
+                </aixm:FlightRestrictionTimeSlice>
+            </aixm:timeSlice>
+        </aixm:FlightRestriction>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>

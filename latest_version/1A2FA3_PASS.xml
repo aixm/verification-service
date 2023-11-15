@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+    <message:hasMember>
+        <aixm:RouteDME gml:id="uuid.0d2f1ffb-d1aa-4117-b8b4-8dadbed98baa">
+            <aixm:timeSlice>
+                <aixm:RouteDMETimeSlice gml:id="uuid.0d2f1ffb-d1aa-4117-b8b4-8dadbed98bab">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.d801b63f-6eab-4e81-898e-8e3955901f18">
+                            <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+
+                    <aixm:criticalDME>YES</aixm:criticalDME>
+                    <aixm:satisfactory>YES</aixm:satisfactory>
+                    <aixm:referencedDME/>
+                    <aixm:applicableRoutePortion>
+                        <aixm:RoutePortion gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfff1">
+                            <aixm:start_fixDesignatedPoint/>
+                            <aixm:intermediatePoint_fixDesignatedPoint/>
+                            <aixm:referencedRoute/>
+                            <aixm:end_fixDesignatedPoint/>
+
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                                    <aixm:propertyName>referencedRoute</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                                    <aixm:propertyName>startFixDesignatedPoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                                    <aixm:propertyName>intermediatePointFixDesignatedPoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                                    <aixm:propertyName>endFixDesignatedPoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+
+                        </aixm:RoutePortion>
+                    </aixm:applicableRoutePortion>
+                </aixm:RouteDMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteDME>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:RouteDME gml:id="uuid.1d2f1ffb-d1aa-4117-b8b4-8dadbed98baa">
+            <aixm:timeSlice>
+                <aixm:RouteDMETimeSlice gml:id="uuid.1d2f1ffb-d1aa-4117-b8b4-8dadbed98bab">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.1801b63f-6eab-4e81-898e-8e3955901f18">
+                            <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+
+                    <aixm:criticalDME>YES</aixm:criticalDME>
+                    <aixm:satisfactory>YES</aixm:satisfactory>
+                    <aixm:referencedDME/>
+                    <aixm:applicableRoutePortion>
+                        <aixm:RoutePortion gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfff1">
+
+                            <aixm:start_navaidSystem/>
+                            <aixm:intermediatePoint_navaidSystem/>
+                            <aixm:end_navaidSystem/>
+
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                                    <aixm:propertyName>startNavaidSystem</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                                    <aixm:propertyName>intermediatePointNavaidSystem</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                                    <aixm:propertyName>endNavaidSystem</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+
+                        </aixm:RoutePortion>
+                    </aixm:applicableRoutePortion>
+                </aixm:RouteDMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteDME>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:RouteDME gml:id="uuid.2d2f1ffb-d1aa-4117-b8b4-8dadbed98baa">
+            <aixm:timeSlice>
+                <aixm:RouteDMETimeSlice gml:id="uuid.2d2f1ffb-d1aa-4117-b8b4-8dadbed98bab">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.2801b63f-6eab-4e81-898e-8e3955901f18">
+                            <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+
+                    <aixm:criticalDME>YES</aixm:criticalDME>
+                    <aixm:satisfactory>YES</aixm:satisfactory>
+                    <aixm:referencedDME/>
+                    <aixm:applicableRoutePortion>
+                        <aixm:RoutePortion gml:id="uuid.29dfc7d4-abd0-4776-989e-1951e1bcfff1">
+
+                            <aixm:start_position>
+                                <aixm:Point>
+                                    <gml:pos>39.125944444 -123.200861111</gml:pos>
+                                </aixm:Point>
+                            </aixm:start_position>
+                            <aixm:intermediatePoint_position>
+                                <aixm:Point>
+                                    <gml:pos>39.125944444 -123.200861111</gml:pos>
+                                </aixm:Point>
+                            </aixm:intermediatePoint_position>
+                            <aixm:end_position>
+                                <aixm:Point>
+                                    <gml:pos>39.125944444 -123.200861111</gml:pos>
+                                </aixm:Point>
+                            </aixm:end_position>
+
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.29dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                                    <aixm:propertyName>startPosition</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.29dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                                    <aixm:propertyName>intermediatePointPosition</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.29dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                                    <aixm:propertyName>endPosition</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+
+                        </aixm:RoutePortion>
+                    </aixm:applicableRoutePortion>
+                </aixm:RouteDMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteDME>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:RouteDME gml:id="uuid.3d2f1ffb-d1aa-4117-b8b4-8dadbed98baa">
+            <aixm:timeSlice>
+                <aixm:RouteDMETimeSlice gml:id="uuid.3d2f1ffb-d1aa-4117-b8b4-8dadbed98bab">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.3801b63f-6eab-4e81-898e-8e3955901f18">
+                            <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+
+                    <aixm:criticalDME>YES</aixm:criticalDME>
+                    <aixm:satisfactory>YES</aixm:satisfactory>
+                    <aixm:referencedDME/>
+                    <aixm:applicableRoutePortion>
+                        <aixm:RoutePortion gml:id="uuid.39dfc7d4-abd0-4776-989e-1951e1bcfff1">
+
+                            <aixm:start_runwayPoint/>
+                            <aixm:intermediatePoint_runwayPoint/>
+                            <aixm:end_runwayPoint/>
+
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.39dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                                    <aixm:propertyName>startRunwayPoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.39dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                                    <aixm:propertyName>intermediatePointRunwayPoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.39dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                                    <aixm:propertyName>endRunwayPoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+
+                        </aixm:RoutePortion>
+                    </aixm:applicableRoutePortion>
+                </aixm:RouteDMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteDME>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:RouteDME gml:id="uuid.4d2f1ffb-d1aa-4117-b8b4-8dadbed98baa">
+            <aixm:timeSlice>
+                <aixm:RouteDMETimeSlice gml:id="uuid.4d2f1ffb-d1aa-4117-b8b4-8dadbed98bab">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.4801b63f-6eab-4e81-898e-8e3955901f18">
+                            <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+
+                    <aixm:criticalDME>YES</aixm:criticalDME>
+                    <aixm:satisfactory>YES</aixm:satisfactory>
+                    <aixm:referencedDME/>
+                    <aixm:applicableRoutePortion>
+                        <aixm:RoutePortion gml:id="uuid.49dfc7d4-abd0-4776-989e-1951e1bcfff1">
+
+                            <aixm:start_aimingPoint/>
+                            <aixm:intermediatePoint_aimingPoint/>
+                            <aixm:end_aimingPoint/>
+
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.49dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                                    <aixm:propertyName>startAimingPoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.49dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                                    <aixm:propertyName>intermediatePointAimingPoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.49dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                                    <aixm:propertyName>endAimingPoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+
+                        </aixm:RoutePortion>
+                    </aixm:applicableRoutePortion>
+                </aixm:RouteDMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteDME>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:RouteDME gml:id="uuid.5d2f1ffb-d1aa-4117-b8b4-8dadbed98baa">
+            <aixm:timeSlice>
+                <aixm:RouteDMETimeSlice gml:id="uuid.5d2f1ffb-d1aa-4117-b8b4-8dadbed98bab">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.5801b63f-6eab-4e81-898e-8e3955901f18">
+                            <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+
+                    <aixm:criticalDME>YES</aixm:criticalDME>
+                    <aixm:satisfactory>YES</aixm:satisfactory>
+                    <aixm:referencedDME/>
+                    <aixm:applicableRoutePortion>
+                        <aixm:RoutePortion gml:id="uuid.59dfc7d4-abd0-4776-989e-1951e1bcfff1">
+
+                            <aixm:start_airportReferencePoint/>
+                            <aixm:intermediatePoint_airportReferencePoint/>
+                            <aixm:end_airportReferencePoint/>
+
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.59dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                                    <aixm:propertyName>startAirportReferencePoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.59dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                                    <aixm:propertyName>intermediatePointAirportReferencePoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.59dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                                    <aixm:propertyName>endAirportReferencePoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+
+                        </aixm:RoutePortion>
+                    </aixm:applicableRoutePortion>
+                </aixm:RouteDMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteDME>
+    </message:hasMember>
+</message:AIXMBasicMessage>

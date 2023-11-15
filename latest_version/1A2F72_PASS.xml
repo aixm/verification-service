@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:HoldingPattern gml:id="uuid.93c3fd23-646c-48db-8b54-01fddc780f08">
+      <gml:identifier codeSpace="urn:uuid:">93c3fd23-646c-48db-8b54-01fddc780f08</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+
+      <aixm:timeSlice>
+        <aixm:HoldingPatternTimeSlice gml:id="uuid.98799709-5fa7-4c5f-86cd-9b3e871d6d8e">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.3e6607d8-161e-4dfe-a537-32574bd23b3f">
+              <gml:beginPosition>2021-12-02T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.447db128-0126-4029-90ef-351349656794">
+              <gml:beginPosition>2009-11-19T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+
+          <aixm:type>TER</aixm:type>
+          <aixm:outboundCourse>259</aixm:outboundCourse>
+          <aixm:outboundCourseType>MAG_TRACK</aixm:outboundCourseType>
+          <aixm:inboundCourse>259</aixm:inboundCourse>
+          <aixm:turnDirection>RIGHT</aixm:turnDirection>
+          <aixm:upperLimit uom="FL">140</aixm:upperLimit>
+          <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+          <aixm:lowerLimit uom="FT">4300</aixm:lowerLimit>
+          <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+          <aixm:speedLimit uom="KT">170</aixm:speedLimit>
+          <aixm:outboundLegSpan_endTime>
+            <aixm:HoldingPatternDuration gml:id="uuid.eb1d3433-20b8-45bb-9791-b975bfa23407">
+              <aixm:duration uom="MIN">1</aixm:duration>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                  <aixm:propertyName>duration</aixm:propertyName>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:HoldingPatternDuration>
+          </aixm:outboundLegSpan_endTime>
+          <aixm:holdingPoint>
+            <aixm:TerminalSegmentPoint gml:id="uuid.a740c833-5736-43d2-a977-243812089bbb">
+              <aixm:flyOver>YES</aixm:flyOver>
+              <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="#uuid.71e0001f-2cfe-410c-a506-3daa897d2eac"/>
+            </aixm:TerminalSegmentPoint>
+          </aixm:holdingPoint>
+        </aixm:HoldingPatternTimeSlice>
+      </aixm:timeSlice>
+    </aixm:HoldingPattern>
+  </message:hasMember>
+</message:AIXMBasicMessage>
