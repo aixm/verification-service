@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+
+<aixm:Airspace gml:id="uuid.166552c9-ba64-43c2-a4a8-cf662d83c87f">
+  <gml:identifier codeSpace="urn:uuid:">166552c9-ba64-43c2-a4a8-cf662d83c87f</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AirspaceTimeSlice gml:id="uuid.cb0c7b74-c9e7-4931-ae80-bced6edef1b4">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.e4bf2d06-bb13-4d55-9ff1-803605767cfd">
+          <gml:beginPosition>2020-01-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.e7655b6e-2642-4bf0-8541-3b15f99068bc">
+          <gml:beginPosition>2020-01-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>SECTOR_C</aixm:type>
+      <aixm:designator>LFBB-NH5</aixm:designator>
+      <aixm:name>NH5</aixm:name>
+      <aixm:designatorICAO>NO</aixm:designatorICAO>
+      <aixm:geometryComponent>
+        <aixm:AirspaceGeometryComponent gml:id="uuid.8a8b6283-3b07-481e-a86a-2eba0211e31f">
+          <aixm:operation>BASE</aixm:operation>
+          <aixm:operationSequence>1</aixm:operationSequence>
+          <aixm:theAirspaceVolume>
+            <aixm:AirspaceVolume gml:id="uuid.5df25680-40d6-4454-bcee-1949da059b7c">
+              <aixm:contributorAirspace>
+                <aixm:AirspaceVolumeDependency gml:id="uuid.14d3a6d5-57ca-40a8-a2aa-455ef5e8e161">
+                  <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                  <!-- ERROR: It is prohibited that AirspaceVolumeDependency has theAirspace@xlink:href value and not AirspaceVolumeDependency.theAirspace@xlink:href references-to Airspace -->
+                  <!-- <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.518b955d-496b-4db1-a836-698111ef5982"/> -->
+                  <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.efa26076-1ccc-4b4e-94e2-7259b3026503"/>
+                </aixm:AirspaceVolumeDependency>
+              </aixm:contributorAirspace>
+            </aixm:AirspaceVolume>
+          </aixm:theAirspaceVolume>
+        </aixm:AirspaceGeometryComponent>
+      </aixm:geometryComponent>
+      <aixm:geometryComponent>
+        <aixm:AirspaceGeometryComponent gml:id="uuid.a3d97ed0-9ee2-43b5-a577-692d9cd2de1e">
+          <aixm:operation>UNION</aixm:operation>
+          <aixm:operationSequence>2</aixm:operationSequence>
+          <aixm:theAirspaceVolume>
+            <aixm:AirspaceVolume gml:id="uuid.859d3808-ce77-4b43-9096-620841ed18ce">
+              <aixm:contributorAirspace>
+                <aixm:AirspaceVolumeDependency gml:id="uuid.45298102-1ee8-4ee9-b1a1-bf76093c8f53">
+                  <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                  <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.76cb7885-f561-42d9-ba4a-1ebf11bb262e"/>
+                </aixm:AirspaceVolumeDependency>
+              </aixm:contributorAirspace>
+            </aixm:AirspaceVolume>
+          </aixm:theAirspaceVolume>
+        </aixm:AirspaceGeometryComponent>
+      </aixm:geometryComponent>
+      <aixm:extension/>
+    </aixm:AirspaceTimeSlice>
+  </aixm:timeSlice>
+</aixm:Airspace>
+
+  </message:hasMember>
+</message:AIXMBasicMessage>
