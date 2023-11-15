@@ -1,0 +1,1209 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+
+<aixm:ApronMarking gml:id="uuid.af65a798-30aa-4c45-8a07-375ed881ed9a">
+  <gml:identifier codeSpace="urn:uuid:">af65a798-30aa-4c45-8a07-375ed881ed9a</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:ApronMarkingTimeSlice gml:id="uuid.6b18feae-8ebd-4fd8-9333-4735dd927973">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.d63c646c-66a5-4ecc-a87b-5fb0d55a7e0a">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.5e5a3166-47d6-4d1c-8359-9e1f978bb037">
+          <gml:beginPosition>2022-07-14T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:markingICAOStandard nilReason="unknown" xsi:nil="true"/>
+      <aixm:condition>GOOD</aixm:condition>
+      <!-- ERROR: Found ApronMarkingTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('markingICAOStandard', 'condition', 'element', 'markingLocation', 'markedApron'). -->
+      <aixm:magneticVariation>10</aixm:magneticVariation>
+
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.76608356-a2cc-4364-9400-7a7e8f19661b">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.e4d48be1-fb24-4ec3-a25b-c906270a728d" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9676675 56.9174877 23.9671936 56.9175247 23.9671616 56.917528 23.967137 56.9175317 23.9671176 56.9175353 23.967101 56.9175389 23.9670812 56.9175439 23.9670645 56.9175487 23.9670476 56.9175542 23.9670195 56.917565 23.9669886 56.9175796 23.966967 56.917592 23.966946 56.9176064 23.9669262 56.917623 23.9669139 56.9176354 23.9668988 56.9176544 23.9668906 56.9176678 23.9668766 56.9176991 23.9668675 56.9177224 23.9668566 56.9177546 23.9668511 56.9177737 23.9668432 56.9178054 23.9668368 56.9178387 23.9668317 56.9178806 23.9668291 56.9179201 23.9667796 56.9192619 23.9667776 56.9193194 23.9667784 56.9193418 23.9667818 56.9193669 23.9667856 56.9193842 23.9667909 56.9194023 23.9667976 56.9194202 23.966806 56.9194388 23.9668162 56.9194578 23.9668263 56.9194741 23.9668412 56.919495 23.9668552 56.9195124 23.9668682 56.9195268 23.9668875 56.9195462 23.966908 56.9195647 23.9669255 56.919579 23.9669467 56.9195948 23.9669719 56.919612 23.9670036 56.9196313 23.9670338 56.9196479 23.9671985 56.9197353 23.9671712 56.9204754 23.9667484 56.9204707 23.9665586 56.9205272 23.9665297 56.9205361 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.10b6ffff-e050-4d21-a9ea-bade16346f89">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.a79c492a-bd09-4f6d-abdb-8c0d8a5132d8" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9676668 56.9174851 23.9671928 56.9175221 23.9671605 56.9175254 23.9671355 56.9175291 23.9671159 56.9175327 23.9670991 56.9175364 23.967079 56.9175414 23.9670621 56.9175463 23.9670449 56.9175519 23.9670165 56.9175628 23.9669852 56.9175776 23.9669633 56.9175902 23.966942 56.9176048 23.9669219 56.9176216 23.9669095 56.9176342 23.9668942 56.9176534 23.9668859 56.917667 23.9668718 56.9176985 23.9668627 56.9177219 23.9668518 56.9177541 23.9668462 56.9177733 23.9668383 56.9178051 23.9668319 56.9178385 23.9668268 56.9178805 23.9668242 56.9179201 23.9667747 56.9192619 23.9667727 56.9193194 23.9667735 56.919342 23.9667768 56.9193671 23.9667807 56.9193846 23.9667861 56.9194028 23.9667928 56.9194208 23.9668012 56.9194395 23.9668115 56.9194586 23.9668216 56.919475 23.9668366 56.9194961 23.9668508 56.9195136 23.9668638 56.9195281 23.9668832 56.9195476 23.9669039 56.9195662 23.9669214 56.9195805 23.9669427 56.9195965 23.9669681 56.9196138 23.967 56.9196332 23.9670303 56.9196498 23.9671935 56.9197364 23.9671664 56.9204727 23.9667472 56.920468 23.9665563 56.9205248 23.9665186 56.9205359 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.f343d4cb-db61-439a-9327-a791f88a28dd">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.3d0a128b-873e-4d68-9244-11fe6fd4d25a" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9670423 56.9173051 23.9669929 56.9173075 23.9669493 56.917311 23.9669189 56.9173147 23.9668602 56.9173244 23.9668116 56.9173353 23.9667637 56.9173489 23.9667211 56.9173637 23.966676 56.9173826 23.966633 56.9174046 23.9665989 56.9174257 23.9665681 56.9174482 23.9665361 56.9174771 23.9665051 56.9175138 23.9664874 56.9175426 23.9664807 56.9175567 23.9664754 56.9175701 23.9664694 56.9175904 23.9664668 56.9176033 23.9664646 56.9176257 23.9664034 56.9192849 23.9664015 56.9193174 23.966398 56.9193536 23.9663954 56.9193727 23.9663891 56.9194016 23.9663787 56.9194318 23.9663669 56.9194573 23.9663509 56.9194846 23.9663353 56.9195067 23.966316 56.9195301 23.9662923 56.919555 23.9662802 56.9195649 23.9662519 56.9195888 23.9662359 56.919602 23.966213 56.9196206 23.9661984 56.9196322 23.9661546 56.9197497 23.9661421 56.9197856 23.9661326 56.9198154 23.9661228 56.9198498 23.9661146 56.9198825 23.966106 56.9199208 23.9660988 56.9199591 23.9660942 56.9199868 23.966091 56.9200095 23.9660882 56.9200323 23.9660851 56.9200852 23.9660834 56.9201204 23.9660766 56.9203035 23.9661008 56.9203104 23.9661205 56.9203175 23.9661416 56.9203269 23.9661588 56.9203363 23.9661775 56.9203491 23.966271 56.9204216 23.9662673 56.920524 23.9662671 56.9205327 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.2d0cd04b-424a-437e-bd95-fd84ba10c3e9">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.a5c17e83-e68a-44d6-ab93-5a70fa7961ea" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9670428 56.9173077 23.9669935 56.9173101 23.9669502 56.9173137 23.9669202 56.9173173 23.9668618 56.9173269 23.9668136 56.9173378 23.9667659 56.9173513 23.9667237 56.917366 23.9666792 56.9173847 23.9666365 56.9174065 23.9666027 56.9174274 23.9665722 56.9174497 23.9665405 56.9174783 23.9665096 56.9175148 23.9664921 56.9175434 23.9664855 56.9175574 23.9664802 56.9175706 23.9664743 56.9175908 23.9664717 56.9176035 23.9664695 56.9176258 23.9664083 56.919285 23.9664064 56.9193175 23.9664029 56.9193537 23.9664003 56.919373 23.966394 56.919402 23.9663835 56.9194324 23.9663716 56.919458 23.9663555 56.9194855 23.9663398 56.9195077 23.9663204 56.9195313 23.9662966 56.9195563 23.9662843 56.9195663 23.9662561 56.9195903 23.96624 56.9196035 23.9662171 56.9196221 23.966203 56.9196333 23.9661594 56.9197502 23.9661469 56.9197861 23.9661375 56.9198159 23.9661277 56.9198502 23.9661195 56.9198828 23.9661109 56.9199211 23.9661037 56.9199593 23.9660991 56.919987 23.9660959 56.9200097 23.9660931 56.9200324 23.9660896 56.9200854 23.9660816 56.9203019 23.9661033 56.9203081 23.9661234 56.9203153 23.9661449 56.9203249 23.9661625 56.9203345 23.9661815 56.9203475 23.966276 56.9204208 23.9662722 56.920524 23.966272 56.9205326 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.aa90a4b6-e2da-4dcf-84fb-c29f10593d5a">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.1634bcf0-f14b-4a26-a6f0-b49f82b70d42" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9667331 56.9205528 23.9666742 56.9204936 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.e21b123c-ca97-4f24-9050-18637429aea2">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.53cc2e18-3c8e-43fc-911c-d549fa933a7e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9673007 56.9203391 23.9671775 56.9203378 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.72b34cdb-586b-439b-8e3e-848fb3165965">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.fa1fcdc4-5662-40a9-9bfe-1f29db83e498" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.96731 56.9200876 23.9671868 56.9200863 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.4cf77cd7-b961-4443-9511-2c12e09c8ce6">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.ea50351a-2009-42a3-8381-073e9a765df9" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9672674 56.9198356 23.9671961 56.9198348 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.bb68216a-9fc0-4bb0-98cc-de6d03069975">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.08496bf1-b026-425b-bd9e-72ec7b4692a6" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9671867 56.919678 23.967141 56.9197038 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.b8c31fd7-aa5e-4f95-920b-714c06db911b">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.c80d0626-7124-4395-8443-353cfb8374d4" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9670415 56.9195999 23.966993 56.9196241 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.a3bec2d8-18e5-4ed9-87fb-d612856db171">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.2da3c99d-67ca-4c46-ab94-ab512054d3ad" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9669319 56.9195146 23.9668738 56.9195314 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.1c6dee83-bad8-4a6f-9c51-f882c56f72a5">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.e8f1751b-6e83-484c-9b80-a0d4bca88624" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9668649 56.919417 23.966801 56.9194253 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.9d03ce97-e87c-4315-beeb-10fffac51997">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.aa827f7b-6fbf-405a-9e96-e7dfe5622400" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9668447 56.919312 23.966779 56.9193112 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.e869dfad-713f-47ec-85d6-574f97cea46f">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.610ad48a-8924-49c5-a3e6-d582d2db329c" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9668533 56.9190789 23.9667876 56.9190782 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.ab976f4f-7243-4ed4-8e5a-554a683d04c2">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.1b5bd58d-e0c5-45fd-b1a9-8b5993d01e4a" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9668619 56.9188458 23.9667962 56.9188451 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.2468493f-b91a-427b-8d65-77cbcbfac5fd">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.458246ef-d041-4168-9f13-d80779f1c4b5" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9668705 56.9186127 23.9668048 56.918612 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.2d4385f1-8adf-44c0-88b3-23ae0800684c">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.9e7ea644-0a26-4adc-87a2-b289d3cc96d4" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9668791 56.9183797 23.9668134 56.9183789 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.7d45311e-2bac-401c-864c-94b79a882768">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.9521d960-4ab5-4bae-88ba-4b11da17e2e5" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9668877 56.9181466 23.966822 56.9181459 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.de51de25-12b6-4fd2-b83f-9d3dfc423d8a">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.97fea517-b72a-400f-9c08-462415fac327" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9668963 56.9179135 23.9668306 56.9179128 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.2cf7b151-f5d6-4f64-9fbc-90183fdc1034">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.c97abe60-1898-470b-a594-8a9d2c9ea8f1" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9669139 56.9177919 23.9668488 56.917787 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.11558c4a-0456-4a12-8e5a-f702a8b6caa3">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.ca2c2ce5-782f-4a62-aba1-21233831ea1d" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9669646 56.9176758 23.9668944 56.9176634 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.1c746de4-5397-48ca-9faa-e8f9d9fbedc1">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.c3c46a10-04ae-4ff3-9e8d-03413fec0ff6" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9671001 56.9176169 23.9670271 56.9175627 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.770dbe42-750f-4f90-981d-e4a78144c525">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.65220886-6205-4406-a125-c623e792a586" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9672596 56.9175883 23.9672422 56.9175216 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.03a2ca39-c62d-4515-848b-2f4933babbc8">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.05e3be59-3250-4a0c-b924-fce4e7166b4e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9659628 56.9202365 23.9660778 56.9202377 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.99b11795-f370-45ef-9d94-0d6a88fc2be1">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.09bfc987-7262-4a8b-b884-d44283d79611" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9659685 56.9200838 23.9660834 56.920085 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.698e4d02-7412-496b-8133-fb90354d9f44">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.56369df8-fcd6-4dba-bf63-06bcf89b2ee8" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9662446 56.9195532 23.9662802 56.9195649 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.6816c3ee-e287-4a75-a3df-d8a61a76fc21">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.343f32ed-9b3c-466d-8f62-8738a8ecfffc" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9662818 56.9194284 23.9663736 56.9194407 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.c793fcdf-3693-4c7d-b2bd-74c9de1bf2ae">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.241ed1bb-9c58-4074-b024-7361e69d074e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9662864 56.9193058 23.9664013 56.9193071 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.229ff7bd-cd6c-427c-a1c5-35896ee7cc32">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.ea5b72b5-ba43-4c03-b6e0-6cc4c562ad73" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.966295 56.9190727 23.9664099 56.919074 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.662898fd-21e0-4d5c-8fe2-cd08ba2fee32">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.90b0e088-39f7-4562-96d7-e5573e38d008" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9663036 56.9188396 23.9664185 56.9188409 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.2c0f88d5-f312-476c-bfaa-a22d9937ac95">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.7ea7200c-93b1-4402-8ccd-baebd91f2dd4" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9663122 56.9186066 23.9664271 56.9186078 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.1f8f96b5-ae4e-4ad6-b2a0-b9585fe4a74b">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.a2df1eed-a77b-475b-ac69-b4d8f6f0bae1" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9663208 56.9183735 23.9664357 56.9183748 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.03050a7a-6335-4d9e-9fb0-47f9f6085888">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.23d31f79-0b5d-412f-91c1-a5bf97575a00" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9663294 56.9181404 23.9664443 56.9181417 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.4d6c68ca-f20f-4af8-8db3-b61734a112ed">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.2cc58845-4ed1-4351-b6e7-75fef38d9dbb" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.966338 56.9179073 23.9664529 56.9179086 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.5846c18b-0df6-4e33-ad5c-c7d90fc4fb6f">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.8641c0d8-2f58-47c2-ac73-7b10558df46f" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9663466 56.9176743 23.9664615 56.9176755 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.3f82d37c-f5cd-46cc-a815-544fd4fdb631">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.da9dd88a-ea6b-4773-a568-6fd1d28ffd29" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9663596 56.917541 23.9664795 56.9175566 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.605fd9af-4846-45c6-b571-7034a3be0293">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.178a20ca-9df1-40a7-aa3e-c7c9d30cd512" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9664655 56.9174098 23.9665673 56.9174477 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.8718890f-d254-431f-8239-da7475e969aa">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.7a912e8a-e8ec-433e-9ee5-902ebe4fe14f" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.96665 56.9173078 23.9667204 56.9173631 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.1808087b-e6a5-4660-8990-970e4c5d759a">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_curveExtent>
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.796c0b9c-af91-4e37-b6b8-ba517b93aea6" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:segments>
+                <gml:GeodesicString>
+                  <gml:posList>23.9668889 56.9172486 23.9669185 56.917314 </gml:posList>
+                </gml:GeodesicString>
+              </gml:segments>
+            </aixm:ElevatedCurve>
+          </aixm:extent_curveExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:element>
+        <aixm:MarkingElement gml:id="uuid.6ef1f290-7a39-4dff-be9c-5bc2416ebd92">
+          <aixm:colour>YELLOW</aixm:colour>
+          <aixm:style>SOLID</aixm:style>
+          <aixm:extent_surfaceExtent>
+            <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.6bf291c6-784f-4e77-b050-70361b220141" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:patches>
+                <gml:PolygonPatch>
+                  <gml:exterior>
+                    <gml:Ring>
+                      <gml:curveMember>
+                        <gml:Curve gml:id="uuid.81f9807c-4471-4410-b46f-32d8e8cdd161">
+                          <gml:segments>
+                            <gml:GeodesicString>
+                              <gml:posList>23.9665041 56.920441 23.9663255 56.9204409 23.9663255 56.9205263 23.9665041 56.9205263 23.9665041 56.920441 </gml:posList>
+                            </gml:GeodesicString>
+                          </gml:segments>
+                        </gml:Curve>
+                      </gml:curveMember>
+                    </gml:Ring>
+                  </gml:exterior>
+                </gml:PolygonPatch>
+              </gml:patches>
+            </aixm:ElevatedSurface>
+          </aixm:extent_surfaceExtent>
+        </aixm:MarkingElement>
+      </aixm:element>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.af529e66-4ce3-47f0-a68d-eb16860e814e">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.59f957ab-9ab7-45f3-b00c-4cd62a0a1d76">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:markingLocation>EDGE</aixm:markingLocation>
+      <aixm:markedApron xlink:type="simple" xlink:href="#uuid.87be983b-3586-47ed-88cc-6fd6c94b2311"/>
+    </aixm:ApronMarkingTimeSlice>
+  </aixm:timeSlice>
+</aixm:ApronMarking> 
+
+<aixm:Apron gml:id="uuid.87be983b-3586-47ed-88cc-6fd6c94b2311">
+  <gml:identifier codeSpace="urn:uuid:">87be983b-3586-47ed-88cc-6fd6c94b2311</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:ApronTimeSlice gml:id="uuid.e3a7f4fa-0c30-4d33-a03a-efe0bd9b8fb3">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.3ac277e2-090a-4bd8-ac94-c1d07bd25e4d">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>10</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.44f8eb6f-9d79-41e0-a0b1-75fedf2fd66f">
+          <gml:beginPosition>2016-06-23T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:name>APRON Z3</aixm:name>
+      <aixm:abandoned nilReason="unknown" xsi:nil="true"/>
+      <aixm:surfaceProperties>
+        <aixm:SurfaceCharacteristics gml:id="uuid.7e37a6fb-a6e0-4e39-9543-3ca011fbb9ca">
+          <aixm:composition>ASPH</aixm:composition>
+          <aixm:surfaceCondition>GOOD</aixm:surfaceCondition>
+        </aixm:SurfaceCharacteristics>
+      </aixm:surfaceProperties>
+      <aixm:associatedAirportHeliport xlink:type="simple" xlink:href="#uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b"/>
+      <aixm:contaminant nilReason="unknown" xsi:nil="true"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.706de26d-c738-4a00-9a76-dd5724b33f8e">
+          <aixm:purpose>DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.48636829-6d26-4da0-8e33-77da582a180b">
+              <aixm:note lang="eng">Stand Z3 ASPH PCN 106/R/C/W/T
+Taxilane K ASPH PCN 106/R/C/W/T
+Z3 - long term and military parking</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.1a40b7f6-696a-4ec5-8379-c1e494505ef3">
+              <aixm:note lang="lav">St<U+0101>vvieta Z3 ASPH PCN 106/R/C/W/T
+Manevr<U+0113><U+0161>anas josla K ASPH PCN 106/R/C/W/T
+Z3 - ilgtermi<U+0146>a un milit<U+0101>r<U+0101> st<U+0101>vvieta</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.cfbe42a7-cfdc-4dbd-9cdd-cd4e867203b7">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.6d9ea57e-f475-4260-8100-735409c40785">
+              <aixm:note lang="eng">TWY K, TXL K and Apron Z3 - daylight operations only except during LVP, night operations by towing only.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.041e73bf-e201-410d-9302-66c7bcf192f2">
+              <aixm:note lang="lav">TWY K, TXL K un perons Z3 - izmantojams tikai diennakts gai<U+0161>aj<U+0101> laik<U+0101>, kad nav ieviesta LVP, diennakts tum<U+0161>aj<U+0101> laik<U+0101> ACFT p<U+0101>rvieto<U+0161>ana tikai ar vilc<U+0113>jtraktoru.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.3ed49258-ec5c-452c-ad79-b52afd29731d">
+          <aixm:propertyName>name</aixm:propertyName>
+          <aixm:purpose>OTHER:PROPERTY_TRANSLATION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.38a53bf9-6026-468d-94b7-91d8d1384f71">
+              <aixm:note lang="lav">PERONS Z3</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.b98d1934-6dbe-4f86-a3f0-c152a43c8e61">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.fc800d8f-3528-4ec1-a303-3996774d75bd">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:availability nilReason="unknown" xsi:nil="true"/>
+    </aixm:ApronTimeSlice>
+  </aixm:timeSlice>
+</aixm:Apron> 
+
+<aixm:AirportHeliport gml:id="uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b">
+  <gml:identifier codeSpace="urn:uuid:">52766fb6-7a3b-49ce-9586-f90250f0dd1b</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.742fc33c-54fd-4ef0-91b1-3bd680dc383b">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.e9806956-5276-4e26-b967-cec458aa275e">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>65</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.3f42522d-70e2-42b5-8d27-2f23e408809f">
+          <gml:beginPosition>2017-06-22T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>EVRA</aixm:designator>
+      <aixm:name>RIGA</aixm:name>
+      <aixm:locationIndicatorICAO>EVRA</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>RIX</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:certifiedICAO>YES</aixm:certifiedICAO>
+      <aixm:privateUse>NO</aixm:privateUse>
+      <aixm:controlType>CIVIL</aixm:controlType>
+      <aixm:fieldElevation uom="FT">37</aixm:fieldElevation>
+      <aixm:fieldElevationAccuracy uom="FT">0.43</aixm:fieldElevationAccuracy>
+      <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+      <aixm:magneticVariation>10</aixm:magneticVariation>
+      <aixm:magneticVariationAccuracy>0.1</aixm:magneticVariationAccuracy>
+      <aixm:dateMagneticVariation>2021</aixm:dateMagneticVariation>
+      <aixm:magneticVariationChange>0.18</aixm:magneticVariationChange>
+      <aixm:referenceTemperature uom="C">25.15</aixm:referenceTemperature>
+      <aixm:altimeterCheckLocation>YES</aixm:altimeterCheckLocation>
+      <aixm:secondaryPowerSupply>YES</aixm:secondaryPowerSupply>
+      <aixm:windDirectionIndicator>YES</aixm:windDirectionIndicator>
+      <aixm:landingDirectionIndicator>YES</aixm:landingDirectionIndicator>
+      <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+      <aixm:transitionLevel nilReason="unknown" xsi:nil="true"/>
+      <aixm:lowestTemperature uom="C">-19.3</aixm:lowestTemperature>
+      <aixm:abandoned nilReason="unknown" xsi:nil="true"/>
+      <aixm:certificationDate>2017-12-12</aixm:certificationDate>
+      <aixm:certificationExpirationDate nilReason="inapplicable" xsi:nil="true"/>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.70a8dc2d-991d-4967-ba39-2342497271dc">
+          <aixm:name>RIGA</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.42546e86-4cfd-484c-b5d8-a56e11094bd0">
+          <aixm:role>OPERATE</aixm:role>
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.dd50e73d-e1a4-489b-87bf-647bfc297fda"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.14401d75-afea-4421-902d-4a6af75c4b80" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+          <gml:pos>23.9711111 56.9236111</gml:pos>
+          <aixm:horizontalAccuracy uom="FT">10</aixm:horizontalAccuracy>
+          <aixm:elevation uom="FT">37</aixm:elevation>
+          <aixm:geoidUndulation uom="FT">68</aixm:geoidUndulation>
+          <aixm:verticalAccuracy uom="FT">0.43</aixm:verticalAccuracy>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:aviationBoundary nilReason="unknown" xsi:nil="true"/>
+      <aixm:altimeterSource nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.a0378103-dcff-4fe5-8e6f-d456d4bdc686">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.af258cce-c9ed-44b1-8d3e-d8bcd205cf96">
+              <aixm:deliveryPoint>Lidosta <U+201C>R<U+012B>ga<U+201D> 10/1, M<U+0101>rupes novads,</aixm:deliveryPoint>
+              <aixm:postalCode>LV-1053</aixm:postalCode>
+              <aixm:country>LATVIJA</aixm:country>
+            </aixm:PostalAddress>
+          </aixm:address>
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.d8f31598-be55-459f-816a-43283c5a5d4a">
+              <aixm:network>AFTN</aixm:network>
+              <aixm:linkage>EVRAYDYD</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.be9d605d-35ac-45bf-9fa5-f921629e50c6">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.a3c73937-3d15-4f1f-bca5-bb588cb10efb">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:startTime>05:00</aixm:startTime>
+              <aixm:endTime>06:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+              <aixm:excluded>YES</aixm:excluded>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.fd5535fa-2245-4791-9458-9b4ad5248643">
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.f81b198e-ee9a-4232-964b-eb62d92cd94a">
+                      <aixm:note lang="eng">Only sked or charter flights or general aviation may operate at the aerodrome</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.0f3601a2-87e2-4de0-a9e4-e9d3278c92c8">
+                  <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.44e048ab-e12a-4c67-bf8d-e9f9ae55da4b">
+                      <aixm:note lang="eng">H24, except for the periods 0500-0600 (0400-0500) and 2000-2100 (1900-2000) when only scheduled or charter flights or general aviation may operate at the aerodrome.</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.d336bf55-c867-4647-b2cf-b83d81a343c0">
+                      <aixm:note lang="lav">H24, iz<U+0146>emot laika periodu no 0500-0600 (0400-5000) un no 2000-2100 (1900-2000), kad var tikt veikti tikai regul<U+0101>rie, <U+010D><U+0101>rtera vai visp<U+0101>r<U+0113>j<U+0101>s avi<U+0101>cijas lidojumi.</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.022cbb21-52b3-468b-bdbf-c9951ace8abb">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:startTime>20:00</aixm:startTime>
+              <aixm:endTime>21:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+              <aixm:excluded>YES</aixm:excluded>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.869236fa-57b4-45d5-bf47-aac3bfd9a2c9">
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.9a772e1a-6f2f-4d45-96ac-104705aae214">
+                      <aixm:note lang="eng">Only sked or charter flights or general aviation may operate at the aerodrome</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.cb6a826f-3021-4fa8-b76c-f54de68276f0">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:startTime>00:00</aixm:startTime>
+              <aixm:endTime>23:59</aixm:endTime>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.4e6b26e0-4828-4813-85e0-36d817aa5dfb">
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.4c851449-7321-4fd1-8bd6-10d16ef825dd">
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.a050fc23-72d1-4624-9f25-ad66a2c9bd88">
+                      <aixm:type>OAT</aixm:type>
+                      <aixm:rule>IFR</aixm:rule>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:annotation>
+                        <aixm:Note gml:id="uuid.2c09ff4c-6c69-416a-9c6b-2dd722c83982">
+                          <aixm:propertyName>purpose</aixm:propertyName>
+                          <aixm:purpose>DESCRIPTION</aixm:purpose>
+                          <aixm:translatedNote>
+                            <aixm:LinguisticNote gml:id="uuid.ea6c341c-aaf3-4a05-bfdb-1de46ba2ca99">
+                              <aixm:note lang="eng">GA</aixm:note>
+                            </aixm:LinguisticNote>
+                          </aixm:translatedNote>
+                          <aixm:translatedNote>
+                            <aixm:LinguisticNote gml:id="uuid.e81740e9-c028-4a9c-b6c3-0147d93a7cef">
+                              <aixm:note lang="lav">GA</aixm:note>
+                            </aixm:LinguisticNote>
+                          </aixm:translatedNote>
+                        </aixm:Note>
+                      </aixm:annotation>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.d00f1069-8117-46f7-bfce-70cc35989645">
+                      <aixm:type>OAT</aixm:type>
+                      <aixm:rule>VFR</aixm:rule>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.41e30b14-52df-431f-9d74-56daa978ee87">
+                      <aixm:type>OAT</aixm:type>
+                      <aixm:rule>IFR</aixm:rule>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.1d5229c3-3cad-428d-adc7-c65e2bd05f8f">
+                      <aixm:type>OAT</aixm:type>
+                      <aixm:rule>IFR</aixm:rule>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.d05c59e1-ebdd-4d2c-b54e-c17ab59197ad">
+                      <aixm:type>OAT</aixm:type>
+                      <aixm:rule>VFR</aixm:rule>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.b213d1f9-fcfa-4756-b7fb-0052c0cb5925">
+                      <aixm:type>OAT</aixm:type>
+                      <aixm:rule>VFR</aixm:rule>
+                      <aixm:origin>ALL</aixm:origin>
+                      <aixm:annotation>
+                        <aixm:Note gml:id="uuid.bf3e849b-9edf-45c2-860b-683b01027b4a">
+                          <aixm:propertyName>purpose</aixm:propertyName>
+                          <aixm:purpose>DESCRIPTION</aixm:purpose>
+                          <aixm:translatedNote>
+                            <aixm:LinguisticNote gml:id="uuid.8fe3c336-c70a-48d3-921a-85175dded032">
+                              <aixm:note lang="eng">GA</aixm:note>
+                            </aixm:LinguisticNote>
+                          </aixm:translatedNote>
+                          <aixm:translatedNote>
+                            <aixm:LinguisticNote gml:id="uuid.52af0b91-de53-41fb-b196-e80c4ebb33f1">
+                              <aixm:note lang="lav">GA</aixm:note>
+                            </aixm:LinguisticNote>
+                          </aixm:translatedNote>
+                        </aixm:Note>
+                      </aixm:annotation>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.88d57e2f-63e9-4a36-a8d1-bf537fc1de24">
+          <aixm:propertyName>referencePointDescription</aixm:propertyName>
+          <aixm:purpose>DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.c2ecf5b4-6020-4753-96a3-2c0e0c2f71b8">
+              <aixm:note lang="eng">On the axis of RWY</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.16e23bad-7207-4638-98b8-24e146f72933">
+              <aixm:note lang="lav">Uz skrejce<U+013C>a ass</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.2af909c1-b257-44b3-8212-922fa2620cdc">
+          <aixm:propertyName>locationDescription</aixm:propertyName>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.fa01b2b4-a41d-4ee0-afb1-518feb515278">
+              <aixm:note lang="eng">250<U+00B0>, 4.8 NM from the centre of Riga</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.5a09bcc5-a76c-42c4-9ab7-4caac4bc324b">
+              <aixm:note lang="lav">250<U+00BA>, 4.8 NM no R<U+012B>gas centra</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.98d6bc75-464c-4259-9623-d87285aa23bc">
+          <aixm:propertyName>altimeterCheckLocation</aixm:propertyName>
+          <aixm:purpose>DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.2078024e-54ce-46b3-9854-e811accfbc1f">
+              <aixm:note lang="eng">Apron 1 ACL: at Apron 34 FT
+Apron 2 ACL: at Apron 33 FT
+Apron 3 ACL: at Apron 33 FT
+Apron 4 ACL: at Apron 33 FT
+Apron 5 ACL: at Apron 32 FT
+Apron Z3 ACL: at Apron 29 FT</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.de8f3877-b1dd-4c17-9fc7-7c705aa829a9">
+              <aixm:note lang="lav">Perona 1 ACL: uz perona 34 FT 
+Perona 2 ACL: uz perona 33 FT 
+Perona 3 ACL: uz perona 33 FT 
+Perona 4 ACL: uz perona 33 FT
+Perona 5 ACL: uz perona 32 FT
+Perona Z3 ACL: uz perona 29 FT</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.1a8d6416-4c5f-493d-b5b5-61a07634d7c1">
+          <aixm:propertyName>windDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.22442806-03eb-41b0-9c70-ca5906777efc">
+              <aixm:note lang="eng">Anemometer: 370 m from THR 18, 380 m from THR 36, lighted (Ref. Table GEN 3.5.3)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.e840c72f-07e6-4ead-a07f-407aae29780a">
+              <aixm:note lang="lav">Anemometrs: 370 m no THR18, 380 m no THR36, izgaismots (sk. tabulu GEN 3.5.3)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.d8ae718f-84ff-48c7-b63c-fde00797d714">
+          <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+          <aixm:purpose>DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.f63f9ccf-a98d-4e2b-a1b5-4382b45a2694">
+              <aixm:note lang="eng">Diesel rotary uninterruptible power supply (DRUPS) device on each RWY substation / 0 SEC</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.d953aea0-32c4-4561-82e5-2fac5d7810f8">
+              <aixm:note lang="lav">Dinamisk<U+0101> nep<U+0101>rtraukt<U+0101>s baro<U+0161>anas iek<U+0101>rta (DRUPS) katra RWY apak<U+0161>stacij<U+0101> / 0 SEC</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.0c14aa51-f098-4e3d-b917-a366ec9c62b5">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.56832683-08e7-4c50-8e42-2fff8cb4e389">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+</aixm:AirportHeliport> 
+
+<aixm:OrganisationAuthority gml:id="uuid.dd50e73d-e1a4-489b-87bf-647bfc297fda">
+  <gml:identifier codeSpace="urn:uuid:">dd50e73d-e1a4-489b-87bf-647bfc297fda</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.6f4b33b5-b635-4564-949d-c61b3188a023">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.05868e1d-d651-426f-bca3-b9b114770769">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>5</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.a6c2fbc7-aeb2-4ea7-9b62-31a103220169">
+          <gml:beginPosition>2016-06-23T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:name>RIGA INTERNATIONAL AIRPORT SJSC</aixm:name>
+      <aixm:designator nilReason="unknown" xsi:nil="true"/>
+      <aixm:type>COMMERCIAL</aixm:type>
+      <aixm:military nilReason="unknown" xsi:nil="true"/>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.679f7c2f-6462-4da5-8a10-48c1990530f1">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.e61a2443-507c-40f7-a7be-19a06cf4e799">
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.d7534d39-10a6-49df-9885-ffce95ed71e8">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.8a77d09e-cdb0-4fcc-8efd-9c6fd5fcff29">
+                      <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.0af41e85-fa46-44b6-b4eb-2286d7e6ca03">
+                          <aixm:note lang="eng">AD operator: 0600-1500 (0500-1400) </aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.38c0af27-37ca-4a11-9022-3fa186ae94a6">
+                          <aixm:note lang="lav">AD operators: 0600-1500 (0500-1400)</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.c9ef583b-bd47-4747-9729-3fc0d4783be8">
+                  <aixm:propertyName>deliveryPoint</aixm:propertyName>
+                  <aixm:purpose>DESCRIPTION</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.73561b82-17ca-4f58-afae-1d0298ae4652">
+                      <aixm:note lang="eng">Lidosta <U+201C>R<U+012B>ga<U+201D> 10/1, M<U+0101>rupes novads, LV-1053, Latvija</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.1652edbd-eb2f-4433-a102-b1253d4df490">
+                      <aixm:note lang="lav">Lidosta <U+201C>R<U+012B>ga<U+201D> 10/1, M<U+0101>rupes novads, LV-1053, Latvija</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:deliveryPoint>Lidosta R<U+012B>ga 10/1</aixm:deliveryPoint>
+              <aixm:city>LIDOSTA RIGA</aixm:city>
+              <aixm:administrativeArea>MARUPES NOVADS</aixm:administrativeArea>
+              <aixm:postalCode>LV-1053</aixm:postalCode>
+              <aixm:country>LATVIA</aixm:country>
+            </aixm:PostalAddress>
+          </aixm:address>
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.9d53372f-8ee6-41d4-b0dc-b731f995c3f3">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:linkage>http://www.riga-airport.com</aixm:linkage>
+              <aixm:eMail>office@riga-airport.com</aixm:eMail>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.b21f3b0a-c2c2-4f71-a7f1-a36445fa6c3b">
+              <aixm:network>AFTN</aixm:network>
+              <aixm:linkage>EVRAYDYD</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.1d97111d-cc73-4867-8ff0-31bdea23fc36">
+              <aixm:voice>+371 67207135</aixm:voice>
+              <aixm:facsimile>+371 67211767</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:relatedOrganisationAuthority nilReason="unknown" xsi:nil="true"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.b0f678e2-235f-4b27-b64c-2081b47c3c17">
+          <aixm:propertyName>name</aixm:propertyName>
+          <aixm:purpose>OTHER:PROPERTY_TRANSLATION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.5fe6e655-234c-41c4-9cfd-e93898a769fe">
+              <aixm:note lang="lav">VAS <U+201C>Starptautisk<U+0101> lidosta <U+201C>R<U+012B>ga<U+201D></aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.2b3a35d6-a417-4146-a907-c0fd0d458c23">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.05ba7192-87e5-49ab-83e1-46e1cea8bacb">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:OrganisationAuthorityTimeSlice>
+  </aixm:timeSlice>
+</aixm:OrganisationAuthority> 
+
+</AIXMBasicMessage>
