@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+  <message:hasMember>
+    <aixm:AerialRefuelling gml:id="uuid.0942496b-7ce7-0b22-e053-0b751dc2499f">
+      <gml:identifier codeSpace="urn:uuid:">0942496b-7ce7-0b22-e053-0b751dc2499f</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AerialRefuellingTimeSlice gml:id="uuid.39f02658-7c5a-409b-a0ee-55735c36307b">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.837479d3-a363-4e1f-95b0-f55ba4f1030b">
+              <gml:beginPosition>2008-10-19T22:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.21f902a9-a6b7-4769-b987-8a1aee06e552">
+              <gml:beginPosition>2003-05-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+
+          <aixm:anchor>
+            <aixm:AerialRefuellingAnchor gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000">
+              <aixm:point>
+                <aixm:AerialRefuellingPoint gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001">
+
+                  <aixm:reportingATC>COMPULSORY</aixm:reportingATC>
+                  <aixm:flyOver>NO</aixm:flyOver>
+                  <aixm:waypoint>NO</aixm:waypoint>
+                  <aixm:radarGuidance>NO</aixm:radarGuidance>
+                  <aixm:facilityMakeup>
+                    <aixm:PointReference gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd003"/>
+                  </aixm:facilityMakeup>
+                  <aixm:extendedServiceVolume/>
+
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                      <aixm:propertyName>reportingATC</aixm:propertyName>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                      <aixm:propertyName>flyOver</aixm:propertyName>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                      <aixm:propertyName>waypoint</aixm:propertyName>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                      <aixm:propertyName>radarGuidance</aixm:propertyName>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+                      <aixm:propertyName>facilityMakeup</aixm:propertyName>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
+                      <aixm:propertyName>extendedServiceVolume</aixm:propertyName>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
+                      <aixm:propertyName>sequence</aixm:propertyName>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
+                      <aixm:propertyName>usageType</aixm:propertyName>
+                    </aixm:Note>
+                  </aixm:annotation>
+
+                  <aixm:sequence>1</aixm:sequence>
+                  <aixm:usageType>ENTRY</aixm:usageType>
+
+                </aixm:AerialRefuellingPoint>
+              </aixm:point>
+            </aixm:AerialRefuellingAnchor>
+          </aixm:anchor>
+
+        </aixm:AerialRefuellingTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AerialRefuelling>
+  </message:hasMember>
+</message:AIXMBasicMessage>
