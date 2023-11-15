@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<aixm:Navaid gml:id="uuid.b017d5f0-1c13-4cff-9432-b67186fc64d6">
+  <gml:identifier codeSpace="urn:uuid:">b017d5f0-1c13-4cff-9432-b67186fc64d6</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.058d10a1-49ee-400d-944e-a3bc194e4ff7">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.6e48f616-4e5b-4713-8664-ce6f16c74776">
+          <gml:beginPosition>2023-11-02T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>4</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.eb737562-5451-48a3-8731-161f4f857f5e">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>VOR_DME</aixm:type>
+      <aixm:designator>RID</aixm:designator>
+      <aixm:name>RIED</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.817442f2-70e5-42bb-964f-d368b5dff042">
+          <aixm:collocationGroup>1</aixm:collocationGroup>
+          <aixm:providesNavigableLocation>NO</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.8d6d65d2-3577-4c34-b405-cb4598f9a552"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.84845eb1-8e39-472b-90fe-f39ba2275795">
+          <aixm:collocationGroup>1</aixm:collocationGroup>
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.e1c23fa9-a341-4548-b066-758efeebdd50"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.c422c5ef-6101-4cc1-b85f-525f4196a300">
+          <!-- WARNING: Latitude and Longitude of Navaid of type VOR_DME, when used for aerodrome/heliport operations, shall be published with 1/10 sec resolution -->
+          <gml:pos>49.7 8.5</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.e479a43d-48b4-4b85-84fc-50f4ab7f2888">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.9185a736-bb34-40e9-bc74-76e8b3a77ed3">
+                  <aixm:note>CRC:494654.0877N, 0083229.3460E, 346.7582, , BE931A9A</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:elevation uom="FT">346.7582</aixm:elevation>
+          <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:804b09aa-918e-4ba3-94c8-b62940fc6024"/>
+      <aixm:extension>
+        <ead-audit:NavaidExtension gml:id="uuid.7425992c-e4ba-4a25-b9c8-d22156ebf948">
+          <ead-audit:auditInformation>
+            <ead-audit:Audit gml:id="uuid.36caeeb0-2aeb-45f1-880e-05ee349da490">
+              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
+              <ead-audit:creationDate>2023-08-15T09:51:45Z</ead-audit:creationDate>
+              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
+              <ead-audit:reasonForChange>Reason: AMDT_11/23</ead-audit:reasonForChange>
+              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
+            </ead-audit:Audit>
+          </ead-audit:auditInformation>
+        </ead-audit:NavaidExtension>
+      </aixm:extension>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+</aixm:Navaid> 
+
+</AIXMBasicMessage>

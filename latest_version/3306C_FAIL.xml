@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<aixm:Navaid gml:id="uuid.1bc7d123-024e-471b-b731-0c87c80a2f89">
+  <gml:identifier codeSpace="urn:uuid:">1bc7d123-024e-471b-b731-0c87c80a2f89</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.f2e07567-1d80-43eb-a168-dcdbeffd15cc">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.159ddf01-591d-4b3e-9875-4cfe4ad96018">
+          <gml:beginPosition>2015-12-10T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.3938d5d4-20fd-4249-b239-be3a224b0317">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>TACAN</aixm:type>
+      <aixm:designator>UYR</aixm:designator>
+      <aixm:name>GOOSE</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.97df2b35-b2c2-4484-9fe8-640603dcc71a">
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.a120a939-b498-4573-9103-674036ab7f82"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.b18d890e-1b59-4a3a-90f1-b3058ee28e68">
+          <!-- WARNING: Latitude and Longitude of Navaid of type TACAN, when used for aerodrome/heliport operations, shall be published with 1/10 sec resolution -->
+          <gml:pos>53.3 -60.4</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.9faf27c4-9e62-47ac-8b0b-f863e4046256">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.c934255f-f684-4887-8e58-98586db4ca61">
+                  <aixm:note>CRC:531911N, 0602500W, 200, , E4145595</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:elevation uom="FT">200</aixm:elevation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:7440fb00-1aa7-4535-8454-e99351d3e16a"/>
+      <aixm:extension>
+        <ead-audit:NavaidExtension gml:id="uuid.b569a747-38e3-4691-ac64-c5a57f004f4d">
+          <ead-audit:auditInformation>
+            <ead-audit:Audit gml:id="uuid.dd30567c-05c5-453d-9d15-edd49d201bc2">
+              <ead-audit:createdBy>CY_VINCEPH</ead-audit:createdBy>
+              <ead-audit:creationDate>2016-02-10T02:27:49Z</ead-audit:creationDate>
+              <ead-audit:createdByOrg>NAV CANADA</ead-audit:createdByOrg>
+              <ead-audit:reasonForChange>tacan station declination</ead-audit:reasonForChange>
+              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
+            </ead-audit:Audit>
+          </ead-audit:auditInformation>
+        </ead-audit:NavaidExtension>
+      </aixm:extension>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+</aixm:Navaid> 
+
+</AIXMBasicMessage>

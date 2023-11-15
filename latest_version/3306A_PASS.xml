@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<aixm:Navaid gml:id="uuid.8b372138-7e63-45e5-b299-a7c9d7eeac96">
+  <gml:identifier codeSpace="urn:uuid:">8b372138-7e63-45e5-b299-a7c9d7eeac96</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.40a3f2ca-59c4-4848-907d-a2dd0342cfd8">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.e8ca6d2a-1650-47b4-831f-abb1b3d226fe">
+          <gml:beginPosition>2023-06-15T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>4</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.9cffece7-51f4-4e03-8044-ed440b6da3a2">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>NDB</aixm:type>
+      <aixm:designator>FV</aixm:designator>
+      <aixm:name>FUERTEVENTURA</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.41891f75-599f-4099-92a3-1c3b716170aa">
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.4aae0cf1-e9d0-415c-be07-5d98c82eba1e"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b2f4956d-3acb-406c-8565-268f617b5d35">
+          <gml:pos>28.382583 -13.866222</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.cea26ac0-316c-45ba-82de-845e8e38267f">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.ca8c7a62-0d23-4a1b-86ac-f1b4ccf8ef23">
+                  <aixm:note>CRC:282257.3N, 0135158.4W, , , 2F8E186D</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:8fb53830-70f7-4423-ac83-f58ebccda700"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.24a498c5-9508-4472-8fc1-2cfb08eabfdc">
+          <aixm:propertyName>servedAirport</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.46093f08-30cc-4911-bc8b-f92ffc5afbdd">
+              <aixm:note>Remark:188  MAG/ 6575 m FM  THR 01R COV 25 NM</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:extension>
+        <ead-audit:NavaidExtension gml:id="uuid.62a69472-27ef-4dd4-87f7-6c3fee94bf40">
+          <ead-audit:auditInformation>
+            <ead-audit:Audit gml:id="uuid.b7ab9881-4cf0-48c6-9234-97154883d5f6">
+              <ead-audit:createdBy>LE_PCABEZAS</ead-audit:createdBy>
+              <ead-audit:creationDate>2023-06-09T06:04:19Z</ead-audit:creationDate>
+              <ead-audit:createdByOrg>ENAIRE</ead-audit:createdByOrg>
+              <ead-audit:reasonForChange>Reason: AIRAC AMDT 07/23</ead-audit:reasonForChange>
+              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
+            </ead-audit:Audit>
+          </ead-audit:auditInformation>
+        </ead-audit:NavaidExtension>
+      </aixm:extension>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+</aixm:Navaid> 
+
+</AIXMBasicMessage>

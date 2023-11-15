@@ -35,7 +35,7 @@
                         <aixm:NavaidComponent gml:id="uuid.2d563374-72ce-49a9-8fdc-eaef8da2c66e">
                             <aixm:markerPosition>OUTER</aixm:markerPosition>
                             <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
-                            <!-- ERROR: Found 'DME' Navaid composed of incorrect equipment (Azimuth) -->
+                            <!-- ERROR: Found 'DME' Navaid composed of incorrect equipment (SDF) -->
                             <aixm:theNavaidEquipment xlink:type="simple"
                                                      xlink:href="#uuid.aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7"/>
                         </aixm:NavaidComponent>
@@ -73,11 +73,11 @@
     </hasMember>
 
     <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <aixm:Azimuth gml:id="uuid.aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7">
+        <aixm:SDF gml:id="uuid.aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7">
             <gml:identifier codeSpace="urn:uuid:">aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7</gml:identifier>
             <gml:boundedBy xsi:nil="true"/>
             <aixm:timeSlice>
-                <aixm:AzimuthTimeSlice gml:id="uuid.01482387-fe71-46ee-a415-f53bb1181ed8">
+                <aixm:SDFTimeSlice gml:id="uuid.01482387-fe71-46ee-a415-f53bb1181ed8">
                     <gml:validTime>
                         <gml:TimePeriod gml:id="uuid.30f2701a-4ed9-4058-a6cc-afa1bcadda56">
                             <gml:beginPosition>2020-12-31T00:00:00Z</gml:beginPosition>
@@ -130,9 +130,9 @@
                                                            xlink:href="urn:uuid:09424934-7f35-0ae9-e053-0b751dc2b779"/>
                         </aixm:AuthorityForNavaidEquipment>
                     </aixm:authority>
-                </aixm:AzimuthTimeSlice>
+                </aixm:SDFTimeSlice>
             </aixm:timeSlice>
-        </aixm:Azimuth>
+        </aixm:SDF>
     </hasMember>
 
 </AIXMBasicMessage>
