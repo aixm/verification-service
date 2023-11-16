@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                          http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+<message:hasMember>
+  <aixm:UnplannedHolding gml:id="uuid.01234567-abcd-effe-cdcd-abcd1234abc">
+  <gml:identifier codeSpace="urn:uuid:">01234567-abcd-effe-cdcd-abcd1234abc</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:UnplannedHoldingTimeSlice gml:id="SOMEID">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="OTHERID">
+          <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+     <aixm:controlledAirspace>NO</aixm:controlledAirspace>
+ </aixm:UnplannedHoldingTimeSlice>
+  </aixm:timeSlice>
+  </aixm:UnplannedHolding>
+</message:hasMember>
+
+  <message:hasMember>
+    <aixm:HoldingAssessment gml:id="uuid.3e33bd78-0b9c-4d27-9060-901fcb02fa47">
+      <aixm:timeSlice>
+        <aixm:HoldingAssessmentTimeSlice gml:id="TACANOSTO">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="vtTACANOSTO">
+              <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="ltTACANOSTO">
+              <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+
+          <!-- ERROR Found HoldingAssessment instances in the data set with assigned unplannedHolding value. This is not supported in the EAD -->
+          <aixm:unplannedHolding xlink:type="simple" xlink:href="urn:uuid:01234567-abcd-effe-cdcd-abcd1234abc"/>
+
+        </aixm:HoldingAssessmentTimeSlice>
+      </aixm:timeSlice>
+    </aixm:HoldingAssessment>
+  </message:hasMember>
+</message:AIXMBasicMessage>
