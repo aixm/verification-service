@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+
+        <aixm:SpecialNavigationSystem gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+            <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:SpecialNavigationSystemTimeSlice gml:id="ID_1A4A9A_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A9A_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+
+                    <aixm:type>DECCA</aixm:type>
+                    <aixm:designator>AA</aixm:designator>
+                    <aixm:name>NAME</aixm:name>
+                    <aixm:responsibleOrganisation>
+                        <aixm:AuthorityForSpecialNavigationSystem gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000">
+                          <aixm:annotation>
+                            <aixm:Note gml:id="abc123">
+                              <!-- WARNING: It is prohibited that AuthorityForSpecialNavigationSystem has annotation.Note.propertyName value other-than-one-of ('type', 'theOrganisationAuthority') -->
+                              <aixm:propertyName>invalid</aixm:propertyName>
+                           </aixm:Note>
+                          </aixm:annotation>
+                        </aixm:AuthorityForSpecialNavigationSystem>
+                    </aixm:responsibleOrganisation>
+
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                            <aixm:propertyName>type</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                            <aixm:propertyName>designator</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                            <aixm:propertyName>name</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                            <aixm:propertyName>responsibleOrganisation</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+
+                </aixm:SpecialNavigationSystemTimeSlice>
+            </aixm:timeSlice>
+        </aixm:SpecialNavigationSystem>
+
+  </message:hasMember>
+</message:AIXMBasicMessage>
+
