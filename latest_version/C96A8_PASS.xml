@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+
+    <aixm:Airspace gml:id="uuid.1bbf615f-6f34-4427-bded-d114b5f13de8">
+      <gml:identifier codeSpace="urn:uuid:">1bbf615f-6f34-4427-bded-d114b5f13de8</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.e3953ca4-a143-4c4d-8b06-83837717c1c7">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.5b1a75e9-91d4-40d1-ab43-6ee181068107">
+              <gml:beginPosition>2022-02-14T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.3e0399a4-a0b5-4928-9b1a-6f2cf073bc3f">
+              <gml:beginPosition>2022-02-14T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>TMA_P</aixm:type>
+          <aixm:designator>UKLU1</aixm:designator>
+          <aixm:name>UZHHOROD EAST TMA</aixm:name>
+          <aixm:designatorICAO>NO</aixm:designatorICAO>
+          <aixm:controlType>CIVIL</aixm:controlType>
+          <aixm:class>
+            <aixm:AirspaceLayerClass gml:id="uuid.1c10b445-f6af-4d9d-b28e-7a450f5a337f">
+              <aixm:classification>D</aixm:classification>
+            </aixm:AirspaceLayerClass>
+          </aixm:class>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.36c9a51a-5aa6-444e-b205-304b54f29fa8">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.4e33c2ba-039c-48ba-81c1-a105ba6e5697">
+                  <aixm:upperLimit uom="M">3050</aixm:upperLimit>
+                  <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="M">600</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                  <aixm:horizontalProjection>
+                    <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:ead-slot="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.d6f02e2b-a4fe-4a1c-b3e1-7e42acfa3cb2">
+                      <gml:patches>
+                        <gml:PolygonPatch interpolation="planar">
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4d5a2685-3b94-4e8a-b44c-a93e7abe8f8e">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>49.01417 22.89722 48.94083 23.04444 48.53667 23.18833 48.13083 22.60194</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xlink:type="simple" xlink:href="urn:uuid:69a889da-7b02-47dd-88dc-84dca9347aee"/>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.74469b93-c844-424d-b59f-5d7e1aaecbc2">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>48.4033111 22.1553694 48.4033111 22.1553694</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xlink:type="simple" xlink:href="urn:uuid:0cb5ed2d-7622-4a77-9764-63a36660371f"/>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.44757e10-929d-47eb-854a-3ff494288839">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>49.0879944 22.5657083 49.0879944 22.5657083</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                              <gml:curveMember xlink:type="simple" xlink:href="urn:uuid:618ab2b8-3bd1-4987-b77a-b4e18f4efbc5"/>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b27ca56c-2339-42bd-a96c-22d77d9c61be">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>49.01417 22.89722 49.01417 22.89722</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:ElevatedSurface>
+                  </aixm:horizontalProjection>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.46fd3dab-d31c-4945-afdd-a4c9c7d0f629">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.1dd14d50-cd82-4198-ae3e-9d9395d7f88f">
+                          <aixm:note>Airspace Border Vertex number:1 , type = GRC&#13;
+CRC:490051N,0225350E,,,2611141E</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.641441df-4497-4dcd-8161-a24cbc7b1a0f">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.4a08c8e3-0bcd-47de-bb86-426e4426fefd">
+                          <aixm:note>Airspace Border Vertex number:2 , type = GRC&#13;
+CRC:485627N,0230240E,,,6B0CA6D5</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.416a1a21-01a9-4f31-bcf9-f7b79103cdd6">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.8cfda858-4755-42ab-85e2-70bb6f6374fd">
+                          <aixm:note>Airspace Border Vertex number:3 , type = GRC&#13;
+CRC:483212N,0231118E,,,E5E99573</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.69782d9c-5eb6-472b-8b8d-1d6aa426bf4f">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.9d042188-4a33-49d9-92c2-7a395986f913">
+                          <aixm:note>Airspace Border Vertex number:4 , type = FNT&#13;
+CRC:480751N,0223607E,,,A61FABB7</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.1ea4ce7a-8a74-468f-9d20-104f063822f5">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.1a9aa9b1-a7d9-4b69-832c-0671c7b49dac">
+                          <aixm:note>Airspace Border Vertex number:5 , type = FNT&#13;
+CRC:482411.92N,0220919.33E,,,71408B05&#13;
+Airspace Border Vertex Remark:Vertex modified to create geometry</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.818460e7-dc1a-4a18-9974-775a4c5dbdd6">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.17fc058c-53ad-4d87-a6cd-6b6df8c8a06f">
+                          <aixm:note>Airspace Border Vertex number:6 , type = FNT&#13;
+CRC:490516.78N,0223356.55E,,,09F77A3D&#13;
+Airspace Border Vertex Remark:Vertex modified to create geometry</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:activation>
+            <aixm:AirspaceActivation gml:id="uuid.58cd06d8-ad5e-40a6-aaa4-b9e89d31519f">
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.0a99b6d0-6a28-4b69-9a56-500eb9e8179d">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>MON</aixm:day>
+                  <aixm:startTime>04:00</aixm:startTime>
+                  <aixm:endTime>10:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.6944d6a1-e32f-4004-8595-bf3049c5c407">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>MON</aixm:day>
+                  <aixm:startTime>14:30</aixm:startTime>
+                  <aixm:endTime>20:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.7f1aca85-3938-4997-a07e-a88a07f28586">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>TUE</aixm:day>
+                  <aixm:startTime>04:00</aixm:startTime>
+                  <aixm:endTime>10:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.417c43c2-b1b0-4dc2-8900-8706e30d0f55">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>TUE</aixm:day>
+                  <aixm:startTime>14:30</aixm:startTime>
+                  <aixm:endTime>20:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.cd137621-880e-4677-9d86-29e74e071ec1">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>WED</aixm:day>
+                  <aixm:startTime>04:00</aixm:startTime>
+                  <aixm:endTime>10:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.0d4f72c1-62c6-4d45-b556-9dd520dd072d">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>WED</aixm:day>
+                  <aixm:startTime>14:30</aixm:startTime>
+                  <aixm:endTime>20:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.86c3ae80-6657-4adb-a307-a795f2ac5d10">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>THU</aixm:day>
+                  <aixm:startTime>04:00</aixm:startTime>
+                  <aixm:endTime>10:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.ca949940-6aa7-4faa-96c1-4732ae042893">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>THU</aixm:day>
+                  <aixm:startTime>14:30</aixm:startTime>
+                  <aixm:endTime>20:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.f06bf707-1f0b-4bfc-af92-1300e25687cd">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>FRI</aixm:day>
+                  <aixm:startTime>04:00</aixm:startTime>
+                  <aixm:endTime>10:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.7bd9ff77-17b9-4ba1-9b23-471ecc27f59b">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>EDLST</aixm:startDate>
+                  <aixm:endDate>SDLST</aixm:endDate>
+                  <aixm:day>FRI</aixm:day>
+                  <aixm:startTime>14:30</aixm:startTime>
+                  <aixm:endTime>20:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.e987949c-25cd-4fc8-843e-ad1a2861823e">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>MON</aixm:day>
+                  <aixm:startTime>02:00</aixm:startTime>
+                  <aixm:endTime>08:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.37a4baf6-7d51-4a43-a89d-2c0f72c32708">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>MON</aixm:day>
+                  <aixm:startTime>15:30</aixm:startTime>
+                  <aixm:endTime>21:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.b5ff1626-50f0-4970-9dfd-d1998a60908b">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>TUE</aixm:day>
+                  <aixm:startTime>02:00</aixm:startTime>
+                  <aixm:endTime>08:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.24e9b5f4-41c5-458e-9475-047ee31fdd72">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>TUE</aixm:day>
+                  <aixm:startTime>15:30</aixm:startTime>
+                  <aixm:endTime>21:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.9a98326e-ec34-4d9d-af8a-599c3f9dd390">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>WED</aixm:day>
+                  <aixm:startTime>02:00</aixm:startTime>
+                  <aixm:endTime>08:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.60a58a1e-b6f7-4d5b-b36b-58af272e11b1">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>WED</aixm:day>
+                  <aixm:startTime>15:30</aixm:startTime>
+                  <aixm:endTime>21:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.bc0cc1e0-b57d-4057-86e7-b6da29e53c3d">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>THU</aixm:day>
+                  <aixm:startTime>02:00</aixm:startTime>
+                  <aixm:endTime>08:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.58a1a9f0-5968-4f9a-9fc5-6460034ae7c8">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>THU</aixm:day>
+                  <aixm:startTime>15:30</aixm:startTime>
+                  <aixm:endTime>21:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.03f5b833-3ed2-4abe-8627-e8afdca7c54a">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>FRI</aixm:day>
+                  <aixm:startTime>02:00</aixm:startTime>
+                  <aixm:endTime>08:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.29b3bc92-1819-4fe0-b709-fba8e5a176e2">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>SDLST</aixm:startDate>
+                  <aixm:endDate>EDLST</aixm:endDate>
+                  <aixm:day>FRI</aixm:day>
+                  <aixm:startTime>15:30</aixm:startTime>
+                  <aixm:endTime>21:30</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:activity>ATS</aixm:activity>
+              <aixm:status>ACTIVE</aixm:status>
+            </aixm:AirspaceActivation>
+          </aixm:activation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.0f9c0c5f-6dcf-4f59-9aba-2d6a9ff6ea4f">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f120c368-fb39-414f-b9eb-710670b37cf7">
+                  <aixm:note>txtRmk:Horizontal and vertical limits are applied during the working hours of the ATS unit</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+
+  </message:hasMember>
+</message:AIXMBasicMessage>
+
