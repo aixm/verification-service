@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+
+    <aixm:NonMovementArea id="">
+      <aixm:timeSlice>
+        <aixm:NonMovementAreaTimeSlice id="xyz456">
+          <gml:validTime/>
+          <aixm:interpretation></aixm:interpretation>
+            <aixm:annotation>
+              <aixm:Note gml:id="abc123">
+                <!-- WARNING: It is prohibited that NonMovementAreaTimeSlice has annotation.Note.propertyName value other-than-one-of ('associatedAirportHeliport', 'extent') -->
+                <aixm:propertyName>invalid</aixm:propertyName>
+              </aixm:Note>
+            </aixm:annotation>
+        </aixm:NonMovementAreaTimeSlice>
+      </aixm:timeSlice>
+    </aixm:NonMovementArea>
+
+  </message:hasMember>
+</message:AIXMBasicMessage>
+
