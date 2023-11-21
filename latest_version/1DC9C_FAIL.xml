@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" 
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+    xmlns:gml="http://www.opengis.net/gml/3.2" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:gco="http://www.isotc211.org/2005/gco" 
+    xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+    xmlns:gts="http://www.isotc211.org/2005/gts" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    gml:id="uniqueId"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd">
+
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<aixm:Runway gml:id="uuid.1b49f85d-bbe5-4c0a-b0d4-67a324a84781">
+  <gml:identifier codeSpace="urn:uuid:">1b49f85d-bbe5-4c0a-b0d4-67a324a84781</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:RunwayTimeSlice gml:id="uuid.b4fff4a9-3cf6-4c13-9a39-d63357bf07a1">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.a278416f-0e16-4662-9730-f0aa2c4daf70">
+          <gml:beginPosition>2004-07-20T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.ef41b1f3-f045-4d2c-9b37-c396ade06cc8">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>RWY-14L/32R</aixm:designator>
+      <aixm:type>RWY</aixm:type>
+      <aixm:surfaceProperties>
+        <aixm:SurfaceCharacteristics gml:id="uuid.478704b8-29bd-430f-b4a6-e923618b061c"/>
+      </aixm:surfaceProperties>
+      <aixm:associatedAirportHeliport xlink:type="simple" xlink:href="#uuid.2c6c6cb6-7e47-4a7f-bfe7-27b4e45458c2"/>
+      <!-- ERROR Found Runway instances in the data set with assigned areaContaminant value. This is not supported in the EAD. -->
+      <aixm:areaContaminant>
+        <aixm:RunwaySectionContamination gml:id="uuid.2c6c6cb6-7e47-4a7f-bfe7-27b4e45458c3"/>
+      </aixm:areaContaminant>
+    </aixm:RunwayTimeSlice>
+  </aixm:timeSlice>
+</aixm:Runway> 
+
+  </hasMember>
+
+</AIXMBasicMessage>

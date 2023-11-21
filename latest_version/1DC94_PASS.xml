@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+
+<aixm:AircraftStand gml:id="uuid.8b073638-74e5-4d55-981a-8f82fe90a0b7">
+
+  <gml:identifier codeSpace="urn:uuid:">8b073638-74e5-4d55-981a-8f82fe90a0b7</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AircraftStandTimeSlice gml:id="uuid.80ceff83-34b3-4233-9e22-6c62d75c5478">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.62adedb6-a44c-4df6-b885-b92b59451042">
+          <gml:beginPosition>2017-11-09T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.bc44b6b6-2954-4073-b4ee-d7b74b3ea8f7">
+          <gml:beginPosition>2017-11-09T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>S1</aixm:designator>
+      <aixm:type>NI</aixm:type>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.1a107074-d834-4c06-98c3-0e8ee9373f71">
+          <gml:pos>29.7218139 35.0075722</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.5f2a3a8d-ec08-4f06-975b-11da481f9b35">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.ff8d5194-0716-4f49-a933-58cbaddbe2b4">
+                  <aixm:note>CRC:294318.53N, 0350027.26E, , , 1F4F860E</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:apronLocation xlink:type="simple" xlink:href="#uuid.31510cf2-ba1c-4529-852b-794419d7faea"/>
+    </aixm:AircraftStandTimeSlice>
+  </aixm:timeSlice>
+</aixm:AircraftStand> 
+
+  </message:hasMember>
+</message:AIXMBasicMessage>
+
