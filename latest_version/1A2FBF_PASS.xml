@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+
+<aixm:PointReference gml:id="uuid.86b14070-22e5-46d6-a479-c6d47dc4e714">
+  <aixm:role>RAD_DME</aixm:role>
+  <aixm:priorFixTolerance uom="NM">0.3509</aixm:priorFixTolerance>
+  <aixm:postFixTolerance uom="NM">0.3835</aixm:postFixTolerance>
+  <aixm:facilityAngle>
+    <aixm:AngleUse gml:id="uuid.6c60127f-270c-4ec1-bd12-da84e755b26b">
+      <aixm:alongCourseGuidance>YES</aixm:alongCourseGuidance>
+      <aixm:theAngleIndication xlink:type="simple" xlink:href="#uuid.9fe3035f-e8e9-4265-b13e-47e941734604"/>
+    </aixm:AngleUse>
+  </aixm:facilityAngle>
+  <aixm:facilityDistance xlink:type="simple" xlink:href="#uuid.fd216b35-9be0-497d-bee6-be11388e1a41"/>
+  <aixm:fixToleranceArea>
+    <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.ea225b76-2029-455c-a7f0-e94ed2394ff2" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+      <gml:patches>
+        <gml:PolygonPatch>
+          <gml:exterior>
+            <gml:Ring>
+              <gml:curveMember>
+                <gml:Curve gml:id="uuid.7df4a4f3-e25e-4371-aedf-840d4848b15c">
+                  <gml:segments>
+                    <gml:GeodesicString>
+                      <gml:posList>21.3501075 56.5144199 21.3279752 56.5129202 21.296101 56.5795072 21.316721 56.584248 21.3501075 56.5144199 </gml:posList>
+                    </gml:GeodesicString>
+                  </gml:segments>
+                </gml:Curve>
+              </gml:curveMember>
+            </gml:Ring>
+          </gml:exterior>
+        </gml:PolygonPatch>
+      </gml:patches>
+      <aixm:annotation>
+        <aixm:Note gml:id="abc123">
+          <aixm:propertyName>horizontalAccuracy</aixm:propertyName>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:Surface>
+  </aixm:fixToleranceArea>
+</aixm:PointReference> 
+
+  </message:hasMember>
+</message:AIXMBasicMessage>
+
