@@ -9,41 +9,41 @@
                           xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
                           gml:id="M00001">
-  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <aixm:AirportClearanceService gml:id="uuid.1b49f85d-bbe5-4c0a-b0d4-67a324a84781">
-      <gml:identifier codeSpace="urn:uuid:">1b49f85d-bbe5-4c0a-b0d4-67a324a84781</gml:identifier>
+  <message:hasMember>
+    <aixm:AirspaceBorderCrossing gml:id="uuid.0942496b-7ce7-0b22-e053-0b751dc2499f">
+      <gml:identifier codeSpace="urn:uuid:">0942496b-7ce7-0b22-e053-0b751dc2499f</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
       <aixm:timeSlice>
-        <aixm:AirportClearanceServiceTimeSlice gml:id="uuid.b4fff4a9-3cf6-4c13-9a39-d63357bf07a1">
-          <gml:validTime>
-            <gml:TimePeriod gml:id="uuid.a278416f-0e16-4662-9730-f0aa2c4daf70">
-              <gml:beginPosition>2004-07-20T00:00:00Z</gml:beginPosition>
+        <aixm:AirspaceBorderCrossingTimeSlice gml:id="uuid.39f02658-7c5a-409b-a0ee-55735c36307b">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.837479d3-a363-4e1f-95b0-f55ba4f1030b">
+              <gml:beginPosition>2008-10-19T22:00:00Z</gml:beginPosition>
               <gml:endPosition indeterminatePosition="unknown"/>
             </gml:TimePeriod>
           </gml:validTime>
           <aixm:interpretation>BASELINE</aixm:interpretation>
           <aixm:sequenceNumber>1</aixm:sequenceNumber>
           <aixm:correctionNumber>0</aixm:correctionNumber>
-          <aixm:featureLifetime>
-            <gml:TimePeriod gml:id="uuid.ef41b1f3-f045-4d2c-9b37-c396ade06cc8">
-              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.21f902a9-a6b7-4769-b987-8a1aee06e552">
+              <gml:beginPosition>2003-05-28T00:00:00Z</gml:beginPosition>
               <gml:endPosition indeterminatePosition="unknown"/>
             </gml:TimePeriod>
           </aixm:featureLifetime>
 
-          <aixm:radioCommunication xlink:type="simple" xlink:href="#uuid.09424934-8352-0ae9-e053-0b751dc2b779"/>
+          <aixm:enteredAirspace xlink:type="simple" xlink:href="#uuid.09424934-8352-0ae9-e053-0b751dc2b779"/>
 
-        </aixm:AirportClearanceServiceTimeSlice>
+        </aixm:AirspaceBorderCrossingTimeSlice>
       </aixm:timeSlice>
-    </aixm:AirportClearanceService>
+    </aixm:AirspaceBorderCrossing>
   </message:hasMember>
 
   <message:hasMember>
-    <aixm:RadioCommunicationChannel gml:id="uuid.09424934-8352-0ae9-e053-0b751dc2b779">
+    <aixm:Airspace gml:id="uuid.09424934-8352-0ae9-e053-0b751dc2b779">
       <gml:identifier codeSpace="urn:uuid:">09424934-8352-0ae9-e053-0b751dc2b779</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
       <aixm:timeSlice>
-        <aixm:RadioCommunicationChannelTimeSlice gml:id="uuid.e774672d-c756-45ca-8b9f-88749210b38a">
+        <aixm:AirspaceTimeSlice gml:id="uuid.e774672d-c756-45ca-8b9f-88749210b38a">
           <gml:validTime xlink:type="simple">
             <gml:TimePeriod gml:id="uuid.1bb60c0c-149f-4e94-a9eb-b7197f9ecdff">
               <gml:beginPosition>2008-08-28T00:00:00Z</gml:beginPosition>
@@ -60,8 +60,8 @@
             </gml:TimePeriod>
           </aixm:featureLifetime>
 
-        </aixm:RadioCommunicationChannelTimeSlice>
+        </aixm:AirspaceTimeSlice>
       </aixm:timeSlice>
-    </aixm:RadioCommunicationChannel>
+    </aixm:Airspace>
   </message:hasMember>
 </message:AIXMBasicMessage>

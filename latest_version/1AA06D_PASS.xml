@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+
+  <message:hasMember>
+    <aixm:Airspace gml:id="uuid.09424934-8352-0ae9-e053-0b751dc2b779">
+      <gml:identifier codeSpace="urn:uuid:">09424934-8352-0ae9-e053-0b751dc2b779</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.e774672d-c756-45ca-8b9f-88749210b38a">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.1bb60c0c-149f-4e94-a9eb-b7197f9ecdff">
+              <gml:beginPosition>2008-08-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.cd178348-9d7a-4598-8cd3-5e4ab62db0a7">
+              <gml:beginPosition>2003-05-20T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+
+          <aixm:type>FIR_P</aixm:type>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.030b2521-abcd-effe-cdcd-9ebdcfd000">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.030b2521-abcd-effe-cdcd-9ebdcfd001">
+<!-- NOTE: this is an invalid rule (or invalid XSD) - xlink:href is not a valid attribute for contributorAirspace -->
+                  <aixm:contributorAirspace xlink:type="simple" xlink:href="#uuid.0942496b-7ce7-0b22-e053-0b751dc2499f"/>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </message:hasMember>
+
+  <message:hasMember>
+    <aixm:Airspace gml:id="uuid.0942496b-7ce7-0b22-e053-0b751dc2499f">
+      <gml:identifier codeSpace="urn:uuid:">0942496b-7ce7-0b22-e053-0b751dc2499f</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.39f02658-7c5a-409b-a0ee-55735c36307b">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.837479d3-a363-4e1f-95b0-f55ba4f1030b">
+              <gml:beginPosition>2008-10-19T22:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.21f902a9-a6b7-4769-b987-8a1aee06e552">
+              <gml:beginPosition>2003-05-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.030b2521-abcd-effe-cdcd-9ebdcfd002">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.030b2521-abcd-effe-cdcd-9ebdcfd003">
+                  <aixm:horizontalProjection>
+                    <aixm:Surface>
+                      <gml:patches>
+                        <gml:PolygonPatch interpolation="planar">
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                                <gml:Curve gml:id="uuid.c706fd83-be38-46ad-b3aa-54e5f52fcdd8">
+                                  <gml:segments>
+                                    <gml:GeodesicString>
+                                      <gml:posList>27.6945062 56.5223795 27.694515 56.5223772 27.6945193 56.5223759 27.6945276 56.5223731 27.6945354 56.52237 27.6945392 56.5223682 27.6945464 56.5223646 27.694553 56.5223607 27.6945561 56.5223586 27.6945591 56.5223565 27.6945645 56.522352 27.6945671 56.5223497 27.6945716 56.522345 27.6945736 56.5223425 27.6945771 56.5223375 27.6945799 56.5223323 27.6945819 56.5223271 27.6945833 56.5223218 27.6945837 56.5223191 27.6945839 56.5223137 27.6945837 56.522311 27.6945828 56.5223057 27.6945821 56.522303 27.6945801 56.5222977 27.6945774 56.5222926 27.6945739 56.5222875 27.694572 56.5222851 27.6945675 56.5222803 27.6945624 56.5222757 27.6945567 56.5222714 27.6945504 56.5222673 27.6945435 56.5222635 27.6945399 56.5222617 27.6945323 56.5222583 27.6945283 56.5222568 27.6945201 56.5222539 27.6945158 56.5222526 27.694507 56.5222503 27.694498 56.5222484 27.6944933 56.5222475 27.6944839 56.5222462 27.6944743 56.5222453 27.6944695 56.5222449 27.6944598 56.5222446 27.6944501 56.5222447 27.6944452 56.5222449 27.6944356 56.5222456 27.694426 56.5222467 27.6944167 56.5222482 27.6944076 56.5222501 27.6943988 56.5222524 27.6943945 56.5222536 27.6943862 56.5222565 27.6943822 56.522258 27.6943746 56.5222613 27.6943674 56.522265 27.694364 56.5222669 27.6943577 56.522271 27.6943519 56.5222753 27.6943492 56.5222775 27.6943444 56.5222822 27.6943402 56.5222871 27.6943384 56.5222896 27.6943367 56.5222921 27.6943339 56.5222972 27.6943319 56.5223025 27.6943305 56.5223078 27.6943299 56.5223132 27.6943301 56.5223186 27.694331 56.5223239 27.6943317 56.5223266 27.6943337 56.5223318 27.6943364 56.522337 27.694338 56.5223395 27.6943418 56.5223445 27.6943463 56.5223493 27.6943514 56.5223539 27.6943571 56.5223582 27.6943634 56.5223623 27.6943703 56.5223661 27.6943739 56.5223679 27.6943815 56.5223713 27.6943895 56.5223743 27.6943937 56.5223757 27.6944023 56.5223782 27.6944112 56.5223803 27.6944205 56.522382 27.6944251 56.5223828 27.6944346 56.5223839 27.6944443 56.5223846 27.694454 56.522385 27.6944637 56.5223849 27.6944734 56.5223844 27.694483 56.5223835 27.6944877 56.5223829 27.6944971 56.5223814 27.6945062 56.5223795 </gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </gml:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:Surface>
+                  </aixm:horizontalProjection>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </message:hasMember>
+</message:AIXMBasicMessage>
