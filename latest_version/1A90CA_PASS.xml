@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message"
+                  xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                  xmlns:gml="http://www.opengis.net/gml/3.2"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:gco="http://www.isotc211.org/2005/gco"
+                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                  xmlns:gts="http://www.isotc211.org/2005/gts"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:html="http://www.w3.org/1999/xhtml"
+                  gml:id="uniqueId"
+                  xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd">
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<aixm:ObstacleArea gml:id="uuid.439d89c6-10df-4196-915a-c03ee866c467">
+  <gml:identifier codeSpace="urn:uuid:">439d89c6-10df-4196-915a-c03ee866c467</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:ObstacleAreaTimeSlice gml:id="uuid.d91bbd7d-6306-4272-89d8-190ef23592ef">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.59554cf4-2e7b-4709-b1ed-eeb8d9a41524">
+          <gml:beginPosition>2010-08-26T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.99b850f1-f0dd-43a4-946e-9678995d0fd8">
+          <gml:beginPosition>2010-08-26T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>AREA2</aixm:type>
+      <aixm:reference_ownerAirport xlink:type="simple" xlink:href="#uuid.26d7af79-189e-46a3-9097-c238830a6b35"/>
+      <aixm:obstacle xlink:type="simple" xlink:href="#uuid.5d2c337f-b042-4053-b2a7-70693c662117"/>
+    </aixm:ObstacleAreaTimeSlice>
+  </aixm:timeSlice>
+</aixm:ObstacleArea>
+  </hasMember>
+
+    <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<aixm:VerticalStructure gml:id="uuid.5d2c337f-b042-4053-b2a7-70693c662117">
+  <gml:identifier codeSpace="urn:uuid:">5d2c337f-b042-4053-b2a7-70693c662117</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:VerticalStructureTimeSlice gml:id="uuid.75e7787d-c83a-42b4-bd67-25461b173d5d">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.627f8b77-9f1d-48a3-b025-e284e9115321">
+          <gml:beginPosition>2010-08-26T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.e232ccfe-f976-4d72-abc0-f5f76b2f305c">
+          <gml:beginPosition>2010-08-26T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>OTHER:Mast</aixm:type>
+      <aixm:lighted>YES</aixm:lighted>
+      <aixm:group>NO</aixm:group>
+      <aixm:part>
+        <aixm:VerticalStructurePart gml:id="uuid.e4940d29-724e-469e-af3f-463dba1a6e34">
+          <aixm:horizontalProjection_location>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.024faa5a-b15d-47fc-a15a-4c0cf9f2fb3a">
+              <gml:pos>43.146083 25.721278</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.fc93c439-3054-4504-adf0-65a02383942f">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.93e5183e-2704-4733-822e-829368a5aaa2">
+                      <aixm:note>CRC:430845.9N, 0254316.6E, 105, , 29892C75</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:elevation uom="M">105</aixm:elevation>
+            </aixm:ElevatedPoint>
+          </aixm:horizontalProjection_location>
+        </aixm:VerticalStructurePart>
+      </aixm:part>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.25634893-51a2-460d-87b3-398c78b40d0b">
+          <aixm:purpose>DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.401cab2d-018f-4be8-89b0-ee3d000c2a45">
+              <aixm:note>txtDescrLgt:not specified.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.90275d1c-3c7f-4818-9290-2f34e4ba2907">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.c27751d9-881e-4158-887d-13e610d5a596">
+              <aixm:note>txtRmk:S of ARP.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:VerticalStructureTimeSlice>
+  </aixm:timeSlice>
+</aixm:VerticalStructure> 
+</hasMember>
+</AIXMBasicMessage>
