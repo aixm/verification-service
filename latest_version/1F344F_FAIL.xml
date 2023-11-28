@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+
+<aixm:RouteSegment gml:id="uuid.11841541-ddab-4ef7-8af2-37bb45ef785d">
+  <gml:identifier codeSpace="urn:uuid:">11841541-ddab-4ef7-8af2-37bb45ef785d</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:RouteSegmentTimeSlice gml:id="uuid.3396f587-ff71-4780-98a2-93a6c80d54f7">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.73034ce0-0e15-48e6-a324-0d28b2e44b14">
+          <gml:beginPosition>2018-07-19T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.5b39fdcf-ebba-4166-9444-710157bc12f5">
+          <gml:beginPosition>2014-10-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:level>UPPER</aixm:level>
+      <aixm:upperLimit uom="FT">45000</aixm:upperLimit>
+      <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+      <aixm:trueTrack>312.3168</aixm:trueTrack>
+      <aixm:reverseTrueTrack>132.0462</aixm:reverseTrueTrack>
+      <aixm:length uom="NM">28.6188</aixm:length>
+      <aixm:navigationType>RNAV</aixm:navigationType>
+      <aixm:start>
+        <aixm:EnRouteSegmentPoint gml:id="uuid.809e5eed-bcb3-484b-aba9-f1eee45a9c63">
+          <!-- ERROR: It is prohibited that EnRouteSegmentPoint has extendedServiceVolume@xlink:href value and not EnRouteSegmentPoint.extendedServiceVolume@xlink:href references-to RadioFrequencyArea -->
+          <aixm:extendedServiceVolume xlink:type="simple" xlink:href="#uuid.09424934-8352-0ae9-e053-0b751dc2b779"/>
+        </aixm:EnRouteSegmentPoint>
+      </aixm:start>
+      <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.7902d8d1-d589-4000-bec6-4e78e6be60bc"/>
+      <aixm:end>
+        <aixm:EnRouteSegmentPoint gml:id="uuid.295ddef3-7df7-4e0f-85fa-68550d35ac40">
+          <aixm:extendedServiceVolume xlink:type="simple" xlink:href="#uuid.09424934-8352-0ae9-e053-0b751dc2b779"/>
+        </aixm:EnRouteSegmentPoint>
+      </aixm:end>
+    </aixm:RouteSegmentTimeSlice>
+  </aixm:timeSlice>
+</aixm:RouteSegment> 
+
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
