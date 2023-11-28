@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+
+<aixm:Navaid gml:id="uuid.200750c6-1d9f-472e-b6ad-ce8d6a8749f3">
+  <gml:identifier codeSpace="urn:uuid:">200750c6-1d9f-472e-b6ad-ce8d6a8749f3</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.3502dfd7-53f2-47d3-90d3-aaf1505598d8">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.3c053fe1-baf6-4bdc-89c1-06c55ae85f5f">
+          <gml:beginPosition>2017-08-17T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2018-04-08T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.500963b6-77d1-4cfb-a640-9ee104d4b8a2">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>NDB_DME</aixm:type>
+      <aixm:designator>ROX</aixm:designator>
+      <aixm:name>ROXAS</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.03e8f63c-5af3-44b8-bbb7-80b0e887cfa4">
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.2204d427-a5bc-416d-a012-1ce2527545a9"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.ba803378-0e19-4406-8542-91aa7cfdcfe6">
+          <!-- WARNING: It is prohibited that NavaidTimeSlice has type value equal-to 'NDB_DME' and NavaidTimeSlice has servedAirport value and NavaidTimeSlice has-descendant gml:pos value #with less than 5 decimals# -->
+          <gml:pos>11.5 122.7</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.18b869cb-b910-447d-9f7e-59e1b96d9ab8">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.11729a6b-93e5-4fe3-b63f-50de882dc770">
+                  <aixm:note>CRC:113548.9270N, 1224518.4290E, , , F6A18FC7</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:servedAirport xlink:type="simple" xlink:href="#uuid.2223055d-de0f-4317-9e6f-45c41947cfee"/>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.90b3a15c-8f31-40ef-b48a-0e0b789e8c3b">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.100d16d7-723a-44bc-87d6-21b1e78ed1fd">
+          <gml:beginPosition>2018-04-08T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2022-04-21T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>3</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.a75bdc90-8a15-4dd0-a83a-b565a8090f24">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>NDB_DME</aixm:type>
+      <aixm:designator>ROX</aixm:designator>
+      <aixm:name>ROXAS</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.da7f88ae-5c83-41e1-aba3-308c2bcb9656">
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.2204d427-a5bc-416d-a012-1ce2527545a9"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.8fc7c8c6-6809-48ff-a5f7-c0d877061b9f">
+          <gml:pos>11.596924167 122.755119167</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.75aa02a0-00fe-4f36-a483-c5544e7bd795">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.1844109e-7857-451c-868c-040ab8a95981">
+                  <aixm:note>CRC:113548.9270N, 1224518.4290E, , , F6A18FC7</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:servedAirport xlink:type="simple" xlink:href="#uuid.2223055d-de0f-4317-9e6f-45c41947cfee"/>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.6861b16e-0489-416f-a742-725f114568b9">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.b87b9ead-af6b-4cd2-ae1e-a7f4fbdd6a61">
+          <gml:beginPosition>2022-04-21T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2022-09-08T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>4</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.9d776ae6-f9de-402b-8e2c-5764bbee1107">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>NDB_DME</aixm:type>
+      <aixm:designator>ROX</aixm:designator>
+      <aixm:name>ROXAS</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.8e7cf4d8-00a1-4624-b102-02cb968f5c2b">
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.2204d427-a5bc-416d-a012-1ce2527545a9"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.c021a81d-36d5-4c6d-b488-224cc7fd9cf5">
+          <gml:pos>11.596917 122.755111</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.c27b8f62-aa68-42f9-994c-fac60d7bdafb">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.42247d77-5997-413b-a914-c67f8a575235">
+                  <aixm:note>CRC:113548.9N, 1224518.4E, , , 94F02C0C</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:servedAirport xlink:type="simple" xlink:href="#uuid.2223055d-de0f-4317-9e6f-45c41947cfee"/>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.f5d2ad59-cd1e-4c9e-9fb4-751d6ca7e07d">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.efeff4df-cd1a-4688-a55e-2c8435bce3fa">
+          <gml:beginPosition>2022-09-08T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>5</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.41350568-2ebc-4d28-a681-f91433259eb4">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>NDB_DME</aixm:type>
+      <aixm:designator>ROX</aixm:designator>
+      <aixm:name>ROXAS</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.c2429baa-2884-46fb-be33-c99eb5766d72">
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.2204d427-a5bc-416d-a012-1ce2527545a9"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.71bc2edc-6e8f-4d8b-a26d-00e57a4e0c6c">
+          <gml:pos>11.596917 122.755111</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.a0aedca2-7827-4e3f-a6a1-602cc2a8d10d">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.b19973b5-b258-4d83-a93e-d83d128b1643">
+                  <aixm:note>CRC:113548.9N, 1224518.4E, , , 94F02C0C</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:servedAirport xlink:type="simple" xlink:href="#uuid.2223055d-de0f-4317-9e6f-45c41947cfee"/>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+</aixm:Navaid> 
+
+
+  </message:hasMember>
+</message:AIXMBasicMessage>
+
