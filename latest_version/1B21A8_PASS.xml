@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Navaid gml:id="uuid.d7784a34-09ee-44ad-b5e8-02b85a1c0d3e">
+      <gml:identifier codeSpace="urn:uuid:">d7784a34-09ee-44ad-b5e8-02b85a1c0d3e</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:NavaidTimeSlice gml:id="uuid.ae4651a3-e25b-41f7-b1af-3f432e4f0161">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.ce3e67fa-494a-484f-874e-779461992e5a">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>9</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.66755154-8def-446f-92c8-cb15b5160573">
+              <gml:beginPosition>2003-01-31T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>TACAN</aixm:type>
+          <aixm:designator>SPA</aixm:designator>
+          <aixm:name>SPANGDAHLEM</aixm:name>
+          <aixm:navaidEquipment>
+            <aixm:NavaidComponent gml:id="uuid.4d9edb3b-27b8-4316-aa98-cfde513f0108">
+              <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+              <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.15d35443-b21c-4dfa-9394-b9c8d4426d35"/>
+            </aixm:NavaidComponent>
+          </aixm:navaidEquipment>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e3492a65-535e-47b7-9add-40f860cd46a7">
+              <gml:pos>49.978986111 6.697680556</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.892dd47f-f815-4c74-910c-e21b1558452e">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.cb7ecb29-86b0-44ad-b8fa-95d9cf34eb64">
+                      <aixm:note>CRC:495844.3500N, 0064151.6500E, 1150, , 3A164EFB</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:elevation uom="FT">1150</aixm:elevation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:9bb1b68b-0187-4c74-897f-150c8df97466"/>
+        </aixm:NavaidTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Navaid>
+  </hasMember>
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:TACAN gml:id="uuid.15d35443-b21c-4dfa-9394-b9c8d4426d35">
+      <gml:identifier codeSpace="urn:uuid:">15d35443-b21c-4dfa-9394-b9c8d4426d35</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:TACANTimeSlice gml:id="uuid.a2034daa-d0f9-4cd3-8e57-cb69c21594b7">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.b48b0333-6add-4bc7-a5aa-21e74f43daa9">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>8</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.0161f49e-e809-43af-bf5b-13f0b48e94ba">
+              <gml:beginPosition>2003-01-31T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>SPA</aixm:designator>
+          <aixm:name>SPANGDAHLEM</aixm:name>
+          <aixm:magneticVariation>2.79</aixm:magneticVariation>
+          <aixm:dateMagneticVariation>2023</aixm:dateMagneticVariation>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.35570781-0b3c-4ec7-911d-5395254b6d19">
+              <gml:pos>49.978986111 6.697680556</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.02e26b4b-7ced-4771-9552-0226c67887e7">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.c4a27d63-3df5-40d8-9caf-2277fc634779">
+                      <aixm:note>CRC:495844.3500N, 0064151.6500E, 1150, , 3A164EFB</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:elevation uom="FT">1150</aixm:elevation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:authority>
+            <aixm:AuthorityForNavaidEquipment gml:id="uuid.f3e08a8c-2889-47c6-b176-336e5df9eaa0">
+              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-8ab7-0ae9-e053-0b751dc2b779"/>
+            </aixm:AuthorityForNavaidEquipment>
+          </aixm:authority>
+          <aixm:availability>
+            <aixm:NavaidOperationalStatus gml:id="uuid.e1a9a6a1-74f4-45c3-9b56-83cc88678262">
+              <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
+            </aixm:NavaidOperationalStatus>
+          </aixm:availability>
+          <aixm:channel>32X</aixm:channel>
+        </aixm:TACANTimeSlice>
+      </aixm:timeSlice>
+    </aixm:TACAN>
+  </hasMember>
+
+</message:AIXMBasicMessage>
+

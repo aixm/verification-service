@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+
+<aixm:Navaid gml:id="uuid.580fdc26-8d00-4bfe-9b7a-e7f7e76d30a0">
+  <gml:identifier codeSpace="urn:uuid:">580fdc26-8d00-4bfe-9b7a-e7f7e76d30a0</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.bb2655a5-e3cb-4b3f-8a30-b6205bc645ff">
+      <gml:validTime>
+        <gml:TimePeriod gml:id="uuid.e20a054a-cfcc-49be-9c98-0212a2b99f4e">
+          <gml:beginPosition>2003-09-04T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime>
+        <gml:TimePeriod gml:id="uuid.7e5f54a4-a6f3-4ea7-8ad0-823bbd9e6315">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>ILS_DME</aixm:type>
+      <aixm:designator>MG</aixm:designator>
+      <aixm:name>LJUBLJANA</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.fea6ab97-6e72-4cba-8c95-4dd332ce7fc7">
+          <aixm:markerPosition>OUTER</aixm:markerPosition>
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <!-- ERROR: It is prohibited that NavaidTimeSlice has type value equal-to 'ILS_DME' and NavaidTimeSlice.navaidEquipment.NavaidComponent.theNavaidEquipment@xlink:href references-to DirectionFinder -->
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.1dc2190e-74d1-4bd2-b17c-889617406c02"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.f00f28cf-3c9f-47d5-898d-2780645fb04b">
+          <gml:pos>46.1732306 14.5559444</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.9bd07a7f-41ee-40e0-a7d5-2d722f72a73d">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.87a5b622-0943-4b56-8332-3c93a5079c24">
+                  <aixm:note>CRC:461023.63N, 0143321.40E, 324, , 8CA29B3C</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:elevation uom="M">324</aixm:elevation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+</aixm:Navaid> 
+  </message:hasMember>
+
+  <message:hasMember>
+    <aixm:DirectionFinder gml:id="uuid.1dc2190e-74d1-4bd2-b17c-889617406c02">
+        <gml:identifier codeSpace="urn:uuid:">1dc2190e-74d1-4bd2-b17c-889617406c02</gml:identifier>
+        <aixm:timeSlice>
+            <aixm:DirectionFinderTimeSlice gml:id="ID_64961_05">
+                <gml:validTime>
+                    <gml:TimePeriod gml:id="ID_64961_06">
+                        <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                        <gml:endPosition indeterminatePosition="unknown"/>
+                    </gml:TimePeriod>
+                </gml:validTime>
+                <aixm:interpretation>BASELINE</aixm:interpretation>
+                <aixm:sequenceNumber>1</aixm:sequenceNumber>
+
+                <aixm:designator>DONO</aixm:designator>
+                <aixm:location>
+                    <aixm:ElevatedPoint gml:id="ID_64961_07" srsName="urn:ogc:def:crs:EPSG::4326">
+                        <gml:pos>21.123456 41.123456</gml:pos>
+                        <aixm:elevation uom="M">1112</aixm:elevation>
+                    </aixm:ElevatedPoint>
+                </aixm:location>
+                <aixm:authority>
+                    <aixm:AuthorityForNavaidEquipment gml:id="ID_64961_08">
+                        <aixm:theOrganisationAuthority xlink:href="urn:uuid:ae987b2e-bbd3-4f53-80d9-ae80c8a2c1a2"/>
+                    </aixm:AuthorityForNavaidEquipment>
+                </aixm:authority>
+                <aixm:annotation>
+                  <aixm:Note gml:id="abc123">
+                    <aixm:propertyName>flightChecked</aixm:propertyName>
+                  </aixm:Note>
+                </aixm:annotation>
+            </aixm:DirectionFinderTimeSlice>
+        </aixm:timeSlice>
+    </aixm:DirectionFinder>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
