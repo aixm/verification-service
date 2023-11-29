@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    
+    <message:hasMember>
+        <aixm:Navaid gml:id="uuid.619a4d29-d60b-4436-a025-9184d6eee1ba">
+            <gml:identifier codeSpace="urn:uuid:">619a4d29-d60b-4436-a025-9184d6eee1ba</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="ID_1B2151_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1B2151_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:type>SDF</aixm:type>
+                    <aixm:designator>DONA</aixm:designator>
+                    
+                    <aixm:navaidEquipment>
+                        <aixm:NavaidComponent gml:id="ID_1B2151_03">
+                            <aixm:theNavaidEquipment xlink:href="urn:uuid:ecb77bba-50ad-4b72-8901-c1ca169c8523"/>
+                        </aixm:NavaidComponent>
+                    </aixm:navaidEquipment>
+                    
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:SDF gml:id="uuid.ecb77bba-50ad-4b72-8901-c1ca169c8523">
+            <gml:identifier codeSpace="urn:uuid:">ecb77bba-50ad-4b72-8901-c1ca169c8523</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:SDFTimeSlice gml:id="ID_1B2151_04">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1B2151_05">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>DONA</aixm:designator>
+                    
+                </aixm:SDFTimeSlice>
+            </aixm:timeSlice>
+        </aixm:SDF>
+    </message:hasMember>
+   
+</message:AIXMBasicMessage>
+
