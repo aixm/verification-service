@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+  <message:hasMember>
+    <aixm:AirspaceBorderCrossing gml:id="uuid.0942496b-7ce7-0b22-e053-0b751dc2499f">
+      <gml:identifier codeSpace="urn:uuid:">0942496b-7ce7-0b22-e053-0b751dc2499f</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceBorderCrossingTimeSlice gml:id="uuid.39f02658-7c5a-409b-a0ee-55735c36307b">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.837479d3-a363-4e1f-95b0-f55ba4f1030b">
+              <gml:beginPosition>2008-10-19T22:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.21f902a9-a6b7-4769-b987-8a1aee06e552">
+              <gml:beginPosition>2003-05-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+
+          <!-- ERROR Found AirspaceBorderCrossing with exitedAirspace@xlink:href value that does not match any Airspace (${association}) -->
+          <aixm:exitedAirspace xlink:type="simple" xlink:href="#uuid.09424934-dead-beef-e053-0b751dc2b779"/>
+
+        </aixm:AirspaceBorderCrossingTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AirspaceBorderCrossing>
+  </message:hasMember>
+
+  <message:hasMember>
+    <aixm:Airspace gml:id="uuid.09424934-8352-0ae9-e053-0b751dc2b779">
+      <gml:identifier codeSpace="urn:uuid:">09424934-8352-0ae9-e053-0b751dc2b779</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.e774672d-c756-45ca-8b9f-88749210b38a">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.1bb60c0c-149f-4e94-a9eb-b7197f9ecdff">
+              <gml:beginPosition>2008-08-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.cd178348-9d7a-4598-8cd3-5e4ab62db0a7">
+              <gml:beginPosition>2003-05-20T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </message:hasMember>
+</message:AIXMBasicMessage>
