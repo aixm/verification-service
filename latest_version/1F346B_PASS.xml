@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
 
 <aixm:AirTrafficControlService gml:id="uuid.1a056b39-c611-4d57-924e-bc857a79a1bb">
   <gml:identifier codeSpace="urn:uuid:">1a056b39-c611-4d57-924e-bc857a79a1bb</gml:identifier>
@@ -1226,7 +1239,9 @@
     </aixm:AirTrafficControlServiceTimeSlice>
   </aixm:timeSlice>
 </aixm:AirTrafficControlService> 
+  </message:hasMember>
 
+  <message:hasMember>
 <aixm:Unit gml:id="uuid.89e59e4e-7b34-4574-8f9e-4cc7eb4537cf">
   <gml:identifier codeSpace="urn:uuid:">89e59e4e-7b34-4574-8f9e-4cc7eb4537cf</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1283,7 +1298,9 @@
     </aixm:UnitTimeSlice>
   </aixm:timeSlice>
 </aixm:Unit> 
+  </message:hasMember>
 
+  <message:hasMember>
 <aixm:RadioCommunicationChannel gml:id="uuid.0e4655bd-8d39-4f32-b90f-333910c60f4a">
   <gml:identifier codeSpace="urn:uuid:">0e4655bd-8d39-4f32-b90f-333910c60f4a</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1324,7 +1341,9 @@
     </aixm:RadioCommunicationChannelTimeSlice>
   </aixm:timeSlice>
 </aixm:RadioCommunicationChannel> 
+  </message:hasMember>
 
+  <message:hasMember>
 <aixm:RadioCommunicationChannel gml:id="uuid.546faf51-363a-4ef8-9dad-f85e6c8ca002">
   <gml:identifier codeSpace="urn:uuid:">546faf51-363a-4ef8-9dad-f85e6c8ca002</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1365,7 +1384,9 @@
     </aixm:RadioCommunicationChannelTimeSlice>
   </aixm:timeSlice>
 </aixm:RadioCommunicationChannel> 
+  </message:hasMember>
 
+  <message:hasMember>
 <aixm:RadioCommunicationChannel gml:id="uuid.edabf1dd-4d98-40c3-95b1-169f341fa579">
   <gml:identifier codeSpace="urn:uuid:">edabf1dd-4d98-40c3-95b1-169f341fa579</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1443,7 +1464,9 @@
     </aixm:RadioCommunicationChannelTimeSlice>
   </aixm:timeSlice>
 </aixm:RadioCommunicationChannel> 
+  </message:hasMember>
 
+  <message:hasMember>
 <aixm:AirportHeliport gml:id="uuid.27182fa4-a679-4653-9315-e51c08e6c45f">
   <gml:identifier codeSpace="urn:uuid:">27182fa4-a679-4653-9315-e51c08e6c45f</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1486,7 +1509,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4d753397-7d57-4daf-a126-4e8fde86cca8">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4d753397-7d57-4daf-a126-4e8fde86cca8">
           <gml:pos>54.459349167 9.516363889</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -1831,7 +1854,7 @@ For further information see ADC</aixm:note>
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.3bec235e-54be-43b8-bfbd-985688759274">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.3bec235e-54be-43b8-bfbd-985688759274">
           <gml:pos>54.459349167 9.516363889</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -2176,7 +2199,7 @@ For further information see ADC</aixm:note>
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.9c552b6d-79cb-4963-a478-0fcda5a62b07">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.9c552b6d-79cb-4963-a478-0fcda5a62b07">
           <gml:pos>54.459349167 9.516363889</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -2489,7 +2512,7 @@ For further information see ADC</aixm:note>
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4948b928-4173-4eab-9bff-5ec49c7d21cb">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4948b928-4173-4eab-9bff-5ec49c7d21cb">
           <gml:pos>54.459349167 9.516363889</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -2802,7 +2825,7 @@ For further information see ADC</aixm:note>
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.0841c5f3-f907-4c51-99d6-1063a60d8181">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.0841c5f3-f907-4c51-99d6-1063a60d8181">
           <gml:pos>54.459349167 9.516363889</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -3115,7 +3138,7 @@ For further information see ADC</aixm:note>
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.509360f5-e16b-4406-8c50-0e6741f416c7">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.509360f5-e16b-4406-8c50-0e6741f416c7">
           <gml:pos>54.459349167 9.516363889</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -3428,7 +3451,7 @@ For further information see ADC</aixm:note>
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.a141d7d1-0564-440b-8eba-a467dc4c9989">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.a141d7d1-0564-440b-8eba-a467dc4c9989">
           <gml:pos>54.459349167 9.516363889</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -3741,7 +3764,7 @@ For further information see ADC</aixm:note>
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:ead-slot="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e0c330de-7e17-48d1-a741-b021b2a76343">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:ead-slot="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:ead-adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR" xmlns:event="http://www.aixm.aero/schema/5.1.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e0c330de-7e17-48d1-a741-b021b2a76343">
           <gml:pos>54.459349167 9.516363889</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -4016,7 +4039,9 @@ For further information see ADC</aixm:note>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
+  </message:hasMember>
 
+  <message:hasMember>
 <aixm:OrganisationAuthority gml:id="uuid.09424934-8ab7-0ae9-e053-0b751dc2b779">
   <gml:identifier codeSpace="urn:uuid:">09424934-8ab7-0ae9-e053-0b751dc2b779</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -4359,7 +4384,9 @@ GERMANY</aixm:deliveryPoint>
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
+  </message:hasMember>
 
+  <message:hasMember>
 <aixm:Airspace gml:id="uuid.0e7afab0-4ccc-4c04-ad30-653a1c524745">
   <gml:identifier codeSpace="urn:uuid:">0e7afab0-4ccc-4c04-ad30-653a1c524745</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -4398,7 +4425,7 @@ GERMANY</aixm:deliveryPoint>
               <aixm:lowerLimit uom="FT">0</aixm:lowerLimit>
               <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
               <aixm:horizontalProjection>
-                <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.0e56baf9-8bb1-453f-b498-6b527ca4b0b6">
+                <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.0e56baf9-8bb1-453f-b498-6b527ca4b0b6">
                   <gml:patches>
                     <gml:PolygonPatch interpolation="planar">
                       <gml:exterior>
@@ -4590,7 +4617,7 @@ CRC:542025.0008N,0092115.0012E,,,BAA47793</aixm:note>
               <aixm:lowerLimit uom="FT">0</aixm:lowerLimit>
               <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
               <aixm:horizontalProjection>
-                <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.c978d1d1-1be6-4724-a659-68474c521811">
+                <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.c978d1d1-1be6-4724-a659-68474c521811">
                   <gml:patches>
                     <gml:PolygonPatch interpolation="planar">
                       <gml:exterior>
@@ -4735,7 +4762,7 @@ CRC:542025.0008N,0092115.0012E,,,BAA47793</aixm:note>
               <aixm:lowerLimit uom="FT">0</aixm:lowerLimit>
               <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
               <aixm:horizontalProjection>
-                <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b55bd7f4-3c03-4c9d-a1c4-9e8def245fe9">
+                <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b55bd7f4-3c03-4c9d-a1c4-9e8def245fe9">
                   <gml:patches>
                     <gml:PolygonPatch interpolation="planar">
                       <gml:exterior>
@@ -5172,4 +5199,6 @@ CRC:542025.0008N,0092115.0012E,,,BAA47793</aixm:note>
   </aixm:timeSlice>
 </aixm:Airspace>
 
-</AIXMBasicMessage>
+  </message:hasMember>
+</message:AIXMBasicMessage>
+
