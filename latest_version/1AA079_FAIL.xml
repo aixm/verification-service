@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+<AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -7,7 +7,6 @@
                           xmlns:gco="http://www.isotc211.org/2005/gco"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
                           gml:id="M0000001">
-
   <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:AirspaceTimeSlice gml:id="uuid.bd38db31-0cf1-4fb9-9e69-36ac6d7161f2">
       <gml:validTime>
@@ -62,27 +61,8 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-adr:AirspaceExtension gml:id="uuid.ff67af07-9408-4f53-8559-7ebc197006ae">
-          <ead-adr:flexibleUse>YES</ead-adr:flexibleUse>
-        </ead-adr:AirspaceExtension>
-      </aixm:extension>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.d32167f3-18bf-4959-b66d-6e17c0c42218">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.35460125-26f5-432c-a440-04fcf1d927be">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2019-08-26T06:55:20Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </hasMember>
-
   <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Airspace gml:id="uuid.c63cc8a4-8acb-419b-80b4-57105541e187">
       <gml:identifier codeSpace="urn:uuid:">c63cc8a4-8acb-419b-80b4-57105541e187</gml:identifier>
@@ -117,7 +97,7 @@
                   <aixm:lowerLimit uom="FT">0</aixm:lowerLimit>
                   <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
                   <aixm:horizontalProjection>
-                    <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e392bcc2-87b1-4d2b-a57e-10d36734bad6">
+                    <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e392bcc2-87b1-4d2b-a57e-10d36734bad6">
                       <gml:patches>
                         <gml:PolygonPatch interpolation="planar">
                           <gml:exterior>
@@ -294,29 +274,8 @@
               <aixm:status>ACTIVE</aixm:status>
             </aixm:AirspaceActivation>
           </aixm:activation>
-          <aixm:extension>
-            <ead-adr:AirspaceExtension gml:id="uuid.9d701c56-cb92-469a-b057-1b874ea0cecf">
-              <ead-adr:flexibleUse>YES</ead-adr:flexibleUse>
-            </ead-adr:AirspaceExtension>
-          </aixm:extension>
-          <aixm:extension>
-            <ead-audit:AirspaceExtension gml:id="uuid.dc9e052c-87c3-4e18-ae51-6afeb7b97bbd">
-              <ead-audit:auditInformation>
-                <ead-audit:Audit gml:id="uuid.ae34d755-b96a-4e85-befc-2ea4eb4b1a20">
-                  <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-                  <ead-audit:creationDate>2022-05-10T07:34:45Z</ead-audit:creationDate>
-                  <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-                  <ead-audit:reasonForChange>Reason: O22/0068.</ead-audit:reasonForChange>
-                  <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-                </ead-audit:Audit>
-              </ead-audit:auditInformation>
-            </ead-audit:AirspaceExtension>
-          </aixm:extension>
         </aixm:AirspaceTimeSlice>
       </aixm:timeSlice>
     </aixm:Airspace> 
   </hasMember>
-
-  
 </AIXMBasicMessage>
-
