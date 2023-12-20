@@ -36,6 +36,16 @@
                     </aixm:NavaidComponent>
                 </aixm:navaidEquipment>
                 
+                <aixm:location>
+                    <aixm:ElevatedPoint gml:id="ID_33070_12" srsName="urn:ogc:def:crs:EPSG::4326">
+                        <!-- Coordinates should be expressed with at least 5 decimals -->
+                        <gml:pos>45.12345 23.12345</gml:pos>
+                        <aixm:elevation uom="M">120</aixm:elevation>
+                    </aixm:ElevatedPoint>              
+                </aixm:location>
+                
+                <aixm:servedAirport xlink:href="urn:uuid:17a6bbff-dede-4e50-b68e-713575eea59f"/>
+                
             </aixm:NavaidTimeSlice>
         </aixm:timeSlice>
     </aixm:Navaid>
@@ -113,9 +123,7 @@
                     </aixm:AirportHeliportResponsibilityOrganisation>
                 </aixm:responsibleOrganisation>
                 <aixm:ARP>
-                    <aixm:ElevatedPoint gml:id="ID_33070_12" srsName="urn:ogc:def:crs:EPSG::4326">
-                        
-                        <!-- Coordinates should be expressed with at least 5 decimals -->
+                    <aixm:ElevatedPoint gml:id="ID_33070_133" srsName="urn:ogc:def:crs:EPSG::4326">
                         <gml:pos>45.411256 23.547895</gml:pos>
                         <aixm:elevation uom="M">113</aixm:elevation>
                     </aixm:ElevatedPoint>
