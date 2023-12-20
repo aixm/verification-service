@@ -4,9 +4,8 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
@@ -23,7 +22,6 @@
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
-
                     <aixm:emergencyLighting>YES</aixm:emergencyLighting>
                     <aixm:intensityLevel>LIH</aixm:intensityLevel>
                     <aixm:colour>AMBER</aixm:colour>
@@ -33,8 +31,6 @@
                     <aixm:availability>
                         <aixm:GroundLightingAvailability gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b9ff"/>
                     </aixm:availability>
-
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
                             <aixm:propertyName>emergencyLighting</aixm:propertyName>
@@ -45,7 +41,6 @@
                             <aixm:propertyName>intensityLevel</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
                             <aixm:propertyName>colour</aixm:propertyName>
@@ -56,7 +51,6 @@
                             <aixm:propertyName>element</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
                             <aixm:propertyName>availability</aixm:propertyName>
@@ -67,7 +61,6 @@
                             <aixm:propertyName>classICAO</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
                             <aixm:propertyName>type</aixm:propertyName>
@@ -78,7 +71,6 @@
                             <aixm:propertyName>length</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
                             <aixm:propertyName>sequencedFlashing</aixm:propertyName>
@@ -89,23 +81,19 @@
                             <aixm:propertyName>alignmentIndicator</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
                             <aixm:propertyName>servedRunwayDirection</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:classICAO>CAT1</aixm:classICAO>
                     <aixm:type>AFOVRN</aixm:type>
                     <aixm:length>10</aixm:length>
                     <aixm:sequencedFlashing>YES</aixm:sequencedFlashing>
                     <aixm:alignmentIndicator>YES</aixm:alignmentIndicator>
                     <aixm:servedRunwayDirection/>
-
                 </aixm:ApproachLightingSystemTimeSlice>
             </aixm:timeSlice>
         </aixm:ApproachLightingSystem>
     </message:hasMember>
-    
 </message:AIXMBasicMessage>
