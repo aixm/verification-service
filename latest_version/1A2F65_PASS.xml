@@ -4,9 +4,8 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
@@ -31,7 +30,6 @@
                             <gml:endPosition indeterminatePosition="unknown"/>
                         </gml:TimePeriod>
                     </aixm:featureLifetime>
-
                     <aixm:flightOperations>ARR</aixm:flightOperations>
                     <aixm:rank>ALTERNATE</aixm:rank>
                     <aixm:compliantICAO>YES</aixm:compliantICAO>
@@ -49,7 +47,6 @@
                     <aixm:groundCommunication>
                         <aixm:ContactInformation gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001"/>
                     </aixm:groundCommunication>
-
                     <aixm:availability>
                         <aixm:ServiceOperationalStatus gml:id="uuid.b2b7e740-67a5-41e9-951b-af52bd5c57d2">
                             <aixm:annotation>
@@ -78,7 +75,6 @@
                             <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
                         </aixm:ServiceOperationalStatus>
                     </aixm:availability>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
                             <aixm:propertyName>flightOperations</aixm:propertyName>
@@ -89,77 +85,64 @@
                             <aixm:propertyName>rank</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
                             <aixm:propertyName>compliantICAO</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
                             <aixm:propertyName>name</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
                             <aixm:propertyName>location</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
                             <aixm:propertyName>serviceProvider</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
                             <aixm:propertyName>callsign</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
                             <aixm:propertyName>radioCommunication</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
                             <aixm:propertyName>groundCommunication</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
                             <aixm:propertyName>availability</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
                             <aixm:propertyName>airportHeliport</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2b">
                             <aixm:propertyName>category</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2c">
                             <aixm:propertyName>standard</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:airportHeliport/>
                     <aixm:category>A2</aixm:category>
                     <aixm:standard>FAA</aixm:standard>
-
                 </aixm:FireFightingServiceTimeSlice>
             </aixm:timeSlice>
         </aixm:FireFightingService>
