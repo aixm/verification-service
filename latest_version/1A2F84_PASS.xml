@@ -4,9 +4,8 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
@@ -39,7 +38,6 @@
               <aixm:collocationGroup>1</aixm:collocationGroup>
               <aixm:markerPosition>BACKCOURSE</aixm:markerPosition>
               <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
-
               <aixm:annotation>
                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
                   <aixm:propertyName>collocationGroup</aixm:propertyName>
@@ -60,7 +58,6 @@
                   <aixm:propertyName>theNavaidEquipment</aixm:propertyName>
                 </aixm:Note>
               </aixm:annotation>
-
               <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.7692166e-60e6-467d-b5f0-c728aeae85d6"/>
             </aixm:NavaidComponent>
           </aixm:navaidEquipment>
@@ -87,7 +84,6 @@
       </aixm:timeSlice>
     </aixm:Navaid>
   </message:hasMember>
-
   <message:hasMember>
     <aixm:DME gml:id="uuid.7692166e-60e6-467d-b5f0-c728aeae85d6">
       <gml:identifier codeSpace="urn:uuid:"
@@ -142,5 +138,4 @@
       </aixm:timeSlice>
     </aixm:DME>
   </message:hasMember>
-
 </message:AIXMBasicMessage>

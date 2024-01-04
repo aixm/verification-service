@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+<message:AIXMBasicMessage 
                           xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gco="http://www.isotc211.org/2005/gco"
                           xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -14,7 +14,6 @@
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
                           gml:id="M00001">
   <message:hasMember>
-
 <aixm:Navaid gml:id="uuid.580fdc26-8d00-4bfe-9b7a-e7f7e76d30a0">
   <gml:identifier codeSpace="urn:uuid:">580fdc26-8d00-4bfe-9b7a-e7f7e76d30a0</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -47,7 +46,7 @@
         </aixm:NavaidComponent>
       </aixm:navaidEquipment>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.f00f28cf-3c9f-47d5-898d-2780645fb04b">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.f00f28cf-3c9f-47d5-898d-2780645fb04b">
           <gml:pos>46.1732306 14.5559444</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.9bd07a7f-41ee-40e0-a7d5-2d722f72a73d">
@@ -66,7 +65,6 @@
   </aixm:timeSlice>
 </aixm:Navaid> 
   </message:hasMember>
-
   <message:hasMember>
         <aixm:Azimuth gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
             <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
@@ -80,7 +78,6 @@
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
-
                     <aixm:designator>11</aixm:designator>
                     <aixm:name>NAME</aixm:name>
                     <aixm:emissionClass>A2</aixm:emissionClass>
@@ -107,7 +104,6 @@
                     <aixm:availability>
                         <aixm:NavaidOperationalStatus gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfff1"/>
                     </aixm:availability>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
                             <aixm:propertyName>designator</aixm:propertyName>
@@ -138,7 +134,6 @@
                             <aixm:propertyName>magneticVariationAccuracy</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
                             <aixm:propertyName>dateMagneticVariation</aixm:propertyName>
@@ -149,7 +144,6 @@
                             <aixm:propertyName>flightChecked</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
                             <aixm:propertyName>location</aixm:propertyName>
@@ -160,7 +154,6 @@
                             <aixm:propertyName>authority</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
                             <aixm:propertyName>monitoring</aixm:propertyName>
@@ -171,7 +164,6 @@
                             <aixm:propertyName>availability</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2c">
                             <aixm:propertyName>type</aixm:propertyName>
@@ -182,7 +174,6 @@
                             <aixm:propertyName>trueBearing</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2e">
                             <aixm:propertyName>trueBearingAccuracy</aixm:propertyName>
@@ -218,7 +209,6 @@
                             <aixm:propertyName>channel</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:type>BWD</aixm:type>
                     <aixm:trueBearing>10</aixm:trueBearing>
                     <aixm:trueBearingAccuracy>1</aixm:trueBearingAccuracy>
@@ -228,12 +218,8 @@
                     <aixm:angleCoverLeft>10</aixm:angleCoverLeft>
                     <aixm:angleCoverRight>10</aixm:angleCoverRight>
                     <aixm:channel>500</aixm:channel>
-
                 </aixm:AzimuthTimeSlice>
             </aixm:timeSlice>
         </aixm:Azimuth>
   </message:hasMember>
-
 </message:AIXMBasicMessage>
-
-

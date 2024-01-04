@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
 <aixm:TaxiwayElement gml:id="uuid.3d714fe0-5495-4646-aaa4-fa1c7719954e">
   <gml:identifier codeSpace="urn:uuid:">3d714fe0-5495-4646-aaa4-fa1c7719954e</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -27,12 +26,10 @@
       <aixm:gradeSeparation nilReason="unknown" xsi:nil="true"/>
       <aixm:surfaceProperties nilReason="unknown" xsi:nil="true"/>
       <aixm:associatedTaxiway xlink:type="simple" xlink:href="#uuid.de00c123-7a5a-4e00-a93c-1d70bf2aafd3"/>
-
       <!-- ERROR: Found TaxiwayElementTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('type', 'length', 'width', 'gradeSeparation', 'surfaceProperties', 'associatedTaxiway', 'extent', 'availability'). -->
       <aixm:landingDirectionIndicator>NO</aixm:landingDirectionIndicator>
-
       <aixm:extent>
-        <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.62799bc4-ba77-46c1-9793-4ed2cc0b7a68" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.62799bc4-ba77-46c1-9793-4ed2cc0b7a68" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:patches>
             <gml:PolygonPatch>
               <gml:exterior>
@@ -67,7 +64,6 @@
     </aixm:TaxiwayElementTimeSlice>
   </aixm:timeSlice>
 </aixm:TaxiwayElement>
-
 <aixm:Taxiway gml:id="uuid.de00c123-7a5a-4e00-a93c-1d70bf2aafd3">
   <gml:identifier codeSpace="urn:uuid:">de00c123-7a5a-4e00-a93c-1d70bf2aafd3</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -153,7 +149,6 @@ TWY: ar ugunm CL (izemot uz TWY K, TXL E1 un TXL P (South)), TWY malas (izemot u
     </aixm:TaxiwayTimeSlice>
   </aixm:timeSlice>
 </aixm:Taxiway> 
-
 <aixm:AirportHeliport gml:id="uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b">
   <gml:identifier codeSpace="urn:uuid:">52766fb6-7a3b-49ce-9586-f90250f0dd1b</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -212,7 +207,7 @@ TWY: ar ugunm CL (izemot uz TWY K, TXL E1 un TXL P (South)), TWY malas (izemot u
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:OGC:1.3:CRS84" gml:id="uuid.91c8399e-efac-4b27-9045-40e80801cba7">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:OGC:1.3:CRS84" gml:id="uuid.91c8399e-efac-4b27-9045-40e80801cba7">
           <gml:pos>23.9711111 56.9236111</gml:pos>
           <aixm:horizontalAccuracy uom="FT">10</aixm:horizontalAccuracy>
           <aixm:elevation uom="FT">37</aixm:elevation>
@@ -499,5 +494,4 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
-
 </AIXMBasicMessage>

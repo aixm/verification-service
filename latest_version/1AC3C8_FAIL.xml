@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
-
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
 <aixm:TouchDownLiftOffMarking gml:id="uuid.f7b12f24-6a18-47dd-bd77-31f10af75a04">
   <gml:identifier codeSpace="urn:uuid:">f7b12f24-6a18-47dd-bd77-31f10af75a04</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -18,7 +16,6 @@
       <aixm:correctionNumber>0</aixm:correctionNumber>
       <!-- ERROR: Found TouchDownLiftOffMarkingTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('markingICAOStandard', 'condition', 'element', 'markingLocation', 'markedTouchDownLiftOff') -->
       <aixm:fieldElevation uom="FT">509</aixm:fieldElevation>
-
       <aixm:featureLifetime xlink:type="simple">
         <gml:TimePeriod gml:id="uuid.8ba6f4f9-e1f1-4719-9cc4-e12a2ce65f31">
           <gml:beginPosition>2020-01-30T00:00:00Z</gml:beginPosition>
@@ -31,7 +28,7 @@
         <aixm:MarkingElement gml:id="uuid.2ce41f9a-b9a6-4bcf-a7d5-016bc7a355e3">
           <aixm:colour>WHITE</aixm:colour>
           <aixm:extent_surfaceExtent>
-            <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.4c544c4e-0ada-40cb-bd9d-9278ed79556e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.4c544c4e-0ada-40cb-bd9d-9278ed79556e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:patches>
                 <gml:PolygonPatch>
                   <gml:exterior>
@@ -79,7 +76,6 @@
     </aixm:TouchDownLiftOffMarkingTimeSlice>
   </aixm:timeSlice>
 </aixm:TouchDownLiftOffMarking> 
-
 <aixm:TouchDownLiftOff gml:id="uuid.a6818121-f622-43f3-8304-ed8f2d3ffde9">
   <gml:identifier codeSpace="urn:uuid:">a6818121-f622-43f3-8304-ed8f2d3ffde9</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -107,7 +103,7 @@
       <aixm:helicopterClass nilReason="unknown" xsi:nil="true"/>
       <aixm:abandoned nilReason="unknown" xsi:nil="true"/>
       <aixm:aimingPoint>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.45a0593e-9fb9-45dc-9fcd-64465b97bd55" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.45a0593e-9fb9-45dc-9fcd-64465b97bd55" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:pos>27.6944583 56.5223139</gml:pos>
           <aixm:horizontalAccuracy uom="M">1</aixm:horizontalAccuracy>
           <aixm:elevation uom="FT">505</aixm:elevation>
@@ -116,7 +112,7 @@
         </aixm:ElevatedPoint>
       </aixm:aimingPoint>
       <aixm:extent>
-        <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.0c602432-5468-4282-8fa3-423ad5bd523b" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.0c602432-5468-4282-8fa3-423ad5bd523b" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:patches>
             <gml:PolygonPatch>
               <gml:exterior>
@@ -159,7 +155,6 @@
     </aixm:TouchDownLiftOffTimeSlice>
   </aixm:timeSlice>
 </aixm:TouchDownLiftOff> 
-
 <aixm:AirportHeliport gml:id="uuid.cbb1ef31-6477-42fd-bec0-f286069466a2">
   <gml:identifier codeSpace="urn:uuid:">cbb1ef31-6477-42fd-bec0-f286069466a2</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -218,7 +213,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.00861394-d753-408e-9b4a-a7aaa53f436e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.00861394-d753-408e-9b4a-a7aaa53f436e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:pos>27.6941667 56.5211111</gml:pos>
           <aixm:horizontalAccuracy uom="M">1</aixm:horizontalAccuracy>
           <aixm:annotation>
@@ -516,7 +511,6 @@ Nepiecieamo standarta informciju ataujas saemanai skatt EVLU AD 3.19.</aixm:note
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
-
 <aixm:Runway gml:id="uuid.ab2e2bb0-da35-47f0-be3f-d32dc75332a2">
   <gml:identifier codeSpace="urn:uuid:">ab2e2bb0-da35-47f0-be3f-d32dc75332a2</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -598,7 +592,6 @@ Nepiecieamo standarta informciju ataujas saemanai skatt EVLU AD 3.19.</aixm:note
     </aixm:RunwayTimeSlice>
   </aixm:timeSlice>
 </aixm:Runway> 
-
 <aixm:OrganisationAuthority gml:id="uuid.6ca356ce-c9b0-414a-84b0-d5f61bf8c89b">
   <gml:identifier codeSpace="urn:uuid:">6ca356ce-c9b0-414a-84b0-d5f61bf8c89b</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -726,5 +719,4 @@ Nepiecieamo standarta informciju ataujas saemanai skatt EVLU AD 3.19.</aixm:note
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
-
 </AIXMBasicMessage>

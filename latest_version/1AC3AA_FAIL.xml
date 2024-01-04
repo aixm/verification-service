@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
-
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
 <aixm:GuidanceLineMarkingTimeSlice gml:id="uuid.126bea53-a828-47ec-ab25-8944f285791d">
   <gml:validTime xlink:type="simple">
     <gml:TimePeriod gml:id="uuid.4fc8dbdf-a9ae-4085-b454-6ceedb1aaa86">
@@ -22,13 +20,12 @@
   <aixm:condition>GOOD</aixm:condition>
   <!-- ERROR: Found GuidanceLineMarkingTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('markingICAOStandard', 'condition', 'element', 'markedGuidanceLine'). -->
       <aixm:magneticVariation>10</aixm:magneticVariation>
-
   <aixm:element>
     <aixm:MarkingElement gml:id="uuid.3654dadc-73fa-427a-96a4-eee7b03f1615">
       <aixm:colour>YELLOW</aixm:colour>
       <aixm:style>SOLID</aixm:style>
       <aixm:extent_curveExtent>
-        <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.f12e817c-e230-480e-93ba-491377ffce8b" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.f12e817c-e230-480e-93ba-491377ffce8b" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:segments>
             <gml:GeodesicString>
               <gml:posList>23.966945 56.9201857 23.9669596 56.9201866 23.9669713 56.9201864 23.9669825 56.9201855 23.966991 56.9201842 23.9670091 56.9201804 23.9670191 56.9201776 23.9670309 56.9201733 23.9670391 56.9201699 23.9670497 56.9201633 23.9670587 56.9201554 23.9670693 56.9201455 23.9670833 56.9201307 23.9670957 56.9201155 23.9671011 56.920107 23.9671069 56.9200974 23.9671114 56.9200879 23.9671141 56.9200807 23.9671165 56.9200716 23.9671181 56.9200616 23.9671185 56.9200549 23.9671183 56.9200464 23.9671171 56.9200377 23.9671149 56.9200282 23.9671122 56.9200203 23.9671087 56.9200124 23.967103 56.9200021 23.9670938 56.9199894 23.9670851 56.9199795 23.9670752 56.9199701 23.9670633 56.9199604 23.9670509 56.9199518 23.9670332 56.9199413 23.9670137 56.9199317 23.9669923 56.9199229 23.9669703 56.9199153 23.9669633 56.9199127 23.9669564 56.91991 23.9669497 56.9199072 23.9669439 56.9199045 23.9669372 56.9199011 23.9669311 56.9198977 23.9669247 56.9198938 23.9669173 56.9198889 23.9669114 56.9198845 23.9669059 56.91988 23.9669014 56.9198758 23.9668974 56.9198718 23.9668934 56.9198674 23.9668904 56.9198636 </gml:posList>
@@ -43,7 +40,7 @@
       <aixm:colour>YELLOW</aixm:colour>
       <aixm:style>SOLID</aixm:style>
       <aixm:extent_curveExtent>
-        <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.96b93bfa-40f2-4bce-ba51-46588e90e484" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.96b93bfa-40f2-4bce-ba51-46588e90e484" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:segments>
             <gml:GeodesicString>
               <gml:posList>23.9668724 56.9198201 23.9668531 56.9198158 </gml:posList>
@@ -65,7 +62,6 @@
   </aixm:annotation>
   <aixm:markedGuidanceLine xlink:type="simple" xlink:href="#uuid.00872da3-771c-4f81-9412-e051fa45ee4d"/>
 </aixm:GuidanceLineMarkingTimeSlice> 
-
 <aixm:GuidanceLine gml:id="uuid.00872da3-771c-4f81-9412-e051fa45ee4d">
   <gml:identifier codeSpace="urn:uuid:">00872da3-771c-4f81-9412-e051fa45ee4d</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -95,7 +91,7 @@
       <aixm:connectedApron xlink:type="simple" xlink:href="#uuid.87be983b-3586-47ed-88cc-6fd6c94b2311"/>
       <aixm:connectedStand xlink:type="simple" xlink:href="#uuid.97c0bbfc-9ca3-4812-94d9-ab08de3fd018"/>
       <aixm:extent>
-        <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.bd08cf3b-2ac7-4e3d-b372-58cc428fa062" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.bd08cf3b-2ac7-4e3d-b372-58cc428fa062" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:segments>
             <gml:GeodesicString>
               <gml:posList>23.966945 56.9201857 23.9669596 56.9201866 23.9669713 56.9201864 23.9669825 56.9201855 23.966991 56.9201842 23.9670091 56.9201804 23.9670191 56.9201776 23.9670309 56.9201733 23.9670391 56.9201699 23.9670497 56.9201633 23.9670616 56.9201527 23.9670693 56.9201455 23.9670833 56.9201307 23.9670957 56.9201155 23.9671011 56.920107 23.9671069 56.9200974 23.9671114 56.9200879 23.9671141 56.9200807 23.9671165 56.9200716 23.9671181 56.9200616 23.9671185 56.9200549 23.9671183 56.9200464 23.9671171 56.9200377 23.9671149 56.9200282 23.9671122 56.9200203 23.9671087 56.9200124 23.967103 56.9200021 23.9670938 56.9199894 23.9670851 56.9199795 23.9670752 56.9199701 23.9670633 56.9199604 23.9670509 56.9199518 23.9670332 56.9199413 23.9670137 56.9199317 23.9669923 56.9199229 23.9669633 56.9199127 23.9669564 56.91991 23.9669497 56.9199072 23.9669439 56.9199045 23.9669372 56.9199011 23.9669311 56.9198977 23.9669247 56.9198938 23.9669173 56.9198889 23.9669114 56.9198845 23.9669059 56.91988 23.9669014 56.9198758 23.9668974 56.9198718 23.9668934 56.9198674 23.9668531 56.9198158 </gml:posList>
@@ -117,7 +113,6 @@
     </aixm:GuidanceLineTimeSlice>
   </aixm:timeSlice>
 </aixm:GuidanceLine> 
-
 <aixm:Apron gml:id="uuid.87be983b-3586-47ed-88cc-6fd6c94b2311">
   <gml:identifier codeSpace="urn:uuid:">87be983b-3586-47ed-88cc-6fd6c94b2311</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -207,7 +202,6 @@ Z3 - ilgtermia un militr stvvieta</aixm:note>
     </aixm:ApronTimeSlice>
   </aixm:timeSlice>
 </aixm:Apron> 
-
 <aixm:AirportHeliport gml:id="uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b">
   <gml:identifier codeSpace="urn:uuid:">52766fb6-7a3b-49ce-9586-f90250f0dd1b</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -266,7 +260,7 @@ Z3 - ilgtermia un militr stvvieta</aixm:note>
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.14401d75-afea-4421-902d-4a6af75c4b80" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.14401d75-afea-4421-902d-4a6af75c4b80" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:pos>23.9711111 56.9236111</gml:pos>
           <aixm:horizontalAccuracy uom="FT">10</aixm:horizontalAccuracy>
           <aixm:elevation uom="FT">37</aixm:elevation>
@@ -550,7 +544,6 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
-
 <aixm:OrganisationAuthority gml:id="uuid.dd50e73d-e1a4-489b-87bf-647bfc297fda">
   <gml:identifier codeSpace="urn:uuid:">dd50e73d-e1a4-489b-87bf-647bfc297fda</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -667,7 +660,6 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
-
 <aixm:AircraftStand gml:id="uuid.97c0bbfc-9ca3-4812-94d9-ab08de3fd018">
   <gml:identifier codeSpace="urn:uuid:">97c0bbfc-9ca3-4812-94d9-ab08de3fd018</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -702,14 +694,14 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
         </aixm:SurfaceCharacteristics>
       </aixm:surfaceProperties>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.1b43c99b-d853-47a5-a8d7-62d2f9dc1baf" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.1b43c99b-d853-47a5-a8d7-62d2f9dc1baf" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:pos>23.9669087 56.9201834</gml:pos>
           <aixm:horizontalAccuracy uom="M">0.1</aixm:horizontalAccuracy>
         </aixm:ElevatedPoint>
       </aixm:location>
       <aixm:apronLocation xlink:type="simple" xlink:href="#uuid.bde9f986-a55f-46b8-a652-b1842e7d0388"/>
       <aixm:extent>
-        <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.38ada931-61a3-420c-b3bd-b32e45ec846e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.38ada931-61a3-420c-b3bd-b32e45ec846e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:patches>
             <gml:PolygonPatch>
               <gml:exterior>
@@ -761,7 +753,6 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:AircraftStandTimeSlice>
   </aixm:timeSlice>
 </aixm:AircraftStand> 
-
 <aixm:ApronElement gml:id="uuid.bde9f986-a55f-46b8-a652-b1842e7d0388">
   <gml:identifier codeSpace="urn:uuid:">bde9f986-a55f-46b8-a652-b1842e7d0388</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -792,7 +783,7 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
       <aixm:associatedApron xlink:type="simple" xlink:href="#uuid.87be983b-3586-47ed-88cc-6fd6c94b2311"/>
       <aixm:surfaceProperties nilReason="inapplicable" xsi:nil="true"/>
       <aixm:extent>
-        <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.e6d0a283-558b-4a7a-a500-78b43d7ee92f" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.e6d0a283-558b-4a7a-a500-78b43d7ee92f" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:patches>
             <gml:PolygonPatch>
               <gml:exterior>
@@ -828,5 +819,4 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:ApronElementTimeSlice>
   </aixm:timeSlice>
 </aixm:ApronElement> 
-
 </AIXMBasicMessage>

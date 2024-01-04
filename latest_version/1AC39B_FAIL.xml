@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
-
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
 <aixm:ApronMarking gml:id="uuid.af65a798-30aa-4c45-8a07-375ed881ed9a">
   <gml:identifier codeSpace="urn:uuid:">af65a798-30aa-4c45-8a07-375ed881ed9a</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -26,13 +24,12 @@
       <aixm:condition>GOOD</aixm:condition>
       <!-- ERROR: Found ApronMarkingTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('markingICAOStandard', 'condition', 'element', 'markingLocation', 'markedApron'). -->
       <aixm:magneticVariation>10</aixm:magneticVariation>
-
       <aixm:element>
         <aixm:MarkingElement gml:id="uuid.76608356-a2cc-4364-9400-7a7e8f19661b">
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.e4d48be1-fb24-4ec3-a25b-c906270a728d" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.e4d48be1-fb24-4ec3-a25b-c906270a728d" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9676675 56.9174877 23.9671936 56.9175247 23.9671616 56.917528 23.967137 56.9175317 23.9671176 56.9175353 23.967101 56.9175389 23.9670812 56.9175439 23.9670645 56.9175487 23.9670476 56.9175542 23.9670195 56.917565 23.9669886 56.9175796 23.966967 56.917592 23.966946 56.9176064 23.9669262 56.917623 23.9669139 56.9176354 23.9668988 56.9176544 23.9668906 56.9176678 23.9668766 56.9176991 23.9668675 56.9177224 23.9668566 56.9177546 23.9668511 56.9177737 23.9668432 56.9178054 23.9668368 56.9178387 23.9668317 56.9178806 23.9668291 56.9179201 23.9667796 56.9192619 23.9667776 56.9193194 23.9667784 56.9193418 23.9667818 56.9193669 23.9667856 56.9193842 23.9667909 56.9194023 23.9667976 56.9194202 23.966806 56.9194388 23.9668162 56.9194578 23.9668263 56.9194741 23.9668412 56.919495 23.9668552 56.9195124 23.9668682 56.9195268 23.9668875 56.9195462 23.966908 56.9195647 23.9669255 56.919579 23.9669467 56.9195948 23.9669719 56.919612 23.9670036 56.9196313 23.9670338 56.9196479 23.9671985 56.9197353 23.9671712 56.9204754 23.9667484 56.9204707 23.9665586 56.9205272 23.9665297 56.9205361 </gml:posList>
@@ -47,7 +44,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.a79c492a-bd09-4f6d-abdb-8c0d8a5132d8" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.a79c492a-bd09-4f6d-abdb-8c0d8a5132d8" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9676668 56.9174851 23.9671928 56.9175221 23.9671605 56.9175254 23.9671355 56.9175291 23.9671159 56.9175327 23.9670991 56.9175364 23.967079 56.9175414 23.9670621 56.9175463 23.9670449 56.9175519 23.9670165 56.9175628 23.9669852 56.9175776 23.9669633 56.9175902 23.966942 56.9176048 23.9669219 56.9176216 23.9669095 56.9176342 23.9668942 56.9176534 23.9668859 56.917667 23.9668718 56.9176985 23.9668627 56.9177219 23.9668518 56.9177541 23.9668462 56.9177733 23.9668383 56.9178051 23.9668319 56.9178385 23.9668268 56.9178805 23.9668242 56.9179201 23.9667747 56.9192619 23.9667727 56.9193194 23.9667735 56.919342 23.9667768 56.9193671 23.9667807 56.9193846 23.9667861 56.9194028 23.9667928 56.9194208 23.9668012 56.9194395 23.9668115 56.9194586 23.9668216 56.919475 23.9668366 56.9194961 23.9668508 56.9195136 23.9668638 56.9195281 23.9668832 56.9195476 23.9669039 56.9195662 23.9669214 56.9195805 23.9669427 56.9195965 23.9669681 56.9196138 23.967 56.9196332 23.9670303 56.9196498 23.9671935 56.9197364 23.9671664 56.9204727 23.9667472 56.920468 23.9665563 56.9205248 23.9665186 56.9205359 </gml:posList>
@@ -62,7 +59,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.3d0a128b-873e-4d68-9244-11fe6fd4d25a" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.3d0a128b-873e-4d68-9244-11fe6fd4d25a" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9670423 56.9173051 23.9669929 56.9173075 23.9669493 56.917311 23.9669189 56.9173147 23.9668602 56.9173244 23.9668116 56.9173353 23.9667637 56.9173489 23.9667211 56.9173637 23.966676 56.9173826 23.966633 56.9174046 23.9665989 56.9174257 23.9665681 56.9174482 23.9665361 56.9174771 23.9665051 56.9175138 23.9664874 56.9175426 23.9664807 56.9175567 23.9664754 56.9175701 23.9664694 56.9175904 23.9664668 56.9176033 23.9664646 56.9176257 23.9664034 56.9192849 23.9664015 56.9193174 23.966398 56.9193536 23.9663954 56.9193727 23.9663891 56.9194016 23.9663787 56.9194318 23.9663669 56.9194573 23.9663509 56.9194846 23.9663353 56.9195067 23.966316 56.9195301 23.9662923 56.919555 23.9662802 56.9195649 23.9662519 56.9195888 23.9662359 56.919602 23.966213 56.9196206 23.9661984 56.9196322 23.9661546 56.9197497 23.9661421 56.9197856 23.9661326 56.9198154 23.9661228 56.9198498 23.9661146 56.9198825 23.966106 56.9199208 23.9660988 56.9199591 23.9660942 56.9199868 23.966091 56.9200095 23.9660882 56.9200323 23.9660851 56.9200852 23.9660834 56.9201204 23.9660766 56.9203035 23.9661008 56.9203104 23.9661205 56.9203175 23.9661416 56.9203269 23.9661588 56.9203363 23.9661775 56.9203491 23.966271 56.9204216 23.9662673 56.920524 23.9662671 56.9205327 </gml:posList>
@@ -77,7 +74,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.a5c17e83-e68a-44d6-ab93-5a70fa7961ea" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.a5c17e83-e68a-44d6-ab93-5a70fa7961ea" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9670428 56.9173077 23.9669935 56.9173101 23.9669502 56.9173137 23.9669202 56.9173173 23.9668618 56.9173269 23.9668136 56.9173378 23.9667659 56.9173513 23.9667237 56.917366 23.9666792 56.9173847 23.9666365 56.9174065 23.9666027 56.9174274 23.9665722 56.9174497 23.9665405 56.9174783 23.9665096 56.9175148 23.9664921 56.9175434 23.9664855 56.9175574 23.9664802 56.9175706 23.9664743 56.9175908 23.9664717 56.9176035 23.9664695 56.9176258 23.9664083 56.919285 23.9664064 56.9193175 23.9664029 56.9193537 23.9664003 56.919373 23.966394 56.919402 23.9663835 56.9194324 23.9663716 56.919458 23.9663555 56.9194855 23.9663398 56.9195077 23.9663204 56.9195313 23.9662966 56.9195563 23.9662843 56.9195663 23.9662561 56.9195903 23.96624 56.9196035 23.9662171 56.9196221 23.966203 56.9196333 23.9661594 56.9197502 23.9661469 56.9197861 23.9661375 56.9198159 23.9661277 56.9198502 23.9661195 56.9198828 23.9661109 56.9199211 23.9661037 56.9199593 23.9660991 56.919987 23.9660959 56.9200097 23.9660931 56.9200324 23.9660896 56.9200854 23.9660816 56.9203019 23.9661033 56.9203081 23.9661234 56.9203153 23.9661449 56.9203249 23.9661625 56.9203345 23.9661815 56.9203475 23.966276 56.9204208 23.9662722 56.920524 23.966272 56.9205326 </gml:posList>
@@ -92,7 +89,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.1634bcf0-f14b-4a26-a6f0-b49f82b70d42" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.1634bcf0-f14b-4a26-a6f0-b49f82b70d42" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9667331 56.9205528 23.9666742 56.9204936 </gml:posList>
@@ -107,7 +104,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.53cc2e18-3c8e-43fc-911c-d549fa933a7e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.53cc2e18-3c8e-43fc-911c-d549fa933a7e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9673007 56.9203391 23.9671775 56.9203378 </gml:posList>
@@ -122,7 +119,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.fa1fcdc4-5662-40a9-9bfe-1f29db83e498" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.fa1fcdc4-5662-40a9-9bfe-1f29db83e498" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.96731 56.9200876 23.9671868 56.9200863 </gml:posList>
@@ -137,7 +134,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.ea50351a-2009-42a3-8381-073e9a765df9" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.ea50351a-2009-42a3-8381-073e9a765df9" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9672674 56.9198356 23.9671961 56.9198348 </gml:posList>
@@ -152,7 +149,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.08496bf1-b026-425b-bd9e-72ec7b4692a6" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.08496bf1-b026-425b-bd9e-72ec7b4692a6" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9671867 56.919678 23.967141 56.9197038 </gml:posList>
@@ -167,7 +164,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.c80d0626-7124-4395-8443-353cfb8374d4" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.c80d0626-7124-4395-8443-353cfb8374d4" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9670415 56.9195999 23.966993 56.9196241 </gml:posList>
@@ -182,7 +179,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.2da3c99d-67ca-4c46-ab94-ab512054d3ad" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.2da3c99d-67ca-4c46-ab94-ab512054d3ad" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9669319 56.9195146 23.9668738 56.9195314 </gml:posList>
@@ -197,7 +194,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.e8f1751b-6e83-484c-9b80-a0d4bca88624" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.e8f1751b-6e83-484c-9b80-a0d4bca88624" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9668649 56.919417 23.966801 56.9194253 </gml:posList>
@@ -212,7 +209,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.aa827f7b-6fbf-405a-9e96-e7dfe5622400" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.aa827f7b-6fbf-405a-9e96-e7dfe5622400" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9668447 56.919312 23.966779 56.9193112 </gml:posList>
@@ -227,7 +224,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.610ad48a-8924-49c5-a3e6-d582d2db329c" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.610ad48a-8924-49c5-a3e6-d582d2db329c" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9668533 56.9190789 23.9667876 56.9190782 </gml:posList>
@@ -242,7 +239,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.1b5bd58d-e0c5-45fd-b1a9-8b5993d01e4a" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.1b5bd58d-e0c5-45fd-b1a9-8b5993d01e4a" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9668619 56.9188458 23.9667962 56.9188451 </gml:posList>
@@ -257,7 +254,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.458246ef-d041-4168-9f13-d80779f1c4b5" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.458246ef-d041-4168-9f13-d80779f1c4b5" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9668705 56.9186127 23.9668048 56.918612 </gml:posList>
@@ -272,7 +269,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.9e7ea644-0a26-4adc-87a2-b289d3cc96d4" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.9e7ea644-0a26-4adc-87a2-b289d3cc96d4" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9668791 56.9183797 23.9668134 56.9183789 </gml:posList>
@@ -287,7 +284,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.9521d960-4ab5-4bae-88ba-4b11da17e2e5" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.9521d960-4ab5-4bae-88ba-4b11da17e2e5" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9668877 56.9181466 23.966822 56.9181459 </gml:posList>
@@ -302,7 +299,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.97fea517-b72a-400f-9c08-462415fac327" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.97fea517-b72a-400f-9c08-462415fac327" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9668963 56.9179135 23.9668306 56.9179128 </gml:posList>
@@ -317,7 +314,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.c97abe60-1898-470b-a594-8a9d2c9ea8f1" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.c97abe60-1898-470b-a594-8a9d2c9ea8f1" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9669139 56.9177919 23.9668488 56.917787 </gml:posList>
@@ -332,7 +329,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.ca2c2ce5-782f-4a62-aba1-21233831ea1d" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.ca2c2ce5-782f-4a62-aba1-21233831ea1d" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9669646 56.9176758 23.9668944 56.9176634 </gml:posList>
@@ -347,7 +344,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.c3c46a10-04ae-4ff3-9e8d-03413fec0ff6" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.c3c46a10-04ae-4ff3-9e8d-03413fec0ff6" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9671001 56.9176169 23.9670271 56.9175627 </gml:posList>
@@ -362,7 +359,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.65220886-6205-4406-a125-c623e792a586" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.65220886-6205-4406-a125-c623e792a586" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9672596 56.9175883 23.9672422 56.9175216 </gml:posList>
@@ -377,7 +374,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.05e3be59-3250-4a0c-b924-fce4e7166b4e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.05e3be59-3250-4a0c-b924-fce4e7166b4e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9659628 56.9202365 23.9660778 56.9202377 </gml:posList>
@@ -392,7 +389,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.09bfc987-7262-4a8b-b884-d44283d79611" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.09bfc987-7262-4a8b-b884-d44283d79611" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9659685 56.9200838 23.9660834 56.920085 </gml:posList>
@@ -407,7 +404,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.56369df8-fcd6-4dba-bf63-06bcf89b2ee8" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.56369df8-fcd6-4dba-bf63-06bcf89b2ee8" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9662446 56.9195532 23.9662802 56.9195649 </gml:posList>
@@ -422,7 +419,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.343f32ed-9b3c-466d-8f62-8738a8ecfffc" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.343f32ed-9b3c-466d-8f62-8738a8ecfffc" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9662818 56.9194284 23.9663736 56.9194407 </gml:posList>
@@ -437,7 +434,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.241ed1bb-9c58-4074-b024-7361e69d074e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.241ed1bb-9c58-4074-b024-7361e69d074e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9662864 56.9193058 23.9664013 56.9193071 </gml:posList>
@@ -452,7 +449,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.ea5b72b5-ba43-4c03-b6e0-6cc4c562ad73" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.ea5b72b5-ba43-4c03-b6e0-6cc4c562ad73" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.966295 56.9190727 23.9664099 56.919074 </gml:posList>
@@ -467,7 +464,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.90b0e088-39f7-4562-96d7-e5573e38d008" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.90b0e088-39f7-4562-96d7-e5573e38d008" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9663036 56.9188396 23.9664185 56.9188409 </gml:posList>
@@ -482,7 +479,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.7ea7200c-93b1-4402-8ccd-baebd91f2dd4" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.7ea7200c-93b1-4402-8ccd-baebd91f2dd4" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9663122 56.9186066 23.9664271 56.9186078 </gml:posList>
@@ -497,7 +494,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.a2df1eed-a77b-475b-ac69-b4d8f6f0bae1" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.a2df1eed-a77b-475b-ac69-b4d8f6f0bae1" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9663208 56.9183735 23.9664357 56.9183748 </gml:posList>
@@ -512,7 +509,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.23d31f79-0b5d-412f-91c1-a5bf97575a00" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.23d31f79-0b5d-412f-91c1-a5bf97575a00" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9663294 56.9181404 23.9664443 56.9181417 </gml:posList>
@@ -527,7 +524,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.2cc58845-4ed1-4351-b6e7-75fef38d9dbb" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.2cc58845-4ed1-4351-b6e7-75fef38d9dbb" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.966338 56.9179073 23.9664529 56.9179086 </gml:posList>
@@ -542,7 +539,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.8641c0d8-2f58-47c2-ac73-7b10558df46f" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.8641c0d8-2f58-47c2-ac73-7b10558df46f" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9663466 56.9176743 23.9664615 56.9176755 </gml:posList>
@@ -557,7 +554,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.da9dd88a-ea6b-4773-a568-6fd1d28ffd29" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.da9dd88a-ea6b-4773-a568-6fd1d28ffd29" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9663596 56.917541 23.9664795 56.9175566 </gml:posList>
@@ -572,7 +569,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.178a20ca-9df1-40a7-aa3e-c7c9d30cd512" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.178a20ca-9df1-40a7-aa3e-c7c9d30cd512" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9664655 56.9174098 23.9665673 56.9174477 </gml:posList>
@@ -587,7 +584,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.7a912e8a-e8ec-433e-9ee5-902ebe4fe14f" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.7a912e8a-e8ec-433e-9ee5-902ebe4fe14f" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.96665 56.9173078 23.9667204 56.9173631 </gml:posList>
@@ -602,7 +599,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_curveExtent>
-            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.796c0b9c-af91-4e37-b6b8-ba517b93aea6" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.796c0b9c-af91-4e37-b6b8-ba517b93aea6" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:segments>
                 <gml:GeodesicString>
                   <gml:posList>23.9668889 56.9172486 23.9669185 56.917314 </gml:posList>
@@ -617,7 +614,7 @@
           <aixm:colour>YELLOW</aixm:colour>
           <aixm:style>SOLID</aixm:style>
           <aixm:extent_surfaceExtent>
-            <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.6bf291c6-784f-4e77-b050-70361b220141" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.6bf291c6-784f-4e77-b050-70361b220141" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:patches>
                 <gml:PolygonPatch>
                   <gml:exterior>
@@ -654,7 +651,6 @@
     </aixm:ApronMarkingTimeSlice>
   </aixm:timeSlice>
 </aixm:ApronMarking> 
-
 <aixm:Apron gml:id="uuid.87be983b-3586-47ed-88cc-6fd6c94b2311">
   <gml:identifier codeSpace="urn:uuid:">87be983b-3586-47ed-88cc-6fd6c94b2311</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -744,7 +740,6 @@ Z3 - ilgtermia un militr stvvieta</aixm:note>
     </aixm:ApronTimeSlice>
   </aixm:timeSlice>
 </aixm:Apron> 
-
 <aixm:AirportHeliport gml:id="uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b">
   <gml:identifier codeSpace="urn:uuid:">52766fb6-7a3b-49ce-9586-f90250f0dd1b</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -803,7 +798,7 @@ Z3 - ilgtermia un militr stvvieta</aixm:note>
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.14401d75-afea-4421-902d-4a6af75c4b80" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.14401d75-afea-4421-902d-4a6af75c4b80" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:pos>23.9711111 56.9236111</gml:pos>
           <aixm:horizontalAccuracy uom="FT">10</aixm:horizontalAccuracy>
           <aixm:elevation uom="FT">37</aixm:elevation>
@@ -1087,7 +1082,6 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
-
 <aixm:OrganisationAuthority gml:id="uuid.dd50e73d-e1a4-489b-87bf-647bfc297fda">
   <gml:identifier codeSpace="urn:uuid:">dd50e73d-e1a4-489b-87bf-647bfc297fda</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1204,5 +1198,4 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
-
 </AIXMBasicMessage>

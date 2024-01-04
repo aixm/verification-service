@@ -4,9 +4,8 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
@@ -52,7 +51,6 @@
                   <aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"></aixm:distanceAccuracy>
                 </aixm:RunwayDeclaredDistanceValue>
               </aixm:declaredValue>
-
             </aixm:RunwayDeclaredDistance>
           </aixm:associatedDeclaredDistance>
           <aixm:associatedDeclaredDistance>
@@ -60,7 +58,6 @@
               <aixm:type>DTHR</aixm:type>
               <aixm:declaredValue>
                 <aixm:RunwayDeclaredDistanceValue gml:id="rddv015">
-
                   <aixm:timeInterval>
                     <aixm:Timesheet gml:id="aadbMKR_EADD_MM27R">
                       <aixm:day>ANY</aixm:day>
@@ -68,7 +65,6 @@
                       <aixm:endTime>00:00</aixm:endTime>
                     </aixm:Timesheet>
                   </aixm:timeInterval>
-
                   <aixm:annotation>
                     <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
                       <aixm:propertyName>timeInterval</aixm:propertyName>
@@ -89,11 +85,9 @@
                       <aixm:propertyName>distanceAccuracy</aixm:propertyName>
                     </aixm:Note>
                   </aixm:annotation>
-
                   <aixm:specialDateAuthority xlink:href="urn:uuid:6384a4e0-8497-4f83-8eaa-d73ef549d90e"/>
                   <aixm:distance uom="M">300</aixm:distance>
                   <aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"></aixm:distanceAccuracy>
-
                 </aixm:RunwayDeclaredDistanceValue>
               </aixm:declaredValue>
             </aixm:RunwayDeclaredDistance>
@@ -120,7 +114,6 @@
       </aixm:timeSlice>
     </aixm:RunwayCentrelinePoint>
   </message:hasMember>
-
   <message:hasMember>
     <aixm:MarkerBeacon gml:id="uuid.2dfdd04a-7e1e-4754-adc5-9ff46591779c">
       <gml:identifier codeSpace="urn:uuid:">2dfdd04a-7e1e-4754-adc5-9ff46591779c</gml:identifier>
@@ -196,8 +189,6 @@
       </aixm:timeSlice>
     </aixm:MarkerBeacon>
   </message:hasMember>
-
-
   <message:hasMember>
     <aixm:OrganisationAuthority gml:id="uuid.6384a4e0-8497-4fff-8eaa-d73ef549d90e">
       <gml:identifier codeSpace="urn:uuid:">6384a4e0-8497-4fff-8eaa-d73ef549d90e</gml:identifier>

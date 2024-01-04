@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
-
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
 <aixm:TouchDownLiftOffLightSystem gml:id="uuid.eae6c698-c654-4727-bf12-7f9d6cc5ee14">
   <gml:identifier codeSpace="urn:uuid:">eae6c698-c654-4727-bf12-7f9d6cc5ee14</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -34,14 +32,11 @@
       </aixm:annotation>
       <aixm:position>EDGE</aixm:position>
       <aixm:lightedTouchDownLiftOff xlink:type="simple" xlink:href="#uuid.11c02073-fbb0-4c67-86f7-c1db38428c51"/>
-
       <!-- ERROR: Found TouchDownLiftOffLightSystemTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('emergencyLighting', 'intensityLevel', 'colour', 'element', 'availability', 'position', 'lightedTouchDownLiftOff'). -->
       <aixm:magneticVariation>5.4</aixm:magneticVariation>
-      
     </aixm:TouchDownLiftOffLightSystemTimeSlice>
   </aixm:timeSlice>
 </aixm:TouchDownLiftOffLightSystem> 
-
 <aixm:TouchDownLiftOff gml:id="uuid.11c02073-fbb0-4c67-86f7-c1db38428c51">
   <gml:identifier codeSpace="urn:uuid:">11c02073-fbb0-4c67-86f7-c1db38428c51</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -66,7 +61,7 @@
       <aixm:length uom="M">450</aixm:length>
       <aixm:width uom="M">35</aixm:width>
       <aixm:aimingPoint>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e857f912-f84e-43f2-9faa-dfe11ba8d607">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e857f912-f84e-43f2-9faa-dfe11ba8d607">
           <gml:pos>38.35222 38.25639</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.6bce46f9-2bbd-4b50-8f50-b7fa657da79e">
@@ -108,7 +103,7 @@
       </aixm:featureLifetime>
       <aixm:designator>04/22</aixm:designator>
       <aixm:aimingPoint>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.f273bc08-5589-4407-a98a-50c3bc6a82c3">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.f273bc08-5589-4407-a98a-50c3bc6a82c3">
           <gml:pos>38.3563611 38.2557167</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.843681b8-16e0-470a-b400-3239b837bdfa">
@@ -146,7 +141,6 @@ Remark: RWY 04R/22L used only by helicopters (2168M*30M)</aixm:note>
     </aixm:TouchDownLiftOffTimeSlice>
   </aixm:timeSlice>
 </aixm:TouchDownLiftOff> 
-
 <aixm:AirportHeliport gml:id="uuid.ea47b864-e09a-41af-b9b1-4a07f7a604fc">
   <gml:identifier codeSpace="urn:uuid:">ea47b864-e09a-41af-b9b1-4a07f7a604fc</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -187,7 +181,7 @@ Remark: RWY 04R/22L used only by helicopters (2168M*30M)</aixm:note>
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4649ef43-1440-43aa-9fd2-5f56d89b07f1">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4649ef43-1440-43aa-9fd2-5f56d89b07f1">
           <gml:pos>38.35389 38.25389</gml:pos>
           <aixm:geoidUndulation uom="FT">99</aixm:geoidUndulation>
         </aixm:ElevatedPoint>
@@ -418,7 +412,7 @@ Remark: RWY 04R/22L used only by helicopters (2168M*30M)</aixm:note>
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.764aeb04-1cff-42d7-ad36-e9eee8527402">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.764aeb04-1cff-42d7-ad36-e9eee8527402">
           <gml:pos>38.35306 38.25444</gml:pos>
           <aixm:geoidUndulation uom="FT">99</aixm:geoidUndulation>
         </aixm:ElevatedPoint>
@@ -682,7 +676,7 @@ At TWY E:920M</aixm:note>
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.fab41d5f-0631-410b-8043-276f42b683a4">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.fab41d5f-0631-410b-8043-276f42b683a4">
           <gml:pos>38.35306 38.25444</gml:pos>
           <aixm:geoidUndulation uom="FT">99</aixm:geoidUndulation>
         </aixm:ElevatedPoint>
@@ -959,7 +953,7 @@ Anomemeter: One of them 339M from RWY 04L THR the other one 344M from RWY 22R TH
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:extKey="http://www.aixm.aero/schema/5.1/extensions/externalkey" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.8f69c4d8-886a-4a2e-8fdf-99c3f200b013">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts"   xmlns:aixm="http://www.aixm.aero/schema/5.1.1"  xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:extKey="http://www.aixm.aero/schema/5.1/extensions/externalkey"    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.8f69c4d8-886a-4a2e-8fdf-99c3f200b013">
           <gml:pos>38.35306 38.25444</gml:pos>
           <aixm:geoidUndulation uom="FT">99</aixm:geoidUndulation>
         </aixm:ElevatedPoint>
@@ -1236,7 +1230,7 @@ Anomemeter: One of them 339M from RWY 04L THR the other one 344M from RWY 22R TH
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b16d9264-1bd6-40c6-98ec-ceae1c0cddf5">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b16d9264-1bd6-40c6-98ec-ceae1c0cddf5">
           <gml:pos>38.35306 38.25444</gml:pos>
           <aixm:geoidUndulation uom="FT">99</aixm:geoidUndulation>
         </aixm:ElevatedPoint>
@@ -1507,7 +1501,7 @@ Anomemeter: One of them 339M from RWY 04L THR the other one 344M from RWY 22R TH
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.29482493-6f43-411b-88b0-560aefeb8c4c">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.29482493-6f43-411b-88b0-560aefeb8c4c">
           <gml:pos>38.35306 38.25444</gml:pos>
           <aixm:geoidUndulation uom="FT">99</aixm:geoidUndulation>
         </aixm:ElevatedPoint>
@@ -1777,7 +1771,7 @@ Anomemeter: One of them 339M from RWY 04L THR the other one 344M from RWY 22R TH
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e8dfb9b6-6c0c-4ded-a9fe-bac19bc400e1">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e8dfb9b6-6c0c-4ded-a9fe-bac19bc400e1">
           <gml:pos>38.35306 38.25444</gml:pos>
           <aixm:geoidUndulation uom="FT">99</aixm:geoidUndulation>
         </aixm:ElevatedPoint>
@@ -2010,7 +2004,6 @@ At TWY E:920M</aixm:note>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
-
 <aixm:OrganisationAuthority gml:id="uuid.09424934-7e66-0ae9-e053-0b751dc2b779">
   <gml:identifier codeSpace="urn:uuid:">09424934-7e66-0ae9-e053-0b751dc2b779</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -2059,5 +2052,4 @@ At TWY E:920M</aixm:note>
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
-
 </AIXMBasicMessage>

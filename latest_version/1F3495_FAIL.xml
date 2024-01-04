@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
-
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
 <aixm:VOR gml:id="uuid.2204d427-a5bc-416d-a012-1ce2527545a9">
   <gml:identifier codeSpace="urn:uuid:">2204d427-a5bc-416d-a012-1ce2527545a9</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -25,7 +23,7 @@
       <aixm:designator>ROX</aixm:designator>
       <aixm:name>ROXAS</aixm:name>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.34211286-e96e-4ea4-b98f-d91f09918dce">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.34211286-e96e-4ea4-b98f-d91f09918dce">
           <gml:pos>11.596924167 122.755119167</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.d40d07f3-aba3-4a83-900a-b2147d263de2">
@@ -65,19 +63,6 @@
       <aixm:type>DVOR</aixm:type>
       <aixm:frequency uom="MHZ">112.9</aixm:frequency>
       <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
-      <aixm:extension>
-        <ead-audit:VORExtension gml:id="uuid.59d9a420-a67f-4d44-b6d3-2e8d462d8962">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.dd7903d5-583e-4908-bc78-13a17dd7acf8">
-              <ead-audit:createdBy>RP_ELIZADA</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-03-24T06:45:01Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>CIVIL AVIATION AUTHORITY OF THE PHILIPPINES</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason: SDO DP Review</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:VORExtension>
-      </aixm:extension>
     </aixm:VORTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -100,7 +85,7 @@
       <aixm:designator>ROX</aixm:designator>
       <aixm:name>ROXAS</aixm:name>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.ce464d66-4463-4601-9790-24e9458bbd35">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.ce464d66-4463-4601-9790-24e9458bbd35">
           <gml:pos>11.596924167 122.755119167</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.0ecdc4e9-5f52-4cac-ae76-a05c4550f627">
@@ -140,19 +125,6 @@
       <aixm:type>DVOR</aixm:type>
       <aixm:frequency uom="MHZ">112.9</aixm:frequency>
       <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
-      <aixm:extension>
-        <ead-audit:VORExtension gml:id="uuid.b1f14a00-8aa9-40b1-a3e5-a2923080108c">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.6bc981de-0fa2-45a4-b943-44d30e8e16f7">
-              <ead-audit:createdBy>RP_SGALLENE</ead-audit:createdBy>
-              <ead-audit:creationDate>2022-03-10T06:50:21Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>CIVIL AVIATION AUTHORITY OF THE PHILIPPINES</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason: AIRAC AIP AMDT 080/22</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:VORExtension>
-      </aixm:extension>
     </aixm:VORTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -175,7 +147,7 @@
       <aixm:designator>ROX</aixm:designator>
       <aixm:name>ROXAS</aixm:name>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b74e4b8f-d86a-48bd-a51e-3ff68e8b36ff">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b74e4b8f-d86a-48bd-a51e-3ff68e8b36ff">
           <gml:pos>11.596917 122.755111</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.d20c8bda-52e1-4944-adea-edd226eff290">
@@ -213,19 +185,6 @@
       <aixm:type>DVOR</aixm:type>
       <aixm:frequency uom="MHZ">112.9</aixm:frequency>
       <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
-      <aixm:extension>
-        <ead-audit:VORExtension gml:id="uuid.14c04bac-f8d1-41ad-ab8e-89898de4d787">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.a405a6ac-80b5-4b13-a27c-e6370a4f7a05">
-              <ead-audit:createdBy>RP_SGALLENE</ead-audit:createdBy>
-              <ead-audit:creationDate>2022-07-05T08:46:47Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>CIVIL AVIATION AUTHORITY OF THE PHILIPPINES</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason: AIRAC AIP SUP A012/22</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:VORExtension>
-      </aixm:extension>
     </aixm:VORTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -248,7 +207,7 @@
       <aixm:designator>ROX</aixm:designator>
       <aixm:name>ROXAS</aixm:name>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.8d19a510-b3ca-479c-8511-9aa0aa13557e">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.8d19a510-b3ca-479c-8511-9aa0aa13557e">
           <gml:pos>11.596917 122.755111</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.7a3800d4-c235-4986-8d00-186dd98ccfe9">
@@ -296,23 +255,9 @@
       <aixm:type>DVOR</aixm:type>
       <aixm:frequency uom="MHZ">112.9</aixm:frequency>
       <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
-      <aixm:extension>
-        <ead-audit:VORExtension gml:id="uuid.f7bcef52-6e11-498d-afd5-26d05960d055">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.f8b4a3dc-7da2-4858-a49f-6b3cd75e1719">
-              <ead-audit:createdBy>RP_SGALLENE</ead-audit:createdBy>
-              <ead-audit:creationDate>2022-07-05T08:46:47Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>CIVIL AVIATION AUTHORITY OF THE PHILIPPINES</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason: AIRAC AIP SUP A012/22</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:VORExtension>
-      </aixm:extension>
     </aixm:VORTimeSlice>
   </aixm:timeSlice>
 </aixm:VOR> 
-
 <aixm:Navaid gml:id="uuid.200750c6-1d9f-472e-b6ad-ce8d6a8749f3">
   <gml:identifier codeSpace="urn:uuid:">200750c6-1d9f-472e-b6ad-ce8d6a8749f3</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -343,7 +288,7 @@
         </aixm:NavaidComponent>
       </aixm:navaidEquipment>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.ba803378-0e19-4406-8542-91aa7cfdcfe6">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.ba803378-0e19-4406-8542-91aa7cfdcfe6">
           <gml:pos>11.596924167 122.755119167</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.18b869cb-b910-447d-9f7e-59e1b96d9ab8">
@@ -358,19 +303,6 @@
         </aixm:ElevatedPoint>
       </aixm:location>
       <aixm:servedAirport xlink:type="simple" xlink:href="#uuid.2223055d-de0f-4317-9e6f-45c41947cfee"/>
-      <aixm:extension>
-        <ead-audit:NavaidExtension gml:id="uuid.97f8b29d-8e31-45de-b370-0204dfea1122">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.3416ee61-5a17-49a2-b53a-50bdc0dd21e0">
-              <ead-audit:createdBy>RP_ELIZADA</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-03-24T06:45:05Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>CIVIL AVIATION AUTHORITY OF THE PHILIPPINES</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason: SDO DP Review</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:NavaidExtension>
-      </aixm:extension>
     </aixm:NavaidTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -400,7 +332,7 @@
         </aixm:NavaidComponent>
       </aixm:navaidEquipment>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.8fc7c8c6-6809-48ff-a5f7-c0d877061b9f">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.8fc7c8c6-6809-48ff-a5f7-c0d877061b9f">
           <gml:pos>11.596924167 122.755119167</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.75aa02a0-00fe-4f36-a483-c5544e7bd795">
@@ -415,19 +347,6 @@
         </aixm:ElevatedPoint>
       </aixm:location>
       <aixm:servedAirport xlink:type="simple" xlink:href="#uuid.2223055d-de0f-4317-9e6f-45c41947cfee"/>
-      <aixm:extension>
-        <ead-audit:NavaidExtension gml:id="uuid.33bef733-f36f-4aed-8383-3aa9606a3f81">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.12faf84d-fa28-40dd-ac01-afd151e55224">
-              <ead-audit:createdBy>RP_SGALLENE</ead-audit:createdBy>
-              <ead-audit:creationDate>2022-03-10T06:48:27Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>CIVIL AVIATION AUTHORITY OF THE PHILIPPINES</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason: AIRAC AIP AMDT 080/22</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:NavaidExtension>
-      </aixm:extension>
     </aixm:NavaidTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -457,7 +376,7 @@
         </aixm:NavaidComponent>
       </aixm:navaidEquipment>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.c021a81d-36d5-4c6d-b488-224cc7fd9cf5">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.c021a81d-36d5-4c6d-b488-224cc7fd9cf5">
           <gml:pos>11.596917 122.755111</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.c27b8f62-aa68-42f9-994c-fac60d7bdafb">
@@ -472,19 +391,6 @@
         </aixm:ElevatedPoint>
       </aixm:location>
       <aixm:servedAirport xlink:type="simple" xlink:href="#uuid.2223055d-de0f-4317-9e6f-45c41947cfee"/>
-      <aixm:extension>
-        <ead-audit:NavaidExtension gml:id="uuid.0dd8f38a-7096-4bde-8b42-193910555ad2">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.be41bbe2-19e9-40c7-87a6-5767b1ed55eb">
-              <ead-audit:createdBy>RP_SGALLENE</ead-audit:createdBy>
-              <ead-audit:creationDate>2022-07-05T08:47:10Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>CIVIL AVIATION AUTHORITY OF THE PHILIPPINES</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason: AIRAC AIP SUP A012/22</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:NavaidExtension>
-      </aixm:extension>
     </aixm:NavaidTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -514,7 +420,7 @@
         </aixm:NavaidComponent>
       </aixm:navaidEquipment>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.71bc2edc-6e8f-4d8b-a26d-00e57a4e0c6c">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.71bc2edc-6e8f-4d8b-a26d-00e57a4e0c6c">
           <gml:pos>11.596917 122.755111</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.a0aedca2-7827-4e3f-a6a1-602cc2a8d10d">
@@ -532,7 +438,6 @@
     </aixm:NavaidTimeSlice>
   </aixm:timeSlice>
 </aixm:Navaid> 
-
 <aixm:OrganisationAuthority gml:id="uuid.09424934-7dcd-0ae9-e053-0b751dc2b779">
   <gml:identifier codeSpace="urn:uuid:">09424934-7dcd-0ae9-e053-0b751dc2b779</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -559,5 +464,4 @@
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority>
-
 </AIXMBasicMessage>
