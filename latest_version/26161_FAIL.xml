@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Elevation gml:id="uuid.aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7">
+      <gml:identifier codeSpace="urn:uuid:">aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:ElevationTimeSlice gml:id="uuid.01482387-fe71-46ee-a415-f53bb1181ed8">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.30f2701a-4ed9-4058-a6cc-afa1bcadda56">
+              <gml:beginPosition>2020-12-31T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.64de3106-43cc-4d63-902f-64ffbe4d7a93">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>YGE</aixm:designator>
+          <aixm:name>YONAGO</aixm:name>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
+                                xmlns:gml="http://www.opengis.net/gml/3.2"
+                                xmlns:gts="http://www.isotc211.org/2005/gts"
+                                xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                xmlns:gco="http://www.isotc211.org/2005/gco"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                                srsName="urn:ogc:def:crs:EPSG::4326"
+                                gml:id="uuid.c6691ac2-beab-44c5-b570-f2c74c51c6f9">
+              <gml:pos>35.5013778 133.2572056</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.4937db0d-28bb-4be8-baba-02da33ee5b05">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.153d0997-6589-4315-89f3-a14933d12dcb">
+                      <aixm:note>CRC:353004.96N, 1331525.94E, , , 3F1B697B</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:authority>
+            <aixm:AuthorityForNavaidEquipment gml:id="uuid.f2207290-43d6-4525-a117-adcc12fbffef">
+              <aixm:theOrganisationAuthority xlink:type="simple"
+                                             xlink:href="urn:uuid:09424934-7f35-0ae9-e053-0b751dc2b779"/>
+            </aixm:AuthorityForNavaidEquipment>
+          </aixm:authority>
+        </aixm:ElevationTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Elevation>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:RunwayCentrelinePoint gml:id="uuid.8e27195f-5566-49de-934a-b2a859ff3f04">
+      <gml:identifier codeSpace="urn:uuid:">8e27195f-5566-49de-934a-b2a859ff3f04</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:RunwayCentrelinePointTimeSlice gml:id="uuid.88a45438-49e0-4f0d-9f1a-39f66a965b5a">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.be2d9e0f-6462-46b8-bdf9-4a5f4df3d449">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>6</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.244ca6dd-0b85-4491-8d03-25fc267c5e96">
+              <gml:beginPosition>2017-03-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:role>THR</aixm:role>
+          <aixm:designator>06</aixm:designator>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.ac15d46e-4087-4176-ada4-6bc55675ea04" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:pos>21.0817336 56.5144944</gml:pos>
+              <aixm:horizontalAccuracy uom="M">0.1</aixm:horizontalAccuracy>
+              <aixm:elevation uom="M">2.1</aixm:elevation>
+              <aixm:geoidUndulation uom="M">23.8</aixm:geoidUndulation>
+              <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+              <aixm:verticalAccuracy uom="M">0.2</aixm:verticalAccuracy>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:onRunway xlink:type="simple" xlink:href="#uuid.ae01e2c0-f908-42cd-a16d-49816dff7979"/>
+          <aixm:associatedDeclaredDistance>
+            <aixm:RunwayDeclaredDistance gml:id="uuid.f3b03114-ce7b-47f5-88f8-9d31bd1170ff">
+              <aixm:type>LDA</aixm:type>
+              <aixm:declaredValue>
+                <aixm:RunwayDeclaredDistanceValue gml:id="uuid.0c348f27-2a87-45b7-b2d5-84b2e2b54fe3">
+                  <aixm:distance uom="M">2002</aixm:distance>
+                  <aixm:distanceAccuracy uom="M">0.1</aixm:distanceAccuracy>
+                </aixm:RunwayDeclaredDistanceValue>
+              </aixm:declaredValue>
+            </aixm:RunwayDeclaredDistance>
+          </aixm:associatedDeclaredDistance>
+          <aixm:associatedDeclaredDistance>
+            <aixm:RunwayDeclaredDistance gml:id="uuid.b335e503-b8bf-47d5-bb8c-5b50638ed592">
+              <aixm:type>TORA</aixm:type>
+              <aixm:declaredValue>
+                <aixm:RunwayDeclaredDistanceValue gml:id="uuid.ba7d16bd-6822-4c7f-acd4-f1c1e91d866f">
+                  <aixm:distance uom="M">2002</aixm:distance>
+                  <aixm:distanceAccuracy uom="M">0.1</aixm:distanceAccuracy>
+                </aixm:RunwayDeclaredDistanceValue>
+              </aixm:declaredValue>
+            </aixm:RunwayDeclaredDistance>
+          </aixm:associatedDeclaredDistance>
+          <aixm:associatedDeclaredDistance>
+            <aixm:RunwayDeclaredDistance gml:id="uuid.94f1c39e-4f10-474d-bef6-9a977eebf867">
+              <aixm:type>TODA</aixm:type>
+              <aixm:declaredValue>
+                <aixm:RunwayDeclaredDistanceValue gml:id="uuid.4cea02b9-119e-4182-a5c0-fb4faded9dc1">
+                  <aixm:distance uom="M">2002</aixm:distance>
+                  <aixm:distanceAccuracy uom="M">0.1</aixm:distanceAccuracy>
+                </aixm:RunwayDeclaredDistanceValue>
+              </aixm:declaredValue>
+            </aixm:RunwayDeclaredDistance>
+          </aixm:associatedDeclaredDistance>
+          <aixm:associatedDeclaredDistance>
+            <aixm:RunwayDeclaredDistance gml:id="uuid.7207db5b-c19f-42d8-a8dc-dea45ec9afab">
+              <aixm:type>ASDA</aixm:type>
+              <aixm:declaredValue>
+                <aixm:RunwayDeclaredDistanceValue gml:id="uuid.6a71c6e0-79ab-423e-9e97-1309b855f35c">
+                  <aixm:distance uom="M">2002</aixm:distance>
+                  <aixm:distanceAccuracy uom="M">0.1</aixm:distanceAccuracy>
+                </aixm:RunwayDeclaredDistanceValue>
+              </aixm:declaredValue>
+            </aixm:RunwayDeclaredDistance>
+          </aixm:associatedDeclaredDistance>
+          <aixm:navaidEquipment>
+            <aixm:NavaidEquipmentDistance gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001">
+              <!-- WARNING It is prohibited that RunwayCentrelinePointTimeSlice has role value equal-to 'THR' and
+               RunwayCentrelinePointTimeSlice.navaidEquipment.NavaidEquipmentDistance.theNavaidEquipment@xlink:href references-to Elevation and
+               RunwayCentrelinePointTimeSlice has navaidEquipment.NavaidEquipmentDistance.distance@uom value other-than ('FT','M') -->
+              <aixm:distance uom="CM">40</aixm:distance>
+              <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7"/>
+            </aixm:NavaidEquipmentDistance>
+          </aixm:navaidEquipment>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.8fa1aaed-c145-4934-82fd-041006dd7dfc">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.3b664bb5-3061-4960-a93e-b494319049ec">
+                  <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:RunwayCentrelinePointTimeSlice>
+      </aixm:timeSlice>
+    </aixm:RunwayCentrelinePoint>
+  </message:hasMember>
+</message:AIXMBasicMessage>

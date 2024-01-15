@@ -1,362 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
-                  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
-                  xmlns:gco="http://www.isotc211.org/2005/gco"
-                  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts"
-                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml"
-                  gml:id="uniqueId"
->
-    <aixm:VerticalStructure gml:id="uuid.af18afd8-c27c-4282-81f8-3819623c1bd3">
-        <gml:identifier codeSpace="urn:uuid:">af18afd8-c27c-4282-81f8-3819623c1bd3</gml:identifier>
-        <gml:boundedBy xsi:nil="true"/>
-        <aixm:timeSlice>
-            <aixm:VerticalStructureTimeSlice gml:id="uuid.d784ec58-a52e-4cde-8b8b-9ae2a3564905">
-                <gml:validTime xlink:type="simple">
-                    <gml:TimePeriod gml:id="uuid.e10d6cad-2c04-40ee-b2f9-6cef2fc21a47">
-                        <gml:beginPosition>2015-07-23T00:00:00Z</gml:beginPosition>
-                        <gml:endPosition indeterminatePosition="unknown"/>
-                    </gml:TimePeriod>
-                </gml:validTime>
-                <aixm:interpretation>BASELINE</aixm:interpretation>
-                <aixm:sequenceNumber>1</aixm:sequenceNumber>
-                <aixm:correctionNumber>0</aixm:correctionNumber>
-                <aixm:featureLifetime xlink:type="simple">
-                    <gml:TimePeriod gml:id="uuid.99752b60-efa8-422d-8562-74fa62b57cd4">
-                        <gml:beginPosition>2015-07-23T00:00:00Z</gml:beginPosition>
-                        <gml:endPosition indeterminatePosition="unknown"/>
-                    </gml:TimePeriod>
-                </aixm:featureLifetime>
-                <aixm:name>LTCN3180</aixm:name>
-                <aixm:type>BUILDING</aixm:type>
-                <aixm:lighted>NO</aixm:lighted>
-                <aixm:group>NO</aixm:group>
-                <aixm:part>
-                    <aixm:VerticalStructurePart gml:id="uuid.d4b333bd-c574-42d3-ba2d-a4c04d326928">
-                        <aixm:verticalExtent uom="FT">14.76</aixm:verticalExtent>
-                        <aixm:horizontalProjection_location>
-                            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
-                                                xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
-                                                xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                                                xmlns:gco="http://www.isotc211.org/2005/gco"
-                                                xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                xmlns:gml="http://www.opengis.net/gml/3.2"
-                                                xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot"
-                                                xmlns:gts="http://www.isotc211.org/2005/gts"
-                                                xmlns:aixm="http://www.aixm.aero/schema/5.1"
-                                                srsName="urn:ogc:def:crs:EPSG::4326"
-                                                gml:id="uuid.c5716594-6b25-439a-a71a-35157f58d563">
-                                <!-- ERROR: Found VerticalStucture with linearExtent.ElevatedCurve.gml:posList with insufficient resolution (less than 4 decimals, i.e. 1 second) -->
-                                <gml:posList>37.5 36.9</gml:posList>
-                                <aixm:annotation>
-                                    <aixm:Note gml:id="uuid.41e7871f-5b51-439a-87ba-d6806e9e8edc">
-                                        <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                                        <aixm:translatedNote>
-                                            <aixm:LinguisticNote gml:id="uuid.ed75fad2-dcea-4337-9e14-54f36206985b">
-                                                <aixm:note>CRC:373441.281N, 0365823.290E, 1951.847, , 833DC1D0
-                                                </aixm:note>
-                                            </aixm:LinguisticNote>
-                                        </aixm:translatedNote>
-                                    </aixm:Note>
-                                </aixm:annotation>
-                                <aixm:elevation uom="FT">1951.847</aixm:elevation>
-                            </aixm:ElevatedPoint>
-                        </aixm:horizontalProjection_location>
-                    </aixm:VerticalStructurePart>
-                </aixm:part>
-            </aixm:VerticalStructureTimeSlice>
-        </aixm:timeSlice>
-    </aixm:VerticalStructure>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
 
-    <aixm:VerticalStructure gml:id="uuid.0bc34cba-a7db-40bc-bcfd-04cca24142d9">
-        <gml:identifier codeSpace="urn:uuid:">0bc34cba-a7db-40bc-bcfd-04cca24142d9</gml:identifier>
-        <gml:boundedBy xsi:nil="true"/>
-        <aixm:timeSlice>
-            <aixm:VerticalStructureTimeSlice gml:id="uuid.43604142-5532-47af-ba54-a06f8bd343f4">
-                <gml:validTime xlink:type="simple">
-                    <gml:TimePeriod gml:id="uuid.0d0d83c6-c4ff-4fb1-9526-73d1e56dbf4a">
-                        <gml:beginPosition>2017-12-07T00:00:00Z</gml:beginPosition>
-                        <gml:endPosition>2018-03-01T00:00:00Z</gml:endPosition>
-                    </gml:TimePeriod>
-                </gml:validTime>
-                <aixm:interpretation>BASELINE</aixm:interpretation>
-                <aixm:sequenceNumber>2</aixm:sequenceNumber>
-                <aixm:correctionNumber>1</aixm:correctionNumber>
-                <aixm:featureLifetime xlink:type="simple">
-                    <gml:TimePeriod gml:id="uuid.d657f1c5-e062-4e7e-a728-f0c94597ad3b">
-                        <gml:beginPosition>2017-03-30T00:00:00Z</gml:beginPosition>
-                        <gml:endPosition indeterminatePosition="unknown"/>
-                    </gml:TimePeriod>
-                </aixm:featureLifetime>
-                <aixm:name>POWIDZ</aixm:name>
-                <aixm:type>OTHER:SEE_NOTE_AIXM_4_5_MAPPING</aixm:type>
-                <aixm:lighted>NO</aixm:lighted>
-                <aixm:group>NO</aixm:group>
-                <aixm:part>
-                    <aixm:VerticalStructurePart gml:id="uuid.0e6d4a44-f2dd-4f0f-89d3-6df0938a1fc5">
-                        <aixm:verticalExtent uom="FT">47.245</aixm:verticalExtent>
-                        <aixm:horizontalProjection_location>
-                            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
-                                                xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
-                                                xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                                                xmlns:gco="http://www.isotc211.org/2005/gco"
-                                                xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                xmlns:gml="http://www.opengis.net/gml/3.2"
-                                                xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot"
-                                                xmlns:gts="http://www.isotc211.org/2005/gts"
-                                                xmlns:aixm="http://www.aixm.aero/schema/5.1"
-                                                srsName="urn:ogc:def:crs:EPSG::4326"
-                                                gml:id="uuid.cc357875-75d6-4e20-a601-efc997159a85">
-                                <gml:pos>52.387591667 17.835438889</gml:pos>
-                                <aixm:annotation>
-                                    <aixm:Note gml:id="uuid.c9bc1d49-5846-44b0-995e-ab4d6242e5b8">
-                                        <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                                        <aixm:translatedNote>
-                                            <aixm:LinguisticNote gml:id="uuid.57f142f0-a12a-49bb-a910-693d94af445a">
-                                                <aixm:note>CRC:522315.3300N, 0175007.5800E, 367.126, , 3310D4DB
-                                                </aixm:note>
-                                            </aixm:LinguisticNote>
-                                        </aixm:translatedNote>
-                                    </aixm:Note>
-                                </aixm:annotation>
-                                <aixm:elevation uom="FT">367.126</aixm:elevation>
-                            </aixm:ElevatedPoint>
-                        </aixm:horizontalProjection_location>
-                    </aixm:VerticalStructurePart>
-                </aixm:part>
-                <aixm:annotation>
-                    <aixm:Note gml:id="uuid.d657ad18-c9c1-4c3e-8d81-93507163a40a">
-                        <aixm:propertyName>type</aixm:propertyName>
-                        <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                        <aixm:translatedNote>
-                            <aixm:LinguisticNote gml:id="uuid.0a676f85-b235-423f-a07c-026590b7f42c">
-                                <aixm:note>Obstacle type:Hangar/Hangar</aixm:note>
-                            </aixm:LinguisticNote>
-                        </aixm:translatedNote>
-                    </aixm:Note>
-                </aixm:annotation>
-            </aixm:VerticalStructureTimeSlice>
-        </aixm:timeSlice>
-        <aixm:timeSlice>
-            <aixm:VerticalStructureTimeSlice gml:id="uuid.e7db9815-7368-4653-9f90-9564a3854f50">
-                <gml:validTime xlink:type="simple">
-                    <gml:TimePeriod gml:id="uuid.0045604a-ed11-4c20-b67b-c4af7ee8cdac">
-                        <gml:beginPosition>2018-03-01T00:00:00Z</gml:beginPosition>
-                        <gml:endPosition>2020-11-05T00:00:00Z</gml:endPosition>
-                    </gml:TimePeriod>
-                </gml:validTime>
-                <aixm:interpretation>BASELINE</aixm:interpretation>
-                <aixm:sequenceNumber>3</aixm:sequenceNumber>
-                <aixm:correctionNumber>1</aixm:correctionNumber>
-                <aixm:featureLifetime xlink:type="simple">
-                    <gml:TimePeriod gml:id="uuid.dd16f71a-388f-4b6d-b49a-e1b725fb5e54">
-                        <gml:beginPosition>2017-03-30T00:00:00Z</gml:beginPosition>
-                        <gml:endPosition indeterminatePosition="unknown"/>
-                    </gml:TimePeriod>
-                </aixm:featureLifetime>
-                <aixm:name>POWIDZ</aixm:name>
-                <aixm:type>OTHER:SEE_NOTE_AIXM_4_5_MAPPING</aixm:type>
-                <aixm:lighted>NO</aixm:lighted>
-                <aixm:group>NO</aixm:group>
-                <aixm:part>
-                    <aixm:VerticalStructurePart gml:id="uuid.ef5d3966-4e52-4517-891a-36a8563d8d74">
-                        <aixm:verticalExtent uom="FT">47.57</aixm:verticalExtent>
-                        <aixm:horizontalProjection_location>
-                            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
-                                                xmlns:gml="http://www.opengis.net/gml/3.2"
-                                                xmlns:aixm="http://www.aixm.aero/schema/5.1"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                srsName="urn:ogc:def:crs:EPSG::4326"
-                                                gml:id="uuid.7df91ded-4654-41f8-866b-189bd803aed3">
-                                <gml:pos>52.387591667 17.835438889</gml:pos>
-                                <aixm:annotation>
-                                    <aixm:Note gml:id="uuid.8aeb4de5-ff13-45e1-a399-b07bd71c47e8">
-                                        <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                                        <aixm:translatedNote>
-                                            <aixm:LinguisticNote gml:id="uuid.904ae0ef-5fbb-416d-b570-e235ebcbe361">
-                                                <aixm:note>CRC:522315.3300N, 0175007.5800E, 367.45, , C873EFE5
-                                                </aixm:note>
-                                            </aixm:LinguisticNote>
-                                        </aixm:translatedNote>
-                                    </aixm:Note>
-                                </aixm:annotation>
-                                <aixm:elevation uom="FT">367.45</aixm:elevation>
-                            </aixm:ElevatedPoint>
-                        </aixm:horizontalProjection_location>
-                    </aixm:VerticalStructurePart>
-                </aixm:part>
-                <aixm:annotation>
-                    <aixm:Note gml:id="uuid.39885de0-5776-4a70-bc57-e42fcfb9a04e">
-                        <aixm:propertyName>type</aixm:propertyName>
-                        <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                        <aixm:translatedNote>
-                            <aixm:LinguisticNote gml:id="uuid.b79ca3c4-a48f-482e-bf6e-2eab13979ead">
-                                <aixm:note>Obstacle type:Hangar/Hangar</aixm:note>
-                            </aixm:LinguisticNote>
-                        </aixm:translatedNote>
-                    </aixm:Note>
-                </aixm:annotation>
-            </aixm:VerticalStructureTimeSlice>
-        </aixm:timeSlice>
-        <aixm:timeSlice>
-            <aixm:VerticalStructureTimeSlice gml:id="uuid.ffea29a2-4539-434a-b72c-e28c9ced0792">
-                <gml:validTime xlink:type="simple">
-                    <gml:TimePeriod gml:id="uuid.b0b5e2b0-cb19-49c0-aa43-9c02b2462015">
-                        <gml:beginPosition>2020-11-05T00:00:00Z</gml:beginPosition>
-                        <gml:endPosition>2022-03-24T00:00:00Z</gml:endPosition>
-                    </gml:TimePeriod>
-                </gml:validTime>
-                <aixm:interpretation>BASELINE</aixm:interpretation>
-                <aixm:sequenceNumber>4</aixm:sequenceNumber>
-                <aixm:correctionNumber>1</aixm:correctionNumber>
-                <aixm:featureLifetime xlink:type="simple">
-                    <gml:TimePeriod gml:id="uuid.36310597-8bb6-4ec4-ae32-b04b76c10f2a">
-                        <gml:beginPosition>2017-03-30T00:00:00Z</gml:beginPosition>
-                        <gml:endPosition indeterminatePosition="unknown"/>
-                    </gml:TimePeriod>
-                </aixm:featureLifetime>
-                <aixm:name>POWIDZ</aixm:name>
-                <aixm:type>OTHER:SEE_NOTE_AIXM_4_5_MAPPING</aixm:type>
-                <aixm:lighted>YES</aixm:lighted>
-                <aixm:group>NO</aixm:group>
-                <aixm:part>
-                    <aixm:VerticalStructurePart gml:id="uuid.6d78ac35-c405-4c1e-a130-f43245e9b307">
-                        <aixm:verticalExtent uom="FT">46</aixm:verticalExtent>
-                        <aixm:horizontalProjection_location>
-                            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
-                                                xmlns:gml="http://www.opengis.net/gml/3.2"
-                                                xmlns:gts="http://www.isotc211.org/2005/gts"
-                                                xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot"
-                                                xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
-                                                xmlns:aixm="http://www.aixm.aero/schema/5.1"
-                                                xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport"
-                                                xmlns:gco="http://www.isotc211.org/2005/gco"
-                                                xmlns:audit="http://www.aixm.aero/schema/5.1.1/extensions/audit"
-                                                xmlns:event="http://www.aixm.aero/schema/5.1.1/event"
-                                                xmlns:nk="http://www.aixm.aero/schema/5.1.1/extensions/naturalkey"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                                                srsName="urn:ogc:def:crs:EPSG::4326"
-                                                gml:id="uuid.0993ef26-a2fa-4e82-a953-402a2c443a9a">
-                                <gml:pos>52.387555556 17.835416667</gml:pos>
-                                <aixm:annotation>
-                                    <aixm:Note gml:id="uuid.a46b1ea8-0b91-46d3-ad4a-e7921c777907">
-                                        <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                                        <aixm:translatedNote>
-                                            <aixm:LinguisticNote gml:id="uuid.1599a0fd-b633-46dd-afd1-df54fc4418b4">
-                                                <aixm:note>CRC:522315.2000N, 0175007.5000E, 414, , ACF97D49</aixm:note>
-                                            </aixm:LinguisticNote>
-                                        </aixm:translatedNote>
-                                    </aixm:Note>
-                                </aixm:annotation>
-                                <aixm:elevation uom="FT">414</aixm:elevation>
-                            </aixm:ElevatedPoint>
-                        </aixm:horizontalProjection_location>
-                    </aixm:VerticalStructurePart>
-                </aixm:part>
-                <aixm:annotation>
-                    <aixm:Note gml:id="uuid.19dc3eb6-2ebf-4904-a89c-319bd29dab9f">
-                        <aixm:propertyName>type</aixm:propertyName>
-                        <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                        <aixm:translatedNote>
-                            <aixm:LinguisticNote gml:id="uuid.fc57040f-a610-40c1-bda5-1166ae01aadf">
-                                <aixm:note>Obstacle type:Hangar/Hangar</aixm:note>
-                            </aixm:LinguisticNote>
-                        </aixm:translatedNote>
-                    </aixm:Note>
-                </aixm:annotation>
-                <aixm:annotation>
-                    <aixm:Note gml:id="uuid.1e2e99a3-a6db-4015-ba5c-653de0e0bf12">
-                        <aixm:purpose>DESCRIPTION</aixm:purpose>
-                        <aixm:translatedNote>
-                            <aixm:LinguisticNote gml:id="uuid.6263c23d-e241-4115-8990-970a7eb2019e">
-                                <aixm:note>txtDescrLgt:Unknown</aixm:note>
-                            </aixm:LinguisticNote>
-                        </aixm:translatedNote>
-                    </aixm:Note>
-                </aixm:annotation>
-            </aixm:VerticalStructureTimeSlice>
-        </aixm:timeSlice>
-        <aixm:timeSlice>
-            <aixm:VerticalStructureTimeSlice gml:id="uuid.6aa59a38-cbde-4673-abd1-0e241f6b16b2">
-                <gml:validTime xlink:type="simple">
-                    <gml:TimePeriod gml:id="uuid.d3a8264a-9526-495f-b77e-f1e65bfc799e">
-                        <gml:beginPosition>2022-03-24T00:00:00Z</gml:beginPosition>
-                        <gml:endPosition indeterminatePosition="unknown"/>
-                    </gml:TimePeriod>
-                </gml:validTime>
-                <aixm:interpretation>BASELINE</aixm:interpretation>
-                <aixm:sequenceNumber>5</aixm:sequenceNumber>
-                <aixm:correctionNumber>0</aixm:correctionNumber>
-                <aixm:featureLifetime xlink:type="simple">
-                    <gml:TimePeriod gml:id="uuid.d8b3e6b0-0332-4213-96da-c9cd8681595e">
-                        <gml:beginPosition>2017-03-30T00:00:00Z</gml:beginPosition>
-                        <gml:endPosition indeterminatePosition="unknown"/>
-                    </gml:TimePeriod>
-                </aixm:featureLifetime>
-                <aixm:name>POWIDZ</aixm:name>
-                <aixm:type>OTHER:SEE_NOTE_AIXM_4_5_MAPPING</aixm:type>
-                <aixm:lighted>YES</aixm:lighted>
-                <aixm:group>NO</aixm:group>
-                <aixm:part>
-                    <aixm:VerticalStructurePart gml:id="uuid.cc04338d-0dfb-4502-b463-fde098767bff">
-                        <aixm:verticalExtent uom="FT">46</aixm:verticalExtent>
-                        <aixm:horizontalProjection_location>
-                            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                xmlns:gml="http://www.opengis.net/gml/3.2"
-                                                srsName="urn:ogc:def:crs:EPSG::4326"
-                                                gml:id="uuid.8fc1a154-cf14-4710-b56d-31559b2df884">
-                                <gml:pos>52.387555556 17.835416667</gml:pos>
-                                <aixm:annotation>
-                                    <aixm:Note gml:id="uuid.f381e66c-ad9b-4d18-a067-993f98576e3a">
-                                        <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                                        <aixm:translatedNote>
-                                            <aixm:LinguisticNote gml:id="uuid.45ce0a7d-5cc3-4c8c-9c12-da0c442443c7">
-                                                <aixm:note>CRC:522315.2000N, 0175007.5000E, 414, , ACF97D49</aixm:note>
-                                            </aixm:LinguisticNote>
-                                        </aixm:translatedNote>
-                                    </aixm:Note>
-                                </aixm:annotation>
-                                <aixm:elevation uom="FT">414</aixm:elevation>
-                            </aixm:ElevatedPoint>
-                        </aixm:horizontalProjection_location>
-                    </aixm:VerticalStructurePart>
-                </aixm:part>
-                <aixm:annotation>
-                    <aixm:Note gml:id="uuid.f1af8e9a-dd0b-4201-8e31-14d7ecbde3df">
-                        <aixm:propertyName>type</aixm:propertyName>
-                        <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                        <aixm:translatedNote>
-                            <aixm:LinguisticNote gml:id="uuid.82b6cef6-5185-400d-a951-1612fc518cd7">
-                                <aixm:note>Obstacle type:Hangar/Hangar</aixm:note>
-                            </aixm:LinguisticNote>
-                        </aixm:translatedNote>
-                    </aixm:Note>
-                </aixm:annotation>
-                <aixm:annotation>
-                    <aixm:Note gml:id="uuid.d3a1db5e-22d5-418a-8bda-04f46726ee45">
-                        <aixm:purpose>DESCRIPTION</aixm:purpose>
-                        <aixm:translatedNote>
-                            <aixm:LinguisticNote gml:id="uuid.fc46fd5b-8f1e-4e2f-bdd8-650c8fb7c029">
-                                <aixm:note>txtDescrLgt:Unknown</aixm:note>
-                            </aixm:LinguisticNote>
-                        </aixm:translatedNote>
-                    </aixm:Note>
-                </aixm:annotation>
-                <aixm:annotation>
-                    <aixm:Note gml:id="uuid.9bc5ccf3-7006-444c-a521-afb1ca3ff61e">
-                        <aixm:purpose>REMARK</aixm:purpose>
-                        <aixm:translatedNote>
-                            <aixm:LinguisticNote gml:id="uuid.572cf20b-12c7-4033-8b6c-0cb5abe9a7e4">
-                                <aixm:note>txtRmk:NIL EPPW 25</aixm:note>
-                            </aixm:LinguisticNote>
-                        </aixm:translatedNote>
-                    </aixm:Note>
-                </aixm:annotation>
-            </aixm:VerticalStructureTimeSlice>
-        </aixm:timeSlice>
-    </aixm:VerticalStructure>
-
-</AIXMBasicMessage>
+    <message:hasMember>
+        <aixm:VerticalStructure gml:id="uuid.af18afd8-c27c-4282-81f8-3819623c1bd3">
+            <gml:identifier codeSpace="urn:uuid:">af18afd8-c27c-4282-81f8-3819623c1bd3</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:VerticalStructureTimeSlice gml:id="uuid.d784ec58-a52e-4cde-8b8b-9ae2a3564905">
+                    <gml:validTime xlink:type="simple">
+                        <gml:TimePeriod gml:id="uuid.e10d6cad-2c04-40ee-b2f9-6cef2fc21a47">
+                            <gml:beginPosition>2015-07-23T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime xlink:type="simple">
+                        <gml:TimePeriod gml:id="uuid.99752b60-efa8-422d-8562-74fa62b57cd4">
+                            <gml:beginPosition>2015-07-23T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:name>LTCN3180</aixm:name>
+                    <aixm:type>BUILDING</aixm:type>
+                    <aixm:lighted>NO</aixm:lighted>
+                    <aixm:group>NO</aixm:group>
+                    <aixm:part>
+                        <aixm:VerticalStructurePart gml:id="uuid.d4b333bd-c574-42d3-ba2d-a4c04d326928">
+                            <aixm:verticalExtent uom="FT">14.76</aixm:verticalExtent>
+                            <aixm:horizontalProjection_linearExtent>
+                                <aixm:ElevatedCurve>
+                                    <gml:segments>
+                                        <gml:GeodesicString interpolation="geodesic">
+                                            <!-- It is prohibited that VerticalStructurePart has-descendant gml:posList value #coordinates expressed with less than 4 decimals# -->
+                                            <gml:posList>42.67 22.28 43.15 22.58</gml:posList>
+                                        </gml:GeodesicString>
+                                    </gml:segments>
+                                </aixm:ElevatedCurve>
+                            </aixm:horizontalProjection_linearExtent>
+                        </aixm:VerticalStructurePart>
+                    </aixm:part>
+                </aixm:VerticalStructureTimeSlice>
+            </aixm:timeSlice>
+        </aixm:VerticalStructure>
+    </message:hasMember>
+</message:AIXMBasicMessage>
