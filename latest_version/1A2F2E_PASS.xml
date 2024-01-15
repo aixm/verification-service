@@ -4,9 +4,8 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
@@ -31,7 +30,6 @@
                             <gml:endPosition indeterminatePosition="unknown"/>
                         </gml:TimePeriod>
                     </aixm:featureLifetime>
-
                     <aixm:flightOperations>ARR</aixm:flightOperations>
                     <aixm:rank>ALTERNATE</aixm:rank>
                     <aixm:compliantICAO>YES</aixm:compliantICAO>
@@ -73,9 +71,6 @@
                             <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
                         </aixm:ServiceOperationalStatus>
                     </aixm:availability>
-
-
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.4ae5d955-16d4-4c52-b461-d78a76e23800">
                             <aixm:propertyName>flightOperations</aixm:propertyName>
@@ -86,85 +81,71 @@
                             <aixm:propertyName>rank</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.4ae5d955-16d4-4c52-b461-d78a76e23802">
                             <aixm:propertyName>compliantICAO</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.4ae5d955-16d4-4c52-b461-d78a76e23803">
                             <aixm:propertyName>name</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.4ae5d955-16d4-4c52-b461-d78a76e23804">
                             <aixm:propertyName>location</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.4ae5d955-16d4-4c52-b461-d78a76e23805">
                             <aixm:propertyName>serviceProvider</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.4ae5d955-16d4-4c52-b461-d78a76e23806">
                             <aixm:propertyName>callsign</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.4ae5d955-16d4-4c52-b461-d78a76e23807">
                             <aixm:propertyName>radioCommunication</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.4ae5d955-16d4-4c52-b461-d78a76e23808">
                             <aixm:propertyName>groundCommunication</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.4ae5d955-16d4-4c52-b461-d78a76e23809">
                             <aixm:propertyName>availability</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.4ae5d955-16d4-4c52-b461-d78a76e2380a">
                             <aixm:propertyName>airportHeliport</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.4ae5d955-16d4-4c52-b461-d78a76e2380b">
                             <aixm:propertyName>fuelSupply</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.4ae5d955-16d4-4c52-b461-d78a76e2380c">
                             <aixm:propertyName>oilSupply</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.4ae5d955-16d4-4c52-b461-d78a76e2380d">
                             <aixm:propertyName>nitrogenSupply</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.4ae5d955-16d4-4c52-b461-d78a76e2380e">
                             <aixm:propertyName>oxygenSupply</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:airportHeliport/>
                     <aixm:fuelSupply>
                         <aixm:Fuel gml:id="uuid.e09a9fe9-5dca-443b-88af-4c2680f9b9fe">
@@ -200,7 +181,6 @@
                     <aixm:oxygenSupply>
                         <aixm:Oxygen gml:id="uuid.09c609fa-7443-4c37-a197-c0904a6f0efd"/>
                     </aixm:oxygenSupply>
-
                </aixm:AirportSuppliesServiceTimeSlice>
             </aixm:timeSlice>
         </aixm:AirportSuppliesService>

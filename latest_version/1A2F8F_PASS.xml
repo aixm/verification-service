@@ -4,9 +4,8 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
@@ -28,7 +27,6 @@
               <gml:endPosition indeterminatePosition="unknown"/>
             </gml:TimePeriod>
           </aixm:featureLifetime>
-
           <aixm:obstacleAssessment>
             <aixm:ObstacleAssessmentArea gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000">
               <aixm:significantObstacle>
@@ -39,7 +37,6 @@
                       <aixm:obstacleDistance>100</aixm:obstacleDistance>
                       <aixm:pointType>AAA</aixm:pointType>
                       <aixm:obstaclePlacement>BOTH</aixm:obstaclePlacement>
-
                       <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
                           <aixm:propertyName>obstacleBearing</aixm:propertyName>
@@ -60,7 +57,6 @@
                           <aixm:propertyName>obstaclePlacement</aixm:propertyName>
                         </aixm:Note>
                       </aixm:annotation>
-
                     </aixm:ObstaclePlacement>
                   </aixm:obstaclePlacement>
                 </aixm:Obstruction>

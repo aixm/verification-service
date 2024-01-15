@@ -4,14 +4,12 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
         <aixm:Airspace gml:id="uuid.77e50d82-b4dd-4b1a-b9d4-db04892b0904">
             <gml:identifier codeSpace="urn:uuid:">77e50d82-b4dd-4b1a-b9d4-db04892b0904</gml:identifier>
             <gml:boundedBy xsi:nil="true"/>
@@ -45,21 +43,18 @@
                             <aixm:classification>C</aixm:classification>
                             <aixm:associatedLevels>
                                 <aixm:AirspaceLayer gml:id="uuid.f5868e1e-d11c-4be7-a075-16d9c8c3b7d2">
-
                                     <aixm:upperLimit uom="FL">660</aixm:upperLimit>
                                     <aixm:upperLimitReference>STD</aixm:upperLimitReference>
                                     <aixm:lowerLimit uom="FL">95</aixm:lowerLimit>
                                     <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
                                     <aixm:altitudeInterpretation>BETWEEN</aixm:altitudeInterpretation>
                                     <aixm:discreteLevelSeries xsi:nil="true"/>
-
                                     <aixm:annotation>
                                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
                                             <!-- WARNING It is prohibited that AirspaceLayer has annotation.Note.propertyName value other-than-one-of ('upperLimit', 'upperLimitReference', 'lowerLimit', 'lowerLimitReference', 'altitudeInterpretation', 'discreteLevelSeries')  -->
                                             <aixm:propertyName>invalidPropertyName</aixm:propertyName>
                                         </aixm:Note>
                                     </aixm:annotation>
-
                                     <aixm:annotation xsi:nil="true"/>
                                 </aixm:AirspaceLayer>
                             </aixm:associatedLevels>

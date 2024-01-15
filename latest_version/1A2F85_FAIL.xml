@@ -4,9 +4,8 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
@@ -69,18 +68,15 @@
             <aixm:NavaidEquipmentDistance gml:id="ned111">
               <aixm:distance uom="M">1100</aixm:distance>
               <aixm:distanceAccuracy uom="M">3</aixm:distanceAccuracy>
-
               <aixm:annotation>
                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
                   <!-- WARNING It is prohibited that NavaidEquipmentDistance has annotation.Note.propertyName value other-than-one-of ('distance', 'distanceAccuracy', 'theNavaidEquipment')  -->
                   <aixm:propertyName>invalidPropertyName</aixm:propertyName>
                 </aixm:Note>
               </aixm:annotation>
-
               <aixm:theNavaidEquipment
                       xlink:href="urn:uuid:2dfdd04a-7e1e-4754-adc5-9ff46591779c"
                       xlink:title="MKR_EADD_MM27R"/>
-
             </aixm:NavaidEquipmentDistance>
           </aixm:navaidEquipment>
           <aixm:navaidEquipment>
@@ -96,7 +92,6 @@
       </aixm:timeSlice>
     </aixm:RunwayCentrelinePoint>
   </message:hasMember>
-
   <message:hasMember>
     <aixm:MarkerBeacon gml:id="uuid.2dfdd04a-7e1e-4754-adc5-9ff46591779c">
       <gml:identifier codeSpace="urn:uuid:">2dfdd04a-7e1e-4754-adc5-9ff46591779c</gml:identifier>
@@ -172,5 +167,4 @@
       </aixm:timeSlice>
     </aixm:MarkerBeacon>
   </message:hasMember>
-
 </message:AIXMBasicMessage>

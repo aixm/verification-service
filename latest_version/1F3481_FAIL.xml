@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
-
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
 <aixm:InstrumentApproachProcedure gml:id="uuid.0125627b-36c3-412c-a550-326df24e09cf">
   <gml:identifier codeSpace="urn:uuid:">0125627b-36c3-412c-a550-326df24e09cf</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -130,7 +128,6 @@
     </aixm:InstrumentApproachProcedureTimeSlice>
   </aixm:timeSlice>
 </aixm:InstrumentApproachProcedure> 
-
 <aixm:AirportHeliport gml:id="uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b">
   <gml:identifier codeSpace="urn:uuid:">52766fb6-7a3b-49ce-9586-f90250f0dd1b</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -189,7 +186,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.14401d75-afea-4421-902d-4a6af75c4b80" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.14401d75-afea-4421-902d-4a6af75c4b80" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:pos>23.9711111 56.9236111</gml:pos>
           <aixm:horizontalAccuracy uom="FT">10</aixm:horizontalAccuracy>
           <aixm:elevation uom="FT">37</aixm:elevation>
@@ -473,7 +470,6 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
-
 <aixm:IntermediateLeg gml:id="uuid.93404215-7409-4210-89bf-07c2a4deda8f">
   <gml:identifier codeSpace="urn:uuid:">93404215-7409-4210-89bf-07c2a4deda8f</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -534,7 +530,7 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
               </aixm:facilityAngle>
               <aixm:facilityDistance xlink:type="simple" xlink:href="#uuid.4d0a8fdc-8712-4007-83b9-cbccb904cecb"/>
               <aixm:fixToleranceArea>
-                <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.e4df201b-e379-4386-9432-edaf8bd9f1a4" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.e4df201b-e379-4386-9432-edaf8bd9f1a4" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
                   <gml:patches>
                     <gml:PolygonPatch>
                       <gml:exterior>
@@ -587,7 +583,6 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:IntermediateLegTimeSlice>
   </aixm:timeSlice>
 </aixm:IntermediateLeg> 
-
 <aixm:IntermediateLeg gml:id="uuid.6f397440-dff2-4165-b7cf-d48363c75369">
   <gml:identifier codeSpace="urn:uuid:">6f397440-dff2-4165-b7cf-d48363c75369</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -648,7 +643,7 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
               </aixm:facilityAngle>
               <aixm:facilityDistance xlink:type="simple" xlink:href="#uuid.4d0a8fdc-8712-4007-83b9-cbccb904cecb"/>
               <aixm:fixToleranceArea>
-                <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.b8570ace-030b-4e99-838a-f408350e6df0" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.b8570ace-030b-4e99-838a-f408350e6df0" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
                   <gml:patches>
                     <gml:PolygonPatch>
                       <gml:exterior>
@@ -692,7 +687,7 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
               </aixm:facilityAngle>
               <aixm:facilityDistance xlink:type="simple" xlink:href="#uuid.5ff65295-44b2-4bfd-a710-90b35d4fd497"/>
               <aixm:fixToleranceArea>
-                <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.cda77698-f2e8-4fed-b5cd-d862633e8e85" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.cda77698-f2e8-4fed-b5cd-d862633e8e85" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
                   <gml:patches>
                     <gml:PolygonPatch>
                       <gml:exterior>
@@ -719,7 +714,7 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
         </aixm:TerminalSegmentPoint>
       </aixm:endPoint>
       <aixm:trajectory>
-        <aixm:Curve xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.dd512ad8-908a-4a01-8fc4-853d1a0a3902" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:Curve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.dd512ad8-908a-4a01-8fc4-853d1a0a3902" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:segments>
             <gml:GeodesicString>
               <gml:posList>23.9377796 56.7199611 23.9519932 56.80685 </gml:posList>
@@ -742,7 +737,7 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
           <aixm:sectionNumber>0</aixm:sectionNumber>
           <aixm:assessedAltitude uom="FT">529.1</aixm:assessedAltitude>
           <aixm:surface>
-            <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.3a791793-285a-4d4d-adb5-5da2f37f8eb4" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.3a791793-285a-4d4d-adb5-5da2f37f8eb4" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:patches>
                 <gml:PolygonPatch>
                   <gml:exterior>
@@ -770,7 +765,7 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
           <aixm:sectionNumber>1</aixm:sectionNumber>
           <aixm:assessedAltitude uom="FT">529.1</aixm:assessedAltitude>
           <aixm:surface>
-            <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.2faf6918-bb4a-4711-a188-1c3a183b1aa0" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.2faf6918-bb4a-4711-a188-1c3a183b1aa0" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:patches>
                 <gml:PolygonPatch>
                   <gml:exterior>
@@ -807,7 +802,6 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:IntermediateLegTimeSlice>
   </aixm:timeSlice>
 </aixm:IntermediateLeg> 
-
 <aixm:DesignatedPoint gml:id="uuid.dce095c1-848d-44d4-8a93-a6ef65ce9e15">
   <gml:identifier codeSpace="urn:uuid:">dce095c1-848d-44d4-8a93-a6ef65ce9e15</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -832,7 +826,7 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
       <aixm:type>ICAO</aixm:type>
       <aixm:name>SAFNE</aixm:name>
       <aixm:location>
-        <aixm:Point xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.3a61fdf0-5345-4ad1-8eda-7d4f63774c40" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:Point xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.3a61fdf0-5345-4ad1-8eda-7d4f63774c40" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:pos>23.9377667 56.7199611</gml:pos>
           <aixm:horizontalAccuracy uom="M">1</aixm:horizontalAccuracy>
         </aixm:Point>
@@ -853,7 +847,6 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:DesignatedPointTimeSlice>
   </aixm:timeSlice>
 </aixm:DesignatedPoint> 
-
 <aixm:AngleIndication gml:id="uuid.188e0728-3ff0-4014-97a2-a9e6340d1129">
   <gml:identifier codeSpace="urn:uuid:">188e0728-3ff0-4014-97a2-a9e6340d1129</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -895,7 +888,6 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:AngleIndicationTimeSlice>
   </aixm:timeSlice>
 </aixm:AngleIndication> 
-
 <aixm:DistanceIndication gml:id="uuid.4d0a8fdc-8712-4007-83b9-cbccb904cecb">
   <gml:identifier codeSpace="urn:uuid:">4d0a8fdc-8712-4007-83b9-cbccb904cecb</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -934,7 +926,6 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:DistanceIndicationTimeSlice>
   </aixm:timeSlice>
 </aixm:DistanceIndication> 
-
 <aixm:Navaid gml:id="uuid.fa32458e-cac2-4786-8a7f-d652cacfa465">
   <gml:identifier codeSpace="urn:uuid:">fa32458e-cac2-4786-8a7f-d652cacfa465</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -975,7 +966,7 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
         </aixm:NavaidComponent>
       </aixm:navaidEquipment>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.08cd6e56-7c44-4c31-8448-826aeadd4f95" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.08cd6e56-7c44-4c31-8448-826aeadd4f95" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:pos>23.9651944 56.9208611</gml:pos>
           <aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
           <aixm:elevation uom="FT">100</aixm:elevation>
@@ -1015,7 +1006,6 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:NavaidTimeSlice>
   </aixm:timeSlice>
 </aixm:Navaid> 
-
 <aixm:VOR gml:id="uuid.f2b1b8e5-8259-4ee2-aa2a-dd17eed196cf">
   <gml:identifier codeSpace="urn:uuid:">f2b1b8e5-8259-4ee2-aa2a-dd17eed196cf</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1045,7 +1035,7 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
       <aixm:dateMagneticVariation>2021</aixm:dateMagneticVariation>
       <aixm:flightChecked nilReason="unknown" xsi:nil="true"/>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.a2e0757f-5046-4901-b580-cbd3eb30e2ec" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.a2e0757f-5046-4901-b580-cbd3eb30e2ec" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:pos>23.9651944 56.9208611</gml:pos>
           <aixm:horizontalAccuracy uom="M">1</aixm:horizontalAccuracy>
         </aixm:ElevatedPoint>
@@ -1075,7 +1065,6 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:VORTimeSlice>
   </aixm:timeSlice>
 </aixm:VOR> 
-
 <aixm:DME gml:id="uuid.fac06cb3-c809-4c6a-b458-2d4fffaad35b">
   <gml:identifier codeSpace="urn:uuid:">fac06cb3-c809-4c6a-b458-2d4fffaad35b</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1105,7 +1094,7 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
       <aixm:dateMagneticVariation nilReason="unknown" xsi:nil="true"/>
       <aixm:flightChecked>YES</aixm:flightChecked>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.73a4cb99-809e-4200-8950-6410c64f5801" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.73a4cb99-809e-4200-8950-6410c64f5801" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:pos>23.9651944 56.9208611</gml:pos>
           <aixm:elevation uom="M">30</aixm:elevation>
           <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
@@ -1137,7 +1126,6 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:DMETimeSlice>
   </aixm:timeSlice>
 </aixm:DME> 
-
 <aixm:AirportHeliport gml:id="uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b">
   <gml:identifier codeSpace="urn:uuid:">52766fb6-7a3b-49ce-9586-f90250f0dd1b</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1196,7 +1184,7 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.14401d75-afea-4421-902d-4a6af75c4b80" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.14401d75-afea-4421-902d-4a6af75c4b80" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:pos>23.9711111 56.9236111</gml:pos>
           <aixm:horizontalAccuracy uom="FT">10</aixm:horizontalAccuracy>
           <aixm:elevation uom="FT">37</aixm:elevation>
@@ -1480,7 +1468,6 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
-
 <aixm:OrganisationAuthority gml:id="uuid.09424934-89eb-0ae9-e053-0b751dc2b779">
   <gml:identifier codeSpace="urn:uuid:">09424934-89eb-0ae9-e053-0b751dc2b779</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1558,19 +1545,6 @@ LV-1053 Riga, Latvia
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:OrganisationAuthorityExtension gml:id="uuid.1eca270a-f7a2-4ec7-a9d4-2e9513d64889">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.708184cb-5c03-44e5-9f20-ba3462d4bff4">
-              <ead-audit:createdBy>EV_TPOLUREZOV</ead-audit:createdBy>
-              <ead-audit:creationDate>2022-03-15T07:53:42Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>LATVIJAS GAISA SATIKSME</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason: AIRAC AMDT 003/22</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:OrganisationAuthorityExtension>
-      </aixm:extension>
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -1650,7 +1624,6 @@ Latvija</aixm:deliveryPoint>
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
-
 <aixm:SafeAltitudeArea gml:id="uuid.1cb0af4a-033f-46bc-b3e3-6ca0661bdadc">
   <gml:identifier codeSpace="urn:uuid:">1cb0af4a-033f-46bc-b3e3-6ca0661bdadc</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1677,7 +1650,7 @@ Latvija</aixm:deliveryPoint>
         <aixm:SafeAltitudeAreaSector gml:id="uuid.5e18c0d7-22ac-46ae-87a7-e65d9187cbc9">
           <aixm:bufferWidth uom="NM">5</aixm:bufferWidth>
           <aixm:extent>
-            <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.9c08ff94-b183-4630-a538-1fe08b1519b3" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.9c08ff94-b183-4630-a538-1fe08b1519b3" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:patches>
                 <gml:PolygonPatch>
                   <gml:exterior>
@@ -1725,7 +1698,7 @@ Latvija</aixm:deliveryPoint>
         <aixm:SafeAltitudeAreaSector gml:id="uuid.45fa8e39-4afa-4558-875c-da9449e6f51c">
           <aixm:bufferWidth uom="NM">5</aixm:bufferWidth>
           <aixm:extent>
-            <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.945b07a0-5d33-43ed-93c0-3521e87cf1ac" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.945b07a0-5d33-43ed-93c0-3521e87cf1ac" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:patches>
                 <gml:PolygonPatch>
                   <gml:exterior>
@@ -1773,7 +1746,7 @@ Latvija</aixm:deliveryPoint>
         <aixm:SafeAltitudeAreaSector gml:id="uuid.56ba9913-e957-42d0-8ecb-f200e6a8d39e">
           <aixm:bufferWidth uom="NM">5</aixm:bufferWidth>
           <aixm:extent>
-            <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.a56f6cca-1101-491d-838f-3eff871cc338" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+            <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.a56f6cca-1101-491d-838f-3eff871cc338" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
               <gml:patches>
                 <gml:PolygonPatch>
                   <gml:exterior>
@@ -1831,7 +1804,6 @@ Latvija</aixm:deliveryPoint>
     </aixm:SafeAltitudeAreaTimeSlice>
   </aixm:timeSlice>
 </aixm:SafeAltitudeArea>
-
 <aixm:RunwayDirection gml:id="uuid.bbefb8a0-e9e0-4dca-8665-7bffe47860e1">
   <gml:identifier codeSpace="urn:uuid:">bbefb8a0-e9e0-4dca-8665-7bffe47860e1</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1897,7 +1869,6 @@ Latvija</aixm:deliveryPoint>
     </aixm:RunwayDirectionTimeSlice>
   </aixm:timeSlice>
 </aixm:RunwayDirection> 
-
 <aixm:Runway gml:id="uuid.3fd5bb29-33a9-4dc5-9102-d8674a8cb42e">
   <gml:identifier codeSpace="urn:uuid:">3fd5bb29-33a9-4dc5-9102-d8674a8cb42e</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -2033,5 +2004,4 @@ RWY 18/36 aizsardzbas ugunis pie TWY A, B, C, D, E, G, K un Y.</aixm:note>
     </aixm:RunwayTimeSlice>
   </aixm:timeSlice>
 </aixm:Runway> 
-
 </AIXMBasicMessage>

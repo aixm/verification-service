@@ -4,12 +4,11 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
-
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:AirportHeliport gml:id="uuid.31b6c199-8ca0-4f3a-ae67-baff2c670ad7">
             <gml:identifier codeSpace="urn:uuid:">31b6c199-8ca0-4f3a-ae67-baff2c670ad7</gml:identifier>
@@ -152,7 +151,6 @@
                                                             <aixm:antiCollisionAndSeparationEquipment>ACAS_II</aixm:antiCollisionAndSeparationEquipment>
                                                             <aixm:communicationEquipment>ADS_B_VDL</aixm:communicationEquipment>
                                                             <aixm:surveillanceEquipment>MODE_C</aixm:surveillanceEquipment>
-                                                            
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
                                                                     <aixm:propertyName>itype</aixm:propertyName>
@@ -163,85 +161,71 @@
                                                                     <aixm:propertyName>engine</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
                                                                     <aixm:propertyName>numberEngine</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
                                                                     <aixm:propertyName>typeAircraftICAO</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
                                                                     <aixm:propertyName>aircraftLandingCategory</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
                                                                     <aixm:propertyName>wingSpan</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
                                                                     <aixm:propertyName>wingSpanInterpretation</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
                                                                     <aixm:propertyName>classWingSpan</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
                                                                     <aixm:propertyName>weight</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
                                                                     <aixm:propertyName>weightInterpretation</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
                                                                     <aixm:propertyName>passengers</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2b">
                                                                     <aixm:propertyName>passengersInterpretation</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2c">
                                                                     <aixm:propertyName>speed</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2d">
                                                                     <aixm:propertyName>speedInterpretation</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2e">
                                                                     <aixm:propertyName>wakeTurbulence</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2f">
                                                                     <aixm:propertyName>navigationEquipment</aixm:propertyName>
@@ -252,7 +236,6 @@
                                                                     <aixm:propertyName>navigationSpecification</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd31">
                                                                     <aixm:propertyName>verticalSeparationCapability</aixm:propertyName>
@@ -263,7 +246,6 @@
                                                                     <aixm:propertyName>antiCollisionAndSeparationEquipment</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd33">
                                                                     <aixm:propertyName>communicationEquipment</aixm:propertyName>
@@ -274,13 +256,11 @@
                                                                     <aixm:propertyName>surveillanceEquipment</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                             <aixm:annotation>
                                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd35">
                                                                     <aixm:propertyName>annotation</aixm:propertyName>
                                                                 </aixm:Note>
                                                             </aixm:annotation>
-
                                                         </aixm:AircraftCharacteristic>
                                                     </aixm:aircraft>
                                                     <aixm:flight>
@@ -339,5 +319,4 @@
                     </aixm:timeSlice>
                 </aixm:AirportHeliport>
             </message:hasMember>
-
 </message:AIXMBasicMessage>

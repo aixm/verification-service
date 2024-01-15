@@ -4,9 +4,8 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
@@ -23,7 +22,6 @@
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
-
                     <aixm:endConditionDesignator>ALTITUDE</aixm:endConditionDesignator>
                     <aixm:legPath>ARC</aixm:legPath>
                     <aixm:legTypeARINC>AF</aixm:legTypeARINC>
@@ -52,7 +50,6 @@
                     <aixm:endPoint>
                         <aixm:TerminalSegmentPoint gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001"/>
                     </aixm:endPoint>
-
                     <aixm:trajectory>
                         <aixm:Curve>
                             <gml:segments>
@@ -76,7 +73,6 @@
                     <aixm:designSurface>
                         <aixm:ObstacleAssessmentArea gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd006"/>
                     </aixm:designSurface>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
                             <aixm:propertyName>endConditionDesignator</aixm:propertyName>
@@ -301,7 +297,6 @@
                             <aixm:propertyName>finalPathAlignmentPointFixDesignatedPoint</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:approach/>
                     <aixm:guidanceSystem>DME</aixm:guidanceSystem>
                     <aixm:landingSystemCategory>ILS_PRECISION_CAT_I</aixm:landingSystemCategory>
@@ -312,7 +307,6 @@
                     <aixm:courseCentrelineDistance>1</aixm:courseCentrelineDistance>
                     <aixm:courseOffsetDistance>0</aixm:courseOffsetDistance>
                     <aixm:courseCentrelineIntersect>AFTER</aixm:courseCentrelineIntersect>
-
                     <aixm:condition>
                         <aixm:ApproachCondition gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd007"/>
                     </aixm:condition>
@@ -327,7 +321,6 @@
             </aixm:timeSlice>
         </aixm:FinalLeg>
     </message:hasMember>
-
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:FinalLeg gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c301">
             <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
@@ -341,19 +334,16 @@
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd01">
                             <aixm:propertyName>finalPathAlignmentPointNavaidSystem</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:finalPathAlignmentPoint_navaidSystem/>
                 </aixm:FinalLegTimeSlice>
             </aixm:timeSlice>
         </aixm:FinalLeg>
     </message:hasMember>
-
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:FinalLeg gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c306">
             <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
@@ -367,19 +357,16 @@
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd06">
                             <aixm:propertyName>finalPathAlignmentPointNavaidSystem</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:finalPathAlignmentPoint_navaidSystem/>
                 </aixm:FinalLegTimeSlice>
             </aixm:timeSlice>
         </aixm:FinalLeg>
     </message:hasMember>
-
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:FinalLeg gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c302">
             <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
@@ -393,13 +380,11 @@
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd02">
                             <aixm:propertyName>finalPathAlignmentPointPosition</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:finalPathAlignmentPoint_position>
                         <aixm:ElevatedPoint>
                             <gml:pos>39.125944444 -123.200861111</gml:pos>
@@ -409,7 +394,6 @@
             </aixm:timeSlice>
         </aixm:FinalLeg>
     </message:hasMember>
-
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:FinalLeg gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c303">
             <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
@@ -423,19 +407,16 @@
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd03">
                             <aixm:propertyName>finalPathAlignmentPointRunwayPoint</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:finalPathAlignmentPoint_runwayPoint/>
                 </aixm:FinalLegTimeSlice>
             </aixm:timeSlice>
         </aixm:FinalLeg>
     </message:hasMember>
-
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:FinalLeg gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c304">
             <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
@@ -449,19 +430,16 @@
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd04">
                             <aixm:propertyName>finalPathAlignmentPointAimingPoint</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:finalPathAlignmentPoint_aimingPoint/>
                 </aixm:FinalLegTimeSlice>
             </aixm:timeSlice>
         </aixm:FinalLeg>
     </message:hasMember>
-
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:FinalLeg gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c305">
             <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
@@ -475,17 +453,14 @@
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd05">
                             <aixm:propertyName>finalPathAlignmentPointAirportReferencePoint</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:finalPathAlignmentPoint_airportReferencePoint/>
                 </aixm:FinalLegTimeSlice>
             </aixm:timeSlice>
         </aixm:FinalLeg>
     </message:hasMember>
-
 </message:AIXMBasicMessage>

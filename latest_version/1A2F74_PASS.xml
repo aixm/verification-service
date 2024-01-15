@@ -4,9 +4,8 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
@@ -23,7 +22,6 @@
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
-
                     <aixm:flightOperations>ALL</aixm:flightOperations>
                     <aixm:rank>ALTERNATE</aixm:rank>
                     <aixm:compliantICAO>YES</aixm:compliantICAO>
@@ -44,7 +42,6 @@
                     <aixm:availability>
                         <aixm:ServiceOperationalStatus gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd002"/>
                     </aixm:availability>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
                             <aixm:propertyName>flightOperations</aixm:propertyName>
@@ -150,7 +147,6 @@
                             <aixm:propertyName>clientAerialRefuelling</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:type>AFIS</aixm:type>
                     <aixm:voice>YES</aixm:voice>
                     <aixm:dataLink>YES</aixm:dataLink>
@@ -174,16 +170,12 @@
                     </aixm:clientRoute>
                     <!-- Value resolved-into exactly one StandardInstrumentDeparture -->
                     <aixm:clientProcedure xlink:href="urn:uuid:36ad8f95-5f67-44aa-a2e7-21db79129fe2"/>
-
                     <aixm:clientHolding/>
                     <aixm:clientAerialRefuelling/>
-
-
                 </aixm:InformationServiceTimeSlice>
             </aixm:timeSlice>
         </aixm:InformationService>
     </message:hasMember>
-
     <message:hasMember>
         <aixm:StandardInstrumentDeparture gml:id="uuid.36ad8f95-5f67-44aa-a2e7-21db79129fe2">
             <gml:identifier codeSpace="urn:uuid:">36ad8f95-5f67-44aa-a2e7-21db79129fe2</gml:identifier>
@@ -197,21 +189,17 @@
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
-
                     <aixm:availability>
                         <aixm:ProcedureAvailability gml:id="ID_15687A_11">
                             <aixm:status>USABLE</aixm:status>
                         </aixm:ProcedureAvailability>
                     </aixm:availability>
-
                     <aixm:airportHeliport xlink:href="urn:uuid:4d829608-f7c1-4d25-86dd-df12c8eaac56"/>
                     <aixm:designator>STAR</aixm:designator>
-
                 </aixm:StandardInstrumentDepartureTimeSlice>
             </aixm:timeSlice>
         </aixm:StandardInstrumentDeparture>
     </message:hasMember>
-
     <message:hasMember>
         <aixm:AirportHeliport gml:id="uuid.4d829608-f7c1-4d25-86dd-df12c8eaac56">
             <gml:identifier codeSpace="urn:uuid:">4d829608-f7c1-4d25-86dd-df12c8eaac56</gml:identifier>
@@ -225,19 +213,16 @@
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
-
                     <aixm:designator>EADH</aixm:designator>
                     <aixm:name>DONLON/DOWNTOWN HELIPORT</aixm:name>
                     <aixm:locationIndicatorICAO>EADH</aixm:locationIndicatorICAO>
                     <aixm:type>HP</aixm:type>
-
                     <aixm:responsibleOrganisation>
                         <aixm:AirportHeliportResponsibilityOrganisation gml:id="ID_15687A_07">
                             <aixm:role>OPERATE</aixm:role>
                             <aixm:theOrganisationAuthority xlink:href="urn:uuid:8ff7f838-8a5c-48f4-b7d1-9ec6a94f7484"/>
                         </aixm:AirportHeliportResponsibilityOrganisation>
                     </aixm:responsibleOrganisation>
-
                     <aixm:ARP>
                         <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_15687A_08">
                             <gml:pos>52.28888888 -32.03555555</gml:pos>
@@ -245,12 +230,10 @@
                             <aixm:geoidUndulation uom="M">12.0</aixm:geoidUndulation>
                         </aixm:ElevatedPoint>
                     </aixm:ARP>
-
                 </aixm:AirportHeliportTimeSlice>
             </aixm:timeSlice>
         </aixm:AirportHeliport>
     </message:hasMember>
-
     <message:hasMember>
         <aixm:OrganisationAuthority gml:id="uuid.8ff7f838-8a5c-48f4-b7d1-9ec6a94f7484">
             <gml:identifier codeSpace="urn:uuid:">8ff7f838-8a5c-48f4-b7d1-9ec6a94f7484</gml:identifier>
@@ -271,6 +254,4 @@
             </aixm:timeSlice>
         </aixm:OrganisationAuthority>
     </message:hasMember>
-
 </message:AIXMBasicMessage>
-

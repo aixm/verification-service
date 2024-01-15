@@ -4,9 +4,8 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
@@ -44,7 +43,6 @@
                             </aixm:facilityMakeup>
                             <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="urn:uuid:16e398ea-66bf-4624-9482-4feda6eb2d19"/>
                             <aixm:extendedServiceVolume/>
-
                             <aixm:annotation>
                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
                                     <aixm:propertyName>reportingATC</aixm:propertyName>
@@ -100,7 +98,6 @@
                                     <aixm:propertyName>pointChoiceFixDesignatedPoint</aixm:propertyName>
                                 </aixm:Note>
                             </aixm:annotation>
-
                             <aixm:roleFreeFlight>CATCH</aixm:roleFreeFlight>
                             <aixm:roleRVSM>IN</aixm:roleRVSM>
                             <aixm:turnRadius>1</aixm:turnRadius>
@@ -117,7 +114,6 @@
             </aixm:timeSlice>
         </aixm:RouteSegment>
     </message:hasMember>
-
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:RouteSegment gml:id="uuid.30350f97-95a5-4bcb-9228-767d96c96701">
             <gml:identifier codeSpace="urn:uuid:">30350f97-95a5-4bcb-9228-767d96c96710</gml:identifier>
@@ -144,13 +140,11 @@
                     <aixm:start>
                         <aixm:EnRouteSegmentPoint gml:id="uuid.649994c3-14f2-45be-94f7-b4c14203ce01">
                             <aixm:pointChoice_navaidSystem xlink:type="simple" xlink:href="urn:uuid:16e398ea-66bf-4624-9482-4feda6eb2d19"/>
-
                             <aixm:annotation>
                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bc012a">
                                     <aixm:propertyName>pointChoiceNavaidSystem</aixm:propertyName>
                                 </aixm:Note>
                             </aixm:annotation>
-
                         </aixm:EnRouteSegmentPoint>
                     </aixm:start>
                     <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.0e5e3491-8187-46f6-b823-16e3fde5f1fd"/>
@@ -163,7 +157,6 @@
             </aixm:timeSlice>
         </aixm:RouteSegment>
     </message:hasMember>
-
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:RouteSegment gml:id="uuid.30350f97-95a5-4bcb-9228-767d96c96702">
             <gml:identifier codeSpace="urn:uuid:">30350f97-95a5-4bcb-9228-767d96c96710</gml:identifier>
@@ -194,13 +187,11 @@
                                     <gml:pos>39.125944444 -123.200861111</gml:pos>
                                 </aixm:Point>
                             </aixm:pointChoice_position>
-
                             <aixm:annotation>
                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bc022a">
                                     <aixm:propertyName>pointChoicePosition</aixm:propertyName>
                                 </aixm:Note>
                             </aixm:annotation>
-
                         </aixm:EnRouteSegmentPoint>
                     </aixm:start>
                     <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.0e5e3491-8187-46f6-b823-16e3fde5f1fd"/>
@@ -213,7 +204,6 @@
             </aixm:timeSlice>
         </aixm:RouteSegment>
     </message:hasMember>
-
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:RouteSegment gml:id="uuid.30350f97-95a5-4bcb-9228-767d96c967033">
             <gml:identifier codeSpace="urn:uuid:">30350f97-95a5-4bcb-9228-767d96c96710</gml:identifier>
@@ -240,13 +230,11 @@
                     <aixm:start>
                         <aixm:EnRouteSegmentPoint gml:id="uuid.649994c3-14f2-45be-94f7-b4c14203ce03">
                             <aixm:pointChoice_runwayPoint xlink:type="simple" xlink:href="urn:uuid:16e398ea-66bf-4624-9482-4feda6eb2d19"/>
-
                             <aixm:annotation>
                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bc032a">
                                     <aixm:propertyName>pointChoiceRunwayPoint</aixm:propertyName>
                                 </aixm:Note>
                             </aixm:annotation>
-
                         </aixm:EnRouteSegmentPoint>
                     </aixm:start>
                     <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.0e5e3491-8187-46f6-b823-16e3fde5f1fd"/>
@@ -259,7 +247,6 @@
             </aixm:timeSlice>
         </aixm:RouteSegment>
     </message:hasMember>
-
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:RouteSegment gml:id="uuid.30350f97-95a5-4bcb-9228-767d96c96704">
             <gml:identifier codeSpace="urn:uuid:">30350f97-95a5-4bcb-9228-767d96c96710</gml:identifier>
@@ -286,13 +273,11 @@
                     <aixm:start>
                         <aixm:EnRouteSegmentPoint gml:id="uuid.649994c3-14f2-45be-94f7-b4c14203ce04">
                             <aixm:pointChoice_aimingPoint xlink:type="simple" xlink:href="urn:uuid:16e398ea-66bf-4624-9482-4feda6eb2d19"/>
-
                             <aixm:annotation>
                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bc042a">
                                     <aixm:propertyName>pointChoiceAimingPoint</aixm:propertyName>
                                 </aixm:Note>
                             </aixm:annotation>
-
                         </aixm:EnRouteSegmentPoint>
                     </aixm:start>
                     <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.0e5e3491-8187-46f6-b823-16e3fde5f1fd"/>
@@ -305,7 +290,6 @@
             </aixm:timeSlice>
         </aixm:RouteSegment>
     </message:hasMember>
-
     <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:RouteSegment gml:id="uuid.30350f97-95a5-4bcb-9228-767d96c96705">
             <gml:identifier codeSpace="urn:uuid:">30350f97-95a5-4bcb-9228-767d96c96710</gml:identifier>
@@ -332,13 +316,11 @@
                     <aixm:start>
                         <aixm:EnRouteSegmentPoint gml:id="uuid.649994c3-14f2-45be-94f7-b4c14203ce05">
                             <aixm:pointChoice_airportReferencePoint xlink:type="simple" xlink:href="urn:uuid:16e398ea-66bf-4624-9482-4feda6eb2d19"/>
-
                             <aixm:annotation>
                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bc052a">
                                     <aixm:propertyName>pointChoiceAirportReferencedPoint</aixm:propertyName>
                                 </aixm:Note>
                             </aixm:annotation>
-
                         </aixm:EnRouteSegmentPoint>
                     </aixm:start>
                     <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.0e5e3491-8187-46f6-b823-16e3fde5f1fd"/>

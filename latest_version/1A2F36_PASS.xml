@@ -4,9 +4,8 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
@@ -31,7 +30,6 @@
               <gml:endPosition indeterminatePosition="unknown"/>
             </gml:TimePeriod>
           </aixm:featureLifetime>
-
           <aixm:flightOperations>ARR</aixm:flightOperations>
           <aixm:rank>ALTERNATE</aixm:rank>
           <aixm:compliantICAO>YES</aixm:compliantICAO>
@@ -83,7 +81,6 @@
               <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
             </aixm:ServiceOperationalStatus>
           </aixm:availability>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
               <aixm:propertyName>flightOperations</aixm:propertyName>
@@ -94,115 +91,96 @@
               <aixm:propertyName>rank</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
               <aixm:propertyName>compliantICAO</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
               <aixm:propertyName>name</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
               <aixm:propertyName>location</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
               <aixm:propertyName>serviceProvider</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
               <aixm:propertyName>callsign</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
               <aixm:propertyName>radioCommunication</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
               <aixm:propertyName>groundCommunication</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
               <aixm:propertyName>availability</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
               <aixm:propertyName>radarAssisted</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2b">
               <aixm:propertyName>dataLinkEnabled</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2c">
               <aixm:propertyName>dataLinkChannel</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2d">
               <aixm:propertyName>type</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2e">
               <aixm:propertyName>clientAirport</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2f">
               <aixm:propertyName>clientAirspace</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd30">
               <aixm:propertyName>clientRoute</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd31">
               <aixm:propertyName>clientProcedure</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd32">
               <aixm:propertyName>clientHolding</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd33">
               <aixm:propertyName>clientAerialRefuelling</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:annotation>
             <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd34">
               <aixm:propertyName>aircraftLocator</aixm:propertyName>
@@ -238,7 +216,6 @@
               </aixm:translatedNote>
             </aixm:Note>
           </aixm:annotation>
-
           <aixm:radarAssisted>YES</aixm:radarAssisted>
           <aixm:dataLinkEnabled>YES</aixm:dataLinkEnabled>
           <aixm:dataLinkChannel>11</aixm:dataLinkChannel>
@@ -252,7 +229,6 @@
           <aixm:clientHolding/>
           <aixm:clientAerialRefuelling/>
           <aixm:aircraftLocator/>
-
         </aixm:AirTrafficControlServiceTimeSlice>
       </aixm:timeSlice>
     </aixm:AirTrafficControlService>

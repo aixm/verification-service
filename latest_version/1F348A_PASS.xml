@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
-
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
 <aixm:AirTrafficControlService gml:id="uuid.7646eb12-ef9c-41ed-8f00-edd6d3daa636">
   <gml:identifier codeSpace="urn:uuid:">7646eb12-ef9c-41ed-8f00-edd6d3daa636</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -23,7 +21,7 @@
         </gml:TimePeriod>
       </aixm:featureLifetime>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.d205a44b-0fe1-4601-9e43-17bd1792decb">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.d205a44b-0fe1-4601-9e43-17bd1792decb">
           <gml:pos>51.036666667 8.68</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.0c8b684e-5570-472d-be5f-1005b8d38d27">
@@ -74,19 +72,6 @@
       <aixm:clientAirport xlink:type="simple" xlink:href="#uuid.390f38af-46de-4264-aa41-ef2b58cfbbc5"/>
       <aixm:clientAirport xlink:type="simple" xlink:href="#uuid.7c3a0cae-c605-4a7d-8dc7-67c2d37db0a9"/>
       <aixm:clientAirspace xlink:type="simple" xlink:href="#uuid.5b3f8481-5635-43f4-b9bc-96ca026759a2"/>
-      <aixm:extension>
-        <ead-audit:AirTrafficControlServiceExtension gml:id="uuid.2d09c5b0-464a-47b3-82a8-e8d18ef16808">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.3cc2ee09-1d53-4582-bbce-21e363dc8ad5">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-07-04T16:25:49Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>SOURCE: AIRAC AMDT 07/18</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirTrafficControlServiceExtension>
-      </aixm:extension>
     </aixm:AirTrafficControlServiceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -107,7 +92,7 @@
         </gml:TimePeriod>
       </aixm:featureLifetime>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.77757975-ead4-4f46-95df-ac777dabc619">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.77757975-ead4-4f46-95df-ac777dabc619">
           <gml:pos>51.036666667 8.68</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.736e59ba-d2da-4ef0-a5e1-6a2ccf1a202e">
@@ -160,23 +145,9 @@
       <aixm:clientAirspace xlink:type="simple" xlink:href="#uuid.72afba0a-8bcc-424a-a504-51bebc68a584"/>
       <aixm:clientAirspace xlink:type="simple" xlink:href="#uuid.5b3f8481-5635-43f4-b9bc-96ca026759a2"/>
       <aixm:clientAirspace xlink:type="simple" xlink:href="#uuid.b4602f5d-f6a2-4498-af9e-8262803dda54"/>
-      <aixm:extension>
-        <ead-audit:AirTrafficControlServiceExtension gml:id="uuid.7945ce4f-a689-4b8d-84e9-b6d9655437a9">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.6f66af20-90eb-47ee-a7fc-94e49139565f">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-07-04T16:25:50Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>SOURCE: AIRAC AMDT 07/18</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirTrafficControlServiceExtension>
-      </aixm:extension>
     </aixm:AirTrafficControlServiceTimeSlice>
   </aixm:timeSlice>
 </aixm:AirTrafficControlService> 
-
 <aixm:AirportHeliport gml:id="uuid.390f38af-46de-4264-aa41-ef2b58cfbbc5">
   <gml:identifier codeSpace="urn:uuid:">390f38af-46de-4264-aa41-ef2b58cfbbc5</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -219,7 +190,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.dca7ecb5-a484-4c7b-a5ca-09b38c5de3a2">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.dca7ecb5-a484-4c7b-a5ca-09b38c5de3a2">
           <gml:pos>51.614088056 8.616315528</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -498,19 +469,6 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirportHeliportExtension gml:id="uuid.abbeaf58-4079-4c76-9181-058b4724acbc">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.2866e65e-f9c9-4cac-ba42-64c2961b29f9">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2019-01-23T10:46:36Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:Amdt</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirportHeliportExtension>
-      </aixm:extension>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -552,7 +510,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e085f5a2-c2ab-4bd3-aa12-d4ff2d7bc0a1">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e085f5a2-c2ab-4bd3-aa12-d4ff2d7bc0a1">
           <gml:pos>51.614088056 8.616315528</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -831,19 +789,6 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirportHeliportExtension gml:id="uuid.f7dae955-3b4f-4bf3-a511-34b4dfd46258">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.9a2ab088-5939-4d12-9e66-3e8246711e13">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2019-02-21T12:07:38Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirportHeliportExtension>
-      </aixm:extension>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -885,7 +830,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.2868eabd-a1ff-42ae-951d-187864d152fc">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.2868eabd-a1ff-42ae-951d-187864d152fc">
           <gml:pos>51.614088056 8.616315528</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -1126,19 +1071,6 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirportHeliportExtension gml:id="uuid.5bdc006b-c38b-44ae-b72d-80c841cea3f6">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.a36a6ee8-184a-40d7-95ac-d3d0c88e7292">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2019-05-29T10:55:30Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirportHeliportExtension>
-      </aixm:extension>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -1180,7 +1112,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.1462c615-a0e2-4ad7-9034-ce2b39328641">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.1462c615-a0e2-4ad7-9034-ce2b39328641">
           <gml:pos>51.614088056 8.616315528</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -1421,19 +1353,6 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirportHeliportExtension gml:id="uuid.db6b8e8e-2e21-4b45-b0a6-14e2cc56bc52">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.ef1deb3b-a613-463c-82c8-8c9ccff1ccca">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2020-05-26T12:39:29Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirportHeliportExtension>
-      </aixm:extension>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -1475,7 +1394,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:extKey="http://www.aixm.aero/schema/5.1/extensions/externalkey" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.67a46a3d-be1b-45a7-b1f7-b0c7dc3bb4fb">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts"   xmlns:aixm="http://www.aixm.aero/schema/5.1.1"  xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:extKey="http://www.aixm.aero/schema/5.1/extensions/externalkey"    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.67a46a3d-be1b-45a7-b1f7-b0c7dc3bb4fb">
           <gml:pos>51.614088056 8.616315528</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -1726,19 +1645,6 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirportHeliportExtension gml:id="uuid.5bc0a90b-737e-4686-8424-eff02c79a2e4">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.d95d307a-8b4c-47ec-80ae-559d646bd2f3">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2021-07-07T16:39:29Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason:DFS AIRAC 09/21</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirportHeliportExtension>
-      </aixm:extension>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -1780,7 +1686,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4012e945-f612-4ed1-abca-802112b9422e">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts"   xmlns:aixm="http://www.aixm.aero/schema/5.1.1"  xmlns:gco="http://www.isotc211.org/2005/gco"    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4012e945-f612-4ed1-abca-802112b9422e">
           <gml:pos>51.614088056 8.616315528</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -2031,23 +1937,9 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirportHeliportExtension gml:id="uuid.6b7a5607-b978-4b63-9d8e-6829f2dbbd7a">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.870c9cc9-04c2-4f6e-8e4d-8ed6a63f3bb8">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2021-07-07T16:39:29Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason:DFS AIRAC 09/21</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirportHeliportExtension>
-      </aixm:extension>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
-
 <aixm:AirportHeliport gml:id="uuid.7c3a0cae-c605-4a7d-8dc7-67c2d37db0a9">
   <gml:identifier codeSpace="urn:uuid:">7c3a0cae-c605-4a7d-8dc7-67c2d37db0a9</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -2090,7 +1982,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.d3fc96dd-4843-4e52-b04b-65c0ca331e17">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.d3fc96dd-4843-4e52-b04b-65c0ca331e17">
           <gml:pos>51.5183125 7.612240556</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -2283,19 +2175,6 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirportHeliportExtension gml:id="uuid.13f54a14-4c59-424e-8dd0-daf0022dcf5c">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.8c8eaa47-5a6d-48da-8204-d7938e79e02d">
-              <ead-audit:createdBy>ED_DESI3</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-04-09T10:24:15Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirportHeliportExtension>
-      </aixm:extension>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -2337,7 +2216,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.112f4cbf-6804-4022-93eb-947febfb120d">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.112f4cbf-6804-4022-93eb-947febfb120d">
           <gml:pos>51.5183125 7.612240556</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -2530,19 +2409,6 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirportHeliportExtension gml:id="uuid.e778b9ad-0c9f-4484-8f3e-e9bd4fcfc7ce">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.540b6a1d-a0d1-41d7-87e1-1ac2ae74d256">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2020-05-26T12:40:54Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirportHeliportExtension>
-      </aixm:extension>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -2584,7 +2450,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.3cca2e7d-fc8d-4a92-91e2-eaf910b439df">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.3cca2e7d-fc8d-4a92-91e2-eaf910b439df">
           <gml:pos>51.5183125 7.612240556</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -2787,19 +2653,6 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirportHeliportExtension gml:id="uuid.e2cace78-ef47-4f58-b09c-867742d5f87c">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.98316bc7-c319-40b2-ab8e-4a3e65ef9b58">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2020-11-10T10:51:58Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirportHeliportExtension>
-      </aixm:extension>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -2841,7 +2694,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.940e3a06-dca1-412a-b585-317b46f4ced8">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts"   xmlns:aixm="http://www.aixm.aero/schema/5.1.1"  xmlns:gco="http://www.isotc211.org/2005/gco"    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.940e3a06-dca1-412a-b585-317b46f4ced8">
           <gml:pos>51.5183125 7.612240556</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -3044,19 +2897,6 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirportHeliportExtension gml:id="uuid.1c01bb47-d44f-49f4-a173-d995545c98da">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.c041daae-62a9-4997-99db-6c975f736509">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2021-04-14T14:38:22Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason:DFS AIRAC 06/21</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirportHeliportExtension>
-      </aixm:extension>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -3098,7 +2938,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.9ef62f2c-56b5-4e58-ab21-663894569354">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts"   xmlns:aixm="http://www.aixm.aero/schema/5.1.1"  xmlns:gco="http://www.isotc211.org/2005/gco"    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.9ef62f2c-56b5-4e58-ab21-663894569354">
           <gml:pos>51.5183125 7.612240556</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -3301,19 +3141,6 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirportHeliportExtension gml:id="uuid.8fe19fd4-8973-4194-a854-012ee05c29d4">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.3c68b97d-9f7f-4440-81e7-b4b9763c046d">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2021-11-26T10:47:57Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason:Ahp_Change</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirportHeliportExtension>
-      </aixm:extension>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -3355,7 +3182,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.1456cbef-ee66-4631-b9e0-7ec0f76a358f">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts"   xmlns:aixm="http://www.aixm.aero/schema/5.1.1"  xmlns:gco="http://www.isotc211.org/2005/gco"    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.1456cbef-ee66-4631-b9e0-7ec0f76a358f">
           <gml:pos>51.5183125 7.612240556</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -3558,19 +3385,6 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirportHeliportExtension gml:id="uuid.377b88a9-926c-4ca4-a69b-820ddebe01c3">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.a2000ed0-0fb8-4623-80b4-d4042fc8ac06">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2022-05-10T07:40:07Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason: O22/0068.</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirportHeliportExtension>
-      </aixm:extension>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -3612,7 +3426,7 @@
         </aixm:AirportHeliportResponsibilityOrganisation>
       </aixm:responsibleOrganisation>
       <aixm:ARP>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.d752a989-4f75-4c08-b38b-e8dcbb7d3098">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.d752a989-4f75-4c08-b38b-e8dcbb7d3098">
           <gml:pos>51.5183125 7.612240556</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:ARP>
@@ -3777,23 +3591,9 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirportHeliportExtension gml:id="uuid.83188e50-5572-44c8-846f-e1a1e2a9932f">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.6b3c5b04-93ba-4388-ad08-c5377b96f74f">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2022-05-10T07:40:07Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason: O22/0068.</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirportHeliportExtension>
-      </aixm:extension>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
-
 <aixm:Airspace gml:id="uuid.72afba0a-8bcc-424a-a504-51bebc68a584">
   <gml:identifier codeSpace="urn:uuid:">72afba0a-8bcc-424a-a504-51bebc68a584</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -3883,19 +3683,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.7dc726ee-3519-4278-af0b-ee470e47e0d6">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.dbe93e1e-1180-4480-87c7-36e524c73c46">
-              <ead-audit:createdBy>ED_DESI3</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-07-24T13:53:25Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -3984,19 +3771,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.5e7194e3-3aff-4e0f-9948-098811d6a7b8">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.981c8530-431c-411d-a873-80bf7060574b">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-08-13T09:56:24Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -4085,19 +3859,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.fe508913-c6d5-4761-a07d-04d102eda02e">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.cfd3d583-0d1c-4784-9a1f-cdf513658860">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2019-01-23T10:48:03Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:Amdt</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -4186,19 +3947,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.554d4eb4-d929-4212-b3fa-7b94164d501c">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.6e0e8132-8013-4cc1-b3e4-559d11c7c911">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2020-10-13T09:40:29Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -4297,23 +4045,9 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.ebae9414-f9d5-4082-a055-b9c804a8515d">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.bea6425c-e348-4613-afce-0445098b1bf2">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2020-10-13T09:40:29Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
 </aixm:Airspace> 
-
 <aixm:Airspace gml:id="uuid.5b3f8481-5635-43f4-b9bc-96ca026759a2">
   <gml:identifier codeSpace="urn:uuid:">5b3f8481-5635-43f4-b9bc-96ca026759a2</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -4419,19 +4153,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.2bc1068c-39c6-42b3-915a-09f420fcb4f2">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.a32cc14e-7e39-4b6e-870c-e20456ffd5ef">
-              <ead-audit:createdBy>ED_DESI3</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-03-07T09:32:37Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>FRA</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -4536,19 +4257,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.de0ff1ad-bc8f-4e1c-ad37-1932bff30544">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.bedb2762-fb89-4a7f-be89-3609a3788a3b">
-              <ead-audit:createdBy>ED_DESI3</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-04-09T10:26:40Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -4653,19 +4361,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.391a5528-1eb0-4e99-a443-8acd412b7246">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.4bdacfe5-6602-4459-b5c2-5790acefbbee">
-              <ead-audit:createdBy>ED_DESI3</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-05-03T14:05:46Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -4770,19 +4465,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.1b7c05fa-8504-43b5-ad0f-a613043ac914">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.7fc9466d-ac2d-4f58-a0b9-91de162fbf79">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-06-01T09:25:18Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -4887,19 +4569,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.0ec259d8-d0f1-4b9c-b1d0-29330d48d36c">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.f21d7400-20e3-427c-b23d-4687c8a72c09">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-07-04T16:19:09Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>SOURCE: AIRAC AMDT 07/18</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -5004,19 +4673,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.8a91479d-e51a-41d2-be6d-255145d9f597">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.b1d9a5ee-7f43-4aef-b81a-11ee23b7100a">
-              <ead-audit:createdBy>ED_DESI3</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-07-24T13:49:52Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -5121,19 +4777,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.04044578-56fb-4e19-9497-cb7bcc688fbe">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.2c039603-3f14-4b2d-a80f-48e04a506626">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-08-13T09:58:07Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: Adg</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -5238,19 +4881,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.92dbbe0a-a2e0-4124-af7e-fcef148f8ef1">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.fded6a90-9d74-4c19-ab67-879025bb561e">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-10-26T06:15:51Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -5355,19 +4985,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.e80320c3-0839-4990-b64d-59d15391feeb">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.2ce931fc-027d-4e02-a2d5-445409067d78">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-11-14T08:36:45Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT 01/19</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -5472,19 +5089,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.b77b6300-e76b-4d67-94bb-3067c2b89c2b">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.96ceaa30-9768-43cb-9b20-2ada3905fdd2">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2019-01-07T09:40:55Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT_03/19</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -5589,19 +5193,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.7db95dfa-a86c-4004-bbfa-00ac9871df3d">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.05e7eb24-408d-4d23-9583-7de2b94a035f">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2019-01-23T10:47:53Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:Amdt</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -5706,19 +5297,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.68781085-03a9-4269-b4db-969c6f5f454c">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.2d6a4bb0-91cf-4832-868b-6e74e379cb7b">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2019-02-21T12:05:21Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -5823,19 +5401,6 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.20defc5a-94d8-41c8-82f4-0101c76cfc9c">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.b8274756-ca2b-4cbd-8aba-d249e178b545">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2021-02-17T10:07:20Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason: DFS AIRAC 04/21</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -5939,23 +5504,9 @@
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.ec38b310-cdeb-4610-aa6d-fc984ffe04d8">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.22821490-4859-4672-a1af-50bc168d8ebb">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2021-02-17T10:07:20Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason: DFS AIRAC 04/21</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
 </aixm:Airspace> 
-
 <aixm:Airspace gml:id="uuid.b4602f5d-f6a2-4498-af9e-8262803dda54">
   <gml:identifier codeSpace="urn:uuid:">b4602f5d-f6a2-4498-af9e-8262803dda54</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -5989,7 +5540,7 @@
               <aixm:lowerLimit uom="FT">2500</aixm:lowerLimit>
               <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
               <aixm:horizontalProjection>
-                <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.8c7f70ef-3106-4eeb-9d23-a76343c06ac5">
+                <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.8c7f70ef-3106-4eeb-9d23-a76343c06ac5">
                   <gml:patches>
                     <gml:PolygonPatch interpolation="planar">
                       <gml:exterior>
@@ -6203,19 +5754,6 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
           <aixm:status>ACTIVE</aixm:status>
         </aixm:AirspaceActivation>
       </aixm:activation>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.814fa357-2d55-43b5-9247-970079067a17">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.2335cbce-80cc-4cc2-a9b6-7b8b60452e2f">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-07-04T16:17:49Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>SOURCE: AIRAC AMDT 07/18</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -6304,19 +5842,6 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.eb1c8b62-9ef2-484c-93ea-10cf24593990">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.19169c98-7cc0-4e07-8174-c767d5406006">
-              <ead-audit:createdBy>ED_DESI3</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-07-24T13:53:28Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -6405,19 +5930,6 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.73b7a782-c59d-4fb7-9480-bb7c4227dfa9">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.37be0477-98ca-4105-b485-f8f7b4e375be">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-08-13T09:58:30Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -6506,19 +6018,6 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.9f404090-5f8d-4e6e-8c5b-655152042c02">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.ff0631a2-190d-4bb1-80e8-da2540416cf1">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-10-26T06:15:45Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -6607,19 +6106,6 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.dc6ffbf6-647a-48ae-b4d3-7f156112e15e">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.04e2185f-6044-4513-9056-0b4e87b4253a">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-11-14T08:35:41Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT 01/19</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -6708,19 +6194,6 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.122593a2-59e1-474e-9896-1177812b9838">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.2979b7c9-c47f-4bc1-8733-0d8524a3c498">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2019-01-07T09:42:18Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source: AMDT_03/19</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -6809,19 +6282,6 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.bae15709-2cfe-4a89-a03d-cc796493c375">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.fba8731a-399c-47f7-be63-13ed211024f4">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2019-01-23T10:48:52Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:Amdt</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -6910,19 +6370,6 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.a93cd5a5-9d96-49f2-9f6e-42055b50bbea">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.b614f55b-4cd7-417b-956e-a2c34840c127">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2019-02-21T12:05:23Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -7011,19 +6458,6 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
           </aixm:theAirspaceVolume>
         </aixm:AirspaceGeometryComponent>
       </aixm:geometryComponent>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.ad8ace19-6c94-4375-8899-2b2ed6285d9e">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.68032f2b-b1d2-401e-b273-4e1100bb8e40">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2020-10-13T09:39:54Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
   <aixm:timeSlice>
@@ -7122,23 +6556,9 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:AirspaceExtension gml:id="uuid.28464d42-d25c-4096-bfbf-1b1bd0f0f083">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.665df7e7-d102-40a0-88d0-154de64f4b50">
-              <ead-audit:createdBy>ED_DESI4</ead-audit:createdBy>
-              <ead-audit:creationDate>2020-10-13T09:39:54Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Source:AMDT</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:AirspaceExtension>
-      </aixm:extension>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
 </aixm:Airspace> 
-
 <aixm:RadioCommunicationChannel gml:id="uuid.b61afc5b-9c4f-4483-b453-a8c20c0bc706">
   <gml:identifier codeSpace="urn:uuid:">b61afc5b-9c4f-4483-b453-a8c20c0bc706</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -7165,23 +6585,9 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
           <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
         </aixm:RadioCommunicationOperationalStatus>
       </aixm:availability>
-      <aixm:extension>
-        <ead-audit:RadioCommunicationChannelExtension gml:id="uuid.ab79136f-2fd6-46c4-9bf4-0ec0213765a5">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.8b5cc70e-5126-48c0-9c62-7c59812d278e">
-              <ead-audit:createdBy>ED_DESI3</ead-audit:createdBy>
-              <ead-audit:creationDate>2018-01-23T13:15:22Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>COMM NEW_CHANGE</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:RadioCommunicationChannelExtension>
-      </aixm:extension>
     </aixm:RadioCommunicationChannelTimeSlice>
   </aixm:timeSlice>
 </aixm:RadioCommunicationChannel> 
-
 <aixm:Unit gml:id="uuid.42883b88-9a1b-4d98-889b-b39f450f4768">
   <gml:identifier codeSpace="urn:uuid:">42883b88-9a1b-4d98-889b-b39f450f4768</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -7206,26 +6612,12 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
       <aixm:type>RAD</aixm:type>
       <aixm:compliantICAO>NO</aixm:compliantICAO>
       <aixm:position>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.46d17fb2-9676-4366-8b4d-897b958e5532">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.46d17fb2-9676-4366-8b4d-897b958e5532">
           <gml:pos>51.036667 8.68</gml:pos>
         </aixm:ElevatedPoint>
       </aixm:position>
       <aixm:ownerOrganisation xlink:type="simple" xlink:href="#uuid.09424934-8352-0ae9-e053-0b751dc2b779"/>
-      <aixm:extension>
-        <ead-audit:UnitExtension gml:id="uuid.98ac42c2-cb57-4ed4-886e-6745becaaf1a">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.466ea974-3c5e-434a-a59b-32ee8867ec69">
-              <ead-audit:createdBy>ED_DESI3</ead-audit:createdBy>
-              <ead-audit:creationDate>2017-03-08T15:23:29Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>DFS DEUTSCHE FLUGSICHERUNG GMBH</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>COMM NEW_CHANGE</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:UnitExtension>
-      </aixm:extension>
     </aixm:UnitTimeSlice>
   </aixm:timeSlice>
 </aixm:Unit> 
-
 </AIXMBasicMessage>

@@ -4,9 +4,8 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
@@ -23,7 +22,6 @@
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
-
                     <aixm:communicationFailureInstruction>1</aixm:communicationFailureInstruction>
                     <aixm:instruction>1</aixm:instruction>
                     <aixm:designCriteria>CANADA_TERPS</aixm:designCriteria>
@@ -42,14 +40,12 @@
                         <aixm:ProcedureTransition gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd002"/>
                     </aixm:flightTransition>
                     <aixm:guidanceFacility_navaid/>
-
                     <aixm:annotation>
                         <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
                             <!-- WARNING It is prohibited that InstrumentApproachProcedureTimeSlice has annotation.Note.propertyName value other-than-one-of ('communicationFailureInstruction', 'instruction', 'designCriteria', 'codingStandard', 'flightChecked', 'name', 'rNAV', 'availability', 'airportHeliport', 'aircraftCharacteristic', 'flightTransition', 'safeAltitude', 'approachPrefix', 'approachType', 'multipleIdentification', 'copterTrack', 'circlingIdentification', 'courseReversalInstruction', 'additionalEquipment', 'channelGNSS', 'wAASReliable', 'landing', 'missedInstruction', 'finalProfile', 'guidanceFacilityNavaid', 'guidanceFacilityRadar', 'guidanceFacilitySpecialNavigationSystem')  -->
                             <aixm:propertyName>invadliPropertyName</aixm:propertyName>
                         </aixm:Note>
                     </aixm:annotation>
-
                     <aixm:safeAltitude/>
                     <aixm:approachPrefix>CONVERGING</aixm:approachPrefix>
                     <aixm:approachType>ILS</aixm:approachType>
@@ -80,7 +76,6 @@
             </aixm:timeSlice>
         </aixm:InstrumentApproachProcedure>
     </message:hasMember>
-
     <message:hasMember>
         <aixm:OrganisationAuthority gml:id="uuid.ad699b44-daf8-4ae2-8b91-e51cba450706">
             <gml:identifier codeSpace="urn:uuid:">ad699b44-daf8-4ae2-8b91-e51cba450706</gml:identifier>
@@ -101,7 +96,6 @@
             </aixm:timeSlice>
         </aixm:OrganisationAuthority>
     </message:hasMember>
-
     <message:hasMember>
         <aixm:AirportHeliport gml:id="uuid.016e6687-ca7a-436e-8193-5f0e5b331eab">
             <gml:identifier codeSpace="urn:uuid:">016e6687-ca7a-436e-8193-5f0e5b331eab</gml:identifier>
@@ -133,5 +127,4 @@
             </aixm:timeSlice>
         </aixm:AirportHeliport>
     </message:hasMember>
-
 </message:AIXMBasicMessage>

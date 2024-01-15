@@ -4,9 +4,8 @@
                           xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
                           xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
                           http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
                           gml:id="M00001">
@@ -68,7 +67,6 @@
                                     <aixm:facilityAngle>
                                         <aixm:AngleUse gml:id="uuid.91b50879-7636-4023-b9c3-1ab6a1cc39b0">
                                             <aixm:alongCourseGuidance>YES</aixm:alongCourseGuidance>
-
                                             <aixm:annotation>
                                                 <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
                                                     <!-- WARNING It is prohibited that AngleUse has annotation.Note.propertyName value other-than-one-of ('alongCourseGuidance', 'theAngleIndication')  -->
@@ -80,7 +78,6 @@
                                                     <aixm:propertyName>theAngleIndication</aixm:propertyName>
                                                 </aixm:Note>
                                             </aixm:annotation>
-
                                             <aixm:theAngleIndication xlink:type="simple" xlink:href="urn:uuid:ab2fe4ce-bf01-4943-b386-5ce27f7e2d92"/>
                                         </aixm:AngleUse>
                                     </aixm:facilityAngle>
@@ -154,5 +151,4 @@
             </aixm:timeSlice>
         </aixm:DepartureLeg>
     </message:hasMember>
-
 </message:AIXMBasicMessage>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+<message:AIXMBasicMessage 
                           xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                           xmlns:gco="http://www.isotc211.org/2005/gco"
                           xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -14,7 +14,6 @@
                           xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
                           gml:id="M00001">
   <message:hasMember>
-
 <aixm:Navaid gml:id="uuid.580fdc26-8d00-4bfe-9b7a-e7f7e76d30a0">
   <gml:identifier codeSpace="urn:uuid:">580fdc26-8d00-4bfe-9b7a-e7f7e76d30a0</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -46,7 +45,7 @@
         </aixm:NavaidComponent>
       </aixm:navaidEquipment>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.f00f28cf-3c9f-47d5-898d-2780645fb04b">
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.f00f28cf-3c9f-47d5-898d-2780645fb04b">
           <gml:pos>46.1732306 14.5559444</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.9bd07a7f-41ee-40e0-a7d5-2d722f72a73d">
@@ -65,7 +64,6 @@
   </aixm:timeSlice>
 </aixm:Navaid> 
   </message:hasMember>
-
   <message:hasMember>
     <aixm:Glidepath gml:id="uuid.ec2868bc-bcc7-43ea-a755-fbe60d83d741">
       <gml:identifier codeSpace="urn:uuid:">ec2868bc-bcc7-43ea-a755-fbe60d83d741</gml:identifier>
@@ -88,7 +86,7 @@
             </gml:TimePeriod>
           </aixm:featureLifetime>
           <aixm:location>
-            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.5f57a4a0-2ac8-4767-b145-4c159a2ee571">
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.5f57a4a0-2ac8-4767-b145-4c159a2ee571">
               <gml:pos>50.045850028 8.528567333</gml:pos>
               <aixm:annotation>
                 <aixm:Note gml:id="uuid.9fea4864-f50a-401f-9fb2-c3b6b0e6e9a7">
@@ -126,7 +124,4 @@
       </aixm:timeSlice>
     </aixm:Glidepath> 
   </message:hasMember>
-
 </message:AIXMBasicMessage>
-
-
