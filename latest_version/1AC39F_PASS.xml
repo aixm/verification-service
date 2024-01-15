@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
 <aixm:DeicingArea gml:id="uuid.58314721-9413-4972-8c3e-4d42b541ba43">
   <gml:identifier codeSpace="urn:uuid:">58314721-9413-4972-8c3e-4d42b541ba43</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -63,6 +78,9 @@
     </aixm:DeicingAreaTimeSlice>
   </aixm:timeSlice>
 </aixm:DeicingArea> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:Apron gml:id="uuid.f5c234cb-ade6-4624-83c3-ee42250b9ca9">
   <gml:identifier codeSpace="urn:uuid:">f5c234cb-ade6-4624-83c3-ee42250b9ca9</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -138,6 +156,9 @@ DS3 - Izolts stvlaukums (dzinju izminanas zona, pieejams rkrtas situcijs) </aixm
     </aixm:ApronTimeSlice>
   </aixm:timeSlice>
 </aixm:Apron> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:AirportHeliport gml:id="uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b">
   <gml:identifier codeSpace="urn:uuid:">52766fb6-7a3b-49ce-9586-f90250f0dd1b</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -480,6 +501,9 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:OrganisationAuthority gml:id="uuid.dd50e73d-e1a4-489b-87bf-647bfc297fda">
   <gml:identifier codeSpace="urn:uuid:">dd50e73d-e1a4-489b-87bf-647bfc297fda</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -596,6 +620,9 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:Taxiway gml:id="uuid.6d491591-f076-47f7-8d1c-a65996ccbe5c">
   <gml:identifier codeSpace="urn:uuid:">6d491591-f076-47f7-8d1c-a65996ccbe5c</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -648,4 +675,8 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:TaxiwayTimeSlice>
   </aixm:timeSlice>
 </aixm:Taxiway> 
-</AIXMBasicMessage>
+
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
