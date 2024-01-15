@@ -39,8 +39,12 @@
         <aixm:SurfaceCharacteristics gml:id="uuid.478704b8-29bd-430f-b4a6-e923618b061c"/>
       </aixm:surfaceProperties>
       <aixm:associatedAirportHeliport xlink:type="simple" xlink:href="#uuid.2c6c6cb6-7e47-4a7f-bfe7-27b4e45458c2"/>
-      <!-- WARNING Found RunwayTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('designator', 'type', 'nominalLength', 'lengthAccuracy', 'nominalWidth', 'widthAccuracy', 'widthShoulder', 'lengthStrip', 'widthStrip', 'lengthOffset', 'widthOffset', 'abandoned', 'surfaceProperties', 'associatedAirportHeliport', 'overallContaminant', 'areaContaminant'). -->
-      <aixm:trueBearing>125</aixm:trueBearing>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+          <!-- WARNING Found RunwayTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('designator', 'type', 'nominalLength', 'lengthAccuracy', 'nominalWidth', 'widthAccuracy', 'widthShoulder', 'lengthStrip', 'widthStrip', 'lengthOffset', 'widthOffset', 'abandoned', 'surfaceProperties', 'associatedAirportHeliport', 'overallContaminant', 'areaContaminant'). -->
+          <aixm:propertyName>invalidPropertyName</aixm:propertyName>
+        </aixm:Note>
+      </aixm:annotation>
     </aixm:RunwayTimeSlice>
   </aixm:timeSlice>
 </aixm:Runway> 

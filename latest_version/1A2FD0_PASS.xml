@@ -1,336 +1,411 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-<aixm:Unit gml:id="uuid.e9890ac5-de58-4361-80d9-0523c68e7fab">
-  <gml:identifier codeSpace="urn:uuid:">e9890ac5-de58-4361-80d9-0523c68e7fab</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:UnitTimeSlice gml:id="uuid.f40a48a6-f788-4ed4-aad4-cf903e801c96">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.0a6cfc8f-cdc8-4963-9268-b319bc4eccab">
-          <gml:beginPosition>2016-05-26T00:00:00Z</gml:beginPosition>
-          <gml:endPosition>2022-11-03T00:00:00Z</gml:endPosition>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>2</aixm:sequenceNumber>
-      <aixm:correctionNumber>1</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.179eba4d-4842-4c60-b33e-42c001dc925e">
-          <gml:beginPosition>2006-08-03T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:name>MILAS APP</aixm:name>
-      <aixm:type>APP</aixm:type>
-      <aixm:compliantICAO>YES</aixm:compliantICAO>
-      <aixm:position>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b377c523-f29b-4261-933c-4c23067cc8fd">
-          <gml:pos>37.24861 27.75639</gml:pos>
-        </aixm:ElevatedPoint>
-      </aixm:position>
-      <aixm:ownerOrganisation xlink:type="simple" xlink:href="#uuid.09424934-802b-0ae9-e053-0b751dc2b779"/>
-      <aixm:contact>
-        <aixm:ContactInformation gml:id="uuid.b19d4860-bd2d-4833-9557-c4711f9762f9">
-          <aixm:networkNode>
-            <aixm:OnlineContact gml:id="uuid.64c56d69-5d9a-4fbb-8529-ad6091fe101d">
-              <aixm:network>AFTN</aixm:network>
-              <aixm:linkage>LTFEZAZX</aixm:linkage>
-            </aixm:OnlineContact>
-          </aixm:networkNode>
-        </aixm:ContactInformation>
-      </aixm:contact>
-      <aixm:contact>
-        <aixm:ContactInformation gml:id="uuid.a8c948e4-aa5e-4f3f-84a9-4d6dc7baa083">
-          <aixm:phoneFax>
-            <aixm:TelephoneContact gml:id="uuid.faa02b3e-1e4a-4382-9662-5faa61e2fe72">
-              <aixm:facsimile>90 252 5230082</aixm:facsimile>
-            </aixm:TelephoneContact>
-          </aixm:phoneFax>
-        </aixm:ContactInformation>
-      </aixm:contact>
-      <aixm:contact>
-        <aixm:ContactInformation gml:id="uuid.b9c7c67d-ccc1-4fb7-acde-fe8ba787c1aa">
-          <aixm:phoneFax>
-            <aixm:TelephoneContact gml:id="uuid.6a5dde17-5cd7-4221-ae57-76ce0def9260">
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.51e111a7-e9e7-4be9-8a36-c9559ec47451">
-                  <aixm:propertyName>voice</aixm:propertyName>
-                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                  <aixm:translatedNote>
-                    <aixm:LinguisticNote gml:id="uuid.932529d6-c462-4207-bdbc-58cd9bba0176">
-                      <aixm:note>Address:90 252 5230101 EXT: 1940, 1941</aixm:note>
-                    </aixm:LinguisticNote>
-                  </aixm:translatedNote>
-                </aixm:Note>
-              </aixm:annotation>
-            </aixm:TelephoneContact>
-          </aixm:phoneFax>
-        </aixm:ContactInformation>
-      </aixm:contact>
-      <aixm:relatedUnit>
-        <aixm:UnitDependency gml:id="uuid.13f8ca7c-f880-4397-9a6b-a4c046d995bb">
-          <aixm:type>OWNER</aixm:type>
-          <aixm:theUnit xlink:type="simple" xlink:href="#uuid.bdc85a47-3482-493a-a4ed-c14869060c0a"/>
-        </aixm:UnitDependency>
-      </aixm:relatedUnit>
-      <aixm:relatedUnit>
-        <aixm:UnitDependency gml:id="uuid.c39f98f1-7ef3-4262-9517-5c5240306664">
-          <aixm:type>OWNER</aixm:type>
-          <aixm:theUnit xlink:type="simple" xlink:href="#uuid.faf416c1-f9a0-4fc7-bd4a-4076db246524"/>
-        </aixm:UnitDependency>
-      </aixm:relatedUnit>
-    </aixm:UnitTimeSlice>
-  </aixm:timeSlice>
-  <aixm:timeSlice>
-    <aixm:UnitTimeSlice gml:id="uuid.d82a7043-498b-451c-8ad9-fc6893a356b9">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.c03efc79-e542-475a-b801-d27ce623eba4">
-          <gml:beginPosition>2022-11-03T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>3</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.38147b86-ba32-47b3-98d6-fbd6891d5df1">
-          <gml:beginPosition>2006-08-03T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:name>MILAS APP</aixm:name>
-      <aixm:type>APP</aixm:type>
-      <aixm:compliantICAO>YES</aixm:compliantICAO>
-      <aixm:position>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.33d6255d-c06c-4e70-869e-842100263657">
-          <gml:pos>37.24861 27.75639</gml:pos>
-        </aixm:ElevatedPoint>
-      </aixm:position>
-      <aixm:ownerOrganisation xlink:type="simple" xlink:href="#uuid.09424934-802b-0ae9-e053-0b751dc2b779"/>
-      <aixm:contact>
-        <aixm:ContactInformation gml:id="uuid.13787fc5-a327-4a57-b80d-23c54e2040ec">
-          <aixm:networkNode>
-            <aixm:OnlineContact gml:id="uuid.fc53a3d5-42c0-4e2a-8aa0-7de02ae89678">
-              <aixm:network>AFTN</aixm:network>
-              <aixm:linkage>LTFEZAZX</aixm:linkage>
-            </aixm:OnlineContact>
-          </aixm:networkNode>
-        </aixm:ContactInformation>
-      </aixm:contact>
-      <aixm:contact>
-        <aixm:ContactInformation gml:id="uuid.4a8264e2-a8a4-4044-b650-70269607810d">
-          <aixm:phoneFax>
-            <aixm:TelephoneContact gml:id="uuid.9fb342fd-fc6b-4846-a597-98a1169c2091">
-              <aixm:facsimile>+90 252 5230082</aixm:facsimile>
-            </aixm:TelephoneContact>
-          </aixm:phoneFax>
-        </aixm:ContactInformation>
-      </aixm:contact>
-      <aixm:contact>
-        <aixm:ContactInformation gml:id="uuid.c51810a2-1e37-41fe-a6ef-9657d98abd04">
-          <aixm:phoneFax>
-            <aixm:TelephoneContact gml:id="uuid.702eca2d-fd3c-499f-b525-9dc9e0ee713d">
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.0dec7af4-83d8-4fd1-95f3-fdaeb2676607">
-                  <aixm:propertyName>voice</aixm:propertyName>
-                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                  <aixm:translatedNote>
-                    <aixm:LinguisticNote gml:id="uuid.6e3ecc49-54e5-48b1-9e6d-398c2ad44aec">
-                      <aixm:note>Address:+90 252 5230101 Ext: 1940 - 1941</aixm:note>
-                    </aixm:LinguisticNote>
-                  </aixm:translatedNote>
-                </aixm:Note>
-              </aixm:annotation>
-            </aixm:TelephoneContact>
-          </aixm:phoneFax>
-        </aixm:ContactInformation>
-      </aixm:contact>
-      <aixm:contact>
-        <aixm:ContactInformation gml:id="uuid.1674fdfe-9b7e-4d8c-b601-a63ed874f36b">
-          <aixm:address>
-            <aixm:PostalAddress gml:id="uuid.15870641-d3c9-4018-ab90-360dd3a0b12c">
-              <aixm:deliveryPoint>APP Kontrol 
-Teknik Blok Milas-Bodrum Havaliman
-48200 MULA / TURKIYE</aixm:deliveryPoint>
-            </aixm:PostalAddress>
-          </aixm:address>
-        </aixm:ContactInformation>
-      </aixm:contact>
-      <aixm:relatedUnit>
-        <aixm:UnitDependency gml:id="uuid.b4319452-916b-4fc2-9fe4-92741900d57b">
-          <aixm:type>OWNER</aixm:type>
-          <aixm:theUnit xlink:type="simple" xlink:href="#uuid.bdc85a47-3482-493a-a4ed-c14869060c0a"/>
-        </aixm:UnitDependency>
-      </aixm:relatedUnit>
-      <aixm:relatedUnit>
-        <aixm:UnitDependency gml:id="uuid.0aaa14b0-a1da-49a8-abaa-8d04a4972836">
-          <aixm:type>OWNER</aixm:type>
-          <aixm:theUnit xlink:type="simple" xlink:href="#uuid.faf416c1-f9a0-4fc7-bd4a-4076db246524"/>
-        </aixm:UnitDependency>
-      </aixm:relatedUnit>
-    </aixm:UnitTimeSlice>
-  </aixm:timeSlice>
-</aixm:Unit> 
-<aixm:OrganisationAuthority gml:id="uuid.09424934-802b-0ae9-e053-0b751dc2b779">
-  <gml:identifier codeSpace="urn:uuid:">09424934-802b-0ae9-e053-0b751dc2b779</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.3e0b9d0a-838a-4299-91d1-8a5277477ea4">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.d4a22a5b-1bbd-4a1b-a1c5-9d006431adf8">
-          <gml:beginPosition>2016-11-10T00:00:00Z</gml:beginPosition>
-          <gml:endPosition>2022-10-14T00:00:00Z</gml:endPosition>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>2</aixm:sequenceNumber>
-      <aixm:correctionNumber>1</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.7667940e-03c7-479d-9aac-49048843cdb1">
-          <gml:beginPosition>2005-03-23T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:name>DHMI TURKEY</aixm:name>
-      <aixm:designator>LT-ATS</aixm:designator>
-      <aixm:type>ATS</aixm:type>
-      <aixm:relatedOrganisationAuthority>
-        <aixm:OrganisationAuthorityAssociation gml:id="uuid.3d5df04b-9fd8-4aa3-80d6-214cddd5d935">
-          <aixm:type>OWNED_BY</aixm:type>
-          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7e66-0ae9-e053-0b751dc2b779"/>
-        </aixm:OrganisationAuthorityAssociation>
-      </aixm:relatedOrganisationAuthority>
-    </aixm:OrganisationAuthorityTimeSlice>
-  </aixm:timeSlice>
-  <aixm:timeSlice>
-    <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.fd6b9432-c2d7-4cf8-a4c5-5945a9fbcf82">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.922da334-61d7-4793-aafc-76f52af92043">
-          <gml:beginPosition>2022-10-14T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>3</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.e59e9969-4d10-4360-92a4-7d67b1e77722">
-          <gml:beginPosition>2005-03-23T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:name>DHMI TURKIYE</aixm:name>
-      <aixm:designator>LT-ATS</aixm:designator>
-      <aixm:type>ATS</aixm:type>
-      <aixm:relatedOrganisationAuthority>
-        <aixm:OrganisationAuthorityAssociation gml:id="uuid.13f28aed-204c-4e9e-bdf0-38605bef79a0">
-          <aixm:type>OWNED_BY</aixm:type>
-          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7e66-0ae9-e053-0b751dc2b779"/>
-        </aixm:OrganisationAuthorityAssociation>
-      </aixm:relatedOrganisationAuthority>
-    </aixm:OrganisationAuthorityTimeSlice>
-  </aixm:timeSlice>
-</aixm:OrganisationAuthority> 
-<aixm:Unit gml:id="uuid.bdc85a47-3482-493a-a4ed-c14869060c0a">
-  <gml:identifier codeSpace="urn:uuid:">bdc85a47-3482-493a-a4ed-c14869060c0a</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:UnitTimeSlice gml:id="uuid.ff3e47c3-37c7-49fb-b90e-86f8b5a997a5">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.b6699c4c-c246-42ad-8436-64429690e4ce">
-          <gml:beginPosition>2006-08-03T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>1</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.e906949d-1457-4cb1-8770-54e722bcbcf0">
-          <gml:beginPosition>2006-08-03T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:name>MILAS APP UPPER</aixm:name>
-      <aixm:type>APP</aixm:type>
-      <aixm:compliantICAO>YES</aixm:compliantICAO>
-      <aixm:ownerOrganisation xlink:type="simple" xlink:href="#uuid.09424934-802b-0ae9-e053-0b751dc2b779"/>
-    </aixm:UnitTimeSlice>
-  </aixm:timeSlice>
-</aixm:Unit> 
-<aixm:Unit gml:id="uuid.faf416c1-f9a0-4fc7-bd4a-4076db246524">
-  <gml:identifier codeSpace="urn:uuid:">faf416c1-f9a0-4fc7-bd4a-4076db246524</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:UnitTimeSlice gml:id="uuid.0a4453a9-1e09-4227-9929-bc789b6de12d">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.6555d81c-5df5-4a7f-b189-d91d998acc94">
-          <gml:beginPosition>2006-08-03T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>1</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.e236ed78-f755-4fa8-84e9-f07d3a237c0b">
-          <gml:beginPosition>2006-08-03T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:name>MILAS APP LOWER</aixm:name>
-      <aixm:type>APP</aixm:type>
-      <aixm:compliantICAO>YES</aixm:compliantICAO>
-      <aixm:ownerOrganisation xlink:type="simple" xlink:href="#uuid.09424934-802b-0ae9-e053-0b751dc2b779"/>
-    </aixm:UnitTimeSlice>
-  </aixm:timeSlice>
-</aixm:Unit> 
-<aixm:OrganisationAuthority gml:id="uuid.09424934-7e66-0ae9-e053-0b751dc2b779">
-  <gml:identifier codeSpace="urn:uuid:">09424934-7e66-0ae9-e053-0b751dc2b779</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.a56be6de-ec0c-4950-b0cc-8690f7f9404d">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.8a65b576-2a07-4432-bf37-3b50a6a84d6f">
-          <gml:beginPosition>2004-04-24T22:00:00Z</gml:beginPosition>
-          <gml:endPosition>2022-10-14T00:00:00Z</gml:endPosition>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>1</aixm:sequenceNumber>
-      <aixm:correctionNumber>1</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.832835a1-90d7-43e5-b9f4-03e55d5d1718">
-          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:name>TURKEY</aixm:name>
-      <aixm:designator>LT</aixm:designator>
-      <aixm:type>STATE</aixm:type>
-    </aixm:OrganisationAuthorityTimeSlice>
-  </aixm:timeSlice>
-  <aixm:timeSlice>
-    <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.edb08620-6190-45c7-b22b-7bf46a362db0">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.cf5224e7-c376-4944-b384-78650843489c">
-          <gml:beginPosition>2022-10-14T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>2</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.bc39c522-1c71-4e92-870a-4dc6aa02925e">
-          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:name>TURKIYE</aixm:name>
-      <aixm:designator>LT</aixm:designator>
-      <aixm:type>STATE</aixm:type>
-    </aixm:OrganisationAuthorityTimeSlice>
-  </aixm:timeSlice>
-</aixm:OrganisationAuthority>
-</AIXMBasicMessage>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+  <message:hasMember>
+    <aixm:Unit gml:id="uuid.e9890ac5-de58-4361-80d9-0523c68e7fab">
+      <gml:identifier codeSpace="urn:uuid:">e9890ac5-de58-4361-80d9-0523c68e7fab</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:UnitTimeSlice gml:id="uuid.f40a48a6-f788-4ed4-aad4-cf903e801c96">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.0a6cfc8f-cdc8-4963-9268-b319bc4eccab">
+              <gml:beginPosition>2016-05-26T00:00:00Z</gml:beginPosition>
+              <gml:endPosition>2022-11-03T00:00:00Z</gml:endPosition>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>1</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.179eba4d-4842-4c60-b33e-42c001dc925e">
+              <gml:beginPosition>2006-08-03T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>MILAS APP</aixm:name>
+          <aixm:type>APP</aixm:type>
+          <aixm:compliantICAO>YES</aixm:compliantICAO>
+
+          <aixm:position>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b377c523-f29b-4261-933c-4c23067cc8fd">
+              <gml:pos>37.24861 27.75639</gml:pos>
+            </aixm:ElevatedPoint>
+          </aixm:position>
+          <aixm:ownerOrganisation xlink:type="simple" xlink:href="#uuid.09424934-802b-0ae9-e053-0b751dc2b779"/>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.b19d4860-bd2d-4833-9557-c4711f9762f9">
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.64c56d69-5d9a-4fbb-8529-ad6091fe101d">
+                  <aixm:network>AFTN</aixm:network>
+                  <aixm:linkage>LTFEZAZX</aixm:linkage>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.a8c948e4-aa5e-4f3f-84a9-4d6dc7baa083">
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.faa02b3e-1e4a-4382-9662-5faa61e2fe72">
+                  <aixm:facsimile>90 252 5230082</aixm:facsimile>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.b9c7c67d-ccc1-4fb7-acde-fe8ba787c1aa">
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.6a5dde17-5cd7-4221-ae57-76ce0def9260">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.51e111a7-e9e7-4be9-8a36-c9559ec47451">
+                      <aixm:propertyName>voice</aixm:propertyName>
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.932529d6-c462-4207-bdbc-58cd9bba0176">
+                          <aixm:note>Address:90 252 5230101 EXT: 1940, 1941</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:relatedUnit>
+            <aixm:UnitDependency gml:id="uuid.13f8ca7c-f880-4397-9a6b-a4c046d995bb">
+              <aixm:type>OWNER</aixm:type>
+              <aixm:theUnit xlink:type="simple" xlink:href="#uuid.bdc85a47-3482-493a-a4ed-c14869060c0a"/>
+            </aixm:UnitDependency>
+          </aixm:relatedUnit>
+          <aixm:relatedUnit>
+            <aixm:UnitDependency gml:id="uuid.c39f98f1-7ef3-4262-9517-5c5240306664">
+              <aixm:type>OWNER</aixm:type>
+              <aixm:theUnit xlink:type="simple" xlink:href="#uuid.faf416c1-f9a0-4fc7-bd4a-4076db246524"/>
+            </aixm:UnitDependency>
+          </aixm:relatedUnit>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+              <aixm:propertyName>name</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+              <aixm:propertyName>type</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+              <aixm:propertyName>compliantICAO</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+              <aixm:propertyName>designator</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+              <aixm:propertyName>military</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
+              <aixm:propertyName>position</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
+              <aixm:propertyName>airportLocation</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
+              <aixm:propertyName>ownerOrganisation</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
+              <aixm:propertyName>contact</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
+              <aixm:propertyName>relatedUnit</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
+              <aixm:propertyName>availability</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:UnitTimeSlice>
+      </aixm:timeSlice>
+      <aixm:timeSlice>
+        <aixm:UnitTimeSlice gml:id="uuid.d82a7043-498b-451c-8ad9-fc6893a356b9">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.c03efc79-e542-475a-b801-d27ce623eba4">
+              <gml:beginPosition>2022-11-03T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>3</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.38147b86-ba32-47b3-98d6-fbd6891d5df1">
+              <gml:beginPosition>2006-08-03T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>MILAS APP</aixm:name>
+          <aixm:type>APP</aixm:type>
+          <aixm:compliantICAO>YES</aixm:compliantICAO>
+          <aixm:position>
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.33d6255d-c06c-4e70-869e-842100263657">
+              <gml:pos>37.24861 27.75639</gml:pos>
+            </aixm:ElevatedPoint>
+          </aixm:position>
+          <aixm:ownerOrganisation xlink:type="simple" xlink:href="#uuid.09424934-802b-0ae9-e053-0b751dc2b779"/>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.13787fc5-a327-4a57-b80d-23c54e2040ec">
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.fc53a3d5-42c0-4e2a-8aa0-7de02ae89678">
+                  <aixm:network>AFTN</aixm:network>
+                  <aixm:linkage>LTFEZAZX</aixm:linkage>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.4a8264e2-a8a4-4044-b650-70269607810d">
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.9fb342fd-fc6b-4846-a597-98a1169c2091">
+                  <aixm:facsimile>+90 252 5230082</aixm:facsimile>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.c51810a2-1e37-41fe-a6ef-9657d98abd04">
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.702eca2d-fd3c-499f-b525-9dc9e0ee713d">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.0dec7af4-83d8-4fd1-95f3-fdaeb2676607">
+                      <aixm:propertyName>voice</aixm:propertyName>
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.6e3ecc49-54e5-48b1-9e6d-398c2ad44aec">
+                          <aixm:note>Address:+90 252 5230101 Ext: 1940 - 1941</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.1674fdfe-9b7e-4d8c-b601-a63ed874f36b">
+              <aixm:address>
+                <aixm:PostalAddress gml:id="uuid.15870641-d3c9-4018-ab90-360dd3a0b12c">
+                  <aixm:deliveryPoint>APP Kontrol
+                    Teknik Blok Milas-Bodrum Havaliman
+                    48200 MULA / TURKIYE</aixm:deliveryPoint>
+                </aixm:PostalAddress>
+              </aixm:address>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:relatedUnit>
+            <aixm:UnitDependency gml:id="uuid.b4319452-916b-4fc2-9fe4-92741900d57b">
+              <aixm:type>OWNER</aixm:type>
+              <aixm:theUnit xlink:type="simple" xlink:href="#uuid.bdc85a47-3482-493a-a4ed-c14869060c0a"/>
+            </aixm:UnitDependency>
+          </aixm:relatedUnit>
+          <aixm:relatedUnit>
+            <aixm:UnitDependency gml:id="uuid.0aaa14b0-a1da-49a8-abaa-8d04a4972836">
+              <aixm:type>OWNER</aixm:type>
+              <aixm:theUnit xlink:type="simple" xlink:href="#uuid.faf416c1-f9a0-4fc7-bd4a-4076db246524"/>
+            </aixm:UnitDependency>
+          </aixm:relatedUnit>
+        </aixm:UnitTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Unit>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:OrganisationAuthority gml:id="uuid.09424934-802b-0ae9-e053-0b751dc2b779">
+      <gml:identifier codeSpace="urn:uuid:">09424934-802b-0ae9-e053-0b751dc2b779</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.3e0b9d0a-838a-4299-91d1-8a5277477ea4">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.d4a22a5b-1bbd-4a1b-a1c5-9d006431adf8">
+              <gml:beginPosition>2016-11-10T00:00:00Z</gml:beginPosition>
+              <gml:endPosition>2022-10-14T00:00:00Z</gml:endPosition>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>1</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.7667940e-03c7-479d-9aac-49048843cdb1">
+              <gml:beginPosition>2005-03-23T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>DHMI TURKEY</aixm:name>
+          <aixm:designator>LT-ATS</aixm:designator>
+          <aixm:type>ATS</aixm:type>
+          <aixm:relatedOrganisationAuthority>
+            <aixm:OrganisationAuthorityAssociation gml:id="uuid.3d5df04b-9fd8-4aa3-80d6-214cddd5d935">
+              <aixm:type>OWNED_BY</aixm:type>
+              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7e66-0ae9-e053-0b751dc2b779"/>
+            </aixm:OrganisationAuthorityAssociation>
+          </aixm:relatedOrganisationAuthority>
+        </aixm:OrganisationAuthorityTimeSlice>
+      </aixm:timeSlice>
+      <aixm:timeSlice>
+        <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.fd6b9432-c2d7-4cf8-a4c5-5945a9fbcf82">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.922da334-61d7-4793-aafc-76f52af92043">
+              <gml:beginPosition>2022-10-14T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>3</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.e59e9969-4d10-4360-92a4-7d67b1e77722">
+              <gml:beginPosition>2005-03-23T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>DHMI TURKIYE</aixm:name>
+          <aixm:designator>LT-ATS</aixm:designator>
+          <aixm:type>ATS</aixm:type>
+          <aixm:relatedOrganisationAuthority>
+            <aixm:OrganisationAuthorityAssociation gml:id="uuid.13f28aed-204c-4e9e-bdf0-38605bef79a0">
+              <aixm:type>OWNED_BY</aixm:type>
+              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7e66-0ae9-e053-0b751dc2b779"/>
+            </aixm:OrganisationAuthorityAssociation>
+          </aixm:relatedOrganisationAuthority>
+        </aixm:OrganisationAuthorityTimeSlice>
+      </aixm:timeSlice>
+    </aixm:OrganisationAuthority>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:Unit gml:id="uuid.bdc85a47-3482-493a-a4ed-c14869060c0a">
+      <gml:identifier codeSpace="urn:uuid:">bdc85a47-3482-493a-a4ed-c14869060c0a</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:UnitTimeSlice gml:id="uuid.ff3e47c3-37c7-49fb-b90e-86f8b5a997a5">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.b6699c4c-c246-42ad-8436-64429690e4ce">
+              <gml:beginPosition>2006-08-03T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.e906949d-1457-4cb1-8770-54e722bcbcf0">
+              <gml:beginPosition>2006-08-03T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>MILAS APP UPPER</aixm:name>
+          <aixm:type>APP</aixm:type>
+          <aixm:compliantICAO>YES</aixm:compliantICAO>
+          <aixm:ownerOrganisation xlink:type="simple" xlink:href="#uuid.09424934-802b-0ae9-e053-0b751dc2b779"/>
+        </aixm:UnitTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Unit>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:Unit gml:id="uuid.faf416c1-f9a0-4fc7-bd4a-4076db246524">
+      <gml:identifier codeSpace="urn:uuid:">faf416c1-f9a0-4fc7-bd4a-4076db246524</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:UnitTimeSlice gml:id="uuid.0a4453a9-1e09-4227-9929-bc789b6de12d">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.6555d81c-5df5-4a7f-b189-d91d998acc94">
+              <gml:beginPosition>2006-08-03T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.e236ed78-f755-4fa8-84e9-f07d3a237c0b">
+              <gml:beginPosition>2006-08-03T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>MILAS APP LOWER</aixm:name>
+          <aixm:type>APP</aixm:type>
+          <aixm:compliantICAO>YES</aixm:compliantICAO>
+          <aixm:ownerOrganisation xlink:type="simple" xlink:href="#uuid.09424934-802b-0ae9-e053-0b751dc2b779"/>
+        </aixm:UnitTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Unit>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:OrganisationAuthority gml:id="uuid.09424934-7e66-0ae9-e053-0b751dc2b779">
+      <gml:identifier codeSpace="urn:uuid:">09424934-7e66-0ae9-e053-0b751dc2b779</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.a56be6de-ec0c-4950-b0cc-8690f7f9404d">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.8a65b576-2a07-4432-bf37-3b50a6a84d6f">
+              <gml:beginPosition>2004-04-24T22:00:00Z</gml:beginPosition>
+              <gml:endPosition>2022-10-14T00:00:00Z</gml:endPosition>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>1</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.832835a1-90d7-43e5-b9f4-03e55d5d1718">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>TURKEY</aixm:name>
+          <aixm:designator>LT</aixm:designator>
+          <aixm:type>STATE</aixm:type>
+        </aixm:OrganisationAuthorityTimeSlice>
+      </aixm:timeSlice>
+      <aixm:timeSlice>
+        <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.edb08620-6190-45c7-b22b-7bf46a362db0">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.cf5224e7-c376-4944-b384-78650843489c">
+              <gml:beginPosition>2022-10-14T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.bc39c522-1c71-4e92-870a-4dc6aa02925e">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>TURKIYE</aixm:name>
+          <aixm:designator>LT</aixm:designator>
+          <aixm:type>STATE</aixm:type>
+        </aixm:OrganisationAuthorityTimeSlice>
+      </aixm:timeSlice>
+    </aixm:OrganisationAuthority>
+  </message:hasMember>
+</message:AIXMBasicMessage>
