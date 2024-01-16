@@ -18,14 +18,21 @@
     <aixm:DeicingAreaMarking gml:id="abc">
       <aixm:timeSlice>
         <aixm:DeicingAreaMarkingTimeSlice gml:id="xyz">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="ID_1AB009_02">
+              <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+
           <aixm:annotation>
-            <aixm:Note gml:id="klm">
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
               <!-- WARNING: It is prohibited that DeicingAreaMarkingTimeSlice has annotation.Note.propertyName value other-than-one-of ('markingICAOStandard', 'condition', 'element', 'markedDeicingArea')-->
               <aixm:propertyName>invalid</aixm:propertyName>
             </aixm:Note>
           </aixm:annotation>
-          <gml:validTime/>
-          <aixm:interpretation></aixm:interpretation>
+
         </aixm:DeicingAreaMarkingTimeSlice>
       </aixm:timeSlice>
     </aixm:DeicingAreaMarking>

@@ -1,104 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message"
+                  xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                  xmlns:gml="http://www.opengis.net/gml/3.2"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:gco="http://www.isotc211.org/2005/gco"
+                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                  xmlns:gts="http://www.isotc211.org/2005/gts"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:html="http://www.w3.org/1999/xhtml"
+                  gml:id="uniqueId"
+                  xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd">
 
-
-<aixm:Navaid gml:id="uuid.a3922f92-aaa2-47ce-ad9f-4645fce4eef5">
-  <gml:identifier codeSpace="urn:uuid:">a3922f92-aaa2-47ce-ad9f-4645fce4eef5</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:NavaidTimeSlice gml:id="uuid.6efc8576-683b-47aa-8ba7-0099214a7f80">
-      <gml:validTime>
-        <gml:TimePeriod gml:id="uuid.bb2a17d7-9354-4564-86e0-cd413ad9eb04">
-          <gml:beginPosition>2009-08-26T16:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>1</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime>
-        <gml:TimePeriod gml:id="uuid.1e31bc84-e138-4183-bd92-45cc1faa42f4">
-          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:type>VOR</aixm:type>
-      <aixm:designator>HUR</aixm:designator>
-      <aixm:name>HUAIROU</aixm:name>
-      <aixm:navaidEquipment>
-        <aixm:NavaidComponent gml:id="uuid.c664c0ee-9abe-4b06-8d4f-ffd85f97ee98">
-          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
-          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.1b77ec55-b505-4b4c-a0b1-6a0013d4ae16"/>
-        </aixm:NavaidComponent>
-      </aixm:navaidEquipment>
-      <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.67217771-7ccb-4a96-bae3-d3ab25aae211">
-          <!-- ERROR: Found VOR that has horizontal position expressed with insufficient resolution (less than 4 decimals, which is less than 1 sec resolution) -->
-          <gml:pos>40.33 116.74833</gml:pos>
-          <aixm:annotation>
-            <aixm:Note gml:id="uuid.65f4c403-ce45-4d62-a642-0ae032a9b7c0">
-              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-              <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.9a09a41a-8dbd-4f7a-8936-d4c1c60337ac">
-                  <aixm:note>CRC:401948N, 1164454E, , , 3C004DF0</aixm:note>
-                </aixm:LinguisticNote>
-              </aixm:translatedNote>
-            </aixm:Note>
-          </aixm:annotation>
-        </aixm:ElevatedPoint>
-      </aixm:location>
-    </aixm:NavaidTimeSlice>
-  </aixm:timeSlice>
-</aixm:Navaid> 
-
-<aixm:VOR gml:id="uuid.1b77ec55-b505-4b4c-a0b1-6a0013d4ae16">
-  <gml:identifier codeSpace="urn:uuid:">1b77ec55-b505-4b4c-a0b1-6a0013d4ae16</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:VORTimeSlice gml:id="uuid.aa30deba-7523-466e-8283-09fccd18fc78">
-      <gml:validTime>
-        <gml:TimePeriod gml:id="uuid.b4a02b2d-db5a-4bd0-bd57-9d7d19c522d3">
-          <gml:beginPosition>2009-08-26T16:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>1</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime>
-        <gml:TimePeriod gml:id="uuid.ed3ceb3c-ae63-4ba3-bfe2-0522544ffb26">
-          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:designator>HUR</aixm:designator>
-      <aixm:name>HUAIROU</aixm:name>
-      <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.50e7eee7-1154-4418-b48b-da87eb0d37b9">
-          <!-- ERROR: Found VOR that has horizontal position expressed with insufficient resolution (less than 4 decimals, which is less than 1 sec resolution) -->
-          <gml:pos>40.33 116.74833</gml:pos>
-          <aixm:annotation>
-            <aixm:Note gml:id="uuid.b1645388-843e-44a2-b4d3-f0114745acda">
-              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-              <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.8105c814-c84a-4e24-97ca-e8185ccd9623">
-                  <aixm:note>CRC:401948N, 1164454E, , , 3C004DF0</aixm:note>
-                </aixm:LinguisticNote>
-              </aixm:translatedNote>
-            </aixm:Note>
-          </aixm:annotation>
-        </aixm:ElevatedPoint>
-      </aixm:location>
-      <aixm:authority>
-        <aixm:AuthorityForNavaidEquipment gml:id="uuid.b85eed48-3123-40a3-b40e-b156e68e1a3a">
-          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7ebd-0ae9-e053-0b751dc2b779"/>
-        </aixm:AuthorityForNavaidEquipment>
-      </aixm:authority>
-      <aixm:type>VOR</aixm:type>
-      <aixm:frequency uom="MHZ">113.6</aixm:frequency>
-      <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
-    </aixm:VORTimeSlice>
-  </aixm:timeSlice>
-</aixm:VOR> 
-
+  <hasMember>
+    <aixm:VOR gml:id="uuid.1b77ec55-b505-4b4c-a0b1-6a0013d4ae16">
+      <gml:identifier codeSpace="urn:uuid:">1b77ec55-b505-4b4c-a0b1-6a0013d4ae16</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:VORTimeSlice gml:id="uuid.aa30deba-7523-466e-8283-09fccd18fc78">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.b4a02b2d-db5a-4bd0-bd57-9d7d19c522d3">
+              <gml:beginPosition>2009-08-26T16:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.ed3ceb3c-ae63-4ba3-bfe2-0522544ffb26">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>HUR</aixm:designator>
+          <aixm:name>HUAIROU</aixm:name>
+          <aixm:location>
+            <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.50e7eee7-1154-4418-b48b-da87eb0d37b9">
+              <!-- ERROR: Found VOR that has horizontal position expressed with insufficient resolution (less than 4 decimals, which is less than 1 sec resolution) -->
+              <gml:pos>40.33 116.74833</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.b1645388-843e-44a2-b4d3-f0114745acda">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.8105c814-c84a-4e24-97ca-e8185ccd9623">
+                      <aixm:note>CRC:401948N, 1164454E, , , 3C004DF0</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:authority>
+            <aixm:AuthorityForNavaidEquipment gml:id="uuid.b85eed48-3123-40a3-b40e-b156e68e1a3a">
+              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7ebd-0ae9-e053-0b751dc2b779"/>
+            </aixm:AuthorityForNavaidEquipment>
+          </aixm:authority>
+          <aixm:type>VOR</aixm:type>
+          <aixm:frequency uom="MHZ">113.6</aixm:frequency>
+          <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
+        </aixm:VORTimeSlice>
+      </aixm:timeSlice>
+    </aixm:VOR>
+  </hasMember>
 </AIXMBasicMessage>

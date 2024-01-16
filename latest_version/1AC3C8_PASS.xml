@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
 <aixm:TouchDownLiftOffMarking gml:id="uuid.f7b12f24-6a18-47dd-bd77-31f10af75a04">
   <gml:identifier codeSpace="urn:uuid:">f7b12f24-6a18-47dd-bd77-31f10af75a04</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -51,6 +66,7 @@
       </aixm:element>
       <aixm:annotation>
         <aixm:Note gml:id="uuid.cf3b7b6c-59b0-4420-b76c-64b1bac64851">
+          <aixm:propertyName>condition</aixm:propertyName>
           <aixm:purpose>REMARK</aixm:purpose>
           <aixm:translatedNote>
             <aixm:LinguisticNote gml:id="uuid.9defb165-c882-4d8c-bf17-f2edc5cf3648">
@@ -74,6 +90,9 @@
     </aixm:TouchDownLiftOffMarkingTimeSlice>
   </aixm:timeSlice>
 </aixm:TouchDownLiftOffMarking> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:TouchDownLiftOff gml:id="uuid.a6818121-f622-43f3-8304-ed8f2d3ffde9">
   <gml:identifier codeSpace="urn:uuid:">a6818121-f622-43f3-8304-ed8f2d3ffde9</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -153,6 +172,9 @@
     </aixm:TouchDownLiftOffTimeSlice>
   </aixm:timeSlice>
 </aixm:TouchDownLiftOff> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:AirportHeliport gml:id="uuid.cbb1ef31-6477-42fd-bec0-f286069466a2">
   <gml:identifier codeSpace="urn:uuid:">cbb1ef31-6477-42fd-bec0-f286069466a2</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -506,6 +528,9 @@ See the standard information required to obtain the permission in EVLU AD 3.19.<
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:Runway gml:id="uuid.ab2e2bb0-da35-47f0-be3f-d32dc75332a2">
   <gml:identifier codeSpace="urn:uuid:">ab2e2bb0-da35-47f0-be3f-d32dc75332a2</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -587,6 +612,9 @@ See the standard information required to obtain the permission in EVLU AD 3.19.<
     </aixm:RunwayTimeSlice>
   </aixm:timeSlice>
 </aixm:Runway> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:OrganisationAuthority gml:id="uuid.6ca356ce-c9b0-414a-84b0-d5f61bf8c89b">
   <gml:identifier codeSpace="urn:uuid:">6ca356ce-c9b0-414a-84b0-d5f61bf8c89b</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -714,4 +742,7 @@ See the standard information required to obtain the permission in EVLU AD 3.19.<
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
-</AIXMBasicMessage>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+

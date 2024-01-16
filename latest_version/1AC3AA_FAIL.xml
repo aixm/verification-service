@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
+    <aixm:GuidanceLineMarking id="uuid.126bea53-a828-47ec-ab25-8944f285791d">
+      <aixm:timeSlice>
 <aixm:GuidanceLineMarkingTimeSlice gml:id="uuid.126bea53-a828-47ec-ab25-8944f285791d">
   <gml:validTime xlink:type="simple">
     <gml:TimePeriod gml:id="uuid.4fc8dbdf-a9ae-4085-b454-6ceedb1aaa86">
@@ -18,8 +35,6 @@
   </aixm:featureLifetime>
   <aixm:markingICAOStandard nilReason="unknown" xsi:nil="true"/>
   <aixm:condition>GOOD</aixm:condition>
-  <!-- ERROR: Found GuidanceLineMarkingTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('markingICAOStandard', 'condition', 'element', 'markedGuidanceLine'). -->
-      <aixm:magneticVariation>10</aixm:magneticVariation>
   <aixm:element>
     <aixm:MarkingElement gml:id="uuid.3654dadc-73fa-427a-96a4-eee7b03f1615">
       <aixm:colour>YELLOW</aixm:colour>
@@ -52,6 +67,8 @@
   </aixm:element>
   <aixm:annotation>
     <aixm:Note gml:id="uuid.26bbb585-34b5-4c2f-b404-400b2a52b937">
+      <!-- ERROR: Found GuidanceLineMarkingTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('markingICAOStandard', 'condition', 'element', 'markedGuidanceLine'). -->
+      <aixm:propertyName>invalid</aixm:propertyName>
       <aixm:purpose>REMARK</aixm:purpose>
       <aixm:translatedNote>
         <aixm:LinguisticNote gml:id="uuid.cea09f52-2f26-4b04-939f-7559c1efa2b5">
@@ -62,6 +79,11 @@
   </aixm:annotation>
   <aixm:markedGuidanceLine xlink:type="simple" xlink:href="#uuid.00872da3-771c-4f81-9412-e051fa45ee4d"/>
 </aixm:GuidanceLineMarkingTimeSlice> 
+      </aixm:timeSlice>
+    </aixm:GuidanceLineMarking>
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:GuidanceLine gml:id="uuid.00872da3-771c-4f81-9412-e051fa45ee4d">
   <gml:identifier codeSpace="urn:uuid:">00872da3-771c-4f81-9412-e051fa45ee4d</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -113,6 +135,9 @@
     </aixm:GuidanceLineTimeSlice>
   </aixm:timeSlice>
 </aixm:GuidanceLine> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:Apron gml:id="uuid.87be983b-3586-47ed-88cc-6fd6c94b2311">
   <gml:identifier codeSpace="urn:uuid:">87be983b-3586-47ed-88cc-6fd6c94b2311</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -202,6 +227,9 @@ Z3 - ilgtermia un militr stvvieta</aixm:note>
     </aixm:ApronTimeSlice>
   </aixm:timeSlice>
 </aixm:Apron> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:AirportHeliport gml:id="uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b">
   <gml:identifier codeSpace="urn:uuid:">52766fb6-7a3b-49ce-9586-f90250f0dd1b</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -544,6 +572,9 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:OrganisationAuthority gml:id="uuid.dd50e73d-e1a4-489b-87bf-647bfc297fda">
   <gml:identifier codeSpace="urn:uuid:">dd50e73d-e1a4-489b-87bf-647bfc297fda</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -660,6 +691,9 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:AircraftStand gml:id="uuid.97c0bbfc-9ca3-4812-94d9-ab08de3fd018">
   <gml:identifier codeSpace="urn:uuid:">97c0bbfc-9ca3-4812-94d9-ab08de3fd018</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -753,6 +787,9 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:AircraftStandTimeSlice>
   </aixm:timeSlice>
 </aixm:AircraftStand> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:ApronElement gml:id="uuid.bde9f986-a55f-46b8-a652-b1842e7d0388">
   <gml:identifier codeSpace="urn:uuid:">bde9f986-a55f-46b8-a652-b1842e7d0388</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -819,4 +856,8 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:ApronElementTimeSlice>
   </aixm:timeSlice>
 </aixm:ApronElement> 
-</AIXMBasicMessage>
+
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
