@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" 
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+    xmlns:gml="http://www.opengis.net/gml/3.2" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:gco="http://www.isotc211.org/2005/gco" 
+    xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+    xmlns:gts="http://www.isotc211.org/2005/gts" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    gml:id="uniqueId"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd">
 
-
+<hasMember>
 <aixm:DeicingArea gml:id="uuid.c91ef285-2c13-4e11-94e2-4143753467fc">
   <gml:identifier codeSpace="urn:uuid:">c91ef285-2c13-4e11-94e2-4143753467fc</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -31,7 +41,7 @@
         </aixm:SurfaceCharacteristics>
       </aixm:surfaceProperties>
       <aixm:extent>
-        <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.2f08f874-a0c1-4c49-9277-362f62af08ed" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.2f08f874-a0c1-4c49-9277-362f62af08ed" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:patches>
             <gml:PolygonPatch>
               <gml:exterior>
@@ -66,5 +76,6 @@
     </aixm:DeicingAreaTimeSlice>
   </aixm:timeSlice>
 </aixm:DeicingArea> 
+</hasMember>
 
 </AIXMBasicMessage>
