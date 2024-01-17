@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
 
-
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <message:hasMember>
     <aixm:Navaid gml:id="uuid.f089fccc-83e5-4753-9293-0b8c73f7b02b">
       <gml:identifier codeSpace="urn:uuid:">f089fccc-83e5-4753-9293-0b8c73f7b02b</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -50,9 +62,9 @@
             </aixm:NavaidComponent>
           </aixm:navaidEquipment>
           <aixm:location>
-            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.fcd3b1a0-f185-4f41-95f8-b7e9aa28a223">
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.fcd3b1a0-f185-4f41-95f8-b7e9aa28a223">
               <!-- ERROR: Latitude and Longitude of Navaid of type LOC_DME shall be published with 1/10 sec resolution -->
-              <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">65.7 13.22</gml:pos>
+              <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">65.77 13.22</gml:pos>
               <aixm:horizontalAccuracy uom="M">0.02</aixm:horizontalAccuracy>
               <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
               <aixm:elevation uom="M">74.247</aixm:elevation>
@@ -103,9 +115,9 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
+  </message:hasMember>
 
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <message:hasMember>
     <aixm:Localizer gml:id="uuid.e5bf0438-77d8-483e-bdc0-6323a4cb3c77">
       <gml:identifier codeSpace="urn:uuid:">e5bf0438-77d8-483e-bdc0-6323a4cb3c77</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -135,7 +147,7 @@
           <aixm:dateMagneticVariation>2020</aixm:dateMagneticVariation>
           <aixm:flightChecked>YES</aixm:flightChecked>
           <aixm:location>
-            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.457ab5c2-9e42-478f-be0f-29795dd19391">
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.457ab5c2-9e42-478f-be0f-29795dd19391">
               <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">65.779332611 13.220657806</gml:pos>
               <aixm:horizontalAccuracy uom="M">0.02</aixm:horizontalAccuracy>
               <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -194,9 +206,9 @@
         </aixm:LocalizerTimeSlice>
       </aixm:timeSlice>
     </aixm:Localizer>
-  </hasMember>
+  </message:hasMember>
 
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <message:hasMember>
     <aixm:DME gml:id="uuid.52461320-48e5-4742-bc3d-553dad46d9cf">
       <gml:identifier codeSpace="urn:uuid:">52461320-48e5-4742-bc3d-553dad46d9cf</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -226,7 +238,7 @@
           <aixm:dateMagneticVariation>2020</aixm:dateMagneticVariation>
           <aixm:flightChecked>YES</aixm:flightChecked>
           <aixm:location>
-            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.a7c1c083-7867-49a3-b607-ecf13c94056c">
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.a7c1c083-7867-49a3-b607-ecf13c94056c">
               <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">65.779435417 13.221236889</gml:pos>
               <aixm:horizontalAccuracy uom="M">0.04</aixm:horizontalAccuracy>
               <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -286,8 +298,7 @@
         </aixm:DMETimeSlice>
       </aixm:timeSlice>
     </aixm:DME>
-  </hasMember>
+  </message:hasMember>
 
+</message:AIXMBasicMessage>
 
-
-</AIXMBasicMessage>
