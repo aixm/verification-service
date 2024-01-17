@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
 <aixm:Navaid gml:id="uuid.d14c89bb-6e59-410b-8c4b-005d4e3c4d12">
   <gml:identifier codeSpace="urn:uuid:">d14c89bb-6e59-410b-8c4b-005d4e3c4d12</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -31,7 +46,7 @@
       <aixm:location>
         <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.df50089e-3661-4511-be40-6ecc0488957e">
           <!-- ERROR: Found MarkerBeacon used for homing at AirportHeliport and having location.ElevatedPoint coordinates expressed with insufficient resolution (less than 5 decimals). -->
-          <gml:pos>38.603167 39.3</gml:pos>
+          <gml:pos>38.6 39.3</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.a455a7da-2c3a-4ba7-8b30-7d1095a56d55">
               <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
@@ -48,6 +63,9 @@
     </aixm:NavaidTimeSlice>
   </aixm:timeSlice>
 </aixm:Navaid> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:AirportHeliport gml:id="uuid.4d8392f8-c22a-45ec-a55f-6d44f489878b">
   <gml:identifier codeSpace="urn:uuid:">4d8392f8-c22a-45ec-a55f-6d44f489878b</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -469,7 +487,7 @@ Elaz / TRKYE</aixm:deliveryPoint>
           <aixm:translatedNote>
             <aixm:LinguisticNote gml:id="uuid.7112aa3a-0423-4c73-b47a-c05d33feb5a6">
               <aixm:note>Landing Direction Indicator Description:Not available.
-</aixm:note>
+              </aixm:note>
             </aixm:LinguisticNote>
           </aixm:translatedNote>
         </aixm:Note>
@@ -508,6 +526,9 @@ Elaz / TRKYE</aixm:deliveryPoint>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:MarkerBeacon gml:id="uuid.4152cb8c-c4db-4544-bc1c-7374b9037dbd">
   <gml:identifier codeSpace="urn:uuid:">4152cb8c-c4db-4544-bc1c-7374b9037dbd</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -531,7 +552,7 @@ Elaz / TRKYE</aixm:deliveryPoint>
       <aixm:location>
         <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.630cc94c-971b-4003-9b7d-1906e116c25a">
           <!-- ERROR: Found MarkerBeacon used for homing at AirportHeliport and having location.ElevatedPoint coordinates expressed with insufficient resolution (less than 5 decimals). -->
-          <gml:pos>38.603167 39.3</gml:pos>
+          <gml:pos>38.6 39.3</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.b1d8b35b-9e29-4b6b-8bed-c94ae28177d7">
               <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
@@ -570,4 +591,7 @@ RWY 25L THR</aixm:note>
     </aixm:MarkerBeaconTimeSlice>
   </aixm:timeSlice>
 </aixm:MarkerBeacon> 
-</AIXMBasicMessage>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
