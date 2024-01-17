@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
 <aixm:AirportHeliport gml:id="uuid.b66c249d-96c4-4411-abb8-adf963f2a4c0">
   <gml:identifier codeSpace="urn:uuid:">b66c249d-96c4-4411-abb8-adf963f2a4c0</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -151,6 +166,9 @@
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:Navaid gml:id="uuid.f4cab92d-ea29-415c-a382-71e7b136bd7b">
   <gml:identifier codeSpace="urn:uuid:">f4cab92d-ea29-415c-a382-71e7b136bd7b</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -188,11 +206,6 @@
           <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.d914c504-a8ed-4471-89fd-25accec3ea59"/>
         </aixm:NavaidComponent>
       </aixm:navaidEquipment>
-      <aixm:navaidEquipment>
-        <aixm:NavaidComponent gml:id="uuid.4d379106-fc0f-47c5-ba6c-e194844a087b">
-          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.58b71e47-f668-40bc-81d1-8639767ac8b6"/>
-        </aixm:NavaidComponent>
-      </aixm:navaidEquipment>
       <aixm:location>
         <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts"    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.d1cdaf0d-706e-4737-a378-38b3b0423f77">
           <gml:pos>49.769719361 -86.984321528</gml:pos>
@@ -214,6 +227,9 @@
     </aixm:NavaidTimeSlice>
   </aixm:timeSlice>
 </aixm:Navaid> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:Navaid gml:id="uuid.58b71e47-f668-40bc-81d1-8639767ac8b6">
   <gml:identifier codeSpace="urn:uuid:">58b71e47-f668-40bc-81d1-8639767ac8b6</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -253,7 +269,7 @@
       </aixm:navaidEquipment>
       <aixm:location>
         <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b113041e-d712-459e-8b82-7120032a51a4">
-        <!-- ERROR: Found DirectionFinder used for homing at AirportHeliport and having location.ElevatedPoint coordinates expressed with insufficient resolution (less than 5 decimals). -->
+          <!-- ERROR: Found DirectionFinder used for homing at AirportHeliport and having location.ElevatedPoint coordinates expressed with insufficient resolution (less than 5 decimals). -->
           <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">71.03 27.83</gml:pos>
           <aixm:horizontalAccuracy uom="M">0.01</aixm:horizontalAccuracy>
           <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -277,6 +293,9 @@
     </aixm:NavaidTimeSlice>
   </aixm:timeSlice>
 </aixm:Navaid> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:DME gml:id="uuid.1bc5edd9-823d-4c87-b139-e24201cd4eec">
   <gml:identifier codeSpace="urn:uuid:">1bc5edd9-823d-4c87-b139-e24201cd4eec</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -340,6 +359,9 @@
     </aixm:DMETimeSlice>
   </aixm:timeSlice>
 </aixm:DME> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:VOR gml:id="uuid.d914c504-a8ed-4471-89fd-25accec3ea59">
   <gml:identifier codeSpace="urn:uuid:">d914c504-a8ed-4471-89fd-25accec3ea59</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -408,4 +430,7 @@
     </aixm:VORTimeSlice>
   </aixm:timeSlice>
 </aixm:VOR> 
-</AIXMBasicMessage>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
