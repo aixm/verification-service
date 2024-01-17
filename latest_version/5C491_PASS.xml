@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+  <message:hasMember>
+    <aixm:CheckpointINS gml:id="uuid.78b29c3c-fe88-4ad5-afb2-202f3700bebd">
+      <gml:identifier codeSpace="urn:uuid:">78b29c3c-fe88-4ad5-afb2-202f3700bebd</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:CheckpointINSTimeSlice gml:id="uuid.9b3c7f58-2c8b-40ea-805a-c8c349bd722d">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.faf342d4-6cac-4277-adab-6e0938d229fc">
+              <gml:beginPosition>2019-07-25T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.be6c5a28-688b-4334-b259-573347b5f24e">
+              <gml:beginPosition>2019-07-25T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:position>
+            <aixm:ElevatedPoint>
+              <gml:pos>45.1036472 21.3185389</gml:pos>
+            </aixm:ElevatedPoint>
+          </aixm:position>
+        </aixm:CheckpointINSTimeSlice>
+      </aixm:timeSlice>
+    </aixm:CheckpointINS>
+  </message:hasMember>
+</message:AIXMBasicMessage>

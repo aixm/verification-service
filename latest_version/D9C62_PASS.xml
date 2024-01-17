@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+  <message:hasMember>
+    <aixm:TouchDownLiftOff gml:id="uuid.78b29c3c-fe88-4ad5-afb2-202f3700bebd">
+      <gml:identifier codeSpace="urn:uuid:">78b29c3c-fe88-4ad5-afb2-202f3700bebd</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:TouchDownLiftOffTimeSlice gml:id="uuid.9b3c7f58-2c8b-40ea-805a-c8c349bd722d">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.faf342d4-6cac-4277-adab-6e0938d229fc">
+              <gml:beginPosition>2019-07-25T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.be6c5a28-688b-4334-b259-573347b5f24e">
+              <gml:beginPosition>2019-07-25T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>TLOF</aixm:designator>
+          <aixm:length uom="M">11</aixm:length>
+          <aixm:aimingPoint>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
+                                xmlns:gml="http://www.opengis.net/gml/3.2"
+                                xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                srsName="urn:ogc:def:crs:EPSG::4326"
+                                gml:id="uuid.6ed9061c-3f31-4fce-9504-931ea488e8a9">
+              <gml:pos>45.1036472 21.3185389</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.8af78749-3534-4ac9-a264-8b8c6826bfca">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.bcc14ebd-a550-410b-876a-63ac36afbe19">
+                      <aixm:note>CRC:450613.13N, 0211906.74E, , , A8F1F59E</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+
+              <aixm:elevation uom="M">1000</aixm:elevation>
+            </aixm:ElevatedPoint>
+          </aixm:aimingPoint>
+          <aixm:surfaceProperties>
+            <aixm:SurfaceCharacteristics gml:id="uuid.f3c95a65-6405-4353-8e1a-7864faa268da">
+              <aixm:composition>CONC</aixm:composition>
+            </aixm:SurfaceCharacteristics>
+          </aixm:surfaceProperties>
+          <aixm:associatedAirportHeliport xlink:type="simple" xlink:href="#uuid.577dd337-5fb0-4136-a592-b5a7bfe0c647"/>
+          <aixm:approachTakeOffArea xlink:type="simple" xlink:href="#uuid.73afc81b-434f-4c1c-8e02-71a061dadd87"/>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.7b45d445-50d7-437b-8971-0944c4779e42">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.bc17c015-16a4-45cf-a9f0-4d7bba761532">
+                  <aixm:note>txtRmk:Latitude, Longitude: Survey accuracy report not AVBL.</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:TouchDownLiftOffTimeSlice>
+      </aixm:timeSlice>
+    </aixm:TouchDownLiftOff>
+  </message:hasMember>
+</message:AIXMBasicMessage>

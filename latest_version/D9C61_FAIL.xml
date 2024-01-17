@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:DME gml:id="uuid.aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7">
+            <gml:identifier codeSpace="urn:uuid:">aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:DMETimeSlice gml:id="uuid.854d74c6-7cd3-457c-b504-bbcfbebb61e6">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.352847e1-87c6-499f-bc01-b269582c5db4">
+                            <gml:beginPosition>2020-12-31T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.e7dc7930-e00b-4b02-b666-719adbffe048">
+                            <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>YGE</aixm:designator>
+                    <aixm:name>YONAGO</aixm:name>
+                    <aixm:location>
+                        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            srsName="urn:ogc:def:crs:EPSG::4269"
+                                            gml:id="uuid.d5d409c4-7013-4fd7-a388-ea7930320b27">
+                            <gml:pos>35.5013778 133.2572056</gml:pos>
+                            <aixm:horizontalAccuracy>1</aixm:horizontalAccuracy>
+                            <!-- WARNING It is prohibited that DME has location.ElevatedPoint.elevation value and
+                               DME has location.ElevatedPoint.elevation@uom value other-than-one-of ('FT','M') -->
+                            <aixm:elevation uom="FL">1000</aixm:elevation>
+                            <aixm:geoidUndulation>1</aixm:geoidUndulation>
+                            <aixm:verticalDatum>AHD</aixm:verticalDatum>
+                            <aixm:verticalAccuracy>1</aixm:verticalAccuracy>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:authority>
+                        <aixm:AuthorityForNavaidEquipment gml:id="uuid.81968808-7526-4a5f-aa04-cd0f866f1adb">
+                            <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7f35-0ae9-e053-0b751dc2b779"/>
+                        </aixm:AuthorityForNavaidEquipment>
+                    </aixm:authority>
+                    <aixm:channel>120X</aixm:channel>
+                </aixm:DMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:DME>
+    </message:hasMember>
+</message:AIXMBasicMessage>

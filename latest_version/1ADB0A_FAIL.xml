@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+
+        <aixm:SDF gml:id="uuid.1dc2190e-74d1-4bd2-b17c-889617406c02">
+            <gml:identifier codeSpace="urn:uuid:">1dc2190e-74d1-4bd2-b17c-889617406c02</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:SDFTimeSlice gml:id="ID_64961_05">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_64961_06">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>DONO</aixm:designator>
+                    <aixm:location>
+                        <aixm:ElevatedPoint gml:id="ID_64961_07" srsName="urn:ogc:def:crs:EPSG::4326">
+             <!-- WARNING  It is prohibited that SDFTimeSlice has-descendant gml:pos value #coordinates expressed with less than4decimals# -->
+                            <gml:pos>21.123456 41.123456</gml:pos>
+                            <aixm:elevation uom="M">1112</aixm:elevation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:authority>
+                        <aixm:AuthorityForNavaidEquipment gml:id="ID_64961_08">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:ae987b2e-bbd3-4f53-80d9-ae80c8a2c1a2"/>
+                        </aixm:AuthorityForNavaidEquipment>
+                    </aixm:authority>
+                    <aixm:annotation>
+                      <aixm:Note gml:id="abc123">
+                        <aixm:propertyName>flightChecked</aixm:propertyName>
+                      </aixm:Note>
+                    </aixm:annotation>
+                </aixm:SDFTimeSlice>
+            </aixm:timeSlice>
+        </aixm:SDF>
+
+  </message:hasMember>
+</message:AIXMBasicMessage>
+
