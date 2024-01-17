@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
 <aixm:Unit gml:id="uuid.db5b4eca-a155-4afd-96a8-e2d6816ba16e">
   <gml:identifier codeSpace="urn:uuid:">db5b4eca-a155-4afd-96a8-e2d6816ba16e</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -34,6 +49,7 @@
         <aixm:UnitAvailability gml:id="uuid.b2a22875-a4b0-4a18-b5a9-9b90a9b2504d">
           <aixm:annotation>
             <aixm:Note gml:id="uuid.c4dbcf9e-9f04-4681-ab06-4e9161b9e3f0">
+              <aixm:propertyName>specialDateAuthority</aixm:propertyName>
               <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
               <aixm:translatedNote>
                 <aixm:LinguisticNote gml:id="uuid.1c314ab4-9c39-40b7-ba1f-ff67e396d0ed">
@@ -83,6 +99,9 @@ Painstrukta H24 pieejama https://ibs.lgs.lv.</aixm:note>
     </aixm:UnitTimeSlice>
   </aixm:timeSlice>
 </aixm:Unit> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:AirportHeliport gml:id="uuid.c84771e5-313e-427c-8354-aa97d234ee0d">
   <gml:identifier codeSpace="urn:uuid:">c84771e5-313e-427c-8354-aa97d234ee0d</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -351,6 +370,9 @@ Paums: 5 FT</aixm:note>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:OrganisationAuthority gml:id="uuid.09424934-89eb-0ae9-e053-0b751dc2b779">
   <gml:identifier codeSpace="urn:uuid:">09424934-89eb-0ae9-e053-0b751dc2b779</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -378,9 +400,7 @@ Paums: 5 FT</aixm:note>
         <aixm:ContactInformation gml:id="uuid.7d12e9f3-bdf0-4c78-9482-e57cd5083024">
           <aixm:address>
             <aixm:PostalAddress gml:id="uuid.900cfe1c-07cf-47d7-8d18-25dbc473d4ad">
-              <aixm:deliveryPoint>Riga International Airport
-LV-1053 Riga, Latvia
-</aixm:deliveryPoint>
+              <aixm:deliveryPoint>Riga International Airport LV-1053 Riga, Latvia</aixm:deliveryPoint>
             </aixm:PostalAddress>
           </aixm:address>
         </aixm:ContactInformation>
@@ -506,6 +526,9 @@ Latvija</aixm:deliveryPoint>
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:OrganisationAuthority gml:id="uuid.09424934-7f41-0ae9-e053-0b751dc2b779">
   <gml:identifier codeSpace="urn:uuid:">09424934-7f41-0ae9-e053-0b751dc2b779</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -532,6 +555,9 @@ Latvija</aixm:deliveryPoint>
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:OrganisationAuthority gml:id="uuid.8ebeb2c4-7851-46af-916c-a72f9fc49fea">
   <gml:identifier codeSpace="urn:uuid:">8ebeb2c4-7851-46af-916c-a72f9fc49fea</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -684,4 +710,7 @@ Latvija</aixm:deliveryPoint>
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
-</AIXMBasicMessage>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+

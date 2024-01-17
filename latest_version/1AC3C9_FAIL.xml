@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
 <aixm:Unit gml:id="uuid.db5b4eca-a155-4afd-96a8-e2d6816ba16e">
   <gml:identifier codeSpace="urn:uuid:">db5b4eca-a155-4afd-96a8-e2d6816ba16e</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -34,9 +49,9 @@
         <aixm:UnitAvailability gml:id="uuid.b2a22875-a4b0-4a18-b5a9-9b90a9b2504d">
           <aixm:annotation>
             <aixm:Note gml:id="uuid.c4dbcf9e-9f04-4681-ab06-4e9161b9e3f0">
-              <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
               <!-- ERROR: Found UnitAvailability with Note and propertyName referring to non-existing feature property. Existing properties are ('timeInterval', 'specialDateAuthority', 'operationalStatus'). -->
-              <aixm:magneticVariationAccuracy nilReason="unknown" xsi:nil="true"/>
+              <aixm:propertyName>invalid</aixm:propertyName>
+              <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
               <aixm:translatedNote>
                 <aixm:LinguisticNote gml:id="uuid.1c314ab4-9c39-40b7-ba1f-ff67e396d0ed">
                   <aixm:note lang="eng">ARO Riga H24
@@ -49,7 +64,7 @@ Self-briefing is available H24 on https://ibs.lgs.lv</aixm:note>
                 <aixm:LinguisticNote gml:id="uuid.88a8c175-1c41-4814-a75e-b485e9e25e3b">
                   <aixm:note lang="lav">Rgas ARO H24
 Tlrunis: +371 6 7300 642
-Tlrunis: +371 6 7783 761 (rezerves tlrunis)
+Tlrunis: +371 6 7783 761 (rezerves nis)
 Painstrukta H24 pieejama https://ibs.lgs.lv.</aixm:note>
                 </aixm:LinguisticNote>
               </aixm:translatedNote>
@@ -85,6 +100,9 @@ Painstrukta H24 pieejama https://ibs.lgs.lv.</aixm:note>
     </aixm:UnitTimeSlice>
   </aixm:timeSlice>
 </aixm:Unit> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:AirportHeliport gml:id="uuid.c84771e5-313e-427c-8354-aa97d234ee0d">
   <gml:identifier codeSpace="urn:uuid:">c84771e5-313e-427c-8354-aa97d234ee0d</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -216,7 +234,7 @@ Vasar: katru dienu 0600-1800</aixm:note>
                           </aixm:translatedNote>
                           <aixm:translatedNote>
                             <aixm:LinguisticNote gml:id="uuid.ea419d4b-962e-4b8e-b647-d0399e9eb871">
-                              <aixm:note lang="lav">dienas laik</aixm:note>
+                              <aixm:note lang="lav">dienas lai</aixm:note>
                             </aixm:LinguisticNote>
                           </aixm:translatedNote>
                         </aixm:Note>
@@ -272,7 +290,7 @@ Vasar: katru dienu 0600-1800</aixm:note>
           </aixm:translatedNote>
           <aixm:translatedNote>
             <aixm:LinguisticNote gml:id="uuid.4769e386-f3d5-4abf-a55f-ba6cdf2e0042">
-              <aixm:note lang="lav">Rgas pilstas robes, 2NM uz Z-ZR no Vecrgas</aixm:note>
+              <aixm:note lang="lav">Rgas pils 2NM uz Z-ZR no Vecas</aixm:note>
             </aixm:LinguisticNote>
           </aixm:translatedNote>
         </aixm:Note>
@@ -287,7 +305,7 @@ Vasar: katru dienu 0600-1800</aixm:note>
           </aixm:translatedNote>
           <aixm:translatedNote>
             <aixm:LinguisticNote gml:id="uuid.b6b1edd5-21b9-421e-9dce-b5d277d2809e">
-              <aixm:note lang="lav">Pieejama patstvgs pirmslidojuma gatavoans telpa </aixm:note>
+              <aixm:note lang="lav">Pieejama pats telpa </aixm:note>
             </aixm:LinguisticNote>
           </aixm:translatedNote>
         </aixm:Note>
@@ -302,7 +320,7 @@ Vasar: katru dienu 0600-1800</aixm:note>
           </aixm:translatedNote>
           <aixm:translatedNote>
             <aixm:LinguisticNote gml:id="uuid.a941461c-dc8c-44a2-a509-b45bb8f21bf4">
-              <aixm:note lang="lav">Lidlauka un treniu lidojumi pa apli virs lidlauka tiek veikti viengi saemot iepriekju atauju (PPR), skat. sekciju EVRS AD 2.20.</aixm:note>
+              <aixm:note lang="lav">Lidlauka un tren(PPR), skat. sekciju EVRS AD 2.20.</aixm:note>
             </aixm:LinguisticNote>
           </aixm:translatedNote>
         </aixm:Note>
@@ -318,8 +336,8 @@ Elevation: 5 FT.</aixm:note>
           </aixm:translatedNote>
           <aixm:translatedNote>
             <aixm:LinguisticNote gml:id="uuid.1cf9b6cc-4b1e-4189-a117-4cb1af48de7b">
-              <aixm:note lang="lav">Atraans vieta: Uz perona
-Paclums: 5 FT</aixm:note>
+              <aixm:note lang="lav">Atrvieta: Uz perona
+Paums: 5 FT</aixm:note>
             </aixm:LinguisticNote>
           </aixm:translatedNote>
         </aixm:Note>
@@ -335,7 +353,7 @@ Paclums: 5 FT</aixm:note>
           </aixm:translatedNote>
           <aixm:translatedNote>
             <aixm:LinguisticNote gml:id="uuid.0c109542-af2a-4aff-836f-9134ab8cb1f8">
-              <aixm:note lang="lav">Vja virziena indikators: blakus RWY 32 TDZ</aixm:note>
+              <aixm:note lang="lav">Va virziena indikators: blakus RWY 32 TDZ</aixm:note>
             </aixm:LinguisticNote>
           </aixm:translatedNote>
         </aixm:Note>
@@ -353,6 +371,9 @@ Paclums: 5 FT</aixm:note>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:OrganisationAuthority gml:id="uuid.09424934-89eb-0ae9-e053-0b751dc2b779">
   <gml:identifier codeSpace="urn:uuid:">09424934-89eb-0ae9-e053-0b751dc2b779</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -380,9 +401,7 @@ Paclums: 5 FT</aixm:note>
         <aixm:ContactInformation gml:id="uuid.7d12e9f3-bdf0-4c78-9482-e57cd5083024">
           <aixm:address>
             <aixm:PostalAddress gml:id="uuid.900cfe1c-07cf-47d7-8d18-25dbc473d4ad">
-              <aixm:deliveryPoint>Riga International Airport
-LV-1053 Riga, Latvia
-</aixm:deliveryPoint>
+              <aixm:deliveryPoint>Riga International Airport LV-1053 Riga, Latvia</aixm:deliveryPoint>
             </aixm:PostalAddress>
           </aixm:address>
         </aixm:ContactInformation>
@@ -456,8 +475,7 @@ LV-1053 Riga, Latvia
         <aixm:ContactInformation gml:id="uuid.da5c2924-5917-4cc3-a529-0d33d5ff3623">
           <aixm:address>
             <aixm:PostalAddress gml:id="uuid.361c37bc-29ff-4529-9c88-69cba1c83e55">
-              <aixm:deliveryPoint>Muzeju iela 3, Lidosta Rga
-Mrupes pag., Mrupes nov., LV-1053,
+              <aixm:deliveryPoint>Muzeju iela 3, Lidosta 
 Latvija</aixm:deliveryPoint>
             </aixm:PostalAddress>
           </aixm:address>
@@ -509,6 +527,9 @@ Latvija</aixm:deliveryPoint>
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:OrganisationAuthority gml:id="uuid.09424934-7f41-0ae9-e053-0b751dc2b779">
   <gml:identifier codeSpace="urn:uuid:">09424934-7f41-0ae9-e053-0b751dc2b779</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -535,6 +556,9 @@ Latvija</aixm:deliveryPoint>
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:OrganisationAuthority gml:id="uuid.8ebeb2c4-7851-46af-916c-a72f9fc49fea">
   <gml:identifier codeSpace="urn:uuid:">8ebeb2c4-7851-46af-916c-a72f9fc49fea</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -577,7 +601,7 @@ Latvija</aixm:deliveryPoint>
                       </aixm:translatedNote>
                       <aixm:translatedNote>
                         <aixm:LinguisticNote gml:id="uuid.fd01002b-f9eb-4e3c-b740-dc2e9b66c685">
-                          <aixm:note lang="lav">MON-FRI 08:00-12:00 ( iepriekja vienoans par tikanos ar AD operatoru)</aixm:note>
+                          <aixm:note lang="lav">MON-FRI 08:00-12:00 (D operatoru)</aixm:note>
                         </aixm:LinguisticNote>
                       </aixm:translatedNote>
                     </aixm:Note>
@@ -590,17 +614,17 @@ Latvija</aixm:deliveryPoint>
                   <aixm:purpose>DESCRIPTION</aixm:purpose>
                   <aixm:translatedNote>
                     <aixm:LinguisticNote gml:id="uuid.a290b7c0-8200-4cff-9331-29532d167814">
-                      <aixm:note lang="eng">Daugavgrvas oseja 2, Rga, LV-1007, Latvija</aixm:note>
+                      <aixm:note lang="eng">Daugavg, LV-1007, Latvija</aixm:note>
                     </aixm:LinguisticNote>
                   </aixm:translatedNote>
                   <aixm:translatedNote>
                     <aixm:LinguisticNote gml:id="uuid.b6555978-2c29-430d-a5db-442e12df1cb6">
-                      <aixm:note lang="lav">Daugavgrvas oseja 2, Rga, LV-1007, Latvija</aixm:note>
+                      <aixm:note lang="lav">Daugavg LV-1007, Latvija</aixm:note>
                     </aixm:LinguisticNote>
                   </aixm:translatedNote>
                 </aixm:Note>
               </aixm:annotation>
-              <aixm:deliveryPoint>Daugavgrvas oseja 2,</aixm:deliveryPoint>
+              <aixm:deliveryPoint>Daugavg 2,</aixm:deliveryPoint>
               <aixm:city>RIGA</aixm:city>
               <aixm:administrativeArea>RIGA</aixm:administrativeArea>
               <aixm:postalCode>LV-1007</aixm:postalCode>
@@ -632,7 +656,7 @@ Latvija</aixm:deliveryPoint>
                   </aixm:translatedNote>
                   <aixm:translatedNote>
                     <aixm:LinguisticNote gml:id="uuid.43cb383b-0413-4e27-8d20-d5febf0e4ded">
-                      <aixm:note lang="lav">(deurants)</aixm:note>
+                      <aixm:note lang="lav">(drants)</aixm:note>
                     </aixm:LinguisticNote>
                   </aixm:translatedNote>
                 </aixm:Note>
@@ -652,7 +676,7 @@ Latvija</aixm:deliveryPoint>
                   </aixm:translatedNote>
                   <aixm:translatedNote>
                     <aixm:LinguisticNote gml:id="uuid.b670b8eb-635b-4b74-a135-27ef7d7cee6f">
-                      <aixm:note lang="lav">(administrcija)</aixm:note>
+                      <aixm:note lang="lav">(administija)</aixm:note>
                     </aixm:LinguisticNote>
                   </aixm:translatedNote>
                 </aixm:Note>
@@ -669,8 +693,7 @@ Latvija</aixm:deliveryPoint>
           <aixm:purpose>OTHER:PROPERTY_TRANSLATION</aixm:purpose>
           <aixm:translatedNote>
             <aixm:LinguisticNote gml:id="uuid.7687a2f5-b7d8-4267-b058-8a74646fe982">
-              <aixm:note lang="lav">NODIBINJUMS "LIDOSTA SPILVE"
-AD DIREKTORS JNIS MASLOVSKIS</aixm:note>
+              <aixm:note lang="lav">NODIBI MASLOVSKIS</aixm:note>
             </aixm:LinguisticNote>
           </aixm:translatedNote>
         </aixm:Note>
@@ -688,4 +711,7 @@ AD DIREKTORS JNIS MASLOVSKIS</aixm:note>
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority> 
-</AIXMBasicMessage>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
