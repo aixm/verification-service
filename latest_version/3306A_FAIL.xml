@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
 
+  <message:hasMember>
 <aixm:Navaid gml:id="uuid.8b372138-7e63-45e5-b299-a7c9d7eeac96">
   <gml:identifier codeSpace="urn:uuid:">8b372138-7e63-45e5-b299-a7c9d7eeac96</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -31,7 +45,8 @@
         </aixm:NavaidComponent>
       </aixm:navaidEquipment>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b2f4956d-3acb-406c-8565-268f617b5d35">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b2f4956d-3acb-406c-8565-268f617b5d35">
+          <!-- WARNING: It is prohibited that NavaidTimeSlice has type value equal-to 'VORTAC' and NavaidTimeSlice has servedAirport value and NavaidTimeSlice has-descendant gml:pos value #with less than 5 decimals -->
           <gml:pos>28.3 -13.8</gml:pos>
           <aixm:annotation>
             <aixm:Note gml:id="uuid.cea26ac0-316c-45ba-82de-845e8e38267f">
@@ -57,21 +72,10 @@
           </aixm:translatedNote>
         </aixm:Note>
       </aixm:annotation>
-      <aixm:extension>
-        <ead-audit:NavaidExtension gml:id="uuid.62a69472-27ef-4dd4-87f7-6c3fee94bf40">
-          <ead-audit:auditInformation>
-            <ead-audit:Audit gml:id="uuid.b7ab9881-4cf0-48c6-9234-97154883d5f6">
-              <ead-audit:createdBy>LE_PCABEZAS</ead-audit:createdBy>
-              <ead-audit:creationDate>2023-06-09T06:04:19Z</ead-audit:creationDate>
-              <ead-audit:createdByOrg>ENAIRE</ead-audit:createdByOrg>
-              <ead-audit:reasonForChange>Reason: AIRAC AMDT 07/23</ead-audit:reasonForChange>
-              <ead-audit:responsibleSubsystem>SDO</ead-audit:responsibleSubsystem>
-            </ead-audit:Audit>
-          </ead-audit:auditInformation>
-        </ead-audit:NavaidExtension>
-      </aixm:extension>
     </aixm:NavaidTimeSlice>
   </aixm:timeSlice>
 </aixm:Navaid> 
+  </message:hasMember>
 
-</AIXMBasicMessage>
+</message:AIXMBasicMessage>
+
