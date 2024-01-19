@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
 <aixm:FinalLeg gml:id="uuid.3bc04181-f4fd-4200-b930-7072695d2002">
   <gml:identifier codeSpace="urn:uuid:">3bc04181-f4fd-4200-b930-7072695d2002</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -185,6 +200,9 @@
     </aixm:FinalLegTimeSlice>
   </aixm:timeSlice>
 </aixm:FinalLeg>
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:AngleIndication gml:id="uuid.90cee837-4c33-4dab-b762-6ce7b5968018">
   <gml:identifier codeSpace="urn:uuid:">90cee837-4c33-4dab-b762-6ce7b5968018</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -226,6 +244,9 @@
     </aixm:AngleIndicationTimeSlice>
   </aixm:timeSlice>
 </aixm:AngleIndication> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:DesignatedPoint gml:id="uuid.c389a6eb-13d0-4351-8c58-c57e53e3743b">
   <gml:identifier codeSpace="urn:uuid:">c389a6eb-13d0-4351-8c58-c57e53e3743b</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -270,6 +291,9 @@
     </aixm:DesignatedPointTimeSlice>
   </aixm:timeSlice>
 </aixm:DesignatedPoint> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:AngleIndication gml:id="uuid.a7184f91-545d-4205-8c7c-3dc0003cba27">
   <gml:identifier codeSpace="urn:uuid:">a7184f91-545d-4205-8c7c-3dc0003cba27</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -311,6 +335,9 @@
     </aixm:AngleIndicationTimeSlice>
   </aixm:timeSlice>
 </aixm:AngleIndication> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:DesignatedPoint gml:id="uuid.495057b1-0a03-4183-a738-51899605267e">
   <gml:identifier codeSpace="urn:uuid:">495057b1-0a03-4183-a738-51899605267e</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -355,6 +382,9 @@
     </aixm:DesignatedPointTimeSlice>
   </aixm:timeSlice>
 </aixm:DesignatedPoint> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:VerticalStructure gml:id="uuid.789aacb2-2b4b-42a4-9d9e-951ec23d4265">
   <gml:identifier codeSpace="urn:uuid:">789aacb2-2b4b-42a4-9d9e-951ec23d4265</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -440,6 +470,9 @@
     </aixm:VerticalStructureTimeSlice>
   </aixm:timeSlice>
 </aixm:VerticalStructure> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:VerticalStructure gml:id="uuid.61dd9b33-d41c-4e86-ad45-b8eaace02207">
   <gml:identifier codeSpace="urn:uuid:">61dd9b33-d41c-4e86-ad45-b8eaace02207</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -565,6 +598,9 @@
     </aixm:VerticalStructureTimeSlice>
   </aixm:timeSlice>
 </aixm:VerticalStructure> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:Navaid gml:id="uuid.0c168fdb-ae01-4162-be56-d8336604cf4a">
   <gml:identifier codeSpace="urn:uuid:">0c168fdb-ae01-4162-be56-d8336604cf4a</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -704,6 +740,9 @@
     </aixm:NavaidTimeSlice>
   </aixm:timeSlice>
 </aixm:Navaid> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:DME gml:id="uuid.7f1e4c06-5099-435f-9e07-2c7f234c3ef7">
   <gml:identifier codeSpace="urn:uuid:">7f1e4c06-5099-435f-9e07-2c7f234c3ef7</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -799,6 +838,9 @@
     </aixm:DMETimeSlice>
   </aixm:timeSlice>
 </aixm:DME> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:Glidepath gml:id="uuid.1a412b11-3fb6-47f4-9810-15d61ae796db">
   <gml:identifier codeSpace="urn:uuid:">1a412b11-3fb6-47f4-9810-15d61ae796db</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -894,6 +936,9 @@ RDH 52 FT</aixm:note>
     </aixm:GlidepathTimeSlice>
   </aixm:timeSlice>
 </aixm:Glidepath> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:Localizer gml:id="uuid.6e7cb67e-5517-4793-81d7-1291fa715024">
   <gml:identifier codeSpace="urn:uuid:">6e7cb67e-5517-4793-81d7-1291fa715024</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1073,6 +1118,9 @@ RDH 52 FT</aixm:note>
     </aixm:LocalizerTimeSlice>
   </aixm:timeSlice>
 </aixm:Localizer> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:AirportHeliport gml:id="uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b">
   <gml:identifier codeSpace="urn:uuid:">52766fb6-7a3b-49ce-9586-f90250f0dd1b</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1415,6 +1463,9 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:RunwayDirection gml:id="uuid.b6bc7f7b-1e1c-4a66-b844-694438321a19">
   <gml:identifier codeSpace="urn:uuid:">b6bc7f7b-1e1c-4a66-b844-694438321a19</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1480,6 +1531,9 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
     </aixm:RunwayDirectionTimeSlice>
   </aixm:timeSlice>
 </aixm:RunwayDirection> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:Runway gml:id="uuid.3fd5bb29-33a9-4dc5-9102-d8674a8cb42e">
   <gml:identifier codeSpace="urn:uuid:">3fd5bb29-33a9-4dc5-9102-d8674a8cb42e</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1615,4 +1669,7 @@ RWY 18/36 aizsardzbas ugunis pie TWY A, B, C, D, E, G, K un Y.</aixm:note>
     </aixm:RunwayTimeSlice>
   </aixm:timeSlice>
 </aixm:Runway>
-</AIXMBasicMessage>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
