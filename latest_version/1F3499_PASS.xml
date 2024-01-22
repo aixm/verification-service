@@ -1,346 +1,365 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-<aixm:SafeAltitudeArea gml:id="uuid.3497848e-7391-4122-8e56-4f7aa0bfeca0">
-  <gml:identifier codeSpace="urn:uuid:">3497848e-7391-4122-8e56-4f7aa0bfeca0</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:SafeAltitudeAreaTimeSlice gml:id="uuid.9bd51ff2-f2ff-499a-a342-704fb173cf6b">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.f5c1c907-8c6f-4603-8faf-06d9b14fa222">
-          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>2</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.be599989-6c24-43d7-a5c3-e896de77881c">
-          <gml:beginPosition>2020-04-23T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:safeAreaType>MSA</aixm:safeAreaType>
-      <aixm:centrePoint_navaidSystem xlink:type="simple" xlink:href="#uuid.039d20ce-1125-430e-abec-ea64615f9f76"/>
-      <aixm:sector>
-        <aixm:SafeAltitudeAreaSector gml:id="uuid.6292d147-4d20-49ce-af6d-0df8af420801">
-          <aixm:bufferWidth uom="NM">5</aixm:bufferWidth>
-          <aixm:extent>
-            <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.96c821d7-0c53-4789-b509-51b51d4f56d5" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
-              <gml:patches>
-                <gml:PolygonPatch>
-                  <gml:exterior>
-                    <gml:Ring>
-                      <gml:curveMember>
-                        <gml:Curve gml:id="uuid.7449f75c-9e8d-4a60-85ab-570c5f8ee9cc">
-                          <gml:segments>
-                            <gml:GeodesicString>
-                              <gml:posList>23.9970532 56.8920388 23.9956362 56.8848211 23.6935963 56.9036737 23.6944119 56.9080064 23.6950894 56.9123463 23.6956284 56.9166919 23.6960288 56.921042 23.6962904 56.9253952 23.6964131 56.9297503 23.6963968 56.9341059 23.6962414 56.9384606 23.6959469 56.9428133 23.6955135 56.9471624 23.694941 56.9515067 23.9985228 56.964535 23.9994182 56.9572924 24.0000818 56.9500423 24.0005135 56.9427869 24.0007134 56.9355286 24.0006815 56.9282694 24.000418 56.9210117 23.9999231 56.9137575 23.9991971 56.9065092 23.9982403 56.8992689 23.9970532 56.8920388 </gml:posList>
-                            </gml:GeodesicString>
-                          </gml:segments>
-                        </gml:Curve>
-                      </gml:curveMember>
-                    </gml:Ring>
-                  </gml:exterior>
-                </gml:PolygonPatch>
-              </gml:patches>
-            </aixm:Surface>
-          </aixm:extent>
-          <aixm:significantObstacle>
-            <aixm:Obstruction gml:id="uuid.e010b117-8b93-419a-ac4e-5f1b713436b9">
-              <aixm:requiredClearance uom="FT">1000</aixm:requiredClearance>
-              <aixm:minimumAltitude uom="FT">2300</aixm:minimumAltitude>
-              <aixm:theVerticalStructure xlink:type="simple" xlink:href="#uuid.529ef50f-a101-4728-84ab-204b7bfd431f"/>
-            </aixm:Obstruction>
-          </aixm:significantObstacle>
-          <aixm:sectorDefinition>
-            <aixm:CircleSector gml:id="uuid.9e591b37-8847-4021-8f08-751d11b43fc1">
-              <aixm:arcDirection>CWA</aixm:arcDirection>
-              <aixm:fromAngle>258</aixm:fromAngle>
-              <aixm:toAngle>269</aixm:toAngle>
-              <aixm:angleType>MAG</aixm:angleType>
-              <aixm:angleDirectionReference>TO</aixm:angleDirectionReference>
-              <aixm:innerDistance uom="NM">15</aixm:innerDistance>
-              <aixm:outerDistance uom="NM">25</aixm:outerDistance>
-              <aixm:upperLimit uom="FT">2300</aixm:upperLimit>
-              <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
-              <aixm:lowerLimit uom="FT">2300</aixm:lowerLimit>
-              <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
-            </aixm:CircleSector>
-          </aixm:sectorDefinition>
-        </aixm:SafeAltitudeAreaSector>
-      </aixm:sector>
-      <aixm:sector>
-        <aixm:SafeAltitudeAreaSector gml:id="uuid.50072018-6d0f-4055-9b86-14b3a9d1a373">
-          <aixm:bufferWidth uom="NM">5</aixm:bufferWidth>
-          <aixm:extent>
-            <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.384d185e-66f0-444c-b69a-fc131387db29" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
-              <gml:patches>
-                <gml:PolygonPatch>
-                  <gml:exterior>
-                    <gml:Ring>
-                      <gml:curveMember>
-                        <gml:Curve gml:id="uuid.df254550-822d-4e38-b931-4c55464debdc">
-                          <gml:segments>
-                            <gml:GeodesicString>
-                              <gml:posList>23.6944119 56.9080064 23.6935963 56.9036737 23.2399722 56.9305833 23.694941 56.9515067 23.6955135 56.9471624 23.6959469 56.9428133 23.6962414 56.9384606 23.6963968 56.9341059 23.6964131 56.9297503 23.6962904 56.9253952 23.6960288 56.921042 23.6956284 56.9166919 23.6950894 56.9123463 23.6944119 56.9080064 </gml:posList>
-                            </gml:GeodesicString>
-                          </gml:segments>
-                        </gml:Curve>
-                      </gml:curveMember>
-                    </gml:Ring>
-                  </gml:exterior>
-                </gml:PolygonPatch>
-              </gml:patches>
-            </aixm:Surface>
-          </aixm:extent>
-          <aixm:sectorDefinition>
-            <aixm:CircleSector gml:id="uuid.64a9b1f5-97f8-4c5d-bce3-a2fa26c7167b">
-              <aixm:arcDirection>CWA</aixm:arcDirection>
-              <aixm:fromAngle>258</aixm:fromAngle>
-              <aixm:toAngle>269</aixm:toAngle>
-              <aixm:angleType>MAG</aixm:angleType>
-              <aixm:angleDirectionReference>TO</aixm:angleDirectionReference>
-              <aixm:innerDistance uom="NM">0</aixm:innerDistance>
-              <aixm:outerDistance uom="NM">15</aixm:outerDistance>
-              <aixm:upperLimit uom="FT">1500</aixm:upperLimit>
-              <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
-              <aixm:lowerLimit uom="FT">1500</aixm:lowerLimit>
-              <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
-            </aixm:CircleSector>
-          </aixm:sectorDefinition>
-        </aixm:SafeAltitudeAreaSector>
-      </aixm:sector>
-      <aixm:sector>
-        <aixm:SafeAltitudeAreaSector gml:id="uuid.0f450594-8582-4829-bb19-4a5bbe631c51">
-          <aixm:bufferWidth uom="NM">5</aixm:bufferWidth>
-          <aixm:extent>
-            <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.e50f38eb-afd9-4814-950e-2b5800b8d873" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
-              <gml:patches>
-                <gml:PolygonPatch>
-                  <gml:exterior>
-                    <gml:Ring>
-                      <gml:curveMember>
-                        <gml:Curve gml:id="uuid.f9d6858a-d167-44d0-9558-3ac47fceab7c">
-                          <gml:segments>
-                            <gml:GeodesicString>
-                              <gml:posList>23.2531063 56.5146922 23.2399751 56.5146294 23.2268439 56.514692 23.2137166 56.51488 23.200597 56.5151931 23.187489 56.5156314 23.1743965 56.5161947 23.1613233 56.5168829 23.1482733 56.5176958 23.1352503 56.518633 23.1222582 56.5196944 23.1093008 56.5208797 23.0963819 56.5221884 23.0835053 56.5236202 23.0706749 56.5251747 23.0578944 56.5268513 23.0451676 56.5286497 23.0324983 56.5305693 23.0198902 56.5326095 23.007347 56.5347697 22.9948725 56.5370493 22.9824704 56.5394476 22.9701443 56.5419639 22.9578978 56.5445974 22.9457347 56.5473474 22.9336585 56.5502131 22.9216729 56.5531936 22.9097813 56.556288 22.8979873 56.5594955 22.8862945 56.562815 22.8747062 56.5662456 22.8632261 56.5697863 22.8518575 56.573436 22.8406037 56.5771936 22.8294682 56.5810581 22.8184543 56.5850282 22.8075654 56.5891029 22.7968045 56.5932809 22.7861751 56.5975609 22.7756803 56.6019417 22.7653233 56.606422 22.7551071 56.6110005 22.7450349 56.6156758 22.7351097 56.6204464 22.7253345 56.6253111 22.7157123 56.6302684 22.706246 56.6353167 22.6969385 56.6404545 22.6877926 56.6456804 22.678811 56.6509928 22.6699967 56.6563902 22.6613521 56.6618708 22.6528801 56.667433 22.6445831 56.6730753 22.6364638 56.6787959 22.6285247 56.6845931 22.6207681 56.6904652 22.6131966 56.6964104 22.6058124 56.702427 22.5986179 56.7085131 22.5916153 56.7146669 22.5848068 56.7208867 22.5781944 56.7271704 22.5717804 56.7335163 22.5655668 56.7399225 22.5595554 56.7463869 22.5537482 56.7529078 22.548147 56.759483 22.5427537 56.7661108 22.53757 56.7727889 22.5325975 56.7795155 22.5278378 56.7862886 22.5232925 56.793106 22.5189631 56.7999658 22.5148511 56.8068658 22.5109576 56.813804 22.5072842 56.8207783 22.5038319 56.8277866 22.500602 56.8348268 22.4975955 56.8418967 22.4948136 56.8489942 22.492257 56.8561171 22.4899269 56.8632634 22.4878239 56.8704308 22.4859489 56.8776172 22.4843026 56.8848204 22.4828856 56.8920382 22.4816984 56.8992684 22.4807416 56.9065088 22.4800155 56.9137573 22.4795206 56.9210115 22.4792571 56.9282694 22.4792253 56.9355287 22.4794252 56.9427871 22.4798569 56.9500426 22.4805205 56.9572928 22.4814159 56.9645355 22.482543 56.9717686 22.4839015 56.9789899 22.4854911 56.986197 22.4873115 56.9933879 22.4893624 57.0005603 22.4916431 57.0077121 22.4941531 57.014841 22.4968918 57.0219448 22.4998585 57.0290214 22.5030524 57.0360686 22.5064726 57.0430842 22.5101183 57.0500662 22.5139884 57.0570122 22.5180818 57.0639203 22.5223975 57.0707882 22.5269341 57.0776139 22.5316906 57.0843953 22.5366654 57.0911302 22.5418572 57.0978166 22.5472645 57.1044525 22.5528857 57.1110357 22.5587193 57.1175643 22.5647635 57.1240362 22.5710166 57.1304494 22.5774767 57.136802 22.584142 57.1430919 22.5910104 57.1493173 22.59808 57.1554761 22.6053487 57.1615666 22.6128144 57.1675867 22.6204747 57.1735347 22.6283274 57.1794087 22.6363702 57.1852068 22.6446006 57.1909273 22.6530162 57.1965684 22.6616145 57.2021283 22.6703928 57.2076053 22.6793485 57.2129977 22.6884789 57.2183038 22.6977813 57.2235219 22.7072527 57.2286505 22.7168903 57.2336879 22.7266912 57.2386325 22.7366524 57.2434829 22.7467707 57.2482375 22.7570432 57.2528947 22.7674667 57.2574533 22.778038 57.2619116 22.7887537 57.2662684 22.7996107 57.2705223 22.8106055 57.2746719 22.8217348 57.278716 22.8329951 57.2826532 22.844383 57.2864824 22.8558948 57.2902023 22.8675271 57.2938118 22.8792763 57.2973098 22.8911386 57.3006951 22.9031103 57.3039666 22.9151878 57.3071235 22.9273674 57.3101646 22.939645 57.313089 22.9520171 57.3158957 22.9644796 57.3185841 22.9770287 57.321153 22.9896605 57.3236018 23.002371 57.3259298 23.0151562 57.328136 23.0280121 57.33022 23.0409347 57.3321809 23.0539199 57.3340182 23.0669637 57.3357313 23.0800619 57.3373197 23.0932105 57.3387829 23.1064053 57.3401204 23.1196421 57.3413318 23.1329168 57.3424166 23.1462252 57.3433747 23.1595632 57.3442056 23.1729264 57.3449091 23.1863108 57.345485 23.1997121 57.3459331 23.2131261 57.3462533 23.2265485 57.3464454 23.2399751 57.3465094 23.2534018 57.3464453 23.2668242 57.346253 23.2802381 57.3459328 23.2936394 57.3454846 23.3070238 57.3449086 23.320387 57.3442049 23.3337249 57.3433739 23.3470333 57.3424158 23.3603079 57.3413308 23.3735447 57.3401193 23.3867394 57.3387817 23.3998878 57.3373185 23.412986 57.33573 23.4260297 57.3340167 23.4390148 57.3321793 23.4519373 57.3302183 23.4647931 57.3281343 23.4775782 57.3259279 23.4902885 57.3235999 23.5029202 57.321151 23.5154692 57.3185819 23.5279315 57.3158936 23.5403034 57.3130867 23.552581 57.3101622 23.5647603 57.307121 23.5768377 57.3039641 23.5888093 57.3006925 23.6006714 57.2973072 23.6124204 57.2938092 23.6240525 57.2901996 23.6355642 57.2864796 23.6469519 57.2826504 23.658212 57.2787131 23.6693411 57.274669 23.6803357 57.2705194 23.6911925 57.2662654 23.7019081 57.2619086 23.7124791 57.2574502 23.7229024 57.2528917 23.7331747 57.2482344 23.7432929 57.2434798 23.7532538 57.2386294 23.7630545 57.2336847 23.7726919 57.2286473 23.7821631 57.2235187 23.7914653 57.2183006 23.8005955 57.2129945 23.809551 57.2076022 23.8183291 57.2021252 23.8269272 57.1965653 23.8353426 57.1909243 23.8435728 57.1852038 23.8516154 57.1794057 23.859468 57.1735317 23.8671281 57.1675838 23.8745935 57.1615637 23.881862 57.1554733 23.8889315 57.1493144 23.8957997 57.1430891 23.9024648 57.1367992 23.9089248 57.1304467 23.9151777 57.1240336 23.9212217 57.1175617 23.9270551 57.1110332 23.9326762 57.1044501 23.9380833 57.0978143 23.943275 57.091128 23.9482497 57.0843931 23.953006 57.0776118 23.9575425 57.0707862 23.9618581 57.0639184 23.9659514 57.0570104 23.9698213 57.0500644 23.9734669 57.0430826 23.976887 57.036067 23.9800808 57.0290199 23.9830474 57.0219434 23.985786 57.0148397 23.988296 57.0077109 23.9905766 57.0005593 23.9926274 56.993387 23.9944478 56.9861962 23.9960374 56.9789891 23.9973958 56.971768 23.9985228 56.964535 23.2399722 56.9305833 23.9956362 56.8848211 23.9939899 56.877618 23.992115 56.8704317 23.9900121 56.8632644 23.987682 56.8561182 23.9851256 56.8489954 23.9823437 56.841898 23.9793373 56.8348282 23.9761075 56.8277881 23.9726553 56.8207799 23.9689819 56.8138057 23.9650886 56.8068676 23.9609767 56.7999676 23.9566474 56.793108 23.9521023 56.7862906 23.9473427 56.7795177 23.9423704 56.7727911 23.9371868 56.7661131 23.9317936 56.7594854 23.9261926 56.7529102 23.9203856 56.7463894 23.9143743 56.739925 23.9081608 56.733519 23.901747 56.7271731 23.8951348 56.7208894 23.8883265 56.7146697 23.881324 56.7085159 23.8741297 56.7024299 23.8667457 56.6964134 23.8591744 56.6904682 23.851418 56.6845961 23.8434791 56.6787989 23.8353599 56.6730784 23.8270632 56.6674361 23.8185914 56.6618739 23.809947 56.6563933 23.8011328 56.650996 23.7921515 56.6456836 23.7830058 56.6404577 23.7736985 56.6353198 23.7642324 56.6302715 23.7546104 56.6253143 23.7448354 56.6204496 23.7349104 56.6156789 23.7248384 56.6110036 23.7146224 56.6064251 23.7042655 56.6019448 23.6937709 56.5975639 23.6831417 56.5932839 23.6723811 56.5891059 23.6614923 56.5850312 23.6504786 56.581061 23.6393433 56.5771965 23.6280897 56.5734388 23.6167212 56.569789 23.6052413 56.5662483 23.5936532 56.5628176 23.5819605 56.559498 23.5701667 56.5562905 23.5582753 56.553196 23.5462898 56.5502155 23.5342137 56.5473497 23.5220507 56.5445996 23.5098044 56.541966 23.4974785 56.5394496 23.4850764 56.5370512 23.4726021 56.5347716 23.460059 56.5326113 23.447451 56.530571 23.4347818 56.5286513 23.4220551 56.5268528 23.4092747 56.525176 23.3964444 56.5236215 23.3835679 56.5221896 23.3706491 56.5208808 23.3576917 56.5196954 23.3446997 56.5186339 23.3316767 56.5176965 23.3186268 56.5168836 23.3055536 56.5161953 23.2924611 56.5156319 23.2793532 56.5151934 23.2662336 56.5148802 23.2531063 56.5146922 </gml:posList>
-                            </gml:GeodesicString>
-                          </gml:segments>
-                        </gml:Curve>
-                      </gml:curveMember>
-                    </gml:Ring>
-                  </gml:exterior>
-                </gml:PolygonPatch>
-              </gml:patches>
-            </aixm:Surface>
-          </aixm:extent>
-          <aixm:significantObstacle>
-            <aixm:Obstruction gml:id="uuid.9a81da29-867e-4bd2-b72d-38b1fb78e711">
-              <aixm:requiredClearance uom="FT">1000</aixm:requiredClearance>
-              <aixm:minimumAltitude uom="FT">1900</aixm:minimumAltitude>
-              <aixm:theVerticalStructure xlink:type="simple" xlink:href="#uuid.ac3ce17e-ba46-46cd-8660-6f8f77d9239d"/>
-            </aixm:Obstruction>
-          </aixm:significantObstacle>
-          <aixm:sectorDefinition>
-            <aixm:CircleSector gml:id="uuid.e0c9f220-cabe-44a7-9c96-8858a441c3c4">
-              <aixm:arcDirection>CWA</aixm:arcDirection>
-              <aixm:fromAngle>269</aixm:fromAngle>
-              <aixm:toAngle>258</aixm:toAngle>
-              <aixm:angleType>MAG</aixm:angleType>
-              <aixm:angleDirectionReference>TO</aixm:angleDirectionReference>
-              <aixm:innerDistance uom="NM">0</aixm:innerDistance>
-              <aixm:outerDistance uom="NM">25</aixm:outerDistance>
-              <aixm:upperLimit uom="FT">1900</aixm:upperLimit>
-              <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
-              <aixm:lowerLimit uom="FT">1900</aixm:lowerLimit>
-              <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
-            </aixm:CircleSector>
-          </aixm:sectorDefinition>
-        </aixm:SafeAltitudeAreaSector>
-      </aixm:sector>
-      <aixm:location nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
-      <aixm:annotation>
-        <aixm:Note gml:id="uuid.dcfc6601-7570-49f6-aed4-6a27460acb1b">
-          <aixm:purpose>REMARK</aixm:purpose>
-          <aixm:translatedNote>
-            <aixm:LinguisticNote gml:id="uuid.66842748-2ab6-4dc6-8dbd-bf27724b494c">
-              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
-            </aixm:LinguisticNote>
-          </aixm:translatedNote>
-        </aixm:Note>
-      </aixm:annotation>
-    </aixm:SafeAltitudeAreaTimeSlice>
-  </aixm:timeSlice>
-</aixm:SafeAltitudeArea> 
-<aixm:VerticalStructure gml:id="uuid.ac3ce17e-ba46-46cd-8660-6f8f77d9239d">
-  <gml:identifier codeSpace="urn:uuid:">ac3ce17e-ba46-46cd-8660-6f8f77d9239d</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:VerticalStructureTimeSlice gml:id="uuid.268eb65a-a29c-4e6d-8918-73308deaa3af">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.2af8e53f-3390-4e19-82c6-496823c78083">
-          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>7</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.1d079a17-9fde-44f3-9bdc-78d790b82b12">
-          <gml:beginPosition>2017-03-30T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:name>REMTE (01)</aixm:name>
-      <aixm:type>TOWER</aixm:type>
-      <aixm:lighted>NO</aixm:lighted>
-      <aixm:markingICAOStandard nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:group>NO</aixm:group>
-      <aixm:length nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:width nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:radius nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:lightingICAOStandard nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:synchronisedLighting nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:marker nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:part>
-        <aixm:VerticalStructurePart gml:id="uuid.e035dfd5-e781-4978-a6f9-56bea32002ac">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+  <message:hasMember>
+    <aixm:SafeAltitudeArea gml:id="uuid.3497848e-7391-4122-8e56-4f7aa0bfeca0">
+      <gml:identifier codeSpace="urn:uuid:">3497848e-7391-4122-8e56-4f7aa0bfeca0</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:SafeAltitudeAreaTimeSlice gml:id="uuid.9bd51ff2-f2ff-499a-a342-704fb173cf6b">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.f5c1c907-8c6f-4603-8faf-06d9b14fa222">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.be599989-6c24-43d7-a5c3-e896de77881c">
+              <gml:beginPosition>2020-04-23T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:safeAreaType>MSA</aixm:safeAreaType>
+          <aixm:centrePoint_navaidSystem xlink:type="simple" xlink:href="#uuid.039d20ce-1125-430e-abec-ea64615f9f76"/>
+          <aixm:sector>
+            <aixm:SafeAltitudeAreaSector gml:id="uuid.6292d147-4d20-49ce-af6d-0df8af420801">
+              <aixm:bufferWidth uom="NM">5</aixm:bufferWidth>
+              <aixm:extent>
+                <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.96c821d7-0c53-4789-b509-51b51d4f56d5" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                  <gml:patches>
+                    <gml:PolygonPatch>
+                      <gml:exterior>
+                        <gml:Ring>
+                          <gml:curveMember>
+                            <gml:Curve gml:id="uuid.7449f75c-9e8d-4a60-85ab-570c5f8ee9cc">
+                              <gml:segments>
+                                <gml:GeodesicString>
+                                  <gml:posList>23.9970532 56.8920388 23.9956362 56.8848211 23.6935963 56.9036737 23.6944119 56.9080064 23.6950894 56.9123463 23.6956284 56.9166919 23.6960288 56.921042 23.6962904 56.9253952 23.6964131 56.9297503 23.6963968 56.9341059 23.6962414 56.9384606 23.6959469 56.9428133 23.6955135 56.9471624 23.694941 56.9515067 23.9985228 56.964535 23.9994182 56.9572924 24.0000818 56.9500423 24.0005135 56.9427869 24.0007134 56.9355286 24.0006815 56.9282694 24.000418 56.9210117 23.9999231 56.9137575 23.9991971 56.9065092 23.9982403 56.8992689 23.9970532 56.8920388 </gml:posList>
+                                </gml:GeodesicString>
+                              </gml:segments>
+                            </gml:Curve>
+                          </gml:curveMember>
+                        </gml:Ring>
+                      </gml:exterior>
+                    </gml:PolygonPatch>
+                  </gml:patches>
+                </aixm:Surface>
+              </aixm:extent>
+              <aixm:significantObstacle>
+                <aixm:Obstruction gml:id="uuid.e010b117-8b93-419a-ac4e-5f1b713436b9">
+                  <aixm:requiredClearance uom="FT">1000</aixm:requiredClearance>
+                  <aixm:minimumAltitude uom="FT">2300</aixm:minimumAltitude>
+                  <!-- <aixm:theVerticalStructure xlink:type="simple" xlink:href="#uuid.529ef50f-a101-4728-84ab-204b7bfd431f"/> -->
+                  <!-- ERROR: Found Obstruction with theVerticalStructure@xlink:href value that does not match any VerticalStructure (${association}) -->
+                  <aixm:theVerticalStructure xlink:type="simple" xlink:href="#uuid.529ef50f-a101-4728-84ab-204b7bfd431f"/>
+                </aixm:Obstruction>
+              </aixm:significantObstacle>
+              <aixm:sectorDefinition>
+                <aixm:CircleSector gml:id="uuid.9e591b37-8847-4021-8f08-751d11b43fc1">
+                  <aixm:arcDirection>CWA</aixm:arcDirection>
+                  <aixm:fromAngle>258</aixm:fromAngle>
+                  <aixm:toAngle>269</aixm:toAngle>
+                  <aixm:angleType>MAG</aixm:angleType>
+                  <aixm:angleDirectionReference>TO</aixm:angleDirectionReference>
+                  <aixm:innerDistance uom="NM">15</aixm:innerDistance>
+                  <aixm:outerDistance uom="NM">25</aixm:outerDistance>
+                  <aixm:upperLimit uom="FT">2300</aixm:upperLimit>
+                  <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="FT">2300</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                </aixm:CircleSector>
+              </aixm:sectorDefinition>
+            </aixm:SafeAltitudeAreaSector>
+          </aixm:sector>
+          <aixm:sector>
+            <aixm:SafeAltitudeAreaSector gml:id="uuid.50072018-6d0f-4055-9b86-14b3a9d1a373">
+              <aixm:bufferWidth uom="NM">5</aixm:bufferWidth>
+              <aixm:extent>
+                <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.384d185e-66f0-444c-b69a-fc131387db29" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                  <gml:patches>
+                    <gml:PolygonPatch>
+                      <gml:exterior>
+                        <gml:Ring>
+                          <gml:curveMember>
+                            <gml:Curve gml:id="uuid.df254550-822d-4e38-b931-4c55464debdc">
+                              <gml:segments>
+                                <gml:GeodesicString>
+                                  <gml:posList>23.6944119 56.9080064 23.6935963 56.9036737 23.2399722 56.9305833 23.694941 56.9515067 23.6955135 56.9471624 23.6959469 56.9428133 23.6962414 56.9384606 23.6963968 56.9341059 23.6964131 56.9297503 23.6962904 56.9253952 23.6960288 56.921042 23.6956284 56.9166919 23.6950894 56.9123463 23.6944119 56.9080064 </gml:posList>
+                                </gml:GeodesicString>
+                              </gml:segments>
+                            </gml:Curve>
+                          </gml:curveMember>
+                        </gml:Ring>
+                      </gml:exterior>
+                    </gml:PolygonPatch>
+                  </gml:patches>
+                </aixm:Surface>
+              </aixm:extent>
+              <aixm:sectorDefinition>
+                <aixm:CircleSector gml:id="uuid.64a9b1f5-97f8-4c5d-bce3-a2fa26c7167b">
+                  <aixm:arcDirection>CWA</aixm:arcDirection>
+                  <aixm:fromAngle>258</aixm:fromAngle>
+                  <aixm:toAngle>269</aixm:toAngle>
+                  <aixm:angleType>MAG</aixm:angleType>
+                  <aixm:angleDirectionReference>TO</aixm:angleDirectionReference>
+                  <aixm:innerDistance uom="NM">0</aixm:innerDistance>
+                  <aixm:outerDistance uom="NM">15</aixm:outerDistance>
+                  <aixm:upperLimit uom="FT">1500</aixm:upperLimit>
+                  <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="FT">1500</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                </aixm:CircleSector>
+              </aixm:sectorDefinition>
+            </aixm:SafeAltitudeAreaSector>
+          </aixm:sector>
+          <aixm:sector>
+            <aixm:SafeAltitudeAreaSector gml:id="uuid.0f450594-8582-4829-bb19-4a5bbe631c51">
+              <aixm:bufferWidth uom="NM">5</aixm:bufferWidth>
+              <aixm:extent>
+                <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.e50f38eb-afd9-4814-950e-2b5800b8d873" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                  <gml:patches>
+                    <gml:PolygonPatch>
+                      <gml:exterior>
+                        <gml:Ring>
+                          <gml:curveMember>
+                            <gml:Curve gml:id="uuid.f9d6858a-d167-44d0-9558-3ac47fceab7c">
+                              <gml:segments>
+                                <gml:GeodesicString>
+                                  <gml:posList>23.2531063 56.5146922 23.2399751 56.5146294 23.2268439 56.514692 23.2137166 56.51488 23.200597 56.5151931 23.187489 56.5156314 23.1743965 56.5161947 23.1613233 56.5168829 23.1482733 56.5176958 23.1352503 56.518633 23.1222582 56.5196944 23.1093008 56.5208797 23.0963819 56.5221884 23.0835053 56.5236202 23.0706749 56.5251747 23.0578944 56.5268513 23.0451676 56.5286497 23.0324983 56.5305693 23.0198902 56.5326095 23.007347 56.5347697 22.9948725 56.5370493 22.9824704 56.5394476 22.9701443 56.5419639 22.9578978 56.5445974 22.9457347 56.5473474 22.9336585 56.5502131 22.9216729 56.5531936 22.9097813 56.556288 22.8979873 56.5594955 22.8862945 56.562815 22.8747062 56.5662456 22.8632261 56.5697863 22.8518575 56.573436 22.8406037 56.5771936 22.8294682 56.5810581 22.8184543 56.5850282 22.8075654 56.5891029 22.7968045 56.5932809 22.7861751 56.5975609 22.7756803 56.6019417 22.7653233 56.606422 22.7551071 56.6110005 22.7450349 56.6156758 22.7351097 56.6204464 22.7253345 56.6253111 22.7157123 56.6302684 22.706246 56.6353167 22.6969385 56.6404545 22.6877926 56.6456804 22.678811 56.6509928 22.6699967 56.6563902 22.6613521 56.6618708 22.6528801 56.667433 22.6445831 56.6730753 22.6364638 56.6787959 22.6285247 56.6845931 22.6207681 56.6904652 22.6131966 56.6964104 22.6058124 56.702427 22.5986179 56.7085131 22.5916153 56.7146669 22.5848068 56.7208867 22.5781944 56.7271704 22.5717804 56.7335163 22.5655668 56.7399225 22.5595554 56.7463869 22.5537482 56.7529078 22.548147 56.759483 22.5427537 56.7661108 22.53757 56.7727889 22.5325975 56.7795155 22.5278378 56.7862886 22.5232925 56.793106 22.5189631 56.7999658 22.5148511 56.8068658 22.5109576 56.813804 22.5072842 56.8207783 22.5038319 56.8277866 22.500602 56.8348268 22.4975955 56.8418967 22.4948136 56.8489942 22.492257 56.8561171 22.4899269 56.8632634 22.4878239 56.8704308 22.4859489 56.8776172 22.4843026 56.8848204 22.4828856 56.8920382 22.4816984 56.8992684 22.4807416 56.9065088 22.4800155 56.9137573 22.4795206 56.9210115 22.4792571 56.9282694 22.4792253 56.9355287 22.4794252 56.9427871 22.4798569 56.9500426 22.4805205 56.9572928 22.4814159 56.9645355 22.482543 56.9717686 22.4839015 56.9789899 22.4854911 56.986197 22.4873115 56.9933879 22.4893624 57.0005603 22.4916431 57.0077121 22.4941531 57.014841 22.4968918 57.0219448 22.4998585 57.0290214 22.5030524 57.0360686 22.5064726 57.0430842 22.5101183 57.0500662 22.5139884 57.0570122 22.5180818 57.0639203 22.5223975 57.0707882 22.5269341 57.0776139 22.5316906 57.0843953 22.5366654 57.0911302 22.5418572 57.0978166 22.5472645 57.1044525 22.5528857 57.1110357 22.5587193 57.1175643 22.5647635 57.1240362 22.5710166 57.1304494 22.5774767 57.136802 22.584142 57.1430919 22.5910104 57.1493173 22.59808 57.1554761 22.6053487 57.1615666 22.6128144 57.1675867 22.6204747 57.1735347 22.6283274 57.1794087 22.6363702 57.1852068 22.6446006 57.1909273 22.6530162 57.1965684 22.6616145 57.2021283 22.6703928 57.2076053 22.6793485 57.2129977 22.6884789 57.2183038 22.6977813 57.2235219 22.7072527 57.2286505 22.7168903 57.2336879 22.7266912 57.2386325 22.7366524 57.2434829 22.7467707 57.2482375 22.7570432 57.2528947 22.7674667 57.2574533 22.778038 57.2619116 22.7887537 57.2662684 22.7996107 57.2705223 22.8106055 57.2746719 22.8217348 57.278716 22.8329951 57.2826532 22.844383 57.2864824 22.8558948 57.2902023 22.8675271 57.2938118 22.8792763 57.2973098 22.8911386 57.3006951 22.9031103 57.3039666 22.9151878 57.3071235 22.9273674 57.3101646 22.939645 57.313089 22.9520171 57.3158957 22.9644796 57.3185841 22.9770287 57.321153 22.9896605 57.3236018 23.002371 57.3259298 23.0151562 57.328136 23.0280121 57.33022 23.0409347 57.3321809 23.0539199 57.3340182 23.0669637 57.3357313 23.0800619 57.3373197 23.0932105 57.3387829 23.1064053 57.3401204 23.1196421 57.3413318 23.1329168 57.3424166 23.1462252 57.3433747 23.1595632 57.3442056 23.1729264 57.3449091 23.1863108 57.345485 23.1997121 57.3459331 23.2131261 57.3462533 23.2265485 57.3464454 23.2399751 57.3465094 23.2534018 57.3464453 23.2668242 57.346253 23.2802381 57.3459328 23.2936394 57.3454846 23.3070238 57.3449086 23.320387 57.3442049 23.3337249 57.3433739 23.3470333 57.3424158 23.3603079 57.3413308 23.3735447 57.3401193 23.3867394 57.3387817 23.3998878 57.3373185 23.412986 57.33573 23.4260297 57.3340167 23.4390148 57.3321793 23.4519373 57.3302183 23.4647931 57.3281343 23.4775782 57.3259279 23.4902885 57.3235999 23.5029202 57.321151 23.5154692 57.3185819 23.5279315 57.3158936 23.5403034 57.3130867 23.552581 57.3101622 23.5647603 57.307121 23.5768377 57.3039641 23.5888093 57.3006925 23.6006714 57.2973072 23.6124204 57.2938092 23.6240525 57.2901996 23.6355642 57.2864796 23.6469519 57.2826504 23.658212 57.2787131 23.6693411 57.274669 23.6803357 57.2705194 23.6911925 57.2662654 23.7019081 57.2619086 23.7124791 57.2574502 23.7229024 57.2528917 23.7331747 57.2482344 23.7432929 57.2434798 23.7532538 57.2386294 23.7630545 57.2336847 23.7726919 57.2286473 23.7821631 57.2235187 23.7914653 57.2183006 23.8005955 57.2129945 23.809551 57.2076022 23.8183291 57.2021252 23.8269272 57.1965653 23.8353426 57.1909243 23.8435728 57.1852038 23.8516154 57.1794057 23.859468 57.1735317 23.8671281 57.1675838 23.8745935 57.1615637 23.881862 57.1554733 23.8889315 57.1493144 23.8957997 57.1430891 23.9024648 57.1367992 23.9089248 57.1304467 23.9151777 57.1240336 23.9212217 57.1175617 23.9270551 57.1110332 23.9326762 57.1044501 23.9380833 57.0978143 23.943275 57.091128 23.9482497 57.0843931 23.953006 57.0776118 23.9575425 57.0707862 23.9618581 57.0639184 23.9659514 57.0570104 23.9698213 57.0500644 23.9734669 57.0430826 23.976887 57.036067 23.9800808 57.0290199 23.9830474 57.0219434 23.985786 57.0148397 23.988296 57.0077109 23.9905766 57.0005593 23.9926274 56.993387 23.9944478 56.9861962 23.9960374 56.9789891 23.9973958 56.971768 23.9985228 56.964535 23.2399722 56.9305833 23.9956362 56.8848211 23.9939899 56.877618 23.992115 56.8704317 23.9900121 56.8632644 23.987682 56.8561182 23.9851256 56.8489954 23.9823437 56.841898 23.9793373 56.8348282 23.9761075 56.8277881 23.9726553 56.8207799 23.9689819 56.8138057 23.9650886 56.8068676 23.9609767 56.7999676 23.9566474 56.793108 23.9521023 56.7862906 23.9473427 56.7795177 23.9423704 56.7727911 23.9371868 56.7661131 23.9317936 56.7594854 23.9261926 56.7529102 23.9203856 56.7463894 23.9143743 56.739925 23.9081608 56.733519 23.901747 56.7271731 23.8951348 56.7208894 23.8883265 56.7146697 23.881324 56.7085159 23.8741297 56.7024299 23.8667457 56.6964134 23.8591744 56.6904682 23.851418 56.6845961 23.8434791 56.6787989 23.8353599 56.6730784 23.8270632 56.6674361 23.8185914 56.6618739 23.809947 56.6563933 23.8011328 56.650996 23.7921515 56.6456836 23.7830058 56.6404577 23.7736985 56.6353198 23.7642324 56.6302715 23.7546104 56.6253143 23.7448354 56.6204496 23.7349104 56.6156789 23.7248384 56.6110036 23.7146224 56.6064251 23.7042655 56.6019448 23.6937709 56.5975639 23.6831417 56.5932839 23.6723811 56.5891059 23.6614923 56.5850312 23.6504786 56.581061 23.6393433 56.5771965 23.6280897 56.5734388 23.6167212 56.569789 23.6052413 56.5662483 23.5936532 56.5628176 23.5819605 56.559498 23.5701667 56.5562905 23.5582753 56.553196 23.5462898 56.5502155 23.5342137 56.5473497 23.5220507 56.5445996 23.5098044 56.541966 23.4974785 56.5394496 23.4850764 56.5370512 23.4726021 56.5347716 23.460059 56.5326113 23.447451 56.530571 23.4347818 56.5286513 23.4220551 56.5268528 23.4092747 56.525176 23.3964444 56.5236215 23.3835679 56.5221896 23.3706491 56.5208808 23.3576917 56.5196954 23.3446997 56.5186339 23.3316767 56.5176965 23.3186268 56.5168836 23.3055536 56.5161953 23.2924611 56.5156319 23.2793532 56.5151934 23.2662336 56.5148802 23.2531063 56.5146922 </gml:posList>
+                                </gml:GeodesicString>
+                              </gml:segments>
+                            </gml:Curve>
+                          </gml:curveMember>
+                        </gml:Ring>
+                      </gml:exterior>
+                    </gml:PolygonPatch>
+                  </gml:patches>
+                </aixm:Surface>
+              </aixm:extent>
+              <aixm:significantObstacle>
+                <aixm:Obstruction gml:id="uuid.9a81da29-867e-4bd2-b72d-38b1fb78e711">
+                  <aixm:requiredClearance uom="FT">1000</aixm:requiredClearance>
+                  <aixm:minimumAltitude uom="FT">1900</aixm:minimumAltitude>
+                  <!-- <aixm:theVerticalStructure xlink:type="simple" xlink:href="#uuid.ac3ce17e-ba46-46cd-8660-6f8f77d9239d"/> -->
+                  <!-- ERROR: Found Obstruction with theVerticalStructure@xlink:href value that does not match any VerticalStructure (${association}) -->
+                  <aixm:theVerticalStructure xlink:type="simple" xlink:href="#uuid.0000e17e-ba46-46cd-8660-6f8f77d9239d"/>
+                </aixm:Obstruction>
+              </aixm:significantObstacle>
+              <aixm:sectorDefinition>
+                <aixm:CircleSector gml:id="uuid.e0c9f220-cabe-44a7-9c96-8858a441c3c4">
+                  <aixm:arcDirection>CWA</aixm:arcDirection>
+                  <aixm:fromAngle>269</aixm:fromAngle>
+                  <aixm:toAngle>258</aixm:toAngle>
+                  <aixm:angleType>MAG</aixm:angleType>
+                  <aixm:angleDirectionReference>TO</aixm:angleDirectionReference>
+                  <aixm:innerDistance uom="NM">0</aixm:innerDistance>
+                  <aixm:outerDistance uom="NM">25</aixm:outerDistance>
+                  <aixm:upperLimit uom="FT">1900</aixm:upperLimit>
+                  <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="FT">1900</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                </aixm:CircleSector>
+              </aixm:sectorDefinition>
+            </aixm:SafeAltitudeAreaSector>
+          </aixm:sector>
+          <aixm:location nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
           <aixm:annotation>
-            <aixm:Note gml:id="uuid.bdd31781-e5b1-40d8-ac94-407399e112f3">
-              <aixm:propertyName>metadata</aixm:propertyName>
-              <aixm:purpose>DESCRIPTION</aixm:purpose>
+            <aixm:Note gml:id="uuid.dcfc6601-7570-49f6-aed4-6a27460acb1b">
+              <aixm:purpose>REMARK</aixm:purpose>
               <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.297ed7b5-27e8-43cb-b9fb-b0ae8d2ced16">
-                  <aixm:note lang="eng">Data originator identifier  LGIA 02; Data source identifier  LGIA;  Horizontal confidence level - 90%; Horizontal resolution - 5 decimal places; Horizontal reference system - WGS84; Vertical confedence level - 90%; Vertical resolution  1 m; Integrity  routine.</aixm:note>
+                <aixm:LinguisticNote gml:id="uuid.66842748-2ab6-4dc6-8dbd-bf27724b494c">
+                  <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
                 </aixm:LinguisticNote>
               </aixm:translatedNote>
             </aixm:Note>
           </aixm:annotation>
-          <aixm:verticalExtent uom="M">105</aixm:verticalExtent>
-          <aixm:horizontalProjection_location>
-            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.6954192e-010c-471f-86c5-0706e34df51d" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
-              <gml:pos>22.72631 56.77164</gml:pos>
-              <aixm:horizontalAccuracy uom="M">5</aixm:horizontalAccuracy>
-              <aixm:elevation uom="M">231</aixm:elevation>
-              <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
-              <aixm:verticalAccuracy uom="M">15</aixm:verticalAccuracy>
-            </aixm:ElevatedPoint>
-          </aixm:horizontalProjection_location>
-        </aixm:VerticalStructurePart>
-      </aixm:part>
-      <aixm:hostedPassengerService nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:supportedGroundLight nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:hostedNavaidEquipment nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:hostedSpecialNavStation nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:hostedUnit nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:hostedOrganisation nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:supportedService nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:annotation>
-        <aixm:Note gml:id="uuid.71000ce3-1166-47f3-90f0-588b72d4f18e">
-          <aixm:purpose>REMARK</aixm:purpose>
-          <aixm:translatedNote>
-            <aixm:LinguisticNote gml:id="uuid.fcd5537a-2e20-46c6-8208-6b690f87eef4">
-              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
-            </aixm:LinguisticNote>
-          </aixm:translatedNote>
-        </aixm:Note>
-      </aixm:annotation>
-      <aixm:lightingAvailability nilReason="inapplicable" xsi:nil="true"/>
-    </aixm:VerticalStructureTimeSlice>
-  </aixm:timeSlice>
-</aixm:VerticalStructure> 
-<aixm:VerticalStructure gml:id="uuid.529ef50f-a101-4728-84ab-204b7bfd431f">
-  <gml:identifier codeSpace="urn:uuid:">529ef50f-a101-4728-84ab-204b7bfd431f</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:VerticalStructureTimeSlice gml:id="uuid.baf75c12-155a-48fc-a187-9609f3fd6b8e">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.b67e0885-774f-497b-b1a6-d1441e1fa942">
-          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>9</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.29f87b1c-59e7-4e6a-a1a4-c059b13eb307">
-          <gml:beginPosition>2016-06-23T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:name>RIGA (01)</aixm:name>
-      <aixm:type>TOWER</aixm:type>
-      <aixm:lighted>YES</aixm:lighted>
-      <aixm:markingICAOStandard>YES</aixm:markingICAOStandard>
-      <aixm:group>NO</aixm:group>
-      <aixm:length nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:width nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:radius nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:lightingICAOStandard nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:synchronisedLighting nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:marker nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:part>
-        <aixm:VerticalStructurePart gml:id="uuid.eea7194b-fc5e-47ce-aa56-52fc4272137c">
+        </aixm:SafeAltitudeAreaTimeSlice>
+      </aixm:timeSlice>
+    </aixm:SafeAltitudeArea>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:VerticalStructure gml:id="uuid.ac3ce17e-ba46-46cd-8660-6f8f77d9239d">
+      <gml:identifier codeSpace="urn:uuid:">ac3ce17e-ba46-46cd-8660-6f8f77d9239d</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:VerticalStructureTimeSlice gml:id="uuid.268eb65a-a29c-4e6d-8918-73308deaa3af">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.2af8e53f-3390-4e19-82c6-496823c78083">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>7</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.1d079a17-9fde-44f3-9bdc-78d790b82b12">
+              <gml:beginPosition>2017-03-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>REMTE (01)</aixm:name>
+          <aixm:type>TOWER</aixm:type>
+          <aixm:lighted>NO</aixm:lighted>
+          <aixm:markingICAOStandard nilReason="inapplicable" xsi:nil="true"/>
+          <aixm:group>NO</aixm:group>
+          <aixm:length nilReason="inapplicable" xsi:nil="true"/>
+          <aixm:width nilReason="inapplicable" xsi:nil="true"/>
+          <aixm:radius nilReason="inapplicable" xsi:nil="true"/>
+          <aixm:lightingICAOStandard nilReason="inapplicable" xsi:nil="true"/>
+          <aixm:synchronisedLighting nilReason="inapplicable" xsi:nil="true"/>
+          <aixm:marker nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
+          <aixm:part>
+            <aixm:VerticalStructurePart gml:id="uuid.e035dfd5-e781-4978-a6f9-56bea32002ac">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.bdd31781-e5b1-40d8-ac94-407399e112f3">
+                  <aixm:propertyName>metadata</aixm:propertyName>
+                  <aixm:purpose>DESCRIPTION</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.297ed7b5-27e8-43cb-b9fb-b0ae8d2ced16">
+                      <aixm:note lang="eng">Data originator identifier  LGIA 02; Data source identifier  LGIA;  Horizontal confidence level - 90%; Horizontal resolution - 5 decimal places; Horizontal reference system - WGS84; Vertical confedence level - 90%; Vertical resolution  1 m; Integrity  routine.</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:verticalExtent uom="M">105</aixm:verticalExtent>
+              <aixm:horizontalProjection_location>
+                <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.6954192e-010c-471f-86c5-0706e34df51d" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                  <gml:pos>22.72631 56.77164</gml:pos>
+                  <aixm:horizontalAccuracy uom="M">5</aixm:horizontalAccuracy>
+                  <aixm:elevation uom="M">231</aixm:elevation>
+                  <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+                  <aixm:verticalAccuracy uom="M">15</aixm:verticalAccuracy>
+                </aixm:ElevatedPoint>
+              </aixm:horizontalProjection_location>
+            </aixm:VerticalStructurePart>
+          </aixm:part>
+          <aixm:hostedPassengerService nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
+          <aixm:supportedGroundLight nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
+          <aixm:hostedNavaidEquipment nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
+          <aixm:hostedSpecialNavStation nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
+          <aixm:hostedUnit nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
+          <aixm:hostedOrganisation nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
+          <aixm:supportedService nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
           <aixm:annotation>
-            <aixm:Note gml:id="uuid.45ef70ed-4209-4d80-b8d1-d7696c0264ef">
-              <aixm:propertyName>metadata</aixm:propertyName>
-              <aixm:purpose>DESCRIPTION</aixm:purpose>
+            <aixm:Note gml:id="uuid.71000ce3-1166-47f3-90f0-588b72d4f18e">
+              <aixm:purpose>REMARK</aixm:purpose>
               <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.086d6797-e18c-43d4-bd21-a1a2ab3b1877">
-                  <aixm:note lang="eng">Data originator identifier  LGIA 02; Data source identifier  LGIA;  Horizontal confidence level - 90%; Horizontal resolution - 5 decimal places; Horizontal reference system - WGS84; Vertical confedence level - 90%; Vertical resolution  1 m; Integrity  routine.</aixm:note>
+                <aixm:LinguisticNote gml:id="uuid.fcd5537a-2e20-46c6-8208-6b690f87eef4">
+                  <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
                 </aixm:LinguisticNote>
               </aixm:translatedNote>
             </aixm:Note>
           </aixm:annotation>
+          <aixm:lightingAvailability nilReason="inapplicable" xsi:nil="true"/>
+        </aixm:VerticalStructureTimeSlice>
+      </aixm:timeSlice>
+    </aixm:VerticalStructure>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:VerticalStructure gml:id="uuid.529ef50f-a101-4728-84ab-204b7bfd431f">
+      <gml:identifier codeSpace="urn:uuid:">529ef50f-a101-4728-84ab-204b7bfd431f</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:VerticalStructureTimeSlice gml:id="uuid.baf75c12-155a-48fc-a187-9609f3fd6b8e">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.b67e0885-774f-497b-b1a6-d1441e1fa942">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>9</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.29f87b1c-59e7-4e6a-a1a4-c059b13eb307">
+              <gml:beginPosition>2016-06-23T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>RIGA (01)</aixm:name>
+          <aixm:type>TOWER</aixm:type>
+          <aixm:lighted>YES</aixm:lighted>
+          <aixm:markingICAOStandard>YES</aixm:markingICAOStandard>
+          <aixm:group>NO</aixm:group>
+          <aixm:length nilReason="inapplicable" xsi:nil="true"/>
+          <aixm:width nilReason="inapplicable" xsi:nil="true"/>
+          <aixm:radius nilReason="inapplicable" xsi:nil="true"/>
+          <aixm:lightingICAOStandard nilReason="inapplicable" xsi:nil="true"/>
+          <aixm:synchronisedLighting nilReason="inapplicable" xsi:nil="true"/>
+          <aixm:marker nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
+          <aixm:part>
+            <aixm:VerticalStructurePart gml:id="uuid.eea7194b-fc5e-47ce-aa56-52fc4272137c">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.45ef70ed-4209-4d80-b8d1-d7696c0264ef">
+                  <aixm:propertyName>metadata</aixm:propertyName>
+                  <aixm:purpose>DESCRIPTION</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.086d6797-e18c-43d4-bd21-a1a2ab3b1877">
+                      <aixm:note lang="eng">Data originator identifier  LGIA 02; Data source identifier  LGIA;  Horizontal confidence level - 90%; Horizontal resolution - 5 decimal places; Horizontal reference system - WGS84; Vertical confedence level - 90%; Vertical resolution  1 m; Integrity  routine.</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.cad64a56-0ce0-4687-a8fa-389416fe03c4">
+                  <aixm:propertyName>status</aixm:propertyName>
+                  <aixm:purpose>DESCRIPTION</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.b24551bd-c896-4087-8de7-32389fdd176a">
+                      <aixm:note lang="eng">AREA1</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:verticalExtent uom="M">368</aixm:verticalExtent>
+              <aixm:horizontalProjection_location>
+                <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.8067daae-3860-4027-ab18-be7950ad5c47" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                  <gml:pos>24.13699 56.92392</gml:pos>
+                  <aixm:horizontalAccuracy uom="M">5</aixm:horizontalAccuracy>
+                  <aixm:elevation uom="M">373</aixm:elevation>
+                  <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+                  <aixm:verticalAccuracy uom="M">15</aixm:verticalAccuracy>
+                </aixm:ElevatedPoint>
+              </aixm:horizontalProjection_location>
+              <aixm:lighting>
+                <aixm:LightElement gml:id="uuid.31140b4f-3b13-406a-b62e-c03cdd5b924a">
+                  <aixm:colour>RED</aixm:colour>
+                </aixm:LightElement>
+              </aixm:lighting>
+            </aixm:VerticalStructurePart>
+          </aixm:part>
+          <aixm:hostedPassengerService nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
+          <aixm:supportedGroundLight nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
+          <aixm:hostedNavaidEquipment nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
+          <aixm:hostedSpecialNavStation nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
+          <aixm:hostedUnit nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
+          <aixm:hostedOrganisation nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
+          <aixm:supportedService nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
           <aixm:annotation>
-            <aixm:Note gml:id="uuid.cad64a56-0ce0-4687-a8fa-389416fe03c4">
-              <aixm:propertyName>status</aixm:propertyName>
-              <aixm:purpose>DESCRIPTION</aixm:purpose>
+            <aixm:Note gml:id="uuid.4ad7178a-8030-4bde-8cfc-f672949377f8">
+              <aixm:purpose>REMARK</aixm:purpose>
               <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.b24551bd-c896-4087-8de7-32389fdd176a">
-                  <aixm:note lang="eng">AREA1</aixm:note>
+                <aixm:LinguisticNote gml:id="uuid.b7ac1598-f983-4ec5-af13-f62c2b187604">
+                  <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
                 </aixm:LinguisticNote>
               </aixm:translatedNote>
             </aixm:Note>
           </aixm:annotation>
-          <aixm:verticalExtent uom="M">368</aixm:verticalExtent>
-          <aixm:horizontalProjection_location>
-            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.8067daae-3860-4027-ab18-be7950ad5c47" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
-              <gml:pos>24.13699 56.92392</gml:pos>
-              <aixm:horizontalAccuracy uom="M">5</aixm:horizontalAccuracy>
-              <aixm:elevation uom="M">373</aixm:elevation>
-              <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
-              <aixm:verticalAccuracy uom="M">15</aixm:verticalAccuracy>
-            </aixm:ElevatedPoint>
-          </aixm:horizontalProjection_location>
-          <aixm:lighting>
-            <aixm:LightElement gml:id="uuid.31140b4f-3b13-406a-b62e-c03cdd5b924a">
-              <aixm:colour>RED</aixm:colour>
-            </aixm:LightElement>
-          </aixm:lighting>
-        </aixm:VerticalStructurePart>
-      </aixm:part>
-      <aixm:hostedPassengerService nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:supportedGroundLight nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:hostedNavaidEquipment nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:hostedSpecialNavStation nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:hostedUnit nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:hostedOrganisation nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:supportedService nilReason="inapplicable" xlink:type="simple" xsi:nil="true"/>
-      <aixm:annotation>
-        <aixm:Note gml:id="uuid.4ad7178a-8030-4bde-8cfc-f672949377f8">
-          <aixm:purpose>REMARK</aixm:purpose>
-          <aixm:translatedNote>
-            <aixm:LinguisticNote gml:id="uuid.b7ac1598-f983-4ec5-af13-f62c2b187604">
-              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
-            </aixm:LinguisticNote>
-          </aixm:translatedNote>
-        </aixm:Note>
-      </aixm:annotation>
-      <aixm:lightingAvailability nilReason="inapplicable" xsi:nil="true"/>
-    </aixm:VerticalStructureTimeSlice>
-  </aixm:timeSlice>
-</aixm:VerticalStructure> 
-</AIXMBasicMessage>
+          <aixm:lightingAvailability nilReason="inapplicable" xsi:nil="true"/>
+        </aixm:VerticalStructureTimeSlice>
+      </aixm:timeSlice>
+    </aixm:VerticalStructure>
+  </message:hasMember>
+</message:AIXMBasicMessage>

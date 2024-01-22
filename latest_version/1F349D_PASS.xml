@@ -1,126 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-<aixm:AircraftGroundService gml:id="uuid.afd6915d-b151-4f7b-ae77-f0de93b0e843">
-  <gml:identifier codeSpace="urn:uuid:">afd6915d-b151-4f7b-ae77-f0de93b0e843</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:AircraftGroundServiceTimeSlice gml:id="uuid.421488ef-023b-4237-8253-73db298d316f">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.20cbaef5-cf59-4100-9ff9-92bc250c4b48">
-          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>6</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.e14ede65-e259-4a5a-8463-37aaf9bd30d2">
-          <gml:beginPosition>2017-05-25T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:flightOperations>ALL</aixm:flightOperations>
-      <aixm:rank nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:compliantICAO nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:name>DEICING RIGA</aixm:name>
-      <aixm:location nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:serviceProvider xlink:type="simple" xlink:href="#uuid.164e8247-b912-4a15-a390-3ad6ee44e03f"/>
-      <aixm:call-sign nilReason="inapplicable" xsi:nil="true"/>
-      <aixm:radioCommunication xlink:type="simple" xlink:href="#uuid.ffc6e236-3363-49fb-9908-b120f46b262c"/>
-      <aixm:groundCommunication>
-        <aixm:ContactInformation gml:id="uuid.90a7051b-01db-4f0a-9e50-4775953ba079">
-          <aixm:name>SIA LATAUTOAVIA</aixm:name>
-        </aixm:ContactInformation>
-      </aixm:groundCommunication>
-      <aixm:groundCommunication>
-        <aixm:ContactInformation gml:id="uuid.2066981b-6140-43c9-bccd-a7ae02fbe370">
-          <aixm:name>AS AIR BALTIC CORPORATION</aixm:name>
-        </aixm:ContactInformation>
-      </aixm:groundCommunication>
-      <aixm:groundCommunication>
-        <aixm:ContactInformation gml:id="uuid.c5afa35a-6bda-4d52-b714-19450b0e9a97">
-          <aixm:name>SIA HAVAS LATVIA</aixm:name>
-        </aixm:ContactInformation>
-      </aixm:groundCommunication>
-      <aixm:availability>
-        <aixm:ServiceOperationalStatus gml:id="uuid.926989ee-eb23-488e-85c8-9befa8f97863">
-          <aixm:timeInterval>
-            <aixm:Timesheet gml:id="uuid.d6fc0f96-1029-455e-959b-03afda9d0ce6">
-              <aixm:timeReference>UTC</aixm:timeReference>
-              <aixm:startDate>01-10</aixm:startDate>
-              <aixm:endDate>31-03</aixm:endDate>
-              <aixm:startTime>00:00</aixm:startTime>
-              <aixm:endTime>23:59</aixm:endTime>
-            </aixm:Timesheet>
-          </aixm:timeInterval>
-          <aixm:timeInterval>
-            <aixm:Timesheet gml:id="uuid.0688e71b-b625-4f54-9373-0aebdf28bb71">
-              <aixm:timeReference>UTC</aixm:timeReference>
-              <aixm:startDate>01-04</aixm:startDate>
-              <aixm:endDate>30-09</aixm:endDate>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+    <aixm:AircraftGroundService gml:id="uuid.afd6915d-b151-4f7b-ae77-f0de93b0e843">
+      <gml:identifier codeSpace="urn:uuid:">afd6915d-b151-4f7b-ae77-f0de93b0e843</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AircraftGroundServiceTimeSlice gml:id="uuid.421488ef-023b-4237-8253-73db298d316f">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.20cbaef5-cf59-4100-9ff9-92bc250c4b48">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>6</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.e14ede65-e259-4a5a-8463-37aaf9bd30d2">
+              <gml:beginPosition>2017-05-25T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:flightOperations>ALL</aixm:flightOperations>
+          <aixm:rank nilReason="inapplicable" xsi:nil="true"/>
+          <aixm:compliantICAO nilReason="inapplicable" xsi:nil="true"/>
+          <aixm:name>DEICING RIGA</aixm:name>
+          <aixm:location nilReason="inapplicable" xsi:nil="true"/>
+          <aixm:serviceProvider xlink:type="simple" xlink:href="#uuid.164e8247-b912-4a15-a390-3ad6ee44e03f"/>
+          <aixm:call-sign nilReason="inapplicable" xsi:nil="true"/>
+          <!-- <aixm:radioCommunication xlink:type="simple" xlink:href="#uuid.ffc6e236-3363-49fb-9908-b120f46b262c"/> -->
+          <!-- ERROR: Found AircraftGroundService with radioCommunication@xlink:href value that does not match any RadioCommunicationChannel (${association}) -->
+          <aixm:radioCommunication xlink:type="simple" xlink:href="#uuid.ffc6e236-3363-49fb-9908-b120f46b262c"/>
+          <aixm:groundCommunication>
+            <aixm:ContactInformation gml:id="uuid.90a7051b-01db-4f0a-9e50-4775953ba079">
+              <aixm:name>SIA LATAUTOAVIA</aixm:name>
+            </aixm:ContactInformation>
+          </aixm:groundCommunication>
+          <aixm:groundCommunication>
+            <aixm:ContactInformation gml:id="uuid.2066981b-6140-43c9-bccd-a7ae02fbe370">
+              <aixm:name>AS AIR BALTIC CORPORATION</aixm:name>
+            </aixm:ContactInformation>
+          </aixm:groundCommunication>
+          <aixm:groundCommunication>
+            <aixm:ContactInformation gml:id="uuid.c5afa35a-6bda-4d52-b714-19450b0e9a97">
+              <aixm:name>SIA HAVAS LATVIA</aixm:name>
+            </aixm:ContactInformation>
+          </aixm:groundCommunication>
+          <aixm:availability>
+            <aixm:ServiceOperationalStatus gml:id="uuid.926989ee-eb23-488e-85c8-9befa8f97863">
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.d6fc0f96-1029-455e-959b-03afda9d0ce6">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>01-10</aixm:startDate>
+                  <aixm:endDate>31-03</aixm:endDate>
+                  <aixm:startTime>00:00</aixm:startTime>
+                  <aixm:endTime>23:59</aixm:endTime>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.0688e71b-b625-4f54-9373-0aebdf28bb71">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>01-04</aixm:startDate>
+                  <aixm:endDate>30-09</aixm:endDate>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.6b9a214f-f331-4e52-8c79-9ef709f79c5c">
+                      <aixm:purpose>DESCRIPTION</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.7f42e955-27de-4aef-bda8-8991d9787311">
+                          <aixm:note lang="eng">on prior request</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
               <aixm:annotation>
-                <aixm:Note gml:id="uuid.6b9a214f-f331-4e52-8c79-9ef709f79c5c">
-                  <aixm:purpose>DESCRIPTION</aixm:purpose>
+                <aixm:Note gml:id="uuid.4b9720c8-84c5-4282-8ea2-1f59d79013d0">
+                  <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
                   <aixm:translatedNote>
-                    <aixm:LinguisticNote gml:id="uuid.7f42e955-27de-4aef-bda8-8991d9787311">
-                      <aixm:note lang="eng">on prior request</aixm:note>
+                    <aixm:LinguisticNote gml:id="uuid.5c9869af-c86b-4198-b6f3-850774160b46">
+                      <aixm:note lang="eng">H24 OCT-MAR (APR-SEP on prior request)</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.22442dd5-957e-4dae-8f8f-1b716d6b61c1">
+                      <aixm:note lang="lav">H24 OCT-MAR (APR-SEP pc iepriekja pieprasjuma)</aixm:note>
                     </aixm:LinguisticNote>
                   </aixm:translatedNote>
                 </aixm:Note>
               </aixm:annotation>
-            </aixm:Timesheet>
-          </aixm:timeInterval>
+            </aixm:ServiceOperationalStatus>
+          </aixm:availability>
           <aixm:annotation>
-            <aixm:Note gml:id="uuid.4b9720c8-84c5-4282-8ea2-1f59d79013d0">
-              <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
+            <aixm:Note gml:id="uuid.6b0ba7fa-4c07-4169-b34c-497e099d0b05">
+              <aixm:purpose>DESCRIPTION</aixm:purpose>
               <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.5c9869af-c86b-4198-b6f3-850774160b46">
-                  <aixm:note lang="eng">H24 OCT-MAR (APR-SEP on prior request)</aixm:note>
+                <aixm:LinguisticNote gml:id="uuid.e79977fa-c6f0-4731-be42-46c0ddbe57a1">
+                  <aixm:note lang="eng">Service provided by "Latautoavia" LLC, AS "airBaltic Corporation" and "Havas Latvia" LLC.
+                    Remote de-icing pads AVLB near RWY18 and RWY36 for up to E Code ACFT</aixm:note>
                 </aixm:LinguisticNote>
               </aixm:translatedNote>
               <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.22442dd5-957e-4dae-8f8f-1b716d6b61c1">
-                  <aixm:note lang="lav">H24 OCT-MAR (APR-SEP pc iepriekja pieprasjuma)</aixm:note>
+                <aixm:LinguisticNote gml:id="uuid.88340803-193d-4db5-90ac-7ad78a9b15f1">
+                  <aixm:note lang="lav">Pakalpojumu piedv SIA Latautoavia, AS airBaltic Corporation un SIA Havas Latvia.
+                    Attlintie pretapledoanas apstrdes laukumi pieejami pirms RWY18 un RWY36 ldz E koda gaisa kuiem.</aixm:note>
                 </aixm:LinguisticNote>
               </aixm:translatedNote>
             </aixm:Note>
           </aixm:annotation>
-        </aixm:ServiceOperationalStatus>
-      </aixm:availability>
-      <aixm:annotation>
-        <aixm:Note gml:id="uuid.6b0ba7fa-4c07-4169-b34c-497e099d0b05">
-          <aixm:purpose>DESCRIPTION</aixm:purpose>
-          <aixm:translatedNote>
-            <aixm:LinguisticNote gml:id="uuid.e79977fa-c6f0-4731-be42-46c0ddbe57a1">
-              <aixm:note lang="eng">Service provided by "Latautoavia" LLC, AS "airBaltic Corporation" and "Havas Latvia" LLC. 
-Remote de-icing pads AVLB near RWY18 and RWY36 for up to E Code ACFT</aixm:note>
-            </aixm:LinguisticNote>
-          </aixm:translatedNote>
-          <aixm:translatedNote>
-            <aixm:LinguisticNote gml:id="uuid.88340803-193d-4db5-90ac-7ad78a9b15f1">
-              <aixm:note lang="lav">Pakalpojumu piedv SIA Latautoavia, AS airBaltic Corporation un SIA Havas Latvia.
-Attlintie pretapledoanas apstrdes laukumi pieejami pirms RWY18 un RWY36 ldz E koda gaisa kuiem.</aixm:note>
-            </aixm:LinguisticNote>
-          </aixm:translatedNote>
-        </aixm:Note>
-      </aixm:annotation>
-      <aixm:annotation>
-        <aixm:Note gml:id="uuid.0cc9d7fe-f1ff-4325-a3be-ef7bd6f65c69">
-          <aixm:purpose>REMARK</aixm:purpose>
-          <aixm:translatedNote>
-            <aixm:LinguisticNote gml:id="uuid.037cc28b-111a-4991-b5d5-18d7ab77b154">
-              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
-            </aixm:LinguisticNote>
-          </aixm:translatedNote>
-        </aixm:Note>
-      </aixm:annotation>
-      <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b"/>
-      <aixm:type>DEICE</aixm:type>
-    </aixm:AircraftGroundServiceTimeSlice>
-  </aixm:timeSlice>
-</aixm:AircraftGroundService> 
-<aixm:RadioCommunicationChannel gml:id="uuid.ffc6e236-3363-49fb-9908-b120f46b262c">
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.0cc9d7fe-f1ff-4325-a3be-ef7bd6f65c69">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.037cc28b-111a-4991-b5d5-18d7ab77b154">
+                  <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b"/>
+          <aixm:type>DEICE</aixm:type>
+        </aixm:AircraftGroundServiceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AircraftGroundService>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:RadioCommunicationChannel gml:id="uuid.ffc6e236-3363-49fb-9908-b120f46b262c">
       <gml:identifier codeSpace="urn:uuid:">ffc6e236-3363-49fb-9908-b120f46b262c</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
       <aixm:timeSlice>
@@ -179,7 +197,9 @@ Attlintie pretapledoanas apstrdes laukumi pieejami pirms RWY18 un RWY36 ldz E ko
         </aixm:RadioCommunicationChannelTimeSlice>
       </aixm:timeSlice>
     </aixm:RadioCommunicationChannel>
-<aixm:Unit gml:id="uuid.164e8247-b912-4a15-a390-3ad6ee44e03f">
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:Unit gml:id="uuid.164e8247-b912-4a15-a390-3ad6ee44e03f">
       <gml:identifier codeSpace="urn:uuid:">164e8247-b912-4a15-a390-3ad6ee44e03f</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
       <aixm:timeSlice>
@@ -238,7 +258,9 @@ Attlintie pretapledoanas apstrdes laukumi pieejami pirms RWY18 un RWY36 ldz E ko
         </aixm:UnitTimeSlice>
       </aixm:timeSlice>
     </aixm:Unit>
-<aixm:AirportHeliport gml:id="uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b">
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:AirportHeliport gml:id="uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b">
       <gml:identifier codeSpace="urn:uuid:">52766fb6-7a3b-49ce-9586-f90250f0dd1b</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
       <aixm:timeSlice>
@@ -516,21 +538,21 @@ Attlintie pretapledoanas apstrdes laukumi pieejami pirms RWY18 un RWY36 ldz E ko
               <aixm:translatedNote>
                 <aixm:LinguisticNote gml:id="uuid.2078024e-54ce-46b3-9854-e811accfbc1f">
                   <aixm:note lang="eng">Apron 1 ACL: at Apron 34 FT
-Apron 2 ACL: at Apron 33 FT
-Apron 3 ACL: at Apron 33 FT
-Apron 4 ACL: at Apron 33 FT
-Apron 5 ACL: at Apron 32 FT
-Apron Z3 ACL: at Apron 29 FT</aixm:note>
+                    Apron 2 ACL: at Apron 33 FT
+                    Apron 3 ACL: at Apron 33 FT
+                    Apron 4 ACL: at Apron 33 FT
+                    Apron 5 ACL: at Apron 32 FT
+                    Apron Z3 ACL: at Apron 29 FT</aixm:note>
                 </aixm:LinguisticNote>
               </aixm:translatedNote>
               <aixm:translatedNote>
                 <aixm:LinguisticNote gml:id="uuid.de8f3877-b1dd-4c17-9fc7-7c705aa829a9">
-                  <aixm:note lang="lav">Perona 1 ACL: uz perona 34 FT 
-Perona 2 ACL: uz perona 33 FT 
-Perona 3 ACL: uz perona 33 FT 
-Perona 4 ACL: uz perona 33 FT
-Perona 5 ACL: uz perona 32 FT
-Perona Z3 ACL: uz perona 29 FT</aixm:note>
+                  <aixm:note lang="lav">Perona 1 ACL: uz perona 34 FT
+                    Perona 2 ACL: uz perona 33 FT
+                    Perona 3 ACL: uz perona 33 FT
+                    Perona 4 ACL: uz perona 33 FT
+                    Perona 5 ACL: uz perona 32 FT
+                    Perona Z3 ACL: uz perona 29 FT</aixm:note>
                 </aixm:LinguisticNote>
               </aixm:translatedNote>
             </aixm:Note>
@@ -580,4 +602,5 @@ Perona Z3 ACL: uz perona 29 FT</aixm:note>
         </aixm:AirportHeliportTimeSlice>
       </aixm:timeSlice>
     </aixm:AirportHeliport>
-</AIXMBasicMessage>
+  </message:hasMember>
+</message:AIXMBasicMessage>
