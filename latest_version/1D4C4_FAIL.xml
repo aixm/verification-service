@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
 
-
+  <message:hasMember>
 <aixm:Airspace gml:id="uuid.684d0ba3-7ea4-49d1-9029-1ef8b0d9a09c">
   <gml:identifier codeSpace="urn:uuid:">684d0ba3-7ea4-49d1-9029-1ef8b0d9a09c</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -48,6 +61,9 @@
           <aixm:operationSequence>2</aixm:operationSequence>
           <aixm:theAirspaceVolume>
             <aixm:AirspaceVolume gml:id="uuid.22cf20ef-4e3e-48e6-a555-3fffeb39eba7">
+              <!-- ERROR: Found AirspaceVolume defined as FULL_GEOMETRY dependency and also having maximumLimit. -->
+              <aixm:maximumLimit uom="FT">3300</aixm:maximumLimit>
+              <aixm:maximumLimitReference>SFC</aixm:maximumLimitReference>
               <aixm:contributorAirspace>
                 <aixm:AirspaceVolumeDependency gml:id="uuid.70595eaf-4b62-43bf-9518-b092c72857d7">
                   <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
@@ -64,9 +80,6 @@
           <aixm:operationSequence>3</aixm:operationSequence>
           <aixm:theAirspaceVolume>
             <aixm:AirspaceVolume gml:id="uuid.c4e59ec1-b9b1-4cda-9dd3-214eab2e3c03">
-            <!-- ERROR: Found AirspaceVolume defined as FULL_GEOMETRY dependency and also having maximumLimit. -->
-            <aixm:maximumLimit uom="FT">3300</aixm:maximumLimit>
-            <aixm:maximumLimitReference>SFC</aixm:maximumLimitReference>
               <aixm:contributorAirspace>
                 <aixm:AirspaceVolumeDependency gml:id="uuid.c5ce59fb-76a7-4363-b605-c92509599761">
                   <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
@@ -96,7 +109,9 @@
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
 </aixm:Airspace> 
+  </message:hasMember>
 
+  <message:hasMember>
 <aixm:Airspace gml:id="uuid.8cd6fab9-bbae-43ca-8717-a67be75a58c2">
   <gml:identifier codeSpace="urn:uuid:">8cd6fab9-bbae-43ca-8717-a67be75a58c2</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -130,7 +145,7 @@
               <aixm:lowerLimit uom="FL">295</aixm:lowerLimit>
               <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
               <aixm:horizontalProjection>
-                <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.5bfb648f-2dd8-422b-91f0-2d71810d8b3a">
+                <aixm:ElevatedSurface>
                   <gml:patches>
                     <gml:PolygonPatch interpolation="planar">
                       <gml:exterior>
@@ -217,7 +232,9 @@ CRC:490540.00N,0010505.00E,,,613E473F</aixm:note>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
 </aixm:Airspace> 
+  </message:hasMember>
 
+  <message:hasMember>
 <aixm:Airspace gml:id="uuid.cc35f8b5-2a97-475c-b398-1b1c8f5098e8">
   <gml:identifier codeSpace="urn:uuid:">cc35f8b5-2a97-475c-b398-1b1c8f5098e8</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -251,7 +268,7 @@ CRC:490540.00N,0010505.00E,,,613E473F</aixm:note>
               <aixm:lowerLimit uom="FL">345</aixm:lowerLimit>
               <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
               <aixm:horizontalProjection>
-                <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.aea44de0-2078-4a42-9894-c495fd3cd855">
+                <aixm:ElevatedSurface>
                   <gml:patches>
                     <gml:PolygonPatch interpolation="planar">
                       <gml:exterior>
@@ -338,7 +355,9 @@ CRC:490540.00N,0010505.00E,,,613E473F</aixm:note>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
 </aixm:Airspace> 
+  </message:hasMember>
 
+  <message:hasMember>
 <aixm:Airspace gml:id="uuid.5a719fca-66e2-41ba-a774-2de5f225d4a1">
   <gml:identifier codeSpace="urn:uuid:">5a719fca-66e2-41ba-a774-2de5f225d4a1</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -372,7 +391,7 @@ CRC:490540.00N,0010505.00E,,,613E473F</aixm:note>
               <aixm:lowerLimit uom="FL">345</aixm:lowerLimit>
               <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
               <aixm:horizontalProjection>
-                <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.66f68cde-37f1-4799-bd98-3b095200bce2">
+                <aixm:ElevatedSurface>
                   <gml:patches>
                     <gml:PolygonPatch interpolation="planar">
                       <gml:exterior>
@@ -542,7 +561,9 @@ CRC:484000.00N,0011200.00E,,,2B1353B8</aixm:note>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
 </aixm:Airspace> 
+  </message:hasMember>
 
+  <message:hasMember>
 <aixm:Airspace gml:id="uuid.163bd7b7-8250-44dc-af19-e5174d74942d">
   <gml:identifier codeSpace="urn:uuid:">163bd7b7-8250-44dc-af19-e5174d74942d</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -576,7 +597,7 @@ CRC:484000.00N,0011200.00E,,,2B1353B8</aixm:note>
               <aixm:lowerLimit uom="FL">295</aixm:lowerLimit>
               <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
               <aixm:horizontalProjection>
-                <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b26db2aa-3480-40b8-a863-33941c635474">
+                <aixm:ElevatedSurface>
                   <gml:patches>
                     <gml:PolygonPatch interpolation="planar">
                       <gml:exterior>
@@ -746,5 +767,7 @@ CRC:484000.00N,0011200.00E,,,2B1353B8</aixm:note>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
 </aixm:Airspace> 
+  </message:hasMember>
 
-</AIXMBasicMessage>
+</message:AIXMBasicMessage>
+

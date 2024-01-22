@@ -38,7 +38,7 @@
       <aixm:role>END</aixm:role>
       <aixm:designator>06</aixm:designator>
       <aixm:location>
-        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.ac15d46e-4087-4176-ada4-6bc55675ea04" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.ac15d46e-4087-4176-ada4-6bc55675ea04" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
           <gml:pos>21.0817336 56.5144944</gml:pos>
           <aixm:horizontalAccuracy uom="M">0.1</aixm:horizontalAccuracy>
           <aixm:elevation uom="M">2.1</aixm:elevation>
@@ -94,15 +94,16 @@
         </aixm:RunwayDeclaredDistance>
       </aixm:associatedDeclaredDistance>
       <aixm:navaidEquipment>
-        <aixm:distance uom="NM">39.99</aixm:distance>
-        <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.be2040ae-4a52-430b-9486-384c68fdc29f"/>
+        <aixm:NavaidEquipmentDistance gml:id="ned111">
+          <aixm:distance uom="NM">39.99</aixm:distance>
+        </aixm:NavaidEquipmentDistance>
       </aixm:navaidEquipment>
       <aixm:annotation>
         <aixm:Note gml:id="uuid.8fa1aaed-c145-4934-82fd-041006dd7dfc">
           <aixm:purpose>REMARK</aixm:purpose>
           <aixm:translatedNote>
             <aixm:LinguisticNote gml:id="uuid.3b664bb5-3061-4960-a93e-b494319049ec">
-              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1.1)</aixm:note>
             </aixm:LinguisticNote>
           </aixm:translatedNote>
         </aixm:Note>

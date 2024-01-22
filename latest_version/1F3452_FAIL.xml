@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
 <aixm:AirTrafficControlService gml:id="uuid.598f5158-6ab2-4e60-a56c-80c1577bf0ad">
   <gml:identifier codeSpace="urn:uuid:">598f5158-6ab2-4e60-a56c-80c1577bf0ad</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -80,6 +95,9 @@
     </aixm:AirTrafficControlServiceTimeSlice>
   </aixm:timeSlice>
 </aixm:AirTrafficControlService> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:Unit gml:id="uuid.6efb349a-b256-4d54-af06-009fa027a6ab">
   <gml:identifier codeSpace="urn:uuid:">6efb349a-b256-4d54-af06-009fa027a6ab</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -274,6 +292,9 @@
     </aixm:UnitTimeSlice>
   </aixm:timeSlice>
 </aixm:Unit> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:RadioCommunicationChannel gml:id="uuid.31387692-3458-4a4e-892a-9b182d28d15d">
   <gml:identifier codeSpace="urn:uuid:">31387692-3458-4a4e-892a-9b182d28d15d</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -299,6 +320,9 @@
     </aixm:RadioCommunicationChannelTimeSlice>
   </aixm:timeSlice>
 </aixm:RadioCommunicationChannel> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:AirportHeliport gml:id="uuid.96a49407-e8c0-4695-9d55-56250bd9b082">
   <gml:identifier codeSpace="urn:uuid:">96a49407-e8c0-4695-9d55-56250bd9b082</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -984,6 +1008,9 @@
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:InstrumentApproachProcedure gml:id="uuid.52813faa-90a9-4b94-ae61-13024cdaa441">
   <gml:identifier codeSpace="urn:uuid:">52813faa-90a9-4b94-ae61-13024cdaa441</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1114,6 +1141,9 @@
     </aixm:InstrumentApproachProcedureTimeSlice>
   </aixm:timeSlice>
 </aixm:InstrumentApproachProcedure> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:OrganisationAuthority gml:id="uuid.09424934-8217-0ae9-e053-0b751dc2b779">
   <gml:identifier codeSpace="urn:uuid:">09424934-8217-0ae9-e053-0b751dc2b779</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1146,6 +1176,9 @@
     </aixm:OrganisationAuthorityTimeSlice>
   </aixm:timeSlice>
 </aixm:OrganisationAuthority>
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:SafeAltitudeArea gml:id="uuid.63d2c692-9b09-4cef-abb1-8e455af74a35">
   <gml:identifier codeSpace="urn:uuid:">63d2c692-9b09-4cef-abb1-8e455af74a35</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1188,6 +1221,9 @@
     </aixm:SafeAltitudeAreaTimeSlice>
   </aixm:timeSlice>
 </aixm:SafeAltitudeArea> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:RunwayDirection gml:id="uuid.58fa2bd0-9bcf-41f2-8d5e-6b604f1ff9e6">
   <gml:identifier codeSpace="urn:uuid:">58fa2bd0-9bcf-41f2-8d5e-6b604f1ff9e6</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1232,7 +1268,7 @@
               <aixm:note>VisualGlideSlopeIndicator: &#13;
 Type of VASIS: PAPI&#13;
 VASIS position: LEFT&#13;
-</aixm:note>
+              </aixm:note>
             </aixm:LinguisticNote>
           </aixm:translatedNote>
         </aixm:Note>
@@ -1280,7 +1316,7 @@ VASIS position: LEFT&#13;
               <aixm:note>VisualGlideSlopeIndicator: &#13;
 Type of VASIS: PAPI&#13;
 VASIS position: LEFT&#13;
-</aixm:note>
+              </aixm:note>
             </aixm:LinguisticNote>
           </aixm:translatedNote>
         </aixm:Note>
@@ -1298,6 +1334,9 @@ VASIS position: LEFT&#13;
     </aixm:RunwayDirectionTimeSlice>
   </aixm:timeSlice>
 </aixm:RunwayDirection> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:Runway gml:id="uuid.e9e75e20-4863-4ca5-9928-194f88c3dfb6">
   <gml:identifier codeSpace="urn:uuid:">e9e75e20-4863-4ca5-9928-194f88c3dfb6</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1414,6 +1453,9 @@ VASIS position: LEFT&#13;
     </aixm:RunwayTimeSlice>
   </aixm:timeSlice>
 </aixm:Runway> 
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:DesignatedPoint gml:id="uuid.d24ebbf6-a82c-4aa1-ab9f-738974a51052">
   <gml:identifier codeSpace="urn:uuid:">d24ebbf6-a82c-4aa1-ab9f-738974a51052</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1456,6 +1498,9 @@ VASIS position: LEFT&#13;
     </aixm:DesignatedPointTimeSlice>
   </aixm:timeSlice>
 </aixm:DesignatedPoint>
+  </message:hasMember>
+
+  <message:hasMember>
 <aixm:RunwayCentrelinePoint gml:id="uuid.d847ba5e-d252-419d-801c-a478cfd57c12">
   <gml:identifier codeSpace="urn:uuid:">d847ba5e-d252-419d-801c-a478cfd57c12</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1500,7 +1545,7 @@ VASIS position: LEFT&#13;
           <aixm:translatedNote>
             <aixm:LinguisticNote gml:id="uuid.4a82664b-6092-42cc-befd-bf767a1edd86">
               <aixm:note>txtRmk:End 11
-</aixm:note>
+              </aixm:note>
             </aixm:LinguisticNote>
           </aixm:translatedNote>
         </aixm:Note>
@@ -1548,7 +1593,7 @@ VASIS position: LEFT&#13;
           <aixm:translatedNote>
             <aixm:LinguisticNote gml:id="uuid.dd4fbdae-9fb2-48dc-8657-e6ea168de24d">
               <aixm:note>txtRmk:End 11
-</aixm:note>
+              </aixm:note>
             </aixm:LinguisticNote>
           </aixm:translatedNote>
         </aixm:Note>
@@ -1556,4 +1601,7 @@ VASIS position: LEFT&#13;
     </aixm:RunwayCentrelinePointTimeSlice>
   </aixm:timeSlice>
 </aixm:RunwayCentrelinePoint>
-</AIXMBasicMessage>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
