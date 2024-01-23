@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message:AIXMBasicMessage
+        xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+        xmlns:gts="http://www.isotc211.org/2005/gts"
+        xmlns:gco="http://www.isotc211.org/2005/gco"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:gml="http://www.opengis.net/gml/3.2"
+        xmlns:gss="http://www.isotc211.org/2005/gss"
+        xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+        xmlns:gsr="http://www.isotc211.org/2005/gsr"
+        xmlns:gmd="http://www.isotc211.org/2005/gmd"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+  <message:hasMember>
     <aixm:Airspace gml:id="uuid.34950593-8cf7-4503-b9cd-8d754a5a6446">
       <gml:identifier codeSpace="urn:uuid:">34950593-8cf7-4503-b9cd-8d754a5a6446</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -125,5 +136,5 @@
         </aixm:AirspaceTimeSlice>
       </aixm:timeSlice>
     </aixm:Airspace>
-  </hasMember>
-</AIXMBasicMessage>
+  </message:hasMember>
+</message:AIXMBasicMessage>
