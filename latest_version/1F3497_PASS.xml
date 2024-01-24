@@ -1,99 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-<aixm:PointReference gml:id="uuid.71aa3b01-e2f1-4311-99bd-f635ede841d2">
-  <aixm:priorFixTolerance uom="NM">1.6</aixm:priorFixTolerance>
-  <aixm:postFixTolerance uom="NM">1.6</aixm:postFixTolerance>
-  <aixm:point xlink:type="simple" xlink:href="#uuid.2fcc2717-322e-4c44-b39c-f9726fa9da72"/>
-  <aixm:fixToleranceArea>
-    <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.281d5d22-e52e-4bb5-8756-1bb17ea32db7" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
-      <gml:patches>
-        <gml:PolygonPatch>
-          <gml:exterior>
-            <gml:Ring>
-              <gml:curveMember>
-                <gml:Curve gml:id="uuid.e595f568-571f-436a-b918-b0ffff22800f">
-                  <gml:segments>
-                    <gml:GeodesicString>
-                      <gml:posList>24.9720038 56.9616095 25.0210492 56.9007038 24.9320407 56.8792369 24.8828777 56.9401082 24.9720038 56.9616095 </gml:posList>
-                    </gml:GeodesicString>
-                  </gml:segments>
-                </gml:Curve>
-              </gml:curveMember>
-            </gml:Ring>
-          </gml:exterior>
-        </gml:PolygonPatch>
-      </gml:patches>
-    </aixm:Surface>
-  </aixm:fixToleranceArea>
-</aixm:PointReference> 
-<aixm:PointReference gml:id="uuid.11f730b9-7d8e-47f9-a5ad-9497afd59730">
-  <aixm:priorFixTolerance uom="NM">1.6</aixm:priorFixTolerance>
-  <aixm:postFixTolerance uom="NM">1.6</aixm:postFixTolerance>
-  <aixm:point xlink:type="simple" xlink:href="#uuid.2fcc2717-322e-4c44-b39c-f9726fa9da72"/>
-  <aixm:fixToleranceArea>
-    <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.94f6e26e-0c0b-4338-92ee-7095f351353e" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
-      <gml:patches>
-        <gml:PolygonPatch>
-          <gml:exterior>
-            <gml:Ring>
-              <gml:curveMember>
-                <gml:Curve gml:id="uuid.4f9bf5d6-1aff-4652-ab58-43cba31fccec">
-                  <gml:segments>
-                    <gml:GeodesicString>
-                      <gml:posList>24.9720038 56.9616095 25.0210492 56.9007038 24.9320407 56.8792369 24.8828777 56.9401082 24.9720038 56.9616095 </gml:posList>
-                    </gml:GeodesicString>
-                  </gml:segments>
-                </gml:Curve>
-              </gml:curveMember>
-            </gml:Ring>
-          </gml:exterior>
-        </gml:PolygonPatch>
-      </gml:patches>
-    </aixm:Surface>
-  </aixm:fixToleranceArea>
-</aixm:PointReference> 
-<aixm:DesignatedPoint gml:id="uuid.2fcc2717-322e-4c44-b39c-f9726fa9da72">
-  <gml:identifier codeSpace="urn:uuid:">2fcc2717-322e-4c44-b39c-f9726fa9da72</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:DesignatedPointTimeSlice gml:id="uuid.01498f64-8a19-4de8-8e09-b9f34b1689bc">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.1bab00a3-d794-4aeb-95a6-795f1752a3b2">
-          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>1</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.5dcff99b-5722-4a9e-9f5e-c2e9a12bd470">
-          <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:designator>PUZFE</aixm:designator>
-      <aixm:type>ICAO</aixm:type>
-      <aixm:name>PUZFE</aixm:name>
-      <aixm:location>
-        <aixm:Point xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.81de7536-f5d4-4a5f-978d-fb87dccbc436" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
-          <gml:pos>24.952 56.920425</gml:pos>
-        </aixm:Point>
-      </aixm:location>
-      <aixm:aimingPoint nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
-      <aixm:airportHeliport nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
-      <aixm:runwayPoint nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
-      <aixm:annotation>
-        <aixm:Note gml:id="uuid.fffd01de-f535-4729-a9d6-ef802439f053">
-          <aixm:purpose>REMARK</aixm:purpose>
-          <aixm:translatedNote>
-            <aixm:LinguisticNote gml:id="uuid.17012e0b-b9cf-4535-a357-e16aa2e5845d">
-              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
-            </aixm:LinguisticNote>
-          </aixm:translatedNote>
-        </aixm:Note>
-      </aixm:annotation>
-    </aixm:DesignatedPointTimeSlice>
-  </aixm:timeSlice>
-</aixm:DesignatedPoint> 
-</AIXMBasicMessage>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+  <message:hasMember>
+    <aixm:DepartureLeg gml:id="uuid.dc8d4ea0-a851-4925-9f67-9a0000bf6144">
+      <gml:identifier codeSpace="urn:uuid:">dc8d4ea0-a851-4925-9f67-9a0000bf6144</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:DepartureLegTimeSlice gml:id="uuid.b9f3b990-25db-4e0f-a52a-82e45481e525">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b969">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.24abbfbd-4b4b-49d0-bfb7-a68b9b2f1997">
+              <gml:beginPosition>2017-03-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:endPoint>
+            <aixm:TerminalSegmentPoint gml:id="uuid.f35f15af-a8eb-4da0-aa83-1912c0b6952e">
+              <aixm:reportingATC>COMPULSORY</aixm:reportingATC>
+              <aixm:flyOver>NO</aixm:flyOver>
+              <aixm:waypoint>YES</aixm:waypoint>
+              <aixm:radarGuidance>NO</aixm:radarGuidance>
+              <aixm:facilityMakeup>
+
+                <aixm:PointReference gml:id="uuid.71aa3b01-e2f1-4311-99bd-f635ede841d2">
+                  <aixm:priorFixTolerance uom="NM">1.6</aixm:priorFixTolerance>
+                  <aixm:postFixTolerance uom="NM">1.6</aixm:postFixTolerance>
+                  <!-- <aixm:point xlink:type="simple" xlink:href="#uuid.2fcc2717-322e-4c44-b39c-f9726fa9da72"/> -->
+                  <!-- ERROR: Found PointReference with point@xlink:href value that does not match any DesignatedPoint (${association}) -->
+                  <aixm:point xlink:type="simple" xlink:href="#uuid.2fcc2717-322e-4c44-b39c-f9726fa9da72"/>
+                  <aixm:fixToleranceArea>
+                    <aixm:Surface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.281d5d22-e52e-4bb5-8756-1bb17ea32db7" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                      <gml:patches>
+                        <gml:PolygonPatch>
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember>
+                                <gml:Curve gml:id="uuid.e595f568-571f-436a-b918-b0ffff22800f">
+                                  <gml:segments>
+                                    <gml:GeodesicString>
+                                      <gml:posList>24.9720038 56.9616095 25.0210492 56.9007038 24.9320407 56.8792369 24.8828777 56.9401082 24.9720038 56.9616095 </gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </gml:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:Surface>
+                  </aixm:fixToleranceArea>
+                </aixm:PointReference>
+              </aixm:facilityMakeup>
+            </aixm:TerminalSegmentPoint>
+          </aixm:endPoint>
+        </aixm:DepartureLegTimeSlice>
+      </aixm:timeSlice>
+    </aixm:DepartureLeg>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:DesignatedPoint gml:id="uuid.2fcc2717-322e-4c44-b39c-f9726fa9da72">
+      <gml:identifier codeSpace="urn:uuid:">2fcc2717-322e-4c44-b39c-f9726fa9da72</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:DesignatedPointTimeSlice gml:id="uuid.01498f64-8a19-4de8-8e09-b9f34b1689bc">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.1bab00a3-d794-4aeb-95a6-795f1752a3b2">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.5dcff99b-5722-4a9e-9f5e-c2e9a12bd470">
+              <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>PUZFE</aixm:designator>
+          <aixm:type>ICAO</aixm:type>
+          <aixm:name>PUZFE</aixm:name>
+          <aixm:location>
+            <aixm:Point xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.81de7536-f5d4-4a5f-978d-fb87dccbc436" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:pos>24.952 56.920425</gml:pos>
+            </aixm:Point>
+          </aixm:location>
+          <aixm:aimingPoint nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+          <aixm:airportHeliport nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+          <aixm:runwayPoint nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.fffd01de-f535-4729-a9d6-ef802439f053">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.17012e0b-b9cf-4535-a357-e16aa2e5845d">
+                  <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:DesignatedPointTimeSlice>
+      </aixm:timeSlice>
+    </aixm:DesignatedPoint>
+  </message:hasMember>
+</message:AIXMBasicMessage>
