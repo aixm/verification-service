@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:RunwayDirection gml:id="uuid.51bd54e5-9911-417e-97eb-919cff7dd353">
+      <gml:identifier codeSpace="urn:uuid:">51bd54e5-9911-417e-97eb-919cff7dd353</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:RunwayDirectionTimeSlice gml:id="uuid.6a6c6744-9e6d-438b-ad50-c26969f9c214">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.00d8a0b0-8019-424f-b062-e25e7f2d349e">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.da6176e0-ca31-4ba1-81bd-0cba1aa6983f">
+              <gml:beginPosition>2016-12-08T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>34</aixm:designator>
+          <aixm:trueBearing>342.96</aixm:trueBearing>
+          <aixm:trueBearingAccuracy>0.01</aixm:trueBearingAccuracy>
+          <aixm:magneticBearing>335.96</aixm:magneticBearing>
+          <aixm:patternVFR nilReason="unknown" xsi:nil="true"/>
+          <aixm:slopeTDZ nilReason="unknown" xsi:nil="true"/>
+          <aixm:elevationTDZ nilReason="unknown" xsi:nil="true"/>
+          <aixm:elevationTDZAccuracy nilReason="unknown" xsi:nil="true"/>
+          <aixm:approachMarkingType nilReason="unknown" xsi:nil="true"/>
+          <aixm:approachMarkingCondition nilReason="unknown" xsi:nil="true"/>
+          <aixm:classLightingJAR nilReason="unknown" xsi:nil="true"/>
+          <aixm:precisionApproachGuidance nilReason="unknown" xsi:nil="true"/>
+          <aixm:usedRunway xlink:type="simple" xlink:href="#uuid.7ec97472-5ea7-437e-bca8-d8f892ca4929"/>
+          <aixm:startingElement nilReason="unknown" xsi:nil="true"/>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.3de9085d-2ae0-4c77-82e7-e12d815bf347">
+              <aixm:propertyName>metadata</aixm:propertyName>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.74bf66a7-471d-4ed7-8d0b-387462d3715f">
+                  <aixm:note lang="eng">1. Originator - MS 01; 2. Action performed - Update; 3. Date - 27.09.2016 </aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.343ea687-5747-4476-a234-59189b13cfcb">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.04329c40-8cd4-4df1-aac3-4bf102d2a008">
+                  <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:availability>
+            <aixm:ManoeuvringAreaAvailability gml:id="uuid.dd349741-8922-4ced-ab06-d3284f0789d7">
+              <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
+              <aixm:usage>
+                <aixm:ManoeuvringAreaUsage gml:id="uuid.1cd65dfc-d783-4ce4-aced-3090472946e4">
+                  <aixm:type>PERMIT</aixm:type>
+                  <!-- ERROR: It is prohibited that ManoeuvringAreaUsage has priorPermission value and ManoeuvringAreaUsage has priorPermission@uom value unspecified -->
+                  <aixm:priorPermission>24</aixm:priorPermission>
+                  <aixm:contact>
+                    <aixm:ContactInformation gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000"/>
+                  </aixm:contact>
+                  <aixm:selection>
+                    <aixm:ConditionCombination gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001"/>
+                  </aixm:selection>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                      <aixm:propertyName>type</aixm:propertyName>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                      <aixm:propertyName>priorPermission</aixm:propertyName>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                      <aixm:propertyName>contact</aixm:propertyName>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                      <aixm:propertyName>selection</aixm:propertyName>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+                      <aixm:propertyName>operation</aixm:propertyName>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:operation>LANDING</aixm:operation>
+                </aixm:ManoeuvringAreaUsage>
+              </aixm:usage>
+            </aixm:ManoeuvringAreaAvailability>
+          </aixm:availability>
+        </aixm:RunwayDirectionTimeSlice>
+      </aixm:timeSlice>
+    </aixm:RunwayDirection>
+  </message:hasMember>
+</message:AIXMBasicMessage>
