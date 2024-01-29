@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+    gml:id="M00001">
+
+    <message:hasMember>
+        <aixm:AirportHeliport gml:id="uuid.e0e2db3f-fbdf-421d-ba4e-0dc6962e356a">
+            <gml:identifier codeSpace="urn:uuid:">e0e2db3f-fbdf-421d-ba4e-0dc6962e356a</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirportHeliportTimeSlice gml:id="ID_D8D39_03">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_D8D39_04">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:designator>EADH</aixm:designator>
+                    <aixm:name>DONLON AIRPORT 1</aixm:name>
+                    <aixm:type>AD</aixm:type>
+                    
+                    <aixm:contaminant>
+                        <aixm:AirportHeliportContamination gml:id="ID_D8D39_05">
+                            <!-- ERROR: It is prohibited that AirportHeliportContamination has depth value and AirportHeliportContamination has depth@uom value unspecified -->
+                            <aixm:depth>10</aixm:depth>
+                            <aixm:criticalRidge>
+                                <aixm:Ridge gml:id="ID_D8D39_06">
+                                    
+                                    <!-- distance should have assigned uom value -->
+                                    <aixm:distance uom="M">12</aixm:distance>
+                                </aixm:Ridge>
+                            </aixm:criticalRidge>
+                        </aixm:AirportHeliportContamination>
+                    </aixm:contaminant>
+                    
+                    <aixm:responsibleOrganisation>
+                        <aixm:AirportHeliportResponsibilityOrganisation gml:id="ID_D8D39_07">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:2e7e3681-05e7-40e4-8f7f-0f93dc9574ce"/>
+                        </aixm:AirportHeliportResponsibilityOrganisation>
+                    </aixm:responsibleOrganisation>
+                    
+                    <aixm:ARP>
+                        <aixm:ElevatedPoint gml:id="ID_D8D39_08" srsName="urn:ogc:def:crs:EPSG::4326">
+                            <gml:pos>53.411256 14.547895</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:ARP>
+                    
+                </aixm:AirportHeliportTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirportHeliport>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
