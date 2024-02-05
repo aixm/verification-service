@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+  <message:hasMember>
+    <aixm:PrimarySurveillanceRadar gml:id="uuid.0942496b-7ce7-0b22-e053-0b751dc2499f">
+      <gml:identifier codeSpace="urn:uuid:">0942496b-7ce7-0b22-e053-0b751dc2499f</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:PrimarySurveillanceRadarTimeSlice gml:id="uuid.39f02658-7c5a-409b-a0ee-55735c36307b">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.837479d3-a363-4e1f-95b0-f55ba4f1030b">
+              <gml:beginPosition>2008-10-19T22:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.21f902a9-a6b7-4769-b987-8a1aee06e552">
+              <gml:beginPosition>2003-05-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+
+          <aixm:name>NAME</aixm:name>
+          <aixm:serialNumber>1000</aixm:serialNumber>
+          <aixm:range uom="M">10</aixm:range>
+          <aixm:rangeAccuracy uom="M">3</aixm:rangeAccuracy>
+          <aixm:dualChannel>YES</aixm:dualChannel>
+          <aixm:movingTargetIndicator>YES</aixm:movingTargetIndicator>
+          <aixm:standbyPower>NONE</aixm:standbyPower>
+          <aixm:digital>YES</aixm:digital>
+          <aixm:militaryUseOnly>YES</aixm:militaryUseOnly>
+          <aixm:specialUseOnly>YES</aixm:specialUseOnly>
+          <aixm:specialAircraftOnly>NO</aixm:specialAircraftOnly>
+          <aixm:magneticVariation>10</aixm:magneticVariation>
+          <aixm:magneticVariationAccuracy>1</aixm:magneticVariationAccuracy>
+          <aixm:dateMagneticVariation>1999</aixm:dateMagneticVariation>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000"/>
+          </aixm:contact>
+          <aixm:location>
+            <aixm:ElevatedPoint>
+              <gml:pos>39.125944444 -123.200861111</gml:pos>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+              <aixm:propertyName>name</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+              <aixm:propertyName>serialNumber</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+              <aixm:propertyName>range</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+              <aixm:propertyName>rangeAccuracy</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+              <aixm:propertyName>dualChannel</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
+              <aixm:propertyName>movingTargetIndicator</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
+              <aixm:propertyName>standbyPower</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
+              <aixm:propertyName>digital</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
+              <aixm:propertyName>militaryUseOnly</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
+              <aixm:propertyName>specialUseOnly</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
+              <aixm:propertyName>specialAircraftOnly</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2b">
+              <aixm:propertyName>magneticVariation</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2c">
+              <aixm:propertyName>magneticVariationAccuracy</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2d">
+              <aixm:propertyName>dateMagneticVariation</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2e">
+              <aixm:propertyName>contact</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2f">
+              <aixm:propertyName>location</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd30">
+              <aixm:propertyName>verticalCoverageAltitude</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd31">
+              <aixm:propertyName>verticalCoverageDistance</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd32">
+              <aixm:propertyName>verticalCoverageAzimuth</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd33">
+              <aixm:propertyName>antennaTiltFixed</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd34">
+              <aixm:propertyName>tiltAngle</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd35">
+              <aixm:propertyName>automatedRadarTerminalSystem</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd36">
+              <aixm:propertyName>groundStation</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd37">
+              <aixm:propertyName>type</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+
+          <aixm:verticalCoverageAltitude uom="FL">660</aixm:verticalCoverageAltitude>
+          <!-- ERROR: It is prohibited that PrimarySurveillanceRadarTimeSlice has verticalCoverageDistance value and PrimarySurveillanceRadarTimeSlice has verticalCoverageDistance@uom value unspecified -->
+          <aixm:verticalCoverageDistance>10</aixm:verticalCoverageDistance>
+          <aixm:verticalCoverageAzimuth>10</aixm:verticalCoverageAzimuth>
+          <aixm:antennaTiltFixed>NO</aixm:antennaTiltFixed>
+          <aixm:tiltAngle>5</aixm:tiltAngle>
+          <aixm:automatedRadarTerminalSystem>1</aixm:automatedRadarTerminalSystem>
+          <aixm:groundStation>
+            <aixm:SurveillanceGroundStation gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001"/>
+          </aixm:groundStation>
+          <aixm:type>ARSR</aixm:type>
+
+        </aixm:PrimarySurveillanceRadarTimeSlice>
+      </aixm:timeSlice>
+    </aixm:PrimarySurveillanceRadar>
+  </message:hasMember>
+</message:AIXMBasicMessage>
