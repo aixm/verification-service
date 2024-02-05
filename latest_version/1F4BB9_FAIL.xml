@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:event="http://www.aixm.aero/schema/5.1.1/event"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message
+                                              http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                                              http://www.aixm.aero/schema/5.1.1/event
+                                              http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+                          gml:id="M00001">
+    <message:hasMember>
+        <event:Event gml:id="uuid.d385a9b1-975f-4d72-8d50-f30087ab8bea">
+            <gml:identifier codeSpace="urn:uuid:">d385a9b1-975f-4d72-8d50-f30087ab8bea</gml:identifier>
+            <event:timeSlice>
+                <event:EventTimeSlice gml:id="ID_STNC_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_STNC_02">
+                            <gml:beginPosition>2018-09-09T10:30:00Z</gml:beginPosition>
+                            <gml:endPosition>2018-09-11T15:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ID_STNC_03">
+                            <gml:beginPosition>2018-09-09T10:30:00Z</gml:beginPosition>
+                            <gml:endPosition>2018-09-11T15:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <event:name>EADD_STANDCLS_20180909</event:name>
+                    <event:scenario>TWY.LIM</event:scenario>
+                    <event:version>2.0</event:version>
+                </event:EventTimeSlice>
+            </event:timeSlice>
+        </event:Event>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:TaxiwayElement gml:id="uuid.595dfb4d-6614-4b0d-8392-5e76c720bda9">
+            <aixm:timeSlice>
+                <aixm:TaxiwayElementTimeSlice gml:id="uuid.595dfb4d-6614-4b0d-8392-5e76c720bdab">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.595dfb4d-6614-4b0d-8392-5e76c720bdac">
+                            <gml:beginPosition>2018-09-09T10:30:00Z</gml:beginPosition>
+                            <gml:endPosition>2018-09-11T15:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+     <!-- WARNING It is prohibited that TaxiwayElementTimeSlice.extension.event:TaxiwayElementExtension.event:theEvent@xlink:href
+     references-to event:Event and event:Event has event:timeslice.event:EventTimeSlice.event:scenario value as 'TWY.LIM'
+      and event:Event has event:timeslice.event:EventTimeSlice.event:version value as '2.0' and
+      TaxiwayElementTimeSlice has interpretation value other-than ' TEMPDELTA' -->
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:extension>
+                        <event:TaxiwayElementExtension gml:id="ID_000587">
+                            <event:theEvent xlink:href="urn:uuid:d385a9b1-975f-4d72-8d50-f30087ab8bea"/>
+                        </event:TaxiwayElementExtension>
+                    </aixm:extension>
+                </aixm:TaxiwayElementTimeSlice>
+            </aixm:timeSlice>
+        </aixm:TaxiwayElement>
+    </message:hasMember>
+
+
+</message:AIXMBasicMessage>
+
