@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message"
+                  xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                  xmlns:gml="http://www.opengis.net/gml/3.2"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:gco="http://www.isotc211.org/2005/gco"
+                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                  xmlns:gts="http://www.isotc211.org/2005/gts"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:html="http://www.w3.org/1999/xhtml"
+                  gml:id="uniqueId"
+                  xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd">
+  <hasMember>
+    <aixm:TouchDownLiftOff gml:id="uuid.a6818121-f622-43f3-8304-ed8f2d3ffde9">
+      <gml:identifier codeSpace="urn:uuid:">a6818121-f622-43f3-8304-ed8f2d3ffde9</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:TouchDownLiftOffTimeSlice gml:id="uuid.b07bd7eb-9174-4379-bdd7-7e2c0856e52a">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.219e8c56-03ce-45cc-9db3-cd994d290657">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>4</aixm:sequenceNumber>
+          <aixm:correctionNumber>1</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.03ebe560-07ec-4efb-8d8b-985bd012ef98">
+              <gml:beginPosition>2016-06-23T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>TLOF-2</aixm:designator>
+          <aixm:length uom="M">14</aixm:length>
+          <aixm:width uom="M">14</aixm:width>
+          <aixm:slope nilReason="unknown" xsi:nil="true"/>
+          <aixm:helicopterClass nilReason="unknown" xsi:nil="true"/>
+          <aixm:abandoned nilReason="unknown" xsi:nil="true"/>
+          <aixm:aimingPoint>
+            <aixm:ElevatedPoint gml:id="uuid.45a0593e-9fb9-45dc-9fcd-64465b97bd55" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:pos>27.6944583 56.5223139</gml:pos>
+              <aixm:horizontalAccuracy uom="M">1</aixm:horizontalAccuracy>
+              <aixm:elevation uom="FT">505</aixm:elevation>
+              <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+              <aixm:verticalAccuracy uom="FT">1.64</aixm:verticalAccuracy>
+            </aixm:ElevatedPoint>
+          </aixm:aimingPoint>
+          <aixm:extent>
+            <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                  xmlns:gml="http://www.opengis.net/gml/3.2"
+                                  gml:id="uuid.0c602432-5468-4282-8fa3-423ad5bd523b" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+              <gml:patches>
+                <gml:PolygonPatch>
+                  <gml:exterior>
+                    <gml:Ring>
+                      <gml:curveMember>
+                        <gml:Curve gml:id="uuid.3763fa34-a908-40d8-b484-4431a94fbcfe">
+                          <gml:segments>
+                            <gml:GeodesicString>
+                              <gml:posList>27.6944532 56.5222447 27.6944501 56.5222447 27.6944281 56.5222464 27.6944071 56.5222502 27.6943876 56.522256 27.6943701 56.5222635 27.6943554 56.5222726 27.6943437 56.522283 27.6943354 56.5222944 27.6943308 56.5223063 27.6943301 56.5223186 27.6943332 56.5223307 27.6943401 56.5223423 27.6943505 56.5223531 27.6943583 56.5223586 27.6943641 56.5223627 27.6943806 56.5223709 27.6943994 56.5223774 27.6944199 56.5223819 27.6944416 56.5223845 27.6944542 56.5223847 27.6944637 56.5223849 27.6944856 56.5223832 27.6945067 56.5223794 27.6945262 56.5223736 27.6945436 56.5223661 27.69455 56.5223622 27.6945584 56.522357 27.6945701 56.5223466 27.6945784 56.5223352 27.694583 56.5223232 27.6945837 56.522311 27.6945806 56.5222989 27.6945737 56.5222873 27.6945633 56.5222765 27.6945496 56.5222668 27.6945332 56.5222587 27.6945144 56.5222522 27.6944938 56.5222476 27.6944722 56.5222451 27.6944532 56.5222447 </gml:posList>
+                            </gml:GeodesicString>
+                          </gml:segments>
+                        </gml:Curve>
+                      </gml:curveMember>
+                    </gml:Ring>
+                  </gml:exterior>
+                </gml:PolygonPatch>
+              </gml:patches>
+            </aixm:ElevatedSurface>
+          </aixm:extent>
+          <aixm:surfaceProperties>
+            <aixm:SurfaceCharacteristics gml:id="uuid.c29122c4-7a18-4075-bf16-046680f9f61c">
+              <aixm:composition>ASPH</aixm:composition>
+              <aixm:weightAUW uom="T">13</aixm:weightAUW>
+            </aixm:SurfaceCharacteristics>
+          </aixm:surfaceProperties>
+          <aixm:associatedAirportHeliport xlink:type="simple" xlink:href="#uuid.cbb1ef31-6477-42fd-bec0-f286069466a2"/>
+          <aixm:approachTakeOffArea xlink:type="simple" xlink:href="#uuid.ab2e2bb0-da35-47f0-be3f-d32dc75332a2"/>
+          <aixm:contaminant nilReason="unknown" xsi:nil="true"/>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.eebdf157-6805-4c58-984d-7e28a7e367f1">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.50556b5e-ba01-492b-b155-dc058a9bda89">
+                  <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:availability nilReason="unknown" xsi:nil="true"/>
+        </aixm:TouchDownLiftOffTimeSlice>
+      </aixm:timeSlice>
+    </aixm:TouchDownLiftOff>
+  </hasMember>
+</AIXMBasicMessage>
