@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+
+<aixm:Taxiway gml:id="uuid.de00c123-7a5a-4e00-a93c-1d70bf2aafd3">
+  <gml:identifier codeSpace="urn:uuid:">de00c123-7a5a-4e00-a93c-1d70bf2aafd3</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:TaxiwayTimeSlice gml:id="uuid.e682dd52-822f-48eb-85ac-83756d0a9616">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.2d4a89ad-4aeb-4946-adf7-964ad3c5c186">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>11</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.9496230e-f438-4a79-b9ce-0645659e6384">
+          <gml:beginPosition>2016-06-23T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>TWY F</aixm:designator>
+      <aixm:type>GND</aixm:type>
+      <aixm:width uom="M">23</aixm:width>
+      <!-- ERROR: It is prohibited that TaxiwayTimeSlice has widthShoulder value and TaxiwayTimeSlice has widthShoulder@uom value unspecified -->
+      <aixm:widthShoulder>5</aixm:widthShoulder>
+      <aixm:length uom="M">2334</aixm:length>
+      <aixm:abandoned nilReason="unknown" xsi:nil="true"/>
+      <aixm:surfaceProperties>
+        <aixm:SurfaceCharacteristics gml:id="uuid.91fa8bb0-f668-4700-a9d8-4fba5f5cc9ba">
+          <aixm:composition>CONC_ASPH</aixm:composition>
+          <aixm:surfaceCondition>GOOD</aixm:surfaceCondition>
+          <aixm:classPCN>77</aixm:classPCN>
+          <aixm:pavementTypePCN>FLEXIBLE</aixm:pavementTypePCN>
+          <aixm:pavementSubgradePCN>A</aixm:pavementSubgradePCN>
+          <aixm:maxTyrePressurePCN>W</aixm:maxTyrePressurePCN>
+          <aixm:evaluationMethodPCN>TECH</aixm:evaluationMethodPCN>
+        </aixm:SurfaceCharacteristics>
+      </aixm:surfaceProperties>
+      <aixm:associatedAirportHeliport xlink:type="simple" xlink:href="#uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b"/>
+      <aixm:contaminant nilReason="unknown" xsi:nil="true"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.55a217c5-f74d-4e61-9c8c-5338d7807844">
+          <aixm:purpose>OTHER:MARKING_LGT_DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.f79403ec-2e46-41df-9b39-d11fa7b9ec4c">
+              <aixm:note lang="eng">TWY: CL, runway and intermediate holding PSN marked.
+TWY: CL (except on TWY K, TXL E1 and TXL P (South)), TWY edge (except on all aprons and TWY K (edge markers on TWY K)), intermediate holding PSN lighted.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.db8738c9-7ee5-45af-8842-d940199f5b11">
+              <aixm:note lang="lav">TWY:</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.04504b51-1b00-4e94-8ea0-088d12810c08">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.8443f074-d279-4fac-a4d2-9c1868e71769">
+              <aixm:note lang="eng">TWY F - composite construction</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.97cb25c3-e7a8-49b8-9333-3947f0cb50ed">
+              <aixm:note lang="lav">TWY</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.c5b81fbe-089f-472b-bb07-5d7571bc231c">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.04ab1c56-3b2e-4060-b5a4-e26d3a00d71e">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:availability nilReason="unknown" xsi:nil="true"/>
+    </aixm:TaxiwayTimeSlice>
+  </aixm:timeSlice>
+</aixm:Taxiway> 
+
+  </message:hasMember>
+</message:AIXMBasicMessage>
+
