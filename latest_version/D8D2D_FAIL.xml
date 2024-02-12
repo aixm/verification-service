@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+    <aixm:HoldingAssessment gml:id="uuid.3e33bd78-0b9c-4d27-9060-901fcb02fa47">
+      <aixm:timeSlice>
+        <aixm:HoldingAssessmentTimeSlice gml:id="TACANOSTO">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="vtTACANOSTO">
+              <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="ltTACANOSTO">
+              <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:obstacleAssessment>
+            <aixm:ObstacleAssessmentArea gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000">
+              <aixm:significantObstacle>
+                <aixm:Obstruction gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001">
+                  <aixm:obstaclePlacement>
+                    <aixm:ObstaclePlacement gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd002">
+                      <aixm:obstacleBearing>0</aixm:obstacleBearing>
+                      <!-- ERROR: It is prohibited that ObstaclePlacement has obstacleDistance value and ObstaclePlacement has obstacleDistance@uom value unspecified -->
+                      <aixm:obstacleDistance>100</aixm:obstacleDistance>
+                      <aixm:pointType>AAA</aixm:pointType>
+                      <aixm:obstaclePlacement>BOTH</aixm:obstaclePlacement>
+                      <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                          <aixm:propertyName>obstacleBearing</aixm:propertyName>
+                        </aixm:Note>
+                      </aixm:annotation>
+                      <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                          <aixm:propertyName>obstacleDistance</aixm:propertyName>
+                        </aixm:Note>
+                      </aixm:annotation>
+                      <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                          <aixm:propertyName>pointType</aixm:propertyName>
+                        </aixm:Note>
+                      </aixm:annotation>
+                      <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                          <aixm:propertyName>obstaclePlacement</aixm:propertyName>
+                        </aixm:Note>
+                      </aixm:annotation>
+                    </aixm:ObstaclePlacement>
+                  </aixm:obstaclePlacement>
+                </aixm:Obstruction>
+              </aixm:significantObstacle>
+            </aixm:ObstacleAssessmentArea>
+          </aixm:obstacleAssessment>
+        </aixm:HoldingAssessmentTimeSlice>
+      </aixm:timeSlice>
+    </aixm:HoldingAssessment>
+  </message:hasMember>
+</message:AIXMBasicMessage>
