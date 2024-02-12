@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
+<aixm:RouteSegment gml:id="uuid.3a071131-a10a-48a9-8f25-4460c3fbea40">
+  <gml:identifier codeSpace="urn:uuid:">3a071131-a10a-48a9-8f25-4460c3fbea40</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:RouteSegmentTimeSlice gml:id="uuid.d025a055-53c4-40e4-ba73-73141322fb7d">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.be7ad577-7282-4b80-8d12-50758aa62374">
+          <gml:beginPosition>2016-12-08T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2018-03-29T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.9d060189-e57c-48c7-bfce-c2503f263a4c">
+          <gml:beginPosition>2006-08-31T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2018-03-29T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:level>UPPER</aixm:level>
+      <aixm:upperLimit uom="FL">660</aixm:upperLimit>
+      <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+      <aixm:lowerLimit uom="FL">195</aixm:lowerLimit>
+      <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+      <aixm:pathType>GRC</aixm:pathType>
+      <aixm:trueTrack>334.7</aixm:trueTrack>
+      <aixm:magneticTrack>332</aixm:magneticTrack>
+      <aixm:reverseTrueTrack>154.6</aixm:reverseTrueTrack>
+      <aixm:reverseMagneticTrack>152</aixm:reverseMagneticTrack>
+      <aixm:length uom="NM">10.47</aixm:length>
+      <!-- ERROR: It is prohibited that RouteSegmentTimeSlice has widthLeft value and RouteSegmentTimeSlice has widthLeft@uom value unspecified -->
+      <aixm:widthLeft>5</aixm:widthLeft>
+      <aixm:widthRight uom="NM">5</aixm:widthRight>
+      <aixm:navigationType>RNAV</aixm:navigationType>
+      <aixm:requiredNavigationPerformance>5</aixm:requiredNavigationPerformance>
+      <aixm:start>
+        <aixm:EnRouteSegmentPoint gml:id="uuid.c36c7ecb-b6a2-40ae-8b88-53d397ce7a1d">
+          <aixm:reportingATC>ON_REQUEST</aixm:reportingATC>
+          <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="#uuid.4500b3cd-da90-434f-be4c-143f67712cdc"/>
+        </aixm:EnRouteSegmentPoint>
+      </aixm:start>
+      <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.6a392ce2-bcea-4dd1-a784-e6688d181044"/>
+      <aixm:end>
+        <aixm:EnRouteSegmentPoint gml:id="uuid.95bf017f-5ace-424f-b025-a608f4d97f3b">
+          <aixm:reportingATC>ON_REQUEST</aixm:reportingATC>
+          <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="#uuid.162686e2-5c56-4b54-8dde-c67b16666446"/>
+        </aixm:EnRouteSegmentPoint>
+      </aixm:end>
+      <aixm:availability>
+        <aixm:RouteAvailability gml:id="uuid.89844ef5-4db2-4082-9e7b-b93d383a5fbe">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.6ff08b65-aeff-4913-950f-247c046c7bd4">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>00:00</aixm:startTime>
+              <aixm:endTime>24:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.be1efe1d-91ac-4373-b06e-daf5873efa7c">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.0ffa34c6-1c07-463d-82eb-7ef5eb8434a0">
+                  <aixm:note>noSeq:1</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:direction>BACKWARD</aixm:direction>
+          <aixm:status>OPEN</aixm:status>
+          <aixm:levels>
+            <aixm:AirspaceLayer gml:id="uuid.e8fbece0-1827-4362-86ab-822db1647dbc">
+              <aixm:upperLimit uom="FL">650</aixm:upperLimit>
+              <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+              <aixm:lowerLimit uom="FL">210</aixm:lowerLimit>
+              <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+              <aixm:discreteLevelSeries xlink:type="simple" xlink:href="#uuid.0942496b-7ce1-0b22-e053-0b751dc2499f"/>
+            </aixm:AirspaceLayer>
+          </aixm:levels>
+        </aixm:RouteAvailability>
+      </aixm:availability>
+      <aixm:availability>
+        <aixm:RouteAvailability gml:id="uuid.c6ec5a62-e4bf-4a3c-897f-dac31dd36a6d">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.58ab9697-34f8-454e-9805-bc2978601e82">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>00:00</aixm:startTime>
+              <aixm:endTime>24:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.2a31248e-991f-46f6-944b-579271d3b161">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.201b2fb9-cb36-4650-a6f7-3fc10530b856">
+                  <aixm:note>noSeq:1</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:direction>FORWARD</aixm:direction>
+          <aixm:status>OPEN</aixm:status>
+          <aixm:levels>
+            <aixm:AirspaceLayer gml:id="uuid.5d1679c3-aca8-4860-9c1e-049c29835d35">
+              <aixm:upperLimit uom="FL">630</aixm:upperLimit>
+              <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+              <aixm:lowerLimit uom="FL">200</aixm:lowerLimit>
+              <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+              <aixm:discreteLevelSeries xlink:type="simple" xlink:href="#uuid.0942496b-7ce7-0b22-e053-0b751dc2499f"/>
+            </aixm:AirspaceLayer>
+          </aixm:levels>
+        </aixm:RouteAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.652487e8-eae1-4116-82eb-db02f73bb5a2">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.15272a0b-457a-4847-ab25-473cd1443f97">
+              <aixm:note>codeIntl: I</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.4827c1cd-c522-49cd-b5cb-4204936b2c37">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.251ea0fc-3687-4112-8ab8-aa2b7641a741">
+              <aixm:note>codeCiv: B</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:RouteSegmentTimeSlice>
+  </aixm:timeSlice>
+</aixm:RouteSegment> 
+  </message:hasMember>
+
+  <message:hasMember>
+<aixm:DesignatedPoint gml:id="uuid.4500b3cd-da90-434f-be4c-143f67712cdc">
+  <gml:identifier codeSpace="urn:uuid:">4500b3cd-da90-434f-be4c-143f67712cdc</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:DesignatedPointTimeSlice gml:id="uuid.3516941b-40e6-484e-99da-fdf1a3368526">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.a47c6d05-71b7-4c31-aab3-1480ee685251">
+          <gml:beginPosition>2008-06-05T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.414e66ce-1585-4f39-b36d-0c2bf6d9d8a9">
+          <gml:beginPosition>2006-08-31T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>EMLAR</aixm:designator>
+      <aixm:type>ICAO</aixm:type>
+      <aixm:name>EMLAR</aixm:name>
+      <aixm:location>
+        <aixm:Point xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.abd957c7-4cbd-4ba4-b9b5-0930be28e035">
+          <gml:pos>35.63167 18.28833</gml:pos>
+        </aixm:Point>
+      </aixm:location>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.b37482b5-0445-4b6a-aa28-e4bcb5e46f7d">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.2c236a58-3fcd-4ed5-bb3d-9d150781e9ca">
+              <aixm:note>CRC:353754N, 0181718E, , , 218E6712</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:DesignatedPointTimeSlice>
+  </aixm:timeSlice>
+</aixm:DesignatedPoint> 
+  </message:hasMember>
+
+  <message:hasMember>
+<aixm:DesignatedPoint gml:id="uuid.162686e2-5c56-4b54-8dde-c67b16666446">
+  <gml:identifier codeSpace="urn:uuid:">162686e2-5c56-4b54-8dde-c67b16666446</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:DesignatedPointTimeSlice gml:id="uuid.fdae8e82-3a41-4702-8105-aea1a7f22c12">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.7e894121-c435-41d3-8556-a1173b26e695">
+          <gml:beginPosition>2009-02-12T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.50129e19-8545-4319-a162-e1ec8aaf5d77">
+          <gml:beginPosition>2003-02-20T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>BINKO</aixm:designator>
+      <aixm:type>ICAO</aixm:type>
+      <aixm:name>BINKO</aixm:name>
+      <aixm:location>
+        <aixm:Point xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.a01a51e8-9cc5-4be2-9a43-abbaf9936394">
+          <gml:pos>35.78917 18.19639</gml:pos>
+        </aixm:Point>
+      </aixm:location>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.6b87187b-50a1-4947-9f31-425a6965e1a8">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.119b3b51-a5ed-4ee6-b04c-9da8b974c048">
+              <aixm:note>CRC:354721N, 0181147E, , , FC35AB72</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:DesignatedPointTimeSlice>
+  </aixm:timeSlice>
+</aixm:DesignatedPoint> 
+  </message:hasMember>
+
+  <message:hasMember>
+<aixm:Route gml:id="uuid.6a392ce2-bcea-4dd1-a784-e6688d181044">
+  <gml:identifier codeSpace="urn:uuid:">6a392ce2-bcea-4dd1-a784-e6688d181044</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:RouteTimeSlice gml:id="uuid.07db3a43-9101-443a-be1e-5556d2da8a19">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.c3791a57-b601-4f02-bf47-6b9e0219791e">
+          <gml:beginPosition>2007-06-07T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2018-03-29T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.194b335a-7278-47f4-b8af-b126e82b4302">
+          <gml:beginPosition>2003-02-20T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designatorPrefix>U</aixm:designatorPrefix>
+      <aixm:designatorSecondLetter>M</aixm:designatorSecondLetter>
+      <aixm:designatorNumber>620</aixm:designatorNumber>
+      <aixm:locationDesignator>EUR</aixm:locationDesignator>
+    </aixm:RouteTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:RouteTimeSlice gml:id="uuid.fbb4afe2-52ce-4034-b062-80f89395bb45">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.1c5a72de-34da-4f21-9bf0-cd5354f36a3f">
+          <gml:beginPosition>2018-03-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2018-10-04T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.e2e2db02-3141-4e72-9f0f-a138e6b72c29">
+          <gml:beginPosition>2003-02-20T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designatorPrefix>U</aixm:designatorPrefix>
+      <aixm:designatorSecondLetter>M</aixm:designatorSecondLetter>
+      <aixm:designatorNumber>620</aixm:designatorNumber>
+      <aixm:locationDesignator>EUR</aixm:locationDesignator>
+      <aixm:internationalUse>INTL</aixm:internationalUse>
+    </aixm:RouteTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:RouteTimeSlice gml:id="uuid.d8273d28-8259-46d1-bc78-15c5014c4155">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.354b3072-919a-4487-8cb1-d9768c538cab">
+          <gml:beginPosition>2018-10-04T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>3</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.7674ae31-aa6e-4cf8-8282-288e7046f115">
+          <gml:beginPosition>2003-02-20T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designatorPrefix>U</aixm:designatorPrefix>
+      <aixm:designatorSecondLetter>M</aixm:designatorSecondLetter>
+      <aixm:designatorNumber>620</aixm:designatorNumber>
+      <aixm:locationDesignator>HL-HL</aixm:locationDesignator>
+      <aixm:internationalUse>INTL</aixm:internationalUse>
+    </aixm:RouteTimeSlice>
+  </aixm:timeSlice>
+</aixm:Route> 
+  </message:hasMember>
+
+  <message:hasMember>
+<aixm:StandardLevelColumn gml:id="uuid.0942496b-7ce7-0b22-e053-0b751dc2499f">
+  <gml:identifier codeSpace="urn:uuid:">0942496b-7ce7-0b22-e053-0b751dc2499f</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:StandardLevelColumnTimeSlice gml:id="uuid.39f02658-7c5a-409b-a0ee-55735c36307b">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.837479d3-a363-4e1f-95b0-f55ba4f1030b">
+          <gml:beginPosition>2008-10-19T22:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.21f902a9-a6b7-4769-b987-8a1aee06e552">
+          <gml:beginPosition>2003-05-28T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:series>EVEN</aixm:series>
+      <aixm:unitOfMeasurement>FL</aixm:unitOfMeasurement>
+      <aixm:separation>RVSM</aixm:separation>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.45f27abe-0c7b-486c-938b-d36171f02314">
+          <aixm:verticalDistance uom="FL">0</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.d0bedc91-d0b5-4747-97fc-f7fda1e0352e">
+          <aixm:verticalDistance uom="FL">20</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.2579c6c7-6a47-4068-8f14-6857b2d8ce9a">
+          <aixm:verticalDistance uom="FL">40</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.f0b77b31-a1fa-4d24-acbe-a4fa4a08aaa0">
+          <aixm:verticalDistance uom="FL">60</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.e3ba2a78-6c66-4b5d-80f3-498154e440f8">
+          <aixm:verticalDistance uom="FL">80</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.993cea3d-b5cd-4940-bd9e-4f36652b93c0">
+          <aixm:verticalDistance uom="FL">100</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.fb406db9-1a35-442f-96d5-c8e1979ae3e4">
+          <aixm:verticalDistance uom="FL">120</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.bed752be-5c81-481e-97a3-128cc0e6847b">
+          <aixm:verticalDistance uom="FL">140</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.da9c91f0-14ee-477f-a6e8-76a46ce7f890">
+          <aixm:verticalDistance uom="FL">160</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.16d5d927-9c42-4041-8761-8604560cb3b8">
+          <aixm:verticalDistance uom="FL">180</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.a0788f9a-86ec-4d37-be9a-67854221b104">
+          <aixm:verticalDistance uom="FL">200</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.299c0fc9-a2b6-4b12-a2e3-5862fab243e6">
+          <aixm:verticalDistance uom="FL">220</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.455bfbd1-b135-4b5a-bed8-3ce5ae3d0516">
+          <aixm:verticalDistance uom="FL">240</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.953e656d-3d8d-43ff-84a8-0b505d1c21bb">
+          <aixm:verticalDistance uom="FL">260</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.a0077ef3-e1a7-4add-a036-e3a0a6f03452">
+          <aixm:verticalDistance uom="FL">280</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.726348b6-3d0e-420f-91ef-13c762b19f8e">
+          <aixm:verticalDistance uom="FL">300</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.981c079e-1ba9-4fc9-ac33-f9caab1fbb01">
+          <aixm:verticalDistance uom="FL">320</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.6f3cfe2b-42be-4341-9138-4614174633f0">
+          <aixm:verticalDistance uom="FL">340</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.adaa66e1-2136-496c-b997-b00b55737d4f">
+          <aixm:verticalDistance uom="FL">360</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.e9893f91-6f45-4a30-93ba-ecfef2db762d">
+          <aixm:verticalDistance uom="FL">380</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.38c7907f-0365-4fef-a508-0d8d99a25a09">
+          <aixm:verticalDistance uom="FL">400</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.89aba965-8ebd-4b52-af47-2d6941b37874">
+          <aixm:verticalDistance uom="FL">430</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.10e4d639-16cb-4b49-a963-779f04b7ff27">
+          <aixm:verticalDistance uom="FL">470</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.135fe9b7-0d8d-4f76-b3dd-b7e7d065d2fa">
+          <aixm:verticalDistance uom="FL">510</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.35cf1f5e-21c5-47c6-a7c5-940458db980a">
+          <aixm:verticalDistance uom="FL">550</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.13d8ac27-eb25-4b55-9bb6-04d107687742">
+          <aixm:verticalDistance uom="FL">590</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.6d9ad895-caca-4cc4-bfd6-0052640861f2">
+          <aixm:verticalDistance uom="FL">630</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.7cc21bf9-ae6e-4420-ae04-56c3cb5caacd">
+          <aixm:verticalDistance uom="FL">670</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.1f0ff838-0e90-430d-8280-5532514e7c56">
+          <aixm:verticalDistance uom="FL">710</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.6e551c52-4622-49ea-9bec-710306b80112">
+          <aixm:verticalDistance uom="FL">750</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.a71f5be3-5409-4a8e-aa3d-edc6d0fee397">
+          <aixm:verticalDistance uom="FL">790</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.0515eb6e-fe66-48a2-a921-eddb32f6d848">
+          <aixm:verticalDistance uom="FL">830</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.0919a8b3-8b51-40e0-9807-cc082c739e69">
+          <aixm:verticalDistance uom="FL">870</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.05b4c649-dc71-4c6e-8227-8022b486dd53">
+          <aixm:verticalDistance uom="FL">910</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.84d1dab1-8f3c-48be-984b-683dfd766ce2">
+          <aixm:verticalDistance uom="FL">950</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.3b818d98-08b6-4b40-88ce-d4a73a79f914">
+          <aixm:verticalDistance uom="FL">990</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:level>
+        <aixm:StandardLevel gml:id="uuid.283095d1-5404-4f25-8050-1b2951f28003">
+          <aixm:verticalDistance uom="FL">999</aixm:verticalDistance>
+        </aixm:StandardLevel>
+      </aixm:level>
+      <aixm:levelTable xlink:type="simple" xlink:href="#uuid.348675e6-6ba0-44f6-9d46-04a9d24c0fac"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.b9ee2455-e273-479d-9ba4-4dd4215b227a">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.6b8942aa-28b3-4654-b620-9cd8f51b2ac8">
+              <aixm:note>codeId:W</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:StandardLevelColumnTimeSlice>
+  </aixm:timeSlice>
+</aixm:StandardLevelColumn> 
+  </message:hasMember>
+
+  <message:hasMember>
+<aixm:StandardLevelTable gml:id="uuid.348675e6-6ba0-44f6-9d46-04a9d24c0fac">
+  <gml:identifier codeSpace="urn:uuid:">348675e6-6ba0-44f6-9d46-04a9d24c0fac</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:StandardLevelTableTimeSlice gml:id="uuid.7cd9fafa-d49c-47ec-afeb-ada3e38e1304">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.2ede3139-3c36-4c6d-bf68-45811522eddf">
+          <gml:beginPosition>2003-05-28T22:05:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.bbe00b9f-68a9-4bcb-b189-0c63a6fb10c3">
+          <gml:beginPosition>2003-05-28T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:name>IFR_RVSM</aixm:name>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.dfa5e7a5-3a31-45c4-a2eb-44b13d6b29d3">
+          <aixm:purpose>DESCRIPTION</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.f81d63e4-4eee-4853-9539-9515e9e13647">
+              <aixm:note>txtDescr:Table of cruising levels for IFR flights in areas with reduced vertical separation minima (RVSM)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.7c765c6c-cb5c-4347-812b-584b64aa9830">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.9627e5ab-61fe-4c1e-8c95-db3d2c2c9328">
+              <aixm:note>codeDistVer:STD</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:StandardLevelTableTimeSlice>
+  </aixm:timeSlice>
+</aixm:StandardLevelTable>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
