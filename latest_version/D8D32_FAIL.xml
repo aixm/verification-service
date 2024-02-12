@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<hasMember>
+<aixm:DesignatedPoint gml:id="uuid.4cf3cadb-378c-4d33-8f15-843b3c5609d2">
+  <gml:identifier codeSpace="urn:uuid:">4cf3cadb-378c-4d33-8f15-843b3c5609d2</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:DesignatedPointTimeSlice gml:id="uuid.1ac322b3-f079-405b-af4a-9890de203350">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.2d61fff1-e1c8-43b9-a69f-7070e7ba045e">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.7761738e-341b-4ca0-836c-98d621373bab">
+          <gml:beginPosition>2022-06-16T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>LA804</aixm:designator>
+      <aixm:type>TERMINAL</aixm:type>
+      <aixm:name>LA804</aixm:name>
+      <aixm:location>
+        <aixm:Point>
+          <gml:pos>21.3208232 56.5615356</gml:pos>
+          <!-- ERROR: It is prohibited that Point has horizontalAccuracy value and Point has horizontalAccuracy@uom value unspecified -->
+          <aixm:horizontalAccuracy>3</aixm:horizontalAccuracy>
+        </aixm:Point>
+      </aixm:location>
+      <aixm:aimingPoint nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:airportHeliport nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:runwayPoint nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.5bcf253f-0405-4f2c-80be-7890b09d7d3e">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.ff3552c9-eb42-43e1-ae04-7874685c485f">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:DesignatedPointTimeSlice>
+  </aixm:timeSlice>
+</aixm:DesignatedPoint> 
+</hasMember>
+
+</AIXMBasicMessage>
+
