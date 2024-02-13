@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:FinalLeg gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+            <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:FinalLegTimeSlice gml:id="ID_1A4A9A_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A9A_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <!-- If uom='FL' the value for FinalLeg.upperLimitAltitude should be expressed with 1,2 or 3 digits -->
+                    <aixm:upperLimitAltitude uom="FL">660</aixm:upperLimitAltitude>
+                    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                    <aixm:lowerLimitAltitude uom="FL">110</aixm:lowerLimitAltitude>
+                    <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+                    <aixm:condition>
+                        <aixm:ApproachCondition gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b969">
+                            <aixm:finalApproachPath>CIRCLING</aixm:finalApproachPath>
+                            <aixm:requiredNavigationPerformance>10</aixm:requiredNavigationPerformance>
+                            <aixm:climbGradient>1</aixm:climbGradient>
+                            <aixm:minimumSet>
+                                <aixm:Minima gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b9ff">
+                                    <aixm:altitude uom="FL">500</aixm:altitude>
+                                    <aixm:altitudeReference>MSL</aixm:altitudeReference>
+                                    <aixm:height>100</aixm:height>
+                                    <aixm:militaryHeight>200</aixm:militaryHeight>
+                                    <aixm:radioHeight>300</aixm:radioHeight>
+                                    <aixm:heightCode>DH</aixm:heightCode>
+                                    <aixm:heightReference>HAA</aixm:heightReference>
+                                    <aixm:visibility uom="NM">10</aixm:visibility>
+                                    <aixm:militaryVisibility uom="NM">12</aixm:militaryVisibility>
+                                    <aixm:mandatoryRVR>YES</aixm:mandatoryRVR>
+                                    <aixm:remoteAltimeterMinima>YES</aixm:remoteAltimeterMinima>
+                                    <aixm:adjustmentINOP>
+                                        <aixm:EquipmentUnavailableAdjustment gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000"/>
+                                    </aixm:adjustmentINOP>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                                            <aixm:propertyName>altitude</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                                            <aixm:propertyName>altitudeReference</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                                            <aixm:propertyName>height</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                                            <aixm:propertyName>militaryHeight</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+                                            <aixm:propertyName>radioHeight</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
+                                            <aixm:propertyName>heightCode</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
+                                            <aixm:propertyName>heightReference</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
+                                            <aixm:propertyName>visibility</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
+                                            <aixm:propertyName>militaryVisibility</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
+                                            <aixm:propertyName>mandatoryRVR</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
+                                            <aixm:propertyName>remoteAltimeterMinima</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                    <aixm:annotation>
+                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2b">
+                                            <aixm:propertyName>adjustmentINOP</aixm:propertyName>
+                                        </aixm:Note>
+                                    </aixm:annotation>
+                                </aixm:Minima>
+                            </aixm:minimumSet>
+                            <aixm:circlingRestriction>
+                                <aixm:CirclingRestriction gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b9fe"/>
+                            </aixm:circlingRestriction>
+                            <aixm:aircraftCategory>
+                                <aixm:AircraftCharacteristic gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b9fd"/>
+                            </aixm:aircraftCategory>
+                            <aixm:landingArea>
+                                <aixm:LandingTakeoffAreaCollection gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b9fc"/>
+                            </aixm:landingArea>
+                            <aixm:altimeter/>
+                            <aixm:designSurface>
+                                <aixm:ObstacleAssessmentArea gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b9fb"/>
+                            </aixm:designSurface>
+                        </aixm:ApproachCondition>
+                    </aixm:condition>
+                </aixm:FinalLegTimeSlice>
+            </aixm:timeSlice>
+        </aixm:FinalLeg>
+    </message:hasMember>
+</message:AIXMBasicMessage>
