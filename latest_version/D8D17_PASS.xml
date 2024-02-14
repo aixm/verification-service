@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
+    <aixm:Localizer gml:id="uuid.e5bf0438-77d8-483e-bdc0-6323a4cb3c77">
+      <gml:identifier codeSpace="urn:uuid:">e5bf0438-77d8-483e-bdc0-6323a4cb3c77</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:LocalizerTimeSlice gml:id="uuid.d9780a54-5298-41ca-91be-291ffed760b9">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.516f337e-34f1-47c7-848e-1f0cfa960093">
+              <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>5</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.322b4bb7-0f64-4c5b-95df-b90e63288d68">
+              <gml:beginPosition>2019-07-18T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>MS</aixm:designator>
+          <aixm:name>MOSJOEN</aixm:name>
+          <aixm:emissionClass>OTHER:A8X</aixm:emissionClass>
+          <aixm:mobile>NO</aixm:mobile>
+          <aixm:magneticVariation>5.5</aixm:magneticVariation>
+          <aixm:magneticVariationAccuracy xsi:nil="true"/>
+          <aixm:dateMagneticVariation>2020</aixm:dateMagneticVariation>
+          <aixm:flightChecked>YES</aixm:flightChecked>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.457ab5c2-9e42-478f-be0f-29795dd19391">
+              <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">65.779332611 13.220657806</gml:pos>
+              <aixm:horizontalAccuracy uom="M">0.02</aixm:horizontalAccuracy>
+              <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+              <aixm:elevation uom="M">74.247</aixm:elevation>
+              <aixm:geoidUndulation uom="M">34.693</aixm:geoidUndulation>
+              <aixm:verticalDatum>OTHER:NN2000</aixm:verticalDatum>
+              <aixm:verticalAccuracy uom="M">0.05</aixm:verticalAccuracy>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:availability>
+            <aixm:NavaidOperationalStatus gml:id="uuid.e0713367-efc6-44af-a7d8-7f02d06d93c2">
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.bbfa4f2e-3504-466d-ab06-f08bf82e7396">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:startDate>01-01</aixm:startDate>
+                  <aixm:endDate>31-12</aixm:endDate>
+                  <aixm:day>ANY</aixm:day>
+                  <aixm:dayTil nilReason="inapplicable" xsi:nil="true"/>
+                  <aixm:startTime>00:00</aixm:startTime>
+                  <aixm:startEvent nilReason="inapplicable" xsi:nil="true"/>
+                  <aixm:startTimeRelativeEvent nilReason="inapplicable" xsi:nil="true"/>
+                  <aixm:startEventInterpretation nilReason="inapplicable" xsi:nil="true"/>
+                  <aixm:endTime>24:00</aixm:endTime>
+                  <aixm:endEvent nilReason="inapplicable" xsi:nil="true"/>
+                  <aixm:endTimeRelativeEvent nilReason="inapplicable" xsi:nil="true"/>
+                  <aixm:endEventInterpretation nilReason="inapplicable" xsi:nil="true"/>
+                  <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                  <aixm:excluded>NO</aixm:excluded>
+                  <aixm:annotation xsi:nil="true"/>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:annotation xsi:nil="true"/>
+              <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
+              <aixm:signalType nilReason="inapplicable" xsi:nil="true"/>
+            </aixm:NavaidOperationalStatus>
+          </aixm:availability>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.99a8f127-1b27-4124-b88e-9c1bb73c5562">
+              <aixm:purpose>OTHER:EAD_SDD_TRANSITION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.b45ab1f5-a83f-4f31-9ad1-6311113006d8">
+                  <aixm:note lang="eng">Annotation created in order to force a change in relation to EAD transition on AIRAC 2023-04-20</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:frequency uom="MHZ">110.7</aixm:frequency>
+          <aixm:magneticBearing>344.5000</aixm:magneticBearing>
+          <aixm:magneticBearingAccuracy xsi:nil="true"/>
+          <aixm:trueBearing>350.0000</aixm:trueBearing>
+          <aixm:trueBearingAccuracy xsi:nil="true"/>
+          <aixm:declination xsi:nil="true"/>
+          <aixm:widthCourse>5.5</aixm:widthCourse>
+          <aixm:widthCourseAccuracy xsi:nil="true"/>
+          <aixm:backCourseUsable nilReason="other:notavailable" xsi:nil="true"/>
+        </aixm:LocalizerTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Localizer>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
