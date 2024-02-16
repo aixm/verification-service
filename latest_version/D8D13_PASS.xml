@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<hasMember>
+<aixm:AirTrafficControlService gml:id="uuid.a7f457b2-4fbe-418c-b0fd-724bf9d5a4b5">
+  <gml:identifier codeSpace="urn:uuid:">a7f457b2-4fbe-418c-b0fd-724bf9d5a4b5</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AirTrafficControlServiceTimeSlice gml:id="uuid.b252b3d6-af13-4376-8b58-ae6fc15ddce8">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.2a93fc9a-3b36-4435-bc40-771eb4d38885">
+          <gml:beginPosition>2009-11-19T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.2cb19f87-4614-4cda-8d3f-99299db71155">
+          <gml:beginPosition>2009-11-19T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:serviceProvider xlink:type="simple" xlink:href="#uuid.6e730a59-0268-4ebd-962c-5bd6543208d1"/>
+      <aixm:call-sign>
+        <aixm:CallsignDetail gml:id="uuid.2cf0430c-2ad5-4705-84d5-d6af99e1c9a4">
+          <aixm:callSign>FLORES TOWER</aixm:callSign>
+          <aixm:language>eng</aixm:language>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.fee14ee1-650a-47fc-8783-9ede4d445362">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.09f7ac81-471c-4a3d-98be-4438f3678c50">
+                  <aixm:note>Call sign on frequency 118.3</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:CallsignDetail>
+      </aixm:call-sign>
+      <aixm:call-sign>
+        <aixm:CallsignDetail gml:id="uuid.78076d9f-6273-494a-a242-71781c173b10">
+          <aixm:callSign>FLORES TOWER</aixm:callSign>
+          <aixm:language>por</aixm:language>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.06aed833-2e3b-4b4e-b6db-3332f69530d9">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.a089ff4f-91e6-44f7-bc22-c52796e773a3">
+                  <aixm:note>Call sign on frequency 118.3</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:CallsignDetail>
+      </aixm:call-sign>
+      <aixm:radioCommunication xlink:type="simple" xlink:href="#uuid.77502bbd-4d17-4335-b35f-78e5668b248c"/>
+      <aixm:availability>
+        <aixm:ServiceOperationalStatus gml:id="uuid.38dc1cd1-2c87-44fd-9fa7-95eb634fefbb">
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.ea271605-b8f0-4b99-8cd4-8f384c980eca">
+              <aixm:propertyName>timeInterval</aixm:propertyName>
+              <aixm:purpose>WARNING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.89eaa740-d9f2-40a4-995b-333c05f2e582">
+                  <aixm:note>HO - service available to meet operational requests</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
+        </aixm:ServiceOperationalStatus>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.bf7e1fad-a377-435f-ad81-93c437e2e679">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.ad864cb1-0d81-4231-8c99-ae02a28c021b">
+              <aixm:note>noSeq:1</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.1bc4847d-ec25-4df8-aec9-285cb0af1eaf">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.8de48fbe-ab6a-4c21-9a19-5fe31cb8e515">
+              <aixm:note>codeSource:ICAO</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:clientHolding xlink:type="simple" xlink:href="#uuid.93c3fd23-646c-48db-8b54-01fddc780f08"/>
+    </aixm:AirTrafficControlServiceTimeSlice>
+  </aixm:timeSlice>
+</aixm:AirTrafficControlService> 
+</hasMember>
+<hasMember>
+<aixm:HoldingPattern gml:id="uuid.93c3fd23-646c-48db-8b54-01fddc780f08">
+  <gml:identifier codeSpace="urn:uuid:">93c3fd23-646c-48db-8b54-01fddc780f08</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:HoldingPatternTimeSlice gml:id="uuid.4bfde06b-6e71-4313-b5af-442a961c8e1f">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.736b4bcd-86a6-4a89-80b3-71d3dc072d6b">
+          <gml:beginPosition>2016-01-08T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2021-12-02T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.59cbcaeb-4602-4b8d-9220-e6c30dc61247">
+          <gml:beginPosition>2009-11-19T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>TER</aixm:type>
+      <aixm:outboundCourse>261</aixm:outboundCourse>
+      <aixm:outboundCourseType>MAG_TRACK</aixm:outboundCourseType>
+      <aixm:inboundCourse>81</aixm:inboundCourse>
+      <aixm:turnDirection>RIGHT</aixm:turnDirection>
+      <aixm:upperLimit uom="FL">140</aixm:upperLimit>
+      <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+      <aixm:lowerLimit uom="FT">4300</aixm:lowerLimit>
+      <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+      <aixm:speedLimit uom="KT">170</aixm:speedLimit>
+      <aixm:outboundLegSpan_endDistance>
+        <aixm:HoldingPatternDistance gml:id="uuid.e5c49461-348f-4e6a-8821-edfc184ea141">
+          <aixm:length uom="NM">5</aixm:length>
+        </aixm:HoldingPatternDistance>
+      </aixm:outboundLegSpan_endDistance>
+      <aixm:holdingPoint>
+        <aixm:TerminalSegmentPoint gml:id="uuid.e55c08c4-220b-4e3a-be71-a52c656fc54b">
+          <aixm:flyOver>YES</aixm:flyOver>
+          <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="#uuid.71e0001f-2cfe-410c-a506-3daa897d2eac"/>
+        </aixm:TerminalSegmentPoint>
+      </aixm:holdingPoint>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.da76622c-f9f9-4f88-b181-b73792d9fe88">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.a4e3c32c-cc99-4fd0-ad72-6624ce0d6a9a">
+              <aixm:note>txtRmk:Controlling Unit: Flores TWR</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.b86b8629-959b-45ee-8270-96424bff2536">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.a8b638ec-ace1-4ce8-a9ea-a647daa7e9a1">
+              <aixm:note>noSeq:1</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.6054f380-65f8-49db-8060-8201d9ab4913">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.e22968fd-0a55-475c-a91c-0e695ce2f5e6">
+              <aixm:note>codeDescrDistVer:B</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:HoldingPatternTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:HoldingPatternTimeSlice gml:id="uuid.98799709-5fa7-4c5f-86cd-9b3e871d6d8e">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.3e6607d8-161e-4dfe-a537-32574bd23b3f">
+          <gml:beginPosition>2021-12-02T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.447db128-0126-4029-90ef-351349656794">
+          <gml:beginPosition>2009-11-19T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>TER</aixm:type>
+      <aixm:outboundCourse>259</aixm:outboundCourse>
+      <aixm:outboundCourseType>MAG_TRACK</aixm:outboundCourseType>
+      <aixm:inboundCourse>259</aixm:inboundCourse>
+      <aixm:turnDirection>RIGHT</aixm:turnDirection>
+      <aixm:upperLimit uom="FL">140</aixm:upperLimit>
+      <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+      <aixm:lowerLimit uom="FT">4300</aixm:lowerLimit>
+      <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+      <aixm:speedLimit uom="KT">170</aixm:speedLimit>
+      <aixm:outboundLegSpan_endDistance>
+        <aixm:HoldingPatternDistance gml:id="uuid.e641b3d6-ade9-4db2-9c1f-0624779d11ea">
+          <aixm:length uom="NM">5</aixm:length>
+        </aixm:HoldingPatternDistance>
+      </aixm:outboundLegSpan_endDistance>
+      <aixm:holdingPoint>
+        <aixm:TerminalSegmentPoint gml:id="uuid.a740c833-5736-43d2-a977-243812089bbb">
+          <aixm:flyOver>YES</aixm:flyOver>
+          <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="#uuid.71e0001f-2cfe-410c-a506-3daa897d2eac"/>
+        </aixm:TerminalSegmentPoint>
+      </aixm:holdingPoint>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.ec7158f5-8d61-492b-8cf8-a91cdc442d9b">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.283af759-1b6d-494e-ab7c-2278fb372dbb">
+              <aixm:note>txtRmk:Controlling Unit: Flores TWR</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.0f1d05c2-5024-4beb-bacc-3d1795942506">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.38a6b7d9-b0ba-4cd5-83fa-21e4e2a8d0e9">
+              <aixm:note>noSeq:1</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.b2c74cb2-8959-4b78-9304-61356c8d6f9b">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.ecb11c1f-2e98-4dd9-9ce8-cc46567d540c">
+              <aixm:note>codeDescrDistVer:B</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:HoldingPatternTimeSlice>
+  </aixm:timeSlice>
+</aixm:HoldingPattern> 
+</hasMember>
+<hasMember>
+<aixm:RadioCommunicationChannel gml:id="uuid.77502bbd-4d17-4335-b35f-78e5668b248c">
+  <gml:identifier codeSpace="urn:uuid:">77502bbd-4d17-4335-b35f-78e5668b248c</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:RadioCommunicationChannelTimeSlice gml:id="uuid.ad95dbdb-7d37-4faf-a484-2b134962b37d">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.89b8001f-359d-4bcf-9a3d-20008ce509dc">
+          <gml:beginPosition>2010-01-14T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.3395f047-28db-4100-bea5-733fd840b741">
+          <gml:beginPosition>2009-11-19T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:frequencyTransmission uom="MHZ">118.8</aixm:frequencyTransmission>
+      <aixm:frequencyReception uom="MHZ">118.8</aixm:frequencyReception>
+    </aixm:RadioCommunicationChannelTimeSlice>
+  </aixm:timeSlice>
+</aixm:RadioCommunicationChannel> 
+</hasMember>
+<hasMember>
+<aixm:Unit gml:id="uuid.6e730a59-0268-4ebd-962c-5bd6543208d1">
+  <gml:identifier codeSpace="urn:uuid:">6e730a59-0268-4ebd-962c-5bd6543208d1</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:UnitTimeSlice gml:id="uuid.ced11d99-c870-4c8a-bcd2-146acd41af36">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.b8fee045-8ea6-4890-bb1d-201b2798f2bc">
+          <gml:beginPosition>2008-05-08T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.80a8bc6e-9c7f-4be9-bcb7-699fa78a2af3">
+          <gml:beginPosition>2008-02-14T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:name>FLORES TOWER</aixm:name>
+      <aixm:type>TWR</aixm:type>
+      <aixm:compliantICAO>YES</aixm:compliantICAO>
+      <aixm:designator>LPFL</aixm:designator>
+      <aixm:airportLocation xlink:type="simple" xlink:href="#uuid.12f376bd-72a1-4e9f-9396-c5dfb6f55a1e"/>
+      <aixm:ownerOrganisation xlink:type="simple" xlink:href="#uuid.09424934-8208-0ae9-e053-0b751dc2b779"/>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.4dfc5393-07d6-4cf8-a183-d6d0fc6a0c69">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.b869b5eb-835f-4755-9e54-623f3683d9f4">
+              <aixm:deliveryPoint>Aeroporto das Flores
+Ilha das Flores
+9970-320 SANTA CRUZ DAS FLORES</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.624e6462-23a7-4f1c-873c-11f10650e54a">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.e64e2d22-b241-4226-8663-1a7aa4591343">
+              <aixm:voice>+351 292590070</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.52655cf8-7129-4530-b2c4-f3b65ee282cf">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.c317d795-35f2-49cd-9adc-b806634e029d">
+              <aixm:facsimile>+351 292590071</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+    </aixm:UnitTimeSlice>
+  </aixm:timeSlice>
+</aixm:Unit> 
+</hasMember>
+<hasMember>
+<aixm:DesignatedPoint gml:id="uuid.71e0001f-2cfe-410c-a506-3daa897d2eac">
+  <gml:identifier codeSpace="urn:uuid:">71e0001f-2cfe-410c-a506-3daa897d2eac</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:DesignatedPointTimeSlice gml:id="uuid.e1992eb6-436e-490b-8c45-d8ef2846dd1a">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.3356fa6a-a8e1-4482-bdc2-f8557758c0bd">
+          <gml:beginPosition>2009-11-19T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.2951d635-bb2b-4488-8612-1f12a37cf93c">
+          <gml:beginPosition>2009-11-19T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>XORVU</aixm:designator>
+      <aixm:type>ICAO</aixm:type>
+      <aixm:name>XORVU</aixm:name>
+      <aixm:location>
+        <aixm:Point xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.8e77a715-697d-4454-a9f4-e20cf1569913">
+          <gml:pos>39.630492417 -30.652083056</gml:pos>
+        </aixm:Point>
+      </aixm:location>
+      <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.53fe8b5f-0ddf-4679-aa8f-e2dc81abbe98"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.9c995040-3845-46f5-b881-6bcc2064b0b9">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.7accb48e-dace-45bb-9a91-465410daaeb0">
+              <aixm:note>CRC:393749.7727N, 0303907.4990W, , , 98454C21</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.9cd62afc-9a96-4c35-ae75-329be24479dd">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.5199a9bb-a35e-4855-9344-7afe351a20b7">
+              <aixm:note>txtRmk:Note: IAF LPCR RWY29</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:DesignatedPointTimeSlice>
+  </aixm:timeSlice>
+</aixm:DesignatedPoint> 
+</hasMember>
+<hasMember>
+<aixm:AirportHeliport gml:id="uuid.12f376bd-72a1-4e9f-9396-c5dfb6f55a1e">
+  <gml:identifier codeSpace="urn:uuid:">12f376bd-72a1-4e9f-9396-c5dfb6f55a1e</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.b8e6dce2-8920-4fc7-9c1d-0f6880a7d580">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.35336d4a-0cab-41ab-b42c-8897c7e89f6c">
+          <gml:beginPosition>2016-09-16T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2021-12-02T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.0a216b83-ef07-4088-bf4b-7c2e08778f08">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>LPFL</aixm:designator>
+      <aixm:name>FLORES</aixm:name>
+      <aixm:locationIndicatorICAO>LPFL</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>FLW</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:fieldElevation uom="M">33</aixm:fieldElevation>
+      <aixm:magneticVariation>-13.8333</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2013</aixm:dateMagneticVariation>
+      <aixm:magneticVariationChange>0.1667</aixm:magneticVariationChange>
+      <aixm:referenceTemperature uom="C">25.8</aixm:referenceTemperature>
+      <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.87140314-b201-420d-bec7-7dcb721e5adf">
+          <aixm:name>FLORES</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.258cda29-8d94-41c2-b7a4-7eb1eb76fe24">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7d4f-0ae9-e053-0b751dc2b779"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.0f68944d-ed1c-4b2e-9c3b-f845726e3a9c">
+          <gml:pos>39.458038028 -31.132148444</gml:pos>
+          <aixm:geoidUndulation uom="M">58.26</aixm:geoidUndulation>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.19bf0a20-0a6e-4a1d-823c-3ff0649a97c8">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.aa9b3a84-f503-4e32-acba-04143e8f9ac8">
+              <aixm:network>AFTN</aixm:network>
+              <aixm:linkage>LPFLYDYA</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.c4c09ded-9cdc-47c5-a59d-fa3947fcf46f">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.292ad446-20c5-4410-8630-93185f215e54">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:linkage>http://www.ana.pt</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.9cf483cd-3204-47a0-9afa-d737ab58ea81">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.8c844aee-4eab-4a20-b0a5-5134fd65b482">
+              <aixm:deliveryPoint>Aerodromo das Flores
+Ilha das Flores
+9970-320 SANTA CRUZ DAS FLORES</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.e2325905-b591-4b5b-85ba-2a60ff7131e8">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.fe1a77ef-e023-4b80-ae9a-724eceeb0841">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.10dac6c1-ef5c-49ba-bb5e-3cf4a8de789b">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.f3e8f62e-0a91-4f73-894a-ef8eecda708b">
+                      <aixm:note>txtRmk:AD Operation</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+351 292 592 280</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.c32840a0-43fd-41b3-ae4a-c025cd9fc1fe">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.04c63ebb-1738-4924-be59-0b338eb20301">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.beaa53d1-7560-454e-bb6f-a9a8881f3f0a">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.984b682e-16bb-4cad-9f16-cae3bd767051">
+                      <aixm:note>txtRmk:AD Administration</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+351 292 592 212</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.b7c0e5cb-6a02-4c57-a342-21ac908b6302">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.c9073830-8cff-433a-98dc-a3545ed6be0a">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.f4de2c16-2dc0-46d3-b426-2efbfb148225">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.8453c25d-6674-4254-b0fa-0a587e35632a">
+                      <aixm:note>txtRmk:AD Operation</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+351 292 592 065</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.3e3be410-faea-49b8-b938-63afc4ea9351">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.f3a85d58-59b1-4cb0-93e7-776574b26e82">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.e9e89d18-a8a0-4495-a9c6-12f06b735b33">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.d13e223b-a6d9-49d0-a32a-eef7db2e067b">
+                      <aixm:note>txtRmk:AD Administration</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+351 292 592 243</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.1fe920d7-a9c4-4136-9eb4-d4103faaa3e1">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.0ed21adf-646e-4426-8f54-6380f6ef7ab2">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:eMail>flores.airport@ana.pt</aixm:eMail>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.fcad71a5-7215-4d34-8c50-7d3449bf0593">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.7784ac5e-ad02-4e13-bf24-8be46ac0cf29">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:day>WORK_DAY</aixm:day>
+              <aixm:startTime>10:30</aixm:startTime>
+              <aixm:endTime>17:30</aixm:endTime>
+              <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.b7fee12b-b4e5-4e22-9777-9133e71f57ec">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:day>SAT</aixm:day>
+              <aixm:startTime>14:30</aixm:startTime>
+              <aixm:endTime>16:30</aixm:endTime>
+              <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.869285ea-0c68-4015-bbfa-b98d5c9fdc9d">
+              <aixm:propertyName>timeInterval</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f47705c4-17bb-43b1-b35e-d42d8eda1033">
+                  <aixm:note>Remark:Other times with  01 Hour PPR</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.a8ceacda-2cab-4022-a52c-c8a89fdaf6a1">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.4d778246-79ff-4a48-8168-66e30e2b1a46">
+                  <aixm:logicalOperator>OR</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.02e6ff02-a1c0-4533-bdd0-6615f63a049f">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.e940f2d2-ad72-4bd4-bd64-09ca9ae9dbb1">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.f82e8b77-69b2-415a-ba41-4caedd0732d2">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>PRIVATE</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.00daddfa-6e90-42e2-a430-95a0c813030f">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.28408775-44bf-4c1c-bcdf-96236922bba0">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.f5629247-ccbc-4df3-9c5f-7f3f839f4854">
+                      <aixm:propertyName>timeInterval</aixm:propertyName>
+                      <aixm:purpose>WARNING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.4c111ede-8115-4909-96c3-595f74bbf964">
+                          <aixm:note>HO - service available to meet operational requests</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.d362c4e2-8f59-4cd1-99a3-1e992d90f77c">
+                      <aixm:propertyName>timeInterval</aixm:propertyName>
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.b50030aa-3a27-4af9-b143-7aa148d67011">
+                          <aixm:note>Remark:With 01 Hour PPR</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:logicalOperator>NONE</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.9128f93a-0999-4536-97db-f1e1febfd218">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:origin>NTL</aixm:origin>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.ffa2707d-5d36-42c7-baa1-c37ab466fe19">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.af3b4f47-b549-4721-ab86-358469d4fd6f">
+                      <aixm:note>txtRmk:In accordance with LPFL AD 2.20.1.1</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.2def5dbb-f68f-4f12-8d83-64404e720aed">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.d3fd2a61-1266-493f-99db-ca456709c180">
+              <aixm:note>CRC:392728.9369N, 0310755.7344W, 33, 58.26, 62F55E05</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.7659124a-9576-42ae-ac92-7b0b02d0b8b4">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.c278ebc1-d1fc-4e05-83c1-a1d0c9ae2605">
+              <aixm:note>Organisation in charge:AEROPORTOS DE PORTUGAL, S.A.  (ANA-SA)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.c976f168-d659-496d-a725-e9c2962634d1">
+          <aixm:propertyName>altimeterCheckLocation</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.52014521-6350-477c-89b3-e8ab4f031eb7">
+              <aixm:note>Altimeter check location description:THR18 - 29.45M (96.62FT)
+THR36 - 31.70M (104FT)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.384dd2e6-6fc3-4dd9-b253-cb897a438896">
+          <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.49df2858-8515-4548-81eb-cbd7faf4a928">
+              <aixm:note>Secondary Power Supply:Conforms requirements of Annex 14</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.84d4261e-8e21-4696-be27-838bb7213108">
+          <aixm:propertyName>windDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.45fd9998-0593-45b7-abf4-49781e79bef5">
+              <aixm:note>Wind Direction Indicator:3 WDI Lighted. Right side RWY36.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.a5e764d6-0c8c-4b77-92c2-7bea4e672eb9">
+          <aixm:propertyName>landingDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.2d1a957b-57d8-48a8-b722-bafdfde65a2f">
+              <aixm:note>Landing Direction Indicator Description:NIL</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.d247d655-00a0-422f-95d9-2e0bc36c0622">
+          <aixm:propertyName>arp</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.13693b42-87e2-4181-829a-9dc7cb23b58b">
+              <aixm:note>Aerodrome Reference Point Description:Intersection RWY 18/36 with Taxiway "A", 340M From THR 18</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.7dd81f22-8b39-45ce-914f-859115d48009">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.22e7dc92-f0fa-4ba2-8c94-6781e645736f">
+              <aixm:note>Site Description:1KM (0.54NM) NORTH FROM SANTA CRUZ DAS FLORES</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.38f0f8a0-393f-4de5-90f7-5d5409003db0">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.b09a42df-ad16-4e15-a26a-4827b5d73bc1">
+          <gml:beginPosition>2021-12-02T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2022-03-24T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>3</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.7896f0c3-c0e0-457a-8e01-281561df5502">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>LPFL</aixm:designator>
+      <aixm:name>FLORES</aixm:name>
+      <aixm:locationIndicatorICAO>LPFL</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>FLW</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:fieldElevation uom="M">33</aixm:fieldElevation>
+      <aixm:magneticVariation>-012.708</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2020</aixm:dateMagneticVariation>
+      <aixm:magneticVariationChange>+0.166</aixm:magneticVariationChange>
+      <aixm:referenceTemperature uom="C">25.8</aixm:referenceTemperature>
+      <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.23f09082-542a-4f29-a8aa-ae6b889341a1">
+          <aixm:name>FLORES</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.f7463469-7a39-413d-8d22-c85f89efa3e8">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7d4f-0ae9-e053-0b751dc2b779"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts"   xmlns:aixm="http://www.aixm.aero/schema/5.1.1"  xmlns:gco="http://www.isotc211.org/2005/gco"    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.88cdb1db-d57f-485c-9be6-6579bd183615">
+          <gml:pos>39.458038028 -31.132148444</gml:pos>
+          <aixm:geoidUndulation uom="M">58.26</aixm:geoidUndulation>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.bcd7be79-8631-45bc-bb3e-0f039242a92c">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.ed1e4578-672e-4d45-b6fb-ca7b5682620f">
+              <aixm:network>AFTN</aixm:network>
+              <aixm:linkage>LPFLYDYA</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.f883df3d-4e2f-4632-98ca-9bc69365dce3">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.9b07dd23-2b3c-4267-873b-4b63ff73391f">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:linkage>http://www.ana.pt</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.9ffda4d6-70b8-4743-a80d-47df792863a9">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.01a25780-02cc-48e2-9f1f-13519eceb877">
+              <aixm:deliveryPoint>Aerodromo das Flores
+Ilha das Flores
+9970-320 SANTA CRUZ DAS FLORES</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.4097ae3a-0fa3-4a4d-83c2-bae4ba18161a">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.b6e54bec-3756-4716-813d-efa7f3c2d225">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.204488f6-e60f-4259-b949-c30f3813a9cb">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.549fa021-f0be-41b7-b9f9-b632614cc951">
+                      <aixm:note>txtRmk:AD Operation</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+351 292 592 280</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.a619580d-8551-405f-841c-7a21a1b99e16">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.6c4a961d-36df-4d3b-b64a-e3f7e78dfb8b">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.71fdd67e-c3bf-418f-b944-159021fa3bf2">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.9b00ba06-2ce7-45f2-aa6f-66fc42c52284">
+                      <aixm:note>txtRmk:AD Administration</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+351 292 592 212</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.149612ac-7539-47e9-89e7-8b15e7f4f3c1">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.127425ba-9712-4c38-8fa5-480cb0f21aaa">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.2e3006ed-0432-45c2-a242-2d2695e65806">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.dc44ce8d-37bc-4159-81e6-2e26db187365">
+                      <aixm:note>txtRmk:AD Operation</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+351 292 592 065</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.fb9a6619-1888-431c-91a9-5a8a47ab293f">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.a28e44b0-a641-4629-a66a-6f397c0f16b3">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.9ef3aed2-8e32-4bf6-ae6b-236cd0b941af">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.bfe9ed79-b608-4441-92f2-748303a5a919">
+                      <aixm:note>txtRmk:AD Administration</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+351 292 592 243</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.e525429c-ffc9-443d-96b2-810657896af1">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.95c74e30-37ff-43f2-9a25-2795c2ce099d">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:eMail>flores.airport@ana.pt</aixm:eMail>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.e6379982-492c-4a5c-9f45-a2515489d760">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.ea8d69e6-c1e2-43d8-823a-4173283e0d55">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:day>WORK_DAY</aixm:day>
+              <aixm:startTime>10:30</aixm:startTime>
+              <aixm:endTime>17:30</aixm:endTime>
+              <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.2d8a81a2-7e8e-4fe2-99b7-4331e4de4b8f">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:day>SAT</aixm:day>
+              <aixm:startTime>14:30</aixm:startTime>
+              <aixm:endTime>16:30</aixm:endTime>
+              <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.d50ab838-75c3-41a3-a898-603f5bfc56e7">
+              <aixm:propertyName>timeInterval</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.02be2a4d-cd7a-41d3-8754-916c16bfe2cf">
+                  <aixm:note>Remark:Other times with  01 Hour PPR</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.1c930caa-1d13-43e0-a350-64fec6f6fa12">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.4cc29837-029b-47b1-a3bc-06e84d0a89e6">
+                  <aixm:logicalOperator>OR</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.5dc3d40e-9740-419c-8cb0-3de6d8358b0d">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.0f4ce3e4-6a93-468f-8d09-8184fe57a2a5">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.881f59ed-22be-4bf4-bf77-7973020a7973">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>PRIVATE</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.19252e36-70d4-4c3d-8ef2-1acbfeb1ede7">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.cfc619c7-4cd6-4a1f-a6cb-21ca2d3ecaf5">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.c7cffd75-52b2-4be3-a48d-b23a83f0ddf5">
+                      <aixm:propertyName>timeInterval</aixm:propertyName>
+                      <aixm:purpose>WARNING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.a91cbc95-5f2f-4db0-8250-769001a30dae">
+                          <aixm:note>HO - service available to meet operational requests</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.0657c9d7-391d-4707-aa24-3501ea69cece">
+                      <aixm:propertyName>timeInterval</aixm:propertyName>
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.e539ebac-3302-4774-8e75-0f4ba7ed11fe">
+                          <aixm:note>Remark:With 01 Hour PPR</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:logicalOperator>NONE</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.5f54918e-3d8c-4018-ba81-598a97094ad0">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:origin>NTL</aixm:origin>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.6bddd385-965a-4cd6-b3e1-b5a467c1f7e1">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.31f49f29-abe3-4ece-ab2c-068b19d792ac">
+                      <aixm:note>txtRmk:In accordance with LPFL AD 2.20.1.1</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.7e14cef4-9125-494f-83e9-bc63bb113a2f">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.919b39b4-0194-4de1-9b58-2409445c1f72">
+              <aixm:note>CRC:392728.9369N, 0310755.7344W, 33, 58.26, 62F55E05</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.c4aa1986-512f-48cf-9732-1e7f7514c640">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.0665eb44-767c-4448-b6f8-ecf0a01176aa">
+              <aixm:note>Organisation in charge:AEROPORTOS DE PORTUGAL, S.A.  (ANA-SA)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.01c464ac-c9d7-4f5e-8a1d-2bd89fd837ab">
+          <aixm:propertyName>altimeterCheckLocation</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.23886b81-7168-4875-9bae-d1b46bef131e">
+              <aixm:note>Altimeter check location description:THR18 - 29.45M (96.62FT)
+THR36 - 31.70M (104FT)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.bb62bebe-a0f2-44dc-8f69-861a1aeb3d93">
+          <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.d93bdbf5-ea24-45d9-8551-9108d32a67dd">
+              <aixm:note>Secondary Power Supply:Conforms requirements of Annex 14</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.457533f1-d477-4a7f-8eee-44042f902e32">
+          <aixm:propertyName>windDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.513aef82-e27a-4dd5-9b5f-582be2dda3d4">
+              <aixm:note>Wind Direction Indicator:3 WDI Lighted. Right side RWY36.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.d9fa5d04-8f33-4167-be80-9cfe69f12978">
+          <aixm:propertyName>landingDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.818f8627-696a-465a-bff5-2f6e5d226434">
+              <aixm:note>Landing Direction Indicator Description:NIL</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.297a4328-c0f7-4f5c-b0ef-4e054e14ca72">
+          <aixm:propertyName>arp</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.5185fdc6-84c7-4ddc-8e47-311c00ac70b7">
+              <aixm:note>Aerodrome Reference Point Description:Intersection RWY 18/36 with Taxiway "A", 340M From THR 18</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.9db06aef-794d-46e7-b8f9-24c796de85f5">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.fa2a1195-4620-4480-ab2a-c5ef0a224eef">
+              <aixm:note>Site Description:1KM (0.54NM) NORTH FROM SANTA CRUZ DAS FLORES</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.e318189c-fd06-43b4-ac61-253e03a3fe86">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.c5f6f6aa-7164-4328-b90f-a25bad15ddc9">
+          <gml:beginPosition>2022-03-24T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>4</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.5b00b798-c8a0-4f2c-a92e-3212b69bdbf7">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>LPFL</aixm:designator>
+      <aixm:name>FLORES</aixm:name>
+      <aixm:locationIndicatorICAO>LPFL</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>FLW</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:fieldElevation uom="M">33</aixm:fieldElevation>
+      <aixm:magneticVariation>-012.708</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2020</aixm:dateMagneticVariation>
+      <aixm:magneticVariationChange>+0.166</aixm:magneticVariationChange>
+      <aixm:referenceTemperature uom="C">25.8</aixm:referenceTemperature>
+      <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.3da82cd0-f4e7-4f7c-80d7-6ba0cabe28e5">
+          <aixm:name>FLORES</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.b046f8af-a981-4f22-9c34-71f4a8845ba8">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7d4f-0ae9-e053-0b751dc2b779"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts"    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e4e4d9bf-2685-4f4d-9a0a-78144b8bf1e4">
+          <gml:pos>39.458038028 -31.132148444</gml:pos>
+          <aixm:geoidUndulation uom="M">58.26</aixm:geoidUndulation>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.58cdd289-5252-4ec6-9a3b-6a0718f21e53">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.a5b37f64-0129-44b7-9cc8-a454a3bdb976">
+              <aixm:network>AFTN</aixm:network>
+              <aixm:linkage>LPFLYDYA</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.e9d0e616-9281-45ec-a857-98e5e875be4c">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.9d188f76-7047-4a49-8d90-ae0dac08419a">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:linkage>http://www.ana.pt</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.f688b001-b0e4-4278-8743-4a87db000851">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.d0501aba-c22b-4cd7-86d8-67abe9346fb0">
+              <aixm:deliveryPoint>Aerodromo das Flores
+Ilha das Flores
+9970-320 SANTA CRUZ DAS FLORES</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.c41fa5f7-170c-4ef1-bcfb-924e3232d72d">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.0cef266f-1154-46c7-90a4-2959b130d91f">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.4c21bcce-8cc1-4043-878d-463a54fc8c52">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.d6fd5ec6-1ae0-44e6-ba75-491c69b256c8">
+                      <aixm:note>txtRmk:AD Operation</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+351 292 592 280</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.4b5e1933-48e3-4cdf-9512-7033a0a6edc2">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.4f6132eb-4702-4883-9cc2-3be06f52f3a7">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.2e2918b9-62bd-45a3-b042-d297ae779895">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.c1a45942-a572-4653-9b33-49291f00dc3c">
+                      <aixm:note>txtRmk:AD Administration</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:voice>+351 292 592 212</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.f39ba391-6639-4e11-8b32-4792adcb6582">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.43d5464f-d66f-442a-9f86-2cbea4820635">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.ba8c3eb7-5e70-4c4e-b849-37fabbe95649">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.c10bdb15-98aa-4d86-b57c-e110ff03575f">
+                      <aixm:note>txtRmk:AD Operation</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+351 292 592 065</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.1b20cace-33cd-473f-a61f-d9013c54db5a">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.5dafceb2-cb8f-474d-b4f3-f55232933518">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.746da771-3fb9-4e21-a290-bd4b3463db47">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.c13b5566-e983-4017-8834-57911c432d6e">
+                      <aixm:note>txtRmk:AD Administration</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:facsimile>+351 292 592 243</aixm:facsimile>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.b9337459-a9b0-44c4-93b4-e15200dc511b">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.26bcbf86-7cbe-49a4-82d6-62757aa6f7ef">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:eMail>flores.airport@ana.pt</aixm:eMail>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.fd9676f5-b43f-4a38-88aa-b3536c76eafe">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.7213fca9-f17d-46e4-8519-4b97beddecc5">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:day>WORK_DAY</aixm:day>
+              <aixm:startTime>10:30</aixm:startTime>
+              <aixm:endTime>17:30</aixm:endTime>
+              <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.e6ad7a8d-cc17-449e-9ba8-da1ae066a49e">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:startDate>01-01</aixm:startDate>
+              <aixm:endDate>31-12</aixm:endDate>
+              <aixm:day>SAT</aixm:day>
+              <aixm:startTime>14:30</aixm:startTime>
+              <aixm:endTime>16:30</aixm:endTime>
+              <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.ec50532b-4bcb-4717-bfc8-5d232a045088">
+              <aixm:propertyName>timeInterval</aixm:propertyName>
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.e3833a02-7071-4e11-a468-c8993d48fdba">
+                  <aixm:note>Remark:Aerodrome operational hours extension or reopening are available, subject to GEN 4.1 and to the following conditions:
+Any request for reopening must be submitted to Aerodrome Director, the day before of the planned flight and at least one hour prior the Aerodrome closure.
+Any request for extension must be submitted to Aerodrome Director at least one hour prior Aerodrome closure.
+Emergency flights must contact Aerodrome Director at least one hour prior the planned flight.</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.e12b1ff3-afa1-4ec2-a442-ab1b4c261e9c">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.eb59bc2d-bf8b-4adf-9b7e-5bd6c452efd0">
+                  <aixm:logicalOperator>OR</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.046b2730-95c3-4b92-b435-298a0d585327">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.b234fd2a-cdb6-49db-a19c-247f88fbdebd">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.b48ce829-f934-46eb-8845-3f0c5b60fd65">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>NTL</aixm:origin>
+                      <aixm:purpose>PRIVATE</aixm:purpose>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.299d8811-cce0-436f-9101-ebf071aff67c">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.4af90f8a-f036-4741-af8e-a3c9239ba229">
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.5b7d4bfc-4e66-47dc-afdd-9399cc17ecf9">
+                      <aixm:propertyName>timeInterval</aixm:propertyName>
+                      <aixm:purpose>WARNING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.fd065dc3-6a76-4123-958f-6b76357e097b">
+                          <aixm:note>HO - service available to meet operational requests</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.460acd53-b98b-4858-823d-4742ba37c863">
+                      <aixm:propertyName>timeInterval</aixm:propertyName>
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.b2d9fc2d-84f5-4964-beb1-f91fdcaf19db">
+                          <aixm:note>Remark:With 01 Hour PPR</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:logicalOperator>NONE</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.3ac3f869-01d3-458a-9bf7-6fdcd4914cfd">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:origin>NTL</aixm:origin>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.9a72c13d-75a7-415c-8c90-6f0bd1964250">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.359ca075-5cad-4737-b8b2-0b1b557932ea">
+                      <aixm:note>txtRmk:In accordance with LPFL AD 2.20.1.1</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.5b3b3d8a-995b-4cb0-83fe-cf6a2c4168e0">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.3d626494-00e7-4ad0-92e0-a119362b1341">
+              <aixm:note>CRC:392728.9369N, 0310755.7344W, 33, 58.26, 62F55E05</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.fa8547bf-04df-455a-a649-a49707c601f9">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.66ff0c50-2508-4ac8-9a06-5e284f7868d8">
+              <aixm:note>Organisation in charge:AEROPORTOS DE PORTUGAL, S.A.  (ANA-SA)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.5636bc8a-4e78-45ac-8abb-7e36f749499b">
+          <aixm:propertyName>altimeterCheckLocation</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.a83fa62c-ae58-4b15-bb02-ba11cd6036d3">
+              <aixm:note>Altimeter check location description:THR18 - 29.45M (96.62FT)
+THR36 - 31.70M (104FT)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.fca4a2ae-8b21-404d-a22e-cbbd1743beb1">
+          <aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.abd677c3-1f74-46cf-b014-5c5155847df7">
+              <aixm:note>Secondary Power Supply:Conforms requirements of Annex 14</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.7a430b9d-306b-4192-8269-4b2dd93ce1a4">
+          <aixm:propertyName>windDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.bd90031c-e684-4276-bc33-20c424381109">
+              <aixm:note>Wind Direction Indicator:3 WDI Lighted. Right side RWY36.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.85d0d913-f3d6-49ae-b831-b4ab0f6c5020">
+          <aixm:propertyName>landingDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.79e63196-2f75-44a1-a9de-61de17a93a6c">
+              <aixm:note>Landing Direction Indicator Description:NIL</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.535fcee9-ba2d-4e0b-8ff4-dac287d94e97">
+          <aixm:propertyName>arp</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.babfd565-0397-4ee9-9dbe-8890ff7d6866">
+              <aixm:note>Aerodrome Reference Point Description:Intersection RWY 18/36 with Taxiway "A", 340M From THR 18</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.84fe531b-515e-43f1-bf2e-92afd9ba2a1f">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.b174c901-761c-46a2-b81c-d45b8ec619b1">
+              <aixm:note>Site Description:1KM (0.54NM) NORTH FROM SANTA CRUZ DAS FLORES</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+</aixm:AirportHeliport> 
+</hasMember>
+<hasMember>
+<aixm:OrganisationAuthority gml:id="uuid.09424934-8208-0ae9-e053-0b751dc2b779">
+  <gml:identifier codeSpace="urn:uuid:">09424934-8208-0ae9-e053-0b751dc2b779</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.7fcc152d-977c-4504-9941-83193fcf872f">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.15b7592a-7d26-44e0-b48f-bd1ccba0229f">
+          <gml:beginPosition>2007-04-27T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.7067ac69-dcb9-4c8d-8701-e38337d81fb9">
+          <gml:beginPosition>2003-07-13T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:name>NAV PORTUGAL E.P.E.</aixm:name>
+      <aixm:designator>LP-ATS</aixm:designator>
+      <aixm:type>ATS</aixm:type>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.e80a18c9-35a2-40f2-926e-2df9c58a0041">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.8331d6be-b657-4fbe-917f-ad27c67343d5">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:linkage>www.nav.pt</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.53afe3f7-3772-4aee-a3ac-f8d099eb76ec">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.33e2e178-e5b5-4f22-96e7-7269b13c61ca">
+              <aixm:network>AFTN</aixm:network>
+              <aixm:linkage>LPPTYGYE</aixm:linkage>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.f6a3d7d4-ce89-41c4-9482-d10c92f0b0b4">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.439d3eae-13ae-46be-93fc-9568f88ba160">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.1897c9b4-aab9-43af-a931-e44a6b983db8">
+                  <aixm:propertyName>voice</aixm:propertyName>
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.403c250c-7107-47ef-bf4c-8c1f8b9e6865">
+                      <aixm:note>Address:+351 21 855 31 00
++351 21 855 36 70</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.8aee094d-892e-481b-9e34-e33ded586cf0">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.fc935bac-9973-41a5-9a78-0210eaa19ac7">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.8404ca71-b030-4241-bbfa-06e894da3d5d">
+                  <aixm:propertyName>facsimile</aixm:propertyName>
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.32c6a567-c7f4-4522-b1bf-d38a50c2f11e">
+                      <aixm:note>Address:+351 21 855 36 00
++351 21 855 36 01</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.4b545969-79d8-4120-80c1-c3b98a844231">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.067df404-0511-4ee7-8f9d-f6448446b08e">
+              <aixm:deliveryPoint>NAV Portugal, E.P.E
+Rua D Edificio 121
+Aeroporto de Lisboa
+1700-008 LISBOA
+PORTUGAL
+</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.c22a19a1-d3ec-477f-bb57-d7a932432a84">
+          <aixm:networkNode>
+            <aixm:OnlineContact gml:id="uuid.46b99949-25ba-401e-aa36-bee3cd5fdc92">
+              <aixm:network>INTERNET</aixm:network>
+              <aixm:eMail>gabcim@nav.pt</aixm:eMail>
+            </aixm:OnlineContact>
+          </aixm:networkNode>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:relatedOrganisationAuthority>
+        <aixm:OrganisationAuthorityAssociation gml:id="uuid.b0f9bee8-3737-474b-bd29-8a3eafe6973a">
+          <aixm:type>OWNED_BY</aixm:type>
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7d4f-0ae9-e053-0b751dc2b779"/>
+        </aixm:OrganisationAuthorityAssociation>
+      </aixm:relatedOrganisationAuthority>
+    </aixm:OrganisationAuthorityTimeSlice>
+  </aixm:timeSlice>
+</aixm:OrganisationAuthority> 
+</hasMember>
+</AIXMBasicMessage>
