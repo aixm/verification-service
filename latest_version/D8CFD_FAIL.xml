@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:RouteSegment gml:id="uuid.30350f97-95a5-4bcb-9228-767d96c96710">
+            <gml:identifier codeSpace="urn:uuid:">30350f97-95a5-4bcb-9228-767d96c96710</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:RouteSegmentTimeSlice gml:id="uuid.5fdf6612-92bb-4b9e-820e-5a5c89d63fc8">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.d1f1cdf4-fe05-4fad-9632-d2c081435573">
+                            <gml:beginPosition>2020-07-16T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>3</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.5cb25c48-b922-437a-9eec-c94a4a07af1a">
+                            <gml:beginPosition>2013-04-04T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:level>LOWER</aixm:level>
+                    <aixm:navigationType>RNAV</aixm:navigationType>
+                    <aixm:start>
+                        <aixm:EnRouteSegmentPoint gml:id="uuid.649994c3-14f2-45be-94f7-b4c14203ce84">
+                            <aixm:reportingATC>COMPULSORY</aixm:reportingATC>
+                            <aixm:flyOver>YES</aixm:flyOver>
+                            <aixm:waypoint>YES</aixm:waypoint>
+                            <aixm:radarGuidance>YES</aixm:radarGuidance>
+                            <aixm:facilityMakeup>
+                                <aixm:PointReference gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000"/>
+                            </aixm:facilityMakeup>
+                            <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="urn:uuid:16e398ea-66bf-4624-9482-4feda6eb2d19"/>
+                            <aixm:extendedServiceVolume/>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                                    <aixm:propertyName>reportingATC</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                                    <aixm:propertyName>flyOver</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                                    <aixm:propertyName>waypoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                                    <aixm:propertyName>radarGuidance</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+                                    <aixm:propertyName>facilityMakeup</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
+                                    <aixm:propertyName>extendedServiceVolume</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
+                                    <aixm:propertyName>roleFreeFlight</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
+                                    <aixm:propertyName>roleRVSM</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
+                                    <aixm:propertyName>turnRadius</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
+                                    <aixm:propertyName>roleMilitaryTraining</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
+                                    <aixm:propertyName>pointChoiceFixDesignatedPoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:roleFreeFlight>CATCH</aixm:roleFreeFlight>
+                            <aixm:roleRVSM>IN</aixm:roleRVSM>
+                            <!-- ERROR: It is prohibited that EnRouteSegmentPoint has turnRadius value and EnRouteSegmentPoint has turnRadius@uom value unspecified -->
+                            <aixm:turnRadius>1</aixm:turnRadius>
+                            <aixm:roleMilitaryTraining>AS</aixm:roleMilitaryTraining>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:start>
+                    <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.0e5e3491-8187-46f6-b823-16e3fde5f1fd"/>
+                    <aixm:end>
+                        <aixm:EnRouteSegmentPoint gml:id="uuid.cbb70522-68d9-4085-b33a-c7153c6edfe5">
+                            <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="urn:uuid:32ca624f-41a7-48cc-bbd3-a9c344ca93b0"/>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:end>
+                </aixm:RouteSegmentTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteSegment>
+    </message:hasMember>
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:RouteSegment gml:id="uuid.30350f97-95a5-4bcb-9228-767d96c96701">
+            <gml:identifier codeSpace="urn:uuid:">30350f97-95a5-4bcb-9228-767d96c96710</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:RouteSegmentTimeSlice gml:id="uuid.5fdf6612-92bb-4b9e-820e-5a5c89d63f01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.d1f1cdf4-fe05-4fad-9632-d2c081435501">
+                            <gml:beginPosition>2020-07-16T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>3</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.5cb25c48-b922-437a-9eec-c94a4a07af01">
+                            <gml:beginPosition>2013-04-04T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:level>LOWER</aixm:level>
+                    <aixm:navigationType>RNAV</aixm:navigationType>
+                    <aixm:start>
+                        <aixm:EnRouteSegmentPoint gml:id="uuid.649994c3-14f2-45be-94f7-b4c14203ce01">
+                            <aixm:pointChoice_navaidSystem xlink:type="simple" xlink:href="urn:uuid:16e398ea-66bf-4624-9482-4feda6eb2d19"/>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bc012a">
+                                    <aixm:propertyName>pointChoiceNavaidSystem</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:start>
+                    <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.0e5e3491-8187-46f6-b823-16e3fde5f1fd"/>
+                    <aixm:end>
+                        <aixm:EnRouteSegmentPoint gml:id="uuid.cbb70522-68d9-4085-b33a-c7153c6edf01">
+                            <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="urn:uuid:32ca624f-41a7-48cc-bbd3-a9c344ca93b0"/>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:end>
+                </aixm:RouteSegmentTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteSegment>
+    </message:hasMember>
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:RouteSegment gml:id="uuid.30350f97-95a5-4bcb-9228-767d96c96702">
+            <gml:identifier codeSpace="urn:uuid:">30350f97-95a5-4bcb-9228-767d96c96710</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:RouteSegmentTimeSlice gml:id="uuid.5fdf6612-92bb-4b9e-820e-5a5c89d63f02">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.d1f1cdf4-fe05-4fad-9632-d2c081435502">
+                            <gml:beginPosition>2020-07-16T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>3</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.5cb25c48-b922-437a-9eec-c94a4a07af02">
+                            <gml:beginPosition>2013-04-04T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:level>LOWER</aixm:level>
+                    <aixm:navigationType>RNAV</aixm:navigationType>
+                    <aixm:start>
+                        <aixm:EnRouteSegmentPoint gml:id="uuid.649994c3-14f2-45be-94f7-b4c14203ce02">
+                            <aixm:pointChoice_position>
+                                <aixm:Point>
+                                    <gml:pos>39.125944444 -123.200861111</gml:pos>
+                                </aixm:Point>
+                            </aixm:pointChoice_position>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bc022a">
+                                    <aixm:propertyName>pointChoicePosition</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:start>
+                    <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.0e5e3491-8187-46f6-b823-16e3fde5f1fd"/>
+                    <aixm:end>
+                        <aixm:EnRouteSegmentPoint gml:id="uuid.cbb70522-68d9-4085-b33a-c7153c6edf02">
+                            <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="urn:uuid:32ca624f-41a7-48cc-bbd3-a9c344ca93b0"/>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:end>
+                </aixm:RouteSegmentTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteSegment>
+    </message:hasMember>
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:RouteSegment gml:id="uuid.30350f97-95a5-4bcb-9228-767d96c967033">
+            <gml:identifier codeSpace="urn:uuid:">30350f97-95a5-4bcb-9228-767d96c96710</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:RouteSegmentTimeSlice gml:id="uuid.5fdf6612-92bb-4b9e-820e-5a5c89d63f03">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.d1f1cdf4-fe05-4fad-9632-d2c081435503">
+                            <gml:beginPosition>2020-07-16T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>3</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.5cb25c48-b922-437a-9eec-c94a4a07af03">
+                            <gml:beginPosition>2013-04-04T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:level>LOWER</aixm:level>
+                    <aixm:navigationType>RNAV</aixm:navigationType>
+                    <aixm:start>
+                        <aixm:EnRouteSegmentPoint gml:id="uuid.649994c3-14f2-45be-94f7-b4c14203ce03">
+                            <aixm:pointChoice_runwayPoint xlink:type="simple" xlink:href="urn:uuid:16e398ea-66bf-4624-9482-4feda6eb2d19"/>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bc032a">
+                                    <aixm:propertyName>pointChoiceRunwayPoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:start>
+                    <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.0e5e3491-8187-46f6-b823-16e3fde5f1fd"/>
+                    <aixm:end>
+                        <aixm:EnRouteSegmentPoint gml:id="uuid.cbb70522-68d9-4085-b33a-c7153c6edf03">
+                            <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="urn:uuid:32ca624f-41a7-48cc-bbd3-a9c344ca93b0"/>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:end>
+                </aixm:RouteSegmentTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteSegment>
+    </message:hasMember>
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:RouteSegment gml:id="uuid.30350f97-95a5-4bcb-9228-767d96c96704">
+            <gml:identifier codeSpace="urn:uuid:">30350f97-95a5-4bcb-9228-767d96c96710</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:RouteSegmentTimeSlice gml:id="uuid.5fdf6612-92bb-4b9e-820e-5a5c89d63f04">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.d1f1cdf4-fe05-4fad-9632-d2c081435504">
+                            <gml:beginPosition>2020-07-16T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>3</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.5cb25c48-b922-437a-9eec-c94a4a07af04">
+                            <gml:beginPosition>2013-04-04T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:level>LOWER</aixm:level>
+                    <aixm:navigationType>RNAV</aixm:navigationType>
+                    <aixm:start>
+                        <aixm:EnRouteSegmentPoint gml:id="uuid.649994c3-14f2-45be-94f7-b4c14203ce04">
+                            <aixm:pointChoice_aimingPoint xlink:type="simple" xlink:href="urn:uuid:16e398ea-66bf-4624-9482-4feda6eb2d19"/>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bc042a">
+                                    <aixm:propertyName>pointChoiceAimingPoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:start>
+                    <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.0e5e3491-8187-46f6-b823-16e3fde5f1fd"/>
+                    <aixm:end>
+                        <aixm:EnRouteSegmentPoint gml:id="uuid.cbb70522-68d9-4085-b33a-c7153c6edf04">
+                            <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="urn:uuid:32ca624f-41a7-48cc-bbd3-a9c344ca93b0"/>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:end>
+                </aixm:RouteSegmentTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteSegment>
+    </message:hasMember>
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:RouteSegment gml:id="uuid.30350f97-95a5-4bcb-9228-767d96c96705">
+            <gml:identifier codeSpace="urn:uuid:">30350f97-95a5-4bcb-9228-767d96c96710</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:RouteSegmentTimeSlice gml:id="uuid.5fdf6612-92bb-4b9e-820e-5a5c89d63f05">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.d1f1cdf4-fe05-4fad-9632-d2c081435505">
+                            <gml:beginPosition>2020-07-16T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>3</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.5cb25c48-b922-437a-9eec-c94a4a07af05">
+                            <gml:beginPosition>2013-04-04T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:level>LOWER</aixm:level>
+                    <aixm:navigationType>RNAV</aixm:navigationType>
+                    <aixm:start>
+                        <aixm:EnRouteSegmentPoint gml:id="uuid.649994c3-14f2-45be-94f7-b4c14203ce05">
+                            <aixm:pointChoice_airportReferencePoint xlink:type="simple" xlink:href="urn:uuid:16e398ea-66bf-4624-9482-4feda6eb2d19"/>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bc052a">
+                                    <aixm:propertyName>pointChoiceAirportReferencedPoint</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:start>
+                    <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.0e5e3491-8187-46f6-b823-16e3fde5f1fd"/>
+                    <aixm:end>
+                        <aixm:EnRouteSegmentPoint gml:id="uuid.cbb70522-68d9-4085-b33a-c7153c6edf05">
+                            <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="urn:uuid:32ca624f-41a7-48cc-bbd3-a9c344ca93b0"/>
+                        </aixm:EnRouteSegmentPoint>
+                    </aixm:end>
+                </aixm:RouteSegmentTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RouteSegment>
+    </message:hasMember>
+</message:AIXMBasicMessage>
