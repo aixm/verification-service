@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
+<aixm:DME gml:id="uuid.7f1e4c06-5099-435f-9e07-2c7f234c3ef7">
+  <gml:identifier codeSpace="urn:uuid:">7f1e4c06-5099-435f-9e07-2c7f234c3ef7</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:DMETimeSlice gml:id="uuid.07357760-cb85-4079-82e2-ede7e607971c">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.08932b5b-b4b6-4050-900b-5b9b97a17e3f">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>22</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.316687b4-56dc-4f78-a1a4-b5c90d12bb50">
+          <gml:beginPosition>2017-01-05T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>IRV</aixm:designator>
+      <aixm:name>DME18</aixm:name>
+      <aixm:emissionClass nilReason="unknown" xsi:nil="true"/>
+      <aixm:mobile nilReason="unknown" xsi:nil="true"/>
+      <aixm:magneticVariation nilReason="unknown" xsi:nil="true"/>
+      <aixm:magneticVariationAccuracy nilReason="unknown" xsi:nil="true"/>
+      <aixm:dateMagneticVariation nilReason="unknown" xsi:nil="true"/>
+      <aixm:flightChecked>YES</aixm:flightChecked>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.003d6921-1bf1-4345-ad34-6e52ae8b551f" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+          <gml:pos>23.9706389 56.9323056</gml:pos>
+          <aixm:horizontalAccuracy uom="M">1</aixm:horizontalAccuracy>
+          <aixm:elevation uom="M">30</aixm:elevation>
+          <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+          <aixm:verticalAccuracy uom="M">1</aixm:verticalAccuracy>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:authority>
+        <aixm:AuthorityForNavaidEquipment gml:id="uuid.8007a47d-8503-4231-b17a-c2c6fa539887">
+          <aixm:type>OWN</aixm:type>
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-89eb-0ae9-e053-0b751dc2b779"/>
+        </aixm:AuthorityForNavaidEquipment>
+      </aixm:authority>
+      <aixm:monitoring nilReason="unknown" xsi:nil="true"/>
+      <aixm:availability>
+        <aixm:NavaidOperationalStatus gml:id="uuid.2f2d0bd9-b65b-4140-8ebb-bfe1e28a527f">
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.02e479fd-14ac-4717-9968-d9e364dc2a10">
+              <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.83571265-cebd-4e07-86a0-d3b7469dd646">
+                  <aixm:note lang="eng">H24</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.6a7d351d-1936-4e08-a1ee-4273d9d4e8fe">
+                  <aixm:note lang="lav">H24</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:NavaidOperationalStatus>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.33ab16e1-a83e-4b4d-87fb-6d0c63ca4cb3">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.fb4b5a33-1402-4c0a-aeb0-48fab878dfb4">
+              <aixm:note lang="eng">IRV DME reading refers to THR 18</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.fb456350-7f68-4f7e-b59a-fee56fde0161">
+              <aixm:note lang="lav">IRV DME lasjums attiecas uz THR 18</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.f6619798-950b-4a4b-a081-bf50e58caa32">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.05c35d96-6822-4f21-aae4-8ac40f86d1e7">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:type nilReason="unknown" xsi:nil="true"/>
+      <aixm:channel>48X</aixm:channel>
+      <aixm:ghostFrequency nilReason="inapplicable" xsi:nil="true"/>
+      <aixm:displace uom="M">321.4</aixm:displace>
+    </aixm:DMETimeSlice>
+  </aixm:timeSlice>
+</aixm:DME> 
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
