@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
+<aixm:Glidepath gml:id="uuid.1a412b11-3fb6-47f4-9810-15d61ae796db">
+  <gml:identifier codeSpace="urn:uuid:">1a412b11-3fb6-47f4-9810-15d61ae796db</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:GlidepathTimeSlice gml:id="uuid.ba28447f-7e8a-4a60-a193-7ade44ff3920">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.42459f97-d39f-41cc-b513-37f4e0266809">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>14</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.919f07e3-a4b9-4e49-a796-399effab9b61">
+          <gml:beginPosition>2017-01-05T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator nilReason="unknown" xsi:nil="true"/>
+      <aixm:name>GP18</aixm:name>
+      <aixm:emissionClass nilReason="unknown" xsi:nil="true"/>
+      <aixm:mobile nilReason="unknown" xsi:nil="true"/>
+      <aixm:magneticVariation nilReason="unknown" xsi:nil="true"/>
+      <aixm:magneticVariationAccuracy nilReason="unknown" xsi:nil="true"/>
+      <aixm:dateMagneticVariation nilReason="unknown" xsi:nil="true"/>
+      <aixm:flightChecked>YES</aixm:flightChecked>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.9149a5b4-536f-4f06-8bc0-75902858034d" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+          <gml:pos>23.9706389 56.9323056</gml:pos>
+          <aixm:horizontalAccuracy uom="M">1</aixm:horizontalAccuracy>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:authority>
+        <aixm:AuthorityForNavaidEquipment gml:id="uuid.f1989b57-106c-45fd-984b-2e6b5b2396fb">
+          <aixm:type>OWN</aixm:type>
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-89eb-0ae9-e053-0b751dc2b779"/>
+        </aixm:AuthorityForNavaidEquipment>
+      </aixm:authority>
+      <aixm:monitoring nilReason="unknown" xsi:nil="true"/>
+      <aixm:availability>
+        <aixm:NavaidOperationalStatus gml:id="uuid.29c2a557-05c0-4af2-80d7-1cc88c9bf4f6">
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.a4c8a1e8-45e6-4461-9aa5-3bd4d7a3d076">
+              <aixm:purpose>OTHER:HOURS_OF_SERVICE</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f2d644c1-e34c-4f2b-823e-5f70723b1c64">
+                  <aixm:note lang="eng">H24</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.44ace5e3-071d-424c-a490-57f9cc845364">
+                  <aixm:note lang="lav">H24</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:NavaidOperationalStatus>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.b516254e-7aad-480f-896a-4b382cd7e5d4">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.b8d22671-54e4-4aea-8e93-22409e692ddd">
+              <aixm:note lang="eng">GP 3.0 
+RDH 52 FT</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.9ddddc66-1518-4847-9522-2f9731f3f86a">
+              <aixm:note lang="lav">GP 3.0 
+RDH 52 FT</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.f83021e8-94fe-4c98-a19c-cd382c14ac9b">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.fc204ce8-d89a-4526-bb1b-38442bf656e7">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:frequency uom="MHZ">331.7</aixm:frequency>
+      <aixm:slope>3</aixm:slope>
+      <aixm:angleAccuracy nilReason="unknown" xsi:nil="true"/>
+      <!-- ERROR: It is prohibited that GlidepathTimeSlice has rdh value and GlidepathTimeSlice has rdh@uom value unspecified -->
+      <aixm:rdh>52.44</aixm:rdh>
+      <aixm:rdhAccuracy nilReason="unknown" xsi:nil="true"/>
+    </aixm:GlidepathTimeSlice>
+  </aixm:timeSlice>
+</aixm:Glidepath> 
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
