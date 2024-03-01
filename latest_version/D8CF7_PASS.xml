@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
+    <aixm:Navaid gml:id="uuid.5934514c-b3e0-4788-98d9-aee9bda50149">
+        <gml:identifier codeSpace="urn:uuid:">5934514c-b3e0-4788-98d9-aee9bda50149</gml:identifier>
+        <gml:boundedBy xsi:nil="true"/>
+        <aixm:timeSlice>
+            <aixm:NavaidTimeSlice gml:id="uuid.ed4b67e3-0f60-4732-9643-eb81b6a76220">
+                <gml:validTime>
+                    <gml:TimePeriod gml:id="uuid.c65805be-3264-41c6-b4a4-9b0419798148">
+                        <gml:beginPosition>2022-11-03T00:00:00Z</gml:beginPosition>
+                        <gml:endPosition indeterminatePosition="unknown"/>
+                    </gml:TimePeriod>
+                </gml:validTime>
+                <aixm:interpretation>BASELINE</aixm:interpretation>
+                <aixm:sequenceNumber>3</aixm:sequenceNumber>
+                <aixm:correctionNumber>0</aixm:correctionNumber>
+                <aixm:featureLifetime>
+                    <gml:TimePeriod gml:id="uuid.c759552b-d5c7-498f-bf4a-2cb1b93f0354">
+                        <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+                        <gml:endPosition indeterminatePosition="unknown"/>
+                    </gml:TimePeriod>
+                </aixm:featureLifetime>
+                <aixm:type>VOR</aixm:type>
+                <aixm:designator>FSD</aixm:designator>
+                <aixm:name>SIOUX FALLS</aixm:name>
+                <aixm:navaidEquipment>
+                    <aixm:NavaidComponent gml:id="uuid.928d518d-a9aa-4a64-9370-d66c3073f1df">
+                        <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+                        <aixm:theNavaidEquipment xlink:type="simple"
+                                                 xlink:href="#uuid.4fea066c-a983-49e1-abf7-96c8e891f9d9"/>
+                    </aixm:NavaidComponent>
+                </aixm:navaidEquipment>
+                <aixm:location>
+                    <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4269"
+                                        gml:id="uuid.07aff0e2-4778-4d1b-9135-94d8cbd1c1e5">
+                        <gml:pos>43.64949056 -96.781125</gml:pos>
+                        <aixm:annotation>
+                            <aixm:Note gml:id="uuid.6c6a010e-477e-439e-bc5c-e5915ca7865c">
+                                <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                <aixm:translatedNote>
+                                    <aixm:LinguisticNote gml:id="uuid.c8ebddf9-905e-492e-b5e8-75d056ff0645">
+                                        <aixm:note>CRC:433858.166N, 0964652.050W, 1570.5, , 9AC414F0</aixm:note>
+                                    </aixm:LinguisticNote>
+                                </aixm:translatedNote>
+                            </aixm:Note>
+                        </aixm:annotation>
+                        <aixm:elevation uom="FT">1570.5</aixm:elevation>
+                    </aixm:ElevatedPoint>
+                </aixm:location>
+            </aixm:NavaidTimeSlice>
+        </aixm:timeSlice>
+    </aixm:Navaid>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
