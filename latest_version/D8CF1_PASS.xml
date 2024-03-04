@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
+
+<hasMember>
+<aixm:DistanceIndication gml:id="uuid.4d0a8fdc-8712-4007-83b9-cbccb904cecb">
+  <gml:identifier codeSpace="urn:uuid:">4d0a8fdc-8712-4007-83b9-cbccb904cecb</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:DistanceIndicationTimeSlice gml:id="uuid.dc8c687b-eca7-4664-9b31-b23692b66a4b">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.f6a991ac-ce2a-4d1a-aa41-524649c45dad">
+          <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.67373a4e-8e09-4815-a7a5-b308bd288523">
+          <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:distance uom="NM">12.115</aixm:distance>
+      <aixm:minimumReceptionAltitude uom="FL">100</aixm:minimumReceptionAltitude>
+      <aixm:type nilReason="unknown" xsi:nil="true"/>
+      <aixm:fix xlink:type="simple" xlink:href="#uuid.dce095c1-848d-44d4-8a93-a6ef65ce9e15"/>
+      <aixm:pointChoice_navaidSystem xlink:type="simple" xlink:href="#uuid.fa32458e-cac2-4786-8a7f-d652cacfa465"/>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.99115e1c-9ba8-4ebf-ae6b-9397e63c3b35">
+          <aixm:purpose>REMARK</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.08efe477-1e08-4e9d-abb0-cd58db86543b">
+              <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:DistanceIndicationTimeSlice>
+  </aixm:timeSlice>
+</aixm:DistanceIndication> 
+</hasMember>
+
+</AIXMBasicMessage>
+
