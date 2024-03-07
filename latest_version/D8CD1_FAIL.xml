@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
+    <aixm:RouteSegment gml:id="uuid.de746e14-ddcc-4ae6-ba96-b5a4c816cd6c">
+      <gml:identifier codeSpace="urn:uuid:">de746e14-ddcc-4ae6-ba96-b5a4c816cd6c</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:RouteSegmentTimeSlice gml:id="uuid.a28e4279-886e-4b2d-87f2-be6f09b7e53d">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.a5ff4176-dbf2-4e12-bf1d-f85240e7baa4">
+              <gml:beginPosition>2023-03-23T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.adb40951-cd53-4bd1-ab9b-2b19a4e178e1">
+              <gml:beginPosition>2023-03-23T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:level>BOTH</aixm:level>
+          <aixm:upperLimit uom="FL">999</aixm:upperLimit>
+          <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+          <aixm:lowerLimit uom="FL">280</aixm:lowerLimit>
+          <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+          <aixm:reverseMagneticTrack>187</aixm:reverseMagneticTrack>
+          <aixm:length uom="NM">43.4</aixm:length>
+          <aixm:navigationType>RNAV</aixm:navigationType>
+          <aixm:start>
+            <aixm:EnRouteSegmentPoint gml:id="uuid.a3f53c50-4e1c-4def-93fd-37b65121d8ac">
+              <aixm:reportingATC>COMPULSORY</aixm:reportingATC>
+              <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="urn:uuid:881870de-4389-4d0a-b832-db20212d616b"/>
+            </aixm:EnRouteSegmentPoint>
+          </aixm:start>
+          <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.e0395036-6fc5-43c9-8543-aedf89dcff74"/>
+          <aixm:end>
+            <aixm:EnRouteSegmentPoint gml:id="uuid.94a10fce-43f5-4382-a2b8-0049c6057607">
+              <aixm:reportingATC>COMPULSORY</aixm:reportingATC>
+              <aixm:pointChoice_navaidSystem xlink:type="simple" xlink:href="#uuid.78b88bae-29a3-456d-8ed8-c9037f4013e6"/>
+            </aixm:EnRouteSegmentPoint>
+          </aixm:end>
+          <aixm:availability>
+            <aixm:RouteAvailability gml:id="uuid.5e11b08e-7658-4fc7-8453-84e4614127fe">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.4447dfba-4b7e-4a1a-9084-932cfdbefbbe">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.ef517425-dcbd-47b9-b5dc-d990b10841af">
+                      <aixm:note>noSeq:1</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:direction>BACKWARD</aixm:direction>
+              <aixm:status>OPEN</aixm:status>
+              <aixm:levels>
+                <aixm:AirspaceLayer gml:id="uuid.da3f7baf-bdee-4cb3-a63c-747b17f7ccfa">
+                  <!-- ERROR: It is prohibited that AirspaceLayer has upperLimit value and AirspaceLayer has upperLimit@uom value unspecified -->
+                  <aixm:upperLimit>999</aixm:upperLimit>
+                  <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="FL">290</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+                  <aixm:discreteLevelSeries xlink:type="simple" xlink:href="urn:uuid:0942496b-7ce1-0b22-e053-0b751dc2499f"/>
+                </aixm:AirspaceLayer>
+              </aixm:levels>
+            </aixm:RouteAvailability>
+          </aixm:availability>
+        </aixm:RouteSegmentTimeSlice>
+      </aixm:timeSlice>
+    </aixm:RouteSegment>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
