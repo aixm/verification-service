@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" 
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+    xmlns:gml="http://www.opengis.net/gml/3.2" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:gco="http://www.isotc211.org/2005/gco" 
+    xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+    xmlns:gts="http://www.isotc211.org/2005/gts" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    gml:id="uniqueId"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd">
+
+
+  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:Airspace gml:id="uuid.f3f17c28-e44b-4077-8635-965cc6a580b4">
+      <gml:identifier codeSpace="urn:uuid:">f3f17c28-e44b-4077-8635-965cc6a580b4</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.152f4839-dd8d-4df1-bfa9-371ed8c67acf">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.52e0b1ce-7189-42c7-b510-a760aa53883f">
+              <gml:beginPosition>2017-11-09T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.a76dbb40-01b5-41ec-8c83-c3e82672ccdb">
+              <gml:beginPosition>2017-11-09T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>R</aixm:type>
+          <aixm:designator>LFR280</aixm:designator>
+          <aixm:name>280</aixm:name>
+          <aixm:designatorICAO>NO</aixm:designatorICAO>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.f58cd54a-5842-4470-8576-9dec3c0e6f1c">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.9bc4f695-95c1-4a55-9d1f-b4875a53b863">
+                  <aixm:upperLimit uom="FT">1750</aixm:upperLimit>
+                  <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                  <!-- ERROR: It is prohibited that AirspaceVolume has maximumLimit value and AirspaceVolume has maximumLimit@uom value unspecified -->
+                  <aixm:maximumLimit>1000</aixm:maximumLimit>
+                  <aixm:maximumLimitReference>SFC</aixm:maximumLimitReference>
+                  <aixm:lowerLimit uom="FT">0</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
+                  <aixm:horizontalProjection>
+                    <aixm:ElevatedSurface xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.b4cb4124-89ad-4b3d-b3f4-a9949b1a7025">
+                      <gml:patches>
+                        <gml:PolygonPatch interpolation="planar">
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember xlink:type="simple">
+                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.95d97bfe-fadd-4ff8-a01e-9c072ff1114e">
+                                  <gml:segments>
+                                    <gml:CircleByCenterPoint interpolation="circularArcCenterPointWithRadius" numArc="1">
+                                      <gml:pos>46.8919444 -0.9313889</gml:pos>
+                                      <gml:radius uom="[nmi_i]">0.8</gml:radius>
+                                    </gml:CircleByCenterPoint>
+                                  </gml:segments>
+                                </aixm:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:ElevatedSurface>
+                  </aixm:horizontalProjection>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.c40019a3-137f-4bbb-babc-5dd3a7cd65e0">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.dcfec61a-f717-433d-a3e4-5cc448ff9992">
+                          <aixm:note>CRC:465331.00N,0005553.00W,,,9D2FE119</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:activation>
+            <aixm:AirspaceActivation gml:id="uuid.c10d6a8f-9705-439f-ae2c-a3db5f108c3f">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.c13e7c61-4691-43ef-b83b-b91231249810">
+                  <aixm:propertyName>timeInterval</aixm:propertyName>
+                  <aixm:purpose>WARNING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.26c59941-3c75-450e-a814-88b8fbae9371">
+                      <aixm:note>HX - no specific working hours</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.4172f6cf-65b8-4de2-b013-1e75596e2aeb">
+                  <aixm:propertyName>timeInterval</aixm:propertyName>
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.9fffcab7-187c-4059-b054-316f5ba2b5a6">
+                      <aixm:note>Remark:Active du 1er MAR au 23 DEC : 0800-2359#ETE : - 1 HR 
+Acitive from MAR the 1st to DEC the 23rd: 0800-2359#SUM: - 1 HR</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:status>ACTIVE</aixm:status>
+            </aixm:AirspaceActivation>
+          </aixm:activation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.34a0b6df-ee47-42e0-80ae-a8ddb54d0860">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f2545d7d-1681-402e-a212-ead1e8039cfb">
+                  <aixm:note>txtRmk:Except for LF-R 149 D when active.#
+Administrator: Parc du Puy du Fou#
+06 89 34 74 81 / 06 70 95 07 44#
+Power-driven ACFT: avoidance mandatory except for:#
+- ACFT operating rescue or public safety flights, when avoidance is not possible#- ACFT authorized by administrator</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </hasMember>
+
+</AIXMBasicMessage>
+
