@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember>
+        <aixm:AirportHeliport gml:id="uuid.31b6c199-8ca0-4f3a-ae67-baff2c670ad7">
+            <gml:identifier codeSpace="urn:uuid:">31b6c199-8ca0-4f3a-ae67-baff2c670ad7</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:AirportHeliportTimeSlice gml:id="uuid.aae4e01b-b80d-4320-b2bc-65402fa39127">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.ca261559-5ea9-404a-b8e0-2e2c91af849d">
+                            <gml:beginPosition>2023-10-05T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>5</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.c12106b8-7304-4531-a080-79536fcab76d">
+                            <gml:beginPosition>2005-05-12T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>ELET</aixm:designator>
+                    <aixm:name>ETTELBRUCK / CENTRE HOSPITALIER DU NORD CHDN</aixm:name>
+                    <aixm:locationIndicatorICAO>ELET</aixm:locationIndicatorICAO>
+                    <aixm:type>HP</aixm:type>
+                    <aixm:fieldElevation uom="FT">682</aixm:fieldElevation>
+                    <aixm:transitionAltitude uom="FT">5000</aixm:transitionAltitude>
+                    <aixm:servedCity>
+                        <aixm:City gml:id="uuid.14ec81eb-7aec-4567-91a9-790ef266a732">
+                            <aixm:name>ETTELBRUCK</aixm:name>
+                        </aixm:City>
+                    </aixm:servedCity>
+                    <aixm:responsibleOrganisation>
+                        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.eacc84fe-f363-42a2-b7e0-600f7cf33369">
+                            <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7f4d-0ae9-e053-0b751dc2b779"/>
+                        </aixm:AirportHeliportResponsibilityOrganisation>
+                    </aixm:responsibleOrganisation>
+                    <aixm:ARP>
+                        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.08952ea9-3d72-4f32-af82-68966df69115">
+                            <gml:pos>49.85444 6.09444</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:ARP>
+                    <aixm:contact>
+                        <aixm:ContactInformation gml:id="uuid.58a915b5-3eb1-420a-9ebb-cdfc0bb41352">
+                            <aixm:phoneFax>
+                                <aixm:TelephoneContact gml:id="uuid.84a4688c-9b0c-4fcc-b363-6c13d64e76e0">
+                                    <aixm:facsimile>+352 8166 3095</aixm:facsimile>
+                                </aixm:TelephoneContact>
+                            </aixm:phoneFax>
+                        </aixm:ContactInformation>
+                    </aixm:contact>
+                    <aixm:contact>
+                        <aixm:ContactInformation gml:id="uuid.b30cf59c-dd9d-4bc4-840f-d6f1bff1ad8b">
+                            <aixm:address>
+                                <aixm:PostalAddress gml:id="uuid.b71ff1f4-15f6-4cc8-8369-257d0f93e481">
+                                    <aixm:deliveryPoint>Centre Hospitalier du Nord
+                                        Avenue Salentiny, 120
+                                        L-9080 Ettelbruck</aixm:deliveryPoint>
+                                        </aixm:PostalAddress>
+                                    </aixm:address>
+                                </aixm:ContactInformation>
+                            </aixm:contact>
+                            <aixm:contact>
+                                <aixm:ContactInformation gml:id="uuid.e3fd0477-d67f-4074-8252-2398f49dac4d">
+                                    <aixm:networkNode>
+                                        <aixm:OnlineContact gml:id="uuid.37471057-f288-48c2-a787-7bf578aafca1">
+                                            <aixm:network>INTERNET</aixm:network>
+                                            <aixm:eMail>securite@chdn.lu</aixm:eMail>
+                                        </aixm:OnlineContact>
+                                    </aixm:networkNode>
+                                </aixm:ContactInformation>
+                            </aixm:contact>
+                            <aixm:contact>
+                                <aixm:ContactInformation gml:id="uuid.0614fc10-4ef5-4a67-9369-0c52d83c87fe">
+                                    <aixm:phoneFax>
+                                        <aixm:TelephoneContact gml:id="uuid.f6d08163-f343-43dc-8356-f4db1a48aee1">
+                                            <aixm:voice>+352 8166 3060</aixm:voice>
+                                        </aixm:TelephoneContact>
+                                    </aixm:phoneFax>
+                                </aixm:ContactInformation>
+                            </aixm:contact>
+                            <aixm:contact>
+                                <aixm:ContactInformation gml:id="uuid.25341edc-594f-4024-bc9f-aef600dd1570">
+                                    <aixm:phoneFax>
+                                        <aixm:TelephoneContact gml:id="uuid.fb18f280-b02d-466b-8368-30abb2c9166f">
+                                            <aixm:voice>+352 8166 65550</aixm:voice>
+                                        </aixm:TelephoneContact>
+                                    </aixm:phoneFax>
+                                </aixm:ContactInformation>
+                            </aixm:contact>
+                            <aixm:availability>
+                                <aixm:AirportHeliportAvailability gml:id="uuid.e5f2ad92-e639-4463-aa2f-1135bbf97d8a">
+                                    <aixm:timeInterval>
+                                        <aixm:Timesheet gml:id="uuid.69562329-a517-4aec-ac2c-ddc06899f114">
+                                            <aixm:timeReference>UTC</aixm:timeReference>
+                                            <aixm:day>ANY</aixm:day>
+                                            <aixm:startEvent>SR</aixm:startEvent>
+                                            <aixm:endEvent>SS</aixm:endEvent>
+                                            <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                                            <aixm:excluded>NO</aixm:excluded>
+                                        </aixm:Timesheet>
+                                    </aixm:timeInterval>
+                                    <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+                                    <aixm:usage>
+                                        <aixm:AirportHeliportUsage gml:id="uuid.4f3ff612-5e05-44e5-9e55-0f7d7728aa03">
+                                            <aixm:type>RESERV</aixm:type>
+                                            <aixm:selection>
+                                                <aixm:ConditionCombination gml:id="uuid.35bceb2d-2a17-49e6-bd26-c874faa0d084">
+                                                    <aixm:timeInterval>
+                                                        <aixm:Timesheet gml:id="uuid.3b9e9923-1b99-4eb2-8c80-58411a1a75ea">
+                                                            <aixm:timeReference>UTC</aixm:timeReference>
+                                                            <aixm:day>ANY</aixm:day>
+                                                            <aixm:startEvent>SR</aixm:startEvent>
+                                                            <aixm:endEvent>SS</aixm:endEvent>
+                                                            <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                                                            <aixm:excluded>NO</aixm:excluded>
+                                                        </aixm:Timesheet>
+                                                    </aixm:timeInterval>
+                                                    <aixm:logicalOperator>AND</aixm:logicalOperator>
+                                                    <aixm:aircraft>
+                                                        <aixm:AircraftCharacteristic gml:id="uuid.109fd3ae-df61-4fd2-a211-abafa6bbc299">
+                                                            <aixm:type>HELICOPTER</aixm:type>
+                                                            <aixm:engine>JET</aixm:engine>
+                                                            <aixm:numberEngine>2C</aixm:numberEngine>
+                                                            <aixm:typeAircraftICAO>1</aixm:typeAircraftICAO>
+                                                            <aixm:aircraftLandingCategory>D</aixm:aircraftLandingCategory>
+                                                            <aixm:wingSpan uom="M">10</aixm:wingSpan>
+                                                            <aixm:wingSpanInterpretation>AT_OR_BELOW</aixm:wingSpanInterpretation>
+                                                            <aixm:classWingSpan>III</aixm:classWingSpan>
+                                                            <!-- ERROR: It is prohibited that AircraftCharacteristic has weight value and AircraftCharacteristic has weight@uom value unspecified -->
+                                                            <aixm:weight>2000</aixm:weight>
+                                                            <aixm:weightInterpretation>AT_OR_ABOVE</aixm:weightInterpretation>
+                                                            <aixm:passengers>6</aixm:passengers>
+                                                            <aixm:passengersInterpretation>ABOVE</aixm:passengersInterpretation>
+                                                            <aixm:speed uom="KM_H">200</aixm:speed>
+                                                            <aixm:speedInterpretation>BELOW</aixm:speedInterpretation>
+                                                            <aixm:wakeTurbulence>HIGH</aixm:wakeTurbulence>
+                                                            <aixm:navigationEquipment>DME_DME</aixm:navigationEquipment>
+                                                            <aixm:navigationSpecification>ADVANCED_RNP_1</aixm:navigationSpecification>
+                                                            <aixm:verticalSeparationCapability>NON_RVSM</aixm:verticalSeparationCapability>
+                                                            <aixm:antiCollisionAndSeparationEquipment>ACAS_II</aixm:antiCollisionAndSeparationEquipment>
+                                                            <aixm:communicationEquipment>ADS_B_VDL</aixm:communicationEquipment>
+                                                            <aixm:surveillanceEquipment>MODE_C</aixm:surveillanceEquipment>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                                                                    <aixm:propertyName>itype</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                                                                    <aixm:propertyName>engine</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                                                                    <aixm:propertyName>numberEngine</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                                                                    <aixm:propertyName>typeAircraftICAO</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+                                                                    <aixm:propertyName>aircraftLandingCategory</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
+                                                                    <aixm:propertyName>wingSpan</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
+                                                                    <aixm:propertyName>wingSpanInterpretation</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
+                                                                    <aixm:propertyName>classWingSpan</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
+                                                                    <aixm:propertyName>weight</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
+                                                                    <aixm:propertyName>weightInterpretation</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
+                                                                    <aixm:propertyName>passengers</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2b">
+                                                                    <aixm:propertyName>passengersInterpretation</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2c">
+                                                                    <aixm:propertyName>speed</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2d">
+                                                                    <aixm:propertyName>speedInterpretation</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2e">
+                                                                    <aixm:propertyName>wakeTurbulence</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2f">
+                                                                    <aixm:propertyName>navigationEquipment</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd30">
+                                                                    <aixm:propertyName>navigationSpecification</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd31">
+                                                                    <aixm:propertyName>verticalSeparationCapability</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd32">
+                                                                    <aixm:propertyName>antiCollisionAndSeparationEquipment</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd33">
+                                                                    <aixm:propertyName>communicationEquipment</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd34">
+                                                                    <aixm:propertyName>surveillanceEquipment</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                            <aixm:annotation>
+                                                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd35">
+                                                                    <aixm:propertyName>annotation</aixm:propertyName>
+                                                                </aixm:Note>
+                                                            </aixm:annotation>
+                                                        </aixm:AircraftCharacteristic>
+                                                    </aixm:aircraft>
+                                                    <aixm:flight>
+                                                        <aixm:FlightCharacteristic gml:id="uuid.e4749269-9010-4992-8185-b91880fce4a8">
+                                                            <aixm:status>HOSP</aixm:status>
+                                                            <aixm:military>CIVIL</aixm:military>
+                                                        </aixm:FlightCharacteristic>
+                                                    </aixm:flight>
+                                                </aixm:ConditionCombination>
+                                            </aixm:selection>
+                                            <aixm:annotation>
+                                                <aixm:Note gml:id="uuid.02206939-59aa-442c-81d7-29775d0f7dbb">
+                                                    <aixm:purpose>REMARK</aixm:purpose>
+                                                    <aixm:translatedNote>
+                                                        <aixm:LinguisticNote gml:id="uuid.7a990b92-e036-4d15-86f1-ebdc4fac69bc">
+                                                            <aixm:note>txtRmk:PPR</aixm:note>
+                                                        </aixm:LinguisticNote>
+                                                    </aixm:translatedNote>
+                                                </aixm:Note>
+                                            </aixm:annotation>
+                                        </aixm:AirportHeliportUsage>
+                                    </aixm:usage>
+                                </aixm:AirportHeliportAvailability>
+                            </aixm:availability>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.2d2ee9aa-5ba5-420a-8049-893bd999b2f1">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.a390ad74-fb7a-4da4-bddb-08ee73d6b040">
+                                            <aixm:note>CRC:495116N, 0060540E, 682, , E3C4A40A</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.27bf523b-4f8e-4b12-bb22-9310cb8a805f">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.16891338-3d25-4342-aff3-935ac25397e9">
+                                            <aixm:note>Organisation in charge:HOSP HLP (SEE ADDRESS)</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.e6d16001-fe46-4236-ac5a-8f72a85e8f6e">
+                                    <aixm:purpose>REMARK</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.9bb2625d-dd78-4402-b328-602cb8c92c39">
+                                            <aixm:note>txtRmk:PPR (Hospital heliport).</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:AirportHeliportTimeSlice>
+                    </aixm:timeSlice>
+                </aixm:AirportHeliport>
+            </message:hasMember>
+
+</message:AIXMBasicMessage>
+
