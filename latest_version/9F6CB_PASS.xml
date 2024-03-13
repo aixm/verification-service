@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
+    <aixm:VOR gml:id="uuid.3e45dd8b-5d8e-470e-9bb6-688d4a87d50d">
+      <gml:identifier codeSpace="urn:uuid:">3e45dd8b-5d8e-470e-9bb6-688d4a87d50d</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:VORTimeSlice gml:id="uuid.2de2547b-d0ad-4405-99c8-24568c0a756c">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.ab492093-d5ea-4318-8983-36019c63f4e0">
+              <gml:beginPosition>2017-11-09T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.c63225ab-aecf-44f3-94cf-fc5f7b875bf0">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>KHG</aixm:designator>
+          <aixm:name>KHARK ISLAND</aixm:name>
+          <aixm:location>
+            <aixm:ElevatedPoint  srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.2f64c8cb-436a-4f36-b3a8-5e717daa8450">
+              <gml:pos>29.263889 50.316861</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.188aa6dc-5ffd-4e91-9ead-0f3978441d0f">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.76e9d57b-74fe-4b0b-9c5f-f200ea75f762">
+                      <aixm:note>CRC:291550.0N, 0501900.7E, , , 286195C5</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:authority>
+            <aixm:AuthorityForNavaidEquipment gml:id="uuid.fbcb112c-561f-4717-a2df-07c8b386cd61">
+              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7f29-0ae9-e053-0b751dc2b779"/>
+            </aixm:AuthorityForNavaidEquipment>
+          </aixm:authority>
+          <aixm:type>DVOR</aixm:type>
+          <aixm:frequency uom="MHZ">113.4</aixm:frequency>
+          <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
+        </aixm:VORTimeSlice>
+      </aixm:timeSlice>
+    </aixm:VOR>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
