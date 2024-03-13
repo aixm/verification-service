@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+    <aixm:RouteSegment gml:id="uuid.400b0494-443a-4ef5-b177-660ea0a97df3">
+      <gml:identifier codeSpace="urn:uuid:">400b0494-443a-4ef5-b177-660ea0a97df3</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:RouteSegmentTimeSlice gml:id="uuid.aedb1c4c-da95-4b68-a631-b64df1983469">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.7d6b8803-cb44-4b71-bc74-4af8f5ab0ab1">
+              <gml:beginPosition>2014-11-13T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.26dc06f7-bf68-435a-81df-5f8a0d1b6f44">
+              <gml:beginPosition>2014-11-13T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:level>LOWER</aixm:level>
+          <aixm:lowerLimit uom="FT">02000</aixm:lowerLimit>
+          <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+          <aixm:trueTrack>357.0066</aixm:trueTrack>
+          <aixm:reverseTrueTrack>177.0037</aixm:reverseTrueTrack>
+          <aixm:length uom="NM">5.5851</aixm:length>
+          <aixm:navigationType>CONV</aixm:navigationType>
+          <!-- ERROR: Found RouteSegmentTimeSlice with assigned minimumEnrouteAltitude value missing unit of measurement -->
+          <aixm:minimumEnrouteAltitude>100</aixm:minimumEnrouteAltitude>
+          <aixm:start>
+            <aixm:EnRouteSegmentPoint gml:id="uuid.ff286b36-c276-4ee1-8e84-f3ac7a331fbd">
+              <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="urn:uuid:9e952a8f-e86f-4475-b5ec-f5d747437916"/>
+            </aixm:EnRouteSegmentPoint>
+          </aixm:start>
+          <aixm:routeFormed xlink:type="simple" xlink:href="#uuid.95fa7dde-6dca-445f-af83-5ec6dfa7577c"/>
+          <aixm:end>
+            <aixm:EnRouteSegmentPoint gml:id="uuid.ba49d379-b7c2-4a28-8902-69c74a1e022c">
+              <aixm:pointChoice_fixDesignatedPoint xlink:type="simple" xlink:href="urn:uuid:f7c7c2b5-aae4-4f5f-a093-d81840c10e37"/>
+            </aixm:EnRouteSegmentPoint>
+          </aixm:end>
+
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd20">
+              <aixm:propertyName>level</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd21">
+              <aixm:propertyName>upperLimit</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd22">
+              <aixm:propertyName>upperLimitReference</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd23">
+              <aixm:propertyName>lowerLimit</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd24">
+              <aixm:propertyName>lowerLimitReference</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd25">
+              <aixm:propertyName>minimumObstacleClearanceAltitude</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd26">
+              <aixm:propertyName>pathType</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd27">
+              <aixm:propertyName>trueTrack</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd28">
+              <aixm:propertyName>magneticTrack</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd29">
+              <aixm:propertyName>reverseTrueTrack</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd2a">
+              <aixm:propertyName>reverseMagneticTrack</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd2b">
+              <aixm:propertyName>length</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd2c">
+              <aixm:propertyName>widthLeft</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd2d">
+              <aixm:propertyName>widthRight</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd2e">
+              <aixm:propertyName>turnDirection</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd2f">
+              <aixm:propertyName>signalGap</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd30">
+              <aixm:propertyName>minimumEnrouteAltitude</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd31">
+              <aixm:propertyName>minimumCrossingAtEnd</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd32">
+              <aixm:propertyName>minimumCrossingAtEndReference</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd33">
+              <aixm:propertyName>maximumCrossingAtEnd</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd34">
+              <aixm:propertyName>maximumCrossingAtEndReference</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd35">
+              <aixm:propertyName>navigationType</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd36">
+              <aixm:propertyName>requiredNavigationPerformance</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd37">
+              <aixm:propertyName>designatorSuffix</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd38">
+              <aixm:propertyName>start</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd39">
+              <aixm:propertyName>routeFormed</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd3a">
+              <aixm:propertyName>evaluationArea</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd3b">
+              <aixm:propertyName>curveExtent</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd3c">
+              <aixm:propertyName>end</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.09dfc7d4-abd0-4776-989e-1951e1bcfd3d">
+              <aixm:propertyName>availability</aixm:propertyName>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:RouteSegmentTimeSlice>
+      </aixm:timeSlice>
+    </aixm:RouteSegment>
+  </message:hasMember>
+</message:AIXMBasicMessage>
