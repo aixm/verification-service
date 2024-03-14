@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:Airspace gml:id="uuid.77e50d82-b4dd-4b1a-b9d4-db04892b0904">
+            <gml:identifier codeSpace="urn:uuid:">77e50d82-b4dd-4b1a-b9d4-db04892b0904</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="uuid.d1db109f-33bc-4087-a8de-03653ce93603">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.2a179727-9fd9-4ad6-aaa0-f13772204134">
+                            <gml:beginPosition>2023-07-13T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>4</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.717a9826-7f56-4838-89ed-0559630ba851">
+                            <gml:beginPosition>2021-09-09T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>PART</aixm:type>
+                    <aixm:designator>LKPR-2</aixm:designator>
+                    <aixm:localType xsi:nil="true"/>
+                    <aixm:name>CTA 2 PRAHA</aixm:name>
+                    <aixm:designatorICAO>NO</aixm:designatorICAO>
+                    <aixm:controlType xsi:nil="true"/>
+                    <aixm:upperLowerSeparation xsi:nil="true"/>
+                    <aixm:class>
+                        <aixm:AirspaceLayerClass gml:id="uuid.cf5a1c70-9af7-49f6-86ea-ecae4942ab5b">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.cf5a1c70-9af7-49f6-86ea-ecae4942abff"/>
+                            </aixm:timeInterval>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                                    <aixm:propertyName>timeInterval</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                                    <aixm:propertyName>specialDateAuthority</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                                    <aixm:propertyName>classification</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                                    <aixm:propertyName>associatedLevels</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:specialDateAuthority/>
+                            <!-- ERROR: Found AirspaceLayerClass without classification value.Backwards mapping to AIXM 4.5 in EAD is impossible. -->
+                            <!-- <aixm:classification>C</aixm:classification> -->
+                            <aixm:associatedLevels>
+                                <aixm:AirspaceLayer gml:id="uuid.f5868e1e-d11c-4be7-a075-16d9c8c3b7d2">
+                                    <aixm:upperLimit uom="FL">660</aixm:upperLimit>
+                                    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                                    <aixm:lowerLimit uom="FL">95</aixm:lowerLimit>
+                                    <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+                                    <aixm:altitudeInterpretation>BETWEEN</aixm:altitudeInterpretation>
+                                    <aixm:discreteLevelSeries xsi:nil="true"/>
+                                    <aixm:annotation xsi:nil="true"/>
+                                </aixm:AirspaceLayer>
+                            </aixm:associatedLevels>
+                        </aixm:AirspaceLayerClass>
+                    </aixm:class>
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+</message:AIXMBasicMessage>
