@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage
+        xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+        xmlns:gts="http://www.isotc211.org/2005/gts"
+        xmlns:gco="http://www.isotc211.org/2005/gco"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:gml="http://www.opengis.net/gml/3.2"
+        xmlns:gss="http://www.isotc211.org/2005/gss"
+        xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+        xmlns:gsr="http://www.isotc211.org/2005/gsr"
+        xmlns:gmd="http://www.isotc211.org/2005/gmd"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+  <message:hasMember>
+    <aixm:Airspace gml:id="uuid.9a6b8ec1-ca88-46f7-afee-14f2f7deca65">
+      <gml:identifier codeSpace="urn:uuid:">9a6b8ec1-ca88-46f7-afee-14f2f7deca65</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.bdbd27a3-65a2-4b95-993c-07020f5e1c13">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.5a414a65-346e-4afd-b1ee-8cba63350811">
+              <gml:beginPosition>2023-09-07T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.ff3f1e37-f33d-4f45-a74e-69d2ee40755d">
+              <gml:beginPosition>2023-09-07T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>OTHER:FRA</aixm:type>
+          <!-- ERROR: It is prohibited that AirspaceTimeSlice has-descendant more-than one theAirspace.AirspaceVolume.horizontalProjection and AirspaceTimeSlice has at-least 10 timeSlice.AirspaceTimeSlice.geometryComponent and AirspaceTimeSlice has at-most 99 timeSlice.AirspaceTimeSlice.geometryComponent and AirspaceTimeSlice has timeSlice.AirspaceTimeSlice.designator value expressed-with more-than 8 'characters' -->
+          <aixm:designator>ABCDEFGHIJ</aixm:designator>
+          <aixm:localType>FRA</aixm:localType>
+          <aixm:name>DFS FRA CELL EDUU WEST</aixm:name>
+          <aixm:designatorICAO>NO</aixm:designatorICAO>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.7134b462-da52-48ca-b269-d2ec769f3c27">
+              <aixm:operation>BASE</aixm:operation>
+              <aixm:operationSequence>1</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.9d1babd6-cff2-4964-89a6-65ac96b2273d">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.1207a355-6d72-4b52-91de-81a3b19ec2b6">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.a4457a42-50f2-4d08-8f0e-9af787097466"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.5dcb5a53-1054-4c0b-b7e3-c6013b6137f0">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>2</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.df3c1542-3e6e-43a9-8df2-116583840769">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.be617021-6b93-4f77-8c68-c454297342df">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.d315f98e-84c9-4967-b5b5-3978ac6b95d8"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.44aaaa0d-8656-4c75-b395-1f2d74f8f928">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>3</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.2752e430-251e-4ca4-9e11-1597925897f5">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.65ac8ecd-60c8-4cb9-aeae-84fe854dea15">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.86898e73-b176-4f6c-9400-ead69b6e667a"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.061011e3-f3ff-4bdf-8fbf-9295be1c55d9">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>4</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.9611d86e-5c7d-4330-8aa6-010e93458e05">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.dbc5949f-825d-4c76-885e-47380c1a1b1d">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.9dc76d82-c392-47d1-afaf-f1f210e0efad"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.a121dcb3-ad85-48cd-8b56-fa2fdf4205c4">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>5</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.56953d83-9aa0-41e3-864c-4877636322ba">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.f200b08d-58fb-4ccb-821b-3529edf166f0">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.634e51b0-c332-41c6-bcb0-1492e4c6bfe6"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.0ed295c3-9795-4d15-bbb0-e697655e364b">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>6</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.82a31a42-33dd-49e7-8537-ad7b9d168015">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.9101f43a-e013-4d47-a8d2-55e383acb693">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.fcab1410-b6c8-42a1-a7ba-edcba817f1fb"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.1203b4c7-860b-423c-9312-e002256e79d0">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>7</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.2c29155d-2b9f-4a6c-9b47-82a170198cc2">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.5c31530f-b9e8-4601-b9e4-85da0a077cb8">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.e3770678-a9cb-48f7-a076-8f4d8e1df3f8"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.61fcc100-97a5-4a3e-b3bf-58ff9989103a">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>8</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.e80a87cb-bf4a-4343-b065-a8bb8d094d94">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.1f6d5bda-c7ef-4e8b-a457-9d44ddc996d0">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.664b5a46-e2c3-47f3-88be-5c78d82dc483"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.3435dc01-d94a-41d2-835e-63edac99bcea">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>9</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.3a73b29d-a71d-4b08-a796-0b8c08b1d57b">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.d7a7fbf2-ebe1-4b10-af6d-f73ffdc12af1">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.d740c60e-5ea7-4595-ae78-7f3347fecdae"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.8a62a097-7e6b-4d40-84d2-06865a592666">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>10</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.4618e217-a9df-4185-a965-40426c5b7d3d">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.ab1ff449-77c2-4740-83ce-b6110276d287">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.d9209956-3846-45a4-994f-6ad48311074a"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.a0c425db-d135-4b0e-8592-5d2882b8e0f3">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>11</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.d1c4964d-4677-4581-9e62-0bd02adf38a7">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.cd1e4a18-294e-446e-855e-61034a298722">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.e1c7685e-37e2-4577-808d-7a10dd08b31b"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.b0c4e132-7ad6-4b25-91d9-ce0388638532">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>12</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.290774c6-c20c-45c3-aec4-db0e96bc8537">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.c6b7092d-8b8c-4633-b85b-1d9f29bb2e20">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.fe9a2f27-0ee4-4e25-bf1c-de5b2c37fb8c"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.2487d7fb-0cde-41e0-9a89-5476cbebd30e">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>13</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.4c0a7ecf-c1bd-4aa9-8a45-29c019ffa8fa">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.855e11ba-2bbc-4b04-8171-eda5fbe7180d">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.94b4d5ec-ebe6-48fa-9ef8-f57a94860960"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.ac569c6e-2437-4656-bcc4-5a66b74d4803">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>14</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.1467276b-06fc-4fdc-a58a-1125da62decd">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.159a9eb7-70e6-49f2-924f-83162dd8fb58">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.6ac8faa5-8a68-456d-9d0b-5391155050e7"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.3cff657f-5e1d-417f-8baa-591ce653eb67">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>15</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.1782f6af-6832-4bcb-8aac-dae462ba2361">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.b53524a3-84a9-421f-8885-ef308444396d">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.074ad22d-e8a7-4958-aeff-668ecab68b2c"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.25867f9b-c11d-42a2-abc0-051e23fd42c8">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>16</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.b8634c3d-97bb-4d18-87f1-2221305deaa4">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.8a144efc-92a8-444a-9ae3-2795bc7a4732">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.68aa4eb8-0d21-4d57-bd46-fc3804ae6047"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.0af9553e-3975-427b-8bc2-085fcb476deb">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>17</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.aac0cc46-3636-422a-b863-65e05cd6bdb1">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.b30c0700-b800-42a7-b32a-c48af10c7116">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.7f89201c-d51b-4f73-8981-8923cad25237"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.93d80582-2d8f-41b4-a73d-0b9ecc168d5c">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>18</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.e77e6e2c-80b0-4127-8a95-dcfbdb88854c">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.5b749b4a-2ea1-419d-b11d-91687deea933">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.5c07019b-58d5-4a5a-a55f-c9852b703e91"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.97b1395d-af37-428e-acb6-cf5fd9540419">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>19</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.15547856-15ac-4eb8-9ffc-3f965d1b9541">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.c66c7b2f-641c-4572-a717-643dc2f759a9">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.4ed17fea-0331-45a7-a836-0b2c8509b74a"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.2bc2393a-597a-45fa-ac37-920b2a495a11">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>20</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.940cc479-e7d8-4349-9032-403d8a473e70">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.c1816ba2-e7ce-4c36-8580-a6c0e5bdc8d3">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.5e63ccf1-d90b-4a4e-b424-cc605baf35a1"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.fddd8c60-b858-47ed-ad5a-bd496c4b3441">
+              <aixm:operation>UNION</aixm:operation>
+              <aixm:operationSequence>21</aixm:operationSequence>
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.6ea80934-1c9c-440a-9df6-f981bdb878a0">
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.5a59b39f-80ee-41bc-b83f-e6bcd3de448b">
+                      <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+                      <aixm:theAirspace xlink:type="simple" xlink:href="#uuid.1a58c33b-a8cc-43c9-a088-8804b49c23c3"/>
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:activation>
+            <aixm:AirspaceActivation gml:id="uuid.38cc0374-994c-4ff2-9cad-2767b73d001f">
+              <aixm:status>ACTIVE</aixm:status>
+            </aixm:AirspaceActivation>
+          </aixm:activation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.d3b4f243-06b8-4860-968c-af0992f6563d">
+              <aixm:purpose>REMARK</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.7b72180c-3d6f-4ca7-b44a-b10a7bec3e11">
+                  <aixm:note>txtRmk:Für grenzüberschreitenden Betrieb mit LSASFRA siehe ENR 1.3 Abschnitt 3.2./For cross-border operations with LSASFRA refer to ENR 1.3 chapter 3.2.</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </message:hasMember>
+</message:AIXMBasicMessage>
