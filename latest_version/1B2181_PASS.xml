@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+    <message:hasMember>
     <aixm:Navaid gml:id="uuid.8cb4439d-ea58-4d0b-8777-eda87dfbaa10">
       <gml:identifier codeSpace="urn:uuid:">8cb4439d-ea58-4d0b-8777-eda87dfbaa10</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -48,8 +57,8 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:NDB gml:id="uuid.d75bed77-bded-43e6-8234-8f831359f3d2">
       <gml:identifier codeSpace="urn:uuid:">d75bed77-bded-43e6-8234-8f831359f3d2</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -97,8 +106,8 @@
         </aixm:NDBTimeSlice>
       </aixm:timeSlice>
     </aixm:NDB>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:NDB gml:id="uuid.d75bed77-bded-43e6-8234-8f831359f352">
       <gml:identifier codeSpace="urn:uuid:">d75bed77-bded-43e6-8234-8f831359f3d2</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -146,8 +155,8 @@
         </aixm:NDBTimeSlice>
       </aixm:timeSlice>
     </aixm:NDB>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.d7784a34-09ee-44ad-b5e8-02b85a1c0d3e">
       <gml:identifier codeSpace="urn:uuid:">d7784a34-09ee-44ad-b5e8-02b85a1c0d3e</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -197,8 +206,8 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:TACAN gml:id="uuid.15d35443-b21c-4dfa-9394-b9c8d4426d35">
       <gml:identifier codeSpace="urn:uuid:">15d35443-b21c-4dfa-9394-b9c8d4426d35</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -253,8 +262,8 @@
         </aixm:TACANTimeSlice>
       </aixm:timeSlice>
     </aixm:TACAN>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.7437bd1d-f1b6-484f-94b8-454be083d275">
       <gml:identifier codeSpace="urn:uuid:">7437bd1d-f1b6-484f-94b8-454be083d275</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -302,8 +311,8 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:VOR gml:id="uuid.bedb052f-fb42-4e44-afa8-54a3c1199ce2">
       <gml:identifier codeSpace="urn:uuid:">bedb052f-fb42-4e44-afa8-54a3c1199ce2</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -352,8 +361,8 @@
         </aixm:VORTimeSlice>
       </aixm:timeSlice>
     </aixm:VOR>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.455e3379-b9a5-4cea-b5a7-197a0b5c2066">
       <gml:identifier codeSpace="urn:uuid:">455e3379-b9a5-4cea-b5a7-197a0b5c2066</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -417,8 +426,8 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Localizer gml:id="uuid.4a8689ac-e101-4ea1-9ddb-9ebca88dff40">
       <gml:identifier codeSpace="urn:uuid:">4a8689ac-e101-4ea1-9ddb-9ebca88dff40</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -464,8 +473,8 @@
         </aixm:LocalizerTimeSlice>
       </aixm:timeSlice>
     </aixm:Localizer>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.f089fccc-83e5-4753-9293-0b8c73f7b02b">
       <gml:identifier codeSpace="urn:uuid:">f089fccc-83e5-4753-9293-0b8c73f7b02b</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -565,8 +574,8 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Localizer gml:id="uuid.e5bf0438-77d8-483e-bdc0-6323a4cb3c77">
       <gml:identifier codeSpace="urn:uuid:">e5bf0438-77d8-483e-bdc0-6323a4cb3c77</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -655,8 +664,8 @@
         </aixm:LocalizerTimeSlice>
       </aixm:timeSlice>
     </aixm:Localizer>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:DME gml:id="uuid.52461320-48e5-4742-bc3d-553dad46d9cf">
       <gml:identifier codeSpace="urn:uuid:">52461320-48e5-4742-bc3d-553dad46d9cf</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -746,8 +755,8 @@
         </aixm:DMETimeSlice>
       </aixm:timeSlice>
     </aixm:DME>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.f4cab92d-ea29-415c-a382-71e7b136bd7b">
       <gml:identifier codeSpace="urn:uuid:">f4cab92d-ea29-415c-a382-71e7b136bd7b</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -807,8 +816,8 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:DME gml:id="uuid.1bc5edd9-823d-4c87-b139-e24201cd4eec">
       <gml:identifier codeSpace="urn:uuid:">1bc5edd9-823d-4c87-b139-e24201cd4eec</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -872,8 +881,8 @@
         </aixm:DMETimeSlice>
       </aixm:timeSlice>
     </aixm:DME>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:VOR gml:id="uuid.d914c504-a8ed-4471-89fd-25accec3ea59">
       <gml:identifier codeSpace="urn:uuid:">d914c504-a8ed-4471-89fd-25accec3ea59</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -942,8 +951,8 @@
         </aixm:VORTimeSlice>
       </aixm:timeSlice>
     </aixm:VOR>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.3d0730b1-e946-4b24-add6-4daab838dc21">
       <gml:identifier codeSpace="urn:uuid:">3d0730b1-e946-4b24-add6-4daab838dc21</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -991,8 +1000,8 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:MarkerBeacon gml:id="uuid.716da4c0-1a6c-4377-9e65-70922fe98e05">
       <gml:identifier codeSpace="urn:uuid:">716da4c0-1a6c-4377-9e65-70922fe98e05</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1044,8 +1053,8 @@
         </aixm:MarkerBeaconTimeSlice>
       </aixm:timeSlice>
     </aixm:MarkerBeacon>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.8e8e4475-cb2d-4c0f-b29d-fc4eb9b044bf">
       <gml:identifier codeSpace="urn:uuid:">8e8e4475-cb2d-4c0f-b29d-fc4eb9b044bf</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1103,8 +1112,8 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:MarkerBeacon gml:id="uuid.b76bad8c-abc9-471e-8088-bd4fdc3428dc">
       <gml:identifier codeSpace="urn:uuid:">b76bad8c-abc9-471e-8088-bd4fdc3428dc</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1177,8 +1186,8 @@
         </aixm:MarkerBeaconTimeSlice>
       </aixm:timeSlice>
     </aixm:MarkerBeacon>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:NDB gml:id="uuid.57568894-77ae-4281-a56c-6f8a6b1389d0">
       <gml:identifier codeSpace="urn:uuid:">57568894-77ae-4281-a56c-6f8a6b1389d0</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1244,8 +1253,8 @@
         </aixm:NDBTimeSlice>
       </aixm:timeSlice>
     </aixm:NDB>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.27987624-d500-48de-b358-db5e712a5b21">
       <gml:identifier codeSpace="urn:uuid:">27987624-d500-48de-b358-db5e712a5b21</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1308,8 +1317,8 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.b693c86d-7c56-4bc1-a597-9785eaa42e89">
       <gml:identifier codeSpace="urn:uuid:">b693c86d-7c56-4bc1-a597-9785eaa42e89</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1377,8 +1386,8 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:TACAN gml:id="uuid.274811be-08af-4e6f-be03-21589d697235">
       <gml:identifier codeSpace="urn:uuid:">274811be-08af-4e6f-be03-21589d697235</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1456,8 +1465,8 @@
         </aixm:TACANTimeSlice>
       </aixm:timeSlice>
     </aixm:TACAN>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:VOR gml:id="uuid.62f0896d-e17a-49a0-be6b-12f494f8fe35">
       <gml:identifier codeSpace="urn:uuid:">62f0896d-e17a-49a0-be6b-12f494f8fe35</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1526,8 +1535,8 @@
         </aixm:VORTimeSlice>
       </aixm:timeSlice>
     </aixm:VOR>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.6039ceca-46cf-4263-b06e-be54114a3ebb">
       <gml:identifier codeSpace="urn:uuid:">6039ceca-46cf-4263-b06e-be54114a3ebb</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1600,8 +1609,8 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Localizer gml:id="uuid.733f1355-2145-40cb-bb1a-69069456cbfd">
       <gml:identifier codeSpace="urn:uuid:">733f1355-2145-40cb-bb1a-69069456cbfd</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1662,8 +1671,8 @@
         </aixm:LocalizerTimeSlice>
       </aixm:timeSlice>
     </aixm:Localizer>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Glidepath gml:id="uuid.938de174-d553-41d4-a709-a41cca82075e">
       <gml:identifier codeSpace="urn:uuid:">938de174-d553-41d4-a709-a41cca82075e</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1723,8 +1732,8 @@
         </aixm:GlidepathTimeSlice>
       </aixm:timeSlice>
     </aixm:Glidepath>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:DME gml:id="uuid.def46aff-489d-4ed0-89c4-fc5f4a3fd6c7">
       <gml:identifier codeSpace="urn:uuid:">def46aff-489d-4ed0-89c4-fc5f4a3fd6c7</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1789,8 +1798,8 @@
         </aixm:DMETimeSlice>
       </aixm:timeSlice>
     </aixm:DME>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.5aad750d-0563-4020-bd31-cc098a2646ba">
       <gml:identifier codeSpace="urn:uuid:">5aad750d-0563-4020-bd31-cc098a2646ba</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1840,8 +1849,8 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:DME gml:id="uuid.4681f3ac-a54c-4c50-97b9-e650b1986978">
       <gml:identifier codeSpace="urn:uuid:">4681f3ac-a54c-4c50-97b9-e650b1986978</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1902,8 +1911,8 @@
         </aixm:DMETimeSlice>
       </aixm:timeSlice>
     </aixm:DME>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Navaid gml:id="uuid.aa6a2d12-4fc6-4f59-b53d-a6be820cbcf3">
       <gml:identifier codeSpace="urn:uuid:">aa6a2d12-4fc6-4f59-b53d-a6be820cbcf3</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1941,8 +1950,8 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:Localizer gml:id="uuid.16f5f02d-4ff5-4487-a069-69ad6f5032d0">
       <gml:identifier codeSpace="urn:uuid:">16f5f02d-4ff5-4487-a069-69ad6f5032d0</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -1993,5 +2002,5 @@
         </aixm:LocalizerTimeSlice>
       </aixm:timeSlice>
     </aixm:Localizer>
-  </hasMember>
-</AIXMBasicMessage>
+  </message:hasMember>
+</message:AIXMBasicMessage>
