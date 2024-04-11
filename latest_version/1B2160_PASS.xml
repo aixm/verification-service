@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
-                  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
-                  xmlns:gco="http://www.isotc211.org/2005/gco"
-                  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts"
-                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml"
-                  gml:id="uniqueId"
->
-
-
-    <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+    <message:hasMember>
         <aixm:Navaid gml:id="uuid.3d0730b1-e946-4b24-add6-4daab838dc21">
             <gml:identifier codeSpace="urn:uuid:">3d0730b1-e946-4b24-add6-4daab838dc21</gml:identifier>
             <gml:boundedBy xsi:nil="true"/>
@@ -68,9 +69,9 @@
                 </aixm:NavaidTimeSlice>
             </aixm:timeSlice>
         </aixm:Navaid>
-    </hasMember>
+    </message:hasMember>
 
-    <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:MarkerBeacon gml:id="uuid.716da4c0-1a6c-4377-9e65-70922fe98e05">
             <gml:identifier codeSpace="urn:uuid:">716da4c0-1a6c-4377-9e65-70922fe98e05</gml:identifier>
             <gml:boundedBy xsi:nil="true"/>
@@ -136,6 +137,6 @@
         </aixm:MarkerBeacon>
 
 
-    </hasMember>
-</AIXMBasicMessage>
+    </message:hasMember>
+</message:AIXMBasicMessage>
 

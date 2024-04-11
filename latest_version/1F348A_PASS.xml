@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit/5.1.b/EADAudit_Features.xsd">
-
-<hasMember>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+    <message:hasMember>
 <aixm:AirTrafficControlService gml:id="uuid.7646eb12-ef9c-41ed-8f00-edd6d3daa636">
   <gml:identifier codeSpace="urn:uuid:">7646eb12-ef9c-41ed-8f00-edd6d3daa636</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -150,9 +158,9 @@
     </aixm:AirTrafficControlServiceTimeSlice>
   </aixm:timeSlice>
 </aixm:AirTrafficControlService> 
-</hasMember>
+</message:hasMember>
 
-<hasMember>
+<message:hasMember>
 <aixm:AirportHeliport gml:id="uuid.390f38af-46de-4264-aa41-ef2b58cfbbc5">
   <gml:identifier codeSpace="urn:uuid:">390f38af-46de-4264-aa41-ef2b58cfbbc5</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -1945,9 +1953,9 @@
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
-</hasMember>
+</message:hasMember>
 
-<hasMember>
+<message:hasMember>
 <aixm:AirportHeliport gml:id="uuid.7c3a0cae-c605-4a7d-8dc7-67c2d37db0a9">
   <gml:identifier codeSpace="urn:uuid:">7c3a0cae-c605-4a7d-8dc7-67c2d37db0a9</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -3602,9 +3610,9 @@
     </aixm:AirportHeliportTimeSlice>
   </aixm:timeSlice>
 </aixm:AirportHeliport> 
-</hasMember>
+</message:hasMember>
 
-<hasMember>
+<message:hasMember>
 <aixm:Airspace gml:id="uuid.72afba0a-8bcc-424a-a504-51bebc68a584">
   <gml:identifier codeSpace="urn:uuid:">72afba0a-8bcc-424a-a504-51bebc68a584</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -4059,9 +4067,9 @@
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
 </aixm:Airspace> 
-</hasMember>
+</message:hasMember>
 
-<hasMember>
+<message:hasMember>
 <aixm:Airspace gml:id="uuid.5b3f8481-5635-43f4-b9bc-96ca026759a2">
   <gml:identifier codeSpace="urn:uuid:">5b3f8481-5635-43f4-b9bc-96ca026759a2</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -5521,9 +5529,9 @@
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
 </aixm:Airspace> 
-</hasMember>
+</message:hasMember>
 
-<hasMember>
+<message:hasMember>
 <aixm:Airspace gml:id="uuid.b4602f5d-f6a2-4498-af9e-8262803dda54">
   <gml:identifier codeSpace="urn:uuid:">b4602f5d-f6a2-4498-af9e-8262803dda54</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -6576,9 +6584,9 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
     </aixm:AirspaceTimeSlice>
   </aixm:timeSlice>
 </aixm:Airspace> 
-</hasMember>
+</message:hasMember>
 
-<hasMember>
+<message:hasMember>
 <aixm:RadioCommunicationChannel gml:id="uuid.b61afc5b-9c4f-4483-b453-a8c20c0bc706">
   <gml:identifier codeSpace="urn:uuid:">b61afc5b-9c4f-4483-b453-a8c20c0bc706</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -6608,9 +6616,9 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
     </aixm:RadioCommunicationChannelTimeSlice>
   </aixm:timeSlice>
 </aixm:RadioCommunicationChannel> 
-</hasMember>
+</message:hasMember>
 
-<hasMember>
+<message:hasMember>
 <aixm:Unit gml:id="uuid.42883b88-9a1b-4d98-889b-b39f450f4768">
   <gml:identifier codeSpace="urn:uuid:">42883b88-9a1b-4d98-889b-b39f450f4768</gml:identifier>
   <gml:boundedBy xsi:nil="true"/>
@@ -6643,6 +6651,6 @@ CRC:513032.0000N,0081234.0000E,,,B1D8B825</aixm:note>
     </aixm:UnitTimeSlice>
   </aixm:timeSlice>
 </aixm:Unit> 
-</hasMember>
+</message:hasMember>
 
-</AIXMBasicMessage>
+</message:AIXMBasicMessage>
