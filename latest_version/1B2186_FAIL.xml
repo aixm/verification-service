@@ -108,13 +108,13 @@
     </aixm:NDB>
   </message:hasMember>
   <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <aixm:NDB gml:id="uuid.d75bed77-bded-43e6-8234-df831359f3d2">
+    <aixm:NDB gml:id="uuid.d75bed77-bded-43e6-8234-8f831359f362">
       <gml:identifier codeSpace="urn:uuid:">d75bed77-bded-43e6-8234-8f831359f3d2</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
       <aixm:timeSlice>
-        <aixm:NDBTimeSlice gml:id="uuid.baa4fd4e-a257-424c-b971-9de0238f9f0d">
+        <aixm:NDBTimeSlice gml:id="uuid.baa4fd4e-a257-424c-b971-96e0238f9f0d">
           <gml:validTime>
-            <gml:TimePeriod gml:id="uuid.e64f1f05-5a43-4056-8695-dd98a86a2b99">
+            <gml:TimePeriod gml:id="uuid.e64f1f05-5a43-4056-8695-7d98a86a2b99">
               <gml:beginPosition>2007-08-02T00:00:00Z</gml:beginPosition>
               <gml:endPosition indeterminatePosition="unknown"/>
             </gml:TimePeriod>
@@ -123,7 +123,7 @@
           <aixm:sequenceNumber>1</aixm:sequenceNumber>
           <aixm:correctionNumber>0</aixm:correctionNumber>
           <aixm:featureLifetime>
-            <gml:TimePeriod gml:id="uuid.6d4a2921-9dcf-4a1b-80d5-defc32ad6b05">
+            <gml:TimePeriod gml:id="uuid.6d4a2921-9dcf-4a1b-80d5-7efc32ad6b05">
               <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
               <gml:endPosition indeterminatePosition="unknown"/>
             </gml:TimePeriod>
@@ -131,13 +131,13 @@
           <aixm:designator>ELO</aixm:designator>
           <aixm:name>EL OUED</aixm:name>
           <aixm:location>
-            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.af1c8072-403c-47e4-84b5-645ff48f9cd6">
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.af1c8072-403c-47e4-84b5-645ff48f9c76">
               <gml:pos>33.5062778 6.7877722</gml:pos>
               <aixm:annotation>
-                <aixm:Note gml:id="uuid.58bd190b-ac57-402b-8316-cc7bef4bcf14">
+                <aixm:Note gml:id="uuid.58bd190b-ac57-402b-8326-4c7bef4bcf14">
                   <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
                   <aixm:translatedNote>
-                    <aixm:LinguisticNote gml:id="uuid.a52de6a5-fbc3-459a-b654-679caa80146e">
+                    <aixm:LinguisticNote gml:id="uuid.a52de6a5-78c3-459a-b654-679caa80146e">
                       <aixm:note>CRC:333022.60N, 0064715.98E, , , 0573DCCE</aixm:note>
                     </aixm:LinguisticNote>
                   </aixm:translatedNote>
@@ -146,7 +146,7 @@
             </aixm:ElevatedPoint>
           </aixm:location>
           <aixm:authority>
-            <aixm:AuthorityForNavaidEquipment gml:id="uuid.d2508b9a-6f2a-4e60-a2fd-e976c1f193a5">
+            <aixm:AuthorityForNavaidEquipment gml:id="uuid.d2509d9a-6f2a-4e60-a2fd-e976c1f193a5">
               <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7f65-0ae9-e053-0b751dc2b779"/>
             </aixm:AuthorityForNavaidEquipment>
           </aixm:authority>
@@ -979,7 +979,9 @@
             <aixm:NavaidComponent gml:id="uuid.f9d478c1-14ae-447f-8ee8-b903b499a798">
               <aixm:markerPosition>MIDDLE</aixm:markerPosition>
               <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
-              <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.716da4c0-1a6c-4377-9e65-70922fe98e05"/>
+              <!-- <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.716da4c0-1a6c-4377-9e65-70922fe98e05"/> -->
+              <!-- ERROR: The Navaid type shall be consistent with the associated NavaidEquipment(s). -->
+              <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.938de174-d553-41d4-a709-a41cca82075e"/>
             </aixm:NavaidComponent>
           </aixm:navaidEquipment>
           <aixm:location>
@@ -1568,7 +1570,7 @@
           <aixm:navaidEquipment>
             <aixm:NavaidComponent gml:id="uuid.029dc32a-3dc5-4b19-87bd-b4845a2ec2c0">
               <aixm:providesNavigableLocation>NO</aixm:providesNavigableLocation>
-              <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.938de174-d553-41d4-a709-a41cca82075e"/>
+              <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.938de174-d553-41d4-a709-a41cca82075f"/>
             </aixm:NavaidComponent>
           </aixm:navaidEquipment>
           <aixm:navaidEquipment>

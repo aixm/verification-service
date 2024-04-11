@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
-                  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
-                  xmlns:gco="http://www.isotc211.org/2005/gco"
-                  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts"
-                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml"
-                  gml:id="uniqueId"
->
-    <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+    <message:hasMember>
         <aixm:Navaid gml:id="uuid.580fdc26-8d00-4bfe-9b7a-e7f7e76d30a0">
             <gml:identifier codeSpace="urn:uuid:">580fdc26-8d00-4bfe-9b7a-e7f7e76d30a0</gml:identifier>
             <gml:boundedBy xsi:nil="true"/>
@@ -74,8 +77,8 @@
                 </aixm:NavaidTimeSlice>
             </aixm:timeSlice>
         </aixm:Navaid>
-    </hasMember>
-    <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </message:hasMember>
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:NDB gml:id="uuid.a97cff02-b66c-468d-9991-52437c6c4469">
             <gml:identifier codeSpace="urn:uuid:">a97cff02-b66c-468d-9991-52437c6c4469</gml:identifier>
             <gml:boundedBy xsi:nil="true"/>
@@ -138,8 +141,8 @@
                 </aixm:NDBTimeSlice>
             </aixm:timeSlice>
         </aixm:NDB>
-    </hasMember>
-    <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </message:hasMember>
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <aixm:Glidepath gml:id="uuid.aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7">
             <gml:identifier codeSpace="urn:uuid:">aadf3e54-9ba0-49f9-a0fa-a88b5c2c7ed7</gml:identifier>
             <gml:boundedBy xsi:nil="true"/>
@@ -194,5 +197,5 @@
                 </aixm:GlidepathTimeSlice>
             </aixm:timeSlice>
         </aixm:Glidepath>
-    </hasMember>
-</AIXMBasicMessage>
+    </message:hasMember>
+</message:AIXMBasicMessage>
