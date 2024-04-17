@@ -44,7 +44,11 @@
       <aixm:magneticVariationChange>0.2</aixm:magneticVariationChange>
       <aixm:referenceTemperature uom="C">7.5</aixm:referenceTemperature>
       <!-- ERROR: Found AirportHeliportTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('designator', 'name', 'locationIndicatorICAO', 'designatorIATA', 'type', 'certifiedICAO', 'privateUse', 'controlType', 'fieldElevation', 'fieldElevationAccuracy', 'verticalDatum', 'magneticVariation', 'magneticVariationAccuracy', 'dateMagneticVariation', 'magneticVariationChange', 'referenceTemperature', 'altimeterCheckLocation', 'secondaryPowerSupply', 'windDirectionIndicator', 'landingDirectionIndicator', 'transitionAltitude', 'transitionLevel', 'lowestTemperature', 'abandoned', 'certificationDate', 'certificationExpirationDate', 'contaminant', 'servedCity', 'responsibleOrganisation', 'aRP', 'aviationBoundary', 'altimeterSource', 'contact', 'availability') -->
-      <aixm:localType>TRANSITION AREA</aixm:localType>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.1ea2790a-3631-466c-a678-d1ede1c1f85e">
+          <aixm:propertyName>invalidPropertyName</aixm:propertyName>
+        </aixm:Note>
+      </aixm:annotation>
       <aixm:servedCity>
         <aixm:City gml:id="uuid.9b7e62d2-8202-4653-b116-b483eb49a3ea">
           <aixm:name>GHIMBAV</aixm:name>

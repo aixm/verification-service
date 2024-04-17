@@ -38,8 +38,6 @@
       <aixm:associatedApron xlink:type="simple" xlink:href="#uuid.f5c234cb-ade6-4624-83c3-ee42250b9ca9"/>
       <aixm:taxiwayLocation xlink:type="simple" xlink:href="#uuid.6d491591-f076-47f7-8d1c-a65996ccbe5c"/>
       <aixm:standLocation nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
-      <!-- ERROR: Found DeicingAreaTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('associatedApron', 'taxiwayLocation', 'standLocation', 'surfaceProperties', 'extent', 'availability'). -->
-      <aixm:magneticVariation>10</aixm:magneticVariation>
       <aixm:surfaceProperties>
         <aixm:SurfaceCharacteristics gml:id="uuid.d64bfe48-e91d-47fb-b7e8-83319a5f2693">
           <aixm:composition>CONC_ASPH</aixm:composition>
@@ -74,6 +72,12 @@
               <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
             </aixm:LinguisticNote>
           </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <!-- ERROR: Found DeicingAreaTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('associatedApron', 'taxiwayLocation', 'standLocation', 'surfaceProperties', 'extent', 'availability'). -->
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.030b2521-abcd-effe-cdcd-9ebdcfd000">
+          <aixm:propertyName>invalidPropertyName</aixm:propertyName>
         </aixm:Note>
       </aixm:annotation>
       <aixm:availability nilReason="unknown" xsi:nil="true"/>

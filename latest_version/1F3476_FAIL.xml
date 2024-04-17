@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
-                  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
-                  xmlns:gco="http://www.isotc211.org/2005/gco"
-                  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts"
-                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml"
-                  gml:id="uniqueId"
->
-
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+    <message:hasMember>
     <aixm:AirTrafficControlService gml:id="uuid.1a056b39-c611-4d57-924e-bc857a79a1bb">
       <gml:identifier codeSpace="urn:uuid:">1a056b39-c611-4d57-924e-bc857a79a1bb</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -276,11 +278,11 @@
       </aixm:timeSlice>
     </aixm:AirTrafficControlService> 
     
-  </hasMember>
+  </message:hasMember>
 
 
 
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:AirportHeliport gml:id="uuid.27182fa4-a679-4653-9315-e51c08e6c45f">
       <gml:identifier codeSpace="urn:uuid:">27182fa4-a679-4653-9315-e51c08e6c45f</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -603,9 +605,9 @@
         </aixm:AirportHeliportTimeSlice>
       </aixm:timeSlice>
     </aixm:AirportHeliport> 
-  </hasMember>
+  </message:hasMember>
 
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:AirTrafficControlService gml:id="uuid.99eed572-cce1-4731-8172-cf3f613cf425">
       <gml:identifier codeSpace="urn:uuid:">99eed572-cce1-4731-8172-cf3f613cf425</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -675,11 +677,11 @@
         </aixm:AirTrafficControlServiceTimeSlice>
       </aixm:timeSlice>
     </aixm:AirTrafficControlService> 
-  </hasMember>
+  </message:hasMember>
   
   
 
   
-</AIXMBasicMessage>
+</message:AIXMBasicMessage>
 
 

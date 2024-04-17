@@ -106,6 +106,12 @@
           <aixm:elevation uom="FT">484.9</aixm:elevation>
         </aixm:ElevatedPoint>
       </aixm:location>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.1ea2790a-3631-466c-a678-d1ede1c1f860">
+          <!-- ERROR: Found VORTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('designator', 'name', 'emissionClass', 'mobile', 'magneticVariation', 'magneticVariationAccuracy', 'dateMagneticVariation', 'flightChecked', 'location', 'authority', 'monitoring', 'availability', 'type', 'frequency', 'zeroBearingDirection', 'declination'). -->
+          <aixm:propertyName>invalidPropertyName</aixm:propertyName>
+        </aixm:Note>
+      </aixm:annotation>
       <aixm:authority>
         <aixm:AuthorityForNavaidEquipment gml:id="uuid.5b6d498a-26b5-4d85-a966-e2c20546d567">
           <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="urn:uuid:09424934-7fef-0ae9-e053-0b751dc2b779"/>
@@ -114,8 +120,6 @@
       <aixm:type>VOR</aixm:type>
       <aixm:frequency uom="MHZ">113.1</aixm:frequency>
       <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
-      <!-- ERROR: Found VORTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('designator', 'name', 'emissionClass', 'mobile', 'magneticVariation', 'magneticVariationAccuracy', 'dateMagneticVariation', 'flightChecked', 'location', 'authority', 'monitoring', 'availability', 'type', 'frequency', 'zeroBearingDirection', 'declination'). -->
-      <aixm:referenceTemperature uom="C">22</aixm:referenceTemperature>
     </aixm:VORTimeSlice>
   </aixm:timeSlice>
 </aixm:VOR> 

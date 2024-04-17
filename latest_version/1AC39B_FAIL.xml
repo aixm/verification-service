@@ -36,8 +36,16 @@
       </aixm:featureLifetime>
       <aixm:markingICAOStandard nilReason="unknown" xsi:nil="true"/>
       <aixm:condition>GOOD</aixm:condition>
+
+      <!-- AIXM-5.1.1_RULE-1AC39A:
+         It is prohibited that ApronContaminationTimeSlice has annotation.Note.propertyName value other-than-one-of ('type', 'theOrganisationAuthority')
+         The rule is probably incorrect, there exists no *TimeSlice* for ApronContamination -->
       <!-- ERROR: Found ApronMarkingTimeSlice with Note and propertyName referring to non-existing feature property. Existing properties are ('markingICAOStandard', 'condition', 'element', 'markingLocation', 'markedApron'). -->
-      <aixm:magneticVariation>10</aixm:magneticVariation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.030b2521-abcd-effe-cdcd-9ebdcfd000">
+          <aixm:propertyName>invalidPropertyName</aixm:propertyName>
+        </aixm:Note>
+      </aixm:annotation>
       <aixm:element>
         <aixm:MarkingElement gml:id="uuid.76608356-a2cc-4364-9400-7a7e8f19661b">
           <aixm:colour>YELLOW</aixm:colour>

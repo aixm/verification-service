@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" 
-    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
-    xmlns:gml="http://www.opengis.net/gml/3.2" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" 
-    xmlns:gco="http://www.isotc211.org/2005/gco" 
-    xmlns:gmd="http://www.isotc211.org/2005/gmd" 
-    xmlns:gts="http://www.isotc211.org/2005/gts" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:html="http://www.w3.org/1999/xhtml"
-    gml:id="uniqueId"
-    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd">
-
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+    <message:hasMember>
     <aixm:Navaid gml:id="uuid.ec2942ea-8104-4a5f-a46a-a46a1b061646">
       <gml:identifier codeSpace="urn:uuid:">ec2942ea-8104-4a5f-a46a-a46a1b061646</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -60,8 +58,8 @@
         </aixm:NavaidTimeSlice>
       </aixm:timeSlice>
     </aixm:Navaid>
-  </hasMember>
-  <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  </message:hasMember>
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <aixm:VOR gml:id="uuid.cd8e4804-1054-4d37-9664-7683f948173b">
       <gml:identifier codeSpace="urn:uuid:">cd8e4804-1054-4d37-9664-7683f948173b</gml:identifier>
       <gml:boundedBy xsi:nil="true"/>
@@ -117,5 +115,5 @@
         </aixm:VORTimeSlice>
       </aixm:timeSlice>
     </aixm:VOR>
-  </hasMember>
-</AIXMBasicMessage>
+  </message:hasMember>
+</message:AIXMBasicMessage>
