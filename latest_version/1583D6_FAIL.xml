@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
-    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:gmd="http://www.isotc211.org/2005/gmd"
-    xmlns:gco="http://www.isotc211.org/2005/gco"
-    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
-    gml:id="M0000001">
-    
-    <!-- 1583D1 -->    
-    
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
     <message:hasMember>
         <aixm:Navaid gml:id="uuid.d3cbe4ff-2e7f-462e-95e4-90865a0ae4a7">
             <gml:identifier codeSpace="urn:uuid:">d3cbe4ff-2e7f-462e-95e4-90865a0ae4a7</gml:identifier>
@@ -25,10 +23,10 @@
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
                     
-                    <aixm:type>NDB_MKR</aixm:type>
+                    <aixm:type>VOR_DME</aixm:type>
                     <aixm:designator>DONO</aixm:designator>
-                    
-                    <!-- ERROR - Navaid equipment should be NDB for Navaid.type = 'NDB_MKR' -->
+<!--  AIXM-5.1.1_RULE-1583D6 It is prohibited that NavaidTimeSlice has type value as 'VOR_DME' and
+ not NavaidTimeSlice.navaidEquipment@xlink:href references-to  DME ~-->
                     <aixm:navaidEquipment>
                         <aixm:NavaidComponent gml:id="ID_1583D1_03">
                             <aixm:theNavaidEquipment xlink:href="urn:uuid:3c599f5d-8359-47bb-8cee-9eb0b9b31eb8"/>
@@ -61,9 +59,7 @@
                             <aixm:theOrganisationAuthority xlink:href="urn:uuid:c3283c59-d874-45c0-8e83-90640f1d5c14"/>
                         </aixm:AuthorityForNavaidEquipment>
                     </aixm:authority>
-                    
-                    <aixm:frequency>116.5</aixm:frequency>
-                    
+                                        
                 </aixm:VORTimeSlice>
             </aixm:timeSlice>
         </aixm:VOR>

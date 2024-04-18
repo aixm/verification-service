@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+    gml:id="M0000001">
+
+    <!-- AIXM-5.1.1_RULE-1170E2 It is prohibited that NavaidTimeSlice has type value as 'VORTAC' and NavaidTimeSlice.navaidEquipment@xlink:href
+     references-to  TACAN[1] and NavaidTimeSlice.navaidEquipment@xlink:href references-to  TACAN[2] -->
+    <message:hasMember>
+        <aixm:Navaid gml:id="uuid.2a4c5a06-7fa5-4af2-95c3-d6efc3ef03e5">
+            <gml:identifier codeSpace="urn:uuid:">2a4c5a06-7fa5-4af2-95c3-d6efc3ef03e5</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:NavaidTimeSlice gml:id="ID_1170D9_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1170D9_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:type>VORTAC</aixm:type>
+                    <aixm:designator>DONO</aixm:designator>
+                    
+                    <aixm:navaidEquipment>
+                        <aixm:NavaidComponent gml:id="ID_1170D9_03">
+                            <aixm:theNavaidEquipment xlink:href="urn:uuid:c38fc033-f6f2-4dc5-9222-fe36292f541b"/>
+                        </aixm:NavaidComponent>
+                    </aixm:navaidEquipment>
+                    
+                    <!-- ERROR - navaid type VOR_DME should have 1 navaid equipment VOR and one DME -->
+                    <aixm:navaidEquipment>
+                        <aixm:NavaidComponent gml:id="ID_1170D9_04">
+                            <aixm:theNavaidEquipment xlink:href="urn:uuid:f7178fdf-3619-4a04-8dab-d82f3fa617aa"/>
+                        </aixm:NavaidComponent>
+                    </aixm:navaidEquipment>
+                    
+                </aixm:NavaidTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Navaid>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:TACAN gml:id="uuid.c38fc033-f6f2-4dc5-9222-fe36292f541b">
+            <gml:identifier codeSpace="urn:uuid:">c38fc033-f6f2-4dc5-9222-fe36292f541b</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:TACANTimeSlice gml:id="ID_1170D9_05">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1170D9_06">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>DONO</aixm:designator>
+                    
+                    <aixm:authority>
+                        <aixm:AuthorityForNavaidEquipment gml:id="ID_1170D9_07">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:0b0d7709-c9ce-487b-96b2-cb182a02194b"/>
+                        </aixm:AuthorityForNavaidEquipment>
+                    </aixm:authority>
+                    
+                </aixm:TACANTimeSlice>
+            </aixm:timeSlice>
+        </aixm:TACAN>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:DME gml:id="uuid.f7178fdf-3619-4a04-8dab-d82f3fa617aa">
+            <gml:identifier codeSpace="urn:uuid:">f7178fdf-3619-4a04-8dab-d82f3fa617aa</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:DMETimeSlice gml:id="ID_1170D9_08">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1170D9_09">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>DONO</aixm:designator>
+                    
+                    <aixm:authority>
+                        <aixm:AuthorityForNavaidEquipment gml:id="ID_1170D9_10">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:0b0d7709-c9ce-487b-96b2-cb182a02194b"/>
+                        </aixm:AuthorityForNavaidEquipment>
+                    </aixm:authority>
+                    
+                </aixm:DMETimeSlice>
+            </aixm:timeSlice>
+        </aixm:DME>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.0b0d7709-c9ce-487b-96b2-cb182a02194b">
+            <gml:identifier codeSpace="urn:uuid:">0b0d7709-c9ce-487b-96b2-cb182a02194b</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_1170D9_11">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1170D9_12">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:name>DONLON</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                    
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
+</message:AIXMBasicMessage>
