@@ -1,201 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit/5.1.1.b/EADAudit_Features.xsd">
-
-<hasMember>
-<aixm:VOR gml:id="uuid.bf21b074-cf52-42dd-b0c3-3222be6efd5c">
-  <gml:identifier codeSpace="urn:uuid:">bf21b074-cf52-42dd-b0c3-3222be6efd5c</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:VORTimeSlice gml:id="uuid.c739c846-e422-493c-b115-c19cd4ac51e0">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.7ccabbf0-4430-4f68-a42d-3362543805c7">
-          <gml:beginPosition>2007-08-02T00:00:00Z</gml:beginPosition>
-          <gml:endPosition>2020-09-10T00:00:00Z</gml:endPosition>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>1</aixm:sequenceNumber>
-      <aixm:correctionNumber>1</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.aaa4ffa1-c8e1-4a38-a7ff-a506893aac17">
-          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:designator>WMV</aixm:designator>
-      <aixm:name>WELKOM</aixm:name>
-      <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.5a2429cc-cfed-4f32-9027-de805c76235f">
-          <gml:pos>-28.0015944 26.6611472</gml:pos>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+  <message:hasMember>
+    <aixm:VOR gml:id="uuid.bf21b074-cf52-42dd-b0c3-3222be6efd5c">
+      <gml:identifier codeSpace="urn:uuid:">bf21b074-cf52-42dd-b0c3-3222be6efd5c</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:VORTimeSlice gml:id="uuid.c739c846-e422-493c-b115-c19cd4ac51e0">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.7ccabbf0-4430-4f68-a42d-3362543805c7">
+              <gml:beginPosition>2007-08-02T00:00:00Z</gml:beginPosition>
+              <gml:endPosition>2020-09-10T00:00:00Z</gml:endPosition>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>1</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.aaa4ffa1-c8e1-4a38-a7ff-a506893aac17">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>WMV</aixm:designator>
+          <aixm:name>WELKOM</aixm:name>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.5a2429cc-cfed-4f32-9027-de805c76235f">
+              <gml:pos>-28.0015944 26.6611472</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.2d9d3349-0710-4f70-b2bb-dc8c8275a8f2">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.325974ce-3c1f-4778-9865-ed0b43f8d4b9">
+                      <aixm:note>CRC:280005.74S, 0263940.13E, , , EA41563D</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:authority>
+            <aixm:AuthorityForNavaidEquipment gml:id="uuid.4225c8ec-8580-4935-8685-de62f1c36aab">
+              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7e48-0ae9-e053-0b751dc2b779"/>
+            </aixm:AuthorityForNavaidEquipment>
+          </aixm:authority>
+          <aixm:type>TVOR</aixm:type>
+          <aixm:frequency uom="MHZ">116.4</aixm:frequency>
+          <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
+        </aixm:VORTimeSlice>
+      </aixm:timeSlice>
+      <aixm:timeSlice>
+        <aixm:VORTimeSlice gml:id="uuid.54ad893c-e17e-48ff-97cd-221477386895">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.a7d36a1a-442a-49d1-ab78-5ecf64e5698c">
+              <gml:beginPosition>2020-09-10T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.272e94dc-aeba-4699-ac44-f24d759de298">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>WMV</aixm:designator>
+          <aixm:name>WELKOM</aixm:name>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts"   xmlns:aixm="http://www.aixm.aero/schema/5.1.1"  xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:extKey="http://www.aixm.aero/schema/5.1/extensions/externalkey"    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.19443f0a-8ea2-42e3-879f-48995223316e">
+              <gml:pos>-28.0015944 26.6611472</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.e9fef32b-eacd-4d1f-a7bc-15f540eb6f34">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.35d15003-58e3-42ad-b1df-2d1b3a0a01b4">
+                      <aixm:note>CRC:280005.74S, 0263940.13E, , , EA41563D</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:authority>
+            <aixm:AuthorityForNavaidEquipment gml:id="uuid.bc4d781d-f5f0-4738-a448-560bbaa5e5a0">
+              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7e48-0ae9-e053-0b751dc2b779"/>
+            </aixm:AuthorityForNavaidEquipment>
+          </aixm:authority>
           <aixm:annotation>
-            <aixm:Note gml:id="uuid.2d9d3349-0710-4f70-b2bb-dc8c8275a8f2">
-              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+            <aixm:Note gml:id="uuid.c3cb3cdc-8cb3-4b35-b130-44966a888ee2">
+              <aixm:purpose>REMARK</aixm:purpose>
               <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.325974ce-3c1f-4778-9865-ed0b43f8d4b9">
-                  <aixm:note>CRC:280005.74S, 0263940.13E, , , EA41563D</aixm:note>
+                <aixm:LinguisticNote gml:id="uuid.a41e1740-bc47-4c8f-b1e2-c6deb6507522">
+                  <aixm:note>txtRmk:Power Output 50W</aixm:note>
                 </aixm:LinguisticNote>
               </aixm:translatedNote>
             </aixm:Note>
           </aixm:annotation>
-        </aixm:ElevatedPoint>
-      </aixm:location>
-      <aixm:authority>
-        <aixm:AuthorityForNavaidEquipment gml:id="uuid.4225c8ec-8580-4935-8685-de62f1c36aab">
-          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7e48-0ae9-e053-0b751dc2b779"/>
-        </aixm:AuthorityForNavaidEquipment>
-      </aixm:authority>
-      <aixm:type>VOR</aixm:type>
-      <aixm:frequency uom="MHZ">116.4</aixm:frequency>
-      <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
-    </aixm:VORTimeSlice>
-  </aixm:timeSlice>
-  <aixm:timeSlice>
-    <aixm:VORTimeSlice gml:id="uuid.54ad893c-e17e-48ff-97cd-221477386895">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.a7d36a1a-442a-49d1-ab78-5ecf64e5698c">
-          <gml:beginPosition>2020-09-10T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>2</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.272e94dc-aeba-4699-ac44-f24d759de298">
-          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:designator>WMV</aixm:designator>
-      <aixm:name>WELKOM</aixm:name>
-      <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts"   xmlns:aixm="http://www.aixm.aero/schema/5.1.1"  xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:extKey="http://www.aixm.aero/schema/5.1/extensions/externalkey"    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.19443f0a-8ea2-42e3-879f-48995223316e">
-          <gml:pos>-28.0015944 26.6611472</gml:pos>
-          <aixm:annotation>
-            <aixm:Note gml:id="uuid.e9fef32b-eacd-4d1f-a7bc-15f540eb6f34">
-              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-              <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.35d15003-58e3-42ad-b1df-2d1b3a0a01b4">
-                  <aixm:note>CRC:280005.74S, 0263940.13E, , , EA41563D</aixm:note>
-                </aixm:LinguisticNote>
-              </aixm:translatedNote>
-            </aixm:Note>
-          </aixm:annotation>
-        </aixm:ElevatedPoint>
-      </aixm:location>
-      <aixm:authority>
-        <aixm:AuthorityForNavaidEquipment gml:id="uuid.bc4d781d-f5f0-4738-a448-560bbaa5e5a0">
-          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7e48-0ae9-e053-0b751dc2b779"/>
-        </aixm:AuthorityForNavaidEquipment>
-      </aixm:authority>
-      <aixm:annotation>
-        <aixm:Note gml:id="uuid.c3cb3cdc-8cb3-4b35-b130-44966a888ee2">
-          <aixm:purpose>REMARK</aixm:purpose>
-          <aixm:translatedNote>
-            <aixm:LinguisticNote gml:id="uuid.a41e1740-bc47-4c8f-b1e2-c6deb6507522">
-              <aixm:note>txtRmk:Power Output 50W</aixm:note>
-            </aixm:LinguisticNote>
-          </aixm:translatedNote>
-        </aixm:Note>
-      </aixm:annotation>
-      <!-- ERROR: Found VOR with a changed type from/into a value ('TVOR') that is not backwards mapped in EAD. This is not supported in EAD. -->
-      <aixm:type>DVOR</aixm:type>
-      <aixm:frequency uom="MHZ">116.4</aixm:frequency>
-      <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
-    </aixm:VORTimeSlice>
-  </aixm:timeSlice>
-</aixm:VOR> 
-</hasMember>
-<hasMember>
-<aixm:Navaid gml:id="uuid.0662658f-2bda-4e17-9130-664df6271dca">
-  <gml:identifier codeSpace="urn:uuid:">0662658f-2bda-4e17-9130-664df6271dca</gml:identifier>
-  <gml:boundedBy xsi:nil="true"/>
-  <aixm:timeSlice>
-    <aixm:NavaidTimeSlice gml:id="uuid.9cd0749e-b431-44e9-9895-ba3d38c1c8d1">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.7138959b-ce0b-46ab-ae0b-e5bc311145a4">
-          <gml:beginPosition>2007-08-02T00:00:00Z</gml:beginPosition>
-          <gml:endPosition>2020-09-10T00:00:00Z</gml:endPosition>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>1</aixm:sequenceNumber>
-      <aixm:correctionNumber>1</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.03be3ec7-65b8-4ed7-a8bd-bf427dec633f">
-          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:type>VOR</aixm:type>
-      <aixm:designator>WMV</aixm:designator>
-      <aixm:name>WELKOM</aixm:name>
-      <aixm:navaidEquipment>
-        <aixm:NavaidComponent gml:id="uuid.1424d8f0-fc7f-4d67-858a-b4e490eceee4">
-          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
-          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.bf21b074-cf52-42dd-b0c3-3222be6efd5c"/>
-        </aixm:NavaidComponent>
-      </aixm:navaidEquipment>
-      <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.68480aa6-2237-4331-83a8-b2604bbb8c35">
-          <gml:pos>-28.0015944 26.6611472</gml:pos>
-          <aixm:annotation>
-            <aixm:Note gml:id="uuid.fe6c48ab-f35e-4919-a520-b1563ffa50c9">
-              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-              <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.d4cc0cc7-ddac-4ca4-85a2-df65da9c566b">
-                  <aixm:note>CRC:280005.74S, 0263940.13E, , , EA41563D</aixm:note>
-                </aixm:LinguisticNote>
-              </aixm:translatedNote>
-            </aixm:Note>
-          </aixm:annotation>
-        </aixm:ElevatedPoint>
-      </aixm:location>
-    </aixm:NavaidTimeSlice>
-  </aixm:timeSlice>
-  <aixm:timeSlice>
-    <aixm:NavaidTimeSlice gml:id="uuid.a2e69465-a694-44a2-8636-15877490672b">
-      <gml:validTime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.11103202-c43b-4f94-a9ca-707445f1dc9b">
-          <gml:beginPosition>2020-09-10T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </gml:validTime>
-      <aixm:interpretation>BASELINE</aixm:interpretation>
-      <aixm:sequenceNumber>2</aixm:sequenceNumber>
-      <aixm:correctionNumber>0</aixm:correctionNumber>
-      <aixm:featureLifetime xlink:type="simple">
-        <gml:TimePeriod gml:id="uuid.71c680a4-211c-4c80-b8c4-e9b00700d9e2">
-          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
-          <gml:endPosition indeterminatePosition="unknown"/>
-        </gml:TimePeriod>
-      </aixm:featureLifetime>
-      <aixm:type>VOR</aixm:type>
-      <aixm:designator>WMV</aixm:designator>
-      <aixm:name>WELKOM</aixm:name>
-      <aixm:navaidEquipment>
-        <aixm:NavaidComponent gml:id="uuid.569817a2-31f8-4cd7-b502-eef70b0c96f5">
-          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
-          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.bf21b074-cf52-42dd-b0c3-3222be6efd5c"/>
-        </aixm:NavaidComponent>
-      </aixm:navaidEquipment>
-      <aixm:location>
-        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts"   xmlns:aixm="http://www.aixm.aero/schema/5.1.1"  xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:extKey="http://www.aixm.aero/schema/5.1/extensions/externalkey"    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.3f8dd975-92c1-4d4c-97cf-4b3fa967af81">
-          <gml:pos>-28.0015944 26.6611472</gml:pos>
-          <aixm:annotation>
-            <aixm:Note gml:id="uuid.729d4017-e85c-45fa-9743-60751186b35b">
-              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-              <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.c4379d00-6cf0-4af2-a691-963b74c470e5">
-                  <aixm:note>CRC:280005.74S, 0263940.13E, , , EA41563D</aixm:note>
-                </aixm:LinguisticNote>
-              </aixm:translatedNote>
-            </aixm:Note>
-          </aixm:annotation>
-        </aixm:ElevatedPoint>
-      </aixm:location>
-    </aixm:NavaidTimeSlice>
-  </aixm:timeSlice>
-</aixm:Navaid> 
-</hasMember>
-</AIXMBasicMessage>
+          <!-- ERROR: Found VOR with a changed type from/into a value ('TVOR') that is not backwards mapped in EAD. This is not supported in EAD. -->
+          <aixm:type>DVOR</aixm:type>
+          <aixm:frequency uom="MHZ">116.4</aixm:frequency>
+          <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
+        </aixm:VORTimeSlice>
+      </aixm:timeSlice>
+    </aixm:VOR>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:Navaid gml:id="uuid.0662658f-2bda-4e17-9130-664df6271dca">
+      <gml:identifier codeSpace="urn:uuid:">0662658f-2bda-4e17-9130-664df6271dca</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:NavaidTimeSlice gml:id="uuid.9cd0749e-b431-44e9-9895-ba3d38c1c8d1">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.7138959b-ce0b-46ab-ae0b-e5bc311145a4">
+              <gml:beginPosition>2007-08-02T00:00:00Z</gml:beginPosition>
+              <gml:endPosition>2020-09-10T00:00:00Z</gml:endPosition>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>1</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.03be3ec7-65b8-4ed7-a8bd-bf427dec633f">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>VOR</aixm:type>
+          <aixm:designator>WMV</aixm:designator>
+          <aixm:name>WELKOM</aixm:name>
+          <aixm:navaidEquipment>
+            <aixm:NavaidComponent gml:id="uuid.1424d8f0-fc7f-4d67-858a-b4e490eceee4">
+              <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+              <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.bf21b074-cf52-42dd-b0c3-3222be6efd5c"/>
+            </aixm:NavaidComponent>
+          </aixm:navaidEquipment>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.68480aa6-2237-4331-83a8-b2604bbb8c35">
+              <gml:pos>-28.0015944 26.6611472</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.fe6c48ab-f35e-4919-a520-b1563ffa50c9">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.d4cc0cc7-ddac-4ca4-85a2-df65da9c566b">
+                      <aixm:note>CRC:280005.74S, 0263940.13E, , , EA41563D</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+        </aixm:NavaidTimeSlice>
+      </aixm:timeSlice>
+      <aixm:timeSlice>
+        <aixm:NavaidTimeSlice gml:id="uuid.a2e69465-a694-44a2-8636-15877490672b">
+          <gml:validTime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.11103202-c43b-4f94-a9ca-707445f1dc9b">
+              <gml:beginPosition>2020-09-10T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.71c680a4-211c-4c80-b8c4-e9b00700d9e2">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>VOR</aixm:type>
+          <aixm:designator>WMV</aixm:designator>
+          <aixm:name>WELKOM</aixm:name>
+          <aixm:navaidEquipment>
+            <aixm:NavaidComponent gml:id="uuid.569817a2-31f8-4cd7-b502-eef70b0c96f5">
+              <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+              <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.bf21b074-cf52-42dd-b0c3-3222be6efd5c"/>
+            </aixm:NavaidComponent>
+          </aixm:navaidEquipment>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts"   xmlns:aixm="http://www.aixm.aero/schema/5.1.1"  xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:extKey="http://www.aixm.aero/schema/5.1/extensions/externalkey"    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.3f8dd975-92c1-4d4c-97cf-4b3fa967af81">
+              <gml:pos>-28.0015944 26.6611472</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.729d4017-e85c-45fa-9743-60751186b35b">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.c4379d00-6cf0-4af2-a691-963b74c470e5">
+                      <aixm:note>CRC:280005.74S, 0263940.13E, , , EA41563D</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+        </aixm:NavaidTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Navaid>
+  </message:hasMember>
+</message:AIXMBasicMessage>

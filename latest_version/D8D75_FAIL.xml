@@ -43,13 +43,14 @@
                   <aixm:dayTil>BEF_HOL</aixm:dayTil>
                   <aixm:startTime>00:00</aixm:startTime>
                   <aixm:startEvent>SR</aixm:startEvent>
-                  <!-- ERROR: It is prohibited that Timesheet has endTimeRelativeEvent value and Timesheet has endTimeRelativeEvent@uom value unspecified -->
+
                   <aixm:startTimeRelativeEvent>22</aixm:startTimeRelativeEvent>
                   <aixm:startEventInterpretation>EARLIEST</aixm:startEventInterpretation>
 
                   <aixm:endTime>00:00</aixm:endTime>
                   <aixm:endEvent>SS</aixm:endEvent>
-                  <aixm:endTimeRelativeEvent uom="MIN">10</aixm:endTimeRelativeEvent>
+                  <!-- ERROR: It is prohibited that Timesheet has endTimeRelativeEvent value and Timesheet has endTimeRelativeEvent@uom value unspecified -->
+                  <aixm:endTimeRelativeEvent>10</aixm:endTimeRelativeEvent>
                   <aixm:endEventInterpretation>LATEST</aixm:endEventInterpretation>
                   <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
                   <aixm:excluded>NO</aixm:excluded>
