@@ -1,92 +1,221 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
-                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
-                          xmlns:gco="http://www.isotc211.org/2005/gco"
-                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:gml="http://www.opengis.net/gml/3.2"
-                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
-                          xmlns:gss="http://www.isotc211.org/2005/gss"
-                          xmlns:gts="http://www.isotc211.org/2005/gts"
-                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
-                          xmlns:xlink="http://www.w3.org/1999/xlink"
-                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
-                          gml:id="M00001">
-    <message:hasMember>
-        <aixm:Airspace gml:id="uuid.172dcd78-01f8-4010-acec-d916fd817cf8">
-            <gml:identifier codeSpace="urn:uuid:">172dcd78-01f8-4010-acec-d916fd817cf8</gml:identifier>
-            <gml:boundedBy xsi:nil="true"/>
-            <aixm:timeSlice>
-                <aixm:AirspaceTimeSlice gml:id="uuid.b0db2a9d-dba2-4817-8e48-0030c16030f4">
-                    <gml:validTime>
-                        <gml:TimePeriod gml:id="uuid.a22aa2c2-baf8-460a-9e2e-e0b62027cdcd">
-                            <gml:beginPosition>2022-04-21T00:00:00Z</gml:beginPosition>
-                            <gml:endPosition indeterminatePosition="unknown"/>
-                        </gml:TimePeriod>
-                    </gml:validTime>
-                    <aixm:interpretation>BASELINE</aixm:interpretation>
-                    <aixm:sequenceNumber>4</aixm:sequenceNumber>
-                    <aixm:correctionNumber>0</aixm:correctionNumber>
-                    <aixm:featureLifetime>
-                        <gml:TimePeriod gml:id="uuid.79ccc2bd-5b7f-4b5e-aa63-0ba37b6ffcbb">
-                            <gml:beginPosition>2015-10-15T00:00:00Z</gml:beginPosition>
-                            <gml:endPosition indeterminatePosition="unknown"/>
-                        </gml:TimePeriod>
-                    </aixm:featureLifetime>
-                    <aixm:type>CTA</aixm:type>
-                    <aixm:designator>UTAA</aixm:designator>
-                    <aixm:name>ASHGABAT CTA</aixm:name>
-                    <aixm:designatorICAO>NO</aixm:designatorICAO>
-                    <aixm:geometryComponent>
-                        <aixm:AirspaceGeometryComponent gml:id="uuid.3e62ad05-3a25-4834-9e8d-863a441bca32">
-                            <aixm:theAirspaceVolume>
-                                <aixm:AirspaceVolume gml:id="uuid.7fd2f90a-1d92-4686-9ff8-bd821a590445">
-                                    <aixm:upperLimit uom="FL">200</aixm:upperLimit>
-                                    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
-                                    <aixm:lowerLimit uom="M">200</aixm:lowerLimit>
-                                    <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
-                                    <aixm:horizontalProjection>
-                                        <aixm:ElevatedSurface xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.e2f54170-3d22-4a5e-95a6-451050be9c1b">
-                                            <gml:patches>
-                                                <gml:PolygonPatch interpolation="planar">
-                                                    <gml:exterior>
-                                                        <gml:Ring>
-                                                            <gml:curveMember xlink:type="simple">
-                                                                <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.fb37db3d-5421-4fae-a647-87f18ab23ef2">
-                                                                    <gml:segments>
-                                                                        <gml:GeodesicString interpolation="geodesic">
-                                                                            <gml:posList>37.5436333 59.1762833 37.61667 59.06667 37.7 58.83333 37.63333 58.75 37.66667 58.61667 37.7 58.56667 37.65 58.5 37.63333 58.38333 37.66667 58.33333 37.68333 58.21667 37.78333 58.2 37.81667 58.03333 37.86667 57.91667</gml:posList>
-                                                                        </gml:GeodesicString>
-                                                                        <gml:LineStringSegment interpolation="linear">
-                                                                            <gml:posList>37.86667 57.91667 37.86667 57.83333</gml:posList>
-                                                                        </gml:LineStringSegment>
-                                                                        <gml:GeodesicString interpolation="geodesic">
-                    <!-- AIXM-5.1.1_RULE-159372 It is prohibited that ::dataSet has-descendant  gml:posList value contains-substring 'INF' -->
-                                                                            <gml:posList>37.5436333 57.83333 37.91667 57.71667 37.93333 57.5 37.98333 57.35 38.08333 57.38333 38.1321694 57.3223111</gml:posList>
-                                                                        </gml:GeodesicString>
-                                                                        <gml:ArcByCenterPoint interpolation="circularArcCenterPointWithRadius" numArc="1">
-                                                                            <gml:pos>38.0030583 58.3346389</gml:pos>
-                                                                            <gml:radius uom="[nmi_i]">48.5888091</gml:radius>
-                                                                            <gml:startAngle uom="deg">-80.52387012788608</gml:startAngle>
-                                                                            <gml:endAngle uom="deg">124.25755365779094</gml:endAngle>
-                                                                        </gml:ArcByCenterPoint>
-                                                                    </gml:segments>
-                                                                </aixm:Curve>
-                                                            </gml:curveMember>
-                                                        </gml:Ring>
-                                                    </gml:exterior>
-                                                </gml:PolygonPatch>
-                                            </gml:patches>
-                                        </aixm:ElevatedSurface>
-                                    </aixm:horizontalProjection>
-                                </aixm:AirspaceVolume>
-                            </aixm:theAirspaceVolume>
-                        </aixm:AirspaceGeometryComponent>
-                    </aixm:geometryComponent>
-                </aixm:AirspaceTimeSlice>
-            </aixm:timeSlice>
-        </aixm:Airspace>
-    </message:hasMember>
-</message:AIXMBasicMessage>
+<!-- Example created by Wolfgang Scheucher, SOLITEC Software Solutions GmbH. Copyright (c) 2018, EUROCONTROL All rights reserved. -->
+<!-- 159370_ALL_PASS -->
 
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.1.1/message" 
+	xmlns:gts="http://www.isotc211.org/2005/gts" 
+	xmlns:gco="http://www.isotc211.org/2005/gco" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:gss="http://www.isotc211.org/2005/gss" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:gsr="http://www.isotc211.org/2005/gsr" 
+	xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<message:hasMember>
+		<!-- SINGLE PART POINT OBSTACLE (Antenna), Area 1 -->
+		<aixm:VerticalStructure gml:id="uuid.5f68d835-828c-4ccd-91b7-791058d9dd4d">
+			<gml:identifier codeSpace="urn:uuid:">5f68d835-828c-4ccd-91b7-791058d9dd4d</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-0001">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vt120131">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt120131">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-0001</aixm:name> 
+					<aixm:type>ANTENNA</aixm:type>
+					<aixm:lighted>NO</aixm:lighted>
+					<aixm:markingICAOStandard xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:group>NO</aixm:group>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:lightingICAOStandard xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:synchronisedLighting xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:marker xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="V-af4ee6d6">
+							<aixm:verticalExtent uom="M">120</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">30</aixm:verticalExtentAccuracy>
+							<aixm:type>ANTENNA</aixm:type>
+							<aixm:constructionStatus xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:markingPattern xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:markingFirstColour xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:markingSecondColour xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:mobile>NO</aixm:mobile>
+							<aixm:frangible xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:visibleMaterial xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:designator xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:horizontalProjection_location>
+								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="p1121">
+									<gml:pos>52.36171389 -28.03756667</gml:pos>
+									<aixm:horizontalAccuracy uom="M">50</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">150</aixm:elevation>
+									<aixm:geoidUndulation xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="FT">30</aixm:verticalAccuracy>
+								</aixm:ElevatedPoint>
+							</aixm:horizontalProjection_location>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<message:hasMember>
+		<!-- SINGLE PART CURVE OBSTACLE (Windfarm) -->
+		<aixm:VerticalStructure gml:id="uuid.718c2782-a624-405e-86b6-144b40b680b0">
+			<gml:identifier codeSpace="urn:uuid:">718c2782-a624-405e-86b6-144b40b680b0</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-00006">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp0006-1">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp0006-2">
+							<gml:beginPosition>2009-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>TUBORG IIB</aixm:name>
+					<aixm:type>WINDMILL_FARMS</aixm:type>
+					<aixm:lighted>YES</aixm:lighted>
+					<aixm:group>YES</aixm:group>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="vsp0006-1">
+							<aixm:verticalExtent uom="FT">75</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="FT">30</aixm:verticalExtentAccuracy>
+							<aixm:type>WINDMILL_FARMS</aixm:type>
+							<aixm:markingFirstColour>GREEN</aixm:markingFirstColour>
+							<aixm:mobile>NO</aixm:mobile>
+							<aixm:horizontalProjection_linearExtent>
+								<aixm:ElevatedCurve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="crv12456">
+									<gml:segments>
+										<gml:GeodesicString>
+											<gml:posList>54.33333333 -26.48555556 54.3 -26.4</gml:posList>
+										</gml:GeodesicString>
+									</gml:segments>
+									<aixm:horizontalAccuracy uom="M">50</aixm:horizontalAccuracy>
+									<aixm:elevation uom="FT">75</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="FT">30</aixm:verticalAccuracy>
+								</aixm:ElevatedCurve>
+							</aixm:horizontalProjection_linearExtent>
+							<aixm:lighting>
+								<aixm:LightElement gml:id="le0006-1">
+									<aixm:colour>RED</aixm:colour>
+									<aixm:intensityLevel xsi:nil="true" nilReason="unknown"/>
+									<aixm:intensity xsi:nil="true" nilReason="unknown"/>
+									<aixm:type>OTHER:FLASHING</aixm:type>
+								</aixm:LightElement>
+							</aixm:lighting>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<message:hasMember>
+		<!-- SINGLE PART SURFACE OBSTACLE (Windpark) -->
+		<aixm:VerticalStructure gml:id="uuid.499c5bb4-de1e-49fc-8db1-11ffa84406d6">
+			<gml:identifier codeSpace="urn:uuid:">499c5bb4-de1e-49fc-8db1-11ffa84406d6</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EADD-0012">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp00022-1">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp00022-2">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>DONLON NORTHEAST I</aixm:name>
+					<aixm:type>WINDMILL_FARMS</aixm:type>
+					<aixm:lighted>YES</aixm:lighted>
+					<aixm:markingICAOStandard>YES</aixm:markingICAOStandard>
+					<aixm:group>YES</aixm:group>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:lightingICAOStandard>YES</aixm:lightingICAOStandard>
+					<aixm:synchronisedLighting>YES</aixm:synchronisedLighting>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="vsp0002-9">
+							<aixm:verticalExtent uom="M">119.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">1</aixm:verticalExtentAccuracy>
+							<aixm:markingPattern>HBANDS</aixm:markingPattern>
+							<aixm:markingFirstColour>RED</aixm:markingFirstColour>
+							<aixm:markingSecondColour>WHITE</aixm:markingSecondColour>
+							<aixm:mobile>NO</aixm:mobile>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ep00023-1">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="c0001">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.36171388888889 -31.73756666666666 
+																		52.31271388888889 -31.74756666666666 
+																		52.31371388888889 -31.75756666666666
+																		52.36371388888889 -31.75756666666666
+																		52.36171388888889 -31.73756666666666</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="FT">15</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">215.0</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">1</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+							<aixm:lighting>
+								<aixm:LightElement gml:id="le00022-1">
+									<aixm:colour>RED</aixm:colour>
+									<aixm:intensityLevel>LIM</aixm:intensityLevel>
+									<aixm:type>OTHER:FLASHING</aixm:type>
+								</aixm:LightElement>
+							</aixm:lighting>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+</message:AIXMBasicMessage>
