@@ -35,7 +35,6 @@
           <aixm:reference_ownerAirport xlink:type="simple" xlink:href="#uuid.d0db7e40-4db0-4bd7-bdc4-0e215ad77978"/>
           <aixm:obstacle xlink:type="simple" xlink:href="#uuid.c9c4c85f-420e-4604-9309-d0569008d9b9"/>
           <aixm:obstacle xlink:type="simple" xlink:href="#uuid.e7b0c41b-f819-48bc-8ba7-5b0718bdb989"/>
-          <aixm:obstacle xlink:type="simple" xlink:href="#uuid.86e885c7-0575-4ca3-91af-bd21ac5798cf"/>
         </aixm:ObstacleAreaTimeSlice>
       </aixm:timeSlice>
       <aixm:timeSlice>
@@ -2509,7 +2508,8 @@
               <aixm:verticalExtent uom="FT">5.25</aixm:verticalExtent>
               <aixm:horizontalProjection_location>
                 <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.4418131b-373c-4e58-9724-285c60ea149b">
-                  <gml:pos>54.373083333 18.487833333</gml:pos>
+                <!-- ERROR: Found VerticalStucture with location.ElevatedPoint.gml:pos with insufficient resolution (less than 4 decimals, i.e.1 second) -->
+                  <gml:pos>54.373083333 18.48</gml:pos>
                   <aixm:annotation>
                     <aixm:Note gml:id="uuid.efd4cbf9-d0f6-4046-af36-65b324cffb98">
                       <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
@@ -2655,7 +2655,8 @@
               <aixm:verticalExtent uom="FT">5.25</aixm:verticalExtent>
               <aixm:horizontalProjection_location>
                 <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.d07c08b3-43a1-4fb7-98ef-cf3e3f6f50c7">
-                  <gml:pos>54.376972222 18.472111111</gml:pos>
+                <!-- ERROR: Found VerticalStucture with location.ElevatedPoint.gml:pos with insufficient resolution (less than 4 decimals, i.e.1 second) -->
+                  <gml:pos>54.3 18.472111111</gml:pos>
                   <aixm:annotation>
                     <aixm:Note gml:id="uuid.03c720af-dfeb-4c9b-aa01-4046f81681bf">
                       <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
@@ -2771,83 +2772,4 @@
       </aixm:timeSlice>
     </aixm:VerticalStructure>
   </hasMember>
-
-<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xlink:type="simple">
-    <aixm:VerticalStructure gml:id="uuid.86e885c7-0575-4ca3-91af-bd21ac5798cf">
-      <gml:identifier codeSpace="urn:uuid:">86e885c7-0575-4ca3-91af-bd21ac5798cf</gml:identifier>
-      <gml:boundedBy xsi:nil="true"/>
-      <aixm:timeSlice>
-        <aixm:VerticalStructureTimeSlice gml:id="uuid.75f561ca-cbd3-4d35-8c81-363336e2886a">
-          <gml:validTime xlink:type="simple">
-            <gml:TimePeriod gml:id="uuid.dd737647-c108-4648-9061-19e17f33f972">
-              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
-              <gml:endPosition indeterminatePosition="unknown"/>
-            </gml:TimePeriod>
-          </gml:validTime>
-          <aixm:interpretation>BASELINE</aixm:interpretation>
-          <aixm:sequenceNumber>1</aixm:sequenceNumber>
-          <aixm:correctionNumber>0</aixm:correctionNumber>
-          <aixm:featureLifetime xlink:type="simple">
-            <gml:TimePeriod gml:id="uuid.9daceba2-e27b-4f55-a400-50e2193f3be7">
-              <gml:beginPosition>2020-07-16T00:00:00Z</gml:beginPosition>
-              <gml:endPosition indeterminatePosition="unknown"/>
-            </gml:TimePeriod>
-          </aixm:featureLifetime>
-          <aixm:name>EVRA-VSLN-000284</aixm:name>
-          <aixm:type>SIGN</aixm:type>
-          <aixm:lighted>YES</aixm:lighted>
-          <aixm:markingICAOStandard nilReason="unknown" xsi:nil="true"/>
-          <aixm:group>NO</aixm:group>
-          <aixm:length nilReason="unknown" xsi:nil="true"/>
-          <aixm:width nilReason="unknown" xsi:nil="true"/>
-          <aixm:radius nilReason="unknown" xsi:nil="true"/>
-          <aixm:lightingICAOStandard nilReason="unknown" xsi:nil="true"/>
-          <aixm:synchronisedLighting nilReason="unknown" xsi:nil="true"/>
-          <aixm:marker nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
-          <aixm:part>
-            <aixm:VerticalStructurePart gml:id="uuid.6aca459b-bf04-4b3b-a814-5be699af342a">
-              <aixm:type>SIGN</aixm:type>
-              <aixm:markingPattern>MONOCOLOUR</aixm:markingPattern>
-              <aixm:mobile>NO</aixm:mobile>
-              <aixm:frangible>YES</aixm:frangible>
-              <aixm:designator>EVRA-VSLN-000284</aixm:designator>
-              <aixm:horizontalProjection_linearExtent>
-                <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.c2202ff4-11c7-426a-b324-d4db1abaa3f6" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
-                  <gml:segments>
-                    <gml:GeodesicString>
-                      <gml:posList>23.9734625 56.9102574 23.9733877 56.9102523 </gml:posList>
-                    </gml:GeodesicString>
-                  </gml:segments>
-                  <aixm:horizontalAccuracy uom="M">0.03</aixm:horizontalAccuracy>
-                  <aixm:elevation uom="M">11.12</aixm:elevation>
-                  <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
-                  <aixm:verticalAccuracy uom="M">0.051</aixm:verticalAccuracy>
-                </aixm:ElevatedCurve>
-              </aixm:horizontalProjection_linearExtent>
-            </aixm:VerticalStructurePart>
-          </aixm:part>
-          <aixm:hostedPassengerService nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
-          <aixm:supportedGroundLight nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
-          <aixm:hostedNavaidEquipment nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
-          <aixm:hostedSpecialNavStation nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
-          <aixm:hostedUnit nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
-          <aixm:hostedOrganisation nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
-          <aixm:supportedService nilReason="unknown" xlink:type="simple" xsi:nil="true"/>
-          <aixm:annotation>
-            <aixm:Note gml:id="uuid.4c12d0b2-cf7e-4018-8eb8-28b76bf1dc0f">
-              <aixm:purpose>REMARK</aixm:purpose>
-              <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.9ceb62f3-cb4c-4308-a440-a32bd9a3b843">
-                  <aixm:note lang="eng">TRACEABILITY: transition to EAD SDD (AIXM 5.1)</aixm:note>
-                </aixm:LinguisticNote>
-              </aixm:translatedNote>
-            </aixm:Note>
-          </aixm:annotation>
-          <aixm:lightingAvailability nilReason="unknown" xsi:nil="true"/>
-        </aixm:VerticalStructureTimeSlice>
-      </aixm:timeSlice>
-    </aixm:VerticalStructure>
-  </hasMember>
-
-
 </AIXMBasicMessage>
