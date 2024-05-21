@@ -1,147 +1,562 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
-                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
-                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
-                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
-                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:xlink="http://www.w3.org/1999/xlink"
-                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
-                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
-                          gml:id="M00001">
-    <message:hasMember>
-        <aixm:Navaid gml:id="uuid.f4cab92d-ea29-415c-a382-71e7b136bd7b">
-            <gml:identifier codeSpace="urn:uuid:">f4cab92d-ea29-415c-a382-71e7b136bd7b</gml:identifier>
-            <gml:boundedBy xsi:nil="true"/>
-            <aixm:timeSlice>
-                <aixm:NavaidTimeSlice gml:id="uuid.f10405f4-55cd-41b9-9ab9-c17ca98ed7f1">
-                    <gml:validTime>
-                        <gml:TimePeriod gml:id="uuid.3e66359f-28d8-4e23-994a-0554397d2247">
-                            <gml:beginPosition>2022-03-24T00:00:00Z</gml:beginPosition>
-                            <gml:endPosition indeterminatePosition="unknown"/>
-                        </gml:TimePeriod>
-                    </gml:validTime>
-                    <aixm:interpretation>BASELINE</aixm:interpretation>
-                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
-                    <aixm:correctionNumber>0</aixm:correctionNumber>
-                    <aixm:featureLifetime>
-                        <gml:TimePeriod gml:id="uuid.f1ed68da-d85c-4566-b852-455b935dfe6f">
-                            <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
-                            <gml:endPosition indeterminatePosition="unknown"/>
-                        </gml:TimePeriod>
-                    </aixm:featureLifetime>
-                    <aixm:type>VOR_DME</aixm:type>
-                    <aixm:designator>YGQ</aixm:designator>
-                    <aixm:name>GERALDTON</aixm:name>
-                    <aixm:navaidEquipment>
-                        <aixm:NavaidComponent gml:id="uuid.ac558f12-0d42-4bd2-9404-36efa89b7a46">
-                            <aixm:collocationGroup>1</aixm:collocationGroup>
-                            <aixm:providesNavigableLocation>NO</aixm:providesNavigableLocation>
-                            <aixm:theNavaidEquipment xlink:type="simple"
-                                                     xlink:href="#uuid.1bc5edd9-823d-4c87-b139-e24201cd4eec"/>
-                        </aixm:NavaidComponent>
-                    </aixm:navaidEquipment>
-                    <aixm:navaidEquipment>
-                        <aixm:NavaidComponent gml:id="uuid.e42cd81c-9b0e-465a-b83b-86d9d99dfc0c">
-                            <aixm:collocationGroup>1</aixm:collocationGroup>
-                            <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
-                            <!-- ERROR: Found NavaidComponent with theNavaidEquipment@xlink:href value that does not match any NavaidEquipment (${association}) -->
-                            <aixm:theNavaidEquipment xlink:type="simple"
-                                                     xlink:href="#uuid.0891587e-94a7-4468-bd70-77138ef70ae9"/>
-                        </aixm:NavaidComponent>
-                    </aixm:navaidEquipment>
-                    <aixm:location>
-                        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
-                                            xmlns:gml="http://www.opengis.net/gml/3.2"
-                                            xmlns:gts="http://www.isotc211.org/2005/gts"
-                                            xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
-                                            xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
-                                            xmlns:gco="http://www.isotc211.org/2005/gco"
-                                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                                            xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                                            srsName="urn:ogc:def:crs:EPSG::4269"
-                                            gml:id="uuid.d1cdaf0d-706e-4737-a378-38b3b0423f77">
-                            <gml:pos>49.769719361 -86.984321528</gml:pos>
-                            <aixm:annotation>
-                                <aixm:Note gml:id="uuid.975b2b16-3c1c-4db9-872f-c58c8c125b25">
-                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-                                    <aixm:translatedNote>
-                                        <aixm:LinguisticNote gml:id="uuid.6c178a9f-2911-437c-a9cf-94d296704cb5">
-                                            <aixm:note>CRC:494610.9897N, 0865903.5575W, 1205, 123.8878, 7FFA212A
-                                            </aixm:note>
-                                        </aixm:LinguisticNote>
-                                    </aixm:translatedNote>
-                                </aixm:Note>
-                            </aixm:annotation>
-                            <aixm:elevation uom="FT">1205</aixm:elevation>
-                            <aixm:geoidUndulation uom="FT">123.8878</aixm:geoidUndulation>
-                        </aixm:ElevatedPoint>
-                    </aixm:location>
-                    <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:b66c249d-96c4-4411-abb8-adf963f2a4c0"/>
-                    <aixm:servedAirport xlink:type="simple" xlink:href="urn:uuid:717eed8f-3ece-4aec-93d0-824f4901654d"/>
-                </aixm:NavaidTimeSlice>
-            </aixm:timeSlice>
-        </aixm:Navaid>
-    </message:hasMember>
-    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <aixm:AirportClearanceService gml:id="uuid.0891587e-94a7-4468-bd70-77138ef70ae9">
-            <gml:identifier codeSpace="urn:uuid:">0891587e-94a7-4468-bd70-77138ef70ae9</gml:identifier>
-            <gml:boundedBy xsi:nil="true"/>
-            <aixm:timeSlice>
-                <aixm:AirportClearanceServiceTimeSlice gml:id="uuid.893eddf7-a5f9-4ed9-942e-235266e9ccde">
-                    <gml:validTime>
-                        <gml:TimePeriod gml:id="uuid.0385ac84-85e8-489f-9e56-9aec9cf30d8c">
-                            <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
-                            <gml:endPosition indeterminatePosition="unknown"/>
-                        </gml:TimePeriod>
-                    </gml:validTime>
-                    <aixm:interpretation>BASELINE</aixm:interpretation>
-                    <aixm:sequenceNumber>3</aixm:sequenceNumber>
-                    <aixm:correctionNumber>0</aixm:correctionNumber>
-                    <aixm:featureLifetime>
-                        <gml:TimePeriod gml:id="uuid.9e9e3de2-a323-4c37-aae3-d3f4efd0fb8e">
-                            <gml:beginPosition>2019-07-18T00:00:00Z</gml:beginPosition>
-                            <gml:endPosition indeterminatePosition="unknown"/>
-                        </gml:TimePeriod>
-                    </aixm:featureLifetime>
-                    <aixm:flightOperations nilReason="other:notavailable" xsi:nil="true"/>
-                    <aixm:rank nilReason="other:notavailable" xsi:nil="true"/>
-                    <aixm:compliantICAO nilReason="other:notavailable" xsi:nil="true"/>
-                    <aixm:name>SNOW REMOVAL</aixm:name>
-                    <aixm:location xsi:nil="true"/>
-                    <aixm:serviceProvider xsi:nil="true"/>
-                    <aixm:groundCommunication>
-                        <aixm:ContactInformation gml:id="uuid.51cdc62f-9623-4e35-8971-5fa972a034b4">
-                            <aixm:name>SNOW REMOVAL</aixm:name>
-                            <aixm:title nilReason="other:notavailable" xsi:nil="true"/>
-                            <aixm:annotation xsi:nil="true"/>
-                        </aixm:ContactInformation>
-                    </aixm:groundCommunication>
-                    <aixm:availability>
-                        <aixm:ServiceOperationalStatus gml:id="uuid.5a298f66-db2b-4212-b9fb-0478b26e281e">
-                            <aixm:annotation xsi:nil="true"/>
-                            <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
-                        </aixm:ServiceOperationalStatus>
-                    </aixm:availability>
-                    <aixm:annotation>
-                        <aixm:Note gml:id="uuid.67803cc2-1737-4c80-abfe-aaacea404285">
-                            <aixm:purpose>OTHER:EAD_SDD_TRANSITION</aixm:purpose>
-                            <aixm:translatedNote>
-                                <aixm:LinguisticNote gml:id="uuid.6543d9e4-ce3d-4720-ad45-bb8c8a1c6bc7">
-                                    <aixm:note lang="eng">Annotation created in order to force a change in relation to
-                                        EAD transition on AIRAC 2023-04-20
-                                    </aixm:note>
-                                </aixm:LinguisticNote>
-                            </aixm:translatedNote>
-                        </aixm:Note>
-                    </aixm:annotation>
-                    <aixm:airportHeliport xlink:type="simple" xlink:href="#uuid.9025d12a-b952-4a74-9335-19e609aa34a5"/>
-                    <aixm:snowPlan>REF AD 1.2</aixm:snowPlan>
-                </aixm:AirportClearanceServiceTimeSlice>
-            </aixm:timeSlice>
-        </aixm:AirportClearanceService>
-    </message:hasMember>
+<AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit/5.1.1.b/EADAudit_Features.xsd">
 
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xlink:type="simple">
+<aixm:Navaid gml:id="uuid.525d8ba7-112d-4a72-9503-ab70d7f0b8f2">
+  <gml:identifier codeSpace="urn:uuid:">525d8ba7-112d-4a72-9503-ab70d7f0b8f2</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NavaidTimeSlice gml:id="uuid.8b06ff9a-18f6-4e93-a8df-680a867b52ad">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.c3d87bbe-6a10-4019-80e1-ab75ed348c25">
+          <gml:beginPosition>2007-05-10T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.943f820e-ad1f-4a8b-9d85-e376a08e2db2">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:type>VOR_DME</aixm:type>
+      <aixm:designator>YHZ</aixm:designator>
+      <aixm:name>HALIFAX</aixm:name>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.4af749eb-7a2e-4389-b35d-4ac77edb3f8e">
+          <aixm:collocationGroup>1</aixm:collocationGroup>
+          <aixm:providesNavigableLocation>NO</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.117b0e90-6daf-4174-ab3e-3cd84dc33e62"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:navaidEquipment>
+        <aixm:NavaidComponent gml:id="uuid.d7b0296e-a269-4edf-84b4-035eb75192cd">
+          <aixm:collocationGroup>1</aixm:collocationGroup>
+          <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+          <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.5614e0e7-4ea2-4a21-807b-03e674dc5491"/>
+        </aixm:NavaidComponent>
+      </aixm:navaidEquipment>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.8531a698-4ded-44c7-b2a8-9462effe825b">
+          <gml:pos>44.92306 -63.40194</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.7923b1a8-b134-4bd6-a6d2-8c97340c3929">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f2e59d78-a205-4745-add6-32841b7c5c6b">
+                  <aixm:note>CRC:445523N, 0632407W, 604, , BB9C3146</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:elevation uom="FT">604</aixm:elevation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:servedAirport xlink:type="simple" xlink:href="#uuid.889345e0-3b0b-44f2-a5e3-964529806ee7"/>
+    </aixm:NavaidTimeSlice>
+  </aixm:timeSlice>
+</aixm:Navaid>
+  </hasMember>
 
-</message:AIXMBasicMessage>
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xlink:type="simple">
+<aixm:DME gml:id="uuid.117b0e90-6daf-4174-ab3e-3cd84dc33e62">
+  <gml:identifier codeSpace="urn:uuid:">117b0e90-6daf-4174-ab3e-3cd84dc33e62</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:DMETimeSlice gml:id="uuid.725c6aeb-f3e8-4fdd-ad37-afaed93b6e87">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.6e10723f-f4ce-489a-a139-b3642ab77a9d">
+          <gml:beginPosition>2007-05-10T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.a08db39d-c471-4b60-8bd3-162ad29e5892">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>YHZ</aixm:designator>
+      <aixm:name>HALIFAX</aixm:name>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.dc65eb38-749f-4407-b7cb-fb0581297978">
+          <gml:pos>44.92306 -63.40194</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.512e0726-fd46-4338-a28f-178a5e5a4124">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.52c688cd-e7db-4048-83c3-a65474e3ad67">
+                  <aixm:note>CRC:445523N, 0632407W, 604, , BB9C3146</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:elevation uom="FT">604</aixm:elevation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:authority>
+        <aixm:AuthorityForNavaidEquipment gml:id="uuid.d07721e8-55db-4f89-9232-73d872b3c552">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7fe3-0ae9-e053-0b751dc2b779"/>
+        </aixm:AuthorityForNavaidEquipment>
+      </aixm:authority>
+      <aixm:availability>
+        <aixm:NavaidOperationalStatus gml:id="uuid.474c29e4-6b17-4eb8-97cd-989921b0ebb0">
+          <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
+        </aixm:NavaidOperationalStatus>
+      </aixm:availability>
+      <aixm:channel>98X</aixm:channel>
+    </aixm:DMETimeSlice>
+  </aixm:timeSlice>
+</aixm:DME>
+</hasMember>
 
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xlink:type="simple">
+<aixm:VOR gml:id="uuid.3adf3f13-d827-480b-b251-8412c625a24d">
+  <gml:identifier codeSpace="urn:uuid:">3adf3f13-d827-480b-b251-8412c625a24d</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:VORTimeSlice gml:id="uuid.17a20039-2873-4053-8b14-b13194dab703">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.799a23f0-71c1-4fef-9f86-e1a300984282">
+          <gml:beginPosition>2013-10-17T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.8c72e368-f79b-41ea-a524-2a5858a3a9c5">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>YHZ</aixm:designator>
+      <aixm:name>HALIFAX</aixm:name>
+      <aixm:magneticVariation>-18.0233</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2013</aixm:dateMagneticVariation>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.b596efa1-8e3b-4ea0-83ab-7b1bd59e3d28">
+          <gml:pos>44.92306 -63.40194</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.7770367f-4930-404f-bf2e-6d42bbd9ce26">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.fbac2555-fb45-4287-a8dc-cf23d121be25">
+                  <aixm:note>CRC:445523N, 0632407W, 604, , BB9C3146</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:elevation uom="FT">604</aixm:elevation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:authority>
+        <aixm:AuthorityForNavaidEquipment gml:id="uuid.8cbf4e82-a36d-433e-b3ab-da5af4484aa8">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7fe3-0ae9-e053-0b751dc2b779"/>
+        </aixm:AuthorityForNavaidEquipment>
+      </aixm:authority>
+      <aixm:availability>
+        <aixm:NavaidOperationalStatus gml:id="uuid.ba5d0ce7-d959-4abb-bb1b-ca751db0eaed">
+          <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
+        </aixm:NavaidOperationalStatus>
+      </aixm:availability>
+      <aixm:type>VOR</aixm:type>
+      <aixm:frequency uom="MHZ">115.1</aixm:frequency>
+      <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
+      <aixm:declination>-18</aixm:declination>
+    </aixm:VORTimeSlice>
+  </aixm:timeSlice>
+</aixm:VOR>
+</hasMember>
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xlink:type="simple">
+<aixm:NDB gml:id="uuid.5614e0e7-4ea2-4a21-807b-03e674dc5491">
+  <gml:identifier codeSpace="urn:uuid:">5614e0e7-4ea2-4a21-807b-03e674dc5491</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:NDBTimeSlice gml:id="uuid.c0e8f1ac-e77a-49df-8e6c-d922c54a9785">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.aebcec33-3158-4179-abbf-85f069f2d43d">
+          <gml:beginPosition>2014-11-13T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2020-03-26T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.c44d0198-b3c2-4319-b4b9-18853b59f540">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2020-03-26T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>SC</aixm:designator>
+      <aixm:name>SHERBROOKE</aixm:name>
+      <aixm:magneticVariation>-16</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2003</aixm:dateMagneticVariation>
+      <aixm:location>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.e3257316-66b8-4de5-b2bb-fb0bc8ea69be">
+          <gml:pos>45.474553 -71.78270425</gml:pos>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.85554994-c363-459f-9797-75d1e46d296d">
+              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.6ab10ad5-6e41-44cf-a942-eaa05be00e20">
+                  <aixm:note>CRC:452828.3908N, 0714657.7353W, 930, -90.0066, 0E6A797D</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:elevation uom="FT">930</aixm:elevation>
+          <aixm:geoidUndulation uom="FT">-90.0066</aixm:geoidUndulation>
+        </aixm:ElevatedPoint>
+      </aixm:location>
+      <aixm:authority>
+        <aixm:AuthorityForNavaidEquipment gml:id="uuid.4bfcf432-e7d4-4212-8722-e30d9a7a5ad7">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7fe3-0ae9-e053-0b751dc2b779"/>
+        </aixm:AuthorityForNavaidEquipment>
+      </aixm:authority>
+      <aixm:availability>
+        <aixm:NavaidOperationalStatus gml:id="uuid.aba57cb1-d571-4795-a707-da7fbfc7e465">
+          <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
+        </aixm:NavaidOperationalStatus>
+      </aixm:availability>
+      <aixm:frequency uom="KHZ">362</aixm:frequency>
+      <aixm:class>L</aixm:class>
+    </aixm:NDBTimeSlice>
+  </aixm:timeSlice>
+</aixm:NDB>
+</hasMember>
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xlink:type="simple">
+<aixm:OrganisationAuthority gml:id="uuid.09424934-7fe3-0ae9-e053-0b751dc2b779">
+  <gml:identifier codeSpace="urn:uuid:">09424934-7fe3-0ae9-e053-0b751dc2b779</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.38a083f4-8ef5-402f-a047-d0be7657929f">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.437325fd-f984-4ff8-9518-1a4f32c8cffc">
+          <gml:beginPosition>2006-10-04T22:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.e88d4d2f-1bb0-43f8-afc0-34693f570de3">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:name>CANADA</aixm:name>
+      <aixm:designator>CY</aixm:designator>
+      <aixm:type>STATE</aixm:type>
+    </aixm:OrganisationAuthorityTimeSlice>
+  </aixm:timeSlice>
+</aixm:OrganisationAuthority>
+</hasMember>
+
+<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xlink:type="simple">
+<aixm:AirportHeliport gml:id="uuid.889345e0-3b0b-44f2-a5e3-964529806ee7">
+  <gml:identifier codeSpace="urn:uuid:">889345e0-3b0b-44f2-a5e3-964529806ee7</gml:identifier>
+  <gml:boundedBy xsi:nil="true"/>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.303dcd4f-8768-487a-a383-062959adad10">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.e58256aa-f61e-4db9-8b03-70681ef706ab">
+          <gml:beginPosition>2014-02-06T00:00:00Z</gml:beginPosition>
+          <gml:endPosition>2021-06-17T00:00:00Z</gml:endPosition>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>1</aixm:sequenceNumber>
+      <aixm:correctionNumber>1</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.beebccb9-b13d-473b-af38-5cf102f2569e">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>CYHZ</aixm:designator>
+      <aixm:name>STANFIELD INTL</aixm:name>
+      <aixm:locationIndicatorICAO>CYHZ</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>YHZ</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:fieldElevation uom="FT">477</aixm:fieldElevation>
+      <aixm:magneticVariation>-18.1167</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2012</aixm:dateMagneticVariation>
+      <aixm:magneticVariationChange>0.135</aixm:magneticVariationChange>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.4494b0bc-fd34-4f1b-b189-3f4d9c858066">
+          <aixm:name>HALIFAX</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.5a135140-003a-4b67-9ba3-0af1f57c283f">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7fe3-0ae9-e053-0b751dc2b779"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.7ff8b3fe-dab2-4358-b1ae-d4bc23d88ae4">
+          <gml:pos>44.879682306 -63.510193</gml:pos>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.d374a0c7-6ec6-4f87-90bd-7d3e5d5cb12f">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.515a585a-ef6b-42eb-8bff-b3af2b98676d">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.428e06f3-1ef2-4ba4-84e0-d9bcaaad4cff">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.05366f9b-7104-47f7-b6c1-b53a67366ba4">
+                      <aixm:note>txtRmk:NS</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:deliveryPoint>UNKNOWN</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.8629f243-c57f-4fcc-891e-2a05cf6dee29">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.58524d9f-5c94-4c7d-af73-201f87bf0c32">
+              <aixm:voice>902-873-2578</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.4e099f2c-a4d9-42e0-a92b-60f1c8f71d31">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.bd463bfb-1be0-4961-a3cc-0a30fe9d8961">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>00:00</aixm:startTime>
+              <aixm:endTime>24:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.7720420c-e256-4fff-ad75-f399328f41c2">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.12c7886e-9612-43a5-8693-3068769c0221">
+                  <aixm:logicalOperator>NONE</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.daedfb18-f46c-446e-aae8-8103e3aa2158">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>ALL</aixm:origin>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.c817b14f-1615-4595-9007-0fe8e09e17df">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.31691054-ddc1-4f8a-9d93-7a58de72bc0b">
+              <aixm:note>CRC:445246.8563N, 0633036.6948W, 477, , 14B68287</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.82a2059a-fd7c-405a-b061-d36c7bfb66be">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.187f2918-c224-45ce-a60a-6a4261ba7cbc">
+              <aixm:note>Organisation in charge:HALIFAX INTERNATIONAL AIRPORT AUTHORITY</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.66d64d7b-5434-4a3f-a89e-625e1071245a">
+          <aixm:propertyName>windDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.ba03e58e-9685-479c-bdab-a76d02cf662e">
+              <aixm:note>Wind Direction Indicator:LGTD N OF THR 05, LGTD W OF THR 32, LGTD SE OF APN I, LGTD SE OF THR 23, LGTD N OF THR 14.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.97f91bab-ac1d-4b26-846a-143efb911268">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.2a310d03-1f87-4662-a521-ac5546d9f3ce">
+              <aixm:note>Site Description:14NNE</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+  <aixm:timeSlice>
+    <aixm:AirportHeliportTimeSlice gml:id="uuid.9b872333-b2a7-42a3-939e-d7f175c7e761">
+      <gml:validTime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.9bed3b00-4f88-45b9-9a88-70ab65ee59d8">
+          <gml:beginPosition>2021-06-17T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </gml:validTime>
+      <aixm:interpretation>BASELINE</aixm:interpretation>
+      <aixm:sequenceNumber>2</aixm:sequenceNumber>
+      <aixm:correctionNumber>0</aixm:correctionNumber>
+      <aixm:featureLifetime xlink:type="simple">
+        <gml:TimePeriod gml:id="uuid.a71c9015-9949-411a-b072-cae5a141323c">
+          <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+          <gml:endPosition indeterminatePosition="unknown"/>
+        </gml:TimePeriod>
+      </aixm:featureLifetime>
+      <aixm:designator>CYHZ</aixm:designator>
+      <aixm:name>STANFIELD INTL</aixm:name>
+      <aixm:locationIndicatorICAO>CYHZ</aixm:locationIndicatorICAO>
+      <aixm:designatorIATA>YHZ</aixm:designatorIATA>
+      <aixm:type>AD</aixm:type>
+      <aixm:fieldElevation uom="FT">477</aixm:fieldElevation>
+      <aixm:magneticVariation>-18.1167</aixm:magneticVariation>
+      <aixm:dateMagneticVariation>2012</aixm:dateMagneticVariation>
+      <aixm:magneticVariationChange>0.135</aixm:magneticVariationChange>
+      <aixm:servedCity>
+        <aixm:City gml:id="uuid.ac05523e-e60f-44e5-bd7f-5050941a94ac">
+          <aixm:name>HALIFAX</aixm:name>
+        </aixm:City>
+      </aixm:servedCity>
+      <aixm:responsibleOrganisation>
+        <aixm:AirportHeliportResponsibilityOrganisation gml:id="uuid.fce8a768-3f9f-4651-b80d-10d6fd756b79">
+          <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7fe3-0ae9-e053-0b751dc2b779"/>
+        </aixm:AirportHeliportResponsibilityOrganisation>
+      </aixm:responsibleOrganisation>
+      <aixm:ARP>
+        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:audit="http://www.aixm.aero/schema/5.1.1/extensions/audit" xmlns:event="http://www.aixm.aero/schema/5.1.1/event" xmlns:nk="http://www.aixm.aero/schema/5.1.1/extensions/naturalkey" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.b3f99fc0-fb7a-4fa3-af97-762a7a6d91aa">
+          <gml:pos>44.879682306 -63.510193</gml:pos>
+        </aixm:ElevatedPoint>
+      </aixm:ARP>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.c29b14cb-4f3c-4842-8260-47f2f54178e6">
+          <aixm:address>
+            <aixm:PostalAddress gml:id="uuid.34e8e687-8ccd-4fba-8ca8-01dc6d2cb46f">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.21de7b5f-f9bb-4438-a88b-9d8a72ea9046">
+                  <aixm:purpose>REMARK</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.2996e130-4e36-4b0f-8820-12ef8fa2a1e4">
+                      <aixm:note>txtRmk:NS</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:deliveryPoint>UNKNOWN</aixm:deliveryPoint>
+            </aixm:PostalAddress>
+          </aixm:address>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:contact>
+        <aixm:ContactInformation gml:id="uuid.dc9817e4-09a6-4efc-a877-9591798980f0">
+          <aixm:phoneFax>
+            <aixm:TelephoneContact gml:id="uuid.692958d6-af02-4acd-9653-42fafef36f2a">
+              <aixm:voice>902-873-2578</aixm:voice>
+            </aixm:TelephoneContact>
+          </aixm:phoneFax>
+        </aixm:ContactInformation>
+      </aixm:contact>
+      <aixm:availability>
+        <aixm:AirportHeliportAvailability gml:id="uuid.7809d2be-c7a3-4f76-a3e0-014fb5c489ff">
+          <aixm:timeInterval>
+            <aixm:Timesheet gml:id="uuid.02fece47-1e63-451a-9807-852778f8de6a">
+              <aixm:timeReference>UTC</aixm:timeReference>
+              <aixm:day>ANY</aixm:day>
+              <aixm:startTime>00:00</aixm:startTime>
+              <aixm:endTime>24:00</aixm:endTime>
+              <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+              <aixm:excluded>NO</aixm:excluded>
+            </aixm:Timesheet>
+          </aixm:timeInterval>
+          <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+          <aixm:usage>
+            <aixm:AirportHeliportUsage gml:id="uuid.62396885-0cda-41ce-8cd3-b58b95a6ba4e">
+              <aixm:type>PERMIT</aixm:type>
+              <aixm:selection>
+                <aixm:ConditionCombination gml:id="uuid.93c9aa5b-9dd5-46ba-be79-7c73ccfc3633">
+                  <aixm:logicalOperator>NONE</aixm:logicalOperator>
+                  <aixm:flight>
+                    <aixm:FlightCharacteristic gml:id="uuid.262ea9b5-0b44-4864-b67d-6b138be5c1d4">
+                      <aixm:rule>ALL</aixm:rule>
+                      <aixm:military>CIVIL</aixm:military>
+                      <aixm:origin>ALL</aixm:origin>
+                    </aixm:FlightCharacteristic>
+                  </aixm:flight>
+                </aixm:ConditionCombination>
+              </aixm:selection>
+            </aixm:AirportHeliportUsage>
+          </aixm:usage>
+        </aixm:AirportHeliportAvailability>
+      </aixm:availability>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.8023a108-0c53-4c9c-8a88-21e57e553c30">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.9a782dd5-ac09-4e81-8aae-f5233976025f">
+              <aixm:note>CRC:445246.8563N, 0633036.6948W, 477, , 14B68287</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.644d4eee-3391-4cf6-9e9e-b564952dd8c0">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.90e9462b-8a3c-4750-bab7-193419b52b89">
+              <aixm:note>Organisation in charge:HALIFAX INTERNATIONAL AIRPORT AUTHORITY</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.757b4994-5692-4e47-baf9-c7be7a2efd6e">
+          <aixm:propertyName>windDirectionIndicator</aixm:propertyName>
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.98795054-66e1-4259-8f9c-dc41eb145b8a">
+              <aixm:note>Wind Direction Indicator:LGTD N OF THR 05, LGTD W OF THR 32, LGTD E OF APN I, LGTD SE OF THR 23, LGTD N OF THR 14.</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+      <aixm:annotation>
+        <aixm:Note gml:id="uuid.5379b93e-2115-402f-86fb-68ed45184538">
+          <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+          <aixm:translatedNote>
+            <aixm:LinguisticNote gml:id="uuid.cc348f61-a11c-4ad1-b16c-25b6aaeb46df">
+              <aixm:note>Site Description:14NNE</aixm:note>
+            </aixm:LinguisticNote>
+          </aixm:translatedNote>
+        </aixm:Note>
+      </aixm:annotation>
+    </aixm:AirportHeliportTimeSlice>
+  </aixm:timeSlice>
+</aixm:AirportHeliport>
+</hasMember>
+
+</AIXMBasicMessage>
