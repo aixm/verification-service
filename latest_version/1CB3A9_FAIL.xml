@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember>
+        <aixm:AerialRefuelling gml:id="uuid.0d2f1ffb-d1aa-4117-b8b4-8dadbed98baa">
+
+            <aixm:timeSlice>
+                <aixm:AerialRefuellingTimeSlice gml:id="uuid.0d2f1ffb-d1aa-4117-b8b4-8dadbed98bab">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.d801b63f-6eab-4e81-898e-8e3955901f18">
+                            <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    <!-- AIXM-5.1.1_RULE-1CB3A9 It is prohibited that  AerialRefuelling has timeSlice.AerialRefuellingTimeSlice[1].interpretation value as 'BASELINE' and
+                      AerialRefuellingTimeSlice[1] has correctionNumber value as '0' and  AerialRefuelling has timeSlice.AerialRefuellingTimeSlice[2].interpretation value
+                      as 'BASELINE' and  AerialRefuellingTimeSlice[2] has correctionNumber value unspecified ~ -->
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.8364375c-6fa9-4fd8-9e34-863478eed793">
+                            <gml:beginPosition>2021-11-04T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designatorPrefix>AR</aixm:designatorPrefix>
+                    <aixm:designatorNumber>1</aixm:designatorNumber>
+                    <aixm:designatorSuffix>AA</aixm:designatorSuffix>
+                    <aixm:designatorDirection>NNE</aixm:designatorDirection>
+                    <aixm:name>NAME</aixm:name>
+                    <aixm:type>ANCHOR</aixm:type>
+                    <aixm:radarBeaconSetting>1</aixm:radarBeaconSetting>
+                    <aixm:xbandRadarSetting>1</aixm:xbandRadarSetting>
+                    <aixm:tankerChannel>1Y</aixm:tankerChannel>
+                    <aixm:receiverChannel>1X</aixm:receiverChannel>
+                    <aixm:helicopterRoute>YES</aixm:helicopterRoute>
+                    <aixm:specialRefuelling>YES</aixm:specialRefuelling>
+                    <aixm:bidirectionalUse>YES</aixm:bidirectionalUse>
+                    <aixm:reverseDirectionTurn>LEFT</aixm:reverseDirectionTurn>
+                    <aixm:availability>
+                        <aixm:RouteAvailability gml:id="uuid.5e11b08e-7658-4fc7-8453-84e4614127fe">
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.4447dfba-4b7e-4a1a-9084-932cfdbefbbe">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.ef517425-dcbd-47b9-b5dc-d990b10841af">
+                                            <aixm:note>noSeq:1</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:direction>BACKWARD</aixm:direction>
+                            <aixm:status>OPEN</aixm:status>
+                            <aixm:levels>
+                                <aixm:AirspaceLayer gml:id="uuid.da3f7baf-bdee-4cb3-a63c-747b17f7ccfa">
+                                    <aixm:upperLimit uom="FL">999</aixm:upperLimit>
+                                    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                                    <aixm:lowerLimit uom="FL">290</aixm:lowerLimit>
+                                    <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+                                    <aixm:discreteLevelSeries xlink:type="simple" xlink:href="urn:uuid:0942496b-7ce1-0b22-e053-0b751dc2499f"/>
+                                </aixm:AirspaceLayer>
+                            </aixm:levels>
+                        </aixm:RouteAvailability>
+                    </aixm:availability>
+                    <aixm:protectingAirspace/>
+                    <aixm:track>
+                        <aixm:AerialRefuellingTrack gml:id="uuid.da3f7baf-bdee-4cb3-a63c-747b17f7cccc"/>
+                    </aixm:track>
+                    <aixm:anchor>
+                        <aixm:AerialRefuellingAnchor gml:id="uuid.da3f7baf-bdee-4cb3-a63c-747b17f7cbbb"/>
+                    </aixm:anchor>
+                    <aixm:oppositeTrack/>
+                    <aixm:managingOrganisation>
+                        <aixm:AuthorityForAerialRefuelling gml:id="uuid.da3f7baf-bdee-4cb3-a63c-747b17f7ceee"/>
+                    </aixm:managingOrganisation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                            <aixm:propertyName>designatorPrefix</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                </aixm:AerialRefuellingTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:AerialRefuellingTimeSlice gml:id="uuid.0d2f1ffb-d1aa-4117-b8b4-8dadbed98bac">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.d801b63f-6eab-4e81-898e-8e3955901f19">
+                            <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+
+                    <!-- AIXM-5.1.1_RULE-1CB3A9 It is prohibited that  AerialRefuelling has timeSlice.AerialRefuellingTimeSlice[1].interpretation value as 'BASELINE' and
+                      AerialRefuellingTimeSlice[1] has correctionNumber value as '0' and  AerialRefuelling has timeSlice.AerialRefuellingTimeSlice[2].interpretation value
+                      as 'BASELINE' and  AerialRefuellingTimeSlice[2] has correctionNumber value unspecified ~ -->
+                    <!-- <aixm:correctionNumber>1</aixm:correctionNumber> -->
+
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.8364375c-6fa9-4fd8-9e34-863478eed794">
+                            <gml:beginPosition>2021-11-04T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                </aixm:AerialRefuellingTimeSlice>
+            </aixm:timeSlice>
+            
+        </aixm:AerialRefuelling>
+    </message:hasMember>
+</message:AIXMBasicMessage>
