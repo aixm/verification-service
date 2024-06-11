@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+<message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:AircraftStand gml:id="uuid.6378d5b1-0558-47d0-a194-aaf19137da6a">
+      <gml:identifier codeSpace="urn:uuid:">6378d5b1-0558-47d0-a194-aaf19137da6a</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AircraftStandTimeSlice gml:id="uuid.c5e6c0ce-cb1a-4ffb-a8b8-320bbdb94215">
+          <!-- AIXM-5.1.1_RULE-1ECAD5 It is prohibited that
+          AircraftStandTimeSlice has interpretation value as 'TEMPDELTA' and
+          not  AircraftStandTimeSlice has gml:validTime.gml:TimePeriod and
+          not  AircraftStandTimeSlice has gml:validTime@nilReason value as 'inapplicable' ~ -->
+          <gml:validTime nilReason="inapplicable">
+            <gml:TimePeriod gml:id="uuid.5e34e0f6-4b2b-49b5-97d3-a01f85dc4119">
+              <gml:beginPosition>2022-03-24T00:00:00Z</gml:beginPosition>
+              <gml:endPosition>2024-03-24T00:00:00Z</gml:endPosition>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.a2ca18d6-d294-473b-9f5d-744601d30f87">
+              <gml:beginPosition>2004-08-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>DESIGNATOR</aixm:designator>
+          <aixm:type>ANG_NI</aixm:type>
+          <aixm:visualDockingSystem>A_VDGS</aixm:visualDockingSystem>
+          <aixm:surfaceProperties>
+            <aixm:SurfaceCharacteristics gml:id="uuid.a2ca18d6-d294-473b-9f5d-744601d30f88"/>
+          </aixm:surfaceProperties>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
+                                xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                                xmlns:gco="http://www.isotc211.org/2005/gco"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:gml="http://www.opengis.net/gml/3.2"
+                                xmlns:gts="http://www.isotc211.org/2005/gts"
+                                xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                srsName="urn:ogc:def:crs:EPSG::4326"
+                                gml:id="uuid.fc0bf8d6-aa4c-4c9d-9880-95994669ccd8">
+              <gml:pos>33.5062778 6.7877722</gml:pos>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:apronLocation/>
+          <aixm:extent>
+            <aixm:ElevatedSurface>
+              <gml:patches>
+                <gml:PolygonPatch interpolation="planar">
+                  <gml:exterior>
+                    <gml:Ring>
+                      <gml:curveMember xlink:type="simple">
+                        <aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="uuid.96632147-f97d-49ae-a763-1fa2f74a44d7">
+                          <gml:segments>
+                            <gml:GeodesicString interpolation="geodesic">
+                              <gml:posList>1.65056 8.07806 1.86667 9.47139</gml:posList>
+                            </gml:GeodesicString>
+                            <gml:LineStringSegment interpolation="linear">
+                              <gml:posList>1.86667 9.47139 1.86667 10.25</gml:posList>
+                            </gml:LineStringSegment>
+                            <gml:GeodesicString interpolation="geodesic">
+                              <gml:posList>1.86667 10.25 1.5901222 10.1396667</gml:posList>
+                            </gml:GeodesicString>
+                            <gml:ArcByCenterPoint interpolation="circularArcCenterPointWithRadius" numArc="1">
+                              <gml:pos>0.4798472 9.4019833</gml:pos>
+                              <gml:radius uom="[nmi_i]">79.6720098</gml:radius>
+                              <gml:startAngle uom="deg">33.768012238563756</gml:startAngle>
+                              <gml:endAngle uom="deg">179.9868989376423</gml:endAngle>
+                            </gml:ArcByCenterPoint>
+                            <gml:GeodesicString interpolation="geodesic">
+                              <gml:posList>-0.8533056 9.4022861 -0.8533056 9.4022861</gml:posList>
+                            </gml:GeodesicString>
+                            <gml:ArcByCenterPoint interpolation="circularArcCenterPointWithRadius" numArc="1">
+                              <!-- ERROR: The symbol deg shall be used for the unit of measurement of gml:endAngle -->
+                              <gml:pos>-0.7287778 8.7474722</gml:pos>
+                              <gml:radius uom="[nmi_i]">40.02711</gml:radius>
+                              <gml:startAngle uom="deg">100.70252308372585</gml:startAngle>
+                              <gml:endAngle uom="deg">28.606565853302868</gml:endAngle>
+                            </gml:ArcByCenterPoint>
+                            <gml:GeodesicString interpolation="geodesic">
+                              <gml:posList>-0.14056 9.06611 0.34722 8.04778 1.65056 8.07806</gml:posList>
+                            </gml:GeodesicString>
+                          </gml:segments>
+                        </aixm:Curve>
+                      </gml:curveMember>
+                    </gml:Ring>
+                  </gml:exterior>
+                </gml:PolygonPatch>
+              </gml:patches>
+            </aixm:ElevatedSurface>
+          </aixm:extent>
+          <aixm:contaminant>
+            <aixm:AircraftStandContamination gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd55"/>
+          </aixm:contaminant>
+          <aixm:availability>
+            <aixm:ApronAreaAvailability gml:id="uuid.5e11b08e-7658-4fc7-8453-84e4614127fe">
+              <aixm:operationalStatus>CLOSED</aixm:operationalStatus>
+            </aixm:ApronAreaAvailability>
+          </aixm:availability>
+        </aixm:AircraftStandTimeSlice>
+      </aixm:timeSlice>
+
+    </aixm:AircraftStand>
+  </message:hasMember>
+</message:AIXMBasicMessage>

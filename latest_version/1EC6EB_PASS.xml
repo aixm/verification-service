@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember>
+        <aixm:AeronauticalGroundLight gml:id="uuid.0d2f1ffb-d1aa-4117-b8b4-8dadbed98baa">
+            <aixm:timeSlice>
+                <aixm:AeronauticalGroundLightTimeSlice gml:id="uuid.0d2f1ffb-d1aa-4117-b8b4-8dadbed98bab">
+                    <!-- AIXM-5.1.1_RULE-1EC6EB It is prohibited that
+                    AeronauticalGroundLightTimeSlice has interpretation value as 'BASELINE' and
+                    not  AeronauticalGroundLightTimeSlice has gml:validTime.gml:TimePeriod and
+                    not  AeronauticalGroundLightTimeSlice has  gml:validTime@nilReason value as 'inapplicable' ~ -->
+                    <gml:validTime nilReason="inapplicable">
+                        <gml:TimePeriod gml:id="uuid.d801b63f-6eab-4e81-898e-8e3955901f18">
+                            <gml:beginPosition>2023-04-20T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.8364375c-6fa9-4fd8-9e34-863478eed793">
+                            <gml:beginPosition>2021-11-04T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:name>NAME</aixm:name>
+                    <aixm:type>ABN</aixm:type>
+                    <aixm:colour>AMBER</aixm:colour>
+                    <aixm:flashing>YES</aixm:flashing>
+                    <aixm:structureBeacon/>
+                    <aixm:aerodromeBeacon/>
+                    <aixm:location>
+                        <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message"
+                                            xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                                            xmlns:gco="http://www.isotc211.org/2005/gco"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            xmlns:gts="http://www.isotc211.org/2005/gts"
+                                            xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            srsName="urn:ogc:def:crs:EPSG::4326"
+                                            gml:id="uuid.fc0bf8d6-aa4c-4c9d-9880-95994669ccd8">
+                            <gml:pos>33.5062778 6.7877722</gml:pos>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.3bb09590-8641-44cb-8b13-8c6c90ffa843">
+                                    <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.54bcd8f4-b2f9-4e21-964e-4ef418195c44">
+                                            <aixm:note>CRC:333022.60N, 0064715.98E, , , 0573DCCE</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                </aixm:AeronauticalGroundLightTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AeronauticalGroundLight>
+    </message:hasMember>
+</message:AIXMBasicMessage>
