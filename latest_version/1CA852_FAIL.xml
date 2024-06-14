@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:AirportClearanceService gml:id="uuid.1b49f85d-bbe5-4c0a-b0d4-67a324a84781">
+      <gml:identifier codeSpace="urn:uuid:">1b49f85d-bbe5-4c0a-b0d4-67a324a84781</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirportClearanceServiceTimeSlice gml:id="uuid.b4fff4a9-3cf6-4c13-9a39-d63357bf07a1">
+          <!-- AIXM-5.1.1_RULE-1CA852 It is prohibited that
+          AirportClearanceService has timeSlice.AirportClearanceServiceTimeSlice[1] and
+          AirportClearanceService has timeSlice.AirportClearanceServiceTimeSlice[2] and
+          AirportClearanceServiceTimeSlice[1] has interpretation value other-than 'SNAPSHOT' and
+          AirportClearanceServiceTimeSlice[1] has interpretation value as  AirportClearanceServiceTimeSlice[2].interpretation value  and
+          AirportClearanceServiceTimeSlice[1] has sequenceNumber value as  AirportClearanceServiceTimeSlice[2].sequenceNumber value and
+          AirportClearanceServiceTimeSlice[1] has correctionNumber value as TimeSlice[2].correctionNumber value ~ -->
+          <gml:validTime nilReason="inapplicable">
+            <gml:TimePeriod gml:id="uuid.5e34e0f6-4b2b-49b5-97d3-a01f85dc4119">
+              <gml:beginPosition>2022-03-24T00:00:00Z</gml:beginPosition>
+              <gml:endPosition>2024-03-24T00:00:00Z</gml:endPosition>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.ef41b1f3-f045-4d2c-9b37-c396ade06cc8">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+        </aixm:AirportClearanceServiceTimeSlice>
+      </aixm:timeSlice>
+
+      <aixm:timeSlice>
+        <aixm:AirportClearanceServiceTimeSlice gml:id="uuid.b4fff4a9-3cf6-4c13-9a39-d63357bf07a2">
+          <!-- AIXM-5.1.1_RULE-1CA852 It is prohibited that
+          AirportClearanceService has timeSlice.AirportClearanceServiceTimeSlice[1] and
+          AirportClearanceService has timeSlice.AirportClearanceServiceTimeSlice[2] and
+          AirportClearanceServiceTimeSlice[1] has interpretation value other-than 'SNAPSHOT' and
+          AirportClearanceServiceTimeSlice[1] has interpretation value as  AirportClearanceServiceTimeSlice[2].interpretation value  and
+          AirportClearanceServiceTimeSlice[1] has sequenceNumber value as  AirportClearanceServiceTimeSlice[2].sequenceNumber value and
+          AirportClearanceServiceTimeSlice[1] has correctionNumber value as TimeSlice[2].correctionNumber value ~ -->
+          <gml:validTime nilReason="inapplicable">
+            <gml:TimePeriod gml:id="uuid.5e34e0f6-4b2b-49b5-97d3-a01f85dc411a">
+              <gml:beginPosition>2024-03-24T00:00:00Z</gml:beginPosition>
+              <gml:endPosition>2026-03-24T00:00:00Z</gml:endPosition>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.ef41b1f3-f045-4d2c-9b37-c396ade06cc9">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+        </aixm:AirportClearanceServiceTimeSlice>
+      </aixm:timeSlice>
+
+    </aixm:AirportClearanceService>
+  </message:hasMember>
+</message:AIXMBasicMessage>
