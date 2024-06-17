@@ -2,52 +2,6 @@
 <AIXMBasicMessage xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sdd="http://www.teamead.com/ws/sdd" xmlns:aimsltx="http://www.teamead.com/ws/aimsl/dp" xmlns:aimsl="http://www.teamead.com/ws/aimsl" xmlns:ead-adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR" xmlns:ead-audit="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit" xmlns:ead-nd="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ND" gml:id="uniqueId" xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/ADR/EADADR_Features.xsd http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Audit/5.1.1.b/EADAudit_Features.xsd">
 
 
-<hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xlink:type="simple">
-    <aixm:StandardLevelTable gml:id="uuid.348675e6-6ba0-44f6-9d46-04a9d24c0fac">
-      <gml:identifier codeSpace="urn:uuid:">348675e6-6ba0-44f6-9d46-04a9d24c0fac</gml:identifier>
-      <gml:boundedBy xsi:nil="true"/>
-      <aixm:timeSlice>
-        <aixm:StandardLevelTableTimeSlice gml:id="uuid.0794ea2b-83a8-4b4b-b9b6-6d7fc72eb432">
-          <gml:validTime xlink:type="simple">
-            <gml:TimePeriod gml:id="uuid.eaef9bfd-e5db-42e8-8fc1-0ab2e5046f50">
-              <gml:beginPosition>2003-05-28T22:05:00Z</gml:beginPosition>
-              <gml:endPosition indeterminatePosition="unknown"/>
-            </gml:TimePeriod>
-          </gml:validTime>
-          <aixm:interpretation>BASELINE</aixm:interpretation>
-          <aixm:sequenceNumber>1</aixm:sequenceNumber>
-          <aixm:correctionNumber>0</aixm:correctionNumber>
-          <aixm:featureLifetime xlink:type="simple">
-            <gml:TimePeriod gml:id="uuid.c044ec47-5839-437e-8502-39d432b0af26">
-              <gml:beginPosition>2003-05-28T00:00:00Z</gml:beginPosition>
-              <gml:endPosition indeterminatePosition="unknown"/>
-            </gml:TimePeriod>
-          </aixm:featureLifetime>
-          <aixm:name>IFR_RVSM</aixm:name>
-          <aixm:annotation>
-            <aixm:Note gml:id="uuid.c1b73ad8-01da-47f9-8268-7d810bc072b2">
-              <aixm:purpose>DESCRIPTION</aixm:purpose>
-              <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.a0440963-2855-42fe-9e4c-29c55940a466">
-                  <aixm:note>txtDescr:Table of cruising levels for IFR flights in areas with reduced vertical separation minima (RVSM)</aixm:note>
-                </aixm:LinguisticNote>
-              </aixm:translatedNote>
-            </aixm:Note>
-          </aixm:annotation>
-          <aixm:annotation>
-            <aixm:Note gml:id="uuid.13cc66d8-cb49-4e9d-bbf1-4be2744939c3">
-              <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
-              <aixm:translatedNote>
-                <aixm:LinguisticNote gml:id="uuid.ff763325-6807-44b8-be45-75e6e62f0902">
-                  <aixm:note>codeDistVer:STD</aixm:note>
-                </aixm:LinguisticNote>
-              </aixm:translatedNote>
-            </aixm:Note>
-          </aixm:annotation>
-        </aixm:StandardLevelTableTimeSlice>
-      </aixm:timeSlice>
-    </aixm:StandardLevelTable>
-  </hasMember>
 
   <hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xlink:type="simple">
     <aixm:StandardLevelColumn gml:id="uuid.0942496b-7ce7-0b22-e053-0b751dc2499f">
