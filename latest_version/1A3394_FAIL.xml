@@ -16,29 +16,23 @@
       <aixm:timeSlice>
         <aixm:AirportHeliportCollocationTimeSlice gml:id="ID_1A336D_01">
           <gml:validTime>
-            <gml:TimePeriod gml:id="ID_1A336D_02">
+            <gml:TimePeriod gml:id="uuid.230b2521-abcd-effe-cdcd-9ebdcfd000">
               <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
-              <gml:endPosition indeterminatePosition="unknown"/>
+              <gml:endPosition>2022-12-03T00:00:00Z</gml:endPosition>
             </gml:TimePeriod>
           </gml:validTime>
           <aixm:interpretation>BASELINE</aixm:interpretation>
           <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>3</aixm:correctionNumber>
           <aixm:type>PARTIAL</aixm:type>
-          <aixm:hostAirport xlink:href="urn:uuid:6f7db774-e5d1-4185-909b-bc88f14d3b43"/>
+
+          <!-- AIXM-5.1.1_RULE-1A3394 It is prohibited that  AirportHeliportCollocationTimeSlice has  hostAirport@xlink:href value unspecified ~ -->
+<!--          <aixm:hostAirport xlink:href="urn:uuid:6f7db774-e5d1-4185-909b-bc88f14d3b43"/>-->
+
           <aixm:dependentAirport xlink:href="urn:uuid:7c267dfc-8897-4364-99d4-938056395e22"/>
-
-          <aixm:extension>
-            <audit:AirportHeliportCollocationExtension gml:id="uuid.aaaaaaaa-f045-4d2c-aaaa-bbbcccdddeee">
-              <audit:auditInformation>
-                <!-- AIXM-5.1.1_RULE-1C7572 It is prohibited that  AirportHeliportCollocationTimeSlice has-descendant more-than one audit:Audit ~ -->
-                <audit:Audit gml:id="uuid.ef41b1f3-f045-4d2c-aaaa-bbbcccdddeee">aaa</audit:Audit>
-                <audit:Audit gml:id="uuid.ef41b1f3-f045-4d2c-aaaa-bbbcccdddeff">aaa</audit:Audit>
-              </audit:auditInformation>
-            </audit:AirportHeliportCollocationExtension>
-          </aixm:extension>
-
         </aixm:AirportHeliportCollocationTimeSlice>
       </aixm:timeSlice>
+
     </aixm:AirportHeliportCollocation>
   </message:hasMember>
 </message:AIXMBasicMessage>
