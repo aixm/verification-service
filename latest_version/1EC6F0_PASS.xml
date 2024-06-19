@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+    <aixm:AirportHotSpot gml:id="uuid.52766fb6-7a3b-49ce-9586-f90250f0dd1b">
+      <gml:identifier codeSpace="urn:uuid:">52766fb6-7a3b-49ce-9586-f90250f0dd1b</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirportHotSpotTimeSlice gml:id="uuid.742fc33c-54fd-4ef0-91b1-3bd680dc383b">
+
+          <!-- AIXM-5.1.1_RULE-1EC6F0 It is prohibited that
+          AirportHotSpotTimeSlice has interpretation value as 'BASELINE' and
+          not  AirportHotSpotTimeSlice has gml:validTime.gml:TimePeriod and
+          not  AirportHotSpotTimeSlice has  gml:validTime@nilReason value as 'inapplicable' ~ -->
+          <gml:validTime xlink:type="simple" nilReason="inapplicable">
+            <gml:TimeInstant gml:id="uuid.e9806956-5276-4e26-b967-cec458aa275e">
+              <gml:timePosition>2022-12-29T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.3f42522d-70e2-42b5-8d27-2f23e408809f">
+              <gml:beginPosition>2017-06-22T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>EVRA</aixm:designator>
+        </aixm:AirportHotSpotTimeSlice>
+      </aixm:timeSlice>
+
+    </aixm:AirportHotSpot>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+
