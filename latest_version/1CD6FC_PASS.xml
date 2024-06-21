@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+    <aixm:AirspaceBorderCrossing gml:id="uuid.0942496b-7ce7-0b22-e053-0b751dc2499f">
+      <gml:identifier codeSpace="urn:uuid:">0942496b-7ce7-0b22-e053-0b751dc2499f</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+
+      <aixm:timeSlice>
+        <aixm:AirspaceBorderCrossingTimeSlice gml:id="uuid.39f02658-7c5a-409b-a0ee-55735c36307b">
+          <!-- AIXM-5.1.1_RULE-1CD6FC It is prohibited that
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[1].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[2].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[3].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[4].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossingTimeSlice[1] has sequenceNumber value other-than  AirspaceBorderCrossingTimeSlice[2].sequenceNumber value and
+          AirspaceBorderCrossingTimeSlice[1] has sequenceNumber value as  AirspaceBorderCrossingTimeSlice[3].sequenceNumber value and
+          AirspaceBorderCrossingTimeSlice[1] has correctionNumber value higher-than  AirspaceBorderCrossingTimeSlice[3].correctionNumber value and
+          AirspaceBorderCrossingTimeSlice[2] has sequenceNumber value as  AirspaceBorderCrossingTimeSlice[4].sequenceNumber value and
+          AirspaceBorderCrossingTimeSlice[2] has correctionNumber value higher-than  AirspaceBorderCrossingTimeSlice[4].correctionNumber value and
+          AirspaceBorderCrossingTimeSlice[1] has validTime extent intersects  AirspaceBorderCrossingTimeSlice[2].validTime extent ~ -->
+          <gml:validTime xlink:type="simple" nilReason="inapplicable">
+            <gml:TimePeriod gml:id="uuid.837479d3-a363-4e1f-95b0-f55ba4f1030b">
+              <gml:beginPosition>2008-10-19T22:00:00Z</gml:beginPosition>
+              <gml:endPosition>2010-10-19T22:00:00Z</gml:endPosition>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>3</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.21f902a9-a6b7-4769-b987-8a1aee06e552">
+              <gml:beginPosition>2003-05-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:exitedAirspace/>
+          <aixm:enteredAirspace/>
+        </aixm:AirspaceBorderCrossingTimeSlice>
+      </aixm:timeSlice>
+
+      <aixm:timeSlice>
+        <aixm:AirspaceBorderCrossingTimeSlice gml:id="uuid.39f02658-7c5a-409b-a0ee-55735c363022">
+          <!-- AIXM-5.1.1_RULE-1CD6FC It is prohibited that
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[1].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[2].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[3].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[4].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossingTimeSlice[1] has sequenceNumber value other-than  AirspaceBorderCrossingTimeSlice[2].sequenceNumber value and
+          AirspaceBorderCrossingTimeSlice[1] has sequenceNumber value as  AirspaceBorderCrossingTimeSlice[3].sequenceNumber value and
+          AirspaceBorderCrossingTimeSlice[1] has correctionNumber value higher-than  AirspaceBorderCrossingTimeSlice[3].correctionNumber value and
+          AirspaceBorderCrossingTimeSlice[2] has sequenceNumber value as  AirspaceBorderCrossingTimeSlice[4].sequenceNumber value and
+          AirspaceBorderCrossingTimeSlice[2] has correctionNumber value higher-than  AirspaceBorderCrossingTimeSlice[4].correctionNumber value and
+          AirspaceBorderCrossingTimeSlice[1] has validTime extent intersects  AirspaceBorderCrossingTimeSlice[2].validTime extent ~ -->
+          <gml:validTime xlink:type="simple" nilReason="inapplicable">
+            <gml:TimePeriod gml:id="uuid.837479d3-a363-4e1f-95b0-f55ba4f1030c">
+              <gml:beginPosition>2010-10-19T22:00:00Z</gml:beginPosition>
+              <gml:endPosition>2012-10-19T22:00:00Z</gml:endPosition>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>4</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.21f902a9-a6b7-4769-b987-8a1aee06e522">
+              <gml:beginPosition>2003-05-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:exitedAirspace/>
+          <aixm:enteredAirspace/>
+        </aixm:AirspaceBorderCrossingTimeSlice>
+      </aixm:timeSlice>
+
+      <aixm:timeSlice>
+        <aixm:AirspaceBorderCrossingTimeSlice gml:id="uuid.39f02658-7c5a-409b-a0ee-55735c363033">
+          <!-- AIXM-5.1.1_RULE-1CD6FC It is prohibited that
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[1].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[2].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[3].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[4].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossingTimeSlice[1] has sequenceNumber value other-than  AirspaceBorderCrossingTimeSlice[2].sequenceNumber value and
+          AirspaceBorderCrossingTimeSlice[1] has sequenceNumber value as  AirspaceBorderCrossingTimeSlice[3].sequenceNumber value and
+          AirspaceBorderCrossingTimeSlice[1] has correctionNumber value higher-than  AirspaceBorderCrossingTimeSlice[3].correctionNumber value and
+          AirspaceBorderCrossingTimeSlice[2] has sequenceNumber value as  AirspaceBorderCrossingTimeSlice[4].sequenceNumber value and
+          AirspaceBorderCrossingTimeSlice[2] has correctionNumber value higher-than  AirspaceBorderCrossingTimeSlice[4].correctionNumber value and
+          AirspaceBorderCrossingTimeSlice[1] has validTime extent intersects  AirspaceBorderCrossingTimeSlice[2].validTime extent ~ -->
+          <gml:validTime xlink:type="simple" nilReason="inapplicable">
+            <gml:TimeInstant gml:id="uuid.837479d3-a363-4e1f-95b0-f55ba4f10333">
+              <gml:timePosition>2008-10-19T22:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.21f902a9-a6b7-4769-b987-8a1aee06e533">
+              <gml:beginPosition>2003-05-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:exitedAirspace/>
+          <aixm:enteredAirspace/>
+        </aixm:AirspaceBorderCrossingTimeSlice>
+      </aixm:timeSlice>
+
+      <aixm:timeSlice>
+        <aixm:AirspaceBorderCrossingTimeSlice gml:id="uuid.39f02658-7c5a-409b-a0ee-55735c363044">
+          <!-- AIXM-5.1.1_RULE-1CD6FC It is prohibited that
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[1].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[2].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[3].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossing has timeSlice.AirspaceBorderCrossingTimeSlice[4].interpretation value as 'BASELINE'  and
+          AirspaceBorderCrossingTimeSlice[1] has sequenceNumber value other-than  AirspaceBorderCrossingTimeSlice[2].sequenceNumber value and
+          AirspaceBorderCrossingTimeSlice[1] has sequenceNumber value as  AirspaceBorderCrossingTimeSlice[3].sequenceNumber value and
+          AirspaceBorderCrossingTimeSlice[1] has correctionNumber value higher-than  AirspaceBorderCrossingTimeSlice[3].correctionNumber value and
+          AirspaceBorderCrossingTimeSlice[2] has sequenceNumber value as  AirspaceBorderCrossingTimeSlice[4].sequenceNumber value and
+          AirspaceBorderCrossingTimeSlice[2] has correctionNumber value higher-than  AirspaceBorderCrossingTimeSlice[4].correctionNumber value and
+          AirspaceBorderCrossingTimeSlice[1] has validTime extent intersects  AirspaceBorderCrossingTimeSlice[2].validTime extent ~ -->
+          <gml:validTime xlink:type="simple" nilReason="inapplicable">
+            <gml:TimeInstant gml:id="uuid.837479d3-a363-4e1f-95b0-f55ba4f10344">
+              <gml:timePosition>2008-10-19T22:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.21f902a9-a6b7-4769-b987-8a1aee06e544">
+              <gml:beginPosition>2003-05-28T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:exitedAirspace/>
+          <aixm:enteredAirspace/>
+        </aixm:AirspaceBorderCrossingTimeSlice>
+      </aixm:timeSlice>
+
+    </aixm:AirspaceBorderCrossing>
+  </message:hasMember>
+</message:AIXMBasicMessage>
