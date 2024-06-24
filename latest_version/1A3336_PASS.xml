@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:Airspace gml:id="uuid.dfcb70d0-7415-4ef5-8393-3748b0e86085">
+            <gml:identifier codeSpace="urn:uuid:">dfcb70d0-7415-4ef5-8393-3748b0e86085</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="uuid.a70f9473-859e-4c7d-a071-a9830bd7747e">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.3633d929-f200-4cc4-97f7-c82485d0aece">
+                            <gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.4aa54066-8cd1-43d6-b1fc-da13e64f2308">
+                            <gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+
+                    <!-- AIXM-5.1.1_RULE-1A3336 It is prohibited that
+                    AirspaceTimeSlice has  type value unspecified ~ -->
+                    <aixm:type>TRA</aixm:type>
+
+                    <aixm:designator>LYTRA224</aixm:designator>
+                    <aixm:name>TRA 224</aixm:name>
+                    <aixm:designatorICAO>NO</aixm:designatorICAO>
+                    <aixm:controlType>MIL</aixm:controlType>
+
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001"/>
+                    </aixm:geometryComponent>
+
+                    <aixm:activation>
+                        <aixm:AirspaceActivation gml:id="uuid.51c6093b-3c33-4d39-b79b-7cf56c3f355d">
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.1b13dee6-5ee4-4236-aa78-a12bcac891f8">
+                                    <aixm:propertyName>timeInterval</aixm:propertyName>
+                                    <aixm:purpose>WARNING</aixm:purpose>
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="uuid.8d971c25-1064-4081-8256-626d436e448a">
+                                            <aixm:note>activity period to be published by NOTAM</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:activity>EXERCISE</aixm:activity>
+                            <aixm:status>ACTIVE</aixm:status>
+                        </aixm:AirspaceActivation>
+                    </aixm:activation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.53eb524d-84b6-4f9a-abcc-42d8904d3311">
+                            <aixm:purpose>REMARK</aixm:purpose>
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="uuid.7e678dab-0b0c-498c-8059-7121433e7199">
+                                    <aixm:note>txtRmk:Upper/lower limit: By NOTAM (Within 6500 FT AMSL / GND)</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+</message:AIXMBasicMessage>
