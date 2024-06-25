@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember>
+
+    <aixm:AirTrafficControlService gml:id="uuid.1a056b39-c611-4d57-924e-bc857a79a1bb">
+      <gml:identifier codeSpace="urn:uuid:">1a056b39-c611-4d57-924e-bc857a79a1bb</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:AirTrafficControlServiceTimeSlice gml:id="uuid.729ef9b0-c5c6-41c0-8db1-b2a93a148673">
+
+          <!-- AIXM-5.1.1_RULE-1ECADD It is prohibited that
+          AirTrafficControlServiceTimeSlice has interpretation value as 'TEMPDELTA' and
+          not  AirTrafficControlServiceTimeSlice has gml:validTime.gml:TimePeriod and
+          not  AirTrafficControlServiceTimeSlice has gml:validTime@nilReason value as 'inapplicable' ~ -->
+          <gml:validTime xlink:type="simple" nilReason="inapplicable">
+            <gml:TimeInstant gml:id="uuid.8b539b4b-c6e3-4aae-ab02-c67da4d59588">
+              <gml:timePosition>2016-07-21T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.c596aa6f-f247-4ed4-b1b3-a771da88f188">
+              <gml:beginPosition>2015-07-23T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:serviceProvider xlink:type="simple" xlink:href="#uuid.89e59e4e-7b34-4574-8f9e-4cc7eb4537cf"/>
+          <aixm:call-sign>
+            <aixm:CallsignDetail gml:id="uuid.429626ea-7334-4980-abae-e8f79cc52863">
+              <aixm:callSign>SCHLESWIG TOWER</aixm:callSign>
+              <aixm:language>eng</aixm:language>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.5bbf7a4f-7164-4742-863d-815ca5638946">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.df7cd751-cf3c-42aa-ad95-5a62983fb77c">
+                      <aixm:note>Call sign on frequency 243</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:CallsignDetail>
+          </aixm:call-sign>
+          <aixm:radioCommunication xlink:type="simple" xlink:href="#uuid.0e4655bd-8d39-4f32-b90f-333910c60f4a"/>
+          <aixm:availability>
+            <aixm:ServiceOperationalStatus gml:id="uuid.fabb3d70-101c-4f2e-9370-e7f5f99d9a83">
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.e000acf9-8b83-4d72-911e-3f50b42a34f9">
+                  <aixm:propertyName>timeInterval</aixm:propertyName>
+                  <aixm:purpose>WARNING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.7b09a9ac-d90a-420d-aa92-d630a84627ca">
+                      <aixm:note>HO - service available to meet operational requests</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
+            </aixm:ServiceOperationalStatus>
+          </aixm:availability>
+          <aixm:type>TWR</aixm:type>
+          <aixm:clientAirport xlink:type="simple" xlink:href="#uuid.27182fa4-a679-4653-9315-e51c08e6c45f"/>
+        </aixm:AirTrafficControlServiceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AirTrafficControlService>
+
+  </message:hasMember>
+</message:AIXMBasicMessage>
+
