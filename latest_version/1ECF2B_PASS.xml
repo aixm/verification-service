@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:AngleIndication gml:id="uuid.ca1a1674-0ef2-4345-bcd7-e01d34982e00">
+            <gml:identifier codeSpace="urn:uuid:">ca1a1674-0ef2-4345-bcd7-e01d34982e8e</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:AngleIndicationTimeSlice gml:id="uuid.b5a6e407-a164-42b3-9d76-ad003b551500">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.d99de95c-e4ed-411b-a8d3-2c98542d8200">
+                            <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+
+                    <!-- AIXM-5.1.1_RULE-1ECF2B It is prohibited that
+                    AngleIndication has timeSlice.AngleIndicationTimeSlice[1].interpretation value as 'TEMPDELTA' and
+                    AngleIndicationTimeSlice[1] has correctionNumber value as '0' and
+                    AngleIndication has timeSlice.AngleIndicationTimeSlice[2].interpretation value as 'TEMPDELTA' and
+                    AngleIndicationTimeSlice[2] has correctionNumber value unspecified ~ -->
+                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.d2df322b-0ea2-491f-b499-cafc59d9b200">
+                            <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:angle>290.84</aixm:angle>
+                    <aixm:angleType>RDL</aixm:angleType>
+                    <aixm:indicationDirection>FROM</aixm:indicationDirection>
+                    <aixm:trueAngle>2</aixm:trueAngle>
+                    <aixm:cardinalDirection>E</aixm:cardinalDirection>
+                    <aixm:minimumReceptionAltitude>20</aixm:minimumReceptionAltitude>
+                    <aixm:fix xlink:type="simple" xlink:href="#uuid.189db995-8c6c-4417-a8f0-8ebb6b53e663"/>
+                    <aixm:pointChoice_fixDesignatedPoint/>
+                </aixm:AngleIndicationTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:AngleIndicationTimeSlice gml:id="uuid.b5a6e407-a164-42b3-9d76-ad003b551522">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.d99de95c-e4ed-411b-a8d3-2c98542d8222">
+                            <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+
+                    <!-- AIXM-5.1.1_RULE-1ECF2B It is prohibited that
+                    AngleIndication has timeSlice.AngleIndicationTimeSlice[1].interpretation value as 'TEMPDELTA' and
+                    AngleIndicationTimeSlice[1] has correctionNumber value as '0' and
+                    AngleIndication has timeSlice.AngleIndicationTimeSlice[2].interpretation value as 'TEMPDELTA' and
+                    AngleIndicationTimeSlice[2] has correctionNumber value unspecified ~ -->
+                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>1</aixm:correctionNumber>
+
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.d2df322b-0ea2-491f-b499-cafc59d9b222">
+                            <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:angle>290.84</aixm:angle>
+                    <aixm:angleType>RDL</aixm:angleType>
+                    <aixm:indicationDirection>FROM</aixm:indicationDirection>
+                    <aixm:trueAngle>2</aixm:trueAngle>
+                    <aixm:cardinalDirection>E</aixm:cardinalDirection>
+                    <aixm:minimumReceptionAltitude>20</aixm:minimumReceptionAltitude>
+                    <aixm:fix xlink:type="simple" xlink:href="#uuid.189db995-8c6c-4417-a8f0-8ebb6b53e663"/>
+                    <aixm:pointChoice_fixDesignatedPoint/>
+                </aixm:AngleIndicationTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AngleIndication>
+    </message:hasMember>
+</message:AIXMBasicMessage>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+  <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aixm:InstrumentApproachProcedure gml:id="uuid.0125627b-36c3-412c-a550-326df24e09cf">
+      <gml:identifier codeSpace="urn:uuid:">0125627b-36c3-412c-a550-326df24e09cf</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:InstrumentApproachProcedureTimeSlice gml:id="uuid.6b17c48c-dc0f-46d3-ace4-b201d621706a">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.d1240bc8-690c-47f1-b163-ffcc01cbaf5c">
+              <gml:beginPosition>2023-05-18T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>2</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.a1d1fdb3-8275-4522-8a1f-50c5f802af3b">
+              <gml:beginPosition>2021-08-12T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:communicationFailureInstruction>see EVRA AD 2.22</aixm:communicationFailureInstruction>
+          <aixm:instruction nilReason="unknown" xsi:nil="true"/>
+          <aixm:designCriteria>PANS_OPS</aixm:designCriteria>
+          <aixm:codingStandard>PANS_OPS</aixm:codingStandard>
+          <aixm:flightChecked>NO</aixm:flightChecked>
+          <aixm:name>LOC_Z_RWY36</aixm:name>
+          <aixm:RNAV>NO</aixm:RNAV>
+          <aixm:availability nilReason="unknown" xsi:nil="true"/>
+          <aixm:airportHeliport xlink:type="simple" xlink:href="urn:uuid:52766fb6-7a3b-49ce-9586-f90250f0dd1b"/>
+          <aixm:aircraftCharacteristic>
+            <aixm:AircraftCharacteristic gml:id="uuid.151c8b23-ee6f-486d-8c08-7b889958ee27">
+              <aixm:aircraftLandingCategory>D</aixm:aircraftLandingCategory>
+            </aixm:AircraftCharacteristic>
+          </aixm:aircraftCharacteristic>
+          <aixm:flightTransition>
+            <aixm:ProcedureTransition gml:id="uuid.40842bde-d3d0-48b2-ad47-67be0fc5521e">
+              <aixm:type>FINAL</aixm:type>
+              <aixm:transitionLeg>
+                <aixm:ProcedureTransitionLeg gml:id="uuid.2d924a4d-982d-4df9-8aa7-30cd25f0c0f9">
+                  <aixm:seqNumberARINC>1</aixm:seqNumberARINC>
+                  <aixm:theSegmentLeg xlink:type="simple" xlink:href="urn:uuid:93404215-7409-4210-89bf-07c2a4deda8f"/>
+                </aixm:ProcedureTransitionLeg>
+              </aixm:transitionLeg>
+              <aixm:transitionLeg>
+                <aixm:ProcedureTransitionLeg gml:id="uuid.d0c1b1e3-1f93-480e-b285-2c5f2bfca46d">
+                  <aixm:seqNumberARINC>2</aixm:seqNumberARINC>
+                  <aixm:theSegmentLeg xlink:type="simple" xlink:href="urn:uuid:6f397440-dff2-4165-b7cf-d48363c75369"/>
+                </aixm:ProcedureTransitionLeg>
+              </aixm:transitionLeg>
+              <aixm:transitionLeg>
+                <aixm:ProcedureTransitionLeg gml:id="uuid.21aeb130-c3f4-476d-82a0-e57ba0cbc998">
+                  <aixm:seqNumberARINC>3</aixm:seqNumberARINC>
+                  <aixm:theSegmentLeg xlink:type="simple" xlink:href="urn:uuid:f31dfa95-f8a3-4b2c-9893-94f357df507b"/>
+                </aixm:ProcedureTransitionLeg>
+              </aixm:transitionLeg>
+              <aixm:transitionLeg>
+                <aixm:ProcedureTransitionLeg gml:id="uuid.fd365724-4a8c-4ca9-be3c-02c254b82970">
+                  <aixm:seqNumberARINC>4</aixm:seqNumberARINC>
+                  <aixm:theSegmentLeg xlink:type="simple" xlink:href="urn:uuid:d9318ed0-1d0d-4404-aae4-44313f0c4a6b"/>
+                </aixm:ProcedureTransitionLeg>
+              </aixm:transitionLeg>
+            </aixm:ProcedureTransition>
+          </aixm:flightTransition>
+          <aixm:flightTransition>
+            <aixm:ProcedureTransition gml:id="uuid.05a3386b-7e0b-4d5e-882f-1b978b11e11d">
+              <aixm:type>APPROACH</aixm:type>
+              <aixm:transitionLeg>
+                <aixm:ProcedureTransitionLeg gml:id="uuid.8c99f7fd-2f29-49e5-a989-f2447403946a">
+                  <aixm:seqNumberARINC>1</aixm:seqNumberARINC>
+                  <aixm:theSegmentLeg xlink:type="simple" xlink:href="urn:uuid:f855390f-5de7-4d2f-b028-f0c0209eb5f4"/>
+                </aixm:ProcedureTransitionLeg>
+              </aixm:transitionLeg>
+              <aixm:transitionLeg>
+                <aixm:ProcedureTransitionLeg gml:id="uuid.4a5c70f8-fc26-4ca6-bff0-d1d3efa5b502">
+                  <aixm:seqNumberARINC>2</aixm:seqNumberARINC>
+                  <aixm:theSegmentLeg xlink:type="simple" xlink:href="urn:uuid:99719dd0-5ce9-450b-bea4-69e90fb07536"/>
+                </aixm:ProcedureTransitionLeg>
+              </aixm:transitionLeg>
+              <aixm:transitionLeg>
+                <aixm:ProcedureTransitionLeg gml:id="uuid.835baeff-9dba-4fb6-a6e9-edebfb9bc060">
+                  <aixm:seqNumberARINC>3</aixm:seqNumberARINC>
+                  <aixm:theSegmentLeg xlink:type="simple" xlink:href="urn:uuid:8ad398e7-0d2e-402c-a453-781691cca2b3"/>
+                </aixm:ProcedureTransitionLeg>
+              </aixm:transitionLeg>
+              <aixm:transitionLeg>
+                <aixm:ProcedureTransitionLeg gml:id="uuid.4dda604e-b513-49ad-9981-1acbdbf7289c">
+                  <aixm:seqNumberARINC>4</aixm:seqNumberARINC>
+                  <aixm:theSegmentLeg xlink:type="simple" xlink:href="urn:uuid:b0b2600a-1a29-4217-9aea-7aea719155e1"/>
+                </aixm:ProcedureTransitionLeg>
+              </aixm:transitionLeg>
+            </aixm:ProcedureTransition>
+          </aixm:flightTransition>
+          <aixm:flightTransition>
+            <aixm:ProcedureTransition gml:id="uuid.ac11b8f4-0a45-49ea-bab4-93e5232e6a76">
+              <aixm:type>APPROACH</aixm:type>
+              <aixm:transitionLeg>
+                <aixm:ProcedureTransitionLeg gml:id="uuid.b75dce7f-5e56-4af8-860a-5f89b7ae3c07">
+                  <aixm:seqNumberARINC>1</aixm:seqNumberARINC>
+                  <aixm:theSegmentLeg xlink:type="simple" xlink:href="urn:uuid:9956e90a-72f2-417f-9c07-02dca358dbdb"/>
+                </aixm:ProcedureTransitionLeg>
+              </aixm:transitionLeg>
+              <aixm:transitionLeg>
+                <aixm:ProcedureTransitionLeg gml:id="uuid.256d02ff-3e33-4bd5-9ef3-0b7bd37c1e3b">
+                  <aixm:seqNumberARINC>2</aixm:seqNumberARINC>
+                  <aixm:theSegmentLeg xlink:type="simple" xlink:href="urn:uuid:19c1686d-6e2f-4fe2-af6f-03d03afcdd2f"/>
+                </aixm:ProcedureTransitionLeg>
+              </aixm:transitionLeg>
+            </aixm:ProcedureTransition>
+          </aixm:flightTransition>
+          <aixm:annotation nilReason="unknown" xsi:nil="true"/>
+          <aixm:safeAltitude xlink:type="simple" xlink:href="urn:uuid:1cb0af4a-033f-46bc-b3e3-6ca0661bdadc"/>
+          <aixm:approachPrefix nilReason="unknown" xsi:nil="true"/>
+          <aixm:approachType>LOC_DME</aixm:approachType>
+          <aixm:multipleIdentification nilReason="unknown" xsi:nil="true"/>
+          <aixm:copterTrack nilReason="unknown" xsi:nil="true"/>
+          <aixm:circlingIdentification nilReason="unknown" xsi:nil="true"/>
+          <aixm:courseReversalInstruction nilReason="unknown" xsi:nil="true"/>
+          <aixm:additionalEquipment nilReason="unknown" xsi:nil="true"/>
+          <aixm:channelGNSS nilReason="unknown" xsi:nil="true"/>
+          <aixm:WAASReliable nilReason="unknown" xsi:nil="true"/>
+          <aixm:landing>
+            <aixm:LandingTakeoffAreaCollection gml:id="uuid.c346e1a0-011d-4986-b59f-292c767c75cb">
+              <aixm:runway xlink:type="simple" xlink:href="urn:uuid:bbefb8a0-e9e0-4dca-8665-7bffe47860e1"/>
+            </aixm:LandingTakeoffAreaCollection>
+          </aixm:landing>
+          <aixm:missedInstruction>
+            <aixm:MissedApproachGroup gml:id="uuid.20fb92e3-8dae-4715-a0cb-1714d0fbe607">
+              <aixm:instruction>Climb on runway track to 2500, after passing 1500 radar vectoring will be provided</aixm:instruction>
+              <aixm:alternateClimbInstruction>AAA</aixm:alternateClimbInstruction>
+              <aixm:alternateClimbAltitude>100</aixm:alternateClimbAltitude>
+              <aixm:altimeter/>
+              
+            </aixm:MissedApproachGroup>
+          </aixm:missedInstruction>
+          <aixm:finalProfile>
+            <aixm:FinalProfile gml:id="uuid.2c9fabca-9841-41d6-b213-237dc0a24c29">
+              <aixm:altitude>
+                <aixm:ApproachAltitudeTable gml:id="uuid.c98718cf-7dd9-4890-8aa4-4259feff6f24">
+                  <aixm:measurementPoint>FAF</aixm:measurementPoint>
+
+                  <!-- AIXM-5.1.1_RULE-1A13CF It is prohibited that
+                  ApproachAltitudeTable has  altitude value other-than-one-of ('GND', 'UNL', 'FLOOR', 'CEILING') and
+                  ApproachAltitudeTable has  altitudeReference value unspecified ~ -->
+                  <aixm:altitude uom="FT">2000</aixm:altitude>
+                  <aixm:altitudeReference>MSL</aixm:altitudeReference>
+
+                </aixm:ApproachAltitudeTable>
+              </aixm:altitude>
+              <aixm:distance>
+                <aixm:ApproachDistanceTable gml:id="uuid.575404ee-8c21-43cf-8768-2701cb658c43">
+                  <aixm:startingMeasurementPoint>FAF</aixm:startingMeasurementPoint>
+                  <aixm:endingMeasurementPoint>THLD</aixm:endingMeasurementPoint>
+                  <aixm:distance uom="NM">6.0105</aixm:distance>
+                </aixm:ApproachDistanceTable>
+              </aixm:distance>
+              <aixm:distance>
+                <aixm:ApproachDistanceTable gml:id="uuid.2b96dc4d-cf93-4b58-897d-5537fc63a800">
+                  <aixm:startingMeasurementPoint>THLD</aixm:startingMeasurementPoint>
+                  <aixm:endingMeasurementPoint>MAP</aixm:endingMeasurementPoint>
+                  <aixm:distance uom="NM">0.5</aixm:distance>
+                </aixm:ApproachDistanceTable>
+              </aixm:distance>
+              <aixm:timing>
+                <aixm:ApproachTimingTable gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000"/>
+              </aixm:timing>
+            </aixm:FinalProfile>
+          </aixm:finalProfile>
+          </aixm:InstrumentApproachProcedureTimeSlice>
+      </aixm:timeSlice>
+    </aixm:InstrumentApproachProcedure>
+  </message:hasMember>
+</message:AIXMBasicMessage>
