@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:Apron gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+            <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:ApronTimeSlice gml:id="ID_1A4A9A_01">
+
+                    <!-- AIXM-5.1.1_RULE-1CD73F It is prohibited that
+                    Apron has timeSlice.ApronTimeSlice[1].interpretation value as 'BASELINE'  and
+                    Apron has timeSlice.ApronTimeSlice[2].interpretation value as 'BASELINE'  and
+                    Apron has timeSlice.ApronTimeSlice[3].interpretation value as 'BASELINE'  and
+                    Apron has timeSlice.ApronTimeSlice[4].interpretation value as 'BASELINE'  and
+                    ApronTimeSlice[1] has sequenceNumber value other-than  ApronTimeSlice[2].sequenceNumber value and
+                    ApronTimeSlice[1] has sequenceNumber value as  ApronTimeSlice[3].sequenceNumber value and
+                    ApronTimeSlice[1] has correctionNumber value higher-than  ApronTimeSlice[3].correctionNumber value and
+                    ApronTimeSlice[2] has sequenceNumber value as  ApronTimeSlice[4].sequenceNumber value and
+                    ApronTimeSlice[2] has correctionNumber value higher-than  ApronTimeSlice[4].correctionNumber value and
+                    ApronTimeSlice[1] has validTime extent intersects  ApronTimeSlice[2].validTime extent ~ -->
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A9A_11">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>3</aixm:correctionNumber>
+
+                    <aixm:name>NAME</aixm:name>
+                    <aixm:abandoned>YES</aixm:abandoned>
+                    <aixm:surfaceProperties>
+                        <aixm:SurfaceCharacteristics gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b9fd"/>
+                    </aixm:surfaceProperties>
+                    <aixm:associatedAirportHeliport/>
+                    <aixm:contaminant>
+                        <aixm:ApronContamination gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b9ff"/>
+                    </aixm:contaminant>
+                </aixm:ApronTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:ApronTimeSlice gml:id="ID_1A4A9A_02">
+
+                    <!-- AIXM-5.1.1_RULE-1CD73F It is prohibited that
+                    Apron has timeSlice.ApronTimeSlice[1].interpretation value as 'BASELINE'  and
+                    Apron has timeSlice.ApronTimeSlice[2].interpretation value as 'BASELINE'  and
+                    Apron has timeSlice.ApronTimeSlice[3].interpretation value as 'BASELINE'  and
+                    Apron has timeSlice.ApronTimeSlice[4].interpretation value as 'BASELINE'  and
+                    ApronTimeSlice[1] has sequenceNumber value other-than  ApronTimeSlice[2].sequenceNumber value and
+                    ApronTimeSlice[1] has sequenceNumber value as  ApronTimeSlice[3].sequenceNumber value and
+                    ApronTimeSlice[1] has correctionNumber value higher-than  ApronTimeSlice[3].correctionNumber value and
+                    ApronTimeSlice[2] has sequenceNumber value as  ApronTimeSlice[4].sequenceNumber value and
+                    ApronTimeSlice[2] has correctionNumber value higher-than  ApronTimeSlice[4].correctionNumber value and
+                    ApronTimeSlice[1] has validTime extent intersects  ApronTimeSlice[2].validTime extent ~ -->
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A9A_22">
+                            <gml:beginPosition>2021-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2024-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    <aixm:correctionNumber>4</aixm:correctionNumber>
+
+                    <aixm:name>NAME</aixm:name>
+                    <aixm:abandoned>YES</aixm:abandoned>
+                    <aixm:surfaceProperties>
+                        <aixm:SurfaceCharacteristics gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b922"/>
+                    </aixm:surfaceProperties>
+                    <aixm:associatedAirportHeliport/>
+                    <aixm:contaminant>
+                        <aixm:ApronContamination gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9ba22"/>
+                    </aixm:contaminant>
+                </aixm:ApronTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:ApronTimeSlice gml:id="ID_1A4A9A_03">
+
+                    <!-- AIXM-5.1.1_RULE-1CD73F It is prohibited that
+                    Apron has timeSlice.ApronTimeSlice[1].interpretation value as 'BASELINE'  and
+                    Apron has timeSlice.ApronTimeSlice[2].interpretation value as 'BASELINE'  and
+                    Apron has timeSlice.ApronTimeSlice[3].interpretation value as 'BASELINE'  and
+                    Apron has timeSlice.ApronTimeSlice[4].interpretation value as 'BASELINE'  and
+                    ApronTimeSlice[1] has sequenceNumber value other-than  ApronTimeSlice[2].sequenceNumber value and
+                    ApronTimeSlice[1] has sequenceNumber value as  ApronTimeSlice[3].sequenceNumber value and
+                    ApronTimeSlice[1] has correctionNumber value higher-than  ApronTimeSlice[3].correctionNumber value and
+                    ApronTimeSlice[2] has sequenceNumber value as  ApronTimeSlice[4].sequenceNumber value and
+                    ApronTimeSlice[2] has correctionNumber value higher-than  ApronTimeSlice[4].correctionNumber value and
+                    ApronTimeSlice[1] has validTime extent intersects  ApronTimeSlice[2].validTime extent ~ -->
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A9A_33">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+
+                    <aixm:name>NAME</aixm:name>
+                    <aixm:abandoned>YES</aixm:abandoned>
+                    <aixm:surfaceProperties>
+                        <aixm:SurfaceCharacteristics gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b933"/>
+                    </aixm:surfaceProperties>
+                    <aixm:associatedAirportHeliport/>
+                    <aixm:contaminant>
+                        <aixm:ApronContamination gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9ba33"/>
+                    </aixm:contaminant>
+                </aixm:ApronTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:ApronTimeSlice gml:id="ID_1A4A9A_04">
+
+                    <!-- AIXM-5.1.1_RULE-1CD73F It is prohibited that
+                    Apron has timeSlice.ApronTimeSlice[1].interpretation value as 'BASELINE'  and
+                    Apron has timeSlice.ApronTimeSlice[2].interpretation value as 'BASELINE'  and
+                    Apron has timeSlice.ApronTimeSlice[3].interpretation value as 'BASELINE'  and
+                    Apron has timeSlice.ApronTimeSlice[4].interpretation value as 'BASELINE'  and
+                    ApronTimeSlice[1] has sequenceNumber value other-than  ApronTimeSlice[2].sequenceNumber value and
+                    ApronTimeSlice[1] has sequenceNumber value as  ApronTimeSlice[3].sequenceNumber value and
+                    ApronTimeSlice[1] has correctionNumber value higher-than  ApronTimeSlice[3].correctionNumber value and
+                    ApronTimeSlice[2] has sequenceNumber value as  ApronTimeSlice[4].sequenceNumber value and
+                    ApronTimeSlice[2] has correctionNumber value higher-than  ApronTimeSlice[4].correctionNumber value and
+                    ApronTimeSlice[1] has validTime extent intersects  ApronTimeSlice[2].validTime extent ~ -->
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A9A_44">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+
+                    <aixm:name>NAME</aixm:name>
+                    <aixm:abandoned>YES</aixm:abandoned>
+                    <aixm:surfaceProperties>
+                        <aixm:SurfaceCharacteristics gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b944"/>
+                    </aixm:surfaceProperties>
+                    <aixm:associatedAirportHeliport/>
+                    <aixm:contaminant>
+                        <aixm:ApronContamination gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9ba44"/>
+                    </aixm:contaminant>
+                </aixm:ApronTimeSlice>
+            </aixm:timeSlice>
+
+        </aixm:Apron>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.6384a4e0-8497-4f83-8eaa-d73ef549d90e">
+            <gml:identifier codeSpace="urn:uuid:">6384a4e0-8497-4f83-8eaa-d73ef549d90e</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="DONLONSTATE">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtDONLONSTATE">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltDONLONSTATE">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:name>REPUBLIC OF DONLON</aixm:name>
+                    <aixm:type>STATE</aixm:type>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+</message:AIXMBasicMessage>

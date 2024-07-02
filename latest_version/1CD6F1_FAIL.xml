@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:ApronLightSystem gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+            <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:ApronLightSystemTimeSlice gml:id="ID_1A4A9A_01">
+
+                    <!-- AIXM-5.1.1_RULE-1CD6F1 It is prohibited that
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[1].interpretation value as 'BASELINE'  and
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[2].interpretation value as 'BASELINE'  and
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[3].interpretation value as 'BASELINE'  and
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[4].interpretation value as 'BASELINE'  and
+                    ApronLightSystemTimeSlice[1] has sequenceNumber value other-than  ApronLightSystemTimeSlice[2].sequenceNumber value and
+                    ApronLightSystemTimeSlice[1] has sequenceNumber value as  ApronLightSystemTimeSlice[3].sequenceNumber value and
+                    ApronLightSystemTimeSlice[1] has correctionNumber value higher-than  ApronLightSystemTimeSlice[3].correctionNumber value and
+                    ApronLightSystemTimeSlice[2] has sequenceNumber value as  ApronLightSystemTimeSlice[4].sequenceNumber value and
+                    ApronLightSystemTimeSlice[2] has correctionNumber value higher-than  ApronLightSystemTimeSlice[4].correctionNumber value and
+                    ApronLightSystemTimeSlice[1] has validTime extent intersects  ApronLightSystemTimeSlice[2].validTime extent ~ -->
+                    <gml:validTime nilReason="inapplicable">
+                        <gml:TimePeriod gml:id="ID_1A4A9A_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>3</aixm:correctionNumber>
+
+                    <aixm:emergencyLighting>YES</aixm:emergencyLighting>
+                    <aixm:intensityLevel>LIH</aixm:intensityLevel>
+                    <aixm:colour>AMBER</aixm:colour>
+                    <aixm:element>
+                        <aixm:LightElement gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c3ff"/>
+                    </aixm:element>
+                    <aixm:availability>
+                        <aixm:GroundLightingAvailability gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c3fe">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000"/>
+                            </aixm:timeInterval>
+                            <aixm:specialDateAuthority/>
+                            <aixm:operationalStatus>DOWNGRADED</aixm:operationalStatus>
+                        </aixm:GroundLightingAvailability>
+                    </aixm:availability>
+                    <aixm:position>EDGE</aixm:position>
+                    <aixm:lightedApron/>
+                </aixm:ApronLightSystemTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:ApronLightSystemTimeSlice gml:id="ID_1A4A9A_22">
+
+                    <!-- AIXM-5.1.1_RULE-1CD6F1 It is prohibited that
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[1].interpretation value as 'BASELINE'  and
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[2].interpretation value as 'BASELINE'  and
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[3].interpretation value as 'BASELINE'  and
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[4].interpretation value as 'BASELINE'  and
+                    ApronLightSystemTimeSlice[1] has sequenceNumber value other-than  ApronLightSystemTimeSlice[2].sequenceNumber value and
+                    ApronLightSystemTimeSlice[1] has sequenceNumber value as  ApronLightSystemTimeSlice[3].sequenceNumber value and
+                    ApronLightSystemTimeSlice[1] has correctionNumber value higher-than  ApronLightSystemTimeSlice[3].correctionNumber value and
+                    ApronLightSystemTimeSlice[2] has sequenceNumber value as  ApronLightSystemTimeSlice[4].sequenceNumber value and
+                    ApronLightSystemTimeSlice[2] has correctionNumber value higher-than  ApronLightSystemTimeSlice[4].correctionNumber value and
+                    ApronLightSystemTimeSlice[1] has validTime extent intersects  ApronLightSystemTimeSlice[2].validTime extent ~ -->
+                    <gml:validTime nilReason="inapplicable">
+                        <gml:TimePeriod gml:id="ID_1A4A9A_23">
+                            <gml:beginPosition>2021-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2024-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    <aixm:correctionNumber>4</aixm:correctionNumber>
+
+                    <aixm:emergencyLighting>YES</aixm:emergencyLighting>
+                    <aixm:intensityLevel>LIH</aixm:intensityLevel>
+                    <aixm:colour>AMBER</aixm:colour>
+                    <aixm:element>
+                        <aixm:LightElement gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c322"/>
+                    </aixm:element>
+                    <aixm:availability>
+                        <aixm:GroundLightingAvailability gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c323">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd022"/>
+                            </aixm:timeInterval>
+                            <aixm:specialDateAuthority/>
+                            <aixm:operationalStatus>DOWNGRADED</aixm:operationalStatus>
+                        </aixm:GroundLightingAvailability>
+                    </aixm:availability>
+                    <aixm:position>EDGE</aixm:position>
+                    <aixm:lightedApron/>
+                </aixm:ApronLightSystemTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:ApronLightSystemTimeSlice gml:id="ID_1A4A9A_33">
+
+                    <!-- AIXM-5.1.1_RULE-1CD6F1 It is prohibited that
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[1].interpretation value as 'BASELINE'  and
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[2].interpretation value as 'BASELINE'  and
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[3].interpretation value as 'BASELINE'  and
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[4].interpretation value as 'BASELINE'  and
+                    ApronLightSystemTimeSlice[1] has sequenceNumber value other-than  ApronLightSystemTimeSlice[2].sequenceNumber value and
+                    ApronLightSystemTimeSlice[1] has sequenceNumber value as  ApronLightSystemTimeSlice[3].sequenceNumber value and
+                    ApronLightSystemTimeSlice[1] has correctionNumber value higher-than  ApronLightSystemTimeSlice[3].correctionNumber value and
+                    ApronLightSystemTimeSlice[2] has sequenceNumber value as  ApronLightSystemTimeSlice[4].sequenceNumber value and
+                    ApronLightSystemTimeSlice[2] has correctionNumber value higher-than  ApronLightSystemTimeSlice[4].correctionNumber value and
+                    ApronLightSystemTimeSlice[1] has validTime extent intersects  ApronLightSystemTimeSlice[2].validTime extent ~ -->
+                    <gml:validTime nilReason="inapplicable">
+                        <gml:TimePeriod gml:id="ID_1A4A9A_34">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+
+                    <aixm:emergencyLighting>YES</aixm:emergencyLighting>
+                    <aixm:intensityLevel>LIH</aixm:intensityLevel>
+                    <aixm:colour>AMBER</aixm:colour>
+                    <aixm:element>
+                        <aixm:LightElement gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c333"/>
+                    </aixm:element>
+                    <aixm:availability>
+                        <aixm:GroundLightingAvailability gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c334">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd033"/>
+                            </aixm:timeInterval>
+                            <aixm:specialDateAuthority/>
+                            <aixm:operationalStatus>DOWNGRADED</aixm:operationalStatus>
+                        </aixm:GroundLightingAvailability>
+                    </aixm:availability>
+                    <aixm:position>EDGE</aixm:position>
+                    <aixm:lightedApron/>
+                </aixm:ApronLightSystemTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:ApronLightSystemTimeSlice gml:id="ID_1A4A9A_44">
+
+                    <!-- AIXM-5.1.1_RULE-1CD6F1 It is prohibited that
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[1].interpretation value as 'BASELINE'  and
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[2].interpretation value as 'BASELINE'  and
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[3].interpretation value as 'BASELINE'  and
+                    ApronLightSystem has timeSlice.ApronLightSystemTimeSlice[4].interpretation value as 'BASELINE'  and
+                    ApronLightSystemTimeSlice[1] has sequenceNumber value other-than  ApronLightSystemTimeSlice[2].sequenceNumber value and
+                    ApronLightSystemTimeSlice[1] has sequenceNumber value as  ApronLightSystemTimeSlice[3].sequenceNumber value and
+                    ApronLightSystemTimeSlice[1] has correctionNumber value higher-than  ApronLightSystemTimeSlice[3].correctionNumber value and
+                    ApronLightSystemTimeSlice[2] has sequenceNumber value as  ApronLightSystemTimeSlice[4].sequenceNumber value and
+                    ApronLightSystemTimeSlice[2] has correctionNumber value higher-than  ApronLightSystemTimeSlice[4].correctionNumber value and
+                    ApronLightSystemTimeSlice[1] has validTime extent intersects  ApronLightSystemTimeSlice[2].validTime extent ~ -->
+                    <gml:validTime nilReason="inapplicable">
+                        <gml:TimePeriod gml:id="ID_1A4A9A_45">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    <aixm:correctionNumber>1</aixm:correctionNumber>
+
+                    <aixm:emergencyLighting>YES</aixm:emergencyLighting>
+                    <aixm:intensityLevel>LIH</aixm:intensityLevel>
+                    <aixm:colour>AMBER</aixm:colour>
+                    <aixm:element>
+                        <aixm:LightElement gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c344"/>
+                    </aixm:element>
+                    <aixm:availability>
+                        <aixm:GroundLightingAvailability gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c345">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd044"/>
+                            </aixm:timeInterval>
+                            <aixm:specialDateAuthority/>
+                            <aixm:operationalStatus>DOWNGRADED</aixm:operationalStatus>
+                        </aixm:GroundLightingAvailability>
+                    </aixm:availability>
+                    <aixm:position>EDGE</aixm:position>
+                    <aixm:lightedApron/>
+                </aixm:ApronLightSystemTimeSlice>
+            </aixm:timeSlice>
+        </aixm:ApronLightSystem>
+    </message:hasMember>
+</message:AIXMBasicMessage>
+

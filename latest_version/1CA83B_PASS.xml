@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember>
+        <aixm:ApronElement gml:id="uuid.1d3077ab-7421-455c-9a57-f3925656d65a">
+            <gml:identifier codeSpace="urn:uuid:">1d3077ab-7421-455c-9a57-f3925656d65a</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:ApronElementTimeSlice gml:id="ID_1A33CE_01">
+
+                    <!-- AIXM-5.1.1_RULE-1CA83B It is prohibited that
+                    ApronElement has timeSlice.ApronElementTimeSlice[1] and
+                    ApronElement has timeSlice.ApronElementTimeSlice[2] and
+                    ApronElementTimeSlice[1] has interpretation value other-than 'SNAPSHOT' and
+                    ApronElementTimeSlice[1] has interpretation value as  ApronElementTimeSlice[2].interpretation value  and
+                    ApronElementTimeSlice[1] has sequenceNumber value as  ApronElementTimeSlice[2].sequenceNumber value and
+                    ApronElementTimeSlice[1] has correctionNumber value as TimeSlice[2].correctionNumber value ~ -->
+                    <gml:validTime nilReason="inapplicable">
+                        <gml:TimePeriod gml:id="ID_1A33CE_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>3</aixm:correctionNumber>
+                </aixm:ApronElementTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:ApronElementTimeSlice gml:id="ID_1A33CE_22">
+
+                    <!-- AIXM-5.1.1_RULE-1CA83B It is prohibited that
+                    ApronElement has timeSlice.ApronElementTimeSlice[1] and
+                    ApronElement has timeSlice.ApronElementTimeSlice[2] and
+                    ApronElementTimeSlice[1] has interpretation value other-than 'SNAPSHOT' and
+                    ApronElementTimeSlice[1] has interpretation value as  ApronElementTimeSlice[2].interpretation value  and
+                    ApronElementTimeSlice[1] has sequenceNumber value as  ApronElementTimeSlice[2].sequenceNumber value and
+                    ApronElementTimeSlice[1] has correctionNumber value as TimeSlice[2].correctionNumber value ~ -->
+                    <gml:validTime nilReason="inapplicable">
+                        <gml:TimePeriod gml:id="ID_1A33CE_23">
+                            <gml:beginPosition>2022-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2024-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>2</aixm:correctionNumber>
+                </aixm:ApronElementTimeSlice>
+            </aixm:timeSlice>
+
+        </aixm:ApronElement>
+    </message:hasMember>
+</message:AIXMBasicMessage>

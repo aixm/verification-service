@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
+    <aixm:ApronMarking gml:id="uuid.af65a798-30aa-4c45-8a07-375ed881ed9a">
+      <gml:identifier codeSpace="urn:uuid:">af65a798-30aa-4c45-8a07-375ed881ed9a</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:ApronMarkingTimeSlice gml:id="uuid.6b18feae-8ebd-4fd8-9333-4735dd927973">
+
+          <!-- AIXM-5.1.1_RULE-1CA051 It is prohibited that
+          ApronMarkingTimeSlice has interpretation value as 'PERMDELTA' and
+          not  ApronMarkingTimeSlice has gml:validTime.gml:TimeInstant and
+          not  ApronMarkingTimeSlice has  gml:validTime@nilReason value as 'inapplicable' ~ -->
+          <gml:validTime nilReason="inapplicable">
+            <gml:TimePeriod gml:id="uuid.d63c646c-66a5-4ecc-a87b-5fb0d55a7e0a">
+              <gml:beginPosition>2022-12-29T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>PERMDELTA</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+
+          <aixm:featureLifetime xlink:type="simple">
+            <gml:TimePeriod gml:id="uuid.5e5a3166-47d6-4d1c-8359-9e1f978bb037">
+              <gml:beginPosition>2022-07-14T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:markingICAOStandard nilReason="unknown" xsi:nil="true"/>
+          <aixm:condition>GOOD</aixm:condition>
+          <aixm:element>
+            <aixm:MarkingElement gml:id="uuid.76608356-a2cc-4364-9400-7a7e8f19661b">
+              <aixm:colour>YELLOW</aixm:colour>
+              <aixm:style>SOLID</aixm:style>
+              <aixm:extent_curveExtent>
+                <aixm:ElevatedCurve xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.e4d48be1-fb24-4ec3-a25b-c906270a728d" srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+                  <gml:segments>
+                    <gml:GeodesicString>
+                      <gml:posList>23.9676675 56.9174877 23.9671936 56.9175247 23.9671616 56.917528 23.967137 56.9175317 23.9671176 56.9175353 23.967101 56.9175389 23.9670812 56.9175439 23.9670645 56.9175487 23.9670476 56.9175542 23.9670195 56.917565 23.9669886 56.9175796 23.966967 56.917592 23.966946 56.9176064 23.9669262 56.917623 23.9669139 56.9176354 23.9668988 56.9176544 23.9668906 56.9176678 23.9668766 56.9176991 23.9668675 56.9177224 23.9668566 56.9177546 23.9668511 56.9177737 23.9668432 56.9178054 23.9668368 56.9178387 23.9668317 56.9178806 23.9668291 56.9179201 23.9667796 56.9192619 23.9667776 56.9193194 23.9667784 56.9193418 23.9667818 56.9193669 23.9667856 56.9193842 23.9667909 56.9194023 23.9667976 56.9194202 23.966806 56.9194388 23.9668162 56.9194578 23.9668263 56.9194741 23.9668412 56.919495 23.9668552 56.9195124 23.9668682 56.9195268 23.9668875 56.9195462 23.966908 56.9195647 23.9669255 56.919579 23.9669467 56.9195948 23.9669719 56.919612 23.9670036 56.9196313 23.9670338 56.9196479 23.9671985 56.9197353 23.9671712 56.9204754 23.9667484 56.9204707 23.9665586 56.9205272 23.9665297 56.9205361 </gml:posList>
+                    </gml:GeodesicString>
+                  </gml:segments>
+                </aixm:ElevatedCurve>
+              </aixm:extent_curveExtent>
+            </aixm:MarkingElement>
+          </aixm:element>
+          <aixm:markingLocation>EDGE</aixm:markingLocation>
+          <aixm:markedApron xlink:type="simple" xlink:href="#uuid.87be983b-3586-47ed-88cc-6fd6c94b2311"/>
+        </aixm:ApronMarkingTimeSlice>
+      </aixm:timeSlice>
+    </aixm:ApronMarking>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+

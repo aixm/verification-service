@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:Apron gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+            <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:ApronTimeSlice gml:id="ID_1A4A9A_01">
+
+                    <!-- AIXM-5.1.1_RULE-1ECAE2 It is prohibited that
+                    ApronTimeSlice has interpretation value as 'TEMPDELTA' and
+                    not  ApronTimeSlice has gml:validTime.gml:TimePeriod and
+                    not  ApronTimeSlice has gml:validTime@nilReason value as 'inapplicable' ~ -->
+                    <gml:validTime nilReason="unknown">
+                        <gml:TimeInstant gml:id="ID_1A4A9A_02">
+                            <gml:timePosition>2020-12-03T00:00:00Z</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:validTime>
+                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+
+                    <aixm:name>NAME</aixm:name>
+                    <aixm:abandoned>YES</aixm:abandoned>
+                    <aixm:surfaceProperties>
+                        <aixm:SurfaceCharacteristics gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b9fd"/>
+                    </aixm:surfaceProperties>
+                    <aixm:associatedAirportHeliport/>
+                    <aixm:contaminant>
+                        <aixm:ApronContamination gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b9ff"/>
+                    </aixm:contaminant>
+
+                    <aixm:availability>
+                        <aixm:ApronAreaAvailability gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b9fe">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b9fc"/>
+                            </aixm:timeInterval>
+                            <aixm:specialDateAuthority xlink:href="urn:uuid:6384a4e0-8497-4f83-8eaa-d73ef549d90e"/>
+                            <aixm:operationalStatus>CLOSED</aixm:operationalStatus>
+                            <aixm:warning>ANIMAL</aixm:warning>
+                            <aixm:usage>
+                                <aixm:ApronAreaUsage gml:id="uuid.4216b847-067f-487f-9a68-8f0321e9b9fb"/>
+                            </aixm:usage>
+                        </aixm:ApronAreaAvailability>
+                    </aixm:availability>
+
+                </aixm:ApronTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Apron>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.6384a4e0-8497-4f83-8eaa-d73ef549d90e">
+            <gml:identifier codeSpace="urn:uuid:">6384a4e0-8497-4f83-8eaa-d73ef549d90e</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="DONLONSTATE">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="vtDONLONSTATE">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ltDONLONSTATE">
+                            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:name>REPUBLIC OF DONLON</aixm:name>
+                    <aixm:type>STATE</aixm:type>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+</message:AIXMBasicMessage>
