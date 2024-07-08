@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+
+  <message:hasMember>
+    <aixm:VOR gml:id="uuid.4fea066c-a983-49e1-abf7-96c8e891f9d9">
+      <gml:identifier codeSpace="urn:uuid:">4fea066c-a983-49e1-abf7-96c8e891f9d9</gml:identifier>
+      <gml:boundedBy xsi:nil="true"/>
+      <aixm:timeSlice>
+        <aixm:VORTimeSlice gml:id="uuid.b15feee3-b941-488e-833d-fc7ab520f14c">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="uuid.897b8004-80ac-43c4-8293-a1ef3eeb1c0e">
+              <gml:beginPosition>2022-11-03T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>3</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.702baa23-ad51-40c9-80a4-e91125b340a7">
+              <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>FSD</aixm:designator>
+          <aixm:name>SIOUX FALLS</aixm:name>
+          <aixm:magneticVariation>+9</aixm:magneticVariation>
+          <aixm:dateMagneticVariation>1965</aixm:dateMagneticVariation>
+          <aixm:location>
+            <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.90f68c32-a509-4465-90bf-c93b3ade2976">
+              <gml:pos>43.64949056 -96.781125</gml:pos>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.a7b8b28e-aff0-4c3d-94db-94d68d712380">
+                  <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.996ccee9-7b68-4874-9d81-ea3ce4285938">
+                      <aixm:note>CRC:433858.166N, 0964652.050W, 1570.5, , 9AC414F0</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:elevation uom="FT">1570.5</aixm:elevation>
+            </aixm:ElevatedPoint>
+          </aixm:location>
+          <aixm:authority>
+            <aixm:AuthorityForNavaidEquipment gml:id="uuid.7513dfe9-cb51-4278-95b1-8082ee4c7e22">
+              <!-- AIXM-5.1.1_RULE-1A33EC It is prohibited that
+              AuthorityForNavaidEquipment has  theOrganisationAuthority@xlink:href value unspecified ~ -->
+              <aixm:theOrganisationAuthority/>
+            </aixm:AuthorityForNavaidEquipment>
+          </aixm:authority>
+          <aixm:type>VOR</aixm:type>
+          <aixm:frequency uom="MHZ">115</aixm:frequency>
+          <aixm:zeroBearingDirection>MAG</aixm:zeroBearingDirection>
+        </aixm:VORTimeSlice>
+      </aixm:timeSlice>
+    </aixm:VOR>
+  </message:hasMember>
+
+  <message:hasMember>
+    <aixm:OrganisationAuthority gml:id="uuid.7352cf73-0ec8-465d-bfe1-57a56ae95dad">
+      <gml:identifier codeSpace="urn:uuid:">7352cf73-0ec8-465d-bfe1-57a56ae95dad</gml:identifier>
+      <aixm:timeSlice>
+        <aixm:OrganisationAuthorityTimeSlice gml:id="ID_68023_07">
+          <gml:validTime>
+            <gml:TimePeriod gml:id="ID_68023_08">
+              <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </gml:validTime>
+          <aixm:interpretation>BASELINE</aixm:interpretation>
+          <aixm:sequenceNumber>1</aixm:sequenceNumber>
+          <aixm:name>DONLON</aixm:name>
+          <aixm:designator>DON2</aixm:designator>
+          <aixm:type>ATS</aixm:type>
+        </aixm:OrganisationAuthorityTimeSlice>
+      </aixm:timeSlice>
+    </aixm:OrganisationAuthority>
+  </message:hasMember>
+
+</message:AIXMBasicMessage>
+

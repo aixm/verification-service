@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:ArrestingGear gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+            <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:ArrestingGearTimeSlice gml:id="ID_1A4A9A_01">
+
+                    <!-- AIXM-5.1.1_RULE-2041D1 It is prohibited that
+                    ArrestingGear has timeSlice.ArrestingGearTimeSlice[1].interpretation value as 'BASELINE'  and
+                    ArrestingGear has timeSlice.ArrestingGearTimeSlice[2].interpretation value as 'BASELINE'  and
+                    ArrestingGear has timeSlice.ArrestingGearTimeSlice[3].interpretation value as 'BASELINE'  and
+                    not  ArrestingGear has timeSlice.ArrestingGearTimeSlice[4] and
+                    ArrestingGearTimeSlice[1] has sequenceNumber value other-than  ArrestingGearTimeSlice[2].sequenceNumber value and
+                    ArrestingGearTimeSlice[1] has sequenceNumber value as  ArrestingGearTimeSlice[3].sequenceNumber value and
+                    ArrestingGearTimeSlice[1] has correctionNumber value higher-than  ArrestingGearTimeSlice[3].correctionNumber value and
+                    ArrestingGearTimeSlice[1] has validTime extent intersects  ArrestingGearTimeSlice[2].validTime extent ~ -->
+                    <gml:validTime nilReason="inapplicable">
+                        <gml:TimePeriod gml:id="ID_1A4A9A_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>3</aixm:correctionNumber>
+
+                    <aixm:status>DOWNGRADED</aixm:status>
+                    <aixm:length>10</aixm:length>
+                    <aixm:width>10</aixm:width>
+                    <aixm:engageDevice>61QSII</aixm:engageDevice>
+                    <aixm:absorbType>BARRIER_DISK_SAFELAND</aixm:absorbType>
+                    <aixm:bidirectional>YES</aixm:bidirectional>
+                    <aixm:location>1</aixm:location>
+                    <aixm:runwayDirection/>
+                    <aixm:surfaceProperties>
+                        <aixm:SurfaceCharacteristics gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfdff"/>
+                    </aixm:surfaceProperties>
+
+                    <aixm:extent_surfaceExtent>
+                        <aixm:ElevatedSurface>
+                            <gml:patches>
+                                <gml:PolygonPatch interpolation="planar">
+                                    <gml:exterior>
+                                        <gml:Ring>
+                                            <gml:curveMember xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                                                <gml:Curve gml:id="uuid.c706fd83-be38-46ad-b3aa-54e5f52fcdd8">
+                                                    <gml:segments>
+                                                        <gml:GeodesicString interpolation="geodesic">
+                                                            <gml:pointProperty xlink:type="simple">
+                                                                <aixm:Point gml:id="uuid.5091b9a5-3a26-49a8-b0b1-98a62a92c202">
+                                                                    <gml:pos>63.525347333 8.086885917</gml:pos>
+                                                                    <aixm:horizontalAccuracy uom="M">3.0</aixm:horizontalAccuracy>
+                                                                    <aixm:annotation>
+                                                                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfdee">
+                                                                            <aixm:propertyName>horizontalAccuracy</aixm:propertyName>
+                                                                        </aixm:Note>
+                                                                    </aixm:annotation>
+                                                                </aixm:Point>
+                                                            </gml:pointProperty>
+                                                            <gml:pointProperty xlink:type="simple">
+                                                                <aixm:Point gml:id="uuid.39f3590b-2c36-4669-b812-1e251577de33">
+                                                                    <gml:pos>63.556264778 8.319210083</gml:pos>
+                                                                    <aixm:horizontalAccuracy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                                    <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                                </aixm:Point>
+                                                            </gml:pointProperty>
+                                                            <gml:pointProperty xlink:type="simple">
+                                                                <aixm:Point gml:id="uuid.6e6cd97e-ef86-469b-83f6-8ac98d2ab3af">
+                                                                    <gml:pos>63.461579500 9.034008778</gml:pos>
+                                                                    <aixm:horizontalAccuracy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                                    <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                                </aixm:Point>
+                                                            </gml:pointProperty>
+                                                            <gml:pointProperty xlink:type="simple">
+                                                                <aixm:Point gml:id="uuid.5fb12f97-fdf7-4ed6-a6e3-ada11ce7987b">
+                                                                    <gml:pos>62.975157917 9.051756639</gml:pos>
+                                                                    <aixm:horizontalAccuracy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                                    <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                                </aixm:Point>
+                                                            </gml:pointProperty>
+                                                            <gml:pointProperty xlink:type="simple">
+                                                                <aixm:Point gml:id="uuid.ae115fa0-1a1b-4071-a988-4607f2d721d0">
+                                                                    <gml:pos>62.722160722 8.375677917</gml:pos>
+                                                                    <aixm:horizontalAccuracy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                                    <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                                </aixm:Point>
+                                                            </gml:pointProperty>
+                                                            <gml:pointProperty xlink:type="simple">
+                                                                <aixm:Point gml:id="uuid.7a02189d-40e1-4f19-8063-1f19cbe06249">
+                                                                    <gml:pos>62.814706139 8.160967667</gml:pos>
+                                                                    <aixm:horizontalAccuracy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                                    <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                                </aixm:Point>
+                                                            </gml:pointProperty>
+                                                            <gml:pointProperty xlink:type="simple">
+                                                                <aixm:Point gml:id="uuid.3275a420-f211-4669-998f-0fb92494f9dd">
+                                                                    <gml:pos>63.178838361 7.487893833</gml:pos>
+                                                                    <aixm:horizontalAccuracy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                                    <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                                </aixm:Point>
+                                                            </gml:pointProperty>
+                                                            <gml:pointProperty xlink:type="simple">
+                                                                <aixm:Point gml:id="uuid.7d94d56a-8417-45a7-91c8-39e9bd1698b8">
+                                                                    <gml:pos>63.525347333 8.086885917</gml:pos>
+                                                                    <aixm:horizontalAccuracy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                                    <aixm:annotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                                                                </aixm:Point>
+                                                            </gml:pointProperty>
+                                                        </gml:GeodesicString>
+                                                    </gml:segments>
+                                                </gml:Curve>
+                                            </gml:curveMember>
+                                        </gml:Ring>
+                                    </gml:exterior>
+                                </gml:PolygonPatch>
+                            </gml:patches>
+                        </aixm:ElevatedSurface>
+                    </aixm:extent_surfaceExtent>
+                </aixm:ArrestingGearTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:ArrestingGearTimeSlice gml:id="ID_1A4A9A_22">
+
+                    <!-- AIXM-5.1.1_RULE-2041D1 It is prohibited that
+                    ArrestingGear has timeSlice.ArrestingGearTimeSlice[1].interpretation value as 'BASELINE'  and
+                    ArrestingGear has timeSlice.ArrestingGearTimeSlice[2].interpretation value as 'BASELINE'  and
+                    ArrestingGear has timeSlice.ArrestingGearTimeSlice[3].interpretation value as 'BASELINE'  and
+                    not  ArrestingGear has timeSlice.ArrestingGearTimeSlice[4] and
+                    ArrestingGearTimeSlice[1] has sequenceNumber value other-than  ArrestingGearTimeSlice[2].sequenceNumber value and
+                    ArrestingGearTimeSlice[1] has sequenceNumber value as  ArrestingGearTimeSlice[3].sequenceNumber value and
+                    ArrestingGearTimeSlice[1] has correctionNumber value higher-than  ArrestingGearTimeSlice[3].correctionNumber value and
+                    ArrestingGearTimeSlice[1] has validTime extent intersects  ArrestingGearTimeSlice[2].validTime extent ~ -->
+                    <gml:validTime nilReason="inapplicable">
+                        <gml:TimePeriod gml:id="ID_1A4A9A_23">
+                            <gml:beginPosition>2021-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2024-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    <aixm:correctionNumber>4</aixm:correctionNumber>
+
+                    <aixm:status>DOWNGRADED</aixm:status>
+                    <aixm:length>10</aixm:length>
+                    <aixm:width>10</aixm:width>
+                    <aixm:engageDevice>61QSII</aixm:engageDevice>
+                    <aixm:absorbType>BARRIER_DISK_SAFELAND</aixm:absorbType>
+                    <aixm:bidirectional>YES</aixm:bidirectional>
+                    <aixm:location>1</aixm:location>
+                    <aixm:runwayDirection/>
+                    <aixm:surfaceProperties>
+                        <aixm:SurfaceCharacteristics gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22"/>
+                    </aixm:surfaceProperties>
+                </aixm:ArrestingGearTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:ArrestingGearTimeSlice gml:id="ID_1A4A9A_33">
+
+                    <!-- AIXM-5.1.1_RULE-2041D1 It is prohibited that
+                    ArrestingGear has timeSlice.ArrestingGearTimeSlice[1].interpretation value as 'BASELINE'  and
+                    ArrestingGear has timeSlice.ArrestingGearTimeSlice[2].interpretation value as 'BASELINE'  and
+                    ArrestingGear has timeSlice.ArrestingGearTimeSlice[3].interpretation value as 'BASELINE'  and
+                    not  ArrestingGear has timeSlice.ArrestingGearTimeSlice[4] and
+                    ArrestingGearTimeSlice[1] has sequenceNumber value other-than  ArrestingGearTimeSlice[2].sequenceNumber value and
+                    ArrestingGearTimeSlice[1] has sequenceNumber value as  ArrestingGearTimeSlice[3].sequenceNumber value and
+                    ArrestingGearTimeSlice[1] has correctionNumber value higher-than  ArrestingGearTimeSlice[3].correctionNumber value and
+                    ArrestingGearTimeSlice[1] has validTime extent intersects  ArrestingGearTimeSlice[2].validTime extent ~ -->
+                    <gml:validTime nilReason="inapplicable">
+                        <gml:TimePeriod gml:id="ID_1A4A9A_34">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+
+                    <aixm:status>DOWNGRADED</aixm:status>
+                    <aixm:length>10</aixm:length>
+                    <aixm:width>10</aixm:width>
+                    <aixm:engageDevice>61QSII</aixm:engageDevice>
+                    <aixm:absorbType>BARRIER_DISK_SAFELAND</aixm:absorbType>
+                    <aixm:bidirectional>YES</aixm:bidirectional>
+                    <aixm:location>1</aixm:location>
+                    <aixm:runwayDirection/>
+                    <aixm:surfaceProperties>
+                        <aixm:SurfaceCharacteristics gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd33"/>
+                    </aixm:surfaceProperties>
+                </aixm:ArrestingGearTimeSlice>
+            </aixm:timeSlice>
+
+        </aixm:ArrestingGear>
+    </message:hasMember>
+</message:AIXMBasicMessage>

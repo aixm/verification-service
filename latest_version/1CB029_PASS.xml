@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:AuthorityForAirspace gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+            <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AuthorityForAirspaceTimeSlice gml:id="ID_1A4A9A_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A9A_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <!-- AIXM-5.1.1_RULE-1CB029 It is prohibited that
+                    AuthorityForAirspaceTimeSlice has interpretation value as-one-of ('BASELINE', 'PERMDELTA', 'TEMPDELTA') and
+                    AuthorityForAirspaceTimeSlice has correctionNumber value unspecified ~ -->
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+
+                    <aixm:type>AIS</aixm:type>
+                    <aixm:responsibleOrganisation/>
+                    <aixm:assignedAirspace xlink:href="#uuid.09424934-8352-0ae9-e053-0b751dc2b779"/>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                            <aixm:propertyName>type</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                            <aixm:propertyName>responsibleOrganisation</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                            <aixm:propertyName>assignedAirspace</aixm:propertyName>
+                        </aixm:Note>
+                    </aixm:annotation>
+                </aixm:AuthorityForAirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AuthorityForAirspace>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:Airspace gml:id="uuid.09424934-8352-0ae9-e053-0b751dc2b779">
+            <gml:identifier codeSpace="urn:uuid:">09424934-8352-0ae9-e053-0b751dc2b779</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="uuid.e774672d-c756-45ca-8b9f-88749210b38a">
+                    <gml:validTime xlink:type="simple">
+                        <gml:TimePeriod gml:id="uuid.1bb60c0c-149f-4e94-a9eb-b7197f9ecdff">
+                            <gml:beginPosition>2008-08-28T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime xlink:type="simple">
+                        <gml:TimePeriod gml:id="uuid.cd178348-9d7a-4598-8cd3-5e4ab62db0a7">
+                            <gml:beginPosition>2003-05-20T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+</message:AIXMBasicMessage>

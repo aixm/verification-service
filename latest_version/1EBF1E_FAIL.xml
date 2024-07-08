@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:ArrivalFeederLeg gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+            <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:ArrivalFeederLegTimeSlice gml:id="ID_1A4A9A_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A9A_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+
+                    <!-- AIXM-5.1.1_RULE-1EBF1E It is prohibited that
+                    ArrivalFeederLeg has timeSlice.ArrivalFeederLegTimeSlice[1].interpretation value as 'PERMDELTA' and
+                    ArrivalFeederLegTimeSlice[1] has correctionNumber value as '0' and
+                    ArrivalFeederLeg has timeSlice.ArrivalFeederLegTimeSlice[2].interpretation value as 'PERMDELTA' and
+                    ArrivalFeederLegTimeSlice[2] has correctionNumber value unspecified ~ -->
+                    <aixm:interpretation>PERMDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    
+                    <aixm:endConditionDesignator>ALTITUDE</aixm:endConditionDesignator>
+                    <aixm:legPath>ARC</aixm:legPath>
+                    <aixm:legTypeARINC>AF</aixm:legTypeARINC>
+                    <aixm:course>1</aixm:course>
+                    <aixm:courseType>HDG</aixm:courseType>
+                    <aixm:courseDirection>FROM</aixm:courseDirection>
+                    <aixm:turnDirection>LEFT</aixm:turnDirection>
+                    <aixm:speedLimit>10</aixm:speedLimit>
+                    <aixm:speedReference>GS</aixm:speedReference>
+                    <aixm:speedInterpretation>ABOVE_LOWER</aixm:speedInterpretation>
+                    <aixm:bankAngle>10</aixm:bankAngle>
+                    <aixm:length>10</aixm:length>
+                    <aixm:duration>10</aixm:duration>
+                    <aixm:procedureTurnRequired>YES</aixm:procedureTurnRequired>
+                    <aixm:upperLimitAltitude>10</aixm:upperLimitAltitude>
+                    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                    <aixm:lowerLimitAltitude>10</aixm:lowerLimitAltitude>
+                    <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                    <aixm:altitudeInterpretation>ABOVE_LOWER</aixm:altitudeInterpretation>
+                    <aixm:altitudeOverrideATC>10</aixm:altitudeOverrideATC>
+                    <aixm:altitudeOverrideReference>MSL</aixm:altitudeOverrideReference>
+                    <aixm:verticalAngle>10</aixm:verticalAngle>
+                    <aixm:startPoint>
+                        <aixm:TerminalSegmentPoint gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfdee"/>
+                    </aixm:startPoint>
+                    <aixm:endPoint>
+                        <aixm:TerminalSegmentPoint gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfdff"/>
+                    </aixm:endPoint>
+                    <aixm:trajectory>
+                        <aixm:Curve>
+                            <gml:segments>
+                                <gml:GeodesicString>
+                                    <gml:posList>25.3273927 57.3272875 25.3197364 57.3207668 25.3190357 57.3210076 25.3266918 57.3275283 25.3273927 57.3272875 </gml:posList>
+                                </gml:GeodesicString>
+                            </gml:segments>
+                        </aixm:Curve>
+                    </aixm:trajectory>
+                    <aixm:arcCentre>
+                        <aixm:TerminalSegmentPoint gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfdcc"/>
+                    </aixm:arcCentre>
+                    <aixm:angle/>
+                    <aixm:distance/>
+                    <aixm:aircraftCategory>
+                        <aixm:AircraftCharacteristic gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfccc"/>
+                    </aixm:aircraftCategory>
+                    <aixm:holding>
+                        <aixm:HoldingUse gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfecc">
+                            <aixm:holdingUse>ARRIVAL</aixm:holdingUse>
+                            <aixm:instruction>A</aixm:instruction>
+                            <aixm:instructedAltitude uom="FL">100</aixm:instructedAltitude>
+                            <aixm:instructionAltitudeReference>MSL</aixm:instructionAltitudeReference>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
+                                    <aixm:propertyName>holdingUse</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
+                                    <aixm:propertyName>instruction</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
+                                    <aixm:propertyName>instructedAltitude</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
+                                    <aixm:propertyName>instructionAltitudeReference</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
+                                    <aixm:propertyName>theHoldingPattern</aixm:propertyName>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:theHoldingPattern/>
+                        </aixm:HoldingUse>
+                    </aixm:holding>
+                    <aixm:designSurface>
+                        <aixm:ObstacleAssessmentArea gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfbcc"/>
+                    </aixm:designSurface>
+                    <aixm:approach/>
+                    <aixm:requiredNavigationPerformance>10</aixm:requiredNavigationPerformance>
+                </aixm:ArrivalFeederLegTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:ArrivalFeederLegTimeSlice gml:id="ID_1A4A9A_22">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A9A_23">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+
+                    <!-- AIXM-5.1.1_RULE-1EBF1E It is prohibited that
+                    ArrivalFeederLeg has timeSlice.ArrivalFeederLegTimeSlice[1].interpretation value as 'PERMDELTA' and
+                    ArrivalFeederLegTimeSlice[1] has correctionNumber value as '0' and
+                    ArrivalFeederLeg has timeSlice.ArrivalFeederLegTimeSlice[2].interpretation value as 'PERMDELTA' and
+                    ArrivalFeederLegTimeSlice[2] has correctionNumber value unspecified ~ -->
+                    <aixm:interpretation>PERMDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <!-- <aixm:correctionNumber>1</aixm:correctionNumber> -->
+
+                    <aixm:endConditionDesignator>ALTITUDE</aixm:endConditionDesignator>
+                    <aixm:legPath>ARC</aixm:legPath>
+                    <aixm:legTypeARINC>AF</aixm:legTypeARINC>
+                    <aixm:course>1</aixm:course>
+                    <aixm:courseType>HDG</aixm:courseType>
+                    <aixm:courseDirection>FROM</aixm:courseDirection>
+                    <aixm:turnDirection>LEFT</aixm:turnDirection>
+                    <aixm:speedLimit>10</aixm:speedLimit>
+                    <aixm:speedReference>GS</aixm:speedReference>
+                    <aixm:speedInterpretation>ABOVE_LOWER</aixm:speedInterpretation>
+                    <aixm:bankAngle>10</aixm:bankAngle>
+                    <aixm:length>10</aixm:length>
+                    <aixm:duration>10</aixm:duration>
+                    <aixm:procedureTurnRequired>YES</aixm:procedureTurnRequired>
+                    <aixm:upperLimitAltitude>10</aixm:upperLimitAltitude>
+                    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                    <aixm:lowerLimitAltitude>10</aixm:lowerLimitAltitude>
+                    <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                    <aixm:altitudeInterpretation>ABOVE_LOWER</aixm:altitudeInterpretation>
+                    <aixm:altitudeOverrideATC>10</aixm:altitudeOverrideATC>
+                    <aixm:altitudeOverrideReference>MSL</aixm:altitudeOverrideReference>
+                    <aixm:verticalAngle>10</aixm:verticalAngle>
+                    <aixm:startPoint>
+                        <aixm:TerminalSegmentPoint gml:id="uuid.19dfc7d4-abd0-4776-989e-19a1e1bcfd21"/>
+                    </aixm:startPoint>
+                    <aixm:endPoint>
+                        <aixm:TerminalSegmentPoint gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd32"/>
+                    </aixm:endPoint>
+                    <aixm:trajectory>
+                        <aixm:Curve>
+                            <gml:segments>
+                                <gml:GeodesicString>
+                                    <gml:posList>25.3273927 57.3272875 25.3197364 57.3207668 25.3190357 57.3210076 25.3266918 57.3275283 25.3273927 57.3272875 </gml:posList>
+                                </gml:GeodesicString>
+                            </gml:segments>
+                        </aixm:Curve>
+                    </aixm:trajectory>
+                    <aixm:arcCentre>
+                        <aixm:TerminalSegmentPoint gml:id="uuid.22dfc7d4-abd0-4776-989e-1951e1bcfd22"/>
+                    </aixm:arcCentre>
+                    <aixm:angle/>
+                    <aixm:distance/>
+                    <aixm:aircraftCategory>
+                        <aixm:AircraftCharacteristic gml:id="uuid.22dfc7d4-abd0-4776-989e-1951e1bcfccc"/>
+                    </aixm:aircraftCategory>
+                    <aixm:holding>
+                        <aixm:HoldingUse gml:id="uuid.22dfc7d4-abd0-4776-989e-1951e1bcfecc">
+                            <aixm:holdingUse>ARRIVAL</aixm:holdingUse>
+                            <aixm:instruction>A</aixm:instruction>
+                            <aixm:instructedAltitude uom="FL">100</aixm:instructedAltitude>
+                            <aixm:instructionAltitudeReference>MSL</aixm:instructionAltitudeReference>
+                            <aixm:theHoldingPattern/>
+                        </aixm:HoldingUse>
+                    </aixm:holding>
+                    <aixm:designSurface>
+                        <aixm:ObstacleAssessmentArea gml:id="uuid.22dfc7d4-abd0-4776-989e-1951e1bcfbcc"/>
+                    </aixm:designSurface>
+                    <aixm:approach/>
+                    <aixm:requiredNavigationPerformance>10</aixm:requiredNavigationPerformance>
+                </aixm:ArrivalFeederLegTimeSlice>
+            </aixm:timeSlice>
+        </aixm:ArrivalFeederLeg>
+    </message:hasMember>
+</message:AIXMBasicMessage>

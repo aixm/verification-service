@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                          xmlns:gss="http://www.isotc211.org/2005/gss"
+                          xmlns:gts="http://www.isotc211.org/2005/gts"
+                          xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember>
+
+        <aixm:SpecialNavigationStation gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+            <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:SpecialNavigationStationTimeSlice gml:id="ID_1A4A9A_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A9A_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:name>NAME</aixm:name>
+                    <aixm:type>GREEN_SLAVE</aixm:type>
+                    <aixm:frequency>100</aixm:frequency>
+                    <aixm:emission>A2</aixm:emission>
+                    <aixm:systemChain/>
+                    <aixm:responsibleOrganisation>
+                        <aixm:AuthorityForSpecialNavigationStation gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000">
+                            <!-- AIXM-5.1.1_RULE-1A33E9 It is prohibited that
+                            AuthorityForSpecialNavigationStation has  theOrganisationAuthority@xlink:href value unspecified ~ -->
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:7352cf73-0ec8-465d-bfe1-57a56ae95dad"/>
+                        </aixm:AuthorityForSpecialNavigationStation>
+                    </aixm:responsibleOrganisation>
+                    <aixm:position>
+                        <aixm:ElevatedPoint>
+                            <gml:pos>39.125944444 -123.200861111</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:position>
+                    <aixm:availability>
+                        <aixm:SpecialNavigationStationStatus gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001" />
+                    </aixm:availability>
+                </aixm:SpecialNavigationStationTimeSlice>
+            </aixm:timeSlice>
+        </aixm:SpecialNavigationStation>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.7352cf73-0ec8-465d-bfe1-57a56ae95dad">
+            <gml:identifier codeSpace="urn:uuid:">7352cf73-0ec8-465d-bfe1-57a56ae95dad</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_68023_07">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_68023_08">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:name>DONLON</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+</message:AIXMBasicMessage>
+

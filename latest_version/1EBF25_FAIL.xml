@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
+                          gml:id="M00001">
+
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:Azimuth gml:id="uuid.28d835f7-4409-45f7-b670-55cfbbcd2fb0">
+            <gml:identifier codeSpace="urn:uuid:">28d835f7-4409-45f7-b670-55cfbbcd2fb0</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:AzimuthTimeSlice gml:id="uuid.22e511ff-ece6-4e87-a922-a1f127fe1957">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.8301522d-6e88-48b4-93d9-1b6baf40e3f0">
+                            <gml:beginPosition>2022-07-14T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <!-- AIXM-5.1.1_RULE-1EBF25 It is prohibited that
+                    Azimuth has timeSlice.AzimuthTimeSlice[1].interpretation value as 'PERMDELTA' and
+                    AzimuthTimeSlice[1] has correctionNumber value as '0' and
+                    Azimuth has timeSlice.AzimuthTimeSlice[2].interpretation value as 'PERMDELTA' and
+                    AzimuthTimeSlice[2] has correctionNumber value unspecified ~ -->
+                    <aixm:interpretation>PERMDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.02e2ae87-7adc-4b7c-bc30-f173a8a58b64">
+                            <gml:beginPosition>2022-07-14T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>MF</aixm:designator>
+                    <aixm:location>
+                        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            srsName="urn:ogc:def:crs:EPSG::4326"
+                                            gml:id="uuid.a91ec682-518d-417b-a4dd-1e4183dfdafd">
+                            <gml:pos>62.0676778 -7.2935278</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:availability>
+                        <aixm:NavaidOperationalStatus gml:id="uuid.bbf6202f-3faa-4d11-a3fc-0fd009ade580">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.7d55fc55-a973-4e03-9a36-9aef45311cc6">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:startDate>01-01</aixm:startDate>
+                                    <aixm:endDate>31-12</aixm:endDate>
+                                    <aixm:day>ANY</aixm:day>
+                                    <aixm:dayTil>ANY</aixm:dayTil>
+                                    <aixm:startTime>00:00</aixm:startTime>
+                                    <aixm:endTime>24:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
+                        </aixm:NavaidOperationalStatus>
+                    </aixm:availability>
+                </aixm:AzimuthTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:AzimuthTimeSlice gml:id="uuid.22e511ff-ece6-4e87-a922-a1f127fe1922">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="uuid.8301522d-6e88-48b4-93d9-1b6baf40e322">
+                            <gml:beginPosition>2022-07-14T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <!-- AIXM-5.1.1_RULE-1EBF25 It is prohibited that
+                    Azimuth has timeSlice.AzimuthTimeSlice[1].interpretation value as 'PERMDELTA' and
+                    AzimuthTimeSlice[1] has correctionNumber value as '0' and
+                    Azimuth has timeSlice.AzimuthTimeSlice[2].interpretation value as 'PERMDELTA' and
+                    AzimuthTimeSlice[2] has correctionNumber value unspecified ~ -->
+                    <aixm:interpretation>PERMDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <!-- <aixm:correctionNumber>1</aixm:correctionNumber> -->
+
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="uuid.02e2ae87-7adc-4b7c-bc30-f173a8a58b22">
+                            <gml:beginPosition>2022-07-14T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>MF</aixm:designator>
+                    <aixm:location>
+                        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            srsName="urn:ogc:def:crs:EPSG::4326"
+                                            gml:id="uuid.a91ec682-518d-417b-a4dd-1e4183dfda22">
+                            <gml:pos>62.0676778 -7.2935278</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:availability>
+                        <aixm:NavaidOperationalStatus gml:id="uuid.bbf6202f-3faa-4d11-a3fc-0fd009ade522">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="uuid.7d55fc55-a973-4e03-9a36-9aef45311c22">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:startDate>01-01</aixm:startDate>
+                                    <aixm:endDate>31-12</aixm:endDate>
+                                    <aixm:day>ANY</aixm:day>
+                                    <aixm:dayTil>ANY</aixm:dayTil>
+                                    <aixm:startTime>00:00</aixm:startTime>
+                                    <aixm:endTime>24:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:operationalStatus>OPERATIONAL</aixm:operationalStatus>
+                        </aixm:NavaidOperationalStatus>
+                    </aixm:availability>
+                </aixm:AzimuthTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Azimuth>
+    </message:hasMember>
+</message:AIXMBasicMessage>
+
