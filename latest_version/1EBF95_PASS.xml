@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:CheckpointVOR gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+            <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:CheckpointVORTimeSlice gml:id="ID_1A4A9A_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A9A_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    
+                    <!-- AIXM-5.1.1_RULE-1EBF95 It is prohibited that
+                    CheckpointVOR has timeSlice.CheckpointVORTimeSlice[1].interpretation value as 'PERMDELTA' and
+                    CheckpointVORTimeSlice[1] has correctionNumber value as '0' and
+                    CheckpointVOR has timeSlice.CheckpointVORTimeSlice[2].interpretation value as 'PERMDELTA' and
+                    CheckpointVORTimeSlice[2] has correctionNumber value unspecified ~ -->
+                    <aixm:interpretation>PERMDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+
+                    <aixm:category>A</aixm:category>
+                    <aixm:upperLimit>10</aixm:upperLimit>
+                    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                    <aixm:lowerLimit>5</aixm:lowerLimit>
+                    <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                    <aixm:altitudeInterpretation>ABOVE_LOWER</aixm:altitudeInterpretation>
+                    <aixm:distance uom="NM">39.99</aixm:distance>
+                    <aixm:angle>10</aixm:angle>
+                    <aixm:position>
+                        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            srsName="urn:ogc:def:crs:EPSG::4269"
+                                            gml:id="uuid.d5d409c4-7013-4fd7-a388-ea7930320b27">
+                            <gml:pos>39.125944444 -123.200861111</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:position>
+                    <aixm:airportHeliport/>
+                    <aixm:checkPointFacility/>
+                </aixm:CheckpointVORTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:CheckpointVORTimeSlice gml:id="ID_1A4A9A_22">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A9A_23">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+
+                    <!-- AIXM-5.1.1_RULE-1EBF95 It is prohibited that
+                    CheckpointVOR has timeSlice.CheckpointVORTimeSlice[1].interpretation value as 'PERMDELTA' and
+                    CheckpointVORTimeSlice[1] has correctionNumber value as '0' and
+                    CheckpointVOR has timeSlice.CheckpointVORTimeSlice[2].interpretation value as 'PERMDELTA' and
+                    CheckpointVORTimeSlice[2] has correctionNumber value unspecified ~ -->
+                    <aixm:interpretation>PERMDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>1</aixm:correctionNumber>
+
+                    <aixm:category>A</aixm:category>
+                    <aixm:upperLimit>10</aixm:upperLimit>
+                    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                    <aixm:lowerLimit>5</aixm:lowerLimit>
+                    <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                    <aixm:altitudeInterpretation>ABOVE_LOWER</aixm:altitudeInterpretation>
+                    <aixm:distance uom="NM">39.99</aixm:distance>
+                    <aixm:angle>10</aixm:angle>
+                    <aixm:position>
+                        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            srsName="urn:ogc:def:crs:EPSG::4269"
+                                            gml:id="uuid.d5d409c4-7013-4fd7-a388-ea7930320b22">
+                            <gml:pos>39.125944444 -123.200861111</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:position>
+                    <aixm:airportHeliport/>
+                    <aixm:checkPointFacility/>
+                </aixm:CheckpointVORTimeSlice>
+            </aixm:timeSlice>
+        </aixm:CheckpointVOR>
+    </message:hasMember>
+</message:AIXMBasicMessage>

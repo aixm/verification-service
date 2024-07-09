@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                          xmlns:audit="http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Audit"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:CheckpointINS gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+            <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:CheckpointINSTimeSlice gml:id="ID_1A4A9A_01">
+                    <!-- AIXM-5.1.1_RULE-20420F It is prohibited that
+                    CheckpointINS has timeSlice.CheckpointINSTimeSlice[1].interpretation value as 'BASELINE'  and
+                    CheckpointINS has timeSlice.CheckpointINSTimeSlice[2].interpretation value as 'BASELINE'  and
+                    CheckpointINS has timeSlice.CheckpointINSTimeSlice[3].interpretation value as 'BASELINE'  and
+                    not  CheckpointINS has timeSlice.CheckpointINSTimeSlice[4] and
+                    CheckpointINSTimeSlice[1] has sequenceNumber value other-than  CheckpointINSTimeSlice[2].sequenceNumber value and
+                    CheckpointINSTimeSlice[1] has sequenceNumber value as  CheckpointINSTimeSlice[3].sequenceNumber value and
+                    CheckpointINSTimeSlice[1] has correctionNumber value higher-than  CheckpointINSTimeSlice[3].correctionNumber value and
+                    CheckpointINSTimeSlice[1] has validTime extent intersects  CheckpointINSTimeSlice[2].validTime extent ~ -->
+                    <gml:validTime nilReason="inapplicable">
+                        <gml:TimePeriod gml:id="ID_1A4A9A_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>3</aixm:correctionNumber>
+
+                    <aixm:category>A</aixm:category>
+                    <aixm:upperLimit uom="FL">660</aixm:upperLimit>
+                    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                    <aixm:lowerLimit uom="FL">145</aixm:lowerLimit>
+                    <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                    <aixm:altitudeInterpretation>ABOVE_LOWER</aixm:altitudeInterpretation>
+                    <aixm:distance>10</aixm:distance>
+                    <aixm:angle>10</aixm:angle>
+                    <aixm:position>
+                        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            srsName="urn:ogc:def:crs:EPSG::4269"
+                                            gml:id="uuid.d5d409c4-7013-4fd7-a388-ea7930320b27">
+                            <gml:pos>39.125944444 -123.200861111</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:position>
+                    <aixm:airportHeliport/>
+                </aixm:CheckpointINSTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:CheckpointINSTimeSlice gml:id="ID_1A4A9A_22">
+                    <!-- AIXM-5.1.1_RULE-20420F It is prohibited that
+                    CheckpointINS has timeSlice.CheckpointINSTimeSlice[1].interpretation value as 'BASELINE'  and
+                    CheckpointINS has timeSlice.CheckpointINSTimeSlice[2].interpretation value as 'BASELINE'  and
+                    CheckpointINS has timeSlice.CheckpointINSTimeSlice[3].interpretation value as 'BASELINE'  and
+                    not  CheckpointINS has timeSlice.CheckpointINSTimeSlice[4] and
+                    CheckpointINSTimeSlice[1] has sequenceNumber value other-than  CheckpointINSTimeSlice[2].sequenceNumber value and
+                    CheckpointINSTimeSlice[1] has sequenceNumber value as  CheckpointINSTimeSlice[3].sequenceNumber value and
+                    CheckpointINSTimeSlice[1] has correctionNumber value higher-than  CheckpointINSTimeSlice[3].correctionNumber value and
+                    CheckpointINSTimeSlice[1] has validTime extent intersects  CheckpointINSTimeSlice[2].validTime extent ~ -->
+                    <gml:validTime nilReason="inapplicable">
+                        <gml:TimePeriod gml:id="ID_1A4A9A_23">
+                            <gml:beginPosition>2022-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2024-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    <aixm:correctionNumber>4</aixm:correctionNumber>
+
+                    <aixm:category>A</aixm:category>
+                    <aixm:upperLimit uom="FL">660</aixm:upperLimit>
+                    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                    <aixm:lowerLimit uom="FL">145</aixm:lowerLimit>
+                    <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                    <aixm:altitudeInterpretation>ABOVE_LOWER</aixm:altitudeInterpretation>
+                    <aixm:distance>10</aixm:distance>
+                    <aixm:angle>10</aixm:angle>
+                    <aixm:position>
+                        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            srsName="urn:ogc:def:crs:EPSG::4269"
+                                            gml:id="uuid.d5d409c4-7013-4fd7-a388-ea7930320b22">
+                            <gml:pos>39.125944444 -123.200861111</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:position>
+                    <aixm:airportHeliport/>
+                </aixm:CheckpointINSTimeSlice>
+            </aixm:timeSlice>
+
+            <aixm:timeSlice>
+                <aixm:CheckpointINSTimeSlice gml:id="ID_1A4A9A_33">
+                    <!-- AIXM-5.1.1_RULE-20420F It is prohibited that
+                    CheckpointINS has timeSlice.CheckpointINSTimeSlice[1].interpretation value as 'BASELINE'  and
+                    CheckpointINS has timeSlice.CheckpointINSTimeSlice[2].interpretation value as 'BASELINE'  and
+                    CheckpointINS has timeSlice.CheckpointINSTimeSlice[3].interpretation value as 'BASELINE'  and
+                    not  CheckpointINS has timeSlice.CheckpointINSTimeSlice[4] and
+                    CheckpointINSTimeSlice[1] has sequenceNumber value other-than  CheckpointINSTimeSlice[2].sequenceNumber value and
+                    CheckpointINSTimeSlice[1] has sequenceNumber value as  CheckpointINSTimeSlice[3].sequenceNumber value and
+                    CheckpointINSTimeSlice[1] has correctionNumber value higher-than  CheckpointINSTimeSlice[3].correctionNumber value and
+                    CheckpointINSTimeSlice[1] has validTime extent intersects  CheckpointINSTimeSlice[2].validTime extent ~ -->
+                    <gml:validTime nilReason="inapplicable">
+                        <gml:TimePeriod gml:id="ID_1A4A9A_34">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-12-03T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+
+                    <aixm:category>A</aixm:category>
+                    <aixm:upperLimit uom="FL">660</aixm:upperLimit>
+                    <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                    <aixm:lowerLimit uom="FL">145</aixm:lowerLimit>
+                    <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                    <aixm:altitudeInterpretation>ABOVE_LOWER</aixm:altitudeInterpretation>
+                    <aixm:distance>10</aixm:distance>
+                    <aixm:angle>10</aixm:angle>
+                    <aixm:position>
+                        <aixm:ElevatedPoint xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:gml="http://www.opengis.net/gml/3.2"
+                                            srsName="urn:ogc:def:crs:EPSG::4269"
+                                            gml:id="uuid.d5d409c4-7013-4fd7-a388-ea7930320b33">
+                            <gml:pos>39.125944444 -123.200861111</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:position>
+                    <aixm:airportHeliport/>
+                </aixm:CheckpointINSTimeSlice>
+            </aixm:timeSlice>
+        </aixm:CheckpointINS>
+    </message:hasMember>
+</message:AIXMBasicMessage>
