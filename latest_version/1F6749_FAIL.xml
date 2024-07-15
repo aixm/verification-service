@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
+                          gml:id="M00001">
+    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <aixm:CirclingArea gml:id="uuid.d5824eb3-0440-4475-8632-1a4e54b6c373">
+            <gml:identifier codeSpace="urn:uuid:">d5824eb3-0440-4475-8632-1a4e54b6c373</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:CirclingAreaTimeSlice gml:id="ID_1A4A9A_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_1A4A9A_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:condition>
+                        <aixm:ApproachCondition gml:id="uuid.c706fd83-be38-46ad-b3aa-54e5f52feed8">
+                            <aixm:circlingRestriction>
+                                <aixm:CirclingRestriction gml:id="uuid.dd06fd83-be38-46ad-b3aa-54e5f52fcdd8">
+                                    <aixm:timeInterval>
+                                        <aixm:Timesheet gml:id="uuid.c706fd83-be38-46ad-b3aa-54e5f52fcdee"/>
+                                    </aixm:timeInterval>
+                                    <aixm:specialDateAuthority/>
+                                    <aixm:sectorDescription>
+                                        <aixm:CircleSector gml:id="uuid.c706fd83-be38-46ad-b3aa-54e5f52fcdd8">
+                                            <!-- AIXM-5.1.1_RULE-1F6749 It is prohibited that
+                                            CircleSectorTimeSlice has  upperLimit value and
+                                            CircleSectorTimeSlice has  upperLimit value other-than-one-of ('GND','UNL','FLOOR','CEILING') and
+                                            CircleSectorTimeSlice has  upperLimit@uom value unspecified ~ -->
+                                            <aixm:upperLimit>10</aixm:upperLimit>
+                                            <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                                        </aixm:CircleSector>
+                                    </aixm:sectorDescription>
+                                    <aixm:restrictionArea>
+                                        <aixm:Surface>
+                                            <gml:patches/>
+                                        </aixm:Surface>
+                                    </aixm:restrictionArea>
+                                </aixm:CirclingRestriction>
+                            </aixm:circlingRestriction>
+                        </aixm:ApproachCondition>
+                    </aixm:condition>
+                </aixm:CirclingAreaTimeSlice>
+            </aixm:timeSlice>
+        </aixm:CirclingArea>
+    </message:hasMember>
+</message:AIXMBasicMessage>
