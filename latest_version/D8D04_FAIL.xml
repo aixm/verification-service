@@ -1,50 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
-                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
-                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
-                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
-                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:xlink="http://www.w3.org/1999/xlink"
-                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
-                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
-                          gml:id="M00001">
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+    gml:id="M00001">
+    
+    <!-- D8D04 -->
+    
     <message:hasMember>
-        <aixm:FlightRestriction gml:id="abcde">
+        <aixm:FlightRestriction gml:id="uuid.83fa0c2c-80a1-4e54-baed-11a4184458e9">
+            <gml:identifier codeSpace="urn:uuid:">83fa0c2c-80a1-4e54-baed-11a4184458e9</gml:identifier>
             <aixm:timeSlice>
-                <aixm:FlightRestrictionTimeSlice gml:id="uuid.9c42c31b-7019-4e45-a326-e12cc7dea952">
-                    <gml:validTime xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid.837479d3-a363-4e1f-95b0-f55ba4f1030b">
-                            <gml:beginPosition>2008-10-19T22:00:00Z</gml:beginPosition>
+                <aixm:FlightRestrictionTimeSlice gml:id="ID_D8D04_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_D8D04_02">
+                            <gml:beginPosition>2020-01-01T00:00:00Z</gml:beginPosition>
                             <gml:endPosition indeterminatePosition="unknown"/>
                         </gml:TimePeriod>
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
-                    <aixm:correctionNumber>0</aixm:correctionNumber>
-                    <aixm:featureLifetime xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid.21f902a9-a6b7-4769-b987-8a1aee06e552">
-                            <gml:beginPosition>2003-05-28T00:00:00Z</gml:beginPosition>
-                            <gml:endPosition indeterminatePosition="unknown"/>
-                        </gml:TimePeriod>
-                    </aixm:featureLifetime>
-
+                    
+                    <aixm:designator>FR 123</aixm:designator>
+                    <aixm:type>FORBID</aixm:type>
+                    
+                    <aixm:flight>
+                        <aixm:FlightConditionCombination gml:id="ID_D8D04_03">
+                            <aixm:element>
+                                <aixm:FlightConditionElement gml:id="ID_D8D04_04">
+                                    <aixm:flightCondition_directFlightCondition>
+                                        <aixm:DirectFlightClass gml:id="ID_D8D04_05">
+                                            <aixm:exceedLength uom="M">12</aixm:exceedLength>
+                                        </aixm:DirectFlightClass>
+                                    </aixm:flightCondition_directFlightCondition>
+                                </aixm:FlightConditionElement>
+                            </aixm:element>
+                        </aixm:FlightConditionCombination>
+                    </aixm:flight>
+                    
                     <aixm:regulatedRoute>
-                        <aixm:FlightRestrictionRoute gml:id="abcde1234">
+                        <aixm:FlightRestrictionRoute gml:id="ID_D8D04_06">
                             <aixm:routeElement>
-                                <aixm:FlightRoutingElement gml:id="uuid.9c42c31b-7019-4e45-a326-e12cc7dea951">
+                                <aixm:FlightRoutingElement gml:id="ID_D8D04_07">
+                                    <aixm:speed uom="KT">300</aixm:speed>
+                                    <aixm:speedReference>IAS</aixm:speedReference>
+                                    <aixm:speedCriteria>LESS_OR_EQUAL</aixm:speedCriteria>
                                     <aixm:flightLevel>
-                                        <aixm:FlightRestrictionLevel gml:id="uuid.9c42c31b-7019-4e45-a326-e12cc7dea950">
-                                            <!-- ERROR Found FlightRestrictionLevel with assigned upperLevel value missing unit of measurement -->
-                                            <aixm:upperLevel>100</aixm:upperLevel>
+                                        <aixm:FlightRestrictionLevel gml:id="ID_D8D04_08">
+                                            
+                                            <!-- ERROR - upperLevel should have assigned uom value -->
+                                            <aixm:upperLevel>600</aixm:upperLevel>
+                                            <aixm:upperLevelReference>STD</aixm:upperLevelReference>
+                                            <aixm:lowerLevel uom="FL">200</aixm:lowerLevel>
+                                            <aixm:lowerLevelReference>STD</aixm:lowerLevelReference>
                                         </aixm:FlightRestrictionLevel>
                                     </aixm:flightLevel>
                                 </aixm:FlightRoutingElement>
                             </aixm:routeElement>
                         </aixm:FlightRestrictionRoute>
                     </aixm:regulatedRoute>
+                    
                 </aixm:FlightRestrictionTimeSlice>
             </aixm:timeSlice>
         </aixm:FlightRestriction>
     </message:hasMember>
+    
 </message:AIXMBasicMessage>

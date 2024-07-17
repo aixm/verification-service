@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
-                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
-                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
-                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
-                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                           xmlns:xlink="http://www.w3.org/1999/xlink"
-                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
-                          gml:id="M00001">
-    <message:hasMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <aixm:PilotControlledLighting gml:id="uuid.833f2353-52f1-4826-80f8-d01b6d8297bf">
-            <gml:identifier codeSpace="urn:uuid:">833f2353-52f1-4826-80f8-d01b6d8297bf</gml:identifier>
-            <gml:boundedBy xsi:nil="true"/>
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+    gml:id="M00001">
+    
+    <!-- D8D30 -->
+    
+    <message:hasMember>
+        <aixm:PilotControlledLighting gml:id="uuid.d8acd0d3-9355-4638-adc2-609e13651656">
+            <gml:identifier codeSpace="urn:uuid:">d8acd0d3-9355-4638-adc2-609e13651656</gml:identifier>
             <aixm:timeSlice>
-                <aixm:PilotControlledLightingTimeSlice gml:id="uuid.353a6e9d-f87b-4470-8b24-269cd08477c2">
+                <aixm:PilotControlledLightingTimeSlice gml:id="ID_D8D30_01">
                     <gml:validTime>
-                        <gml:TimePeriod gml:id="uuid.feb11a9e-2593-4859-b6b8-0f849c0d4b97">
-                            <gml:beginPosition>2023-05-18T00:00:00Z</gml:beginPosition>
+                        <gml:TimePeriod gml:id="ID_D8D30_02">
+                            <gml:beginPosition>2020-01-01T00:00:00Z</gml:beginPosition>
                             <gml:endPosition indeterminatePosition="unknown"/>
                         </gml:TimePeriod>
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
-                    <aixm:sequenceNumber>5</aixm:sequenceNumber>
-                    <aixm:correctionNumber>0</aixm:correctionNumber>
-                    <aixm:featureLifetime>
-                        <gml:TimePeriod gml:id="uuid.0582293c-c112-4661-a766-49ec3807c801">
-                            <gml:beginPosition>2021-10-07T00:00:00Z</gml:beginPosition>
-                            <gml:endPosition indeterminatePosition="unknown"/>
-                        </gml:TimePeriod>
-                    </aixm:featureLifetime>
-                    <!-- ERROR It is prohibited that PilotControlledLightingTimeSlice has duration value and PilotControlledLightingTimeSlice has duration@uom value unspecified  -->
-                    <aixm:duration>10</aixm:duration>
-                    <aixm:controlledLightIntensity>
-                        <aixm:LightActivation gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000">
-                            <aixm:clicks>3</aixm:clicks>
-                            <aixm:intensityLevel>LIH</aixm:intensityLevel>
-                            <aixm:activation>OFF</aixm:activation>
-                        </aixm:LightActivation>
-                    </aixm:controlledLightIntensity>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <!-- ERROR - duration should have assigned uom value -->
+                    <aixm:duration>25</aixm:duration>
+                    
                 </aixm:PilotControlledLightingTimeSlice>
             </aixm:timeSlice>
         </aixm:PilotControlledLighting>
     </message:hasMember>
+    
 </message:AIXMBasicMessage>

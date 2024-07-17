@@ -1,180 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
-                          xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
-                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
-                          xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
-                          xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                          xmlns:xlink="http://www.w3.org/1999/xlink"
-                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR"
-                          xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd                          "
-                          gml:id="M00001">
-  <message:hasMember>
-    <aixm:Runway gml:id="uuid.0942496b-7ce7-0b22-e053-0b751dc2499f">
-      <gml:identifier codeSpace="urn:uuid:">0942496b-7ce7-0b22-e053-0b751dc2499f</gml:identifier>
-      <gml:boundedBy xsi:nil="true"/>
-      <aixm:timeSlice>
-        <aixm:RunwayTimeSlice gml:id="uuid.39f02658-7c5a-409b-a0ee-55735c36307b">
-          <gml:validTime xlink:type="simple">
-            <gml:TimePeriod gml:id="uuid.837479d3-a363-4e1f-95b0-f55ba4f1030b">
-              <gml:beginPosition>2008-10-19T22:00:00Z</gml:beginPosition>
-              <gml:endPosition indeterminatePosition="unknown"/>
-            </gml:TimePeriod>
-          </gml:validTime>
-          <aixm:interpretation>BASELINE</aixm:interpretation>
-          <aixm:sequenceNumber>1</aixm:sequenceNumber>
-          <aixm:correctionNumber>0</aixm:correctionNumber>
-          <aixm:featureLifetime xlink:type="simple">
-            <gml:TimePeriod gml:id="uuid.21f902a9-a6b7-4769-b987-8a1aee06e552">
-              <gml:beginPosition>2003-05-28T00:00:00Z</gml:beginPosition>
-              <gml:endPosition indeterminatePosition="unknown"/>
-            </gml:TimePeriod>
-          </aixm:featureLifetime>
-
-          <aixm:overallContaminant>
-            <aixm:RunwayContamination gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd000">
-
-              <aixm:observationTime>2003-05-28T00:00:00Z</aixm:observationTime>
-              <aixm:depth>10</aixm:depth>
-              <aixm:frictionCoefficient>0.22</aixm:frictionCoefficient>
-              <aixm:frictionEstimation>GOOD</aixm:frictionEstimation>
-              <aixm:frictionDevice>BRD</aixm:frictionDevice>
-              <aixm:obscuredLights>NO</aixm:obscuredLights>
-              <aixm:furtherClearanceTime>11:00</aixm:furtherClearanceTime>
-              <aixm:furtherTotalClearance>NO</aixm:furtherTotalClearance>
-              <aixm:nextObservationTime>2043-05-28T00:00:00Z</aixm:nextObservationTime>
-              <aixm:proportion>10</aixm:proportion>
-              <aixm:criticalRidge>
-                <aixm:Ridge gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd001"/>
-              </aixm:criticalRidge>
-              <aixm:layer>
-                <aixm:SurfaceContaminationLayer gml:id="uuid.030b2521-abcd-effe-cdcd-9e8bdcfd002"/>
-              </aixm:layer>
-
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd20">
-                  <aixm:propertyName>observationTime</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd21">
-                  <aixm:propertyName>depth</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd22">
-                  <aixm:propertyName>frictionCoefficient</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd23">
-                  <aixm:propertyName>frictionEstimation</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd24">
-                  <aixm:propertyName>frictionDevice</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd25">
-                  <aixm:propertyName>obscuredLights</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd26">
-                  <aixm:propertyName>furtherClearanceTime</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd27">
-                  <aixm:propertyName>furtherTotalClearance</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd28">
-                  <aixm:propertyName>nextObservationTime</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd29">
-                  <aixm:propertyName>proportion</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2a">
-                  <aixm:propertyName>criticalRidge</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2b">
-                  <aixm:propertyName>layer</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2c">
-                  <aixm:propertyName>clearedLength</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2d">
-                  <aixm:propertyName>clearedWidth</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2e">
-                  <aixm:propertyName>clearedSide</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd2f">
-                  <aixm:propertyName>furtherClearanceLength</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd30">
-                  <aixm:propertyName>furtherClearanceWidth</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd31">
-                  <aixm:propertyName>obscuredLightsSide</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd32">
-                  <aixm:propertyName>clearedLengthBegin</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd33">
-                  <aixm:propertyName>taxiwayAvailable</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-              <aixm:annotation>
-                <aixm:Note gml:id="uuid.19dfc7d4-abd0-4776-989e-1951e1bcfd34">
-                  <aixm:propertyName>apronAvailable</aixm:propertyName>
-                </aixm:Note>
-              </aixm:annotation>
-
-              <aixm:clearedLength uom="KM">2</aixm:clearedLength>
-              <aixm:clearedWidth uom="FT">100</aixm:clearedWidth>
-              <aixm:clearedSide>BOTH</aixm:clearedSide>
-
-              <!-- ERROR It is prohibited that RunwayContamination has furtherClearanceLength value and RunwayContamination has furtherClearanceLength@uom value unspecified  -->
-              <aixm:furtherClearanceLength>4</aixm:furtherClearanceLength>
-
-              <aixm:furtherClearanceWidth uom="M">1</aixm:furtherClearanceWidth>
-              <aixm:obscuredLightsSide>BOTH</aixm:obscuredLightsSide>
-              <aixm:clearedLengthBegin uom="M">0</aixm:clearedLengthBegin>
-              <aixm:taxiwayAvailable>NO</aixm:taxiwayAvailable>
-              <aixm:apronAvailable>NO</aixm:apronAvailable>
-
-            </aixm:RunwayContamination>
-          </aixm:overallContaminant>
-
-        </aixm:RunwayTimeSlice>
-      </aixm:timeSlice>
-    </aixm:Runway>
-  </message:hasMember>
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+    http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1-e/Event_Features.xsd"
+    gml:id="M00001">
+    
+    <!-- D8D50 -->
+    
+    <message:hasMember>
+        <aixm:Runway gml:id="uuid.4f1acc2a-3ba1-4c00-b5f9-06adb6e3d053">
+            <gml:identifier codeSpace="urn:uuid:">4f1acc2a-3ba1-4c00-b5f9-06adb6e3d053</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:RunwayTimeSlice gml:id="ID_D8D50_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_D8D50_02">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    
+                    <aixm:designator>01/19</aixm:designator>
+                    <aixm:type>RWY</aixm:type>
+                    <aixm:nominalLength uom="M">3011</aixm:nominalLength>
+                    <aixm:nominalWidth uom="M">42</aixm:nominalWidth>
+                    <aixm:abandoned>NO</aixm:abandoned>
+                    
+                    <aixm:surfaceProperties>
+                        <aixm:SurfaceCharacteristics gml:id="ID_D8D50_03">
+                            <aixm:composition>ASPH</aixm:composition>
+                            <aixm:classPCN>119</aixm:classPCN>
+                            <aixm:pavementTypePCN>FLEXIBLE</aixm:pavementTypePCN>
+                            <aixm:pavementSubgradePCN>A</aixm:pavementSubgradePCN>
+                            <aixm:maxTyrePressurePCN>X</aixm:maxTyrePressurePCN>
+                            <aixm:evaluationMethodPCN>TECH</aixm:evaluationMethodPCN>
+                        </aixm:SurfaceCharacteristics>
+                    </aixm:surfaceProperties>
+                    
+                    <aixm:associatedAirportHeliport xlink:href="urn:uuid:2e96afc8-9ce3-4fdf-842b-d33d7a7fc1a4"/>
+                    
+                    <aixm:overallContaminant>
+                        <aixm:RunwayContamination gml:id="ID_D8D50_005">
+                            
+                            <!-- ERROR - furtherClearanceLength should have assigned uom value -->
+                            <aixm:furtherClearanceLength>112</aixm:furtherClearanceLength>
+                        </aixm:RunwayContamination>
+                    </aixm:overallContaminant>
+                    
+                </aixm:RunwayTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Runway>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:RunwayDirection gml:id="uuid.1b082361-5278-423f-9f1a-fc63ab682490">
+            <gml:identifier codeSpace="urn:uuid:">1b082361-5278-423f-9f1a-fc63ab682490</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:RunwayDirectionTimeSlice gml:id="ID_D8D50_04">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_D8D50_05">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>                        
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:designator>01</aixm:designator>
+                    <aixm:trueBearing>010.17</aixm:trueBearing>
+                    <aixm:magneticBearing>4.175</aixm:magneticBearing>
+                    <aixm:elevationTDZ uom="FT">250.3</aixm:elevationTDZ>
+                    <aixm:usedRunway xlink:href="urn:uuid:4f1acc2a-3ba1-4c00-b5f9-06adb6e3d053"/>
+                    
+                </aixm:RunwayDirectionTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RunwayDirection>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:AirportHeliport gml:id="uuid.2e96afc8-9ce3-4fdf-842b-d33d7a7fc1a4">
+            <gml:identifier codeSpace="urn:uuid:">2e96afc8-9ce3-4fdf-842b-d33d7a7fc1a4</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirportHeliportTimeSlice gml:id="ID_D8D50_08">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_D8D50_09">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:designator>EADH</aixm:designator>
+                    <aixm:name>DONLON AIRPORT 1</aixm:name>
+                    <aixm:type>AD</aixm:type>
+                    <aixm:responsibleOrganisation>
+                        <aixm:AirportHeliportResponsibilityOrganisation gml:id="ID_D8D50_10">
+                            <aixm:theOrganisationAuthority xlink:href="urn:uuid:7aa81111-4061-4df0-a3e4-3690e56da879"/>
+                        </aixm:AirportHeliportResponsibilityOrganisation>
+                    </aixm:responsibleOrganisation>
+                    <aixm:ARP>
+                        <aixm:ElevatedPoint gml:id="ID_D8D50_11" srsName="urn:ogc:def:crs:EPSG::4326">
+                            <gml:pos>53.411256 14.547895</gml:pos>
+                        </aixm:ElevatedPoint>
+                    </aixm:ARP>
+                </aixm:AirportHeliportTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirportHeliport>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.7aa81111-4061-4df0-a3e4-3690e56da879">
+            <gml:identifier codeSpace="urn:uuid:">7aa81111-4061-4df0-a3e4-3690e56da879</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:OrganisationAuthorityTimeSlice gml:id="ID_D8D50_12">
+                    <gml:validTime>      
+                        <gml:TimePeriod gml:id="ID_D8D50_13">
+                            <gml:beginPosition>2020-12-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:name>DONLON</aixm:name>
+                    <aixm:designator>DON2</aixm:designator>
+                    <aixm:type>ATS</aixm:type>
+                </aixm:OrganisationAuthorityTimeSlice>
+            </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </message:hasMember>
+    
 </message:AIXMBasicMessage>
