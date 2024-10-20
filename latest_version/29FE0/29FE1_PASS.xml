@@ -1,0 +1,240 @@
+<?xml version="1.0" ?>
+<mes:AIXMBasicMessage xmlns:mes="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:event="http://www.aixm.aero/schema/5.1.1/event"
+    xmlns:ead-adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/iNM/EAD-ADR"
+    xmlns:ead-audit="http://www.aixm.aero/schema/5.1.1/extensions/EUR/iNM/EAD-Audit"
+    xmlns:natDesc="http://www.aixm.aero/schema/5.1.1/extensions/EUR/iNM/NaturalDescriptor" gml:id="avitech"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd 
+    http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1.1-k/Event_Features.xsd 
+    http://www.aixm.aero/schema/5.1.1/extensions/EUR/iNM/NaturalDescriptor http://www.aixm.aero/schema/5.1.1/extensions/EUR/iNM/NaturalDescriptor/5.1.1-a/NaturalDescriptor_Features.xsd
+    http://www.aixm.aero/schema/5.1.1/extensions/EUR/iNM/EAD-Audit http://www.aixm.aero/schema/5.1.1/extensions/EUR/iNM/EAD-Audit/5.1.1-a/EADAudit_Features.xsd
+    http://www.aixm.aero/schema/5.1.1/extensions/EUR/iNM/EAD-ADR http://www.aixm.aero/schema/5.1.1/extensions/EUR/iNM/EAD-ADR/5.1.1-a/EADADR_Features.xsd">
+    <mes:hasMember>
+        <event:Event gml:id="uuid.13fd5e19-d64e-4e60-8cca-66889337a17f">
+            <gml:identifier codeSpace="urn:uuid:"
+                >13fd5e19-d64e-4e60-8cca-66889337a17f</gml:identifier>
+            <event:timeSlice>
+                <event:EventTimeSlice gml:id="id_c5e38ca8-f628-40d9-a546-4eaf56b573c4_1_0_B">
+                    <gml:validTime xlink:type="simple">
+                        <gml:TimePeriod gml:id="id_c5e38ca8-f628-40d9-a546-4eaf56b573c4_1_0_B_1">
+                            <gml:beginPosition>2024-08-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2024-08-09T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime xlink:type="simple">
+                        <gml:TimePeriod gml:id="id_c5e38ca8-f628-40d9-a546-4eaf56b573c4_1_0_B_2">
+                            <gml:beginPosition>2024-08-03T00:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2024-08-09T00:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <event:name>TSA 8531E</event:name>
+                    <event:designator>DNOTAM</event:designator>
+                    <event:scenario>SAA.NEW</event:scenario>
+                    <event:version>2.0</event:version>
+                    <event:estimatedValidity xsi:nil="true"/>
+                    <event:activity xsi:nil="true"/>
+                    <event:notification>
+                        <event:NOTAM gml:id="id_c5e38ca8-f628-40d9-a546-4eaf56b573c4_1_0_B_3">
+                            <event:type>N</event:type>
+                            <event:selectionCode>QRRCA</event:selectionCode>
+                            <event:traffic>IV</event:traffic>
+                            <event:purpose>BO</event:purpose>
+                            <event:scope>W</event:scope>
+                            <event:minimumFL>000</event:minimumFL>
+                            <event:maximumFL>150</event:maximumFL>
+                            <event:coordinates>4527N00917E</event:coordinates>
+                            <event:radius>017</event:radius>
+                            <event:location>LRXX</event:location>
+                            <event:effectiveStart>2408022359</event:effectiveStart>
+                            <event:effectiveEnd>2408082359</event:effectiveEnd>
+                            <event:estimatedEnd>NO</event:estimatedEnd>
+                            <event:text>Temporary Segregated Area (8531E) MILANO/LINATE TSA
+                                established within: circle of 30km centred on 452643N
+                                0091642E.</event:text>
+                            <event:lowerLimit>0FT AGL</event:lowerLimit>
+                            <event:upperLimit>FL150</event:upperLimit>
+                        </event:NOTAM>
+                    </event:notification>
+                    <event:annotation xsi:nil="true"/>
+                    <event:extension>
+                        <natDesc:EventExtension
+                            gml:id="ext_13fd5e19-d64e-4e60-8cca-66889337a17f_1_0_B_1">
+                            <natDesc:hasNaturalDescriptor>
+                                <natDesc:NaturalDescriptor
+                                    gml:id="ext_13fd5e19-d64e-4e60-8cca-66889337a17f_1_0_B_2">
+                                    <natDesc:value>SAA.NEW TSA 8531E</natDesc:value>
+                                    <natDesc:validTimeFrom>2024-08-03T00:00:00Z</natDesc:validTimeFrom>
+                                    <natDesc:validTimeTo>2024-08-09T00:00:00Z</natDesc:validTimeTo>
+                                    <natDesc:annotatedDescriptor>
+                                        <natDesc:PropertyValue
+                                            gml:id="ext_13fd5e19-d64e-4e60-8cca-66889337a17f_1_0_B_3">
+                                            <natDesc:property>event:name</natDesc:property>
+                                            <natDesc:value>TSA 8531E</natDesc:value>
+                                        </natDesc:PropertyValue>
+                                    </natDesc:annotatedDescriptor>
+                                    <natDesc:annotatedDescriptor>
+                                        <natDesc:PropertyValue
+                                            gml:id="ext_13fd5e19-d64e-4e60-8cca-66889337a17f_1_0_B_4">
+                                            <natDesc:property>event:scenario</natDesc:property>
+                                            <natDesc:value>SAA.NEW</natDesc:value>
+                                        </natDesc:PropertyValue>
+                                    </natDesc:annotatedDescriptor>
+                                </natDesc:NaturalDescriptor>
+                            </natDesc:hasNaturalDescriptor>
+                        </natDesc:EventExtension>
+                    </event:extension>
+                </event:EventTimeSlice>
+            </event:timeSlice>
+        </event:Event>
+    </mes:hasMember>
+
+    <mes:hasMember>
+        <aixm:Navaid gml:id="uuid.c72d8997-5762-45f2-a884-f41dd3a80e7a">
+          <gml:identifier codeSpace="urn:uuid:">c72d8997-5762-45f2-a884-f41dd3a80e7a</gml:identifier>
+          <gml:boundedBy xsi:nil="true"/>
+          <aixm:timeSlice>
+            <aixm:NavaidTimeSlice gml:id="uuid.86525106-e78b-4930-a79e-be9aefb47832">
+              <gml:validTime>
+                <gml:TimePeriod gml:id="uuid.bcceb8e5-ba65-475e-928c-0576131f378d">
+                  <gml:beginPosition>2012-12-13T00:00:00Z</gml:beginPosition>
+                  <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+              </gml:validTime>
+              <aixm:interpretation>BASELINE</aixm:interpretation>
+              <aixm:sequenceNumber>1</aixm:sequenceNumber>
+              <aixm:correctionNumber>0</aixm:correctionNumber>
+              <aixm:featureLifetime>
+                <gml:TimePeriod gml:id="uuid.23e4afcb-8181-434e-a859-25602b1de509">
+                  <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+                  <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+              </aixm:featureLifetime>
+              <aixm:type>VOR</aixm:type>
+              <aixm:designator>ODF</aixm:designator>
+              <aixm:name>FOOTHILLS</aixm:name>
+              <aixm:navaidEquipment>
+                <aixm:NavaidComponent gml:id="uuid.bc6cf816-88df-44b2-ab27-78c7c998b1cb">
+                  <aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+                  <aixm:theNavaidEquipment xlink:type="simple" xlink:href="#uuid.1d328927-bcf2-4b21-8d30-1360c2ce576a"/>
+                </aixm:NavaidComponent>
+              </aixm:navaidEquipment>
+              <aixm:location>
+                <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.56daa5f4-c314-4300-8ac5-89348f5179b0">
+                  <gml:pos>34.69587278 -83.29766111</gml:pos>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.78586cf4-4037-43d8-9a62-61f4da4beee0">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.cf440597-7905-4a21-b9c4-a90963d1c790">
+                          <aixm:note>CRC:344145.142N, 0831751.580W, 1700.0, , D153CAF7</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:elevation uom="FT">1700.0</aixm:elevation>
+                </aixm:ElevatedPoint>
+              </aixm:location>
+              <aixm:extension>
+                                <event:NavaidExtension
+                                    gml:id="id_03f10134-d19c-4c31-8a11-a188380f46b2_1_0_B_7">
+                                    <event:theEvent
+                                        xlink:href="urn:uuid:13fd5e19-d64e-4e60-8cca-66889337a17f"
+                                        xlink:title="SAA.NEW TSA 8531E"/>
+                                </event:NavaidExtension>
+              </aixm:extension>
+            </aixm:NavaidTimeSlice>
+          </aixm:timeSlice>
+        </aixm:Navaid>
+    </mes:hasMember>
+
+    <mes:hasMember>
+        <aixm:VOR gml:id="uuid.1d328927-bcf2-4b21-8d30-1360c2ce576a">
+          <gml:identifier codeSpace="urn:uuid:">1d328927-bcf2-4b21-8d30-1360c2ce576a</gml:identifier>
+          <gml:boundedBy xsi:nil="true"/>
+          <aixm:timeSlice>
+            <aixm:VORTimeSlice gml:id="uuid.7c62bbf6-a348-4b10-9036-9f8ff1bd1b32">
+              <gml:validTime>
+                <gml:TimePeriod gml:id="uuid.3092cb65-7653-4406-b795-2c85bfe25b66">
+                  <gml:beginPosition>2012-12-13T00:00:00Z</gml:beginPosition>
+                  <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+              </gml:validTime>
+              <aixm:interpretation>BASELINE</aixm:interpretation>
+              <aixm:sequenceNumber>1</aixm:sequenceNumber>
+              <aixm:correctionNumber>0</aixm:correctionNumber>
+              <aixm:featureLifetime>
+                <gml:TimePeriod gml:id="uuid.a15387d3-7e7a-4203-b6cb-e52e34681c5a">
+                  <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+                  <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+              </aixm:featureLifetime>
+              <aixm:designator>ODF</aixm:designator>
+              <aixm:name>FOOTHILLS</aixm:name>
+              <aixm:magneticVariation>0</aixm:magneticVariation>
+              <aixm:dateMagneticVariation>1965</aixm:dateMagneticVariation>
+              <aixm:location>
+                <aixm:ElevatedPoint xmlns="http://www.aixm.aero/schema/5.1.1/message" xmlns:adr="http://www.aixm.aero/schema/5.1.1/extensions/EUR/ADR" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:qualityreport="http://www.aixm.aero/schema/5.1.1/extensions/qualityreport" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ead="http://www.aixm.aero/schema/5.1.1/extensions/EUR/EAD/Slot" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" srsName="urn:ogc:def:crs:EPSG::4269" gml:id="uuid.b1810338-8cd7-4407-a5e2-cc82d00c4fbe">
+                  <gml:pos>34.69587278 -83.29766111</gml:pos>
+                  <aixm:annotation>
+                    <aixm:Note gml:id="uuid.136a2bec-bd86-4439-be15-84c6463e0972">
+                      <aixm:purpose>OTHER:AIXM_4_5_MAPPING</aixm:purpose>
+                      <aixm:translatedNote>
+                        <aixm:LinguisticNote gml:id="uuid.c5268bf8-e1fc-47d6-8e9c-20f795993f9d">
+                          <aixm:note>CRC:344145.142N, 0831751.580W, 1700.0, , D153CAF7</aixm:note>
+                        </aixm:LinguisticNote>
+                      </aixm:translatedNote>
+                    </aixm:Note>
+                  </aixm:annotation>
+                  <aixm:elevation uom="FT">1700.0</aixm:elevation>
+                </aixm:ElevatedPoint>
+              </aixm:location>
+              <aixm:authority>
+                <aixm:AuthorityForNavaidEquipment gml:id="uuid.641dcc8e-15d1-453d-b5fc-2d95a2cf4325">
+                  <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#uuid.09424934-7fef-0ae9-e053-0b751dc2b779"/>
+                </aixm:AuthorityForNavaidEquipment>
+              </aixm:authority>
+              <aixm:type>VOR</aixm:type>
+              <aixm:frequency uom="MHZ">113.4</aixm:frequency>
+              <aixm:zeroBearingDirection>TRUE</aixm:zeroBearingDirection>
+            </aixm:VORTimeSlice>
+          </aixm:timeSlice>
+        </aixm:VOR>
+    </mes:hasMember>
+
+    <mes:hasMember>
+        <aixm:OrganisationAuthority gml:id="uuid.09424934-7fef-0ae9-e053-0b751dc2b779">
+          <gml:identifier codeSpace="urn:uuid:">09424934-7fef-0ae9-e053-0b751dc2b779</gml:identifier>
+          <gml:boundedBy xsi:nil="true"/>
+          <aixm:timeSlice>
+            <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.d6c77361-3831-4e4f-83e0-8564bfb81c1e">
+              <gml:validTime>
+                <gml:TimePeriod gml:id="uuid.47642a9f-1bc6-44ad-ae8c-3dd02581376f">
+                  <gml:beginPosition>2006-10-04T22:00:00Z</gml:beginPosition>
+                  <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+              </gml:validTime>
+              <aixm:interpretation>BASELINE</aixm:interpretation>
+              <aixm:sequenceNumber>1</aixm:sequenceNumber>
+              <aixm:correctionNumber>0</aixm:correctionNumber>
+              <aixm:featureLifetime>
+                <gml:TimePeriod gml:id="uuid.4ce4f997-9876-437b-a8b4-1490a9653257">
+                  <gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+                  <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+              </aixm:featureLifetime>
+              <aixm:name>UNITED STATES OF AMERICA</aixm:name>
+              <aixm:designator>KZ</aixm:designator>
+              <aixm:type>STATE</aixm:type>
+            </aixm:OrganisationAuthorityTimeSlice>
+          </aixm:timeSlice>
+        </aixm:OrganisationAuthority>
+    </mes:hasMember>
+
+</mes:AIXMBasicMessage>
